@@ -1,0 +1,251 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════════════════
+   DESIGN TOKENS — "Azure Luxe" (v3)
+   Light, minimal, editorial — aligned to EQT's brand blue (~#0051AE) but
+   deepened toward navy for a more luxury feel. Cool off-white surfaces,
+   refined navy accent, deep navy-charcoal text. Everything is a CSS variable:
+   swapping the whole palette means editing ONLY this block.
+   (v1 "Dark & Gold" and v2 "Hermès orange" live in git history.)
+   ══════════════════════════════════════════════════════════════════════ */
+:root {
+  /* Surfaces — clean, cool off-white */
+  --bg-base: #ffffff;
+  --bg-elevated: #f4f7fa;   /* cool light — cards, alternating sections */
+  --bg-inset: #eaeff5;      /* wells, inputs */
+  --line: #dbe2ea;          /* cool hairline borders */
+
+  /* Accent ramp — EQT brand blue, deepened toward navy for luxury */
+  --accent-400: #3f74b3;    /* light, hover-on-dark */
+  --accent-500: #0b4f9e;    /* primary accent (EQT-blue aligned) */
+  --accent-600: #08325f;    /* deep navy, pressed / button hover */
+
+  /* Text — deep navy-charcoal on white */
+  --text-primary: #0f1c2e;
+  --text-secondary: #53616f;
+  --text-tertiary: #8792a0;
+  --text-on-accent: #ffffff;
+
+  /* Semantic */
+  --accent: var(--accent-500);
+  --accent-hover: var(--accent-600);
+  --focus-ring: var(--accent-500);
+  --sold-flag: var(--accent-500);
+
+  /* Scrims for text-over-photo overlays (theme-independent) */
+  --scrim-strong: rgba(9, 18, 30, 0.72);
+  --scrim-soft: rgba(9, 18, 30, 0.12);
+
+  /* Motion */
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 240ms;
+  --dur: 600ms;
+  --dur-slow: 1200ms;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  /* Layout — generous on desktop so content is never a thin ribbon on big
+     monitors, while clamps keep it tight and mobile-first on small screens. */
+  --content-max: 1600px;
+  --section-py: clamp(80px, 10vw, 200px);
+}
+
+/* Map tokens into the Tailwind v4 theme so utilities like `text-accent-500`,
+   `bg-base`, `font-display` stay in sync with the tokens above. */
+@theme inline {
+  --color-base: var(--bg-base);
+  --color-elevated: var(--bg-elevated);
+  --color-inset: var(--bg-inset);
+  --color-line: var(--line);
+  --color-accent-400: var(--accent-400);
+  --color-accent-500: var(--accent-500);
+  --color-accent-600: var(--accent-600);
+  --color-ink: var(--text-primary);
+  --color-muted: var(--text-secondary);
+  --color-faint: var(--text-tertiary);
+  --color-accent: var(--accent);
+
+  --font-display: var(--font-display), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-body), system-ui, -apple-system, sans-serif;
+
+  --ease-lux: var(--ease-lux);
+}
+
+/* ── Base element styling ─────────────────────────────────────────────── */
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  /* Master fluid scale: the root rem grows on larger viewports, so ALL
+     rem-based sizing (type, spacing, gaps) scales up together — desktop and
+     big monitors read comfortably instead of as a tiny, thin column. */
+  font-size: clamp(16px, 14.4px + 0.34vw, 21px);
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: 0.005em;
+  color: var(--text-primary);
+}
+
+::selection {
+  background: var(--accent-500);
+  color: var(--text-on-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Reusable primitives ──────────────────────────────────────────────── */
+.container-lux {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: clamp(20px, 4.5vw, 96px);
+}
+
+.eyebrow {
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  color: var(--accent);
+}
+
+.display-hero {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(3rem, 9vw, 8.5rem);
+  line-height: 0.98;
+  letter-spacing: 0.005em;
+  font-weight: 500;
+}
+
+.display-h2 {
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+}
+
+.hairline {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--line) 20%,
+    var(--line) 80%,
+    transparent
+  );
+}
+
+.accent-foil {
+  background: linear-gradient(120deg, #3f74b3 0%, #0b4f9e 50%, #08325f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 52px;
+  padding-inline: 1.75rem;
+  border-radius: 999px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition:
+    transform var(--dur-fast) var(--ease-lux),
+    background-color var(--dur-fast) var(--ease-lux),
+    color var(--dur-fast) var(--ease-lux),
+    border-color var(--dur-fast) var(--ease-lux);
+  will-change: transform;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-accent {
+  background: var(--accent-500);
+  color: var(--text-on-accent);
+}
+.btn-accent:hover {
+  background: var(--accent-600);
+}
+.btn-ghost {
+  border: 1px solid var(--line);
+  color: var(--text-primary);
+}
+.btn-ghost:hover {
+  border-color: var(--accent-500);
+  color: var(--accent-600);
+}
+.btn-whatsapp {
+  background: #25d366;
+  color: #04310f;
+}
+.btn-whatsapp:hover {
+  background: #1fbc59;
+}
+
+/* ── Progressive-enhancement reveal ───────────────────────────────────────
+   Content is server-rendered and fully visible by default. The hide-rule only
+   activates once JS sets `data-reveal-ready` (see layout inline script), so
+   no-JS / crawler / reduced-motion views are never hidden. */
+[data-reveal-ready="true"] .reveal {
+  opacity: 0;
+  transform: translateY(24px);
+}
+[data-reveal-ready="true"] .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity var(--dur) var(--ease-lux),
+    transform var(--dur) var(--ease-lux);
+}
+
+/* ── Reduced motion ───────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  [data-reveal-ready="true"] .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

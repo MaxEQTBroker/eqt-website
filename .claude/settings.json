@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(curl -sf -o /dev/null http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -s \"http://localhost:3000/sold\")",
+      "Bash(curl -s \"http://localhost:3000/sold?area=palm-jumeirah&band=75-plus\")",
+      "Bash(curl -s http://localhost:3000__TRACKED_VAR__)",
+      "Bash(curl -s \"http://localhost:3000/_next/static/css/app/layout.css?v=1785598819783\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' http://localhost:3000__TRACKED_VAR__)",
+      "Bash(perl -0pi -e 's/-gold-/-accent-/g; s/btn-gold/btn-accent/g; s/gold-foil/accent-foil/g;' components/home/Hero.tsx)",
+      "WebFetch(domain:eqt.ae)"
+    ]
+  }
+}
