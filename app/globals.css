@@ -112,7 +112,9 @@ h1, h2, h3 {
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: 0.005em;
-  color: var(--text-primary);
+  /* No explicit colour here: headings inherit espresso from <body>, but this
+     unlayered rule must NOT override Tailwind's text-* utilities (e.g.
+     text-white) — so colour stays inheritable and utilities win. */
 }
 
 ::selection {
@@ -212,9 +214,9 @@ h1, h2, h3 {
 
 /* "View" box that slowly draws its border on hover (sprec-style) */
 .draw-rect {
-  stroke-dasharray: 100;
-  stroke-dashoffset: 100;
-  transition: stroke-dashoffset 2.4s var(--ease-lux);
+  stroke-dasharray: 101;
+  stroke-dashoffset: 101;
+  transition: stroke-dashoffset 1.3s var(--ease-lux);
 }
 .group:hover .draw-rect {
   stroke-dashoffset: 0;
