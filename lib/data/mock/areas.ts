@@ -101,4 +101,160 @@ export const mockAreas: Area[] = [
       tone: "#e4e7e6",
     },
   },
+
+  {
+    slug: "emirates-hills",
+    label: "Emirates Hills",
+    headline: "The Beverly Hills of Dubai",
+    intro:
+      "Emirates Hills is Dubai's most established gated villa community, built around the Montgomerie golf course. Large freehold plots, fully bespoke mansions and absolute privacy make it the address of choice for the emirate's most prominent families. Supply of prime mansions is scarce, which keeps values among the highest in the city.",
+    keyFacts: [
+      { label: "Property types", value: "Custom mansions & villa plots" },
+      { label: "Typical price range", value: "AED 30M – 300M+" },
+      { label: "Setting", value: "Gated, golf-course frontage" },
+      { label: "Best for", value: "Ultra-private family estates" },
+    ],
+    faqs: [
+      {
+        question: "How much is a villa in Emirates Hills?",
+        answer:
+          "Mansions in Emirates Hills typically trade from around AED 30 million and rise beyond AED 200 million for large, renovated homes with golf-course frontage. Empty plots trade at a premium given how rarely they become available.",
+      },
+      {
+        question: "Can foreigners buy in Emirates Hills?",
+        answer:
+          "Yes. Emirates Hills is a designated freehold area, so non-UAE nationals can buy, own and sell with full title registered at the Dubai Land Department.",
+      },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80",
+      alt: "Contemporary white mansion with landscaped gardens in Dubai",
+      tone: "#dcd8cf",
+    },
+  },
+  {
+    slug: "downtown-dubai",
+    label: "Downtown Dubai",
+    headline: "At the centre of it all",
+    intro:
+      "Downtown Dubai is the beating heart of the city, home to the Burj Khalifa, The Dubai Mall and the Opera District. Branded residences and high-floor apartments here command premium rents and enduring liquidity, making it one of the most resilient investment locations in Dubai.",
+    keyFacts: [
+      { label: "Property types", value: "Branded & luxury apartments, penthouses" },
+      { label: "Typical price range", value: "AED 2.5M – 80M+" },
+      { label: "Landmark", value: "Burj Khalifa & Dubai Opera" },
+      { label: "Best for", value: "Investment, pied-à-terre, walkability" },
+    ],
+    faqs: [
+      {
+        question: "Is Downtown Dubai a good investment?",
+        answer:
+          "Downtown Dubai offers strong rental demand, high liquidity and branded-residence premiums, making it one of the most resilient locations in the city for luxury apartments and penthouses.",
+      },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1920&q=80",
+      alt: "Downtown Dubai skyline with the Burj Khalifa at night",
+      tone: "#151721",
+    },
+  },
+  {
+    slug: "dubai-hills-estate",
+    label: "Dubai Hills Estate",
+    headline: "Green, connected, family-first",
+    intro:
+      "Dubai Hills Estate is a master-planned community wrapped around an 18-hole championship golf course and a central park. It balances contemporary villas, townhouses and apartments with schools, healthcare and retail, and offers easy access to both Downtown and Dubai Marina.",
+    keyFacts: [
+      { label: "Property types", value: "Villas, townhouses, apartments" },
+      { label: "Typical price range", value: "AED 2M – 60M+" },
+      { label: "Setting", value: "Golf, parks, family amenities" },
+      { label: "Best for", value: "Growing families, end-user living" },
+    ],
+    faqs: [
+      {
+        question: "Is Dubai Hills Estate good for families?",
+        answer:
+          "Yes. Dubai Hills Estate is designed around parks, schools, healthcare and a golf course, with a wide mix of villas and townhouses, making it one of Dubai's most popular family communities.",
+      },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80",
+      alt: "Modern family villa with pool in Dubai Hills Estate",
+      tone: "#dfe0da",
+    },
+  },
+  {
+    slug: "jumeirah-bay-island",
+    label: "Jumeirah Bay Island",
+    headline: "Dubai's most exclusive seahorse",
+    intro:
+      "Shaped like a seahorse and connected to the mainland by a private bridge, Jumeirah Bay Island is one of Dubai's rarest ultra-prime addresses, home to the Bulgari Resort & Residences and a small collection of custom beachfront mansions. Scarcity and prestige place it at the very top of the market.",
+    keyFacts: [
+      { label: "Property types", value: "Beachfront mansions & branded residences" },
+      { label: "Typical price range", value: "AED 25M – 400M+" },
+      { label: "Icon", value: "Bulgari Resort & Residences" },
+      { label: "Best for", value: "Trophy beachfront assets" },
+    ],
+    faqs: [
+      {
+        question: "What makes Jumeirah Bay Island special?",
+        answer:
+          "Jumeirah Bay is a tightly controlled island with very few plots, private beach frontage and the Bulgari brand, giving it a level of exclusivity and privacy unmatched in Dubai, reflected in some of the highest prices per square foot in the emirate.",
+      },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1546412414-e1885259563a?w=1920&q=80",
+      alt: "Luxury beachfront residence on the water in Dubai",
+      tone: "#cdd6d6",
+    },
+  },
+  {
+    slug: "emaar-beachfront",
+    label: "Emaar Beachfront",
+    headline: "Private beachfront living, by the Marina",
+    intro:
+      "Emaar Beachfront is a gated island community of contemporary towers set between Dubai Marina and Palm Jumeirah, with private beach access and skyline-and-sea views. It has become one of the most sought-after addresses for waterfront apartments and penthouses.",
+    keyFacts: [
+      { label: "Property types", value: "Beachfront apartments & penthouses" },
+      { label: "Typical price range", value: "AED 2.5M – 50M+" },
+      { label: "Setting", value: "Private beach, gated island" },
+      { label: "Best for", value: "Waterfront investment & lifestyle" },
+    ],
+    faqs: [
+      {
+        question: "Is Emaar Beachfront a good investment?",
+        answer:
+          "Emaar Beachfront combines private beach access, branded developments and a location between Dubai Marina and Palm Jumeirah, giving it strong rental demand and appeal to both end-users and investors.",
+      },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&q=80",
+      alt: "Aerial view of a Dubai waterfront community at dusk",
+      tone: "#12212b",
+    },
+  },
+  {
+    slug: "dubai-marina",
+    label: "Dubai Marina",
+    headline: "The city on the water",
+    intro:
+      "Dubai Marina is a vibrant, high-rise waterfront district built around a man-made canal, lined with restaurants, a promenade and yacht berths. It offers a deep, liquid market of apartments and penthouses with strong rental yields and round-the-clock energy.",
+    keyFacts: [
+      { label: "Property types", value: "Apartments, penthouses, some villas" },
+      { label: "Typical price range", value: "AED 1.5M – 40M+" },
+      { label: "Setting", value: "Canal-front, marina promenade" },
+      { label: "Best for", value: "Rental yield, lifestyle, first purchase" },
+    ],
+    faqs: [
+      {
+        question: "What are rental yields like in Dubai Marina?",
+        answer:
+          "Dubai Marina is known for some of the strongest rental yields among prime districts, supported by high tenant demand, walkability and its waterfront lifestyle, which is why it remains a favourite with investors.",
+      },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1920&q=80",
+      alt: "Contemporary Dubai waterfront apartment living space",
+      tone: "#d8d6d0",
+    },
+  },
 ];

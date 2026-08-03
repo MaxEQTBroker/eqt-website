@@ -5,7 +5,7 @@ import { RevealText } from "@/components/motion/RevealText";
 
 /** Communities as editorial tiles that blur to black + draw a "View" box on hover. */
 export async function Communities() {
-  const areas = await getAreas();
+  const areas = (await getAreas()).slice(0, 3);
   return (
     <section className="container-lux py-[var(--section-py)]">
       <div className="mb-14 flex flex-col justify-between gap-4 md:flex-row md:items-end">

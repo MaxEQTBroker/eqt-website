@@ -11,10 +11,12 @@
  */
 
 /** Dubai communities we operate in. Slugs are used in clean URLs. */
-export type AreaSlug =
-  | "palm-jumeirah"
-  | "al-barari"
-  | "jumeirah-islands";
+/**
+ * Community slug used in clean URLs (/areas/[slug]). Kept as a string so we can
+ * cover ANY Dubai community/area without touching the type — the repository
+ * looks areas up by slug.
+ */
+export type AreaSlug = string;
 
 export type PropertyType =
   | "Villa"

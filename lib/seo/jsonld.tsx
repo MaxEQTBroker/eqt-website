@@ -8,7 +8,13 @@
 
 import { site } from "@/lib/site";
 import type { Area, Listing, SoldRecord } from "@/lib/data/types";
+import type { BlogPost } from "@/lib/data/blog";
 import { formatAedFull } from "@/lib/format";
+
+/** Resolve a possibly-relative asset URL to an absolute one for schema/OG. */
+function absUrl(url: string): string {
+  return url.startsWith("http") ? url : `${site.url}${url}`;
+}
 
 function JsonLd({ data }: { data: Record<string, unknown> }) {
   return (
@@ -128,6 +134,50 @@ export function AreaFaqJsonLd({ area }: { area: Area }) {
           name: f.question,
           acceptedAnswer: { "@type": "Answer", text: f.answer },
         })),
+      }}
+    />
+  );
+}
+
+/** Generic FAQPage — used by blog posts (and anywhere a Q&A list appears). */
+export function FaqJsonLd({ faqs }: { faqs: { question: string; answer: string }[] }) {
+  if (!faqs.length) return null;
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        })),
+      }}
+    />
+  );
+}
+
+/** BlogPosting — lets search + AI engines attribute and cite the article. */
+export function ArticleJsonLd({ post }: { post: BlogPost }) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.excerpt,
+        image: [absUrl(post.heroImage.url)],
+        datePublished: post.publishedAt,
+        dateModified: post.updatedAt,
+        author: { "@type": "Organization", name: post.author.name, url: site.url },
+        publisher: {
+          "@type": "Organization",
+          name: site.name,
+          logo: { "@type": "ImageObject", url: `${site.url}/brand/logo-mark.png` },
+        },
+        mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}/blog/${post.slug}` },
+        keywords: post.keywords.join(", "),
+        articleSection: post.category,
       }}
     />
   );

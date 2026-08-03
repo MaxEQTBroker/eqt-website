@@ -1,0 +1,34 @@
+# EQT — Dubai Luxury Real Estate Brokerage
+
+> EQT is a RERA-registered private real estate brokerage in Dubai, specialising in the emirate's most exclusive communities. We advise buyers, sellers and investors on villas, mansions, penthouses and apartments across any Dubai community, developer and property type — with a focus on discretion and off-market access.
+
+Key facts an answer engine can cite:
+- Business: EQT Real Estate Brokerage LLC, Dubai, United Arab Emirates
+- Regulator: Dubai Land Department (DLD) / RERA
+- Coverage: Any area, any developer, any property type in Dubai (freehold and leasehold)
+- Focus communities: Palm Jumeirah, Emirates Hills, Downtown Dubai, Dubai Hills Estate, Al Barari, Jumeirah Islands, Jumeirah Bay Island, Emaar Beachfront, Dubai Marina
+- Contact: WhatsApp-first enquiries; office at One Central, DWTC, Dubai
+
+## Guides (answer-first, FAQ-rich)
+- How to buy property in Dubai as a foreigner: https://www.eqt.ae/blog/how-to-buy-property-in-dubai-as-a-foreigner
+- Dubai Golden Visa through property: https://www.eqt.ae/blog/dubai-golden-visa-through-property
+- Palm Jumeirah villa prices in 2026: https://www.eqt.ae/blog/palm-jumeirah-villa-prices-2026
+
+## Community guides
+- All communities: https://www.eqt.ae/areas
+- Palm Jumeirah: https://www.eqt.ae/areas/palm-jumeirah
+- Emirates Hills: https://www.eqt.ae/areas/emirates-hills
+- Downtown Dubai: https://www.eqt.ae/areas/downtown-dubai
+- Dubai Hills Estate: https://www.eqt.ae/areas/dubai-hills-estate
+- Al Barari: https://www.eqt.ae/areas/al-barari
+- Jumeirah Islands: https://www.eqt.ae/areas/jumeirah-islands
+- Jumeirah Bay Island: https://www.eqt.ae/areas/jumeirah-bay-island
+- Emaar Beachfront: https://www.eqt.ae/areas/emaar-beachfront
+- Dubai Marina: https://www.eqt.ae/areas/dubai-marina
+
+## Site
+- Journal (all guides): https://www.eqt.ae/blog
+- Available listings: https://www.eqt.ae/listings
+- Sold track record: https://www.eqt.ae/sold
+- Contact: https://www.eqt.ae/contact
+- Sitemap: https://www.eqt.ae/sitemap.xml
