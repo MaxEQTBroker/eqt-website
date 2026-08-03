@@ -1,0 +1,11 @@
+﻿No,Search Term,Platform,Prompt,Main Intent,Secondary Intent,Positive Sentiment,Neutral Sentiment,Negative Sentiment,Brands
+1,"dubai real estate","ChatGPT","How to find luxury apartments for sale in Dubai?","Commercial","Transactional","100%","0%","0%","Luxhabitat, Bayut, Property Finder, Sobha Realty, Barnes Dubai"
+2,"dubai real estate","ChatGPT","What are the best real estate agencies in Dubai?","Navigational","Commercial","100%","0%","0%","Metropolitan Premium Properties, Emaar, Damac, Sobha, Allsopp & Allsopp Group, Better Homes, White & Co Real Estate, Driven Properties, Dacha Real Estate, Arabian Estates"
+3,"dubai real estate","ChatGPT","How to choose the right real estate developer in Dubai?","Informational","Commercial","-","-","-","-"
+4,"dubai real estate","ChatGPT","Which companies offer the best property management services in Dubai?","Navigational","Commercial","-","-","-","-"
+5,"dubai real estate","ChatGPT","Where can I see listings of affordable villas in Dubai?","Navigational","Commercial","-","-","-","-"
+6,"dubai real estate","Gemini","What are the best areas for family-friendly villas in Dubai?","Informational","Commercial","100%","0%","0%","Arabian Ranches, Dubai Hills Estate, Tilal Al Ghaf, Damac Hills, Emirates Hills"
+7,"dubai real estate","Gemini","Find reputable real estate agencies specializing in luxury apartments.","Commercial","Transactional","-","-","-","-"
+8,"dubai real estate","Gemini","Compare mortgage options for non-residents purchasing property.","Commercial","-","-","-","-","-"
+9,"dubai real estate","Gemini","Explain the process of buying off-plan property in Dubai.","Informational","-","-","-","-","-"
+10,"dubai real estate","Gemini","What are the current rental yield expectations for apartments in Downtown Dubai-like areas?","Informational","Commercial","-","-","-","-"
