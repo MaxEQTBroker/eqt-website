@@ -2,15 +2,8 @@ import Link from "next/link";
 import { getAreas } from "@/lib/data/repository";
 import { HoverTile } from "@/components/ui/HoverTile";
 import { RevealText } from "@/components/motion/RevealText";
-import type { AreaSlug } from "@/lib/data/types";
 
-/** Communities as editorial tiles that play footage + draw a "View" box on hover. */
-const HOVER_VIDEO: Record<AreaSlug, string> = {
-  "palm-jumeirah": "/videos/hero.mp4",
-  "al-barari": "/videos/featured.mp4",
-  "jumeirah-islands": "/videos/sold.mp4",
-};
-
+/** Communities as editorial tiles that blur to black + draw a "View" box on hover. */
 export async function Communities() {
   const areas = await getAreas();
   return (
@@ -33,7 +26,6 @@ export async function Communities() {
             href={`/areas/${area.slug}`}
             image={area.heroImage.url}
             alt={area.heroImage.alt}
-            video={HOVER_VIDEO[area.slug]}
             title={area.label}
             subtitle={area.headline}
             tone={area.heroImage.tone}

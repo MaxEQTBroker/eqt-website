@@ -18,9 +18,9 @@ export function Enquire() {
           href={whatsappLink(`Hello ${site.name}, I'd like access to your private listings.`)}
           target="_blank"
           rel="noopener noreferrer"
-          className="link-quiet"
+          className="link-whatsapp"
         >
-          Enquire on WhatsApp
+          WhatsApp
         </a>
         <a href={`mailto:${site.contact.email}`} className="link-quiet">
           {site.contact.email}

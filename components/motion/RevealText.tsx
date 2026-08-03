@@ -40,8 +40,8 @@ export function RevealText({
 
     const play = () => {
       letters.forEach((l) => {
-        const delay = Math.random() * 480; // "random smoke" scatter
-        l.style.transition = `opacity 0.7s ${delay}ms cubic-bezier(0.22,1,0.36,1), filter 0.7s ${delay}ms cubic-bezier(0.22,1,0.36,1), transform 0.7s ${delay}ms cubic-bezier(0.22,1,0.36,1)`;
+        const delay = Math.random() * 1300; // slow "random smoke" scatter
+        l.style.transition = `opacity 1.7s ${delay}ms cubic-bezier(0.22,1,0.36,1), filter 1.7s ${delay}ms cubic-bezier(0.22,1,0.36,1), transform 1.7s ${delay}ms cubic-bezier(0.22,1,0.36,1)`;
         l.style.opacity = "1";
         l.style.filter = "blur(0px)";
         l.style.transform = "translateY(0)";

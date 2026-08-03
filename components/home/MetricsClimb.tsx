@@ -44,13 +44,13 @@ export function MetricsClimb({ signals }: { signals: TrustSignal[] }) {
 
   return (
     <section className="border-t border-line">
-      <div ref={ref} className="container-lux grid grid-cols-2 gap-x-8 gap-y-12 py-16 md:grid-cols-4 md:gap-x-10 md:py-24">
+      <div ref={ref} className="container-lux grid grid-cols-2 items-start gap-x-8 gap-y-12 py-16 md:grid-cols-4 md:gap-x-10 md:py-24">
         {items.map((s) => {
           const parsed = parse(s.value);
           const disp = parsed ? `${parsed.prefix}${fmt(parsed.num * eased, parsed.decimals)}${parsed.suffix}` : s.value;
           return (
-            <div key={s.label} className="text-center md:text-left">
-              <div className="font-display text-[clamp(2.75rem,6vw,5.5rem)] font-medium leading-none text-ink tabular-nums">
+            <div key={s.label} className="text-center">
+              <div className="whitespace-nowrap font-display text-[clamp(1.9rem,4vw,3.5rem)] font-medium leading-none text-ink tabular-nums">
                 {disp}
               </div>
               <div className="mt-4 text-[0.7rem] uppercase tracking-[0.22em] text-faint">{s.label}</div>

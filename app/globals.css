@@ -239,6 +239,25 @@ h1, h2, h3 {
   border-color: var(--accent-500);
 }
 
+/* Minimal WhatsApp link — kept green, but understated */
+.link-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #1a8f4c;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(26, 143, 76, 0.4);
+  transition: color var(--dur-fast) var(--ease-lux), border-color var(--dur-fast) var(--ease-lux);
+}
+.link-whatsapp:hover {
+  color: #12723c;
+  border-color: #1a8f4c;
+}
+
 /* Marquee (scrolling strip) */
 @keyframes eqt-marquee {
   from { transform: translateX(0); }
