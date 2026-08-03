@@ -669,6 +669,583 @@ export const mockPosts: BlogPost[] = [
       "mortgage options non-residents Dubai",
     ],
   },
+  {
+    slug: "how-much-does-it-cost-to-buy-property-in-dubai",
+    title: "How much does it cost to buy property in Dubai? (fees explained)",
+    excerpt:
+      "Beyond the price, budget around 6–8% of the property value in one-off costs: a 4% Dubai Land Department fee, ~2% agency commission, plus registration and mortgage fees. Here's the full breakdown.",
+    category: "Buyer Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-03",
+    readingMinutes: 6,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai financial planning", tone: "#141821" },
+    intro:
+      "Beyond the purchase price, the cost of buying property in Dubai is roughly 6–8% of the property value in one-off fees. The largest is the 4% Dubai Land Department (DLD) transfer fee, followed by around 2% agency commission, plus registration, trustee and (if financing) mortgage fees. There is no annual property tax and no stamp duty beyond the DLD fee.",
+    sections: [
+      {
+        heading: "The one-off costs, line by line",
+        body: [
+          "DLD transfer fee: 4% of the price, plus a small admin charge. Agency commission: typically 2% plus VAT. Registration trustee fee: around AED 4,000 for properties above AED 500,000.",
+          "If you use a mortgage, add a bank arrangement fee (about 1% of the loan), a valuation fee (around AED 2,500–3,500) and a 0.25% DLD mortgage registration fee.",
+        ],
+      },
+      {
+        heading: "Ongoing costs to plan for",
+        body: [
+          "Annual service charges (paid per square foot, varying by building and community) cover maintenance and amenities. Budget for these plus utilities and, if renting the property out, property-management fees.",
+          "Crucially, there is no annual council tax or property tax on residential real estate in Dubai, and no tax on rental income for individuals.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the fees when buying property in Dubai?",
+        answer:
+          "Expect around 6–8% of the price in one-off fees: a 4% Dubai Land Department transfer fee, about 2% agency commission, registration and trustee fees, and, if financing, mortgage arrangement and valuation fees.",
+      },
+      {
+        question: "Do you pay stamp duty or property tax in Dubai?",
+        answer:
+          "There is no separate stamp duty beyond the 4% DLD transfer fee, and no annual property tax on residential real estate in Dubai. Owners pay annual service charges for maintenance instead.",
+      },
+    ],
+    keywords: [
+      "cost of buying property in Dubai",
+      "Dubai property fees",
+      "DLD transfer fee",
+      "Dubai real estate price",
+      "how much to buy property Dubai",
+    ],
+  },
+  {
+    slug: "dubai-real-estate-market-outlook-2026",
+    title: "Dubai real estate market outlook 2026: prices, trends & forecast",
+    excerpt:
+      "Dubai's market is expected to keep growing at a steadier pace in 2026, led by prime, low-supply communities. Here's the outlook on prices, transactions, rents and what's driving the market.",
+    category: "Market & Data",
+    author: EQT_TEAM,
+    publishedAt: "2026-07-31",
+    updatedAt: "2026-08-03",
+    readingMinutes: 7,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai skyline", tone: "#141821" },
+    intro:
+      "The outlook for Dubai real estate in 2026 is continued growth at a steadier, more sustainable pace than the rapid gains of previous years. Prime and low-supply communities are expected to lead on price, transaction volumes remain historically high, and rents stay firm on the back of population growth. The market is broadly moving from a sprint to a marathon.",
+    sections: [
+      {
+        heading: "What's driving the 2026 market",
+        body: [
+          "Population growth, residency reforms (including the Golden Visa), business migration and a cash-rich buyer base continue to underpin demand. Limited prime supply supports values in landmark communities.",
+          "New supply is heavier in some off-plan-focused, mid-market segments, which is where price growth is likely to be more modest.",
+        ],
+      },
+      {
+        heading: "Prices, rents and transactions",
+        body: [
+          "Expect prime areas such as Palm Jumeirah, Emirates Hills and Downtown to remain resilient, while high-supply districts may see flatter growth. Rents are expected to hold up, keeping yields attractive.",
+          "To track the market objectively, follow the Dubai Land Department's transaction data and price indices rather than headlines, which can lag or sensationalise short-term moves.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the forecast for Dubai real estate in 2026?",
+        answer:
+          "Most forecasts point to continued but more moderate growth in 2026, with prime, low-supply communities outperforming higher-supply segments, supported by population growth and residency reforms.",
+      },
+      {
+        question: "How can I track Dubai property prices?",
+        answer:
+          "The most reliable sources are the Dubai Land Department's official transaction data and price indices, which reflect actual sales rather than asking prices or media headlines.",
+      },
+    ],
+    keywords: [
+      "Dubai real estate market",
+      "Dubai real estate news",
+      "Dubai real estate index",
+      "Dubai property forecast 2026",
+      "Dubai real estate market outlook",
+    ],
+  },
+  {
+    slug: "do-you-need-a-lawyer-to-buy-property-in-dubai",
+    title: "Do you need a lawyer to buy property in Dubai?",
+    excerpt:
+      "You are not legally required to use a lawyer to buy property in Dubai, as the process is regulated by the Dubai Land Department. But legal advice is wise for off-plan, company purchases or complex deals.",
+    category: "Buyer Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-07-22",
+    updatedAt: "2026-08-03",
+    readingMinutes: 5,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Signing a property contract", tone: "#d8d4cc" },
+    intro:
+      "You are not legally required to hire a lawyer to buy property in Dubai. The transaction is regulated and registered by the Dubai Land Department (DLD), and a good RERA-registered broker guides you through it. That said, independent legal advice is recommended for off-plan purchases, buying through a company, joint ownership, or any transaction with unusual terms.",
+    sections: [
+      {
+        heading: "How the process is protected without a lawyer",
+        body: [
+          "Standard sales use DLD-registered forms and a registration trustee, title transfers only once funds and paperwork are verified, and off-plan payments are held in RERA-regulated escrow accounts.",
+          "For a straightforward ready-property purchase, most buyers complete safely with a reputable broker and the DLD process alone.",
+        ],
+      },
+      {
+        heading: "When to involve a lawyer",
+        body: [
+          "Consider a real estate lawyer for off-plan contracts, purchases via an offshore or free-zone company, inheritance and estate planning, or if a dispute or unusual clause arises. Legal fees are modest relative to the protection they provide on complex deals.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is a lawyer required to buy property in Dubai?",
+        answer:
+          "No. A lawyer is not legally required, as the Dubai Land Department regulates and registers the transaction. Legal advice is recommended for off-plan, corporate ownership or complex purchases.",
+      },
+      {
+        question: "Who regulates real estate in Dubai?",
+        answer:
+          "Real estate in Dubai is regulated by the Dubai Land Department (DLD) and its regulatory arm RERA, which oversee registration, brokers and off-plan escrow accounts.",
+      },
+    ],
+    keywords: [
+      "do you need a lawyer to buy property in Dubai",
+      "real estate lawyer in Dubai",
+      "Dubai real estate law",
+      "Dubai real estate laws and regulations",
+    ],
+  },
+  {
+    slug: "dubai-property-service-charges-explained",
+    title: "Dubai property service charges explained",
+    excerpt:
+      "Service charges are annual fees, priced per square foot, that fund maintenance and amenities in your building or community. Here's how they work, typical rates, and how to check them before buying.",
+    category: "Buyer Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-07-14",
+    updatedAt: "2026-08-03",
+    readingMinutes: 5,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai residential building", tone: "#d8d4cc" },
+    intro:
+      "Service charges in Dubai are annual fees you pay as a property owner, calculated per square foot of your unit, to fund the upkeep of shared areas and amenities such as security, cleaning, landscaping, pools and lifts. Rates vary widely by building and community, and are regulated and published by RERA through the Mollak system.",
+    sections: [
+      {
+        heading: "How service charges are calculated",
+        body: [
+          "The charge is a rate per square foot multiplied by your unit's size. A simple building may charge a low rate, while a luxury tower with extensive amenities charges more. The figure is set annually against an approved budget.",
+          "RERA's Mollak system holds these funds in regulated escrow and publishes approved service-charge rates, so buyers can check them before purchase.",
+        ],
+      },
+      {
+        heading: "Why they matter to your return",
+        body: [
+          "Service charges directly affect net rental yield and running costs, so it's essential to factor them in, not just the headline price. A cheaper unit with very high charges can underperform a slightly pricier one with efficient charges.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What are service charges in Dubai?",
+        answer:
+          "Service charges are annual fees paid by property owners, calculated per square foot, that fund maintenance, security and amenities in a building or community. They are regulated by RERA via the Mollak system.",
+      },
+      {
+        question: "How much are service charges in Dubai?",
+        answer:
+          "Service charges vary widely by community and building depending on amenities, so buyers should check the RERA-approved rate for a specific development before purchasing, as it affects net yield and running costs.",
+      },
+    ],
+    keywords: [
+      "Dubai service charges",
+      "Dubai property service charges",
+      "service charge Dubai apartment",
+      "Mollak service charges Dubai",
+    ],
+  },
+  {
+    slug: "property-tax-in-dubai",
+    title: "Property tax in Dubai: is Dubai really tax-free?",
+    excerpt:
+      "Dubai has no annual property tax, no capital gains tax and no tax on rental income for individuals. The main government charge is a one-off 4% transfer fee. Here's exactly what you do and don't pay.",
+    category: "Buyer Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-07-08",
+    updatedAt: "2026-08-03",
+    readingMinutes: 5,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai skyline across the sea", tone: "#141821" },
+    intro:
+      "Dubai is effectively tax-free for residential property owners: there is no annual property tax, no capital gains tax when you sell, and no income tax on rental income for individuals. The main government charge is a one-off 4% Dubai Land Department transfer fee at purchase. This tax efficiency is one of the biggest draws for international investors.",
+    sections: [
+      {
+        heading: "What you don't pay",
+        body: [
+          "No annual property or council tax. No capital gains tax on the sale of property. No personal income tax on rental income. No inheritance tax under UAE law (though your home-country rules may still apply).",
+          "This means your rental yield and any capital gain are, at the UAE level, kept in full.",
+        ],
+      },
+      {
+        heading: "What you do pay",
+        body: [
+          "A one-off 4% DLD transfer fee at purchase, annual service charges for maintenance, and a small municipality housing fee that is typically applied to tenants via utility bills.",
+          "Investors should always check their own country's tax residency and reporting rules, which can apply to overseas property income and gains.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is there property tax in Dubai?",
+        answer:
+          "No. Dubai has no annual property tax, no capital gains tax and no personal income tax on rental income. The main charge is a one-off 4% Dubai Land Department transfer fee at purchase.",
+      },
+      {
+        question: "Do you pay tax on rental income in Dubai?",
+        answer:
+          "Individuals do not pay tax on residential rental income in Dubai. However, investors should check their home country's tax rules, which may still apply to overseas income.",
+      },
+    ],
+    keywords: [
+      "property tax in Dubai",
+      "Dubai real estate tax",
+      "is Dubai tax free property",
+      "Dubai capital gains tax property",
+      "tax on rental income Dubai",
+    ],
+  },
+  {
+    slug: "freehold-vs-leasehold-property-in-dubai",
+    title: "Freehold vs leasehold property in Dubai: what's the difference?",
+    excerpt:
+      "Freehold gives you full, permanent ownership of the property and land; leasehold grants rights for a fixed term (often 99 years). Foreigners can buy freehold in designated areas. Here's how to choose.",
+    category: "Buyer Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-08-03",
+    readingMinutes: 5,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai property ownership", tone: "#d8d4cc" },
+    intro:
+      "In Dubai, freehold ownership gives you full, permanent ownership of both the property and the land it sits on, with title registered in your name at the Dubai Land Department. Leasehold grants the right to use a property for a fixed term (commonly up to 99 years), after which rights revert to the freeholder. Foreign nationals can buy freehold in Dubai's designated freehold areas.",
+    sections: [
+      {
+        heading: "Freehold: full ownership",
+        body: [
+          "Freehold owners can live in, rent out, sell, or pass on the property freely, and hold the title indefinitely. Most of Dubai's prime communities, Palm Jumeirah, Downtown, Emirates Hills, Dubai Marina, are freehold and open to foreign buyers.",
+        ],
+      },
+      {
+        heading: "Leasehold: rights for a term",
+        body: [
+          "Leasehold gives long-term use, often 30–99 years, but not ownership of the land. It's less common in the prime foreign-buyer market. Always confirm the tenure type and remaining term before purchase.",
+          "For most international buyers seeking a home or investment, freehold in a designated area is the standard and preferred route.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can foreigners buy freehold property in Dubai?",
+        answer:
+          "Yes. Foreign nationals can buy freehold property with full ownership in Dubai's designated freehold areas, with title registered at the Dubai Land Department.",
+      },
+      {
+        question: "What is the difference between freehold and leasehold in Dubai?",
+        answer:
+          "Freehold is full, permanent ownership of the property and land. Leasehold is the right to use a property for a fixed term, often up to 99 years, after which rights return to the freeholder.",
+      },
+    ],
+    keywords: [
+      "freehold vs leasehold Dubai",
+      "freehold property Dubai",
+      "leasehold Dubai",
+      "Dubai freehold areas for foreigners",
+    ],
+  },
+  {
+    slug: "how-to-invest-in-dubai-real-estate-from-india",
+    title: "How to invest in Dubai real estate from India: an NRI guide",
+    excerpt:
+      "Indian investors can buy freehold Dubai property remotely, remit funds under the RBI's LRS (up to USD 250,000 per year), and even qualify for a Golden Visa. Here's the step-by-step for NRIs.",
+    category: "Investment",
+    author: EQT_TEAM,
+    publishedAt: "2026-06-26",
+    updatedAt: "2026-08-03",
+    readingMinutes: 7,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai Marina skyline", tone: "#141821" },
+    intro:
+      "Indian nationals can invest in Dubai real estate, including remotely from India, by buying freehold property in a designated area and remitting funds under the Reserve Bank of India's Liberalised Remittance Scheme (LRS), which allows up to USD 250,000 per person per financial year. Property worth AED 2 million or more can also qualify the buyer for a 10-year Golden Visa.",
+    sections: [
+      {
+        heading: "How the money works (LRS)",
+        body: [
+          "Under the RBI's LRS, a resident Indian can remit up to USD 250,000 per financial year for permitted capital transactions, including buying overseas property. Families often combine allowances across members for larger purchases.",
+          "Funds are sent through your Indian bank; keep documentation for compliance. There is no UAE tax on the purchase beyond the 4% DLD fee.",
+        ],
+      },
+      {
+        heading: "Buying remotely and getting residency",
+        body: [
+          "You can complete a Dubai purchase remotely via a power of attorney or by travelling for the transfer. A RERA-registered broker coordinates the property, paperwork and DLD registration.",
+          "Invest AED 2 million or more and you can apply for a 10-year Golden Visa, a major draw for Indian investors seeking a second base and tax-efficient income.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can an Indian citizen buy property in Dubai?",
+        answer:
+          "Yes. Indian citizens can buy freehold property in Dubai's designated areas and remit funds under the RBI's Liberalised Remittance Scheme, up to USD 250,000 per person per financial year.",
+      },
+      {
+        question: "How can NRIs invest in Dubai real estate?",
+        answer:
+          "NRIs and resident Indians can buy Dubai freehold property directly or remotely via power of attorney, remit funds under LRS, and potentially qualify for a 10-year Golden Visa with an investment of AED 2 million or more.",
+      },
+    ],
+    keywords: [
+      "how to invest in Dubai real estate from India",
+      "Dubai property for Indian investors",
+      "NRI Dubai property",
+      "buy Dubai property from India",
+      "Indian buying property in Dubai",
+    ],
+  },
+  {
+    slug: "best-areas-to-live-in-dubai-for-families",
+    title: "Best areas to live in Dubai for families in 2026",
+    excerpt:
+      "For families, the top Dubai communities combine schools, parks and villas: Dubai Hills Estate, Arabian Ranches, Jumeirah Islands, Al Barari and Emirates Hills lead the list. Here's what suits whom.",
+    category: "Community Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-06-18",
+    updatedAt: "2026-08-03",
+    readingMinutes: 6,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai residential community", tone: "#d8d4cc" },
+    intro:
+      "The best areas to live in Dubai for families combine good schools, parks, safety and space. The most popular family communities are Dubai Hills Estate, Arabian Ranches, Jumeirah Islands, Al Barari and Emirates Hills, each offering villas or townhouses in green, low-density settings close to schools and amenities.",
+    sections: [
+      {
+        heading: "For value and amenities",
+        body: [
+          "Dubai Hills Estate and Arabian Ranches are perennial family favourites, with villas and townhouses around parks, schools, healthcare and golf, at a range of price points.",
+          "DAMAC Hills and Tilal Al Ghaf add resort-style amenities and lagoons for younger families seeking newer communities.",
+        ],
+      },
+      {
+        heading: "For space and prestige",
+        body: [
+          "Emirates Hills, Al Barari and Jumeirah Islands offer larger plots, mature greenery and privacy for families wanting a premium, established setting close to the city.",
+          "The right choice depends on school preferences, commute and budget, which a local advisor can map to specific streets and villas.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Where is the best place to live in Dubai for families?",
+        answer:
+          "Popular family communities include Dubai Hills Estate, Arabian Ranches, Jumeirah Islands, Al Barari and Emirates Hills, chosen for their schools, parks, safety and villa living in green, low-density settings.",
+      },
+      {
+        question: "Is Dubai a good place to raise a family?",
+        answer:
+          "Dubai is considered one of the safest major cities in the world, with excellent international schools, healthcare and family amenities, which is why it is popular with families relocating from abroad.",
+      },
+    ],
+    keywords: [
+      "best areas to live in Dubai for families",
+      "family friendly communities Dubai",
+      "best place to live in Dubai",
+      "Dubai family villas",
+    ],
+  },
+  {
+    slug: "how-to-buy-off-plan-property-in-dubai",
+    title: "How to buy off-plan property in Dubai: a step-by-step guide",
+    excerpt:
+      "To buy off-plan in Dubai, choose a RERA-registered project, pay a booking deposit, sign the developer's SPA, and pay in instalments into an escrow account until handover. Here's the full process.",
+    category: "Buyer Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-06-10",
+    updatedAt: "2026-08-03",
+    readingMinutes: 6,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai new development skyline", tone: "#141821" },
+    intro:
+      "To buy off-plan property in Dubai, you select a RERA-registered project, pay a booking deposit (often 5–20%), sign the developer's Sales and Purchase Agreement (SPA), and then pay the balance in instalments, held in a project escrow account, until handover. The process is regulated to protect buyers, and off-plan often offers lower entry prices and flexible payment plans.",
+    sections: [
+      {
+        heading: "The step-by-step process",
+        body: [
+          "1. Choose a project from a reputable developer and reserve your unit with a booking form and deposit. 2. Sign the SPA, which sets the price, payment plan and handover date. 3. Register the purchase with the DLD (an Oqood/initial registration).",
+          "4. Pay instalments to milestones into the RERA-regulated escrow account. 5. On completion, settle the final payment, and the title deed is transferred to you.",
+        ],
+      },
+      {
+        heading: "How buyers are protected",
+        body: [
+          "Developer payments are released from escrow only against verified construction progress, reducing risk. Choosing an established developer with a strong delivery record further protects your investment.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How does buying off-plan work in Dubai?",
+        answer:
+          "You reserve a unit with a deposit, sign the developer's SPA, register with the DLD, and pay in instalments into a RERA-regulated escrow account until handover, when the title transfers to you.",
+      },
+      {
+        question: "Is off-plan property in Dubai a good investment?",
+        answer:
+          "Off-plan can offer lower entry prices, flexible payment plans and capital-growth potential, with escrow protection reducing risk. The key is choosing a reputable developer with a strong delivery record.",
+      },
+    ],
+    keywords: [
+      "how to buy off-plan property in Dubai",
+      "off-plan Dubai process",
+      "buying off-plan Dubai",
+      "Dubai off-plan payment plan",
+    ],
+  },
+  {
+    slug: "cash-vs-mortgage-buying-property-in-dubai",
+    title: "Cash vs mortgage: how to finance a Dubai property",
+    excerpt:
+      "Paying cash is faster and stronger in negotiations; a mortgage preserves capital and can boost returns through leverage. Residents borrow up to 80% and non-residents up to ~50–60%. Here's how to decide.",
+    category: "Buyer Guides",
+    author: EQT_TEAM,
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-08-03",
+    readingMinutes: 6,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Keys to a Dubai home", tone: "#d8d4cc" },
+    intro:
+      "Whether to buy a Dubai property in cash or with a mortgage depends on your goals. Cash is faster, avoids interest, and strengthens your negotiating position; a mortgage preserves capital and can improve returns through leverage. In Dubai, residents can typically borrow up to 80% loan-to-value and non-residents around 50–60%.",
+    sections: [
+      {
+        heading: "When cash makes sense",
+        body: [
+          "Cash buyers close faster, avoid financing costs, and often negotiate better prices, particularly valuable in a competitive market or for off-market deals. It also simplifies off-plan purchases.",
+          "The trade-off is opportunity cost: capital tied up in one asset can't be deployed elsewhere.",
+        ],
+      },
+      {
+        heading: "When a mortgage makes sense",
+        body: [
+          "A mortgage lets you preserve cash, diversify across multiple properties, and potentially amplify returns if rental yield and appreciation exceed borrowing costs. Residents access higher loan-to-value than non-residents.",
+          "Factor in arrangement, valuation and mortgage-registration fees, and ensure the rental yield comfortably covers repayments.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is it better to buy property in cash or with a mortgage in Dubai?",
+        answer:
+          "Cash is faster and strengthens negotiations, while a mortgage preserves capital and can boost returns through leverage. The best choice depends on your goals, liquidity and whether yields exceed borrowing costs.",
+      },
+      {
+        question: "How much can I borrow to buy property in Dubai?",
+        answer:
+          "Residents can typically borrow up to 80% loan-to-value on a first home, while non-residents are generally limited to around 50–60%, subject to income and the lender's criteria.",
+      },
+    ],
+    keywords: [
+      "cash vs mortgage Dubai property",
+      "finance Dubai property",
+      "Dubai mortgage vs cash",
+      "buying Dubai property with mortgage",
+    ],
+  },
+  {
+    slug: "dubai-vs-abu-dhabi-vs-london-real-estate",
+    title: "Dubai vs Abu Dhabi vs London: where should you invest?",
+    excerpt:
+      "Dubai offers the highest liquidity and yields with no property tax; Abu Dhabi is steadier and more institutional; London is mature but lower-yielding and highly taxed. Here's how they compare for investors.",
+    category: "Investment",
+    author: EQT_TEAM,
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-08-03",
+    readingMinutes: 7,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai skyline at twilight", tone: "#141821" },
+    intro:
+      "For most international investors, Dubai offers the highest rental yields and liquidity of the three, with no property or capital gains tax; Abu Dhabi is steadier and more institutionally driven; and London is a mature, prestigious market but with lower yields and significant taxes and stamp duty. The right choice depends on whether you prioritise income, stability or long-term store of value.",
+    sections: [
+      {
+        heading: "Dubai vs Abu Dhabi",
+        body: [
+          "Both UAE emirates are tax-free for property owners, but Dubai has a larger, more liquid market with more prime stock and higher transaction volumes. Abu Dhabi tends to be steadier, with strong government-linked demand and newer investor-friendly zones.",
+          "Investors seeking yield and liquidity often favour Dubai; those seeking a quieter, more institutional market may prefer Abu Dhabi.",
+        ],
+      },
+      {
+        heading: "Dubai vs London",
+        body: [
+          "London offers deep history and prestige but yields are typically 3–4%, with stamp duty up to 12%+, capital gains tax and annual charges. Dubai commonly yields 6–9% with a one-off 4% fee and no annual property or capital gains tax.",
+          "For cash-flow and tax efficiency, Dubai is compelling; for those wanting a long-established store of value, London retains appeal.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Dubai or London better for property investment?",
+        answer:
+          "Dubai typically offers higher rental yields (6–9%) and no property or capital gains tax, while London offers prestige and stability but lower yields (3–4%) and high taxes and stamp duty. Dubai is stronger for income and tax efficiency.",
+      },
+      {
+        question: "Is Dubai or Abu Dhabi better for real estate investment?",
+        answer:
+          "Both are tax-free, but Dubai has a larger, more liquid market with more prime stock and higher volumes, while Abu Dhabi is steadier and more institutionally driven. Dubai generally suits yield and liquidity-focused investors.",
+      },
+    ],
+    keywords: [
+      "Dubai vs Abu Dhabi real estate",
+      "Dubai vs London property",
+      "where to invest Dubai or London",
+      "Dubai real estate comparison",
+    ],
+  },
+  {
+    slug: "roi-and-capital-appreciation-in-dubai-real-estate",
+    title: "ROI & capital appreciation in Dubai real estate: what returns to expect",
+    excerpt:
+      "Dubai commonly delivers 6–9% gross rental yields plus capital appreciation in prime areas. Total returns depend on community, timing and asset choice. Here's a realistic view of Dubai property ROI.",
+    category: "Investment",
+    author: EQT_TEAM,
+    publishedAt: "2026-05-20",
+    updatedAt: "2026-08-03",
+    readingMinutes: 6,
+    heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai skyline at sunset", tone: "#141821" },
+    intro:
+      "Dubai real estate return on investment (ROI) comes from two sources: rental yield, commonly 6–9% gross for well-chosen apartments, and capital appreciation, which has been strong in prime, low-supply communities. Total returns depend on the community, entry timing and asset quality, but the combination of high yields and no property tax makes Dubai stand out globally.",
+    sections: [
+      {
+        heading: "Rental yield (income return)",
+        body: [
+          "Gross rental yields in Dubai commonly range from 6% to 9%, higher than most global cities. Value communities like JVC tend to yield most, while prime areas yield less but offer stronger appreciation and liquidity.",
+          "Net yield depends on service charges and vacancy, so always model the specific building's costs.",
+        ],
+      },
+      {
+        heading: "Capital appreciation (growth return)",
+        body: [
+          "Prime, scarce communities, Palm Jumeirah, Emirates Hills, Downtown, have historically shown the strongest capital growth and resilience. Off-plan can add growth between launch and handover, with more risk.",
+          "A balanced portfolio often pairs a high-yield asset with a growth-focused prime asset. With no capital gains tax, gains are kept in full at the UAE level.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a good ROI for Dubai real estate?",
+        answer:
+          "A gross rental yield of 6–9% is common and considered strong in Dubai, higher than most global cities. Total ROI also includes capital appreciation, which has been robust in prime, low-supply communities.",
+      },
+      {
+        question: "Does Dubai property appreciate in value?",
+        answer:
+          "Prime, low-supply Dubai communities such as Palm Jumeirah, Emirates Hills and Downtown have historically shown strong capital appreciation, though returns vary by area, timing and asset quality.",
+      },
+    ],
+    keywords: [
+      "Dubai real estate ROI",
+      "ROI in Dubai real estate",
+      "Dubai property capital appreciation",
+      "Dubai real estate returns",
+      "Dubai rental yield ROI",
+    ],
+  },
 ];
 
 // ── Repository (the seam) ────────────────────────────────────────────────
