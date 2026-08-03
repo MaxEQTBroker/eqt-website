@@ -18,15 +18,15 @@ export const metadata: Metadata = {
   },
 };
 
-/** Long-form editorial reads as human dates without Intl locale surprises. */
-function formatDate(iso: string): string {
-  const [y, m, d] = iso.split("-").map(Number);
-  const months = [
-    "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December",
-  ];
-  return `${months[m - 1]} ${d}, ${y}`;
-}
+/** Category display order + one-line descriptions for the grouped index. */
+const CATEGORIES: { name: string; blurb: string }[] = [
+  { name: "Buyer Guides", blurb: "How to buy, sell, finance and own property in Dubai." },
+  { name: "Investment", blurb: "Yields, ROI, strategy and where to invest." },
+  { name: "Market & Data", blurb: "Prices, forecasts and the market outlook." },
+  { name: "Community Guides", blurb: "Where to live and what your money buys, area by area." },
+];
+
+const catId = (name: string) => name.toLowerCase().replace(/[^a-z]+/g, "-");
 
 export default async function BlogIndexPage() {
   const posts = await getAllPosts();
@@ -87,38 +87,64 @@ export default async function BlogIndexPage() {
         </section>
       )}
 
-      {/* The rest */}
-      {rest.length > 0 && (
-        <section className="border-t border-line">
-          <div className="container-lux grid gap-x-8 gap-y-16 py-[var(--section-py)] md:grid-cols-2 lg:grid-cols-3">
-            {rest.map((post, i) => (
-              <Reveal key={post.slug} delay={(i % 3) * 90}>
-                <Link href={`/blog/${post.slug}`} className="group block">
-                  <div
-                    className="relative mb-6 aspect-[3/2] overflow-hidden rounded-lg"
-                    style={{ backgroundColor: post.heroImage.tone }}
-                  >
-                    <Image
-                      src={post.heroImage.url}
-                      alt={post.heroImage.alt}
-                      fill
-                      sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                      className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
-                    />
-                  </div>
-                  <p className="eyebrow mb-3">
-                    {post.category} · {formatDate(post.publishedAt)}
-                  </p>
-                  <h3 className="font-display text-2xl leading-snug text-ink transition-opacity group-hover:opacity-70">
-                    {post.title}
-                  </h3>
-                  <p className="mt-3 text-sm text-muted">{post.excerpt}</p>
-                </Link>
-              </Reveal>
-            ))}
-          </div>
-        </section>
-      )}
+      {/* Category jump nav */}
+      <section className="sticky top-20 z-30 border-y border-line bg-base">
+        <nav className="container-lux flex flex-wrap gap-x-6 gap-y-2 py-4 text-xs uppercase tracking-[0.18em]" aria-label="Browse by category">
+          <span className="text-faint">Browse</span>
+          {CATEGORIES.map((c) => {
+            const count = posts.filter((p) => p.category === c.name).length;
+            if (!count) return null;
+            return (
+              <a key={c.name} href={`#${catId(c.name)}`} className="text-accent-600 transition-opacity hover:opacity-60">
+                {c.name} <span className="text-faint">({count})</span>
+              </a>
+            );
+          })}
+        </nav>
+      </section>
+
+      {/* Grouped by category */}
+      {CATEGORIES.map((cat) => {
+        const items = rest.filter((p) => p.category === cat.name);
+        if (items.length === 0) return null;
+        return (
+          <section key={cat.name} id={catId(cat.name)} className="scroll-mt-32 border-t border-line first:border-t-0">
+            <div className="container-lux py-[var(--section-py)]">
+              <div className="mb-12 max-w-2xl">
+                <h2 className="font-display text-[clamp(1.75rem,3.4vw,2.75rem)] leading-tight text-ink">{cat.name}</h2>
+                <p className="mt-3 text-muted">{cat.blurb}</p>
+              </div>
+              <div className="grid gap-x-8 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+                {items.map((post, i) => (
+                  <Reveal key={post.slug} delay={(i % 3) * 80}>
+                    <Link href={`/blog/${post.slug}`} className="group block">
+                      <div
+                        className="relative mb-6 aspect-[3/2] overflow-hidden rounded-lg"
+                        style={{ backgroundColor: post.heroImage.tone }}
+                      >
+                        <Image
+                          src={post.heroImage.url}
+                          alt={post.heroImage.alt}
+                          fill
+                          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                          className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
+                        />
+                      </div>
+                      <p className="eyebrow mb-3">
+                        {post.category} · {post.readingMinutes} min read
+                      </p>
+                      <h3 className="font-display text-2xl leading-snug text-ink transition-opacity group-hover:opacity-70">
+                        {post.title}
+                      </h3>
+                      <p className="mt-3 text-sm text-muted">{post.excerpt}</p>
+                    </Link>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })}
     </>
   );
 }

@@ -83,9 +83,9 @@ export function Header() {
         </a>
       </div>
 
-      {/* Full-screen menu overlay */}
+      {/* Full-screen menu overlay, scrolls when the links exceed the viewport */}
       <div
-        className="fixed inset-0 z-40 flex flex-col justify-center"
+        className="fixed inset-0 z-40 overflow-y-auto overscroll-contain"
         style={{
           backgroundColor: "#241d14",
           opacity: open ? 1 : 0,
@@ -93,39 +93,41 @@ export function Header() {
           transition: "opacity 0.7s var(--ease-lux)",
         }}
       >
-        <nav aria-label="Primary" className="container-lux">
-          {primaryNav.map((item, i) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              onClick={() => setOpen(false)}
-              className="block w-fit py-2 font-display leading-[1.08] text-[clamp(2.4rem,7vw,5.5rem)] transition-colors hover:text-[color:var(--accent-400)]"
-              style={{
-                color: "#e8e0cd",
-                opacity: open ? 1 : 0,
-                transform: open ? "translateY(0)" : "translateY(24px)",
-                transition: `opacity 0.6s ${0.12 + i * 0.07}s var(--ease-lux), transform 0.6s ${0.12 + i * 0.07}s var(--ease-lux), color 0.3s`,
-              }}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+        <div className="flex min-h-full flex-col justify-center px-0 pb-16 pt-28">
+          <nav aria-label="Primary" className="container-lux">
+            {primaryNav.map((item, i) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="block w-fit py-1.5 font-display leading-[1.1] text-[clamp(1.9rem,5.5vw,4rem)] transition-colors hover:text-[color:var(--accent-400)]"
+                style={{
+                  color: "#e8e0cd",
+                  opacity: open ? 1 : 0,
+                  transform: open ? "translateY(0)" : "translateY(24px)",
+                  transition: `opacity 0.6s ${0.12 + i * 0.06}s var(--ease-lux), transform 0.6s ${0.12 + i * 0.06}s var(--ease-lux), color 0.3s`,
+                }}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
 
-        <div
-          className="container-lux mt-14 flex flex-col gap-2 text-sm"
-          style={{
-            color: "#b9ac90",
-            opacity: open ? 1 : 0,
-            transition: `opacity 0.6s ${0.12 + primaryNav.length * 0.07}s var(--ease-lux)`,
-          }}
-        >
-          <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit transition-colors hover:text-[#e8e0cd]">
-            {site.contact.phone} · WhatsApp
-          </a>
-          <a href={`mailto:${site.contact.email}`} className="w-fit transition-colors hover:text-[#e8e0cd]">
-            {site.contact.email}
-          </a>
+          <div
+            className="container-lux mt-10 flex flex-col gap-2 text-sm"
+            style={{
+              color: "#b9ac90",
+              opacity: open ? 1 : 0,
+              transition: `opacity 0.6s ${0.12 + primaryNav.length * 0.06}s var(--ease-lux)`,
+            }}
+          >
+            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit transition-colors hover:text-[#e8e0cd]">
+              {site.contact.phone} · WhatsApp
+            </a>
+            <a href={`mailto:${site.contact.email}`} className="w-fit transition-colors hover:text-[#e8e0cd]">
+              {site.contact.email}
+            </a>
+          </div>
         </div>
       </div>
     </header>
