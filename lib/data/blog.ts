@@ -233,7 +233,7 @@ export const mockPosts: BlogPost[] = [
     author: EQT_TEAM,
     publishedAt: "2026-07-30",
     updatedAt: "2026-08-03",
-    readingMinutes: 12,
+    readingMinutes: 8,
     heroImage: {
       url: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1920&q=80",
       alt: "Dubai waterfront skyline of residential towers",
@@ -249,20 +249,6 @@ export const mockPosts: BlogPost[] = [
       "Entry ranges from about AED 700,000 (a JVC studio) to AED 100M+ for prime villas; AED 2M+ can qualify you for a 10-year Golden Visa.",
     ],
     sections: [
-      {
-        heading: "Why investors choose Dubai",
-        body: [
-          "Before the how, the why: Dubai combines financial and lifestyle advantages that few markets can match, which is what sustains demand and, in turn, prices and rents.",
-          "The tax position is the headline. There is no annual property tax, no capital gains tax and no tax on rental income for individuals, so your yield and any gain are kept in full at the UAE level. Layered on top are high yields, a dirham pegged to the US dollar (removing currency risk for dollar-based buyers), a fast-growing population, and residency visas tied to ownership.",
-        ],
-        bullets: [
-          "No annual property tax, no capital gains tax, no tax on rental income.",
-          "Gross rental yields commonly 6–9%, versus 3–4% in London or New York.",
-          "Currency pegged to the US dollar for stability.",
-          "10-year Golden Visa for AED 2M+ investments.",
-          "Transparent, RERA-regulated transactions with escrow protection on off-plan.",
-        ],
-      },
       {
         heading: "Step 1: Set your goal — income, growth, or both",
         body: [
@@ -322,19 +308,6 @@ export const mockPosts: BlogPost[] = [
           "If you're letting the property, a management company can handle tenants, maintenance and (where permitted) short-term holiday lets, which can lift gross income. When you sell, there is no capital gains tax, and prime communities tend to offer the deepest, most liquid resale demand.",
         ],
       },
-      {
-        heading: "Common mistakes to avoid",
-        body: [
-          "Most disappointing outcomes trace back to a handful of avoidable errors. Being aware of them is half the protection.",
-        ],
-        bullets: [
-          "Ignoring service charges — a cheap unit with high charges can underperform a pricier one with efficient charges.",
-          "Chasing headline yield without checking real tenant demand and building quality.",
-          "Over-leveraging, so repayments outpace rent in a softer month.",
-          "Buying off-plan from an unproven developer with a weak delivery record.",
-          "Skipping local advice and buying the wrong unit in the right community.",
-        ],
-      },
     ],
     faqs: [
       {
@@ -361,11 +334,6 @@ export const mockPosts: BlogPost[] = [
         question: "Do I pay tax on a Dubai investment property?",
         answer:
           "There is no annual property tax, no capital gains tax and no tax on rental income for individuals in Dubai. The main charge is a one-off 4% Dubai Land Department transfer fee at purchase. Always check your home country's tax rules on overseas income.",
-      },
-      {
-        question: "Should I buy ready or off-plan property?",
-        answer:
-          "Ready property gives immediate rental income and certainty; off-plan offers lower entry prices, payment plans and capital-growth potential with escrow protection. Many investors hold both to balance income and growth.",
       },
     ],
     relatedLinks: [
