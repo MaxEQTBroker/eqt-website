@@ -340,6 +340,7 @@ export const mockDevelopers: Developer[] = [
     slug: "select-group",
     name: "Select Group",
     tagline: "Waterfront towers in Dubai Marina",
+    logo: "/brand/developers/Select-Group-Logo-Black.png",
     intro:
       "Select Group is a leading private developer best known for its waterfront residential towers in Dubai Marina, including the landmark Marina Gate and Jumeirah Living Marina Gate. Its focus on prime, well-connected waterfront locations and hospitality-grade amenities has made it a trusted name for apartments and penthouses.",
     keyFacts: [
@@ -378,6 +379,7 @@ export const mockDevelopers: Developer[] = [
     slug: "binghatti",
     name: "Binghatti",
     tagline: "Bold design and hyper-branded towers",
+    logo: "/brand/developers/Binghatti-logo-dark.webp",
     intro:
       "Binghatti is a fast-growing Dubai developer known for its distinctive architecture and a wave of high-profile branded partnerships, including Bugatti, Mercedes-Benz and Jacob & Co. With a large pipeline across JVC, Business Bay and Downtown, it has become one of the most active names in the off-plan market.",
     keyFacts: [
@@ -416,6 +418,7 @@ export const mockDevelopers: Developer[] = [
     slug: "dubai-properties",
     name: "Dubai Properties",
     tagline: "Master communities across the city",
+    logo: "/brand/developers/dubai-properties-logo.webp",
     intro:
       "Dubai Properties, part of Dubai Holding, has shaped some of the city's best-known destinations, including Jumeirah Beach Residence (JBR), Business Bay, Dubailand and Villanova. Its large-scale master communities span waterfront apartments to family villas, offering breadth across price points and lifestyles.",
     keyFacts: [
@@ -454,6 +457,7 @@ export const mockDevelopers: Developer[] = [
     slug: "aldar",
     name: "Aldar Properties",
     tagline: "Abu Dhabi's leading developer, now in Dubai",
+    logo: "/brand/developers/Aldar-Properties-Logo-2-scaled.webp",
     intro:
       "Aldar Properties is the largest developer in Abu Dhabi and an increasingly significant player in Dubai, with landmark acquisitions and launches on Palm Jumeirah and beyond. Known for institutional-grade delivery and design partnerships, Aldar brings a blue-chip profile to Dubai's prime market.",
     keyFacts: [

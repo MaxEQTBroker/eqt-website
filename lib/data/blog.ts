@@ -16,6 +16,8 @@ export interface Author {
 export interface BlogSection {
   heading: string;
   body: string[];
+  /** Optional bulleted list rendered after the body (steps, pros/cons, checklist). */
+  bullets?: string[];
 }
 
 export interface BlogPost {
@@ -31,8 +33,12 @@ export interface BlogPost {
   heroImage: MediaImage;
   /** The direct answer to the query, first thing on the page. */
   intro: string;
+  /** Optional scannable summary box near the top (great for snippets + AEO). */
+  keyTakeaways?: string[];
   sections: BlogSection[];
   faqs: { question: string; answer: string }[];
+  /** Optional internal links to related guides/areas/developers for SEO + navigation. */
+  relatedLinks?: { label: string; href: string }[];
   keywords: string[];
 }
 
@@ -227,41 +233,106 @@ export const mockPosts: BlogPost[] = [
     author: EQT_TEAM,
     publishedAt: "2026-07-30",
     updatedAt: "2026-08-03",
-    readingMinutes: 8,
+    readingMinutes: 12,
     heroImage: {
       url: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1920&q=80",
       alt: "Dubai waterfront skyline of residential towers",
       tone: "#c9cdcf",
     },
     intro:
-      "To invest in Dubai real estate, you buy freehold property in one of the city's designated investment areas, budget around 6–8% of the price in one-off fees, and choose your strategy: ready homes for immediate rental income, or off-plan for capital growth on a payment plan. There is no annual property tax and no tax on rental income, which is a large part of why Dubai attracts global investors.",
+      "To invest in Dubai real estate, buy a freehold property in one of the city's designated investment areas, budget around 6–8% of the price in one-off fees, and choose a strategy: ready homes for immediate rental income (often 6–9% gross yield) or off-plan for capital growth on a staged payment plan. There is no annual property tax and no tax on rental income, and an investment of AED 2 million or more can earn you a 10-year Golden Visa. This guide walks through the whole process, step by step.",
+    keyTakeaways: [
+      "Foreign nationals can own freehold property outright in Dubai's designated areas, with title registered at the Dubai Land Department.",
+      "Budget roughly 6–8% of the price in one-off costs: a 4% DLD transfer fee, about 2% agency commission, plus registration and any mortgage fees.",
+      "Ready property gives income now; off-plan gives capital growth on a payment plan, with buyer funds protected in escrow.",
+      "Gross rental yields are commonly 6–9% — among the highest of any major global city — with no property tax and no tax on rental income.",
+      "Entry ranges from about AED 700,000 (a JVC studio) to AED 100M+ for prime villas; AED 2M+ can qualify you for a 10-year Golden Visa.",
+    ],
     sections: [
       {
-        heading: "Step 1: Decide your strategy, income or growth",
+        heading: "Why investors choose Dubai",
         body: [
-          "For rental income, buy a ready (completed) apartment or villa in a high-demand area and let it out, Dubai offers some of the strongest gross rental yields of any major city, often 6–9% for well-chosen apartments.",
-          "For capital growth, buy off-plan directly from a developer on a staged payment plan, aiming to benefit from price appreciation between launch and handover. Many investors combine both.",
+          "Before the how, the why: Dubai combines financial and lifestyle advantages that few markets can match, which is what sustains demand and, in turn, prices and rents.",
+          "The tax position is the headline. There is no annual property tax, no capital gains tax and no tax on rental income for individuals, so your yield and any gain are kept in full at the UAE level. Layered on top are high yields, a dirham pegged to the US dollar (removing currency risk for dollar-based buyers), a fast-growing population, and residency visas tied to ownership.",
+        ],
+        bullets: [
+          "No annual property tax, no capital gains tax, no tax on rental income.",
+          "Gross rental yields commonly 6–9%, versus 3–4% in London or New York.",
+          "Currency pegged to the US dollar for stability.",
+          "10-year Golden Visa for AED 2M+ investments.",
+          "Transparent, RERA-regulated transactions with escrow protection on off-plan.",
         ],
       },
       {
-        heading: "Step 2: Choose the right area",
+        heading: "Step 1: Set your goal — income, growth, or both",
         body: [
-          "Yield-focused investors look to communities like Jumeirah Village Circle, Business Bay and Dubai Marina. Growth and prestige buyers focus on Downtown Dubai, Palm Jumeirah, Dubai Creek Harbour and Emaar Beachfront.",
-          "The right area depends on your budget, target tenant and time horizon. A good broker matches these to specific buildings rather than just communities.",
+          "Every good investment decision starts with the objective, because it determines what and where you buy. There are two core strategies, and many investors combine them.",
+          "Income (ready property): buy a completed apartment or villa in a high-demand area and let it out. You earn rent from day one and can see the exact unit, view and finish before committing. Growth (off-plan): buy from a developer before completion, usually at a lower launch price and on a staged payment plan, aiming to benefit from appreciation between launch and handover.",
+        ],
+        bullets: [
+          "Choose ready property if you want immediate cash flow and certainty.",
+          "Choose off-plan if you want a lower entry price, payment flexibility and capital-growth potential.",
+          "Blend both to balance income and growth across a small portfolio.",
         ],
       },
       {
-        heading: "Step 3: Budget for the true cost",
+        heading: "Step 2: Choose the right area for your strategy",
         body: [
-          "Alongside the price, budget roughly 6–8%: a 4% Dubai Land Department transfer fee, about 2% agency commission, plus registration and, if financing, mortgage fees.",
-          "Non-residents can obtain a mortgage from UAE banks, typically up to 50–60% loan-to-value, so cash-rich buyers or those financing abroad often move fastest.",
+          "Location does most of the work in real estate returns. The right community depends on your goal, budget and target tenant.",
+          "For yield, investors gravitate to accessible, high-demand communities. For growth and prestige, they focus on scarce, landmark locations that hold value through cycles. A good broker narrows this down to specific buildings and layouts, not just communities, because two units in the same tower can perform very differently.",
+        ],
+        bullets: [
+          "Higher yield: Jumeirah Village Circle (JVC), Business Bay, Dubai Marina, Dubai Creek Harbour.",
+          "Growth & prestige: Downtown Dubai, Palm Jumeirah, Emaar Beachfront, Emirates Hills.",
+          "Family end-users: Dubai Hills Estate, Arabian Ranches, Tilal Al Ghaf.",
         ],
       },
       {
-        heading: "Step 4: Buy, register and (optionally) get residency",
+        heading: "Step 3: Understand the full cost",
         body: [
-          "Sign the sale agreement, pay the deposit, obtain the developer NOC, and transfer title at the Dubai Land Department. Your name goes on the title deed.",
-          "Invest AED 2 million or more and you can also qualify for a 10-year Golden Visa, adding a residency benefit to the financial return.",
+          "The purchase price is not the total cost. Budget roughly 6–8% of the property value in one-off transaction fees, and factor in ongoing service charges when you model your return.",
+          "If you are financing, UAE banks lend to residents up to about 80% loan-to-value and to non-residents up to roughly 50–60%, so many overseas buyers pay cash or arrange financing at home to move quickly.",
+        ],
+        bullets: [
+          "Dubai Land Department (DLD) transfer fee: 4% of the price.",
+          "Agency commission: about 2% plus VAT.",
+          "Registration trustee fee: around AED 4,000 for properties above AED 500,000.",
+          "If financing: ~1% bank arrangement fee, ~AED 2,500–3,500 valuation, 0.25% mortgage registration.",
+          "Ongoing: annual service charges (per sq ft), which affect net yield.",
+        ],
+      },
+      {
+        heading: "Step 4: The buying process, step by step",
+        body: [
+          "For a ready (resale) property, the process is fast and typically completes in two to six weeks. Off-plan follows a slightly different path centred on the developer and escrow.",
+          "Working with a RERA-registered broker keeps each stage compliant and protects your interests, particularly on price, contract terms and verification.",
+        ],
+        bullets: [
+          "1. Agree terms and sign a Memorandum of Understanding (Form F), paying a ~10% deposit.",
+          "2. The seller obtains a No Objection Certificate (NOC) from the developer.",
+          "3. Both parties attend the DLD or a registration trustee to transfer title.",
+          "4. Pay the balance; a new title deed is issued in your name.",
+          "Off-plan variant: reserve the unit, sign the developer's SPA, register (Oqood), then pay instalments into escrow until handover.",
+        ],
+      },
+      {
+        heading: "Step 5: Residency, management and exit",
+        body: [
+          "Once you own, three things are worth planning: residency, management and your eventual exit. An investment of AED 2 million or more qualifies you for a renewable 10-year Golden Visa, which also lets you sponsor family.",
+          "If you're letting the property, a management company can handle tenants, maintenance and (where permitted) short-term holiday lets, which can lift gross income. When you sell, there is no capital gains tax, and prime communities tend to offer the deepest, most liquid resale demand.",
+        ],
+      },
+      {
+        heading: "Common mistakes to avoid",
+        body: [
+          "Most disappointing outcomes trace back to a handful of avoidable errors. Being aware of them is half the protection.",
+        ],
+        bullets: [
+          "Ignoring service charges — a cheap unit with high charges can underperform a pricier one with efficient charges.",
+          "Chasing headline yield without checking real tenant demand and building quality.",
+          "Over-leveraging, so repayments outpace rent in a softer month.",
+          "Buying off-plan from an unproven developer with a weak delivery record.",
+          "Skipping local advice and buying the wrong unit in the right community.",
         ],
       },
     ],
@@ -269,18 +340,41 @@ export const mockPosts: BlogPost[] = [
       {
         question: "How much money do I need to invest in Dubai real estate?",
         answer:
-          "You can enter the Dubai market from around AED 700,000 for a studio or one-bedroom apartment in a value community like JVC, plus 6–8% in fees. Prime areas and villas require significantly more.",
+          "You can enter the Dubai market from around AED 700,000 for a studio or one-bedroom apartment in a value community like JVC, plus 6–8% in fees. Prime apartments and villas require significantly more, up to AED 100 million or beyond for trophy homes.",
       },
       {
         question: "Is Dubai real estate a good investment in 2026?",
         answer:
-          "Dubai combines high rental yields, no annual property or rental income tax, a growing population and residency incentives such as the Golden Visa, which continue to make it one of the most attractive real estate markets globally for investors.",
+          "Dubai combines high rental yields, no annual property or rental income tax, a growing population and residency incentives such as the Golden Visa, which continue to make it one of the most attractive real estate markets globally for medium- to long-term investors.",
       },
       {
-        question: "Can foreigners invest in Dubai real estate?",
+        question: "Can foreigners invest in and own Dubai real estate?",
         answer:
           "Yes. Foreign nationals can invest in and fully own property in Dubai's designated freehold areas, with title registered at the Dubai Land Department and no requirement for a local partner.",
       },
+      {
+        question: "What rental yield can I expect in Dubai?",
+        answer:
+          "Gross rental yields in Dubai commonly range from about 6% to 9% for well-chosen apartments, higher than most global cities, though net yield depends on service charges and vacancy.",
+      },
+      {
+        question: "Do I pay tax on a Dubai investment property?",
+        answer:
+          "There is no annual property tax, no capital gains tax and no tax on rental income for individuals in Dubai. The main charge is a one-off 4% Dubai Land Department transfer fee at purchase. Always check your home country's tax rules on overseas income.",
+      },
+      {
+        question: "Should I buy ready or off-plan property?",
+        answer:
+          "Ready property gives immediate rental income and certainty; off-plan offers lower entry prices, payment plans and capital-growth potential with escrow protection. Many investors hold both to balance income and growth.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Best areas to invest in Dubai for rental yield", href: "/blog/best-areas-to-invest-in-dubai-for-rental-yield" },
+      { label: "Off-plan vs ready property in Dubai", href: "/blog/off-plan-vs-ready-property-in-dubai" },
+      { label: "How much does it cost to buy property in Dubai?", href: "/blog/how-much-does-it-cost-to-buy-property-in-dubai" },
+      { label: "Dubai Golden Visa through property", href: "/blog/dubai-golden-visa-through-property" },
+      { label: "Explore Dubai communities", href: "/areas" },
+      { label: "Browse property types", href: "/property" },
     ],
     keywords: [
       "how to invest in Dubai real estate",

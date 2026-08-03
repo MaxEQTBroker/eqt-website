@@ -109,6 +109,21 @@ export default async function BlogPostPage({
             {post.intro}
           </p>
 
+          {/* Key takeaways */}
+          {post.keyTakeaways && post.keyTakeaways.length > 0 && (
+            <div className="mt-10 rounded-lg border border-line bg-elevated p-7 md:p-8">
+              <p className="eyebrow mb-4">Key takeaways</p>
+              <ul className="space-y-3">
+                {post.keyTakeaways.map((point, i) => (
+                  <li key={i} className="flex gap-3 text-lg leading-relaxed text-ink">
+                    <span className="mt-1 text-accent-500">—</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {/* Body */}
           <div className="mt-14 space-y-14">
             {post.sections.map((section) => (
@@ -124,6 +139,16 @@ export default async function BlogPostPage({
                       </p>
                     ))}
                   </div>
+                  {section.bullets && section.bullets.length > 0 && (
+                    <ul className="mt-5 space-y-2.5">
+                      {section.bullets.map((b, i) => (
+                        <li key={i} className="flex gap-3 text-lg leading-relaxed text-muted">
+                          <span className="mt-1 text-accent-500">•</span>
+                          <span>{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </section>
               </Reveal>
             ))}
@@ -148,6 +173,26 @@ export default async function BlogPostPage({
                   </details>
                 ))}
               </div>
+            </div>
+          )}
+
+          {/* Related internal links */}
+          {post.relatedLinks && post.relatedLinks.length > 0 && (
+            <div className="mt-16 border-t border-line pt-12">
+              <p className="eyebrow mb-6">Explore next</p>
+              <ul className="grid gap-3 sm:grid-cols-2">
+                {post.relatedLinks.map((l) => (
+                  <li key={l.href}>
+                    <Link
+                      href={l.href}
+                      className="group flex items-center justify-between gap-4 rounded-lg border border-line px-5 py-4 text-ink transition-colors hover:border-accent-500"
+                    >
+                      <span>{l.label}</span>
+                      <span className="text-accent-500 transition-transform group-hover:translate-x-0.5">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           )}
 
