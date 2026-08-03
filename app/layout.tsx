@@ -57,6 +57,12 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
+  // Google Search Console verification. Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+  // (in Vercel env vars) to the token Google gives you under the "HTML tag"
+  // method; when unset, no tag is emitted.
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+  },
 };
 
 /**
