@@ -3,101 +3,89 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
-  getAllDeveloperSlugs,
+  getAllPropertyTypeSlugs,
   getAreaBySlug,
-  getDeveloperBySlug,
+  getPropertyGuideBySlug,
+  queryListings,
 } from "@/lib/data/repository";
+import { ListingCard } from "@/components/ui/ListingCard";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
-import {
-  BreadcrumbJsonLd,
-  DeveloperJsonLd,
-  FaqJsonLd,
-} from "@/lib/seo/jsonld";
+import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
 
 export async function generateStaticParams() {
-  const slugs = await getAllDeveloperSlugs();
-  return slugs.map((slug) => ({ slug }));
+  const slugs = await getAllPropertyTypeSlugs();
+  return slugs.map((type) => ({ type }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ type: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const dev = await getDeveloperBySlug(slug);
-  if (!dev) return {};
+  const { type } = await params;
+  const guide = await getPropertyGuideBySlug(type);
+  if (!guide) return {};
   return {
-    title: `${dev.name}, Developer Guide & Properties for Sale`,
-    description: dev.intro.slice(0, 155),
-    keywords: dev.keywords,
-    alternates: { canonical: `/developers/${dev.slug}` },
+    title: guide.title,
+    description: guide.intro.slice(0, 155),
+    keywords: guide.keywords,
+    alternates: { canonical: `/property/${guide.slug}` },
     openGraph: {
-      title: `${dev.name}, ${site.name}`,
-      description: dev.tagline,
-      images: [dev.heroImage.url],
+      title: `${guide.title}, ${site.name}`,
+      description: guide.headline,
+      images: [guide.heroImage.url],
     },
   };
 }
 
-export default async function DeveloperPage({
+export default async function PropertyTypePage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ type: string }>;
 }) {
-  const { slug } = await params;
-  const dev = await getDeveloperBySlug(slug);
-  if (!dev) notFound();
+  const { type } = await params;
+  const guide = await getPropertyGuideBySlug(type);
+  if (!guide) notFound();
 
-  // Resolve related community labels (only those that exist as area guides).
-  const relatedAreas = (
-    await Promise.all((dev.relatedAreas ?? []).map((s) => getAreaBySlug(s)))
-  ).filter((a): a is NonNullable<typeof a> => a !== null);
+  const [listings, relatedAreas] = await Promise.all([
+    guide.listingType ? queryListings({ type: guide.listingType }) : Promise.resolve([]),
+    Promise.all((guide.relatedAreas ?? []).map((s) => getAreaBySlug(s))).then((r) =>
+      r.filter((a): a is NonNullable<typeof a> => a !== null),
+    ),
+  ]);
 
   return (
     <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Developers", path: "/developers" },
-          { name: dev.name, path: `/developers/${dev.slug}` },
+          { name: "Property types", path: "/property" },
+          { name: guide.label, path: `/property/${guide.slug}` },
         ]}
       />
-      <DeveloperJsonLd developer={dev} />
-      <FaqJsonLd faqs={dev.faqs} />
+      <FaqJsonLd faqs={guide.faqs} />
 
       {/* Hero */}
       <section className="relative flex min-h-[62svh] items-end overflow-hidden">
-        <div className="absolute inset-0" style={{ backgroundColor: dev.heroImage.tone }}>
+        <div className="absolute inset-0" style={{ backgroundColor: guide.heroImage.tone }}>
           <Image
-            src={dev.heroImage.url}
-            alt={dev.heroImage.alt}
+            src={guide.heroImage.url}
+            alt={guide.heroImage.alt}
             fill
             priority
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-x-0 bottom-0 h-2/3" style={{ backgroundColor: "rgba(227,219,200,0.7)" }} />
+          <div className="absolute inset-x-0 bottom-0 h-2/3" style={{ backgroundColor: "rgba(227,219,200,0.68)" }} />
         </div>
         <div className="container-lux relative z-10 pb-14 pt-40">
-          {dev.logo && (
-            <div className="mb-6 flex h-14 items-center">
-              <Image
-                src={dev.logo}
-                alt={`${dev.name} logo`}
-                width={220}
-                height={56}
-                className="max-h-12 w-auto object-contain"
-              />
-            </div>
-          )}
-          <p className="eyebrow mb-4">Developer guide</p>
+          <p className="eyebrow mb-4">Property guide</p>
           <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.25rem,6vw,5rem)" }}>
-            {dev.name}
+            {guide.title}
           </h1>
-          <p className="mt-6 max-w-2xl text-xl text-muted">{dev.tagline}</p>
+          <p className="mt-6 max-w-2xl text-xl text-muted">{guide.headline}</p>
         </div>
       </section>
 
@@ -105,12 +93,12 @@ export default async function DeveloperPage({
       <section className="container-lux py-[var(--section-py)]">
         <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-20">
           <Reveal>
-            <p className="text-lg leading-relaxed text-muted">{dev.intro}</p>
-            {dev.keywords && dev.keywords.length > 0 && (
+            <p className="text-lg leading-relaxed text-muted">{guide.intro}</p>
+            {guide.keywords && guide.keywords.length > 0 && (
               <div className="mt-8">
                 <p className="eyebrow mb-3">Popular searches</p>
                 <ul className="flex flex-wrap gap-2">
-                  {dev.keywords.map((kw) => (
+                  {guide.keywords.map((kw) => (
                     <li
                       key={kw}
                       className="rounded-full border border-line bg-elevated px-4 py-1.5 text-sm text-muted"
@@ -126,7 +114,7 @@ export default async function DeveloperPage({
             <div className="rounded-lg border border-line bg-elevated p-8">
               <p className="eyebrow mb-6">Key facts</p>
               <dl className="space-y-5">
-                {dev.keyFacts.map((fact) => (
+                {guide.keyFacts.map((fact) => (
                   <div key={fact.label} className="flex flex-col gap-1 border-b border-line pb-4 last:border-0 last:pb-0">
                     <dt className="text-sm text-faint">{fact.label}</dt>
                     <dd className="text-ink">{fact.value}</dd>
@@ -138,25 +126,25 @@ export default async function DeveloperPage({
         </div>
       </section>
 
-      {/* Signature developments */}
-      {dev.signature.length > 0 && (
+      {/* Available listings of this type */}
+      {listings.length > 0 && (
         <section className="border-t border-line bg-elevated">
           <div className="container-lux py-[var(--section-py)]">
-            <Reveal>
-              <p className="eyebrow mb-4">Signature developments</p>
-              <h2 className="display-h2 max-w-[18ch] text-ink">
-                What {dev.name} is known for
-              </h2>
-            </Reveal>
-            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {dev.signature.map((item, i) => (
-                <Reveal key={item} delay={(i % 3) * 80}>
-                  <div className="flex items-start gap-4 rounded-lg border border-line bg-base p-6">
-                    <span className="font-display text-2xl text-accent-500">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <span className="text-ink">{item}</span>
-                  </div>
+            <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+              <Reveal>
+                <p className="eyebrow mb-4">Available now</p>
+                <h2 className="display-h2 max-w-[16ch] text-ink">{guide.label} for sale</h2>
+              </Reveal>
+              <Reveal delay={100}>
+                <Link href="/listings" className="btn btn-ghost">
+                  All listings
+                </Link>
+              </Reveal>
+            </div>
+            <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {listings.map((listing, i) => (
+                <Reveal key={listing.slug} delay={(i % 3) * 90}>
+                  <ListingCard listing={listing} />
                 </Reveal>
               ))}
             </div>
@@ -164,13 +152,13 @@ export default async function DeveloperPage({
         </section>
       )}
 
-      {/* Related communities */}
+      {/* Best communities for this type */}
       {relatedAreas.length > 0 && (
         <section className="container-lux py-[var(--section-py)]">
           <Reveal>
-            <p className="eyebrow mb-4">Where they build</p>
+            <p className="eyebrow mb-4">Where to look</p>
             <h2 className="display-h2 max-w-[18ch] text-ink">
-              Communities by {dev.name}
+              Best communities for {guide.label.toLowerCase()}
             </h2>
           </Reveal>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -203,17 +191,17 @@ export default async function DeveloperPage({
       )}
 
       {/* FAQ */}
-      {dev.faqs.length > 0 && (
+      {guide.faqs.length > 0 && (
         <section className="border-t border-line bg-elevated">
           <div className="container-lux py-[var(--section-py)]">
             <Reveal>
               <p className="eyebrow mb-4">Good to know</p>
-              <h2 className="display-h2 max-w-[16ch] text-ink">
-                {dev.name} questions, answered
+              <h2 className="display-h2 max-w-[18ch] text-ink">
+                {guide.label} in Dubai, answered
               </h2>
             </Reveal>
             <div className="mt-12 divide-y divide-line border-y border-line">
-              {dev.faqs.map((faq) => (
+              {guide.faqs.map((faq) => (
                 <Reveal key={faq.question}>
                   <details className="group py-6">
                     <summary className="flex cursor-pointer list-none items-center justify-between gap-6 font-display text-2xl text-ink">
@@ -234,16 +222,18 @@ export default async function DeveloperPage({
       {/* Enquiry CTA with embedded lead form */}
       <section id="enquire" className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[1fr_1.1fr] lg:gap-20">
         <Reveal>
-          <p className="eyebrow mb-4">Interested in {dev.name}?</p>
+          <p className="eyebrow mb-4">Looking for {guide.label.toLowerCase()}?</p>
           <h2 className="display-h2 max-w-[14ch] text-ink">
-            Access {dev.name} launches &amp; resale
+            Tell us your brief
           </h2>
           <p className="mt-6 max-w-md text-lg text-muted">
-            Tell us your brief and we&apos;ll send a private selection, from off-plan
-            allocations to the best resale opportunities. Prefer to talk now?
+            Share what you&apos;re after and we&apos;ll send a private shortlist of
+            {" "}
+            {guide.label.toLowerCase()} matched to your budget and preferred
+            communities, usually within the hour.
           </p>
           <a
-            href={whatsappLink(`Hello ${site.name}, I'd like to enquire about ${dev.name}.`)}
+            href={whatsappLink(`Hello ${site.name}, I'm looking for ${guide.label.toLowerCase()} in Dubai.`)}
             className="link-whatsapp mt-6 inline-block"
             target="_blank"
             rel="noopener noreferrer"

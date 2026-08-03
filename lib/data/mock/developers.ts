@@ -336,4 +336,155 @@ export const mockDevelopers: Developer[] = [
       tone: "#d7d3cb",
     },
   },
+  {
+    slug: "select-group",
+    name: "Select Group",
+    tagline: "Waterfront towers in Dubai Marina",
+    intro:
+      "Select Group is a leading private developer best known for its waterfront residential towers in Dubai Marina, including the landmark Marina Gate and Jumeirah Living Marina Gate. Its focus on prime, well-connected waterfront locations and hospitality-grade amenities has made it a trusted name for apartments and penthouses.",
+    keyFacts: [
+      { label: "Signature", value: "Marina Gate, Dubai Marina" },
+      { label: "Segments", value: "Apartments, penthouses, branded residences" },
+      { label: "Known for", value: "Prime waterfront towers" },
+      { label: "Best for", value: "Marina & Harbour apartments" },
+    ],
+    signature: [
+      "Marina Gate",
+      "Jumeirah Living Marina Gate",
+      "Six Senses Residences",
+      "Peninsula, Business Bay",
+    ],
+    relatedAreas: ["dubai-marina", "business-bay"],
+    faqs: [
+      {
+        question: "What is Select Group known for in Dubai?",
+        answer:
+          "Select Group is known for prime waterfront residential towers, especially the Marina Gate development in Dubai Marina, as well as branded and hospitality-led residences across the city.",
+      },
+    ],
+    keywords: [
+      "Select Group properties for sale",
+      "Marina Gate apartment",
+      "Six Senses Residences Dubai",
+      "Peninsula Business Bay",
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1920&q=80",
+      alt: "Contemporary waterfront apartment interior in Dubai Marina",
+      tone: "#d8d6d0",
+    },
+  },
+  {
+    slug: "binghatti",
+    name: "Binghatti",
+    tagline: "Bold design and hyper-branded towers",
+    intro:
+      "Binghatti is a fast-growing Dubai developer known for its distinctive architecture and a wave of high-profile branded partnerships, including Bugatti, Mercedes-Benz and Jacob & Co. With a large pipeline across JVC, Business Bay and Downtown, it has become one of the most active names in the off-plan market.",
+    keyFacts: [
+      { label: "Known for", value: "Distinctive design, branded towers" },
+      { label: "Partners", value: "Bugatti, Mercedes-Benz, Jacob & Co" },
+      { label: "Segments", value: "Apartments, branded residences" },
+      { label: "Best for", value: "Off-plan & branded investment" },
+    ],
+    signature: [
+      "Bugatti Residences, Business Bay",
+      "Mercedes-Benz Places",
+      "Binghatti Hills",
+      "Jacob & Co Residences",
+    ],
+    relatedAreas: ["business-bay", "jumeirah-village-circle", "downtown-dubai"],
+    faqs: [
+      {
+        question: "Is Binghatti a good developer to invest with?",
+        answer:
+          "Binghatti is one of Dubai's most active developers, known for eye-catching architecture and branded residences with partners like Bugatti and Mercedes-Benz, offering a broad off-plan pipeline aimed at investors.",
+      },
+    ],
+    keywords: [
+      "Binghatti properties for sale",
+      "Bugatti Residences Dubai",
+      "Binghatti off-plan",
+      "Binghatti JVC apartment",
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1512699355324-f07e3106dae5?w=1920&q=80",
+      alt: "Striking illuminated residential tower at dusk",
+      tone: "#161822",
+    },
+  },
+  {
+    slug: "dubai-properties",
+    name: "Dubai Properties",
+    tagline: "Master communities across the city",
+    intro:
+      "Dubai Properties, part of Dubai Holding, has shaped some of the city's best-known destinations, including Jumeirah Beach Residence (JBR), Business Bay, Dubailand and Villanova. Its large-scale master communities span waterfront apartments to family villas, offering breadth across price points and lifestyles.",
+    keyFacts: [
+      { label: "Group", value: "Dubai Holding" },
+      { label: "Signature", value: "JBR, Business Bay" },
+      { label: "Segments", value: "Apartments, villas, townhouses" },
+      { label: "Best for", value: "Established master communities" },
+    ],
+    signature: [
+      "Jumeirah Beach Residence (JBR)",
+      "Business Bay",
+      "Villanova",
+      "Mudon",
+    ],
+    relatedAreas: ["business-bay", "dubai-marina"],
+    faqs: [
+      {
+        question: "What has Dubai Properties developed?",
+        answer:
+          "Dubai Properties, part of Dubai Holding, developed Jumeirah Beach Residence (JBR) and major districts within Business Bay and Dubailand, along with family communities such as Villanova and Mudon.",
+      },
+    ],
+    keywords: [
+      "Dubai Properties for sale",
+      "JBR apartment",
+      "Villanova townhouse",
+      "Dubai Holding developer",
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1920&q=80",
+      alt: "Waterfront residential district beside the sea",
+      tone: "#c9cdcf",
+    },
+  },
+  {
+    slug: "aldar",
+    name: "Aldar Properties",
+    tagline: "Abu Dhabi's leading developer, now in Dubai",
+    intro:
+      "Aldar Properties is the largest developer in Abu Dhabi and an increasingly significant player in Dubai, with landmark acquisitions and launches on Palm Jumeirah and beyond. Known for institutional-grade delivery and design partnerships, Aldar brings a blue-chip profile to Dubai's prime market.",
+    keyFacts: [
+      { label: "Base", value: "Abu Dhabi, expanding in Dubai" },
+      { label: "Known for", value: "Institutional-grade delivery" },
+      { label: "Segments", value: "Apartments, villas, branded residences" },
+      { label: "Best for", value: "Blue-chip primary launches" },
+    ],
+    signature: [
+      "Aldar on Palm Jumeirah",
+      "Haven by Aldar",
+      "Verdes, Dubai",
+    ],
+    relatedAreas: ["palm-jumeirah"],
+    faqs: [
+      {
+        question: "Is Aldar active in Dubai?",
+        answer:
+          "Yes. Aldar Properties, Abu Dhabi's largest developer, has expanded into Dubai with prime acquisitions and launches, including projects on Palm Jumeirah, bringing an institutional-grade track record to the market.",
+      },
+    ],
+    keywords: [
+      "Aldar properties Dubai",
+      "Aldar Palm Jumeirah",
+      "Haven by Aldar",
+      "Aldar off-plan",
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1920&q=80",
+      alt: "Modern waterfront residence with pool at dusk",
+      tone: "#dcdad3",
+    },
+  },
 ];

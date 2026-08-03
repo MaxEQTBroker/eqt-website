@@ -19,6 +19,7 @@ import type {
   Developer,
   Listing,
   ListingQuery,
+  PropertyGuide,
   SoldQuery,
   SoldRecord,
   TrustSignal,
@@ -27,6 +28,7 @@ import { mockListings } from "./mock/listings";
 import { mockSold } from "./mock/sold";
 import { mockAreas } from "./mock/areas";
 import { mockDevelopers } from "./mock/developers";
+import { mockPropertyTypes } from "./mock/propertyTypes";
 import { mockTrustSignals } from "./mock/trust";
 
 // ── Listings ──────────────────────────────────────────────────────────
@@ -107,6 +109,20 @@ export async function getDeveloperBySlug(slug: string): Promise<Developer | null
 
 export async function getAllDeveloperSlugs(): Promise<string[]> {
   return mockDevelopers.map((d) => d.slug);
+}
+
+// ── Property-type guides ──────────────────────────────────────────────
+
+export async function getPropertyGuides(): Promise<PropertyGuide[]> {
+  return mockPropertyTypes;
+}
+
+export async function getPropertyGuideBySlug(slug: string): Promise<PropertyGuide | null> {
+  return mockPropertyTypes.find((p) => p.slug === slug) ?? null;
+}
+
+export async function getAllPropertyTypeSlugs(): Promise<string[]> {
+  return mockPropertyTypes.map((p) => p.slug);
 }
 
 // ── Trust signals ─────────────────────────────────────────────────────

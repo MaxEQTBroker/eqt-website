@@ -122,14 +122,32 @@ export interface Developer {
   name: string;
   /** One-line positioning. */
   tagline: string;
-  /** Logo path in /public/brand/developers. */
-  logo: string;
+  /** Logo path in /public/brand/developers. Omit to render a text wordmark. */
+  logo?: string;
   /** Rich, indexable guide copy. */
   intro: string;
   keyFacts: { label: string; value: string }[];
   /** Signature developments / communities by this developer. */
   signature: string[];
   /** Slugs of related communities (link to /areas/[slug]). */
+  relatedAreas?: AreaSlug[];
+  faqs: { question: string; answer: string }[];
+  keywords?: string[];
+  heroImage: MediaImage;
+}
+
+/** A property-type / intent landing page (villas, penthouses, off-plan…). */
+export interface PropertyGuide {
+  slug: string;
+  label: string;
+  /** H1 / meta title. */
+  title: string;
+  headline: string;
+  intro: string;
+  /** When set, the page lists available listings of this type. */
+  listingType?: PropertyType;
+  keyFacts: { label: string; value: string }[];
+  /** Slugs of communities most associated with this property type. */
   relatedAreas?: AreaSlug[];
   faqs: { question: string; answer: string }[];
   keywords?: string[];

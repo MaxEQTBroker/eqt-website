@@ -148,7 +148,7 @@ export function DeveloperJsonLd({ developer }: { developer: Developer }) {
         "@type": "Organization",
         name: developer.name,
         description: developer.intro,
-        logo: absUrl(developer.logo),
+        ...(developer.logo ? { logo: absUrl(developer.logo) } : {}),
         url: `${site.url}/developers/${developer.slug}`,
         knowsAbout: developer.signature,
       }}

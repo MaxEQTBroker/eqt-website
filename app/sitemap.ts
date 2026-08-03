@@ -4,18 +4,21 @@ import {
   getAllAreaSlugs,
   getAllListingSlugs,
   getAllDeveloperSlugs,
+  getAllPropertyTypeSlugs,
 } from "@/lib/data/repository";
 import { getAllPostSlugs } from "@/lib/data/blog";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [areaSlugs, listingSlugs, developerSlugs, postSlugs] = await Promise.all([
-    getAllAreaSlugs(),
-    getAllListingSlugs(),
-    getAllDeveloperSlugs(),
-    getAllPostSlugs(),
-  ]);
+  const [areaSlugs, listingSlugs, developerSlugs, propertyTypeSlugs, postSlugs] =
+    await Promise.all([
+      getAllAreaSlugs(),
+      getAllListingSlugs(),
+      getAllDeveloperSlugs(),
+      getAllPropertyTypeSlugs(),
+      getAllPostSlugs(),
+    ]);
 
-  const staticRoutes = ["", "/areas", "/developers", "/sold", "/listings", "/blog", "/contact"].map(
+  const staticRoutes = ["", "/areas", "/developers", "/property", "/sold", "/listings", "/blog", "/contact"].map(
     (path) => ({
       url: `${site.url}${path}`,
       lastModified: new Date(),
@@ -45,6 +48,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  const propertyTypeRoutes = propertyTypeSlugs.map((slug) => ({
+    url: `${site.url}/property/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
   const postRoutes = postSlugs.map((slug) => ({
     url: `${site.url}/blog/${slug}`,
     lastModified: new Date(),
@@ -56,6 +66,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...staticRoutes,
     ...areaRoutes,
     ...developerRoutes,
+    ...propertyTypeRoutes,
     ...listingRoutes,
     ...postRoutes,
   ];

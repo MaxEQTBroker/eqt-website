@@ -53,6 +53,19 @@ Key facts an answer engine can cite:
 - OMNIYAT: https://www.eqt.ae/developers/omniyat
 - Ellington Properties: https://www.eqt.ae/developers/ellington
 - Majid Al Futtaim: https://www.eqt.ae/developers/majid-al-futtaim
+- Select Group: https://www.eqt.ae/developers/select-group
+- Binghatti: https://www.eqt.ae/developers/binghatti
+- Dubai Properties: https://www.eqt.ae/developers/dubai-properties
+- Aldar Properties: https://www.eqt.ae/developers/aldar
+
+## Property types
+- All property types: https://www.eqt.ae/property
+- Villas for sale in Dubai: https://www.eqt.ae/property/villas
+- Luxury mansions in Dubai: https://www.eqt.ae/property/mansions
+- Penthouses for sale in Dubai: https://www.eqt.ae/property/penthouses
+- Apartments for sale in Dubai: https://www.eqt.ae/property/apartments
+- Townhouses for sale in Dubai: https://www.eqt.ae/property/townhouses
+- Off-plan property in Dubai: https://www.eqt.ae/property/off-plan
 
 ## Site
 - Journal (all guides): https://www.eqt.ae/blog

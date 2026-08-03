@@ -45,13 +45,19 @@ export default async function DevelopersIndexPage() {
                 className="group flex h-full flex-col justify-between rounded-lg border border-line bg-elevated p-8 transition-colors duration-300 hover:border-accent-500"
               >
                 <div className="flex h-16 items-center">
-                  <Image
-                    src={dev.logo}
-                    alt={`${dev.name} logo`}
-                    width={200}
-                    height={64}
-                    className="max-h-12 w-auto object-contain opacity-80 transition-opacity duration-300 group-hover:opacity-100"
-                  />
+                  {dev.logo ? (
+                    <Image
+                      src={dev.logo}
+                      alt={`${dev.name} logo`}
+                      width={200}
+                      height={64}
+                      className="max-h-12 w-auto object-contain opacity-80 transition-opacity duration-300 group-hover:opacity-100"
+                    />
+                  ) : (
+                    <span className="font-display text-2xl text-ink opacity-80 transition-opacity duration-300 group-hover:opacity-100">
+                      {dev.name}
+                    </span>
+                  )}
                 </div>
                 <div className="mt-8">
                   <h2 className="font-display text-2xl text-ink">{dev.name}</h2>
