@@ -3,7 +3,7 @@
 import { useEffect, useRef, type ElementType } from "react";
 
 /**
- * Heading whose letters materialise like smoke on scroll-in — each glyph fades
+ * Heading whose letters materialise like smoke on scroll-in, each glyph fades
  * up from a blur with a randomised delay. Content-first: the full text is
  * server-rendered (split into spans, so it's real, selectable, crawlable text);
  * the animation is applied only on capable clients after hydration. Static under

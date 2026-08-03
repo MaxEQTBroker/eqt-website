@@ -9,7 +9,7 @@ export const site = {
   legalName: "EQT Real Estate Brokerage LLC",
   tagline: "Dubai's most exceptional addresses",
   description:
-    "EQT is a Dubai luxury real estate brokerage specialising in the emirate's most exclusive communities — Palm Jumeirah, Al Barari and Jumeirah Islands. Private sales, curated portfolios and a proven track record.",
+    "EQT is a Dubai luxury real estate brokerage specialising in the emirate's most exclusive communities, Palm Jumeirah, Al Barari and Jumeirah Islands. Private sales, curated portfolios and a proven track record.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.eqt.ae",
   locale: "en_AE",
 
@@ -25,11 +25,11 @@ export const site = {
     },
   },
 
-  // Regulatory proof — critical for trust signals & AEO fact extraction.
+  // Regulatory proof, critical for trust signals & AEO fact extraction.
   regulatory: {
     reraOrn: process.env.NEXT_PUBLIC_RERA_ORN ?? "00000",
     dedLicense: process.env.NEXT_PUBLIC_DED_LICENSE ?? "000000",
-    authority: "Dubai Land Department (DLD) — RERA",
+    authority: "Dubai Land Department (DLD), RERA",
   },
 
   social: {

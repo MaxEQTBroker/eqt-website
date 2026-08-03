@@ -8,13 +8,13 @@ const beats = [
   {
     kicker: "Access",
     line: "The best homes in Dubai are never advertised.",
-    body: "A significant share of prime transactions happen off-market. Our relationships across Palm Jumeirah, Al Barari and Jumeirah Islands mean you see them first — quietly, and before anyone else.",
+    body: "A significant share of prime transactions happen off-market. Our relationships across Palm Jumeirah, Al Barari and Jumeirah Islands mean you see them first, quietly, and before anyone else.",
     image: { url: "/images/palm-jumeirah/1.jpg", alt: "Palm Jumeirah villa with a long infinity pool" },
   },
   {
     kicker: "Discretion",
     line: "Private sales, handled privately.",
-    body: "From confidential introductions to closing, we protect your identity and your interests. No leaks, no noise — only the right buyer, or the right home.",
+    body: "From confidential introductions to closing, we protect your identity and your interests. No leaks, no noise, only the right buyer, or the right home.",
     image: { url: "/images/al-barari/3.jpg", alt: "Double-height Al Barari living room opening onto a garden" },
   },
 ];
@@ -35,7 +35,7 @@ export function Voice() {
             </div>
             <div className={right ? "md:order-1" : ""}>
               <p className="mb-6 text-xs uppercase tracking-[0.24em] text-accent-600">
-                0{i + 1} — {b.kicker}
+                0{i + 1}, {b.kicker}
               </p>
               <RevealText
                 as="h3"

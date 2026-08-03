@@ -3,7 +3,7 @@
 import { useEffect, useRef, type ReactNode } from "react";
 
 /**
- * Subtly scales its child as it passes through the viewport (gerax-style) — a
+ * Subtly scales its child as it passes through the viewport (gerax-style), a
  * slow zoom that adds life without motion noise. Pure enhancement; static under
  * reduced-motion. Best wrapped around an image inside an `overflow-hidden` box.
  */

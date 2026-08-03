@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import Lenis from "lenis";
 
 /**
- * Lenis smooth scroll — pure enhancement. Native scroll is used on mobile and
+ * Lenis smooth scroll, pure enhancement. Native scroll is used on mobile and
  * when the user prefers reduced motion, so the site never depends on it.
  */
 export function SmoothScroll() {

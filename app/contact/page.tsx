@@ -7,7 +7,7 @@ import { site, whatsappLink } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Speak with a private advisor at EQT — WhatsApp, email or phone. Dubai luxury real estate across Palm Jumeirah, Al Barari and Jumeirah Islands.",
+    "Speak with a private advisor at EQT, WhatsApp, email or phone. Dubai luxury real estate across Palm Jumeirah, Al Barari and Jumeirah Islands.",
   alternates: { canonical: "/contact" },
 };
 

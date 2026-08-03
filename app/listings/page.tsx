@@ -61,7 +61,7 @@ export default async function ListingsPage({
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
           A deliberately small, hand-selected collection across Dubai&apos;s most
-          exclusive communities. Many of our best homes are off-market — ask us.
+          exclusive communities. Many of our best homes are off-market, ask us.
         </p>
       </section>
 
@@ -92,7 +92,7 @@ export default async function ListingsPage({
         ) : (
           <div className="rounded-lg border border-line bg-elevated p-12 text-center">
             <h2 className="font-display text-2xl text-ink">
-              Nothing on-market matches — but we likely have it off-market.
+              Nothing on-market matches, but we likely have it off-market.
             </h2>
             <p className="mx-auto mt-3 max-w-md text-muted">
               A large share of prime Dubai stock never gets advertised. Tell us

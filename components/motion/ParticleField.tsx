@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 
 /**
  * Minimalist constellation: drifting particles joined by thin "flowing" lines
- * when they come near. Pure decoration on a <canvas> — progressive enhancement,
+ * when they come near. Pure decoration on a <canvas>, progressive enhancement,
  * aria-hidden, non-interactive. Fewer particles on mobile; a single static
  * frame under prefers-reduced-motion.
  */

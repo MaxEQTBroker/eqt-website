@@ -4,7 +4,7 @@ import { useEffect, useRef, type ReactNode } from "react";
 
 /**
  * Scroll-linked "spin + drift": as the element scrolls up past the viewport it
- * turns on the Y axis, drifts to the left and gently scales/fades — a cinematic
+ * turns on the Y axis, drifts to the left and gently scales/fades, a cinematic
  * pass-by. Content is server-rendered and untouched under reduced-motion.
  */
 export function ScrollSpinDrift({

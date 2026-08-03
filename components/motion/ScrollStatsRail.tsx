@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 /**
  * Big, bold stat rails on BOTH sides. The numbers CLIMB with scroll position
  * (0 at top → full at bottom). As the visitor nears the end of the page the two
- * rails slide toward the centre and fade — "converging" into the video stats
+ * rails slide toward the centre and fade, "converging" into the video stats
  * finale. Desktop-only, non-blocking, disabled under prefers-reduced-motion.
  */
 type Stat = {

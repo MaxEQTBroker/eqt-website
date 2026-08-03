@@ -3,7 +3,7 @@ import Image from "next/image";
 import { getAreas } from "@/lib/data/repository";
 import { Reveal } from "@/components/motion/Reveal";
 
-/** Curated communities strip — primary internal linking to area guides. */
+/** Curated communities strip, primary internal linking to area guides. */
 export async function AreasStrip() {
   const areas = await getAreas();
   return (

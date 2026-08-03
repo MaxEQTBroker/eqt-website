@@ -1,5 +1,5 @@
 /**
- * Infinite horizontal marquee (server component — pure CSS). Items are rendered
+ * Infinite horizontal marquee (server component, pure CSS). Items are rendered
  * twice and translated -50% for a seamless loop; pauses on hover and under
  * reduced-motion (see .marquee-track in globals.css).
  */

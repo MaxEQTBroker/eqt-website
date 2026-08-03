@@ -17,7 +17,7 @@ export async function FeaturedListings() {
         poster="/videos/featured-poster.jpg"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      {/* Flat wash (no gradient) — lets the footage read through. */}
+      {/* Flat wash (no gradient), lets the footage read through. */}
       <div className="absolute inset-0" style={{ backgroundColor: "rgba(20,16,10,0.34)" }} />
 
       <div className="container-lux relative z-10">

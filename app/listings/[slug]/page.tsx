@@ -29,11 +29,11 @@ export async function generateMetadata({
   const listing = await getListingBySlug(slug);
   if (!listing) return {};
   return {
-    title: `${listing.title} — ${listing.areaLabel}`,
+    title: `${listing.title}, ${listing.areaLabel}`,
     description: listing.summary,
     alternates: { canonical: `/listings/${listing.slug}` },
     openGraph: {
-      title: `${listing.title} — ${site.name}`,
+      title: `${listing.title}, ${site.name}`,
       description: listing.summary,
       images: listing.images.map((img) => img.url),
     },
@@ -151,7 +151,7 @@ export default async function ListingDetailPage({
                 Email us
               </a>
 
-              {/* Permit number — legally required on Dubai listings */}
+              {/* Permit number, legally required on Dubai listings */}
               <p className="mt-6 text-center text-xs text-faint">
                 Permit No.{" "}
                 <span className="text-muted">{listing.permitNumber}</span>

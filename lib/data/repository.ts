@@ -4,7 +4,7 @@
  * │                                                                      │
  * │  This is the ONLY module that knows where data comes from. Today it  │
  * │  returns mock data. To wire the CRM later, replace the bodies below  │
- * │  with fetches to the `public_listings` / `public_sold` views — the   │
+ * │  with fetches to the `public_listings` / `public_sold` views, the   │
  * │  function signatures and return types stay identical, so no          │
  * │  component or page needs to change.                                  │
  * │                                                                      │

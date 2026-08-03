@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from "framer-motion";
 
 /**
  * Route-transition wrapper. `template.tsx` re-mounts on every navigation, so
- * each page fades/slides in when you click through — site-wide, and honouring
+ * each page fades/slides in when you click through, site-wide, and honouring
  * prefers-reduced-motion. (Only page content is wrapped; the fixed header,
  * footer and rails live in layout.tsx and are unaffected.)
  */

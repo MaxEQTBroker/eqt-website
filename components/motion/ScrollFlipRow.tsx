@@ -3,7 +3,7 @@
 import { Children, useEffect, useRef, type ReactNode } from "react";
 
 /**
- * A grid whose children FLIP IN ON SCROLL, one after another — like the "Where
+ * A grid whose children FLIP IN ON SCROLL, one after another, like the "Where
  * we operate" card, but sequential across the row. The rotation is tied to
  * scroll position (you set the pace by scrolling), single-face (never mirrors),
  * and fades in as each card turns to face you. SSR renders the cards normally;

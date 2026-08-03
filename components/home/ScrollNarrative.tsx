@@ -2,14 +2,14 @@ import Image from "next/image";
 import { Reveal } from "@/components/motion/Reveal";
 
 /**
- * Editorial narrative — oversized statements paired with real photography.
+ * Editorial narrative, oversized statements paired with real photography.
  * A gentle reveal on scroll (no flowing lines); image + text fade up in place.
  */
 const beats = [
   {
-    kicker: "01 — Access",
+    kicker: "01, Access",
     line: "The best homes in Dubai are never advertised.",
-    body: "A significant share of prime transactions happen off-market. Our relationships across Palm Jumeirah, Al Barari and Jumeirah Islands mean you see them first — quietly, and before anyone else.",
+    body: "A significant share of prime transactions happen off-market. Our relationships across Palm Jumeirah, Al Barari and Jumeirah Islands mean you see them first, quietly, and before anyone else.",
     image: {
       url: "/images/palm-jumeirah/1.jpg",
       alt: "Palm Jumeirah signature villa with a long infinity pool",
@@ -17,9 +17,9 @@ const beats = [
     },
   },
   {
-    kicker: "02 — Discretion",
+    kicker: "02, Discretion",
     line: "Private sales, handled privately.",
-    body: "From confidential introductions to closing, we protect your identity and your interests. No leaks, no noise — only the right buyer or the right home.",
+    body: "From confidential introductions to closing, we protect your identity and your interests. No leaks, no noise, only the right buyer or the right home.",
     image: {
       url: "/images/al-barari/1.jpg",
       alt: "Al Barari villa entrance framed by mature palms",
@@ -27,9 +27,9 @@ const beats = [
     },
   },
   {
-    kicker: "03 — Proof",
+    kicker: "03, Proof",
     line: "A track record you can verify.",
-    body: "Every mandate is backed by real, completed transactions across Dubai's most exclusive communities — with the numbers, and the homes, to prove it.",
+    body: "Every mandate is backed by real, completed transactions across Dubai's most exclusive communities, with the numbers, and the homes, to prove it.",
     image: {
       url: "/images/al-barari/3.jpg",
       alt: "Double-height villa living room opening onto a garden",

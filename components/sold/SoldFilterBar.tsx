@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Area, AreaSlug } from "@/lib/data/types";
 
-/** Price bands used for filtering — kept as clean URL tokens, not raw numbers. */
+/** Price bands used for filtering, kept as clean URL tokens, not raw numbers. */
 export const PRICE_BANDS = [
   { token: "all", label: "Any price", minPriceAed: undefined, maxPriceAed: undefined },
   { token: "sub-30", label: "Under AED 30M", minPriceAed: undefined, maxPriceAed: 30_000_000 },

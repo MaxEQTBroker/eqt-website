@@ -35,7 +35,7 @@ export function EditorialListingCard({ listing }: { listing: Listing }) {
         <p className="mt-2 text-sm text-faint">
           {listing.areaLabel} · {listing.bedrooms} bed · {formatSqft(listing.areaSqft)}
         </p>
-        <a href={wa} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp mt-5 w-full">
+        <a href={wa} target="_blank" rel="noopener noreferrer" className="link-quiet mt-6 self-start">
           Enquire on WhatsApp
         </a>
       </div>

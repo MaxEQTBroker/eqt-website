@@ -5,7 +5,7 @@ import type { Listing } from "../types";
  * Al Barari use real photography from the brokerage's brochures; Jumeirah
  * Islands uses a flagged placeholder image pending real photos.
  *
- * Replaced later by the CRM `public_listings` view — field shapes mirror it.
+ * Replaced later by the CRM `public_listings` view, field shapes mirror it.
  */
 export const mockListings: Listing[] = [
   {
@@ -76,7 +76,7 @@ export const mockListings: Listing[] = [
     summary:
       "A newly delivered contemporary mansion wrapped in mature planting, with a double-height living gallery opening onto a private landscaped garden and pool.",
     description:
-      "Set within Dubai's greenest community, this contemporary mansion is enveloped by mature trees and landscaped gardens. A travertine-framed entrance opens to a double-height living gallery, a chef's kitchen, and full-height glazing that dissolves the line between inside and garden. Wellness suite, cinema and generous bedroom suites complete a home built for privacy and calm — minutes from DIFC and the Burj Khalifa.",
+      "Set within Dubai's greenest community, this contemporary mansion is enveloped by mature trees and landscaped gardens. A travertine-framed entrance opens to a double-height living gallery, a chef's kitchen, and full-height glazing that dissolves the line between inside and garden. Wellness suite, cinema and generous bedroom suites complete a home built for privacy and calm, minutes from DIFC and the Burj Khalifa.",
     highlights: [
       "Enveloped in mature landscaping",
       "Double-height living gallery",
@@ -174,7 +174,7 @@ export const mockListings: Listing[] = [
       "Landscaped garden and pool",
       "Gated, near Dubai Marina",
     ],
-    // PLACEHOLDER IMAGE — no Jumeirah Islands photography yet.
+    // PLACEHOLDER IMAGE, no Jumeirah Islands photography yet.
     images: [
       {
         url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80",

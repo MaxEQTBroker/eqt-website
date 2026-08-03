@@ -50,7 +50,7 @@ export const mockSold: SoldRecord[] = [
     bedrooms: 5,
     areaSqft: 6600,
     soldDate: "2026-06-01",
-    // PLACEHOLDER IMAGE — no Jumeirah Islands photography yet.
+    // PLACEHOLDER IMAGE, no Jumeirah Islands photography yet.
     image: {
       url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
       alt: "Waterfront villa (placeholder for Jumeirah Islands)",

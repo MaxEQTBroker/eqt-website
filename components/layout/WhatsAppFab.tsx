@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { site, whatsappLink } from "@/lib/site";
 
 /**
- * Thumb-friendly sticky WhatsApp button — the primary, mobile-first lead
+ * Thumb-friendly sticky WhatsApp button, the primary, mobile-first lead
  * capture. Fades in after the user scrolls past the hero.
  */
 export function WhatsAppFab() {

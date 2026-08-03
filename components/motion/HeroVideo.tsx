@@ -3,12 +3,12 @@
 import { useEffect, useRef } from "react";
 
 /**
- * Cinematic hero background video — enhancement only. The hero heading/CTAs are
+ * Cinematic hero background video, enhancement only. The hero heading/CTAs are
  * real server-rendered HTML on top; this is a muted, looping, decorative layer.
  *
  * - Poster (a real frame) shows instantly and remains if video never plays.
  * - JS picks the desktop or vertical-mobile source and starts playback.
- * - Under prefers-reduced-motion the video never loads — just the poster.
+ * - Under prefers-reduced-motion the video never loads, just the poster.
  */
 export function HeroVideo({
   desktopSrc,

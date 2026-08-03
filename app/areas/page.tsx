@@ -8,7 +8,7 @@ import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = {
   title: "Communities",
   description:
-    "Guides to Dubai's most exclusive communities — Palm Jumeirah, Al Barari and Jumeirah Islands. Track records, available homes and local insight.",
+    "Guides to Dubai's most exclusive communities, Palm Jumeirah, Al Barari and Jumeirah Islands. Track records, available homes and local insight.",
   alternates: { canonical: "/areas" },
 };
 
@@ -30,7 +30,7 @@ export default async function AreasIndexPage() {
           Dubai&apos;s most sought-after communities
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
-          We focus, deliberately, on four addresses — so we know each one
+          We focus, deliberately, on four addresses, so we know each one
           completely. Explore the guides, the track record, and what&apos;s
           currently available.
         </p>

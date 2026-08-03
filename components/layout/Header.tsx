@@ -40,7 +40,7 @@ export function Header() {
       }}
     >
       <div className="container-lux flex h-20 items-center justify-between">
-        {/* Left — Menu toggle */}
+        {/* Left, Menu toggle */}
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
@@ -58,7 +58,7 @@ export function Header() {
           </span>
         </button>
 
-        {/* Center — logo */}
+        {/* Center, logo */}
         <Link
           href="/"
           className="absolute left-1/2 flex -translate-x-1/2 items-center gap-2.5"
@@ -71,7 +71,7 @@ export function Header() {
           </span>
         </Link>
 
-        {/* Right — Inquire */}
+        {/* Right, Inquire */}
         <a
           href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
           target="_blank"

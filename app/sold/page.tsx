@@ -63,7 +63,7 @@ export default async function SoldPage({
           The sold portfolio
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
-          A record you can verify — completed sales across Dubai&apos;s most
+          A record you can verify, completed sales across Dubai&apos;s most
           exclusive communities. Confidential where required, always real.
         </p>
       </section>
@@ -98,7 +98,7 @@ export default async function SoldPage({
         ) : (
           <div className="rounded-lg border border-line bg-elevated p-12 text-center">
             <h2 className="font-display text-2xl text-ink">
-              No sales match this filter — yet.
+              No sales match this filter, yet.
             </h2>
             <p className="mx-auto mt-3 max-w-md text-muted">
               We complete confidential transactions regularly. Tell us what

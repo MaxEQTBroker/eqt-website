@@ -38,7 +38,7 @@ const albarari: Cand[] = [
   { id: "AB-10", url: "/images/_pick/al-barari/10.jpg", note: "brochure" },
 ];
 
-// Jumeirah Islands: no photos in the asset library — online candidates only.
+// Jumeirah Islands: no photos in the asset library, online candidates only.
 const jumeirah: Cand[] = [
   { id: "JI-01", url: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1400&q=80", note: "stock" },
   { id: "JI-02", url: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1400&q=80", note: "stock" },
@@ -81,12 +81,10 @@ export default function PickPage() {
           Pick the photos
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-muted">
-          Browse the numbered candidates below and just tell me the IDs you want —
-          e.g. &ldquo;Hero: PALM-03; Palm card: PALM-01; Al Barari: AB-07, AB-08;
+          Browse the numbered candidates below and just tell me the IDs you want, e.g. &ldquo;Hero: PALM-03; Palm card: PALM-01; Al Barari: AB-07, AB-08;
           Jumeirah Islands: JI-02, JI-05.&rdquo; Brochure shots are real; anything
           marked <em>stock</em> is a placeholder we can replace with real
-          photography later. A few Al Barari frames are brochure text-slides —
-          just skip those.
+          photography later. A few Al Barari frames are brochure text-slides, just skip those.
         </p>
       </section>
 
@@ -97,12 +95,12 @@ export default function PickPage() {
       />
       <Grid
         title="Al Barari"
-        note="Brochure frames — pick the clean photos (skip any with text)."
+        note="Brochure frames, pick the clean photos (skip any with text)."
         items={albarari}
       />
       <Grid
         title="Jumeirah Islands"
-        note="No photos in the library yet — online/stock candidates to choose from (or send a JI brochure and I'll pull real ones)."
+        note="No photos in the library yet, online/stock candidates to choose from (or send a JI brochure and I'll pull real ones)."
         items={jumeirah}
       />
     </>

@@ -50,7 +50,7 @@
   /* Layout — generous on desktop so content is never a thin ribbon on big
      monitors, while clamps keep it tight and mobile-first on small screens. */
   --content-max: 1600px;
-  --section-py: clamp(80px, 10vw, 200px);
+  --section-py: clamp(52px, 6vw, 112px);
 }
 
 /* Map tokens into the Tailwind v4 theme so utilities like `text-accent-500`,
@@ -210,14 +210,33 @@ h1, h2, h3 {
   background: #1fbc59;
 }
 
-/* "View" box that draws its border on hover (sprec-style) */
+/* "View" box that slowly draws its border on hover (sprec-style) */
 .draw-rect {
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
-  transition: stroke-dashoffset 0.7s var(--ease-lux);
+  transition: stroke-dashoffset 2.4s var(--ease-lux);
 }
 .group:hover .draw-rect {
   stroke-dashoffset: 0;
+}
+
+/* Minimal, "elite" text link (used for WhatsApp / enquiry CTAs) */
+.link-quiet {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-primary);
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--line);
+  transition: color var(--dur-fast) var(--ease-lux), border-color var(--dur-fast) var(--ease-lux);
+}
+.link-quiet:hover {
+  color: var(--accent-600);
+  border-color: var(--accent-500);
 }
 
 /* Marquee (scrolling strip) */

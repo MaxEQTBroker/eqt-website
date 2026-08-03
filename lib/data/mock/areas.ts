@@ -6,7 +6,7 @@ import type { Area } from "../types";
  *
  * Imagery: Palm Jumeirah + Al Barari use real photography from the brokerage's
  * sold-listing brochures (in /public/images). Jumeirah Islands has no photos in
- * the asset library yet — its hero image is a flagged placeholder to replace.
+ * the asset library yet, its hero image is a flagged placeholder to replace.
  */
 export const mockAreas: Area[] = [
   {
@@ -44,18 +44,18 @@ export const mockAreas: Area[] = [
     label: "Al Barari",
     headline: "Where Dubai exhales",
     intro:
-      "There is nowhere else in Dubai quite like Al Barari. In a city defined by ambition and density, this is the deliberate exception — more than 60% of the land surrendered to nature. Gardens, lakes and mature trees frame a small collection of custom villas and mansions, each opening onto green. The air is cooler, quieter, unhurried, and yet it is minutes from everything Dubai offers.",
+      "There is nowhere else in Dubai quite like Al Barari. In a city defined by ambition and density, this is the deliberate exception, more than 60% of the land surrendered to nature. Gardens, lakes and mature trees frame a small collection of custom villas and mansions, each opening onto green. The air is cooler, quieter, unhurried, and yet it is minutes from everything Dubai offers.",
     keyFacts: [
       { label: "Property types", value: "Custom villas & botanical mansions" },
       { label: "Typical price range", value: "AED 20M – 120M+" },
-      { label: "Setting", value: "60%+ landscaped — private gardens & lakes" },
+      { label: "Setting", value: "60%+ landscaped, private gardens & lakes" },
       { label: "Connectivity", value: "≈15 min to DIFC & Burj Khalifa" },
     ],
     faqs: [
       {
         question: "What is Al Barari known for?",
         answer:
-          "Al Barari is Dubai's greenest luxury community — more than 60% of its land is given over to landscaped gardens, themed lakes and mature trees, surrounding a limited number of large custom villas. It is prized for privacy, low density and a nature-led lifestyle.",
+          "Al Barari is Dubai's greenest luxury community, more than 60% of its land is given over to landscaped gardens, themed lakes and mature trees, surrounding a limited number of large custom villas. It is prized for privacy, low density and a nature-led lifestyle.",
       },
       {
         question: "How far is Al Barari from Downtown Dubai?",
@@ -74,7 +74,7 @@ export const mockAreas: Area[] = [
     label: "Jumeirah Islands",
     headline: "Villa living, wrapped in water",
     intro:
-      "Jumeirah Islands is a gated community of villa clusters set among landscaped, man-made lakes. Mature planting, waterfront plots and a genuine sense of community make it one of Dubai's most liveable villa addresses — architecturally varied, family-oriented, and moments from Dubai Marina and the beaches of JBR.",
+      "Jumeirah Islands is a gated community of villa clusters set among landscaped, man-made lakes. Mature planting, waterfront plots and a genuine sense of community make it one of Dubai's most liveable villa addresses, architecturally varied, family-oriented, and moments from Dubai Marina and the beaches of JBR.",
     keyFacts: [
       { label: "Property types", value: "Lakeside & waterfront villas" },
       { label: "Typical price range", value: "AED 8M – 40M+" },
@@ -93,7 +93,7 @@ export const mockAreas: Area[] = [
           "Its villas are arranged in clusters around landscaped man-made lakes, giving many homes direct water frontage. Combined with mature greenery, gated security and proximity to Dubai Marina, it is a rare family-focused waterfront community.",
       },
     ],
-    // PLACEHOLDER IMAGE (client pick JI-03) — no real Jumeirah Islands
+    // PLACEHOLDER IMAGE (client pick JI-03), no real Jumeirah Islands
     // photography yet. Replace with a real brochure/photo when available.
     heroImage: {
       url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80",

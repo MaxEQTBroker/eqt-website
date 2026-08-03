@@ -32,11 +32,11 @@ export async function generateMetadata({
   const area = await getAreaBySlug(slug);
   if (!area) return {};
   return {
-    title: `${area.label} — Property Guide & Track Record`,
+    title: `${area.label}, Property Guide & Track Record`,
     description: area.intro.slice(0, 155),
     alternates: { canonical: `/areas/${area.slug}` },
     openGraph: {
-      title: `${area.label} — ${site.name}`,
+      title: `${area.label}, ${site.name}`,
       description: area.headline,
       images: [area.heroImage.url],
     },
@@ -164,7 +164,7 @@ export default async function AreaPage({
         </section>
       )}
 
-      {/* FAQ — real Q&A, mirrored in FAQPage JSON-LD */}
+      {/* FAQ, real Q&A, mirrored in FAQPage JSON-LD */}
       {area.faqs.length > 0 && (
         <section className="border-t border-line bg-elevated">
           <div className="container-lux py-[var(--section-py)]">

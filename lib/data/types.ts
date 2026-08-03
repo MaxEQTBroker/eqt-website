@@ -3,7 +3,7 @@
  *
  * These types are intentionally shaped to mirror the CRM's future
  * `public_listings` and `public_sold` read-only views. When we wire the CRM,
- * only `repository.ts` changes — components depend on these types, not on
+ * only `repository.ts` changes, components depend on these types, not on
  * where the data comes from.
  *
  * NOTE: Only publicly-permitted fields belong here. No internal CRM fields,
@@ -34,7 +34,7 @@ export interface MediaImage {
   tone?: string;
 }
 
-/** Core listing — maps to a row in `public_listings`. */
+/** Core listing, maps to a row in `public_listings`. */
 export interface Listing {
   /** Stable slug for the URL: /listings/[slug]. */
   slug: string;
@@ -58,7 +58,7 @@ export interface Listing {
   /** Optional plot size in square feet. */
   plotSqft?: number;
 
-  /** Short marketing summary — real text for crawlers & AI engines. */
+  /** Short marketing summary, real text for crawlers & AI engines. */
   summary: string;
   /** Longer narrative description. */
   description: string;
@@ -66,7 +66,7 @@ export interface Listing {
 
   images: MediaImage[];
 
-  /** Dubai regulatory permit number — legally required on listings. */
+  /** Dubai regulatory permit number, legally required on listings. */
   permitNumber: string;
 
   /** Curated/featured flag for the home page. */
@@ -76,7 +76,7 @@ export interface Listing {
   updatedAt: string;
 }
 
-/** A completed transaction — maps to a row in `public_sold`. */
+/** A completed transaction, maps to a row in `public_sold`. */
 export interface SoldRecord {
   reference: string;
   title: string;
@@ -99,7 +99,7 @@ export interface SoldRecord {
   note?: string;
 }
 
-/** Area guide content — maps to a curated CMS/CRM area record. */
+/** Area guide content, maps to a curated CMS/CRM area record. */
 export interface Area {
   slug: AreaSlug;
   label: string;

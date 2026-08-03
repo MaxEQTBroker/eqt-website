@@ -66,23 +66,26 @@ export function HoverTile({
           />
         )}
 
-        {/* flat bottom scrim for text legibility */}
-        <div className="absolute inset-x-0 bottom-0 h-3/5" style={{ backgroundColor: "rgba(20,16,10,0.42)" }} />
-
-        {/* draw-on-hover "View" box */}
+        {/* draw-on-hover "View" rectangle (wide, thin, slow) */}
         <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-          <span className="relative flex h-[4.5rem] w-[4.5rem] items-center justify-center">
-            <svg className="absolute inset-0 h-full w-full" viewBox="0 0 100 100" fill="none">
-              <rect className="draw-rect" x="2" y="2" width="96" height="96" pathLength={100} stroke="#f2ead6" strokeWidth="1.4" />
+          <span className="relative flex h-[3.25rem] w-[9rem] items-center justify-center">
+            <svg className="absolute inset-0 h-full w-full" viewBox="0 0 180 65" preserveAspectRatio="none" fill="none">
+              <rect className="draw-rect" x="1" y="1" width="178" height="63" pathLength={100} stroke="#f6efdd" strokeWidth={1} vectorEffect="non-scaling-stroke" />
             </svg>
-            <span className="text-[0.62rem] uppercase tracking-[0.28em] text-[#f2ead6]">View</span>
+            <span className="text-[0.6rem] uppercase tracking-[0.3em] text-[#f6efdd]">View</span>
           </span>
         </div>
 
-        {/* label */}
+        {/* label — white, no box (subtle shadow for legibility) */}
         <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7">
-          <h3 className="font-display text-3xl leading-tight text-white sm:text-4xl">{title}</h3>
-          {subtitle && <p className="mt-1.5 text-sm text-white/75">{subtitle}</p>}
+          <h3 className="font-display text-3xl leading-tight text-white sm:text-4xl" style={{ textShadow: "0 2px 24px rgba(0,0,0,0.5)" }}>
+            {title}
+          </h3>
+          {subtitle && (
+            <p className="mt-1.5 text-sm text-white/85" style={{ textShadow: "0 1px 14px rgba(0,0,0,0.55)" }}>
+              {subtitle}
+            </p>
+          )}
         </div>
       </div>
     </Link>

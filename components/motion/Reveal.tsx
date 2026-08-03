@@ -7,7 +7,7 @@ import { useEffect, useRef, type ElementType, type ReactNode } from "react";
  *
  * - The server renders children as normal, fully visible HTML.
  * - A tiny inline script in the layout sets `data-reveal-ready` before paint
- *   *only* when JS is on and motion is allowed — which is what activates the
+ *   *only* when JS is on and motion is allowed, which is what activates the
  *   `.reveal { opacity: 0 }` rule. So crawlers, no-JS, and reduced-motion
  *   users always see the content.
  * - Here we just add `is-visible` when the element scrolls into view.

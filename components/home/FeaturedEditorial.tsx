@@ -3,7 +3,7 @@ import { getFeaturedListings } from "@/lib/data/repository";
 import { EditorialListingCard } from "@/components/ui/EditorialListingCard";
 import { RevealText } from "@/components/motion/RevealText";
 
-/** Featured residences — editorial grid, images scale on scroll, WhatsApp under each. */
+/** Featured residences, editorial grid, images scale on scroll, WhatsApp under each. */
 export async function FeaturedEditorial() {
   const listings = await getFeaturedListings(3);
   if (!listings.length) return null;

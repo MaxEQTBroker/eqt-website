@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from "react";
  * count-up from zero only runs on the client once the stat scrolls into view.
  * Respects prefers-reduced-motion.
  *
- * Pass a display string like "AED 3.2B+", "180+", "24" or "72%" — the numeric
+ * Pass a display string like "AED 3.2B+", "180+", "24" or "72%", the numeric
  * part is parsed out and animated, prefix/suffix are preserved.
  */
 function parse(text: string) {

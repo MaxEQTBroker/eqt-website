@@ -10,8 +10,8 @@ import type { Area } from "@/lib/data/types";
 /**
  * Scroll-driven 3D "spin" showcase (Apple-style). As you scroll through a
  * pinned section, a panel rotates in 3D on the Y axis; each time it turns
- * edge-on (invisible), the hidden face swaps to the next community — so the
- * area changes mid-spin. This is CSS 3D + GSAP ScrollTrigger — no video, no
+ * edge-on (invisible), the hidden face swaps to the next community, so the
+ * area changes mid-spin. This is CSS 3D + GSAP ScrollTrigger, no video, no
  * paid tooling.
  *
  * PROGRESSIVE ENHANCEMENT: the server renders a plain, crawlable grid of area
@@ -31,7 +31,7 @@ export function AreaRotatorClient({ areas }: { areas: Area[] }) {
 }
 
 /* Distinct image pools for the two side cards (left ≠ right, and they cycle
-   through different photos as they flip — never repeating or mirroring). */
+   through different photos as they flip, never repeating or mirroring). */
 const LEFT_IMAGES = [
   "/images/palm-jumeirah/6.jpg",
   "/images/al-barari/1.jpg",
@@ -132,7 +132,7 @@ function Stage({ areas }: { areas: Area[] }) {
       <div className="sticky top-0 flex h-screen items-center justify-center overflow-hidden px-4">
         <p className="eyebrow absolute left-1/2 top-28 -translate-x-1/2">Where we operate</p>
 
-        {/* Background side cards — bigger, full-opacity, same spin speed. */}
+        {/* Background side cards, bigger, full-opacity, same spin speed. */}
         <div className="absolute left-[1%] top-1/2 hidden -translate-y-1/2 lg:block" style={{ perspective: "1500px" }} aria-hidden="true">
           <SideCard cardRef={leftCard} src={LEFT_IMAGES[leftIdx]} tone="#dfe3e6" />
         </div>
@@ -140,7 +140,7 @@ function Stage({ areas }: { areas: Area[] }) {
           <SideCard cardRef={rightCard} src={RIGHT_IMAGES[rightIdx]} tone="#e4e7e1" />
         </div>
 
-        {/* Main flipping card (single face — never mirrors) */}
+        {/* Main flipping card (single face, never mirrors) */}
         <div style={{ perspective: "1600px" }}>
           <div
             ref={card}

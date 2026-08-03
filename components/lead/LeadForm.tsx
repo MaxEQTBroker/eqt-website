@@ -7,7 +7,7 @@ import { site, whatsappLink } from "@/lib/site";
 /**
  * Multi-step lead form, WhatsApp-first. On submit it composes a prefilled
  * WhatsApp message (the fastest conversion path in this market). The
- * `onSubmitLead` seam is where a CRM POST gets wired later — the UI won't change.
+ * `onSubmitLead` seam is where a CRM POST gets wired later, the UI won't change.
  */
 
 type Intent = "Buy" | "Sell" | "Invest";
@@ -36,11 +36,11 @@ export function LeadForm() {
   const message = useMemo(
     () =>
       `Hello ${site.name}, I'd like to enquire.\n\n` +
-      `• Intent: ${intent ?? "—"}\n` +
-      `• Area: ${area ?? "—"}\n` +
-      `• Budget: ${budget ?? "—"}\n` +
-      `• Name: ${name || "—"}\n` +
-      `• Contact: ${contact || "—"}`,
+      `• Intent: ${intent ?? ", "}\n` +
+      `• Area: ${area ?? ", "}\n` +
+      `• Budget: ${budget ?? ", "}\n` +
+      `• Name: ${name || ", "}\n` +
+      `• Contact: ${contact || ", "}`,
     [intent, area, budget, name, contact],
   );
 

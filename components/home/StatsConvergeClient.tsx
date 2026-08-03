@@ -5,8 +5,7 @@ import { BackgroundVideo } from "@/components/motion/BackgroundVideo";
 import type { TrustSignal } from "@/lib/data/types";
 
 /**
- * Stats over villa footage. The figures CLIMB from 0 as the block scrolls up —
- * tied to scroll position (NOT a pinned scrub), so scrolling never stops: they
+ * Stats over villa footage. The figures CLIMB from 0 as the block scrolls up, * tied to scroll position (NOT a pinned scrub), so scrolling never stops: they
  * start rising the moment the zeros appear and reach full by the time the
  * heading leaves the top. SSR renders final values for crawlers; static (full)
  * under reduced-motion.
@@ -53,8 +52,7 @@ export function StatsConvergeClient({ signals }: { signals: TrustSignal[] }) {
     };
   }, []);
 
-  // Ease-IN so the numbers stay low while first visible, then rush to full —
-  // the ×1.12 lets them reach 180+ a touch before the row leaves the top.
+  // Ease-IN so the numbers stay low while first visible, then rush to full, // the ×1.12 lets them reach 180+ a touch before the row leaves the top.
   const eased = Math.min(1, Math.pow(p, 2) * 1.12);
 
   return (

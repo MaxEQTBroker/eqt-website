@@ -36,7 +36,7 @@ export function HeroMedia({
         { scale: 1.12 },
         { scale: 1, duration: 2.4, ease: "power2.out" },
       );
-      // Parallax drift as the hero scrolls away — transform only.
+      // Parallax drift as the hero scrolls away, transform only.
       gsap.to(imgRef.current, {
         yPercent: 14,
         ease: "none",
@@ -68,7 +68,7 @@ export function HeroMedia({
         style={{ transformOrigin: "center" }}
         fetchPriority="high"
       />
-      {/* Bright, airy scrim — whitens top (header), bottom (hero copy) and the
+      {/* Bright, airy scrim, whitens top (header), bottom (hero copy) and the
           lower-left where the headline sits, so dark text stays legible while
           the image still reads bright. */}
       <div
