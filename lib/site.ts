@@ -10,7 +10,9 @@ export const site = {
   tagline: "Dubai's most exceptional addresses",
   description:
     "EQT is a Dubai luxury real estate brokerage specialising in the emirate's most exclusive communities, Palm Jumeirah, Al Barari and Jumeirah Islands. Private sales, curated portfolios and a proven track record.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.eqt.ae",
+  // TEMP: live Vercel URL so sitemap/canonicals/robots match where the site is
+  // actually hosted. Switch to "https://www.eqt.ae" once that domain is attached.
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://eqt-website-ten.vercel.app",
   locale: "en_AE",
 
   contact: {
