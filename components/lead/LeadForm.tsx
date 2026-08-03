@@ -12,16 +12,27 @@ import { site, whatsappLink } from "@/lib/site";
 
 type Intent = "Buy" | "Sell" | "Invest";
 const INTENTS: Intent[] = ["Buy", "Sell", "Invest"];
-const AREAS = ["Palm Jumeirah", "Al Barari", "Jumeirah Islands", "Not sure yet"];
+const DEFAULT_AREAS = ["Palm Jumeirah", "Al Barari", "Jumeirah Islands", "Not sure yet"];
 const BUDGETS = ["Under AED 10M", "AED 10M – 30M", "AED 30M – 75M", "AED 75M+"];
 
 const steps = ["Intent", "Preferences", "Contact"] as const;
 
-export function LeadForm() {
+/**
+ * @param defaultArea  When set (e.g. embedded on an area page), the community is
+ *                     preselected and shown first in the options.
+ */
+export function LeadForm({ defaultArea }: { defaultArea?: string } = {}) {
   const reduce = useReducedMotion();
+  const areaOptions = useMemo(
+    () =>
+      defaultArea
+        ? [defaultArea, ...DEFAULT_AREAS.filter((a) => a !== defaultArea)]
+        : DEFAULT_AREAS,
+    [defaultArea],
+  );
   const [step, setStep] = useState(0);
   const [intent, setIntent] = useState<Intent | null>(null);
-  const [area, setArea] = useState<string | null>(null);
+  const [area, setArea] = useState<string | null>(defaultArea ?? null);
   const [budget, setBudget] = useState<string | null>(null);
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
@@ -100,7 +111,7 @@ export function LeadForm() {
               <fieldset>
                 <legend className="mb-4 font-display text-2xl text-ink">Which community?</legend>
                 <div className="flex flex-wrap gap-3">
-                  {AREAS.map((opt) => (
+                  {areaOptions.map((opt) => (
                     <OptionButton key={opt} small active={area === opt} onClick={() => setArea(opt)}>
                       {opt}
                     </OptionButton>
@@ -215,8 +226,8 @@ function OptionButton({
       className="rounded-md border text-center transition-all duration-300"
       style={{
         borderColor: active ? "var(--accent-500)" : "var(--line)",
-        backgroundColor: active ? "rgba(11,79,158,0.10)" : "var(--bg-inset)",
-        color: active ? "var(--accent-400)" : "var(--text-secondary)",
+        backgroundColor: active ? "rgba(122,106,77,0.12)" : "var(--bg-inset)",
+        color: active ? "var(--accent-600)" : "var(--text-secondary)",
         padding: small ? "0.6rem 1rem" : "1.1rem 1rem",
         fontSize: small ? "0.9rem" : "1rem",
         minHeight: "48px",

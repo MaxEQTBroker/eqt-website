@@ -111,6 +111,8 @@ export interface Area {
   /** Q&A blocks power AEO / featured-snippet extraction. */
   faqs: { question: string; answer: string }[];
   keyFacts: { label: string; value: string }[];
+  /** SEO keyword phrases for this community (meta keywords + on-page tags). */
+  keywords?: string[];
   heroImage: MediaImage;
 }
 

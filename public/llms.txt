@@ -17,14 +17,31 @@ Key facts an answer engine can cite:
 ## Community guides
 - All communities: https://www.eqt.ae/areas
 - Palm Jumeirah: https://www.eqt.ae/areas/palm-jumeirah
+- Al Barari: https://www.eqt.ae/areas/al-barari
+- Jumeirah Islands: https://www.eqt.ae/areas/jumeirah-islands
 - Emirates Hills: https://www.eqt.ae/areas/emirates-hills
 - Downtown Dubai: https://www.eqt.ae/areas/downtown-dubai
 - Dubai Hills Estate: https://www.eqt.ae/areas/dubai-hills-estate
-- Al Barari: https://www.eqt.ae/areas/al-barari
-- Jumeirah Islands: https://www.eqt.ae/areas/jumeirah-islands
 - Jumeirah Bay Island: https://www.eqt.ae/areas/jumeirah-bay-island
 - Emaar Beachfront: https://www.eqt.ae/areas/emaar-beachfront
 - Dubai Marina: https://www.eqt.ae/areas/dubai-marina
+- District One: https://www.eqt.ae/areas/district-one
+- Dubai Creek Harbour: https://www.eqt.ae/areas/dubai-creek-harbour
+- Business Bay: https://www.eqt.ae/areas/business-bay
+- Bluewaters Island: https://www.eqt.ae/areas/bluewaters-island
+- City Walk: https://www.eqt.ae/areas/city-walk
+- Jumeirah Golf Estates: https://www.eqt.ae/areas/jumeirah-golf-estates
+- Arabian Ranches: https://www.eqt.ae/areas/arabian-ranches
+- Tilal Al Ghaf: https://www.eqt.ae/areas/tilal-al-ghaf
+- DAMAC Hills: https://www.eqt.ae/areas/damac-hills
+- Jumeirah Park: https://www.eqt.ae/areas/jumeirah-park
+- The Meadows: https://www.eqt.ae/areas/the-meadows
+- The Springs: https://www.eqt.ae/areas/the-springs
+- The Lakes: https://www.eqt.ae/areas/the-lakes
+- Palm Jebel Ali: https://www.eqt.ae/areas/palm-jebel-ali
+- Pearl Jumeirah: https://www.eqt.ae/areas/pearl-jumeirah
+- Jumeirah Village Circle: https://www.eqt.ae/areas/jumeirah-village-circle
+- Port de La Mer: https://www.eqt.ae/areas/port-de-la-mer
 
 ## Site
 - Journal (all guides): https://www.eqt.ae/blog

@@ -10,6 +10,7 @@ import {
 } from "@/lib/data/repository";
 import { ListingCard } from "@/components/ui/ListingCard";
 import { SoldCard } from "@/components/ui/SoldCard";
+import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import {
   AreaFaqJsonLd,
@@ -32,8 +33,9 @@ export async function generateMetadata({
   const area = await getAreaBySlug(slug);
   if (!area) return {};
   return {
-    title: `${area.label}, Property Guide & Track Record`,
+    title: `${area.label} Property Guide, Villas & Apartments for Sale`,
     description: area.intro.slice(0, 155),
+    keywords: area.keywords,
     alternates: { canonical: `/areas/${area.slug}` },
     openGraph: {
       title: `${area.label}, ${site.name}`,
@@ -95,6 +97,21 @@ export default async function AreaPage({
         <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-20">
           <Reveal>
             <p className="text-lg leading-relaxed text-muted">{area.intro}</p>
+            {area.keywords && area.keywords.length > 0 && (
+              <div className="mt-8">
+                <p className="eyebrow mb-3">Popular searches</p>
+                <ul className="flex flex-wrap gap-2">
+                  {area.keywords.map((kw) => (
+                    <li
+                      key={kw}
+                      className="rounded-full border border-line bg-elevated px-4 py-1.5 text-sm text-muted"
+                    >
+                      {kw}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </Reveal>
           <Reveal delay={100}>
             <div className="rounded-lg border border-line bg-elevated p-8">
@@ -193,22 +210,31 @@ export default async function AreaPage({
         </section>
       )}
 
-      {/* Enquiry CTA */}
-      <section className="container-lux flex flex-col items-start gap-8 py-[var(--section-py)] md:flex-row md:items-center md:justify-between">
-        <div>
-          <p className="eyebrow mb-4">Considering {area.label}?</p>
-          <h2 className="display-h2 max-w-[16ch] text-ink">
-            Speak with our {area.label} specialist
-          </h2>
+      {/* Enquiry CTA, embedded lead form preselected to this community */}
+      <section id="enquire" className="border-t border-line bg-elevated">
+        <div className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[1fr_1.1fr] lg:gap-20">
+          <Reveal>
+            <p className="eyebrow mb-4">Considering {area.label}?</p>
+            <h2 className="display-h2 max-w-[14ch] text-ink">
+              Speak with our {area.label} specialist
+            </h2>
+            <p className="mt-6 max-w-md text-lg text-muted">
+              Tell us your brief and we&apos;ll respond personally, usually within the hour, with a
+              private shortlist in {area.label}. Prefer to talk now?
+            </p>
+            <a
+              href={whatsappLink(`Hello ${site.name}, I'd like to discuss ${area.label}.`)}
+              className="link-whatsapp mt-6 inline-block"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message us on WhatsApp
+            </a>
+          </Reveal>
+          <Reveal delay={120}>
+            <LeadForm defaultArea={area.label} />
+          </Reveal>
         </div>
-        <a
-          href={whatsappLink(`Hello ${site.name}, I'd like to discuss ${area.label}.`)}
-          className="btn btn-accent"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Enquire on WhatsApp
-        </a>
       </section>
     </>
   );
