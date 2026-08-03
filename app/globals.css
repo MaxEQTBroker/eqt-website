@@ -15,10 +15,10 @@
   --bg-inset: #cdc2a7;      /* wells, inputs */
   --line: #b0a486;          /* warm, clean hairline */
 
-  /* Accent — lighter, refined blue (not deep navy) */
-  --accent-400: #6f97c9;
-  --accent-500: #3370b0;
-  --accent-600: #285a90;
+  /* Accent — warm bronze (no blue anywhere but the logo mark) */
+  --accent-400: #b0a184;
+  --accent-500: #7a6a4d;
+  --accent-600: #574a34;
 
   /* Text — warm espresso near-black */
   --text-primary: #282017;
@@ -142,7 +142,7 @@ h1, h2, h3 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.26em;
-  color: var(--accent);
+  color: var(--text-tertiary);
 }
 
 .display-hero {
