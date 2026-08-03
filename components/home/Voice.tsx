@@ -34,8 +34,8 @@ export function Voice() {
               </div>
             </div>
             <div className={right ? "md:order-1" : ""}>
-              <p className="mb-6 text-xs uppercase tracking-[0.24em] text-accent-600">
-                0{i + 1}, {b.kicker}
+              <p className="mb-6 text-xs uppercase tracking-[0.24em] text-faint">
+                0{i + 1} / {b.kicker}
               </p>
               <RevealText
                 as="h3"

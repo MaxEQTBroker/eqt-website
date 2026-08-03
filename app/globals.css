@@ -214,9 +214,9 @@ h1, h2, h3 {
 
 /* "View" box that slowly draws its border on hover (sprec-style) */
 .draw-rect {
-  stroke-dasharray: 101;
-  stroke-dashoffset: 101;
-  transition: stroke-dashoffset 1.3s var(--ease-lux);
+  stroke-dasharray: 104;
+  stroke-dashoffset: 104;
+  transition: stroke-dashoffset 1.2s var(--ease-lux);
 }
 .group:hover .draw-rect {
   stroke-dashoffset: 0;

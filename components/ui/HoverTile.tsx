@@ -40,9 +40,20 @@ export function HoverTile({
 
         {/* draw-on-hover "View" rectangle (wide, thin, slow) */}
         <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-700 group-hover:opacity-100">
-          <span className="relative flex h-[3.25rem] w-[9rem] items-center justify-center">
-            <svg className="absolute inset-0 h-full w-full" viewBox="0 0 180 65" preserveAspectRatio="none" fill="none">
-              <rect className="draw-rect" x="1" y="1" width="178" height="63" pathLength={100} stroke="#f6efdd" strokeWidth={1} vectorEffect="non-scaling-stroke" />
+          <span className="relative flex h-[3.4rem] w-[9.6rem] items-center justify-center">
+            <svg className="absolute inset-0 h-full w-full" viewBox="0 0 288 102" preserveAspectRatio="none" fill="none">
+              <rect
+                className="draw-rect"
+                x="1.5"
+                y="1.5"
+                width="285"
+                height="99"
+                pathLength={100}
+                stroke="#f6efdd"
+                strokeWidth={1}
+                strokeLinejoin="round"
+                vectorEffect="non-scaling-stroke"
+              />
             </svg>
             <span className="text-[0.6rem] uppercase tracking-[0.3em] text-[#f6efdd]">View</span>
           </span>
