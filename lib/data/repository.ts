@@ -31,6 +31,8 @@ import { mockDevelopers } from "./mock/developers";
 import { mockPropertyTypes } from "./mock/propertyTypes";
 import { mockTrustSignals } from "./mock/trust";
 import { heroImages } from "./mock/heroImages";
+import { areaContent } from "./mock/areaContent";
+import { developerContent } from "./mock/developerContent";
 
 /**
  * Overlay the central Pexels hero image onto a record if one exists for its
@@ -41,6 +43,19 @@ import { heroImages } from "./mock/heroImages";
 function withHero<T extends { slug: string; heroImage: import("./types").MediaImage }>(item: T): T {
   const hero = heroImages[item.slug];
   return hero ? { ...item, heroImage: hero } : item;
+}
+
+/** Overlay extended sections (and any extra FAQs) from a content map by slug. */
+function withContent<
+  T extends { slug: string; faqs: { question: string; answer: string }[]; sections?: import("./types").GuideSection[] },
+>(item: T, map: Record<string, import("./types").GuideContent>): T {
+  const c = map[item.slug];
+  if (!c) return item;
+  return {
+    ...item,
+    sections: c.sections,
+    faqs: c.faqs && c.faqs.length ? [...item.faqs, ...c.faqs] : item.faqs,
+  };
 }
 
 // ── Listings ──────────────────────────────────────────────────────────
@@ -103,7 +118,7 @@ export async function getAreas(): Promise<Area[]> {
 
 export async function getAreaBySlug(slug: string): Promise<Area | null> {
   const area = mockAreas.find((a) => a.slug === slug);
-  return area ? withHero(area) : null;
+  return area ? withContent(withHero(area), areaContent) : null;
 }
 
 export async function getAllAreaSlugs(): Promise<AreaSlug[]> {
@@ -118,7 +133,7 @@ export async function getDevelopers(): Promise<Developer[]> {
 
 export async function getDeveloperBySlug(slug: string): Promise<Developer | null> {
   const dev = mockDevelopers.find((d) => d.slug === slug);
-  return dev ? withHero(dev) : null;
+  return dev ? withContent(withHero(dev), developerContent) : null;
 }
 
 export async function getAllDeveloperSlugs(): Promise<string[]> {

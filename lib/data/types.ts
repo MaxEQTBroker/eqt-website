@@ -105,6 +105,19 @@ export interface SoldRecord {
   note?: string;
 }
 
+/** A headed content section (used to enrich area & developer guides). */
+export interface GuideSection {
+  heading: string;
+  body: string[];
+  bullets?: string[];
+}
+
+/** Extended editorial content overlaid onto an area or developer by slug. */
+export interface GuideContent {
+  sections: GuideSection[];
+  faqs?: { question: string; answer: string }[];
+}
+
 /** Area guide content, maps to a curated CMS/CRM area record. */
 export interface Area {
   slug: AreaSlug;
@@ -117,6 +130,8 @@ export interface Area {
   keyFacts: { label: string; value: string }[];
   /** SEO keyword phrases for this community (meta keywords + on-page tags). */
   keywords?: string[];
+  /** Extended descriptive sections (overlaid from areaContent). */
+  sections?: GuideSection[];
   heroImage: MediaImage;
 }
 
@@ -137,6 +152,8 @@ export interface Developer {
   relatedAreas?: AreaSlug[];
   faqs: { question: string; answer: string }[];
   keywords?: string[];
+  /** Extended descriptive sections (overlaid from developerContent). */
+  sections?: GuideSection[];
   heroImage: MediaImage;
 }
 
@@ -155,6 +172,8 @@ export interface PropertyGuide {
   relatedAreas?: AreaSlug[];
   faqs: { question: string; answer: string }[];
   keywords?: string[];
+  /** Extended descriptive sections (overlaid from developerContent). */
+  sections?: GuideSection[];
   heroImage: MediaImage;
 }
 

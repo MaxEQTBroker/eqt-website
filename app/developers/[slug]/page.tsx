@@ -138,6 +138,38 @@ export default async function DeveloperPage({
         </div>
       </section>
 
+      {/* Extended editorial: history, reputation, buyer guidance */}
+      {dev.sections && dev.sections.length > 0 && (
+        <section className="border-t border-line bg-elevated">
+          <div className="container-lux py-[var(--section-py)]">
+            <div className="mx-auto max-w-3xl space-y-12">
+              {dev.sections.map((s) => (
+                <Reveal key={s.heading}>
+                  <div>
+                    <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">{s.heading}</h2>
+                    <div className="mt-4 space-y-4">
+                      {s.body.map((p, i) => (
+                        <p key={i} className="text-lg leading-relaxed text-muted">{p}</p>
+                      ))}
+                    </div>
+                    {s.bullets && s.bullets.length > 0 && (
+                      <ul className="mt-4 space-y-2.5">
+                        {s.bullets.map((b, i) => (
+                          <li key={i} className="flex gap-3 text-lg leading-relaxed text-muted">
+                            <span className="mt-1 text-accent-500">•</span>
+                            <span>{b}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Signature developments */}
       {dev.signature.length > 0 && (
         <section className="border-t border-line bg-elevated">

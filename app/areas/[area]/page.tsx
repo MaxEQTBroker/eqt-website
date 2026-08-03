@@ -129,6 +129,38 @@ export default async function AreaPage({
         </div>
       </section>
 
+      {/* Extended editorial: what the community is like */}
+      {area.sections && area.sections.length > 0 && (
+        <section className="border-t border-line bg-elevated">
+          <div className="container-lux py-[var(--section-py)]">
+            <div className="mx-auto max-w-3xl space-y-12">
+              {area.sections.map((s) => (
+                <Reveal key={s.heading}>
+                  <div>
+                    <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">{s.heading}</h2>
+                    <div className="mt-4 space-y-4">
+                      {s.body.map((p, i) => (
+                        <p key={i} className="text-lg leading-relaxed text-muted">{p}</p>
+                      ))}
+                    </div>
+                    {s.bullets && s.bullets.length > 0 && (
+                      <ul className="mt-4 space-y-2.5">
+                        {s.bullets.map((b, i) => (
+                          <li key={i} className="flex gap-3 text-lg leading-relaxed text-muted">
+                            <span className="mt-1 text-accent-500">•</span>
+                            <span>{b}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Available listings in this area */}
       {listings.length > 0 && (
         <section className="border-t border-line bg-elevated">
