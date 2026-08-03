@@ -582,27 +582,65 @@ export const mockPosts: BlogPost[] = [
     author: EQT_TEAM,
     publishedAt: "2026-06-28",
     updatedAt: "2026-08-03",
-    readingMinutes: 6,
+    readingMinutes: 7,
     heroImage: {
       url: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80",
       alt: "Elegant Dubai residence interior for a private consultation",
       tone: "#ddd9d1",
     },
     intro:
-      "To choose a real estate agent in Dubai, look for a RERA-registered broker with a verified track record, genuine expertise in your target community, and transparent fees, the standard agency commission is around 2% of the purchase price. The right agent protects your interests, gives honest pricing advice, and often has access to off-market opportunities.",
+      "To choose a real estate agent in Dubai, look for a RERA-registered broker with a verified track record, genuine expertise in your target community, and transparent fees — the standard agency commission is around 2% of the purchase price. The right agent protects your interests, prices honestly, and often has access to off-market opportunities. Here is how to pick well, what to ask, and what to watch out for.",
+    keyTakeaways: [
+      "Use a RERA-registered broker working for a licensed, DED-registered brokerage — always verify the broker card.",
+      "The standard buyer's agency commission in Dubai is about 2% of the price, plus VAT.",
+      "Choose specialists in your target community; generalists often misprice niche markets.",
+      "A good agent tells you when a property is overpriced — not just what you want to hear.",
+      "Off-market access and honest pricing matter more than the size of the agency.",
+    ],
     sections: [
       {
-        heading: "What to check before you commit",
+        heading: "How to verify an agent is legitimate",
         body: [
-          "Confirm the agent holds a valid RERA broker card and works for a licensed brokerage. Ask for recent, verifiable transactions in the community you're targeting, generalists rarely price a niche market correctly.",
-          "A good agent should be comfortable telling you when a property is overpriced or the wrong fit, not just closing a deal.",
+          "Dubai's market is regulated, so credentials are easy to check. Every practising broker must hold a RERA broker card and work for a licensed brokerage. Verifying this upfront protects you from unlicensed operators.",
+        ],
+        bullets: [
+          "Ask for the agent's RERA broker card number and check it.",
+          "Confirm the brokerage holds a valid DED trade licence.",
+          "Look for the RERA permit (Trakheesi) number on any advertised listing.",
+          "Request recent, verifiable transactions in your target community.",
+        ],
+      },
+      {
+        heading: "What separates a great agent from an average one",
+        body: [
+          "Credentials get you a licensed agent; judgement gets you a good one. The best agents combine deep local knowledge with honesty, because their long-term reputation depends on repeat clients and referrals, not a single deal.",
+          "Community specialists price accurately, know which buildings and layouts perform, and often surface off-market opportunities that never reach the portals.",
+        ],
+        bullets: [
+          "Deep expertise in one or two communities, not a scattergun approach.",
+          "Willingness to say a property is overpriced or the wrong fit.",
+          "Clear communication and responsiveness at every stage.",
+          "Access to off-market and pre-launch opportunities.",
         ],
       },
       {
         heading: "Understanding commission and costs",
         body: [
-          "The standard buyer's agency commission in Dubai is about 2% of the price, plus the 4% Dubai Land Department transfer fee and registration costs. Sellers typically also pay around 2%.",
-          "Be wary of anyone promising results with no clear fee structure, transparency is a hallmark of a trustworthy brokerage.",
+          "The standard buyer's agency commission in Dubai is about 2% of the price plus 5% VAT on that commission. This sits alongside the 4% Dubai Land Department transfer fee and registration costs. Sellers typically pay their own agent a similar 2%.",
+          "Be wary of anyone vague about fees or pushing a deal without a clear, written structure — transparency is a hallmark of a trustworthy brokerage.",
+        ],
+      },
+      {
+        heading: "Questions to ask before you sign",
+        body: [
+          "A short set of direct questions quickly reveals whether an agent is the right fit and genuinely working in your interest.",
+        ],
+        bullets: [
+          "How many properties have you sold in this community in the last 12 months?",
+          "What are the real service charges and expected net yield for this building?",
+          "What is your commission, and what exactly does it cover?",
+          "Can you show me comparable recent transactions to justify the price?",
+          "Do you have any off-market options that fit my brief?",
         ],
       },
     ],
@@ -610,13 +648,29 @@ export const mockPosts: BlogPost[] = [
       {
         question: "What commission do real estate agents charge in Dubai?",
         answer:
-          "The standard real estate agency commission in Dubai is around 2% of the property price for the buyer's side, in addition to the 4% Dubai Land Department transfer fee and registration costs.",
+          "The standard real estate agency commission in Dubai is around 2% of the property price for the buyer's side, plus 5% VAT, in addition to the 4% Dubai Land Department transfer fee and registration costs.",
       },
       {
         question: "How do I know if a Dubai real estate agent is legitimate?",
         answer:
-          "A legitimate Dubai agent holds a valid RERA broker card and works for a licensed, DED-registered brokerage. You can ask for their broker number and verify recent transactions in your target community.",
+          "A legitimate Dubai agent holds a valid RERA broker card and works for a licensed, DED-registered brokerage. You can ask for their broker number, check the brokerage's licence, and verify recent transactions in your target community.",
       },
+      {
+        question: "Do I need to sign an exclusive agreement with an agent in Dubai?",
+        answer:
+          "Not necessarily. Buyers often work with more than one agent, though a trusted specialist with off-market access can be worth focusing on. Sellers sometimes sign exclusive listing agreements in exchange for a dedicated marketing effort.",
+      },
+      {
+        question: "What is the best real estate agency in Dubai?",
+        answer:
+          "The 'best' agency depends on your needs, but the strongest choice is a RERA-registered brokerage with a verified track record in your target community, transparent fees, honest pricing advice and off-market access, rather than simply the largest name.",
+      },
+    ],
+    relatedLinks: [
+      { label: "How much does it cost to buy property in Dubai?", href: "/blog/how-much-does-it-cost-to-buy-property-in-dubai" },
+      { label: "How to buy property in Dubai as a foreigner", href: "/blog/how-to-buy-property-in-dubai-as-a-foreigner" },
+      { label: "How to invest in Dubai real estate", href: "/blog/how-to-invest-in-dubai-real-estate" },
+      { label: "Explore Dubai communities", href: "/areas" },
     ],
     keywords: [
       "Dubai real estate agent",
@@ -740,37 +794,91 @@ export const mockPosts: BlogPost[] = [
     author: EQT_TEAM,
     publishedAt: "2026-08-01",
     updatedAt: "2026-08-03",
-    readingMinutes: 6,
+    readingMinutes: 7,
     heroImage: { url: "https://images.pexels.com/photos/5577693/pexels-photo-5577693.jpeg?auto=compress&cs=tinysrgb&w=1920", alt: "Dubai financial planning", tone: "#141821" },
     intro:
-      "Beyond the purchase price, the cost of buying property in Dubai is roughly 6–8% of the property value in one-off fees. The largest is the 4% Dubai Land Department (DLD) transfer fee, followed by around 2% agency commission, plus registration, trustee and (if financing) mortgage fees. There is no annual property tax and no stamp duty beyond the DLD fee.",
+      "Beyond the purchase price, the cost of buying property in Dubai is roughly 6–8% of the property value in one-off fees. The largest is the 4% Dubai Land Department (DLD) transfer fee, followed by around 2% agency commission, plus registration, trustee and (if financing) mortgage fees. There is no annual property tax and no stamp duty beyond the DLD fee. Here is the full breakdown, including a worked example.",
+    keyTakeaways: [
+      "Total upfront cost is about 6–8% of the price, on top of the purchase price itself.",
+      "The largest single fee is the 4% Dubai Land Department (DLD) transfer fee.",
+      "Agency commission is typically 2% plus VAT; a registration trustee fee (~AED 4,000) also applies.",
+      "If you use a mortgage, add roughly 1% bank arrangement, a valuation (~AED 3,000) and 0.25% mortgage registration.",
+      "There is no property tax and no stamp duty beyond the DLD fee — you pay annual service charges instead.",
+    ],
     sections: [
       {
-        heading: "The one-off costs, line by line",
+        heading: "The upfront fees, line by line",
         body: [
-          "DLD transfer fee: 4% of the price, plus a small admin charge. Agency commission: typically 2% plus VAT. Registration trustee fee: around AED 4,000 for properties above AED 500,000.",
-          "If you use a mortgage, add a bank arrangement fee (about 1% of the loan), a valuation fee (around AED 2,500–3,500) and a 0.25% DLD mortgage registration fee.",
+          "These are the one-off costs you pay to complete a purchase. The buyer typically covers the DLD transfer fee, agency commission and trustee fee; the seller usually pays their own agency commission and any developer NOC charge.",
+        ],
+        bullets: [
+          "DLD transfer fee: 4% of the purchase price (plus a small admin charge).",
+          "Agency commission: about 2% of the price, plus 5% VAT on the commission.",
+          "Registration trustee fee: around AED 4,000 for properties above AED 500,000, plus VAT.",
+          "Title deed issuance: a few hundred dirhams.",
+          "Developer NOC (No Objection Certificate): typically AED 500–5,000, usually paid by the seller.",
         ],
       },
       {
-        heading: "Ongoing costs to plan for",
+        heading: "Extra costs if you use a mortgage",
         body: [
-          "Annual service charges (paid per square foot, varying by building and community) cover maintenance and amenities. Budget for these plus utilities and, if renting the property out, property-management fees.",
-          "Crucially, there is no annual council tax or property tax on residential real estate in Dubai, and no tax on rental income for individuals.",
+          "Financing adds a handful of bank and registration costs. Non-residents can usually borrow up to about 50–60% loan-to-value and residents up to 80%, so the deposit is your largest single outlay.",
+        ],
+        bullets: [
+          "Bank arrangement fee: around 1% of the loan amount.",
+          "Property valuation: roughly AED 2,500–3,500.",
+          "Mortgage registration at the DLD: 0.25% of the loan amount, plus a small admin fee.",
+          "Life and property insurance: modest annual premiums required by most lenders.",
+        ],
+      },
+      {
+        heading: "Ongoing costs of ownership",
+        body: [
+          "Once you own, budget for annual running costs. The main one is the service charge, set per square foot and regulated by RERA through the Mollak system, which funds maintenance and amenities.",
+          "Crucially, there is no annual property or council tax on residential real estate in Dubai, and no tax on rental income for individuals.",
+        ],
+        bullets: [
+          "Service charges: an annual rate per square foot, varying by building and community.",
+          "Utilities (DEWA): water and electricity, billed monthly.",
+          "Housing fee: 5% of the property's annual rental value, applied via DEWA bills (mainly relevant to occupied homes).",
+          "Property management: typically 5–10% of rent if you let the property out.",
+        ],
+      },
+      {
+        heading: "A worked example",
+        body: [
+          "Take a ready apartment bought for AED 2,000,000 in cash. The DLD fee is AED 80,000 (4%), agency commission is AED 40,000 (2%) plus AED 2,000 VAT, and the trustee fee is about AED 4,200.",
+          "That totals roughly AED 126,000, or about 6.3% of the price. With a mortgage, add the bank, valuation and 0.25% mortgage-registration fees, pushing the all-in cost nearer 7–8%.",
         ],
       },
     ],
     faqs: [
       {
-        question: "What are the fees when buying property in Dubai?",
+        question: "What are the total fees when buying property in Dubai?",
         answer:
-          "Expect around 6–8% of the price in one-off fees: a 4% Dubai Land Department transfer fee, about 2% agency commission, registration and trustee fees, and, if financing, mortgage arrangement and valuation fees.",
+          "Expect around 6–8% of the price in one-off fees: a 4% Dubai Land Department transfer fee, about 2% agency commission plus VAT, registration and trustee fees, and, if financing, mortgage arrangement, valuation and 0.25% mortgage-registration fees.",
+      },
+      {
+        question: "How much is the Dubai Land Department fee?",
+        answer:
+          "The DLD transfer fee is 4% of the purchase price, plus a small administrative charge. It is the largest single transaction cost when buying property in Dubai.",
       },
       {
         question: "Do you pay stamp duty or property tax in Dubai?",
         answer:
           "There is no separate stamp duty beyond the 4% DLD transfer fee, and no annual property tax on residential real estate in Dubai. Owners pay annual service charges for maintenance instead.",
       },
+      {
+        question: "Who pays the agency commission in Dubai?",
+        answer:
+          "Typically the buyer pays around 2% commission plus VAT to their agent, and the seller pays their own agent a similar amount. This should be agreed clearly in writing before proceeding.",
+      },
+    ],
+    relatedLinks: [
+      { label: "How to invest in Dubai real estate", href: "/blog/how-to-invest-in-dubai-real-estate" },
+      { label: "Can foreigners get a mortgage in Dubai?", href: "/blog/can-foreigners-get-a-mortgage-in-dubai" },
+      { label: "Dubai property service charges explained", href: "/blog/dubai-property-service-charges-explained" },
+      { label: "Property tax in Dubai", href: "/blog/property-tax-in-dubai" },
     ],
     keywords: [
       "cost of buying property in Dubai",
