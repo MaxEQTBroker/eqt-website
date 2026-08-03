@@ -21,7 +21,7 @@ const beats = [
 
 export function Voice() {
   return (
-    <section className="container-lux space-y-28 py-[var(--section-py)] md:space-y-40">
+    <section className="container-lux space-y-14 py-[var(--section-py)] md:space-y-20">
       {beats.map((b, i) => {
         const right = i % 2 === 1;
         return (

@@ -216,7 +216,7 @@ h1, h2, h3 {
 .draw-rect {
   stroke-dasharray: 104;
   stroke-dashoffset: 104;
-  transition: stroke-dashoffset 2.6s var(--ease-lux);
+  transition: stroke-dashoffset 5s var(--ease-lux);
 }
 .group:hover .draw-rect {
   stroke-dashoffset: 0;
