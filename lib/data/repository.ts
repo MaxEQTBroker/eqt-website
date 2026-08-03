@@ -16,6 +16,7 @@
 import type {
   Area,
   AreaSlug,
+  Developer,
   Listing,
   ListingQuery,
   SoldQuery,
@@ -25,6 +26,7 @@ import type {
 import { mockListings } from "./mock/listings";
 import { mockSold } from "./mock/sold";
 import { mockAreas } from "./mock/areas";
+import { mockDevelopers } from "./mock/developers";
 import { mockTrustSignals } from "./mock/trust";
 
 // ── Listings ──────────────────────────────────────────────────────────
@@ -91,6 +93,20 @@ export async function getAreaBySlug(slug: string): Promise<Area | null> {
 
 export async function getAllAreaSlugs(): Promise<AreaSlug[]> {
   return mockAreas.map((a) => a.slug);
+}
+
+// ── Developers ────────────────────────────────────────────────────────
+
+export async function getDevelopers(): Promise<Developer[]> {
+  return mockDevelopers;
+}
+
+export async function getDeveloperBySlug(slug: string): Promise<Developer | null> {
+  return mockDevelopers.find((d) => d.slug === slug) ?? null;
+}
+
+export async function getAllDeveloperSlugs(): Promise<string[]> {
+  return mockDevelopers.map((d) => d.slug);
 }
 
 // ── Trust signals ─────────────────────────────────────────────────────

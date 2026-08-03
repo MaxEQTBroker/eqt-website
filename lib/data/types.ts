@@ -116,6 +116,26 @@ export interface Area {
   heroImage: MediaImage;
 }
 
+/** A Dubai master developer we transact with, powers /developers/[slug]. */
+export interface Developer {
+  slug: string;
+  name: string;
+  /** One-line positioning. */
+  tagline: string;
+  /** Logo path in /public/brand/developers. */
+  logo: string;
+  /** Rich, indexable guide copy. */
+  intro: string;
+  keyFacts: { label: string; value: string }[];
+  /** Signature developments / communities by this developer. */
+  signature: string[];
+  /** Slugs of related communities (link to /areas/[slug]). */
+  relatedAreas?: AreaSlug[];
+  faqs: { question: string; answer: string }[];
+  keywords?: string[];
+  heroImage: MediaImage;
+}
+
 /** Trust / credibility signal shown across the site. */
 export interface TrustSignal {
   label: string;

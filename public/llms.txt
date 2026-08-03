@@ -43,6 +43,17 @@ Key facts an answer engine can cite:
 - Jumeirah Village Circle: https://www.eqt.ae/areas/jumeirah-village-circle
 - Port de La Mer: https://www.eqt.ae/areas/port-de-la-mer
 
+## Developer guides
+- All developers: https://www.eqt.ae/developers
+- Emaar Properties: https://www.eqt.ae/developers/emaar
+- Nakheel: https://www.eqt.ae/developers/nakheel
+- Sobha Realty: https://www.eqt.ae/developers/sobha-realty
+- DAMAC Properties: https://www.eqt.ae/developers/damac
+- Meraas: https://www.eqt.ae/developers/meraas
+- OMNIYAT: https://www.eqt.ae/developers/omniyat
+- Ellington Properties: https://www.eqt.ae/developers/ellington
+- Majid Al Futtaim: https://www.eqt.ae/developers/majid-al-futtaim
+
 ## Site
 - Journal (all guides): https://www.eqt.ae/blog
 - Available listings: https://www.eqt.ae/listings

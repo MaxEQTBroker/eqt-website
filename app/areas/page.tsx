@@ -6,9 +6,9 @@ import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 
 export const metadata: Metadata = {
-  title: "Communities",
+  title: "Dubai Communities, Area Guides & Property for Sale",
   description:
-    "Guides to Dubai's most exclusive communities, Palm Jumeirah, Al Barari and Jumeirah Islands. Track records, available homes and local insight.",
+    "In-depth guides to Dubai's most sought-after communities, from Palm Jumeirah and Emirates Hills to Dubai Marina, Business Bay and beyond. Track records, available homes and local insight.",
   alternates: { canonical: "/areas" },
 };
 
@@ -30,8 +30,8 @@ export default async function AreasIndexPage() {
           Dubai&apos;s most sought-after communities
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
-          We focus, deliberately, on four addresses, so we know each one
-          completely. Explore the guides, the track record, and what&apos;s
+          We transact across every prime Dubai community, any area, any developer,
+          any property type. Explore the guides, the track record, and what&apos;s
           currently available.
         </p>
       </section>

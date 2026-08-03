@@ -7,7 +7,7 @@
  */
 
 import { site } from "@/lib/site";
-import type { Area, Listing, SoldRecord } from "@/lib/data/types";
+import type { Area, Developer, Listing, SoldRecord } from "@/lib/data/types";
 import type { BlogPost } from "@/lib/data/blog";
 import { formatAedFull } from "@/lib/format";
 
@@ -134,6 +134,23 @@ export function AreaFaqJsonLd({ area }: { area: Area }) {
           name: f.question,
           acceptedAnswer: { "@type": "Answer", text: f.answer },
         })),
+      }}
+    />
+  );
+}
+
+/** Developer as an Organization (with the brands/communities it builds). */
+export function DeveloperJsonLd({ developer }: { developer: Developer }) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: developer.name,
+        description: developer.intro,
+        logo: absUrl(developer.logo),
+        url: `${site.url}/developers/${developer.slug}`,
+        knowsAbout: developer.signature,
       }}
     />
   );
