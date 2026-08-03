@@ -17,14 +17,8 @@ export async function FeaturedListings() {
         poster="/videos/featured-poster.jpg"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      {/* Much lighter mask — lets the footage read through. */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(6,16,30,0.34) 0%, rgba(8,26,50,0.2) 50%, rgba(6,16,30,0.4) 100%)",
-        }}
-      />
+      {/* Flat wash (no gradient) — lets the footage read through. */}
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(20,16,10,0.34)" }} />
 
       <div className="container-lux relative z-10">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">

@@ -203,7 +203,7 @@ function Face({ area }: { area: Area }) {
         sizes="900px"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-base/90 via-base/20 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
       <div className="absolute inset-x-0 bottom-0 p-8 sm:p-10">
         <h3 className="font-display text-4xl text-ink sm:text-5xl">{area.label}</h3>
         <p className="mt-2 max-w-md text-muted">{area.headline}</p>
@@ -242,7 +242,7 @@ function StaticGrid({ areas }: { areas: Area[] }) {
               sizes="(max-width: 640px) 100vw, 25vw"
               className="object-cover opacity-85 transition-all duration-700 group-hover:scale-105 group-hover:opacity-100"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-base/90 via-base/20 to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
             <div className="absolute inset-x-0 bottom-0 p-5">
               <h3 className="font-display text-2xl text-ink">{area.label}</h3>
               <p className="mt-1 text-sm text-accent-500">Explore the guide →</p>

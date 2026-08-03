@@ -55,16 +55,9 @@ export function HeroVideo({
         preload="none"
         className="h-full w-full object-cover"
       />
-      {/* Mostly-clear video; a faint top wash for header legibility, then a
-          bottom gradient that resolves to the page's white (#fff) so the hero
-          blends seamlessly into the next section with no visible line. */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0) 12%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 78%, rgba(255,255,255,0.92) 93%, #ffffff 100%)",
-        }}
-      />
+      {/* Flat, even wash (no gradient) so clean white text reads over the
+          footage. */}
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(20,16,10,0.34)" }} />
     </div>
   );
 }

@@ -1,29 +1,29 @@
 @import "tailwindcss";
 
 /* ══════════════════════════════════════════════════════════════════════
-   DESIGN TOKENS — "Azure Luxe" (v3)
-   Light, minimal, editorial — aligned to EQT's brand blue (~#0051AE) but
-   deepened toward navy for a more luxury feel. Cool off-white surfaces,
-   refined navy accent, deep navy-charcoal text. Everything is a CSS variable:
-   swapping the whole palette means editing ONLY this block.
-   (v1 "Dark & Gold" and v2 "Hermès orange" live in git history.)
+   DESIGN TOKENS — "Warm Beige Editorial" (v4)
+   Minimalist editorial (111 West 57th-inspired): a warm, deep beige canvas —
+   NOT white — with a lighter, refined blue accent, warm espresso text, thin
+   clean lines and NO gradients. Everything is a CSS variable: swapping the
+   whole palette means editing ONLY this block.
+   (v1 Dark&Gold, v2 Hermès, v3 Azure navy live in git history.)
    ══════════════════════════════════════════════════════════════════════ */
 :root {
-  /* Surfaces — clean, cool off-white */
-  --bg-base: #ffffff;
-  --bg-elevated: #f4f7fa;   /* cool light — cards, alternating sections */
-  --bg-inset: #eaeff5;      /* wells, inputs */
-  --line: #dbe2ea;          /* cool hairline borders */
+  /* Surfaces — warm, deep beige (never white) */
+  --bg-base: #e3dbc8;       /* deep warm beige canvas */
+  --bg-elevated: #d8cfb7;   /* deeper beige — alternating sections */
+  --bg-inset: #cdc2a7;      /* wells, inputs */
+  --line: #b0a486;          /* warm, clean hairline */
 
-  /* Accent ramp — EQT brand blue, deepened toward navy for luxury */
-  --accent-400: #3f74b3;    /* light, hover-on-dark */
-  --accent-500: #0b4f9e;    /* primary accent (EQT-blue aligned) */
-  --accent-600: #08325f;    /* deep navy, pressed / button hover */
+  /* Accent — lighter, refined blue (not deep navy) */
+  --accent-400: #6f97c9;
+  --accent-500: #3370b0;
+  --accent-600: #285a90;
 
-  /* Text — deep navy-charcoal on white */
-  --text-primary: #0f1c2e;
-  --text-secondary: #53616f;
-  --text-tertiary: #8792a0;
+  /* Text — warm espresso near-black */
+  --text-primary: #282017;
+  --text-secondary: #5c5343;
+  --text-tertiary: #8a7f68;
   --text-on-accent: #ffffff;
 
   /* Semantic */
@@ -32,9 +32,9 @@
   --focus-ring: var(--accent-500);
   --sold-flag: var(--accent-500);
 
-  /* Scrims for text-over-photo overlays (theme-independent) */
-  --scrim-strong: rgba(9, 18, 30, 0.72);
-  --scrim-soft: rgba(9, 18, 30, 0.12);
+  /* Flat scrims for text-over-media (solid, never gradients) */
+  --scrim-strong: rgba(20, 16, 10, 0.5);
+  --scrim-soft: rgba(20, 16, 10, 0.14);
 
   /* Motion */
   --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
@@ -157,20 +157,12 @@ h1, h2, h3 {
 
 .hairline {
   height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--line) 20%,
-    var(--line) 80%,
-    transparent
-  );
+  background: var(--line);
 }
 
+/* No gradients — solid accent (kept for backward-compat with old markup). */
 .accent-foil {
-  background: linear-gradient(120deg, #3f74b3 0%, #0b4f9e 50%, #08325f 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--accent-500);
 }
 
 /* Buttons */
@@ -216,6 +208,35 @@ h1, h2, h3 {
 }
 .btn-whatsapp:hover {
   background: #1fbc59;
+}
+
+/* "View" box that draws its border on hover (sprec-style) */
+.draw-rect {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  transition: stroke-dashoffset 0.7s var(--ease-lux);
+}
+.group:hover .draw-rect {
+  stroke-dashoffset: 0;
+}
+
+/* Marquee (scrolling strip) */
+@keyframes eqt-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: eqt-marquee 42s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
 }
 
 /* ── Progressive-enhancement reveal ───────────────────────────────────────

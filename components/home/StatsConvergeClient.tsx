@@ -64,13 +64,7 @@ export function StatsConvergeClient({ signals }: { signals: TrustSignal[] }) {
         poster="/videos/stats-poster.jpg"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(6,16,30,0.84) 0%, rgba(8,28,54,0.7) 45%, rgba(6,16,30,0.9) 100%)",
-        }}
-      />
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(20,16,10,0.62)" }} />
 
       <div className="container-lux relative z-10 flex w-full flex-col items-center py-24">
         <div className="text-center">

@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/home/Hero";
-import { AreaShowcase } from "@/components/home/AreaShowcase";
-import { ScrollNarrative } from "@/components/home/ScrollNarrative";
-import { FeaturedListings } from "@/components/home/FeaturedListings";
-import { SoldTeaser } from "@/components/home/SoldTeaser";
-import { TrustSignals } from "@/components/home/TrustSignals";
-import { LeadSection } from "@/components/home/LeadSection";
+import { Statement } from "@/components/home/Statement";
+import { Metrics } from "@/components/home/Metrics";
+import { Communities } from "@/components/home/Communities";
+import { FeaturedEditorial } from "@/components/home/FeaturedEditorial";
+import { Approach } from "@/components/home/Approach";
+import { Voice } from "@/components/home/Voice";
+import { Partners } from "@/components/home/Partners";
+import { Enquire } from "@/components/home/Enquire";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site } from "@/lib/site";
 
@@ -20,12 +22,14 @@ export default function HomePage() {
     <>
       <BreadcrumbJsonLd items={[{ name: "Home", path: "/" }]} />
       <Hero />
-      <AreaShowcase />
-      <TrustSignals />
-      <ScrollNarrative />
-      <FeaturedListings />
-      <SoldTeaser />
-      <LeadSection />
+      <Statement />
+      <Metrics />
+      <Communities />
+      <FeaturedEditorial />
+      <Approach />
+      <Voice />
+      <Partners />
+      <Enquire />
     </>
   );
 }

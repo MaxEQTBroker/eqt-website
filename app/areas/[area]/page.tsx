@@ -79,13 +79,7 @@ export default async function AreaPage({
             sizes="100vw"
             className="object-cover"
           />
-          <div
-            className="absolute inset-0"
-            style={{
-              background:
-                "linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.05) 32%, rgba(255,255,255,0.6) 72%, rgba(255,255,255,0.95) 100%)",
-            }}
-          />
+          <div className="absolute inset-x-0 bottom-0 h-2/3" style={{ backgroundColor: "rgba(227,219,200,0.66)" }} />
         </div>
         <div className="container-lux relative z-10 pb-16 pt-40">
           <p className="eyebrow mb-4">Community guide</p>

@@ -1,0 +1,7 @@
+# Large source video masters — only the compressed web versions in
+# public/videos are needed at runtime.
+/videos
+
+node_modules
+.next
+.git

@@ -30,7 +30,7 @@ export async function AreasStrip() {
                 sizes="(max-width: 640px) 100vw, 25vw"
                 className="object-cover opacity-80 transition-all duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105 group-hover:opacity-100"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-base/90 via-base/20 to-transparent" />
+              <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
               <div className="absolute inset-x-0 bottom-0 p-5">
                 <h3 className="font-display text-2xl text-ink">{area.label}</h3>
                 <p className="mt-1 text-sm text-accent-400 opacity-0 transition-opacity duration-500 group-hover:opacity-100">

@@ -6,12 +6,21 @@ import { useEffect, useState } from "react";
 import { primaryNav, site, whatsappLink } from "@/lib/site";
 
 /**
- * Floating "bubble" header: the logo and the nav/CTA each sit in their own
- * frosted, rounded chip so they stay legible over the hero video (rather than
- * text floating directly on the footage). Nav links are server-rendered.
+ * Minimal editorial header (111 West 57th-inspired): MENU (left) · logo
+ * (center) · INQUIRE (right), no buttons cluttering the bar. "Menu" opens a
+ * slow full-screen overlay with oversized serif links. Transparent white over
+ * the hero video, solid beige once scrolled. All nav links are server-rendered.
  */
 export function Header() {
+  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -20,73 +29,104 @@ export function Header() {
     };
   }, [open]);
 
-  const bubble = "border border-line/60 bg-base/75 backdrop-blur-md shadow-[0_6px_24px_rgba(9,18,30,0.06)]";
+  const barColor = open ? "#e8e0cd" : scrolled ? "var(--text-primary)" : "#ffffff";
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50">
+    <header
+      className="fixed inset-x-0 top-0 z-50 transition-colors duration-500"
+      style={{
+        backgroundColor: !open && scrolled ? "var(--bg-base)" : "transparent",
+        borderBottom: !open && scrolled ? "1px solid var(--line)" : "1px solid transparent",
+      }}
+    >
       <div className="container-lux flex h-20 items-center justify-between">
-        {/* Logo bubble */}
+        {/* Left — Menu toggle */}
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          className="group flex items-center gap-3"
+          style={{ color: barColor }}
+          aria-expanded={open}
+          aria-label={open ? "Close menu" : "Open menu"}
+        >
+          <span className="relative block h-3 w-6">
+            <span className="absolute left-0 h-px w-6 transition-all duration-300" style={{ backgroundColor: barColor, top: open ? "50%" : 0, transform: open ? "rotate(45deg)" : "none" }} />
+            <span className="absolute bottom-0 left-0 h-px w-6 transition-all duration-300" style={{ backgroundColor: barColor, bottom: open ? "auto" : 0, top: open ? "50%" : "auto", transform: open ? "rotate(-45deg)" : "none" }} />
+          </span>
+          <span className="text-[0.72rem] font-medium uppercase tracking-[0.24em]">
+            {open ? "Close" : "Menu"}
+          </span>
+        </button>
+
+        {/* Center — logo */}
         <Link
           href="/"
-          className={`flex items-center gap-2.5 rounded-full px-4 py-2 ${bubble}`}
+          className="absolute left-1/2 flex -translate-x-1/2 items-center gap-2.5"
           aria-label={`${site.name} home`}
+          onClick={() => setOpen(false)}
         >
           <Image src="/brand/logo-mark.png" alt="EQT logo" width={28} height={28} priority className="h-7 w-7" />
-          <span className="font-display text-xl leading-none tracking-[0.3em] text-ink">{site.name}</span>
+          <span className="font-display text-2xl leading-none tracking-[0.32em]" style={{ color: barColor }}>
+            {site.name}
+          </span>
         </Link>
 
-        {/* Desktop nav bubble */}
-        <nav aria-label="Primary" className={`hidden items-center gap-1 rounded-full px-2 py-1.5 md:flex ${bubble}`}>
-          {primaryNav.map((item) => (
+        {/* Right — Inquire */}
+        <a
+          href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
+          style={{ color: barColor }}
+        >
+          Inquire
+        </a>
+      </div>
+
+      {/* Full-screen menu overlay */}
+      <div
+        className="fixed inset-0 z-40 flex flex-col justify-center"
+        style={{
+          backgroundColor: "#241d14",
+          opacity: open ? 1 : 0,
+          pointerEvents: open ? "auto" : "none",
+          transition: "opacity 0.7s var(--ease-lux)",
+        }}
+      >
+        <nav aria-label="Primary" className="container-lux">
+          {primaryNav.map((item, i) => (
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-full px-4 py-2 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-muted transition-colors duration-300 hover:bg-inset hover:text-ink"
+              onClick={() => setOpen(false)}
+              className="block w-fit py-2 font-display leading-[1.08] text-[clamp(2.4rem,7vw,5.5rem)] transition-colors hover:text-[color:var(--accent-400)]"
+              style={{
+                color: "#e8e0cd",
+                opacity: open ? 1 : 0,
+                transform: open ? "translateY(0)" : "translateY(24px)",
+                transition: `opacity 0.6s ${0.12 + i * 0.07}s var(--ease-lux), transform 0.6s ${0.12 + i * 0.07}s var(--ease-lux), color 0.3s`,
+              }}
             >
               {item.label}
             </Link>
           ))}
-          <a
-            href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-1 rounded-full bg-accent-500 px-5 py-2 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-white transition-colors duration-300 hover:bg-accent-600"
-          >
-            Enquire
-          </a>
         </nav>
 
-        {/* Mobile trigger bubble */}
-        <button
-          type="button"
-          className={`flex h-11 w-11 items-center justify-center rounded-full md:hidden ${bubble}`}
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
+        <div
+          className="container-lux mt-14 flex flex-col gap-2 text-sm"
+          style={{
+            color: "#b9ac90",
+            opacity: open ? 1 : 0,
+            transition: `opacity 0.6s ${0.12 + primaryNav.length * 0.07}s var(--ease-lux)`,
+          }}
         >
-          <span className="relative block h-4 w-5">
-            <span className="absolute left-0 h-px w-5 bg-ink transition-transform duration-300" style={{ top: open ? "50%" : 0, transform: open ? "rotate(45deg)" : "none" }} />
-            <span className="absolute left-0 top-1/2 h-px w-5 bg-ink transition-opacity duration-300" style={{ opacity: open ? 0 : 1 }} />
-            <span className="absolute bottom-0 left-0 h-px w-5 bg-ink transition-transform duration-300" style={{ bottom: open ? "auto" : 0, top: open ? "50%" : "auto", transform: open ? "rotate(-45deg)" : "none" }} />
-          </span>
-        </button>
-      </div>
-
-      {/* Mobile drawer */}
-      <div
-        className="fixed inset-0 top-20 z-40 flex flex-col bg-base px-6 pb-10 pt-8 transition-all duration-400 md:hidden"
-        style={{ transform: open ? "translateY(0)" : "translateY(-8px)", opacity: open ? 1 : 0, pointerEvents: open ? "auto" : "none" }}
-      >
-        <nav aria-label="Mobile" className="flex flex-col">
-          {primaryNav.map((item) => (
-            <Link key={item.href} href={item.href} onClick={() => setOpen(false)} className="border-b border-line py-5 font-display text-3xl text-ink">
-              {item.label}
-            </Link>
-          ))}
-        </nav>
-        <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} className="btn btn-accent mt-8 w-full" target="_blank" rel="noopener noreferrer">
-          Enquire on WhatsApp
-        </a>
+          <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit transition-colors hover:text-[#e8e0cd]">
+            {site.contact.phone} · WhatsApp
+          </a>
+          <a href={`mailto:${site.contact.email}`} className="w-fit transition-colors hover:text-[#e8e0cd]">
+            {site.contact.email}
+          </a>
+        </div>
       </div>
     </header>
   );
