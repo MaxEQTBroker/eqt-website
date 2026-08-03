@@ -30,6 +30,18 @@ import { mockAreas } from "./mock/areas";
 import { mockDevelopers } from "./mock/developers";
 import { mockPropertyTypes } from "./mock/propertyTypes";
 import { mockTrustSignals } from "./mock/trust";
+import { heroImages } from "./mock/heroImages";
+
+/**
+ * Overlay the central Pexels hero image onto a record if one exists for its
+ * slug. Keeps the mock data files clean and gives one place to swap stock for
+ * real photography later. Records without an override keep their own image
+ * (e.g. Palm Jumeirah / Al Barari use real brochure photos).
+ */
+function withHero<T extends { slug: string; heroImage: import("./types").MediaImage }>(item: T): T {
+  const hero = heroImages[item.slug];
+  return hero ? { ...item, heroImage: hero } : item;
+}
 
 // ── Listings ──────────────────────────────────────────────────────────
 
@@ -86,11 +98,12 @@ export async function getSoldTeaser(limit = 3): Promise<SoldRecord[]> {
 // ── Areas ─────────────────────────────────────────────────────────────
 
 export async function getAreas(): Promise<Area[]> {
-  return mockAreas;
+  return mockAreas.map(withHero);
 }
 
 export async function getAreaBySlug(slug: string): Promise<Area | null> {
-  return mockAreas.find((a) => a.slug === slug) ?? null;
+  const area = mockAreas.find((a) => a.slug === slug);
+  return area ? withHero(area) : null;
 }
 
 export async function getAllAreaSlugs(): Promise<AreaSlug[]> {
@@ -100,11 +113,12 @@ export async function getAllAreaSlugs(): Promise<AreaSlug[]> {
 // ── Developers ────────────────────────────────────────────────────────
 
 export async function getDevelopers(): Promise<Developer[]> {
-  return mockDevelopers;
+  return mockDevelopers.map(withHero);
 }
 
 export async function getDeveloperBySlug(slug: string): Promise<Developer | null> {
-  return mockDevelopers.find((d) => d.slug === slug) ?? null;
+  const dev = mockDevelopers.find((d) => d.slug === slug);
+  return dev ? withHero(dev) : null;
 }
 
 export async function getAllDeveloperSlugs(): Promise<string[]> {
@@ -114,11 +128,12 @@ export async function getAllDeveloperSlugs(): Promise<string[]> {
 // ── Property-type guides ──────────────────────────────────────────────
 
 export async function getPropertyGuides(): Promise<PropertyGuide[]> {
-  return mockPropertyTypes;
+  return mockPropertyTypes.map(withHero);
 }
 
 export async function getPropertyGuideBySlug(slug: string): Promise<PropertyGuide | null> {
-  return mockPropertyTypes.find((p) => p.slug === slug) ?? null;
+  const guide = mockPropertyTypes.find((p) => p.slug === slug);
+  return guide ? withHero(guide) : null;
 }
 
 export async function getAllPropertyTypeSlugs(): Promise<string[]> {

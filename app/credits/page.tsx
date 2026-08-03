@@ -1,0 +1,50 @@
+import type { Metadata } from "next";
+import { photoCredits } from "@/lib/data/mock/heroImages";
+
+export const metadata: Metadata = {
+  title: "Photography Credits",
+  description:
+    "Photography on this site is provided by talented photographers via Pexels. With thanks to each of them.",
+  alternates: { canonical: "/credits" },
+  robots: { index: false },
+};
+
+export default function CreditsPage() {
+  // De-duplicate photographers by profile URL.
+  const seen = new Set<string>();
+  const credits = photoCredits.filter((c) =>
+    seen.has(c.profileUrl) ? false : (seen.add(c.profileUrl), true),
+  );
+
+  return (
+    <section className="container-lux pb-[var(--section-py)] pt-40">
+      <p className="eyebrow mb-5">With thanks</p>
+      <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.25rem,6vw,4.5rem)" }}>
+        Photography credits
+      </h1>
+      <p className="mt-8 max-w-2xl text-lg text-muted">
+        Editorial photography across this site is provided by these photographers via{" "}
+        <a href="https://www.pexels.com" target="_blank" rel="noopener noreferrer" className="link-quiet">
+          Pexels
+        </a>
+        . With gratitude to each of them.
+      </p>
+
+      <ul className="mt-14 grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
+        {credits.map((c) => (
+          <li key={c.profileUrl}>
+            <a
+              href={c.profileUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-2 border-b border-line py-3 text-ink transition-colors hover:text-accent-600"
+            >
+              <span>{c.photographer}</span>
+              <span className="text-accent-500 opacity-0 transition-opacity group-hover:opacity-100">↗</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}

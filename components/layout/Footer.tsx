@@ -29,6 +29,7 @@ export function Footer() {
             © {new Date().getFullYear()} {site.legalName}. RERA ORN {site.regulatory.reraOrn} · DED {site.regulatory.dedLicense}.
           </p>
           <div className="flex gap-6">
+            <Link href="/credits" className="transition-colors hover:text-ink">Photography</Link>
             <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Instagram</a>
             <a href={site.social.linkedin} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">LinkedIn</a>
           </div>

@@ -34,6 +34,10 @@ export interface MediaImage {
   alt: string;
   /** Optional blur/placeholder color for progressive loading. */
   tone?: string;
+  /** Photographer name (Pexels attribution). */
+  credit?: string;
+  /** Photographer profile URL (Pexels attribution). */
+  creditUrl?: string;
 }
 
 /** Core listing, maps to a row in `public_listings`. */

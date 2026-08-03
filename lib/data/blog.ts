@@ -672,12 +672,23 @@ export const mockPosts: BlogPost[] = [
 ];
 
 // ── Repository (the seam) ────────────────────────────────────────────────
+import { heroImages } from "./mock/heroImages";
+
+/** Overlay the central Pexels hero image if one exists for this post's slug. */
+function withHero(post: BlogPost): BlogPost {
+  const hero = heroImages[post.slug];
+  return hero ? { ...post, heroImage: hero } : post;
+}
+
 export async function getAllPosts(): Promise<BlogPost[]> {
-  return [...mockPosts].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  return [...mockPosts]
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .map(withHero);
 }
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
-  return mockPosts.find((p) => p.slug === slug) ?? null;
+  const post = mockPosts.find((p) => p.slug === slug);
+  return post ? withHero(post) : null;
 }
 
 export async function getAllPostSlugs(): Promise<string[]> {
@@ -689,5 +700,6 @@ export async function getRelatedPosts(slug: string, limit = 2): Promise<BlogPost
   return mockPosts
     .filter((p) => p.slug !== slug)
     .sort((a, b) => (b.category === current?.category ? 1 : 0) - (a.category === current?.category ? 1 : 0))
-    .slice(0, limit);
+    .slice(0, limit)
+    .map(withHero);
 }
