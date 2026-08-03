@@ -17,7 +17,7 @@ export function Approach() {
       <div className="group container-lux grid md:grid-cols-3">
         {options.map((o, i) => {
           const cls =
-            "flex flex-col gap-4 py-9 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.035] md:py-11" +
+            "flex flex-col gap-4 py-9 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.09] md:py-11" +
             (i > 0 ? " border-t border-line md:border-l md:border-t-0" : "");
           const inner = (
             <>
