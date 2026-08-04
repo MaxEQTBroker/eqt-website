@@ -264,7 +264,7 @@ export default async function AreaPage({
             </a>
           </Reveal>
           <Reveal delay={120}>
-            <LeadForm defaultArea={area.label} />
+            <LeadForm defaultArea={area.label} source={`area:${area.slug}`} />
           </Reveal>
         </div>
       </section>

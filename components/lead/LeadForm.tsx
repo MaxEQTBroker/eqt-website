@@ -3,11 +3,13 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { site, whatsappLink } from "@/lib/site";
+import { postLead } from "@/lib/leads/submit";
 
 /**
- * Multi-step lead form, WhatsApp-first. On submit it composes a prefilled
- * WhatsApp message (the fastest conversion path in this market). The
- * `onSubmitLead` seam is where a CRM POST gets wired later, the UI won't change.
+ * Multi-step lead form. On submit it POSTs the lead to /api/lead (which forwards
+ * it to the CRM server-side), then shows a confirmation with a WhatsApp button
+ * as the guaranteed fallback channel, so a lead is never lost even if the CRM
+ * is down or not yet configured.
  */
 
 type Intent = "Buy" | "Sell" | "Invest";
@@ -20,8 +22,12 @@ const steps = ["Intent", "Preferences", "Contact"] as const;
 /**
  * @param defaultArea  When set (e.g. embedded on an area page), the community is
  *                     preselected and shown first in the options.
+ * @param source       Attribution for the CRM, e.g. "area:dubai-marina".
  */
-export function LeadForm({ defaultArea }: { defaultArea?: string } = {}) {
+export function LeadForm({
+  defaultArea,
+  source,
+}: { defaultArea?: string; source?: string } = {}) {
   const reduce = useReducedMotion();
   const areaOptions = useMemo(
     () =>
@@ -36,6 +42,9 @@ export function LeadForm({ defaultArea }: { defaultArea?: string } = {}) {
   const [budget, setBudget] = useState<string | null>(null);
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
+  const [honeypot, setHoneypot] = useState("");
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
 
   const canNext = useMemo(() => {
     if (step === 0) return intent !== null;
@@ -55,9 +64,23 @@ export function LeadForm({ defaultArea }: { defaultArea?: string } = {}) {
     [intent, area, budget, name, contact],
   );
 
-  function submit() {
-    // SEAM: later, POST to the CRM here before/after opening WhatsApp.
-    window.open(whatsappLink(message), "_blank", "noopener,noreferrer");
+  async function submit() {
+    if (sending) return;
+    setSending(true);
+    // Forward to the CRM (best-effort). We still show success + WhatsApp even if
+    // this fails, so the lead is never lost.
+    await postLead({
+      name,
+      contact,
+      intent: intent ?? undefined,
+      area: area ?? undefined,
+      budget: budget ?? undefined,
+      source,
+      honeypot,
+      pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
+    });
+    setSending(false);
+    setSent(true);
   }
 
   const variants = reduce
@@ -67,6 +90,27 @@ export function LeadForm({ defaultArea }: { defaultArea?: string } = {}) {
         animate: { opacity: 1, x: 0 },
         exit: { opacity: 0, x: -24 },
       };
+
+  if (sent) {
+    return (
+      <div className="rounded-lg border border-line bg-elevated p-8 text-center sm:p-10">
+        <p className="eyebrow mb-4">Thank you, {name.split(" ")[0]}</p>
+        <h3 className="font-display text-2xl text-ink">We&rsquo;ve received your enquiry</h3>
+        <p className="mx-auto mt-4 max-w-sm text-muted">
+          A private advisor will be in touch shortly. For the fastest response, continue the
+          conversation on WhatsApp.
+        </p>
+        <a
+          href={whatsappLink(message)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-whatsapp mt-7 inline-block"
+        >
+          Continue on WhatsApp
+        </a>
+      </div>
+    );
+  }
 
   return (
     <div className="rounded-lg border border-line bg-elevated p-6 sm:p-9">
@@ -157,6 +201,18 @@ export function LeadForm({ defaultArea }: { defaultArea?: string } = {}) {
         </motion.div>
       </AnimatePresence>
 
+      {/* Honeypot: hidden from people, bots tend to fill it. */}
+      <input
+        type="text"
+        name="company"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        value={honeypot}
+        onChange={(e) => setHoneypot(e.target.value)}
+        style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
+      />
+
       {/* Controls */}
       <div className="mt-9 flex items-center justify-between gap-4">
         <button
@@ -180,11 +236,11 @@ export function LeadForm({ defaultArea }: { defaultArea?: string } = {}) {
         ) : (
           <button
             type="button"
-            className="btn btn-whatsapp disabled:cursor-not-allowed disabled:opacity-40"
+            className="btn btn-accent disabled:cursor-not-allowed disabled:opacity-40"
             onClick={submit}
-            disabled={!canNext}
+            disabled={!canNext || sending}
           >
-            Send on WhatsApp
+            {sending ? "Sending…" : "Send enquiry"}
           </button>
         )}
       </div>

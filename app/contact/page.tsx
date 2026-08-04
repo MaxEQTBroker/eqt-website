@@ -84,7 +84,7 @@ export default function ContactPage() {
 
         {/* Multi-step form */}
         <Reveal delay={120}>
-          <LeadForm />
+          <LeadForm source="contact" />
         </Reveal>
       </section>
     </>

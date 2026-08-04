@@ -242,7 +242,7 @@ export default async function PropertyTypePage({
           </a>
         </Reveal>
         <Reveal delay={120}>
-          <LeadForm />
+          <LeadForm source={`property:${guide.slug}`} />
         </Reveal>
       </section>
     </>
