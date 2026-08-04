@@ -352,14 +352,16 @@ export function LeadForm({
           or Escape. */}
       {showAllCommunities && (
         <div className="fixed inset-0 z-[60]" role="dialog" aria-modal="true" aria-label="Select a community">
+          {/* Transparent click-catcher: closes on outside click without darkening the screen. */}
           <button
             type="button"
             aria-label="Close community list"
             onClick={() => setShowAllCommunities(false)}
-            className="absolute inset-0 bg-black/50"
+            className="absolute inset-0 cursor-default"
           />
-          <div className="absolute inset-y-0 right-0 flex w-full max-w-sm flex-col border-l border-line bg-elevated shadow-2xl">
-            <div className="flex items-center justify-between border-b border-line px-5 py-4">
+          {/* Compact popup, centred over the content. */}
+          <div className="absolute left-1/2 top-1/2 flex max-h-[70vh] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-lg border border-line bg-elevated shadow-2xl">
+            <div className="flex items-center justify-between border-b border-line px-4 py-3">
               <p className="font-display text-lg text-ink">Select a community</p>
               <button
                 type="button"
@@ -370,7 +372,7 @@ export function LeadForm({
                 &times;
               </button>
             </div>
-            <div className="border-b border-line p-4">
+            <div className="border-b border-line p-3">
               <input
                 autoFocus
                 value={communityQuery}
@@ -390,7 +392,7 @@ export function LeadForm({
                       type="button"
                       key={c}
                       onClick={() => chooseArea(c)}
-                      className="block w-full rounded-md px-4 py-3 text-left text-[0.95rem] transition-colors hover:bg-[rgba(122,106,77,0.1)]"
+                      className="block w-full rounded-md px-4 py-2.5 text-left text-[0.95rem] transition-colors hover:bg-[rgba(122,106,77,0.1)]"
                       style={{
                         color: selected ? "var(--accent-600)" : "var(--text-primary)",
                         backgroundColor: selected ? "rgba(122,106,77,0.12)" : "transparent",

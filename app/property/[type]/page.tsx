@@ -92,14 +92,12 @@ export default async function PropertyTypePage({
         </div>
       </section>
 
-      {/* Intro + enquiry: lead form sticky at top-left, editorial on the right */}
+      {/* Below the hero: the lead form is a sticky LEFT rail that follows the
+          whole page; every content block lives in the RIGHT column. */}
       <section className="container-lux py-[var(--section-py)]">
-        <div className="grid gap-12 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-16">
-          {/* Lead form, top-left and sticky so it's visible immediately */}
-          <aside
-            id="enquire"
-            className="lg:sticky lg:top-24 lg:self-start"
-          >
+        <div className="grid gap-12 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-16 lg:items-start">
+          {/* Lead form, left rail, sticky for the entire page */}
+          <aside id="enquire" className="lg:sticky lg:top-24 lg:self-start">
             <p className="eyebrow mb-2">Looking for {guide.label.toLowerCase()}?</p>
             <p className="mb-4 text-sm text-muted">
               Share your brief and we&apos;ll send a private shortlist of {guide.label.toLowerCase()}
@@ -116,154 +114,129 @@ export default async function PropertyTypePage({
             <LeadForm source={`property:${guide.slug}`} />
           </aside>
 
-          {/* Editorial: intro, popular searches, key facts */}
-          <div>
-            <Reveal>
-              <p className="text-lg leading-relaxed text-muted">{guide.intro}</p>
-              {guide.keywords && guide.keywords.length > 0 && (
-                <div className="mt-8">
-                  <p className="eyebrow mb-3">Popular searches</p>
-                  <ul className="flex flex-wrap gap-2">
-                    {guide.keywords.map((kw) => (
-                      <li
-                        key={kw}
-                        className="rounded-full border border-line bg-elevated px-4 py-1.5 text-sm text-muted"
-                      >
-                        {kw}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </Reveal>
-            <Reveal delay={100}>
-              <div className="mt-10 rounded-lg border border-line bg-elevated p-8">
-                <p className="eyebrow mb-6">Key facts</p>
-                <dl className="space-y-5">
-                  {guide.keyFacts.map((fact) => (
-                    <div key={fact.label} className="flex flex-col gap-1 border-b border-line pb-4 last:border-0 last:pb-0">
-                      <dt className="text-sm text-faint">{fact.label}</dt>
-                      <dd className="text-ink">{fact.value}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
-      {/* Available listings of this type */}
-      {listings.length > 0 && (
-        <section className="border-t border-line bg-elevated">
-          <div className="container-lux py-[var(--section-py)]">
-            <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+          {/* Right column: all page content */}
+          <div className="min-w-0 space-y-16">
+            {/* Intro + popular searches + key facts */}
+            <div>
               <Reveal>
-                <p className="eyebrow mb-4">Available now</p>
-                <h2 className="display-h2 max-w-[16ch] text-ink">{guide.label} for sale</h2>
+                <p className="text-lg leading-relaxed text-muted">{guide.intro}</p>
+                {guide.keywords && guide.keywords.length > 0 && (
+                  <div className="mt-8">
+                    <p className="eyebrow mb-3">Popular searches</p>
+                    <ul className="flex flex-wrap gap-2">
+                      {guide.keywords.map((kw) => (
+                        <li
+                          key={kw}
+                          className="rounded-full border border-line bg-elevated px-4 py-1.5 text-sm text-muted"
+                        >
+                          {kw}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </Reveal>
               <Reveal delay={100}>
-                <Link href="/listings" className="btn btn-ghost">
-                  All listings
-                </Link>
+                <div className="mt-10 rounded-lg border border-line bg-elevated p-8">
+                  <p className="eyebrow mb-6">Key facts</p>
+                  <dl className="space-y-5">
+                    {guide.keyFacts.map((fact) => (
+                      <div key={fact.label} className="flex flex-col gap-1 border-b border-line pb-4 last:border-0 last:pb-0">
+                        <dt className="text-sm text-faint">{fact.label}</dt>
+                        <dd className="text-ink">{fact.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
               </Reveal>
             </div>
-            <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {listings.map((listing, i) => (
-                <Reveal key={listing.slug} delay={(i % 3) * 90}>
-                  <ListingCard listing={listing} />
+
+            {/* Available listings of this type */}
+            {listings.length > 0 && (
+              <div className="border-t border-line pt-16">
+                <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+                  <Reveal>
+                    <p className="eyebrow mb-4">Available now</p>
+                    <h2 className="display-h2 max-w-[16ch] text-ink">{guide.label} for sale</h2>
+                  </Reveal>
+                  <Reveal delay={100}>
+                    <Link href="/listings" className="btn btn-ghost">All listings</Link>
+                  </Reveal>
+                </div>
+                <div className="mt-10 grid gap-6 sm:grid-cols-2">
+                  {listings.map((listing, i) => (
+                    <Reveal key={listing.slug} delay={(i % 2) * 90}>
+                      <ListingCard listing={listing} />
+                    </Reveal>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Best communities for this type */}
+            {relatedAreas.length > 0 && (
+              <div className="border-t border-line pt-16">
+                <Reveal>
+                  <p className="eyebrow mb-4">Where to look</p>
+                  <h2 className="display-h2 max-w-[18ch] text-ink">
+                    Best communities for {guide.label.toLowerCase()}
+                  </h2>
                 </Reveal>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+                <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {relatedAreas.map((area, i) => (
+                    <Reveal key={area.slug} delay={i * 80}>
+                      <Link
+                        href={`/areas/${area.slug}`}
+                        className="group relative block aspect-[3/4] overflow-hidden rounded-lg"
+                        style={{ backgroundColor: area.heroImage.tone }}
+                      >
+                        <Image
+                          src={area.heroImage.url}
+                          alt={area.heroImage.alt}
+                          fill
+                          sizes="(max-width: 640px) 100vw, 25vw"
+                          className="object-cover opacity-85 transition-all duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105 group-hover:opacity-100"
+                        />
+                        <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
+                        <div className="absolute inset-x-0 bottom-0 p-6">
+                          <h3 className="font-display text-xl text-ink">{area.label}</h3>
+                          <p className="mt-2 text-sm text-accent-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                            Explore →
+                          </p>
+                        </div>
+                      </Link>
+                    </Reveal>
+                  ))}
+                </div>
+              </div>
+            )}
 
-      {/* Best communities for this type */}
-      {relatedAreas.length > 0 && (
-        <section className="container-lux py-[var(--section-py)]">
-          <Reveal>
-            <p className="eyebrow mb-4">Where to look</p>
-            <h2 className="display-h2 max-w-[18ch] text-ink">
-              Best communities for {guide.label.toLowerCase()}
-            </h2>
-          </Reveal>
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {relatedAreas.map((area, i) => (
-              <Reveal key={area.slug} delay={i * 80}>
-                <Link
-                  href={`/areas/${area.slug}`}
-                  className="group relative block aspect-[3/4] overflow-hidden rounded-lg"
-                  style={{ backgroundColor: area.heroImage.tone }}
-                >
-                  <Image
-                    src={area.heroImage.url}
-                    alt={area.heroImage.alt}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 25vw"
-                    className="object-cover opacity-85 transition-all duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105 group-hover:opacity-100"
-                  />
-                  <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
-                  <div className="absolute inset-x-0 bottom-0 p-6">
-                    <h3 className="font-display text-xl text-ink">{area.label}</h3>
-                    <p className="mt-2 text-sm text-accent-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                      Explore →
-                    </p>
-                  </div>
-                </Link>
-              </Reveal>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* FAQ */}
-      {guide.faqs.length > 0 && (
-        <section className="border-t border-line bg-elevated">
-          <div className="container-lux py-[var(--section-py)]">
-            <Reveal>
-              <p className="eyebrow mb-4">Good to know</p>
-              <h2 className="display-h2 max-w-[18ch] text-ink">
-                {guide.label} in Dubai, answered
-              </h2>
-            </Reveal>
-            <div className="mt-12 divide-y divide-line border-y border-line">
-              {guide.faqs.map((faq) => (
-                <Reveal key={faq.question}>
-                  <details className="group py-6">
-                    <summary className="flex cursor-pointer list-none items-center justify-between gap-6 font-display text-2xl text-ink">
-                      {faq.question}
-                      <span className="text-accent-500 transition-transform duration-300 group-open:rotate-45">
-                        +
-                      </span>
-                    </summary>
-                    <p className="mt-4 max-w-3xl text-lg text-muted">{faq.answer}</p>
-                  </details>
+            {/* FAQ */}
+            {guide.faqs.length > 0 && (
+              <div className="border-t border-line pt-16">
+                <Reveal>
+                  <p className="eyebrow mb-4">Good to know</p>
+                  <h2 className="display-h2 max-w-[18ch] text-ink">
+                    {guide.label} in Dubai, answered
+                  </h2>
                 </Reveal>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Closing CTA, jumps back up to the enquiry form */}
-      <section className="border-t border-line bg-elevated">
-        <div className="container-lux flex flex-col items-start gap-6 py-[var(--section-py)] md:flex-row md:items-center md:justify-between">
-          <h2 className="display-h2 max-w-[18ch] text-ink">
-            Tell us your brief
-          </h2>
-          <div className="flex flex-wrap gap-4">
-            <a href="#enquire" className="btn btn-accent">
-              Enquire now
-            </a>
-            <a
-              href={whatsappLink(`Hello ${site.name}, I'm looking for ${guide.label.toLowerCase()} in Dubai.`)}
-              className="btn btn-whatsapp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              WhatsApp
-            </a>
+                <div className="mt-10 divide-y divide-line border-y border-line">
+                  {guide.faqs.map((faq) => (
+                    <Reveal key={faq.question}>
+                      <details className="group py-6">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-6 font-display text-xl text-ink">
+                          {faq.question}
+                          <span className="text-accent-500 transition-transform duration-300 group-open:rotate-45">
+                            +
+                          </span>
+                        </summary>
+                        <p className="mt-4 text-lg text-muted">{faq.answer}</p>
+                      </details>
+                    </Reveal>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>
