@@ -94,8 +94,57 @@ export async function getAllListingSlugs(): Promise<string[]> {
 
 // ── Sold track record ─────────────────────────────────────────────────
 
+/**
+ * Fetch published sold records from the CRM's public read endpoint. Returns
+ * null when not configured (so we fall back to mock data), or [] on error/empty.
+ * Cached for 5 minutes via Next's fetch revalidation.
+ *
+ * CONFIG (Vercel env, server-side): CRM_SOLD_URL, CRM_SOLD_TOKEN.
+ */
+async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
+  const url = process.env.CRM_SOLD_URL;
+  if (!url) return null;
+  try {
+    const res = await fetch(url, {
+      headers: process.env.CRM_SOLD_TOKEN
+        ? { Authorization: `Bearer ${process.env.CRM_SOLD_TOKEN}` }
+        : {},
+      next: { revalidate: 300 },
+    });
+    if (!res.ok) {
+      console.error("[sold] CRM responded", res.status);
+      return [];
+    }
+    const data = await res.json();
+    const arr: unknown[] = Array.isArray(data) ? data : (data?.records ?? []);
+    return arr.map((raw): SoldRecord => {
+      const r = raw as Record<string, unknown>;
+      const img = r.image as { url?: string; alt?: string } | undefined;
+      return {
+        reference: String(r.reference ?? ""),
+        title: String(r.title ?? ""),
+        area: String(r.area ?? "") as AreaSlug,
+        areaLabel: String(r.areaLabel ?? r.area ?? ""),
+        type: (r.type as SoldRecord["type"]) ?? "Villa",
+        soldPriceAed: typeof r.soldPriceAed === "number" ? r.soldPriceAed : undefined,
+        priceLabel: typeof r.priceLabel === "string" ? r.priceLabel : undefined,
+        bedrooms: Number(r.bedrooms ?? 0),
+        areaSqft: Number(r.areaSqft ?? 0),
+        soldDate: String(r.soldDate ?? ""),
+        image: img?.url ? { url: img.url, alt: img.alt ?? String(r.title ?? "") } : undefined,
+        note: typeof r.note === "string" ? r.note : undefined,
+      };
+    });
+  } catch (err) {
+    console.error("[sold] fetch failed", err);
+    return [];
+  }
+}
+
 export async function getSoldRecords(query: SoldQuery = {}): Promise<SoldRecord[]> {
-  return mockSold
+  // Real CRM data when configured; mock data otherwise (for demo/preview).
+  const source = (await fetchSoldFromCRM()) ?? mockSold;
+  return source
     .filter((s) => (!query.area || s.area === query.area))
     .filter((s) =>
       query.minPriceAed == null || (s.soldPriceAed ?? 0) >= query.minPriceAed,
