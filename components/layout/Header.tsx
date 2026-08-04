@@ -49,9 +49,9 @@ export function Header() {
           aria-expanded={open}
           aria-label={open ? "Close menu" : "Open menu"}
         >
-          <span className="relative block h-3 w-6">
-            <span className="absolute left-0 h-px w-6 transition-all duration-300" style={{ backgroundColor: barColor, top: open ? "50%" : 0, transform: open ? "rotate(45deg)" : "none" }} />
-            <span className="absolute bottom-0 left-0 h-px w-6 transition-all duration-300" style={{ backgroundColor: barColor, bottom: open ? "auto" : 0, top: open ? "50%" : "auto", transform: open ? "rotate(-45deg)" : "none" }} />
+          <span className="relative block h-4 w-7">
+            <span className="absolute left-0 h-[2px] w-7 transition-all duration-300" style={{ backgroundColor: barColor, top: open ? "50%" : 0, transform: open ? "rotate(45deg)" : "none" }} />
+            <span className="absolute bottom-0 left-0 h-[2px] w-7 transition-all duration-300" style={{ backgroundColor: barColor, bottom: open ? "auto" : 0, top: open ? "50%" : "auto", transform: open ? "rotate(-45deg)" : "none" }} />
           </span>
           {!open && (
             <span className="text-[0.72rem] font-medium uppercase tracking-[0.24em]">
@@ -97,8 +97,8 @@ export function Header() {
           transition: "opacity 0.7s var(--ease-lux)",
         }}
       >
-        <div className="flex min-h-full flex-col justify-start px-0 pb-14 pt-28">
-          <nav aria-label="Primary" className="container-lux flex flex-col items-center text-center">
+        <div className="relative flex min-h-full flex-col px-0 pb-14 pt-28">
+          <nav aria-label="Primary" className="container-lux my-auto flex flex-col items-start">
             {primaryNav.map((item, i) => (
               <Link
                 key={item.href}
@@ -118,7 +118,7 @@ export function Header() {
           </nav>
 
           <div
-            className="container-lux mt-auto flex flex-col items-end gap-2 pt-12 text-right text-sm"
+            className="container-lux absolute inset-x-0 bottom-12 flex flex-col items-end gap-2 text-right text-sm"
             style={{
               color: "#b9ac90",
               opacity: open ? 1 : 0,
