@@ -37,9 +37,9 @@ export default function ValuationPage() {
       />
 
       <section className="container-lux pb-[var(--section-py)] pt-40">
-        <div className="grid gap-14 lg:grid-cols-[1fr_1.05fr] lg:gap-20">
-          {/* Left: pitch */}
-          <div>
+        <div className="grid gap-14 lg:grid-cols-[420px_minmax(0,1fr)] lg:gap-20">
+          {/* Right on desktop: pitch (kept first in the DOM for the H1/reading order) */}
+          <div className="lg:order-2">
             <p className="eyebrow mb-5">Thinking of selling?</p>
             <h1 className="display-hero text-ink" style={{ fontSize: "clamp(2.25rem,6vw,4.5rem)" }}>
               What is your Dubai property worth?
@@ -69,8 +69,8 @@ export default function ValuationPage() {
             </p>
           </div>
 
-          {/* Right: form */}
-          <Reveal delay={120}>
+          {/* Left on desktop: the form */}
+          <Reveal delay={120} className="lg:order-1 lg:sticky lg:top-24 lg:self-start">
             <ValuationForm source="valuation" />
           </Reveal>
         </div>

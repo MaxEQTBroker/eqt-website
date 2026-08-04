@@ -197,19 +197,32 @@ export function LeadForm({
                 </OptionButton>
               </div>
               {showDropdown && (
-                <select
-                  className="lux-input lux-select mt-3"
-                  value={area && !quickPicks.includes(area) ? area : ""}
-                  onChange={(e) => chooseArea(e.target.value || null)}
+                <div
+                  className="mt-3 max-h-52 overflow-y-auto rounded-md border border-line"
+                  style={{ background: "var(--bg-inset)" }}
+                  role="listbox"
+                  aria-label="Choose a community"
                 >
-                  <option value="">Select a community…</option>
-                  {COMMUNITY_LABELS.map((c) => (
-                    <option key={c} value={c}>
-                      {c}
-                    </option>
-                  ))}
-                  <option value="Not sure yet">Not sure yet</option>
-                </select>
+                  {[...COMMUNITY_LABELS, "Not sure yet"].map((c) => {
+                    const selected = area === c;
+                    return (
+                      <button
+                        type="button"
+                        key={c}
+                        role="option"
+                        aria-selected={selected}
+                        onClick={() => chooseArea(c)}
+                        className="block w-full px-4 py-2.5 text-left text-sm transition-colors hover:bg-[rgba(122,106,77,0.09)]"
+                        style={{
+                          color: selected ? "var(--accent-600)" : "var(--text-secondary)",
+                          backgroundColor: selected ? "rgba(122,106,77,0.12)" : "transparent",
+                        }}
+                      >
+                        {c}
+                      </button>
+                    );
+                  })}
+                </div>
               )}
             </fieldset>
           )}
