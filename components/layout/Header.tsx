@@ -49,14 +49,20 @@ export function Header() {
           aria-expanded={open}
           aria-label={open ? "Close menu" : "Open menu"}
         >
-          <span className="relative block h-4 w-7">
-            <span className="absolute left-0 h-[2px] w-7 transition-all duration-300" style={{ backgroundColor: barColor, top: open ? "50%" : 0, transform: open ? "rotate(45deg)" : "none" }} />
-            <span className="absolute bottom-0 left-0 h-[2px] w-7 transition-all duration-300" style={{ backgroundColor: barColor, bottom: open ? "auto" : 0, top: open ? "50%" : "auto", transform: open ? "rotate(-45deg)" : "none" }} />
-          </span>
-          {!open && (
-            <span className="text-[0.72rem] font-medium uppercase tracking-[0.24em]">
-              Menu
+          {open ? (
+            <span className="text-[2rem] font-light leading-none" aria-hidden="true">
+              ×
             </span>
+          ) : (
+            <>
+              <span className="relative block h-3 w-6">
+                <span className="absolute left-0 top-0 h-[2px] w-6" style={{ backgroundColor: barColor }} />
+                <span className="absolute bottom-0 left-0 h-[2px] w-6" style={{ backgroundColor: barColor }} />
+              </span>
+              <span className="text-[0.72rem] font-medium uppercase tracking-[0.24em]">
+                Menu
+              </span>
+            </>
           )}
         </button>
 
@@ -97,7 +103,7 @@ export function Header() {
           transition: "opacity 0.7s var(--ease-lux)",
         }}
       >
-        <div className="relative flex min-h-full flex-col px-0 pb-14 pt-28">
+        <div className="relative flex min-h-full flex-col px-0 py-24">
           <nav aria-label="Primary" className="container-lux my-auto flex flex-col items-start">
             {primaryNav.map((item, i) => (
               <Link
