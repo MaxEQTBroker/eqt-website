@@ -60,20 +60,86 @@ function withContent<
 
 // ── Listings ──────────────────────────────────────────────────────────
 
+/**
+ * Fetch active listings from the CRM/scraper public endpoint. Returns null when
+ * not configured (fall back to mock), [] on error. 5-minute ISR cache.
+ * CONFIG (Vercel env, server-side): CRM_LISTINGS_URL, CRM_LISTINGS_TOKEN.
+ */
+async function fetchListingsFromCRM(): Promise<Listing[] | null> {
+  const url = process.env.CRM_LISTINGS_URL;
+  if (!url) return null;
+  try {
+    const res = await fetch(url, {
+      headers: process.env.CRM_LISTINGS_TOKEN
+        ? { Authorization: `Bearer ${process.env.CRM_LISTINGS_TOKEN}` }
+        : {},
+      next: { revalidate: 300 },
+    });
+    if (!res.ok) {
+      console.error("[listings] CRM responded", res.status);
+      return [];
+    }
+    const data = await res.json();
+    const arr: unknown[] = Array.isArray(data) ? data : (data?.listings ?? data?.records ?? []);
+    return arr.map((raw): Listing => {
+      const r = raw as Record<string, unknown>;
+      const rawImgs = Array.isArray(r.images) ? (r.images as unknown[]) : [];
+      const images = rawImgs
+        .map((im) => {
+          const o = im as { url?: string; alt?: string };
+          const u = typeof im === "string" ? im : o?.url;
+          return u ? { url: String(u), alt: String(o?.alt ?? r.title ?? "") } : null;
+        })
+        .filter((x): x is { url: string; alt: string } => x !== null);
+      return {
+        slug: String(r.slug ?? r.reference ?? ""),
+        reference: String(r.reference ?? ""),
+        title: String(r.title ?? ""),
+        area: String(r.area ?? "") as AreaSlug,
+        areaLabel: String(r.areaLabel ?? r.area ?? ""),
+        community: typeof r.community === "string" ? r.community : undefined,
+        type: (r.type as Listing["type"]) ?? "Apartment",
+        status: (r.status as Listing["status"]) ?? "available",
+        priceAed: typeof r.priceAed === "number" ? r.priceAed : undefined,
+        priceLabel: typeof r.priceLabel === "string" ? r.priceLabel : undefined,
+        bedrooms: Number(r.bedrooms ?? 0),
+        bathrooms: Number(r.bathrooms ?? 0),
+        areaSqft: Number(r.areaSqft ?? 0),
+        plotSqft: typeof r.plotSqft === "number" ? r.plotSqft : undefined,
+        summary: String(r.summary ?? ""),
+        description: String(r.description ?? r.summary ?? ""),
+        highlights: Array.isArray(r.highlights) ? (r.highlights as unknown[]).map(String) : [],
+        images,
+        permitNumber: String(r.permitNumber ?? ""),
+        featured: Boolean(r.featured),
+        updatedAt: String(r.updatedAt ?? ""),
+      };
+    });
+  } catch (err) {
+    console.error("[listings] fetch failed", err);
+    return [];
+  }
+}
+
+/** Real CRM listings when configured; mock data otherwise (demo/preview). */
+async function listingsSource(): Promise<Listing[]> {
+  return (await fetchListingsFromCRM()) ?? mockListings;
+}
+
 export async function getFeaturedListings(limit = 3): Promise<Listing[]> {
-  return mockListings
+  return (await listingsSource())
     .filter((l) => l.featured && l.status !== "sold")
     .slice(0, limit);
 }
 
 export async function getAvailableListings(area?: AreaSlug): Promise<Listing[]> {
-  return mockListings.filter(
+  return (await listingsSource()).filter(
     (l) => l.status !== "sold" && (!area || l.area === area),
   );
 }
 
 export async function queryListings(query: ListingQuery = {}): Promise<Listing[]> {
-  return mockListings
+  return (await listingsSource())
     .filter((l) => l.status !== "sold")
     .filter((l) => !query.area || l.area === query.area)
     .filter((l) => !query.type || l.type === query.type)
@@ -85,11 +151,11 @@ export async function queryListings(query: ListingQuery = {}): Promise<Listing[]
 }
 
 export async function getListingBySlug(slug: string): Promise<Listing | null> {
-  return mockListings.find((l) => l.slug === slug) ?? null;
+  return (await listingsSource()).find((l) => l.slug === slug) ?? null;
 }
 
 export async function getAllListingSlugs(): Promise<string[]> {
-  return mockListings.map((l) => l.slug);
+  return (await listingsSource()).map((l) => l.slug);
 }
 
 // ── Sold track record ─────────────────────────────────────────────────
