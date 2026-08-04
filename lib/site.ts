@@ -16,11 +16,11 @@ export const site = {
   locale: "en_AE",
 
   contact: {
-    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971500000000",
-    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "hello@eqt.ae",
-    phone: process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "+971 4 000 0000",
+    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971506308888",
+    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "sales@eqt.ae",
+    phone: process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "+971 50 630 8888",
     address: {
-      street: "One Central, DWTC",
+      street: "OPUS Tower, Business Bay, Tower A, 11th Floor, Office 22",
       city: "Dubai",
       region: "Dubai",
       country: "AE",
