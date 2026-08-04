@@ -226,9 +226,9 @@ export default async function BlogPostPage({
 
           </div>
 
-          <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start">
-            <p className="eyebrow mb-3">Speak with a private advisor</p>
-            <p className="mb-5 text-muted">
+          <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:overflow-x-hidden lg:pr-1">
+            <p className="eyebrow mb-2">Speak with a private advisor</p>
+            <p className="mb-4 text-sm text-muted">
               Have a question about this? Send your brief and we&rsquo;ll reply personally, or message
               us on WhatsApp.
             </p>
@@ -236,7 +236,7 @@ export default async function BlogPostPage({
               href={whatsappLink(`Hello ${site.name}, I read your guide on ${post.title} and have a question.`)}
               target="_blank"
               rel="noopener noreferrer"
-              className="link-whatsapp mb-6 inline-block"
+              className="link-whatsapp mb-5 inline-block text-sm"
             >
               Message us on WhatsApp
             </a>

@@ -121,9 +121,9 @@ export function LeadForm({
 
   if (sent) {
     return (
-      <div className="rounded-lg border border-line bg-elevated p-8 text-center sm:p-10">
+      <div className="rounded-lg border border-line bg-elevated p-6 text-center sm:p-8">
         <p className="eyebrow mb-4">Thank you, {name.split(" ")[0]}</p>
-        <h3 className="font-display text-2xl text-ink">We&rsquo;ve received your enquiry</h3>
+        <h3 className="font-display text-xl text-ink">We&rsquo;ve received your enquiry</h3>
         <p className="mx-auto mt-4 max-w-sm text-muted">
           A private advisor will be in touch shortly. For the fastest response, continue the
           conversation on WhatsApp.
@@ -141,9 +141,9 @@ export function LeadForm({
   }
 
   return (
-    <div className="rounded-lg border border-line bg-elevated p-6 sm:p-9">
+    <div className="rounded-lg border border-line bg-elevated p-5 sm:p-6">
       {/* Progress */}
-      <div className="mb-8 flex items-center gap-2" aria-hidden="true">
+      <div className="mb-5 flex items-center gap-2" aria-hidden="true">
         {flow.map((key, i) => (
           <div key={key} className="flex flex-1 items-center gap-2">
             <div
@@ -153,7 +153,7 @@ export function LeadForm({
           </div>
         ))}
       </div>
-      <p className="eyebrow mb-6">
+      <p className="eyebrow mb-5">
         Step {stepIndex + 1} / {flow.length}
       </p>
 
@@ -165,10 +165,10 @@ export function LeadForm({
         >
           {current === "goal" && (
             <fieldset>
-              <legend className="mb-5 font-display text-2xl text-ink">
+              <legend className="mb-4 font-display text-xl text-ink">
                 How can we help?
               </legend>
-              <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <div className="grid grid-cols-2 gap-2.5">
                 {INTENTS.map((opt) => (
                   <OptionButton key={opt} active={intent === opt} onClick={() => chooseIntent(opt)}>
                     {opt}
@@ -180,8 +180,8 @@ export function LeadForm({
 
           {current === "community" && (
             <fieldset>
-              <legend className="mb-4 font-display text-2xl text-ink">Which community?</legend>
-              <div className="flex flex-wrap gap-3">
+              <legend className="mb-4 font-display text-xl text-ink">Which community?</legend>
+              <div className="flex flex-wrap gap-2.5">
                 {quickPicks.map((opt) => (
                   <OptionButton
                     key={opt}
@@ -216,8 +216,8 @@ export function LeadForm({
 
           {current === "budget" && (
             <fieldset>
-              <legend className="mb-4 font-display text-2xl text-ink">Budget</legend>
-              <div className="flex flex-wrap gap-3">
+              <legend className="mb-4 font-display text-xl text-ink">Budget</legend>
+              <div className="flex flex-wrap gap-2.5">
                 {BUDGETS.map((opt) => (
                   <OptionButton
                     key={opt}
@@ -237,10 +237,10 @@ export function LeadForm({
 
           {current === "timeframe" && (
             <fieldset>
-              <legend className="mb-4 font-display text-2xl text-ink">
+              <legend className="mb-4 font-display text-xl text-ink">
                 When are you looking to relocate?
               </legend>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-2.5">
                 {TIMEFRAMES.map((opt) => (
                   <OptionButton
                     key={opt}
@@ -260,7 +260,7 @@ export function LeadForm({
 
           {current === "contact" && (
             <div className="space-y-5">
-              <legend className="mb-1 font-display text-2xl text-ink">Your details</legend>
+              <legend className="mb-1 font-display text-xl text-ink">Your details</legend>
               <Field label="Full name">
                 <input
                   className="lux-input"
@@ -297,7 +297,7 @@ export function LeadForm({
       />
 
       {/* Controls: choices auto-advance, so only Back + the final Send show. */}
-      <div className="mt-9 flex items-center justify-between gap-4">
+      <div className="mt-7 flex items-center justify-between gap-4">
         <button
           type="button"
           className="text-sm text-faint transition-colors hover:text-ink disabled:opacity-0"
@@ -364,14 +364,14 @@ function OptionButton({
       type="button"
       onClick={onClick}
       aria-pressed={active}
-      className="rounded-md border text-center transition-all duration-300"
+      className="flex items-center justify-center rounded-md border text-center leading-tight transition-all duration-300"
       style={{
         borderColor: active ? "var(--accent-500)" : "var(--line)",
         backgroundColor: active ? "rgba(122,106,77,0.12)" : "var(--bg-inset)",
         color: active ? "var(--accent-600)" : "var(--text-secondary)",
-        padding: small ? "0.6rem 1rem" : "1.1rem 1rem",
-        fontSize: small ? "0.9rem" : "1rem",
-        minHeight: "48px",
+        padding: small ? "0.55rem 0.85rem" : "0.85rem 0.6rem",
+        fontSize: small ? "0.875rem" : "0.95rem",
+        minHeight: "46px",
       }}
     >
       {children}
