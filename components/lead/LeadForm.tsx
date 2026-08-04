@@ -20,7 +20,7 @@ const BUDGETS = ["Under AED 10M", "AED 10M - 30M", "AED 30M - 75M", "AED 75M+"];
 const TIMEFRAMES = ["Under 3 months", "3-6 months", "6+ months"];
 const QUICK_COMMUNITIES = ["Palm Jumeirah", "Dubai Marina", "Downtown Dubai"];
 
-const steps = ["Goal", "Preferences", "Contact"] as const;
+type StepKey = "goal" | "community" | "budget" | "timeframe" | "contact";
 
 /**
  * @param defaultArea  When set (e.g. embedded on an area page), the community is
@@ -46,8 +46,16 @@ export function LeadForm({
 
   const relocating = intent === "Relocate";
 
-  // Three quick community picks (+ an "Others" dropdown). If embedded on an area
-  // page, that community leads the quick picks.
+  // The question flow adapts to intent: Relocate just asks the timeframe (no
+  // community/budget). Selecting an option auto-advances to the next question.
+  const flow: StepKey[] = relocating
+    ? ["goal", "timeframe", "contact"]
+    : ["goal", "community", "budget", "contact"];
+  const stepIndex = Math.min(step, flow.length - 1);
+  const current = flow[stepIndex];
+
+  // Three quick community picks (+ an "Others" dropdown). On an area page, that
+  // community leads the quick picks.
   const quickPicks = useMemo(() => {
     if (defaultArea && !QUICK_COMMUNITIES.includes(defaultArea)) {
       return [defaultArea, ...QUICK_COMMUNITIES].slice(0, 3);
@@ -56,19 +64,24 @@ export function LeadForm({
   }, [defaultArea]);
 
   const showDropdown = showAllCommunities || (area !== null && !quickPicks.includes(area));
+  const canSubmit = name.trim().length > 1 && contact.trim().length > 3;
 
-  const canNext = useMemo(() => {
-    if (step === 0) return intent !== null;
-    if (step === 1) return area !== null && (relocating ? timeframe !== null : budget !== null);
-    if (step === 2) return name.trim().length > 1 && contact.trim().length > 3;
-    return false;
-  }, [step, intent, area, budget, timeframe, relocating, name, contact]);
+  const advance = () => setStep((s) => Math.min(s + 1, flow.length - 1));
+  const chooseIntent = (v: Intent) => {
+    setIntent(v);
+    setStep(1); // auto-advance out of the goal step
+  };
+  const chooseArea = (v: string | null) => {
+    setArea(v);
+    setShowAllCommunities(false);
+    if (v) advance();
+  };
 
   const message = useMemo(
     () =>
       `Hello ${site.name}, I'd like to enquire.\n\n` +
       `• Looking to: ${intent ?? ""}\n` +
-      `• Community: ${area ?? ""}\n` +
+      (area ? `• Community: ${area}\n` : "") +
       (relocating ? `• Relocation timeframe: ${timeframe ?? ""}\n` : `• Budget: ${budget ?? ""}\n`) +
       `• Name: ${name || ""}\n` +
       `• Contact: ${contact || ""}`,
@@ -130,33 +143,33 @@ export function LeadForm({
     <div className="rounded-lg border border-line bg-elevated p-6 sm:p-9">
       {/* Progress */}
       <div className="mb-8 flex items-center gap-2" aria-hidden="true">
-        {steps.map((label, i) => (
-          <div key={label} className="flex flex-1 items-center gap-2">
+        {flow.map((key, i) => (
+          <div key={key} className="flex flex-1 items-center gap-2">
             <div
               className="h-1 flex-1 rounded-full transition-colors duration-500"
-              style={{ backgroundColor: i <= step ? "var(--accent-500)" : "var(--line)" }}
+              style={{ backgroundColor: i <= stepIndex ? "var(--accent-500)" : "var(--line)" }}
             />
           </div>
         ))}
       </div>
       <p className="eyebrow mb-6">
-        Step {step + 1} / {steps.length}
+        Step {stepIndex + 1} / {flow.length}
       </p>
 
       <AnimatePresence mode="wait">
         <motion.div
-          key={step}
+          key={current}
           {...variants}
           transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
         >
-          {step === 0 && (
+          {current === "goal" && (
             <fieldset>
               <legend className="mb-5 font-display text-2xl text-ink">
                 How can we help?
               </legend>
               <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                 {INTENTS.map((opt) => (
-                  <OptionButton key={opt} active={intent === opt} onClick={() => setIntent(opt)}>
+                  <OptionButton key={opt} active={intent === opt} onClick={() => chooseIntent(opt)}>
                     {opt}
                   </OptionButton>
                 ))}
@@ -164,64 +177,87 @@ export function LeadForm({
             </fieldset>
           )}
 
-          {step === 1 && (
-            <div className="space-y-7">
-              <fieldset>
-                <legend className="mb-4 font-display text-2xl text-ink">Which community?</legend>
-                <div className="flex flex-wrap gap-3">
-                  {quickPicks.map((opt) => (
-                    <OptionButton
-                      key={opt}
-                      small
-                      active={area === opt && !showAllCommunities}
-                      onClick={() => {
-                        setArea(opt);
-                        setShowAllCommunities(false);
-                      }}
-                    >
-                      {opt}
-                    </OptionButton>
-                  ))}
-                  <OptionButton small active={showDropdown} onClick={() => setShowAllCommunities(true)}>
-                    Others
-                  </OptionButton>
-                </div>
-                {showDropdown && (
-                  <select
-                    className="lux-input lux-select mt-3"
-                    value={area && !quickPicks.includes(area) ? area : ""}
-                    onChange={(e) => setArea(e.target.value || null)}
+          {current === "community" && (
+            <fieldset>
+              <legend className="mb-4 font-display text-2xl text-ink">Which community?</legend>
+              <div className="flex flex-wrap gap-3">
+                {quickPicks.map((opt) => (
+                  <OptionButton
+                    key={opt}
+                    small
+                    active={area === opt && !showAllCommunities}
+                    onClick={() => chooseArea(opt)}
                   >
-                    <option value="">Select a community…</option>
-                    {COMMUNITY_LABELS.map((c) => (
-                      <option key={c} value={c}>
-                        {c}
-                      </option>
-                    ))}
-                    <option value="Not sure yet">Not sure yet</option>
-                  </select>
-                )}
-              </fieldset>
-              <fieldset>
-                <legend className="mb-4 font-display text-2xl text-ink">
-                  {relocating ? "When are you looking to relocate?" : "Budget"}
-                </legend>
-                <div className="flex flex-wrap gap-3">
-                  {(relocating ? TIMEFRAMES : BUDGETS).map((opt) => {
-                    const current = relocating ? timeframe : budget;
-                    const set = relocating ? setTimeframe : setBudget;
-                    return (
-                      <OptionButton key={opt} small active={current === opt} onClick={() => set(opt)}>
-                        {opt}
-                      </OptionButton>
-                    );
-                  })}
-                </div>
-              </fieldset>
-            </div>
+                    {opt}
+                  </OptionButton>
+                ))}
+                <OptionButton small active={showDropdown} onClick={() => setShowAllCommunities(true)}>
+                  Others
+                </OptionButton>
+              </div>
+              {showDropdown && (
+                <select
+                  className="lux-input lux-select mt-3"
+                  value={area && !quickPicks.includes(area) ? area : ""}
+                  onChange={(e) => chooseArea(e.target.value || null)}
+                >
+                  <option value="">Select a community…</option>
+                  {COMMUNITY_LABELS.map((c) => (
+                    <option key={c} value={c}>
+                      {c}
+                    </option>
+                  ))}
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
+              )}
+            </fieldset>
           )}
 
-          {step === 2 && (
+          {current === "budget" && (
+            <fieldset>
+              <legend className="mb-4 font-display text-2xl text-ink">Budget</legend>
+              <div className="flex flex-wrap gap-3">
+                {BUDGETS.map((opt) => (
+                  <OptionButton
+                    key={opt}
+                    small
+                    active={budget === opt}
+                    onClick={() => {
+                      setBudget(opt);
+                      advance();
+                    }}
+                  >
+                    {opt}
+                  </OptionButton>
+                ))}
+              </div>
+            </fieldset>
+          )}
+
+          {current === "timeframe" && (
+            <fieldset>
+              <legend className="mb-4 font-display text-2xl text-ink">
+                When are you looking to relocate?
+              </legend>
+              <div className="flex flex-wrap gap-3">
+                {TIMEFRAMES.map((opt) => (
+                  <OptionButton
+                    key={opt}
+                    small
+                    active={timeframe === opt}
+                    onClick={() => {
+                      setTimeframe(opt);
+                      advance();
+                    }}
+                  >
+                    {opt}
+                  </OptionButton>
+                ))}
+              </div>
+            </fieldset>
+          )}
+
+          {current === "contact" && (
             <div className="space-y-5">
               <legend className="mb-1 font-display text-2xl text-ink">Your details</legend>
               <Field label="Full name">
@@ -259,35 +295,28 @@ export function LeadForm({
         style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
       />
 
-      {/* Controls */}
+      {/* Controls: choices auto-advance, so only Back + the final Send show. */}
       <div className="mt-9 flex items-center justify-between gap-4">
         <button
           type="button"
           className="text-sm text-faint transition-colors hover:text-ink disabled:opacity-0"
           onClick={() => setStep((s) => Math.max(0, s - 1))}
-          disabled={step === 0}
+          disabled={stepIndex === 0}
         >
           ← Back
         </button>
 
-        {step < steps.length - 1 ? (
-          <button
-            type="button"
-            className="btn btn-accent disabled:cursor-not-allowed disabled:opacity-40"
-            onClick={() => setStep((s) => s + 1)}
-            disabled={!canNext}
-          >
-            Continue
-          </button>
-        ) : (
+        {current === "contact" ? (
           <button
             type="button"
             className="btn btn-accent disabled:cursor-not-allowed disabled:opacity-40"
             onClick={submit}
-            disabled={!canNext || sending}
+            disabled={!canSubmit || sending}
           >
             {sending ? "Sending…" : "Send enquiry"}
           </button>
+        ) : (
+          <span className="text-xs text-faint">Tap an option to continue</span>
         )}
       </div>
 

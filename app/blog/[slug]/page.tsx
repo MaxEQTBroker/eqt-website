@@ -108,9 +108,9 @@ export default async function BlogPostPage({
           />
         </div>
 
-        {/* Article body + sticky enquiry sidebar */}
-        <div className="mt-14 grid gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:gap-14">
-          <div className="mx-auto w-full max-w-3xl lg:mx-0">
+        {/* Article body + sticky enquiry sidebar (form on the left on desktop) */}
+        <div className="mt-14 grid gap-10 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-14">
+          <div className="mx-auto w-full max-w-3xl lg:order-2 lg:mx-0">
           <p className="border-l-2 border-accent-500 pl-6 text-xl leading-relaxed text-ink">
             {post.intro}
           </p>
@@ -226,7 +226,7 @@ export default async function BlogPostPage({
 
           </div>
 
-          <aside className="lg:sticky lg:top-24 lg:self-start">
+          <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start">
             <p className="eyebrow mb-3">Speak with a private advisor</p>
             <p className="mb-5 text-muted">
               Have a question about this? Send your brief and we&rsquo;ll reply personally, or message
