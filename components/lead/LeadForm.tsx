@@ -91,6 +91,8 @@ export function LeadForm({
   async function submit() {
     if (sending) return;
     setSending(true);
+    // Fire the conversion event first so it's captured even on a slow network.
+    trackLead({ source, intent: intent ?? undefined });
     // Forward to the CRM (best-effort). We still show success + WhatsApp even if
     // this fails, so the lead is never lost.
     await postLead({
@@ -105,7 +107,6 @@ export function LeadForm({
       honeypot,
       pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
     });
-    trackLead({ source, intent: intent ?? undefined });
     setSending(false);
     setSent(true);
   }

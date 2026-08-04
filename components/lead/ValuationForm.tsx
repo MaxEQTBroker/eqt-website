@@ -41,6 +41,8 @@ export function ValuationForm({ source = "valuation" }: { source?: string } = {}
   async function submit() {
     if (sending || !canSubmit) return;
     setSending(true);
+    // Fire the conversion event first so it's captured even on a slow network.
+    trackLead({ source, intent: "Sell" });
     await postLead({
       name,
       contact,
@@ -51,7 +53,6 @@ export function ValuationForm({ source = "valuation" }: { source?: string } = {}
       honeypot,
       pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
     });
-    trackLead({ source, intent: "Sell" });
     setSending(false);
     setSent(true);
   }
