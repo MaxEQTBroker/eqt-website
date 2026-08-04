@@ -175,14 +175,9 @@ export default async function SoldPage({
               Your home deserves the same result
             </h2>
           </div>
-          <a
-            href={whatsappLink(`Hello ${site.name}, I'd like a valuation.`)}
-            className="btn btn-whatsapp"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Request a valuation
-          </a>
+          <Link href="/valuation" className="btn btn-accent">
+            Request a free valuation
+          </Link>
         </div>
       </section>
     </>

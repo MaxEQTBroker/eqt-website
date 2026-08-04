@@ -63,6 +63,10 @@ export const metadata: Metadata = {
   // method; when unset, no tag is emitted.
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+    // Bing Webmaster Tools "meta tag" verification (feeds ChatGPT/Copilot).
+    other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+      ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION }
+      : {},
   },
 };
 
