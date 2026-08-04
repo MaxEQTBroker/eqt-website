@@ -108,40 +108,64 @@ export default async function DeveloperPage({
         </div>
       </section>
 
-      {/* Intro + key facts */}
+      {/* Intro + enquiry: lead form sticky at top-left, editorial on the right */}
       <section className="container-lux py-[var(--section-py)]">
-        <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-20">
-          <Reveal>
-            <p className="text-lg leading-relaxed text-muted">{dev.intro}</p>
-            {dev.keywords && dev.keywords.length > 0 && (
-              <div className="mt-8">
-                <p className="eyebrow mb-3">Popular searches</p>
-                <ul className="flex flex-wrap gap-2">
-                  {dev.keywords.map((kw) => (
-                    <li
-                      key={kw}
-                      className="rounded-full border border-line bg-elevated px-4 py-1.5 text-sm text-muted"
-                    >
-                      {kw}
-                    </li>
+        <div className="grid gap-12 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-16">
+          {/* Lead form, top-left and sticky so it's visible immediately */}
+          <aside
+            id="enquire"
+            className="lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:overflow-x-hidden lg:pr-1"
+          >
+            <p className="eyebrow mb-2">Interested in {dev.name}?</p>
+            <p className="mb-4 text-sm text-muted">
+              Tell us your brief and we&apos;ll send a private selection, from off-plan
+              allocations to the best resale. Prefer to talk now?
+            </p>
+            <a
+              href={whatsappLink(`Hello ${site.name}, I'd like to enquire about ${dev.name}.`)}
+              className="link-whatsapp mb-5 inline-block text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message us on WhatsApp
+            </a>
+            <LeadForm source={`developer:${dev.slug}`} />
+          </aside>
+
+          {/* Editorial: intro, popular searches, key facts */}
+          <div>
+            <Reveal>
+              <p className="text-lg leading-relaxed text-muted">{dev.intro}</p>
+              {dev.keywords && dev.keywords.length > 0 && (
+                <div className="mt-8">
+                  <p className="eyebrow mb-3">Popular searches</p>
+                  <ul className="flex flex-wrap gap-2">
+                    {dev.keywords.map((kw) => (
+                      <li
+                        key={kw}
+                        className="rounded-full border border-line bg-elevated px-4 py-1.5 text-sm text-muted"
+                      >
+                        {kw}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </Reveal>
+            <Reveal delay={100}>
+              <div className="mt-10 rounded-lg border border-line bg-elevated p-8">
+                <p className="eyebrow mb-6">Key facts</p>
+                <dl className="space-y-5">
+                  {dev.keyFacts.map((fact) => (
+                    <div key={fact.label} className="flex flex-col gap-1 border-b border-line pb-4 last:border-0 last:pb-0">
+                      <dt className="text-sm text-faint">{fact.label}</dt>
+                      <dd className="text-ink">{fact.value}</dd>
+                    </div>
                   ))}
-                </ul>
+                </dl>
               </div>
-            )}
-          </Reveal>
-          <Reveal delay={100}>
-            <div className="rounded-lg border border-line bg-elevated p-8">
-              <p className="eyebrow mb-6">Key facts</p>
-              <dl className="space-y-5">
-                {dev.keyFacts.map((fact) => (
-                  <div key={fact.label} className="flex flex-col gap-1 border-b border-line pb-4 last:border-0 last:pb-0">
-                    <dt className="text-sm text-faint">{fact.label}</dt>
-                    <dd className="text-ink">{fact.value}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          </Reveal>
+            </Reveal>
+          </div>
         </div>
       </section>
 
@@ -270,29 +294,26 @@ export default async function DeveloperPage({
         </section>
       )}
 
-      {/* Enquiry CTA with embedded lead form */}
-      <section id="enquire" className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[1fr_1.1fr] lg:gap-20">
-        <Reveal>
-          <p className="eyebrow mb-4">Interested in {dev.name}?</p>
-          <h2 className="display-h2 max-w-[14ch] text-ink">
+      {/* Closing CTA, jumps back up to the enquiry form */}
+      <section className="border-t border-line bg-elevated">
+        <div className="container-lux flex flex-col items-start gap-6 py-[var(--section-py)] md:flex-row md:items-center md:justify-between">
+          <h2 className="display-h2 max-w-[18ch] text-ink">
             Access {dev.name} launches &amp; resale
           </h2>
-          <p className="mt-6 max-w-md text-lg text-muted">
-            Tell us your brief and we&apos;ll send a private selection, from off-plan
-            allocations to the best resale opportunities. Prefer to talk now?
-          </p>
-          <a
-            href={whatsappLink(`Hello ${site.name}, I'd like to enquire about ${dev.name}.`)}
-            className="link-whatsapp mt-6 inline-block"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Message us on WhatsApp
-          </a>
-        </Reveal>
-        <Reveal delay={120}>
-          <LeadForm source={`developer:${dev.slug}`} />
-        </Reveal>
+          <div className="flex flex-wrap gap-4">
+            <a href="#enquire" className="btn btn-accent">
+              Enquire now
+            </a>
+            <a
+              href={whatsappLink(`Hello ${site.name}, I'd like to enquire about ${dev.name}.`)}
+              className="btn btn-whatsapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>
+          </div>
+        </div>
       </section>
     </>
   );

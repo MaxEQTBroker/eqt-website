@@ -192,7 +192,7 @@ export function LeadForm({
                     {opt}
                   </OptionButton>
                 ))}
-                <OptionButton small active={showDropdown} onClick={() => setShowAllCommunities(true)}>
+                <OptionButton small active={showDropdown} onClick={() => setShowAllCommunities((v) => !v)}>
                   Others
                 </OptionButton>
               </div>
