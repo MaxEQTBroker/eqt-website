@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { site, whatsappLink } from "@/lib/site";
 import { postLead } from "@/lib/leads/submit";
@@ -44,6 +45,9 @@ export function LeadForm({
   const [honeypot, setHoneypot] = useState("");
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
+  // Portal target only exists on the client.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   const relocating = intent === "Relocate";
 
@@ -350,8 +354,8 @@ export function LeadForm({
       {/* Community picker overlay: a fixed drawer on the right that escapes any
           sticky/overflow clipping, always scrolls, and closes via ×, backdrop,
           or Escape. */}
-      {showAllCommunities && (
-        <div className="fixed inset-0 z-[60]" role="dialog" aria-modal="true" aria-label="Select a community">
+      {mounted && showAllCommunities && createPortal(
+        <div className="fixed inset-0 z-[2147483000]" role="dialog" aria-modal="true" aria-label="Select a community">
           {/* Transparent click-catcher: closes on outside click without darkening the screen. */}
           <button
             type="button"
@@ -381,7 +385,9 @@ export function LeadForm({
                 className="lux-input"
               />
             </div>
-            <div className="flex-1 overflow-y-auto p-2">
+            {/* data-lenis-prevent lets this list scroll natively instead of the
+                smooth-scroll library eating the wheel and scrolling the page. */}
+            <div className="flex-1 overflow-y-auto overscroll-contain p-2" data-lenis-prevent>
               {filteredCommunities.length === 0 ? (
                 <p className="px-3 py-6 text-sm text-faint">No matches. Try another name.</p>
               ) : (
@@ -405,7 +411,8 @@ export function LeadForm({
               )}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </div>
   );
