@@ -225,6 +225,20 @@ export async function getSoldTeaser(limit = 3): Promise<SoldRecord[]> {
   return (await getSoldRecords()).slice(0, limit);
 }
 
+/** A single sold record by its CRM reference (for the sold detail page). */
+export async function getSoldByReference(
+  reference: string,
+): Promise<SoldRecord | null> {
+  const all = (await fetchSoldFromCRM()) ?? mockSold;
+  return all.find((s) => s.reference === reference) ?? null;
+}
+
+/** All sold references that can back a detail page (non-empty). */
+export async function getAllSoldReferences(): Promise<string[]> {
+  const all = (await fetchSoldFromCRM()) ?? mockSold;
+  return all.map((s) => s.reference).filter(Boolean);
+}
+
 // ── Areas ─────────────────────────────────────────────────────────────
 
 export async function getAreas(): Promise<Area[]> {

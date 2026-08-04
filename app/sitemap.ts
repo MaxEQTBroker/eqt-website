@@ -5,17 +5,19 @@ import {
   getAllListingSlugs,
   getAllDeveloperSlugs,
   getAllPropertyTypeSlugs,
+  getAllSoldReferences,
 } from "@/lib/data/repository";
 import { getAllPostSlugs } from "@/lib/data/blog";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [areaSlugs, listingSlugs, developerSlugs, propertyTypeSlugs, postSlugs] =
+  const [areaSlugs, listingSlugs, developerSlugs, propertyTypeSlugs, postSlugs, soldRefs] =
     await Promise.all([
       getAllAreaSlugs(),
       getAllListingSlugs(),
       getAllDeveloperSlugs(),
       getAllPropertyTypeSlugs(),
       getAllPostSlugs(),
+      getAllSoldReferences(),
     ]);
 
   const staticRoutes = ["", "/team", "/areas", "/developers", "/property", "/sold", "/listings", "/valuation", "/blog", "/contact"].map(
@@ -62,6 +64,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  const soldRoutes = soldRefs.map((reference) => ({
+    url: `${site.url}/sold/${encodeURIComponent(reference)}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
   return [
     ...staticRoutes,
     ...areaRoutes,
@@ -69,5 +78,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...propertyTypeRoutes,
     ...listingRoutes,
     ...postRoutes,
+    ...soldRoutes,
   ];
 }
