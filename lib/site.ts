@@ -29,8 +29,8 @@ export const site = {
 
   // Regulatory proof, critical for trust signals & AEO fact extraction.
   regulatory: {
-    reraOrn: process.env.NEXT_PUBLIC_RERA_ORN ?? "00000",
-    dedLicense: process.env.NEXT_PUBLIC_DED_LICENSE ?? "000000",
+    reraOrn: process.env.NEXT_PUBLIC_RERA_ORN ?? "33039",
+    dedLicense: process.env.NEXT_PUBLIC_DED_LICENSE ?? "1123882",
     authority: "Dubai Land Department (DLD), RERA",
   },
 
