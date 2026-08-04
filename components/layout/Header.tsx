@@ -53,9 +53,11 @@ export function Header() {
             <span className="absolute left-0 h-px w-6 transition-all duration-300" style={{ backgroundColor: barColor, top: open ? "50%" : 0, transform: open ? "rotate(45deg)" : "none" }} />
             <span className="absolute bottom-0 left-0 h-px w-6 transition-all duration-300" style={{ backgroundColor: barColor, bottom: open ? "auto" : 0, top: open ? "50%" : "auto", transform: open ? "rotate(-45deg)" : "none" }} />
           </span>
-          <span className="text-[0.72rem] font-medium uppercase tracking-[0.24em]">
-            {open ? "Close" : "Menu"}
-          </span>
+          {!open && (
+            <span className="text-[0.72rem] font-medium uppercase tracking-[0.24em]">
+              Menu
+            </span>
+          )}
         </button>
 
         {/* Center, logo */}
@@ -71,22 +73,8 @@ export function Header() {
           </span>
         </Link>
 
-        {/* Right, Inquire → becomes a clear Close button when the menu is open */}
-        {open ? (
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            aria-label="Close menu"
-            className="flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
-            style={{ color: barColor }}
-          >
-            Close
-            <span className="relative block h-3.5 w-3.5" aria-hidden="true">
-              <span className="absolute left-0 top-1/2 h-px w-3.5 -translate-y-1/2 rotate-45" style={{ backgroundColor: barColor }} />
-              <span className="absolute left-0 top-1/2 h-px w-3.5 -translate-y-1/2 -rotate-45" style={{ backgroundColor: barColor }} />
-            </span>
-          </button>
-        ) : (
+        {/* Right, Inquire (hidden while the menu is open — close lives on the left) */}
+        {!open && (
           <a
             href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
             target="_blank"
@@ -109,24 +97,8 @@ export function Header() {
           transition: "opacity 0.7s var(--ease-lux)",
         }}
       >
-        <div className="flex min-h-full flex-col justify-start px-0 pb-14 pt-24">
-          {/* Explicit, always-visible close button at the top of the overlay */}
-          <div className="container-lux mb-8 flex justify-end">
-            <button
-              type="button"
-              onClick={() => setOpen(false)}
-              aria-label="Close menu"
-              className="flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
-              style={{ color: "#e8e0cd" }}
-            >
-              Close
-              <span className="relative block h-4 w-4" aria-hidden="true">
-                <span className="absolute left-0 top-1/2 h-px w-4 -translate-y-1/2 rotate-45" style={{ backgroundColor: "#e8e0cd" }} />
-                <span className="absolute left-0 top-1/2 h-px w-4 -translate-y-1/2 -rotate-45" style={{ backgroundColor: "#e8e0cd" }} />
-              </span>
-            </button>
-          </div>
-          <nav aria-label="Primary" className="container-lux">
+        <div className="flex min-h-full flex-col justify-start px-0 pb-14 pt-28">
+          <nav aria-label="Primary" className="container-lux flex flex-col items-center text-center">
             {primaryNav.map((item, i) => (
               <Link
                 key={item.href}
@@ -146,7 +118,7 @@ export function Header() {
           </nav>
 
           <div
-            className="container-lux mt-10 flex flex-col gap-2 text-sm"
+            className="container-lux mt-auto flex flex-col items-end gap-2 pt-12 text-right text-sm"
             style={{
               color: "#b9ac90",
               opacity: open ? 1 : 0,
