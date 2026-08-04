@@ -84,11 +84,11 @@ export default async function PropertyTypePage({
           />
         </div>
         <div className="container-lux relative z-10 pb-14 pt-40">
-          <p className="eyebrow mb-4">Property guide</p>
           <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.25rem,6vw,5rem)" }}>
             {guide.title}
           </h1>
           <p className="mt-6 max-w-2xl text-xl text-muted">{guide.headline}</p>
+          <p className="eyebrow mt-6">Property guide</p>
         </div>
       </section>
 

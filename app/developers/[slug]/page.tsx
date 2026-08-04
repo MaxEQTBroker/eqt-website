@@ -87,11 +87,11 @@ export default async function DeveloperPage({
         <div className="container-lux relative z-10 pb-14 pt-40">
           <div className="flex items-end justify-between gap-6">
             <div>
-              <p className="eyebrow mb-4">Developer guide</p>
               <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.25rem,6vw,5rem)" }}>
                 {dev.name}
               </h1>
               <p className="mt-6 max-w-2xl text-xl text-muted">{dev.tagline}</p>
+              <p className="eyebrow mt-6">Developer guide</p>
             </div>
             {dev.logo && (
               <div className="hidden shrink-0 items-center sm:flex">

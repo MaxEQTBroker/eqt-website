@@ -17,8 +17,8 @@ export function Approach() {
       <div className="container-lux grid md:grid-cols-3">
         {options.map((o, i) => {
           const btnCls =
-            "group block py-9 md:py-11" +
-            (i > 0 ? " border-t border-line md:border-l md:border-t-0 md:pl-10" : " md:pr-10");
+            "group block py-9 md:py-11 md:pr-10" +
+            (i > 0 ? " border-t border-line md:border-l md:border-t-0 md:pl-10" : "");
           const inner = (
             <div
               className="flex flex-col gap-4 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.09]"

@@ -87,11 +87,11 @@ export default async function AreaPage({
           />
         </div>
         <div className="container-lux relative z-10 pb-16 pt-40">
-          <p className="eyebrow mb-4">Community guide</p>
           <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,6rem)" }}>
             {area.label}
           </h1>
           <p className="mt-6 max-w-2xl text-xl text-muted">{area.headline}</p>
+          <p className="eyebrow mt-6">Community guide</p>
         </div>
       </section>
 
