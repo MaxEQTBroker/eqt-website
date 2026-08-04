@@ -79,25 +79,32 @@ export default async function DeveloperPage({
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-x-0 bottom-0 h-2/3" style={{ backgroundColor: "rgba(227,219,200,0.7)" }} />
+          <div
+            className="absolute inset-x-0 bottom-0 h-[60%]"
+            style={{ background: "linear-gradient(to top, rgba(227,219,200,0.96) 0%, rgba(227,219,200,0.7) 42%, rgba(227,219,200,0) 100%)" }}
+          />
         </div>
         <div className="container-lux relative z-10 pb-14 pt-40">
-          {dev.logo && (
-            <div className="mb-6 flex h-14 items-center">
-              <Image
-                src={dev.logo}
-                alt={`${dev.name} logo`}
-                width={220}
-                height={56}
-                className="max-h-12 w-auto object-contain"
-              />
+          <div className="flex items-end justify-between gap-6">
+            <div>
+              <p className="eyebrow mb-4">Developer guide</p>
+              <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.25rem,6vw,5rem)" }}>
+                {dev.name}
+              </h1>
+              <p className="mt-6 max-w-2xl text-xl text-muted">{dev.tagline}</p>
             </div>
-          )}
-          <p className="eyebrow mb-4">Developer guide</p>
-          <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.25rem,6vw,5rem)" }}>
-            {dev.name}
-          </h1>
-          <p className="mt-6 max-w-2xl text-xl text-muted">{dev.tagline}</p>
+            {dev.logo && (
+              <div className="hidden shrink-0 items-center sm:flex">
+                <Image
+                  src={dev.logo}
+                  alt={`${dev.name} logo`}
+                  width={220}
+                  height={64}
+                  className="max-h-16 w-auto object-contain"
+                />
+              </div>
+            )}
+          </div>
         </div>
       </section>
 

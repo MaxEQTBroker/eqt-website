@@ -1,8 +1,10 @@
+import { Fragment } from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/data/blog";
+import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { Reveal } from "@/components/motion/Reveal";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
@@ -56,6 +58,8 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const related = await getRelatedPosts(slug);
+  // Editorial photos woven between sections to break up the text.
+  const bodyImages = bodyImagesFor(post.slug, 2);
 
   return (
     <>
@@ -126,32 +130,54 @@ export default async function BlogPostPage({
 
           {/* Body */}
           <div className="mt-14 space-y-14">
-            {post.sections.map((section) => (
-              <Reveal key={section.heading}>
-                <section>
-                  <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">
-                    {section.heading}
-                  </h2>
-                  <div className="mt-5 space-y-4">
-                    {section.body.map((para, i) => (
-                      <p key={i} className="text-lg leading-relaxed text-muted">
-                        {para}
-                      </p>
-                    ))}
-                  </div>
-                  {section.bullets && section.bullets.length > 0 && (
-                    <ul className="mt-5 space-y-2.5">
-                      {section.bullets.map((b, i) => (
-                        <li key={i} className="flex gap-3 text-lg leading-relaxed text-muted">
-                          <span className="mt-1 text-accent-500">•</span>
-                          <span>{b}</span>
-                        </li>
-                      ))}
-                    </ul>
+            {post.sections.map((section, si) => {
+              // Weave a photo in after the 2nd and 4th sections (when available).
+              const img = si === 1 ? bodyImages[0] : si === 3 ? bodyImages[1] : null;
+              return (
+                <Fragment key={section.heading}>
+                  <Reveal>
+                    <section>
+                      <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">
+                        {section.heading}
+                      </h2>
+                      <div className="mt-5 space-y-4">
+                        {section.body.map((para, i) => (
+                          <p key={i} className="text-lg leading-relaxed text-muted">
+                            {para}
+                          </p>
+                        ))}
+                      </div>
+                      {section.bullets && section.bullets.length > 0 && (
+                        <ul className="mt-5 space-y-2.5">
+                          {section.bullets.map((b, i) => (
+                            <li key={i} className="flex gap-3 text-lg leading-relaxed text-muted">
+                              <span className="mt-1 text-accent-500">•</span>
+                              <span>{b}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </section>
+                  </Reveal>
+                  {img && (
+                    <Reveal>
+                      <figure
+                        className="relative aspect-[16/9] overflow-hidden rounded-lg"
+                        style={{ backgroundColor: img.tone }}
+                      >
+                        <Image
+                          src={img.url}
+                          alt={img.alt}
+                          fill
+                          sizes="(min-width: 768px) 768px, 100vw"
+                          className="object-cover"
+                        />
+                      </figure>
+                    </Reveal>
                   )}
-                </section>
-              </Reveal>
-            ))}
+                </Fragment>
+              );
+            })}
           </div>
 
           {/* FAQ */}

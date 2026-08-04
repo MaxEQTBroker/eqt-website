@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { photoCredits } from "@/lib/data/mock/heroImages";
+import { blogBodyPool } from "@/lib/data/mock/blogBodyImages";
 
 export const metadata: Metadata = {
   title: "Photography Credits",
@@ -10,9 +11,15 @@ export const metadata: Metadata = {
 };
 
 export default function CreditsPage() {
-  // De-duplicate photographers by profile URL.
+  // Merge hero + blog-body photographers, de-duplicated by profile URL.
+  const all = [
+    ...photoCredits,
+    ...blogBodyPool
+      .filter((i) => i.credit && i.creditUrl)
+      .map((i) => ({ photographer: i.credit as string, profileUrl: i.creditUrl as string })),
+  ];
   const seen = new Set<string>();
-  const credits = photoCredits.filter((c) =>
+  const credits = all.filter((c) =>
     seen.has(c.profileUrl) ? false : (seen.add(c.profileUrl), true),
   );
 
