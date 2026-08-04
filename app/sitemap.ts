@@ -18,7 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       getAllPostSlugs(),
     ]);
 
-  const staticRoutes = ["", "/areas", "/developers", "/property", "/sold", "/listings", "/blog", "/contact"].map(
+  const staticRoutes = ["", "/team", "/areas", "/developers", "/property", "/sold", "/listings", "/blog", "/contact"].map(
     (path) => ({
       url: `${site.url}${path}`,
       lastModified: new Date(),

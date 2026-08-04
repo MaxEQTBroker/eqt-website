@@ -156,6 +156,29 @@ export function DeveloperJsonLd({ developer }: { developer: Developer }) {
   );
 }
 
+/** Team members as Person entities (E-E-A-T + entity signal for search/AI). */
+export function TeamJsonLd({
+  members,
+}: {
+  members: { name: string; role: string; photo: string; slug: string }[];
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@graph": members.map((m) => ({
+          "@type": "Person",
+          name: m.name,
+          jobTitle: m.role,
+          image: absUrl(m.photo),
+          url: `${site.url}/team`,
+          worksFor: { "@type": "RealEstateAgent", name: site.name, url: site.url },
+        })),
+      }}
+    />
+  );
+}
+
 /** Generic FAQPage — used by blog posts (and anywhere a Q&A list appears). */
 export function FaqJsonLd({ faqs }: { faqs: { question: string; answer: string }[] }) {
   if (!faqs.length) return null;

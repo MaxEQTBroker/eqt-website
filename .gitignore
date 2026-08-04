@@ -32,3 +32,4 @@ yarn-error.log*
 
 # large video masters (web-optimized versions live in public/videos)
 /videos/
+/Bios/
