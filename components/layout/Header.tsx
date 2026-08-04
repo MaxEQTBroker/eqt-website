@@ -109,7 +109,23 @@ export function Header() {
           transition: "opacity 0.7s var(--ease-lux)",
         }}
       >
-        <div className="flex min-h-full flex-col justify-center px-0 pb-16 pt-28">
+        <div className="flex min-h-full flex-col justify-start px-0 pb-14 pt-24">
+          {/* Explicit, always-visible close button at the top of the overlay */}
+          <div className="container-lux mb-8 flex justify-end">
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              aria-label="Close menu"
+              className="flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
+              style={{ color: "#e8e0cd" }}
+            >
+              Close
+              <span className="relative block h-4 w-4" aria-hidden="true">
+                <span className="absolute left-0 top-1/2 h-px w-4 -translate-y-1/2 rotate-45" style={{ backgroundColor: "#e8e0cd" }} />
+                <span className="absolute left-0 top-1/2 h-px w-4 -translate-y-1/2 -rotate-45" style={{ backgroundColor: "#e8e0cd" }} />
+              </span>
+            </button>
+          </div>
           <nav aria-label="Primary" className="container-lux">
             {primaryNav.map((item, i) => (
               <Link
