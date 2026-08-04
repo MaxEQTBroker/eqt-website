@@ -8,8 +8,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "images.pexels.com" },
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "**.eqt.ae" },
-      // CRM property photos are served from Supabase storage.
+      // CRM property photos: Supabase storage (sold) + Property Finder CDN (listings).
       { protocol: "https", hostname: "**.supabase.co" },
+      { protocol: "https", hostname: "**.propertyfinder.ae" },
     ],
   },
 };

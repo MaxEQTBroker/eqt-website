@@ -91,6 +91,13 @@ async function fetchListingsFromCRM(): Promise<Listing[] | null> {
           return u ? { url: String(u), alt: String(o?.alt ?? r.title ?? "") } : null;
         })
         .filter((x): x is { url: string; alt: string } => x !== null);
+      const description = String(r.description ?? r.summary ?? "");
+      // The CRM import has full descriptions but no separate short summary,
+      // so derive one (first sentence, capped) when it's missing.
+      const summaryRaw = typeof r.summary === "string" ? r.summary.trim() : "";
+      const summary =
+        summaryRaw ||
+        (description.split(/(?<=[.!?])\s/)[0] || description).slice(0, 180).trim();
       return {
         slug: String(r.slug ?? r.reference ?? ""),
         reference: String(r.reference ?? ""),
@@ -106,8 +113,8 @@ async function fetchListingsFromCRM(): Promise<Listing[] | null> {
         bathrooms: Number(r.bathrooms ?? 0),
         areaSqft: Number(r.areaSqft ?? 0),
         plotSqft: typeof r.plotSqft === "number" ? r.plotSqft : undefined,
-        summary: String(r.summary ?? ""),
-        description: String(r.description ?? r.summary ?? ""),
+        summary,
+        description,
         highlights: Array.isArray(r.highlights) ? (r.highlights as unknown[]).map(String) : [],
         images,
         permitNumber: String(r.permitNumber ?? ""),
