@@ -100,7 +100,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="block w-fit py-1.5 font-display leading-[1.1] text-[clamp(1.9rem,5.5vw,4rem)] transition-colors hover:text-[color:var(--accent-400)]"
+                className="block w-fit py-1.5 font-display leading-[1.12] text-[clamp(1.35rem,4vw,2.6rem)] transition-colors hover:text-[color:var(--accent-400)]"
                 style={{
                   color: "#e8e0cd",
                   opacity: open ? 1 : 0,

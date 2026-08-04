@@ -44,13 +44,12 @@ export type NavItem = { label: string; href: string };
 
 export const primaryNav: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "Areas", href: "/areas" },
+  { label: "Neighborhoods", href: "/areas" },
   { label: "Developers", href: "/developers" },
-  { label: "Property", href: "/property" },
-  { label: "Sold", href: "/sold" },
-  { label: "Listings", href: "/listings" },
-  { label: "Journal", href: "/blog" },
-  { label: "Contact", href: "/contact" },
+  { label: "Sold Properties", href: "/sold" },
+  { label: "Active Properties", href: "/listings" },
+  { label: "Property Type", href: "/property" },
+  { label: "Blog Posts", href: "/blog" },
 ];
 
 /** Build a prefilled WhatsApp deep link. */
