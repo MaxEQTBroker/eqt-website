@@ -108,8 +108,9 @@ export default async function BlogPostPage({
           />
         </div>
 
-        {/* Answer-first intro */}
-        <div className="mx-auto mt-14 max-w-3xl">
+        {/* Article body + sticky enquiry sidebar */}
+        <div className="mt-14 grid gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:gap-14">
+          <div className="mx-auto w-full max-w-3xl lg:mx-0">
           <p className="border-l-2 border-accent-500 pl-6 text-xl leading-relaxed text-ink">
             {post.intro}
           </p>
@@ -223,31 +224,26 @@ export default async function BlogPostPage({
             </div>
           )}
 
-        </div>
-      </article>
+          </div>
 
-      {/* Speak with a private advisor: message directly or submit the form */}
-      <section id="enquire" className="border-t border-line bg-elevated">
-        <div className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[1fr_1.1fr] lg:gap-20">
-          <div>
-            <p className="eyebrow mb-4">Speak with a private advisor</p>
-            <h2 className="display-h2 max-w-[14ch] text-ink">Have a question about this?</h2>
-            <p className="mt-6 max-w-md text-lg text-muted">
-              Message us directly on WhatsApp, or send your brief below and we&rsquo;ll respond
-              personally, usually within the hour.
+          <aside className="lg:sticky lg:top-24 lg:self-start">
+            <p className="eyebrow mb-3">Speak with a private advisor</p>
+            <p className="mb-5 text-muted">
+              Have a question about this? Send your brief and we&rsquo;ll reply personally, or message
+              us on WhatsApp.
             </p>
             <a
               href={whatsappLink(`Hello ${site.name}, I read your guide on ${post.title} and have a question.`)}
               target="_blank"
               rel="noopener noreferrer"
-              className="link-whatsapp mt-6 inline-block"
+              className="link-whatsapp mb-6 inline-block"
             >
               Message us on WhatsApp
             </a>
-          </div>
-          <LeadForm source={`blog:${post.slug}`} />
+            <LeadForm source={`blog:${post.slug}`} />
+          </aside>
         </div>
-      </section>
+      </article>
 
       {/* Related */}
       {related.length > 0 && (

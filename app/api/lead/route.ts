@@ -51,6 +51,7 @@ export async function POST(req: Request) {
     intent: data.intent,
     area: data.area,
     budget: data.budget,
+    timeframe: data.timeframe,
     message: data.message,
     source: data.source ?? "website",
     pageUrl: data.pageUrl,

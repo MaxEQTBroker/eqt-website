@@ -14,8 +14,10 @@ export interface LeadPayload {
   intent?: string;
   /** Community of interest (e.g. "Dubai Marina"). */
   area?: string;
-  /** Budget band. */
+  /** Budget band (Buy/Sell/Invest). */
   budget?: string;
+  /** Relocation timeframe (when intent is Relocate). */
+  timeframe?: string;
   /** Free-text message, if any. */
   message?: string;
   /** Where the lead came from, e.g. "area:dubai-marina", "developer:emaar". */

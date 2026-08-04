@@ -15,7 +15,9 @@ import { COMMUNITY_LABELS } from "@/lib/data/communityLabels";
 
 type Intent = "Buy" | "Sell" | "Invest" | "Relocate";
 const INTENTS: Intent[] = ["Buy", "Sell", "Invest", "Relocate"];
-const BUDGETS = ["Under AED 10M", "AED 10M – 30M", "AED 30M – 75M", "AED 75M+"];
+const BUDGETS = ["Under AED 10M", "AED 10M - 30M", "AED 30M - 75M", "AED 75M+"];
+const TIMEFRAMES = ["Under 3 months", "3-6 months", "6+ months"];
+const QUICK_COMMUNITIES = ["Palm Jumeirah", "Dubai Marina", "Downtown Dubai"];
 
 const steps = ["Goal", "Preferences", "Contact"] as const;
 
@@ -33,28 +35,43 @@ export function LeadForm({
   const [intent, setIntent] = useState<Intent | null>(null);
   const [area, setArea] = useState<string | null>(defaultArea ?? null);
   const [budget, setBudget] = useState<string | null>(null);
+  const [timeframe, setTimeframe] = useState<string | null>(null);
+  const [showAllCommunities, setShowAllCommunities] = useState(false);
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
   const [honeypot, setHoneypot] = useState("");
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
 
+  const relocating = intent === "Relocate";
+
+  // Three quick community picks (+ an "Others" dropdown). If embedded on an area
+  // page, that community leads the quick picks.
+  const quickPicks = useMemo(() => {
+    if (defaultArea && !QUICK_COMMUNITIES.includes(defaultArea)) {
+      return [defaultArea, ...QUICK_COMMUNITIES].slice(0, 3);
+    }
+    return QUICK_COMMUNITIES;
+  }, [defaultArea]);
+
+  const showDropdown = showAllCommunities || (area !== null && !quickPicks.includes(area));
+
   const canNext = useMemo(() => {
     if (step === 0) return intent !== null;
-    if (step === 1) return area !== null && budget !== null;
+    if (step === 1) return area !== null && (relocating ? timeframe !== null : budget !== null);
     if (step === 2) return name.trim().length > 1 && contact.trim().length > 3;
     return false;
-  }, [step, intent, area, budget, name, contact]);
+  }, [step, intent, area, budget, timeframe, relocating, name, contact]);
 
   const message = useMemo(
     () =>
       `Hello ${site.name}, I'd like to enquire.\n\n` +
-      `• Intent: ${intent ?? ", "}\n` +
-      `• Area: ${area ?? ", "}\n` +
-      `• Budget: ${budget ?? ", "}\n` +
-      `• Name: ${name || ", "}\n` +
-      `• Contact: ${contact || ", "}`,
-    [intent, area, budget, name, contact],
+      `• Looking to: ${intent ?? ""}\n` +
+      `• Community: ${area ?? ""}\n` +
+      (relocating ? `• Relocation timeframe: ${timeframe ?? ""}\n` : `• Budget: ${budget ?? ""}\n`) +
+      `• Name: ${name || ""}\n` +
+      `• Contact: ${contact || ""}`,
+    [intent, area, budget, timeframe, relocating, name, contact],
   );
 
   async function submit() {
@@ -67,7 +84,9 @@ export function LeadForm({
       contact,
       intent: intent ?? undefined,
       area: area ?? undefined,
-      budget: budget ?? undefined,
+      budget: relocating ? undefined : budget ?? undefined,
+      timeframe: relocating ? timeframe ?? undefined : undefined,
+      message: relocating && timeframe ? `Relocation timeframe: ${timeframe}` : undefined,
       source,
       honeypot,
       pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
@@ -147,28 +166,54 @@ export function LeadForm({
             <div className="space-y-7">
               <fieldset>
                 <legend className="mb-4 font-display text-2xl text-ink">Which community?</legend>
-                <select
-                  className="lux-input lux-select"
-                  value={area ?? ""}
-                  onChange={(e) => setArea(e.target.value || null)}
-                >
-                  <option value="">Select a community…</option>
-                  {COMMUNITY_LABELS.map((c) => (
-                    <option key={c} value={c}>
-                      {c}
-                    </option>
-                  ))}
-                  <option value="Not sure yet">Not sure yet</option>
-                </select>
-              </fieldset>
-              <fieldset>
-                <legend className="mb-4 font-display text-2xl text-ink">Budget</legend>
                 <div className="flex flex-wrap gap-3">
-                  {BUDGETS.map((opt) => (
-                    <OptionButton key={opt} small active={budget === opt} onClick={() => setBudget(opt)}>
+                  {quickPicks.map((opt) => (
+                    <OptionButton
+                      key={opt}
+                      small
+                      active={area === opt && !showAllCommunities}
+                      onClick={() => {
+                        setArea(opt);
+                        setShowAllCommunities(false);
+                      }}
+                    >
                       {opt}
                     </OptionButton>
                   ))}
+                  <OptionButton small active={showDropdown} onClick={() => setShowAllCommunities(true)}>
+                    Others
+                  </OptionButton>
+                </div>
+                {showDropdown && (
+                  <select
+                    className="lux-input lux-select mt-3"
+                    value={area && !quickPicks.includes(area) ? area : ""}
+                    onChange={(e) => setArea(e.target.value || null)}
+                  >
+                    <option value="">Select a community…</option>
+                    {COMMUNITY_LABELS.map((c) => (
+                      <option key={c} value={c}>
+                        {c}
+                      </option>
+                    ))}
+                    <option value="Not sure yet">Not sure yet</option>
+                  </select>
+                )}
+              </fieldset>
+              <fieldset>
+                <legend className="mb-4 font-display text-2xl text-ink">
+                  {relocating ? "When are you looking to relocate?" : "Budget"}
+                </legend>
+                <div className="flex flex-wrap gap-3">
+                  {(relocating ? TIMEFRAMES : BUDGETS).map((opt) => {
+                    const current = relocating ? timeframe : budget;
+                    const set = relocating ? setTimeframe : setBudget;
+                    return (
+                      <OptionButton key={opt} small active={current === opt} onClick={() => set(opt)}>
+                        {opt}
+                      </OptionButton>
+                    );
+                  })}
                 </div>
               </fieldset>
             </div>
