@@ -154,6 +154,11 @@ export async function queryListings(query: ListingQuery = {}): Promise<Listing[]
     .filter(
       (l) => query.maxPriceAed == null || (l.priceAed ?? Infinity) <= query.maxPriceAed,
     )
+    .filter((l) => query.minBedrooms == null || (l.bedrooms ?? 0) >= query.minBedrooms)
+    .filter((l) => query.minAreaSqft == null || (l.areaSqft ?? 0) >= query.minAreaSqft)
+    .filter(
+      (l) => query.maxAreaSqft == null || (l.areaSqft ?? Infinity) <= query.maxAreaSqft,
+    )
     .sort((a, b) => (b.priceAed ?? 0) - (a.priceAed ?? 0));
 }
 
@@ -192,10 +197,22 @@ async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
     const arr: unknown[] = Array.isArray(data) ? data : (data?.records ?? []);
     return arr.map((raw): SoldRecord => {
       const r = raw as Record<string, unknown>;
-      const img = r.image as { url?: string; alt?: string } | undefined;
+      const title = String(r.title ?? "");
+      const rawImgs = Array.isArray(r.images) ? (r.images as unknown[]) : [];
+      const images = rawImgs
+        .map((im) => {
+          const o = im as { url?: string; alt?: string };
+          const u = typeof im === "string" ? im : o?.url;
+          return u ? { url: String(u), alt: String(o?.alt ?? title) } : null;
+        })
+        .filter((x): x is { url: string; alt: string } => x !== null);
+      const single = r.image as { url?: string; alt?: string } | undefined;
+      const cover =
+        (single?.url ? { url: single.url, alt: single.alt ?? title } : undefined) ??
+        images[0];
       return {
         reference: String(r.reference ?? ""),
-        title: String(r.title ?? ""),
+        title,
         area: String(r.area ?? "") as AreaSlug,
         areaLabel: String(r.areaLabel ?? r.area ?? ""),
         type: (r.type as SoldRecord["type"]) ?? "Villa",
@@ -204,7 +221,8 @@ async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
         bedrooms: Number(r.bedrooms ?? 0),
         areaSqft: Number(r.areaSqft ?? 0),
         soldDate: String(r.soldDate ?? ""),
-        image: img?.url ? { url: img.url, alt: img.alt ?? String(r.title ?? "") } : undefined,
+        image: cover,
+        images: images.length > 0 ? images : cover ? [cover] : [],
         note: typeof r.note === "string" ? r.note : undefined,
       };
     });

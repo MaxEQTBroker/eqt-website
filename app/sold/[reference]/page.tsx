@@ -39,6 +39,12 @@ export default async function SoldDetailPage({
   if (!record) notFound();
 
   const soldYear = record.soldDate.slice(0, 4);
+  const photos =
+    record.images && record.images.length > 0
+      ? record.images
+      : record.image
+        ? [record.image]
+        : [];
 
   return (
     <>
@@ -76,30 +82,44 @@ export default async function SoldDetailPage({
 
           {/* Right: the record */}
           <div className="min-w-0">
-            <div
-              className="relative aspect-[16/10] overflow-hidden rounded-lg"
-              style={{ backgroundColor: record.image?.tone ?? "var(--bg-inset)" }}
-            >
-              {record.image ? (
-                <Image
-                  src={record.image.url}
-                  alt={record.image.alt}
-                  fill
-                  priority
-                  sizes="(min-width: 1024px) 800px, 100vw"
-                  className="object-cover"
-                />
-              ) : (
-                <div className="flex h-full items-center justify-center">
-                  <span className="font-display text-5xl tracking-[0.3em] text-faint">EQT</span>
+            {/* Photo gallery — every photo carries a "Sold" badge. */}
+            {photos.length > 0 ? (
+              <div className="grid gap-3 sm:grid-cols-2">
+                {photos.map((ph, i) => (
+                  <div
+                    key={`${ph.url}-${i}`}
+                    className={`relative overflow-hidden rounded-lg ${
+                      i === 0 ? "aspect-[16/10] sm:col-span-2" : "aspect-[4/3]"
+                    }`}
+                    style={{ backgroundColor: ph.tone ?? "var(--bg-inset)" }}
+                  >
+                    <Image
+                      src={ph.url}
+                      alt={ph.alt}
+                      fill
+                      priority={i === 0}
+                      sizes={i === 0 ? "(min-width: 1024px) 800px, 100vw" : "(min-width: 1024px) 400px, 50vw"}
+                      // CRM photos can be CMYK JPEGs (optimizer renders them black).
+                      unoptimized
+                      className="object-cover"
+                    />
+                    <div className="absolute left-4 top-4 rounded-full border border-accent-500/60 bg-base/80 px-3 py-1 text-xs uppercase tracking-[0.2em] text-accent-400 backdrop-blur-sm">
+                      {soldYear ? `Sold ${soldYear}` : "Sold"}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div
+                className="relative flex aspect-[16/10] items-center justify-center overflow-hidden rounded-lg"
+                style={{ backgroundColor: "var(--bg-inset)" }}
+              >
+                <span className="font-display text-5xl tracking-[0.3em] text-faint">EQT</span>
+                <div className="absolute left-4 top-4 rounded-full border border-accent-500/60 bg-base/80 px-3 py-1 text-xs uppercase tracking-[0.2em] text-accent-400 backdrop-blur-sm">
+                  {soldYear ? `Sold ${soldYear}` : "Sold"}
                 </div>
-              )}
-              {soldYear && (
-                <div className="absolute right-5 top-5 rounded-full border border-accent-500/60 bg-base/70 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-accent-400 backdrop-blur-sm">
-                  Sold {soldYear}
-                </div>
-              )}
-            </div>
+              </div>
+            )}
 
             <p className="eyebrow mt-8">{record.areaLabel}</p>
             <h1 className="mt-3 font-display text-[clamp(1.9rem,4vw,3rem)] leading-tight text-ink">

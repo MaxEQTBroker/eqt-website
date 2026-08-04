@@ -101,6 +101,8 @@ export interface SoldRecord {
   soldDate: string;
 
   image?: MediaImage;
+  /** Full photo set (first entry usually mirrors `image`). */
+  images?: MediaImage[];
   /** Optional one-line proof/story. */
   note?: string;
 }
@@ -197,4 +199,7 @@ export interface ListingQuery {
   type?: PropertyType;
   minPriceAed?: number;
   maxPriceAed?: number;
+  minBedrooms?: number;
+  minAreaSqft?: number;
+  maxAreaSqft?: number;
 }

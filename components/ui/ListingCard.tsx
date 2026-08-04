@@ -19,7 +19,7 @@ export function ListingCard({ listing }: { listing: Listing }) {
           sizes="(max-width: 768px) 100vw, 33vw"
           className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
         />
-        <div className="absolute left-4 top-4 rounded-full bg-base/70 px-3 py-1 text-xs tracking-wider text-accent-400 backdrop-blur-sm">
+        <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-medium tracking-wider text-ink shadow-sm">
           {listing.areaLabel}
         </div>
       </div>

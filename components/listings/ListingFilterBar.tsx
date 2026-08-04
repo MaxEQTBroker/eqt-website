@@ -15,18 +15,40 @@ export function listingBandFromToken(token?: string) {
   return LISTING_PRICE_BANDS.find((b) => b.token === token) ?? LISTING_PRICE_BANDS[0];
 }
 
-function href(area?: string, band?: string, type?: string) {
-  const params = new URLSearchParams();
-  if (area && area !== "all") params.set("area", area);
-  if (band && band !== "all") params.set("band", band);
-  if (type && type !== "all") params.set("type", type);
-  const qs = params.toString();
-  return qs ? `/listings?${qs}` : "/listings";
+/** Size (built-up area) bands. */
+export const LISTING_SIZE_BANDS = [
+  { token: "all", label: "Any size", minAreaSqft: undefined, maxAreaSqft: undefined },
+  { token: "sub-1500", label: "Under 1,500 sqft", minAreaSqft: undefined, maxAreaSqft: 1500 },
+  { token: "1500-3000", label: "1,500 – 3,000 sqft", minAreaSqft: 1500, maxAreaSqft: 3000 },
+  { token: "3000-6000", label: "3,000 – 6,000 sqft", minAreaSqft: 3000, maxAreaSqft: 6000 },
+  { token: "6000-plus", label: "6,000 sqft +", minAreaSqft: 6000, maxAreaSqft: undefined },
+] as const;
+
+export type ListingSizeToken = (typeof LISTING_SIZE_BANDS)[number]["token"];
+
+export function listingSizeFromToken(token?: string) {
+  return LISTING_SIZE_BANDS.find((b) => b.token === token) ?? LISTING_SIZE_BANDS[0];
 }
 
+export const BED_OPTIONS = [
+  { value: "all", label: "Any bedrooms" },
+  { value: "1", label: "1+ bedrooms" },
+  { value: "2", label: "2+ bedrooms" },
+  { value: "3", label: "3+ bedrooms" },
+  { value: "4", label: "4+ bedrooms" },
+  { value: "5", label: "5+ bedrooms" },
+] as const;
+
+const selectStyle = {
+  borderColor: "var(--line)",
+  backgroundColor: "var(--bg-inset)",
+  color: "var(--text-primary)",
+} as const;
+const selectCls = "w-full rounded-md border px-3 py-2.5 text-sm";
+
 /**
- * Server-rendered filter bar. Filters are plain links that set query params, so
- * filtering works with zero JS and every filtered view is crawlable/shareable.
+ * A GET <form> of dropdowns. Works with zero JS (pick, then "Apply"); each
+ * submission produces a shareable /listings?… URL.
  */
 export function ListingFilterBar({
   areas,
@@ -34,71 +56,88 @@ export function ListingFilterBar({
   activeArea,
   activeBand,
   activeType,
+  activeBeds,
+  activeSize,
 }: {
   areas: Area[];
   types: PropertyType[];
   activeArea: AreaSlug | "all";
   activeBand: ListingPriceBandToken;
   activeType: PropertyType | "all";
+  activeBeds: string;
+  activeSize: ListingSizeToken;
 }) {
-  const areaOptions: { token: AreaSlug | "all"; label: string }[] = [
-    { token: "all", label: "All communities" },
-    ...areas.map((a) => ({ token: a.slug, label: a.label })),
-  ];
-  const typeOptions: { token: PropertyType | "all"; label: string }[] = [
-    { token: "all", label: "All types" },
-    ...types.map((t) => ({ token: t, label: t })),
-  ];
-
   return (
-    <div className="space-y-6">
-      <FilterRow label="Community">
-        {areaOptions.map((opt) => (
-          <Chip key={opt.token} active={activeArea === opt.token} href={href(opt.token, activeBand, activeType)}>
-            {opt.label}
-          </Chip>
-        ))}
-      </FilterRow>
-      <FilterRow label="Type">
-        {typeOptions.map((opt) => (
-          <Chip key={opt.token} active={activeType === opt.token} href={href(activeArea, activeBand, opt.token)}>
-            {opt.label}
-          </Chip>
-        ))}
-      </FilterRow>
-      <FilterRow label="Price">
-        {LISTING_PRICE_BANDS.map((band) => (
-          <Chip key={band.token} active={activeBand === band.token} href={href(activeArea, band.token, activeType)}>
-            {band.label}
-          </Chip>
-        ))}
-      </FilterRow>
-    </div>
+    <form method="get" action="/listings" className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <Field label="Community">
+        <select name="area" defaultValue={activeArea} className={selectCls} style={selectStyle}>
+          <option value="all">All communities</option>
+          {areas.map((a) => (
+            <option key={a.slug} value={a.slug}>
+              {a.label}
+            </option>
+          ))}
+        </select>
+      </Field>
+
+      <Field label="Type">
+        <select name="type" defaultValue={activeType} className={selectCls} style={selectStyle}>
+          <option value="all">All types</option>
+          {types.map((t) => (
+            <option key={t} value={t}>
+              {t}
+            </option>
+          ))}
+        </select>
+      </Field>
+
+      <Field label="Bedrooms">
+        <select name="beds" defaultValue={activeBeds} className={selectCls} style={selectStyle}>
+          {BED_OPTIONS.map((o) => (
+            <option key={o.value} value={o.value}>
+              {o.label}
+            </option>
+          ))}
+        </select>
+      </Field>
+
+      <Field label="Size">
+        <select name="sqft" defaultValue={activeSize} className={selectCls} style={selectStyle}>
+          {LISTING_SIZE_BANDS.map((b) => (
+            <option key={b.token} value={b.token}>
+              {b.label}
+            </option>
+          ))}
+        </select>
+      </Field>
+
+      <Field label="Price">
+        <select name="band" defaultValue={activeBand} className={selectCls} style={selectStyle}>
+          {LISTING_PRICE_BANDS.map((b) => (
+            <option key={b.token} value={b.token}>
+              {b.label}
+            </option>
+          ))}
+        </select>
+      </Field>
+
+      <div className="flex items-end gap-3">
+        <button type="submit" className="btn btn-accent flex-1 sm:flex-none">
+          Apply filters
+        </button>
+        <Link href="/listings" className="btn btn-ghost">
+          Reset
+        </Link>
+      </div>
+    </form>
   );
 }
 
-function FilterRow({ label, children }: { label: string; children: React.ReactNode }) {
+function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
-    <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-      <span className="w-28 shrink-0 text-xs uppercase tracking-[0.2em] text-faint">{label}</span>
-      <div className="flex flex-wrap gap-2">{children}</div>
-    </div>
-  );
-}
-
-function Chip({ href, active, children }: { href: string; active: boolean; children: React.ReactNode }) {
-  return (
-    <Link
-      href={href}
-      aria-current={active ? "true" : undefined}
-      className="rounded-full border px-4 py-2 text-sm transition-colors duration-300"
-      style={{
-        borderColor: active ? "var(--accent-500)" : "var(--line)",
-        backgroundColor: active ? "rgba(11,79,158,0.10)" : "transparent",
-        color: active ? "var(--accent-500)" : "var(--text-secondary)",
-      }}
-    >
+    <label className="block">
+      <span className="mb-2 block text-xs uppercase tracking-[0.2em] text-faint">{label}</span>
       {children}
-    </Link>
+    </label>
   );
 }

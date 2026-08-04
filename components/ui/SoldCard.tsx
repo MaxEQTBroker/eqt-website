@@ -22,6 +22,9 @@ export function SoldCard({ record }: { record: SoldRecord }) {
             alt={record.image.alt}
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
+            // Some CRM photos are CMYK JPEGs, which the optimizer renders black;
+            // serving them unoptimized lets the browser handle colour correctly.
+            unoptimized
             className="object-cover transition-transform duration-700 group-hover:scale-105"
           />
         ) : (
