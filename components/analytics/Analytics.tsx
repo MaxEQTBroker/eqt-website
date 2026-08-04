@@ -7,7 +7,9 @@ import Script from "next/script";
  * conversion event via lib/analytics `trackLead`.
  */
 export function Analytics() {
-  const id = process.env.NEXT_PUBLIC_GA_ID;
+  // GA Measurement IDs are public (visible in page source), so defaulting it
+  // here is safe; NEXT_PUBLIC_GA_ID can still override.
+  const id = process.env.NEXT_PUBLIC_GA_ID || "G-HDZC6J8TVK";
   if (!id) return null;
   return (
     <>
