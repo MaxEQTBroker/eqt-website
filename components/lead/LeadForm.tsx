@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { site, whatsappLink } from "@/lib/site";
 import { postLead } from "@/lib/leads/submit";
+import { trackLead } from "@/lib/analytics";
 import { COMMUNITY_LABELS } from "@/lib/data/communityLabels";
 
 /**
@@ -91,6 +92,7 @@ export function LeadForm({
       honeypot,
       pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
     });
+    trackLead({ source, intent: intent ?? undefined });
     setSending(false);
     setSent(true);
   }

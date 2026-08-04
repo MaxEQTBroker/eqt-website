@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getAreas, getSoldRecords } from "@/lib/data/repository";
 import type { AreaSlug } from "@/lib/data/types";
 import { SoldCard } from "@/components/ui/SoldCard";
@@ -22,7 +23,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/sold" },
 };
 
-type SearchParams = { area?: string; band?: string };
+type SearchParams = { area?: string; band?: string; page?: string };
+
+const PER_PAGE = 9;
 
 export default async function SoldPage({
   searchParams,
@@ -45,6 +48,19 @@ export default async function SoldPage({
     minPriceAed: band.minPriceAed,
     maxPriceAed: band.maxPriceAed,
   });
+
+  // Pagination
+  const totalPages = Math.max(1, Math.ceil(records.length / PER_PAGE));
+  const page = Math.min(Math.max(1, Number(sp.page) || 1), totalPages);
+  const pageRecords = records.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+  const hrefFor = (p: number) => {
+    const params = new URLSearchParams();
+    if (activeArea !== "all") params.set("area", activeArea);
+    if (band.token !== "all") params.set("band", band.token);
+    if (p > 1) params.set("page", String(p));
+    const qs = params.toString();
+    return qs ? `/sold?${qs}` : "/sold";
+  };
 
   return (
     <>
@@ -82,19 +98,53 @@ export default async function SoldPage({
           {activeArea !== "all" &&
             ` in ${areas.find((a) => a.slug === activeArea)?.label}`}
           {band.token !== "all" && ` · ${band.label}`}
+          {totalPages > 1 && ` · page ${page} of ${totalPages}`}
         </p>
       </section>
 
       {/* Results */}
       <section className="container-lux py-16">
         {records.length > 0 ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {records.map((record, i) => (
-              <Reveal key={record.reference} delay={(i % 3) * 90}>
-                <SoldCard record={record} />
-              </Reveal>
-            ))}
-          </div>
+          <>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {pageRecords.map((record, i) => (
+                <Reveal key={record.reference} delay={(i % 3) * 90}>
+                  <SoldCard record={record} />
+                </Reveal>
+              ))}
+            </div>
+
+            {totalPages > 1 && (
+              <nav className="mt-14 flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">
+                {page > 1 && (
+                  <Link href={hrefFor(page - 1)} className="rounded-md border border-line px-4 py-2 text-sm text-muted transition-colors hover:border-accent-500 hover:text-ink">
+                    ← Prev
+                  </Link>
+                )}
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                  <Link
+                    key={p}
+                    href={hrefFor(p)}
+                    aria-current={p === page ? "page" : undefined}
+                    className={
+                      "min-w-[2.5rem] rounded-md border px-3 py-2 text-center text-sm transition-colors " +
+                      (p === page
+                        ? "border-accent-500 bg-accent-500 text-white"
+                        : "border-line text-muted hover:border-accent-500 hover:text-ink")
+                    }
+                    style={p === page ? { backgroundColor: "var(--accent-500)", color: "#fff" } : undefined}
+                  >
+                    {p}
+                  </Link>
+                ))}
+                {page < totalPages && (
+                  <Link href={hrefFor(page + 1)} className="rounded-md border border-line px-4 py-2 text-sm text-muted transition-colors hover:border-accent-500 hover:text-ink">
+                    Next →
+                  </Link>
+                )}
+              </nav>
+            )}
+          </>
         ) : (
           <div className="rounded-lg border border-line bg-elevated p-12 text-center">
             <h2 className="font-display text-2xl text-ink">

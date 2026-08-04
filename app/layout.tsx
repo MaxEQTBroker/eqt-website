@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppFab } from "@/components/layout/WhatsAppFab";
 import { SmoothScroll } from "@/components/motion/SmoothScroll";
 import { OrganizationJsonLd } from "@/lib/seo/jsonld";
+import { Analytics } from "@/components/analytics/Analytics";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
@@ -83,6 +84,7 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: revealBootstrap }} />
       </head>
       <body>
+        <Analytics />
         <OrganizationJsonLd />
         <SmoothScroll />
         <Header />
