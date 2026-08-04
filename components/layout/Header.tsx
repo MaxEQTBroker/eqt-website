@@ -71,16 +71,32 @@ export function Header() {
           </span>
         </Link>
 
-        {/* Right, Inquire */}
-        <a
-          href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
-          style={{ color: barColor }}
-        >
-          Inquire
-        </a>
+        {/* Right, Inquire → becomes a clear Close button when the menu is open */}
+        {open ? (
+          <button
+            type="button"
+            onClick={() => setOpen(false)}
+            aria-label="Close menu"
+            className="flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
+            style={{ color: barColor }}
+          >
+            Close
+            <span className="relative block h-3.5 w-3.5" aria-hidden="true">
+              <span className="absolute left-0 top-1/2 h-px w-3.5 -translate-y-1/2 rotate-45" style={{ backgroundColor: barColor }} />
+              <span className="absolute left-0 top-1/2 h-px w-3.5 -translate-y-1/2 -rotate-45" style={{ backgroundColor: barColor }} />
+            </span>
+          </button>
+        ) : (
+          <a
+            href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
+            style={{ color: barColor }}
+          >
+            Inquire
+          </a>
+        )}
       </div>
 
       {/* Full-screen menu overlay, scrolls when the links exceed the viewport */}

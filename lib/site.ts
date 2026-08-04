@@ -49,6 +49,7 @@ export const primaryNav: NavItem[] = [
   { label: "Sold Properties", href: "/sold" },
   { label: "Active Properties", href: "/listings" },
   { label: "Property Type", href: "/property" },
+  { label: "Free Valuation", href: "/valuation" },
   { label: "Blog Posts", href: "/blog" },
 ];
 
