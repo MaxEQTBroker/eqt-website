@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/data/blog";
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
+import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
@@ -222,28 +223,31 @@ export default async function BlogPostPage({
             </div>
           )}
 
-          {/* CTA */}
-          <div className="mt-16 rounded-lg border border-line bg-elevated p-8 md:p-10">
-            <p className="eyebrow mb-3">Talk to a Dubai specialist</p>
-            <p className="font-display text-2xl leading-snug text-ink">
-              Considering a move? We&rsquo;ll answer your questions privately.
-            </p>
-            <div className="mt-6 flex flex-wrap gap-6">
-              <a
-                href={whatsappLink(`Hello ${site.name}, I read your guide on ${post.title} and have a question.`)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link-whatsapp"
-              >
-                WhatsApp
-              </a>
-              <Link href="/contact" className="link-quiet">
-                Contact the office
-              </Link>
-            </div>
-          </div>
         </div>
       </article>
+
+      {/* Speak with a private advisor: message directly or submit the form */}
+      <section id="enquire" className="border-t border-line bg-elevated">
+        <div className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[1fr_1.1fr] lg:gap-20">
+          <div>
+            <p className="eyebrow mb-4">Speak with a private advisor</p>
+            <h2 className="display-h2 max-w-[14ch] text-ink">Have a question about this?</h2>
+            <p className="mt-6 max-w-md text-lg text-muted">
+              Message us directly on WhatsApp, or send your brief below and we&rsquo;ll respond
+              personally, usually within the hour.
+            </p>
+            <a
+              href={whatsappLink(`Hello ${site.name}, I read your guide on ${post.title} and have a question.`)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-whatsapp mt-6 inline-block"
+            >
+              Message us on WhatsApp
+            </a>
+          </div>
+          <LeadForm source={`blog:${post.slug}`} />
+        </div>
+      </section>
 
       {/* Related */}
       {related.length > 0 && (

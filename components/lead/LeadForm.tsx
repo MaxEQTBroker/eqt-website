@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { site, whatsappLink } from "@/lib/site";
 import { postLead } from "@/lib/leads/submit";
+import { COMMUNITY_LABELS } from "@/lib/data/communityLabels";
 
 /**
  * Multi-step lead form. On submit it POSTs the lead to /api/lead (which forwards
@@ -12,12 +13,11 @@ import { postLead } from "@/lib/leads/submit";
  * is down or not yet configured.
  */
 
-type Intent = "Buy" | "Sell" | "Invest";
-const INTENTS: Intent[] = ["Buy", "Sell", "Invest"];
-const DEFAULT_AREAS = ["Palm Jumeirah", "Al Barari", "Jumeirah Islands", "Not sure yet"];
+type Intent = "Buy" | "Sell" | "Invest" | "Relocate";
+const INTENTS: Intent[] = ["Buy", "Sell", "Invest", "Relocate"];
 const BUDGETS = ["Under AED 10M", "AED 10M – 30M", "AED 30M – 75M", "AED 75M+"];
 
-const steps = ["Intent", "Preferences", "Contact"] as const;
+const steps = ["Goal", "Preferences", "Contact"] as const;
 
 /**
  * @param defaultArea  When set (e.g. embedded on an area page), the community is
@@ -29,13 +29,6 @@ export function LeadForm({
   source,
 }: { defaultArea?: string; source?: string } = {}) {
   const reduce = useReducedMotion();
-  const areaOptions = useMemo(
-    () =>
-      defaultArea
-        ? [defaultArea, ...DEFAULT_AREAS.filter((a) => a !== defaultArea)]
-        : DEFAULT_AREAS,
-    [defaultArea],
-  );
   const [step, setStep] = useState(0);
   const [intent, setIntent] = useState<Intent | null>(null);
   const [area, setArea] = useState<string | null>(defaultArea ?? null);
@@ -126,7 +119,7 @@ export function LeadForm({
         ))}
       </div>
       <p className="eyebrow mb-6">
-        Step {step + 1} / {steps.length} · {steps[step]}
+        Step {step + 1} / {steps.length}
       </p>
 
       <AnimatePresence mode="wait">
@@ -140,7 +133,7 @@ export function LeadForm({
               <legend className="mb-5 font-display text-2xl text-ink">
                 How can we help?
               </legend>
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                 {INTENTS.map((opt) => (
                   <OptionButton key={opt} active={intent === opt} onClick={() => setIntent(opt)}>
                     {opt}
@@ -154,13 +147,19 @@ export function LeadForm({
             <div className="space-y-7">
               <fieldset>
                 <legend className="mb-4 font-display text-2xl text-ink">Which community?</legend>
-                <div className="flex flex-wrap gap-3">
-                  {areaOptions.map((opt) => (
-                    <OptionButton key={opt} small active={area === opt} onClick={() => setArea(opt)}>
-                      {opt}
-                    </OptionButton>
+                <select
+                  className="lux-input lux-select"
+                  value={area ?? ""}
+                  onChange={(e) => setArea(e.target.value || null)}
+                >
+                  <option value="">Select a community…</option>
+                  {COMMUNITY_LABELS.map((c) => (
+                    <option key={c} value={c}>
+                      {c}
+                    </option>
                   ))}
-                </div>
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
               </fieldset>
               <fieldset>
                 <legend className="mb-4 font-display text-2xl text-ink">Budget</legend>
@@ -258,6 +257,15 @@ export function LeadForm({
         }
         .lux-input::placeholder { color: var(--text-tertiary); }
         .lux-input:focus { outline: none; border-color: var(--accent-500); }
+        .lux-select {
+          appearance: none;
+          -webkit-appearance: none;
+          cursor: pointer;
+          padding-right: 2.75rem;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9' fill='none'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%237a6a4d' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-position: right 1rem center;
+        }
       `}</style>
     </div>
   );
