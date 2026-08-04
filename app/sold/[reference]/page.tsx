@@ -6,6 +6,7 @@ import { getAllSoldReferences, getSoldByReference } from "@/lib/data/repository"
 import { LeadForm } from "@/components/lead/LeadForm";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { formatAed, formatSqft } from "@/lib/format";
+import { crmPhoto } from "@/lib/images";
 import { site, whatsappLink } from "@/lib/site";
 
 export async function generateStaticParams() {
@@ -94,16 +95,16 @@ export default async function SoldDetailPage({
                     style={{ backgroundColor: ph.tone ?? "var(--bg-inset)" }}
                   >
                     <Image
-                      src={ph.url}
+                      src={crmPhoto(ph.url, i === 0 ? 1600 : 900)}
                       alt={ph.alt}
                       fill
                       priority={i === 0}
                       sizes={i === 0 ? "(min-width: 1024px) 800px, 100vw" : "(min-width: 1024px) 400px, 50vw"}
-                      // CRM photos can be CMYK JPEGs (optimizer renders them black).
+                      // Supabase transform already converts CMYK→sRGB + resizes.
                       unoptimized
                       className="object-cover"
                     />
-                    <div className="absolute left-4 top-4 rounded-full border border-accent-500/60 bg-base/80 px-3 py-1 text-xs uppercase tracking-[0.2em] text-accent-400 backdrop-blur-sm">
+                    <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-medium uppercase tracking-wider text-ink shadow-sm">
                       {soldYear ? `Sold ${soldYear}` : "Sold"}
                     </div>
                   </div>
@@ -115,7 +116,7 @@ export default async function SoldDetailPage({
                 style={{ backgroundColor: "var(--bg-inset)" }}
               >
                 <span className="font-display text-5xl tracking-[0.3em] text-faint">EQT</span>
-                <div className="absolute left-4 top-4 rounded-full border border-accent-500/60 bg-base/80 px-3 py-1 text-xs uppercase tracking-[0.2em] text-accent-400 backdrop-blur-sm">
+                <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-medium uppercase tracking-wider text-ink shadow-sm">
                   {soldYear ? `Sold ${soldYear}` : "Sold"}
                 </div>
               </div>
@@ -160,7 +161,7 @@ export default async function SoldDetailPage({
               </p>
             )}
 
-            <p className="mt-10 text-sm text-faint">
+            <p className="mt-8 pb-2 text-xs italic text-faint">
               Reference {record.reference}. Details shared for track-record purposes; some
               transactions are completed confidentially.
             </p>

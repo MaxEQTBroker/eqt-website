@@ -39,7 +39,9 @@ export function Header() {
         borderBottom: !open && scrolled ? "1px solid var(--line)" : "1px solid transparent",
       }}
     >
-      <div className="container-lux flex h-20 items-center justify-between">
+      {/* relative z-50 keeps the bar (×, logo, Inquire) ABOVE the z-40 overlay,
+          otherwise the overlay paints over them and the close button vanishes. */}
+      <div className="container-lux relative z-50 flex h-20 items-center justify-between">
         {/* Left, Menu toggle */}
         <button
           type="button"

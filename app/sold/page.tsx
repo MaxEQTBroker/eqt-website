@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAreas, getSoldRecords } from "@/lib/data/repository";
-import type { AreaSlug } from "@/lib/data/types";
+import { getSoldRecords } from "@/lib/data/repository";
 import { SoldCard } from "@/components/ui/SoldCard";
 import { Reveal } from "@/components/motion/Reveal";
-import {
-  SoldFilterBar,
-  bandFromToken,
-  type PriceBandToken,
-} from "@/components/sold/SoldFilterBar";
 import {
   BreadcrumbJsonLd,
   SoldCollectionJsonLd,
@@ -23,7 +17,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/sold" },
 };
 
-type SearchParams = { area?: string; band?: string; page?: string };
+type SearchParams = { area?: string; page?: string };
 
 const PER_PAGE = 9;
 
@@ -33,21 +27,20 @@ export default async function SoldPage({
   searchParams: Promise<SearchParams>;
 }) {
   const sp = await searchParams;
-  const areas = await getAreas();
-  const areaSlugs = areas.map((a) => a.slug);
+  const allSold = await getSoldRecords();
 
-  const activeArea: AreaSlug | "all" =
-    sp.area && areaSlugs.includes(sp.area as AreaSlug)
-      ? (sp.area as AreaSlug)
-      : "all";
-  const band = bandFromToken(sp.band);
-  const activeBand = band.token as PriceBandToken;
+  // Communities that actually have sold records (for the dropdown).
+  const communities = Array.from(
+    new Map(allSold.map((r) => [r.area, r.areaLabel])).entries(),
+  )
+    .map(([slug, label]) => ({ slug, label }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+  const validSlugs = new Set(communities.map((c) => c.slug));
 
-  const records = await getSoldRecords({
-    area: activeArea === "all" ? undefined : activeArea,
-    minPriceAed: band.minPriceAed,
-    maxPriceAed: band.maxPriceAed,
-  });
+  const activeArea = sp.area && validSlugs.has(sp.area) ? sp.area : "all";
+  const records =
+    activeArea === "all" ? allSold : allSold.filter((r) => r.area === activeArea);
+  const activeLabel = communities.find((c) => c.slug === activeArea)?.label;
 
   // Pagination
   const totalPages = Math.max(1, Math.ceil(records.length / PER_PAGE));
@@ -56,7 +49,6 @@ export default async function SoldPage({
   const hrefFor = (p: number) => {
     const params = new URLSearchParams();
     if (activeArea !== "all") params.set("area", activeArea);
-    if (band.token !== "all") params.set("band", band.token);
     if (p > 1) params.set("page", String(p));
     const qs = params.toString();
     return qs ? `/sold?${qs}` : "/sold";
@@ -84,20 +76,39 @@ export default async function SoldPage({
         </p>
       </section>
 
-      {/* Filters */}
+      {/* Filter: community */}
       <section className="container-lux">
         <div className="rounded-lg border border-line bg-elevated p-6 sm:p-8">
-          <SoldFilterBar
-            areas={areas}
-            activeArea={activeArea}
-            activeBand={activeBand}
-          />
+          <form method="get" action="/sold" className="flex flex-col gap-4 sm:flex-row sm:items-end">
+            <label className="block sm:max-w-xs sm:flex-1">
+              <span className="mb-2 block text-xs uppercase tracking-[0.2em] text-faint">Community</span>
+              <select
+                name="area"
+                defaultValue={activeArea}
+                className="w-full rounded-md border px-3 py-2.5 text-sm"
+                style={{ borderColor: "var(--line)", backgroundColor: "var(--bg-inset)", color: "var(--text-primary)" }}
+              >
+                <option value="all">All communities</option>
+                {communities.map((c) => (
+                  <option key={c.slug} value={c.slug}>
+                    {c.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <div className="flex gap-3">
+              <button type="submit" className="btn btn-accent">
+                Apply
+              </button>
+              <Link href="/sold" className="btn btn-ghost">
+                Reset
+              </Link>
+            </div>
+          </form>
         </div>
         <p className="mt-6 text-sm text-faint" aria-live="polite">
           {records.length} {records.length === 1 ? "result" : "results"}
-          {activeArea !== "all" &&
-            ` in ${areas.find((a) => a.slug === activeArea)?.label}`}
-          {band.token !== "all" && ` · ${band.label}`}
+          {activeLabel && ` in ${activeLabel}`}
           {totalPages > 1 && ` · page ${page} of ${totalPages}`}
         </p>
       </section>
