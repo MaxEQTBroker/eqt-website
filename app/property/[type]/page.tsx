@@ -98,7 +98,7 @@ export default async function PropertyTypePage({
           {/* Lead form, top-left and sticky so it's visible immediately */}
           <aside
             id="enquire"
-            className="lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:overflow-x-hidden lg:pr-1"
+            className="lg:sticky lg:top-24 lg:self-start"
           >
             <p className="eyebrow mb-2">Looking for {guide.label.toLowerCase()}?</p>
             <p className="mb-4 text-sm text-muted">

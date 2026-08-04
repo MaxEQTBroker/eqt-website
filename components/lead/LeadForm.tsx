@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { site, whatsappLink } from "@/lib/site";
 import { postLead } from "@/lib/leads/submit";
@@ -38,6 +38,7 @@ export function LeadForm({
   const [budget, setBudget] = useState<string | null>(null);
   const [timeframe, setTimeframe] = useState<string | null>(null);
   const [showAllCommunities, setShowAllCommunities] = useState(false);
+  const [communityQuery, setCommunityQuery] = useState("");
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
   const [honeypot, setHoneypot] = useState("");
@@ -63,7 +64,6 @@ export function LeadForm({
     return QUICK_COMMUNITIES;
   }, [defaultArea]);
 
-  const showDropdown = showAllCommunities || (area !== null && !quickPicks.includes(area));
   const canSubmit = name.trim().length > 1 && contact.trim().length > 3;
 
   const advance = () => setStep((s) => Math.min(s + 1, flow.length - 1));
@@ -74,8 +74,25 @@ export function LeadForm({
   const chooseArea = (v: string | null) => {
     setArea(v);
     setShowAllCommunities(false);
+    setCommunityQuery("");
     if (v) advance();
   };
+
+  // Close the community overlay on Escape.
+  useEffect(() => {
+    if (!showAllCommunities) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setShowAllCommunities(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [showAllCommunities]);
+
+  const filteredCommunities = useMemo(() => {
+    const q = communityQuery.trim().toLowerCase();
+    const all = [...COMMUNITY_LABELS, "Not sure yet"];
+    return q ? all.filter((c) => c.toLowerCase().includes(q)) : all;
+  }, [communityQuery]);
 
   const message = useMemo(
     () =>
@@ -183,47 +200,19 @@ export function LeadForm({
               <legend className="mb-4 font-display text-xl text-ink">Which community?</legend>
               <div className="flex flex-wrap gap-2.5">
                 {quickPicks.map((opt) => (
-                  <OptionButton
-                    key={opt}
-                    small
-                    active={area === opt && !showAllCommunities}
-                    onClick={() => chooseArea(opt)}
-                  >
+                  <OptionButton key={opt} small active={area === opt} onClick={() => chooseArea(opt)}>
                     {opt}
                   </OptionButton>
                 ))}
-                <OptionButton small active={showDropdown} onClick={() => setShowAllCommunities((v) => !v)}>
-                  Others
+                {area && !quickPicks.includes(area) && (
+                  <OptionButton small active onClick={() => setShowAllCommunities(true)}>
+                    {area}
+                  </OptionButton>
+                )}
+                <OptionButton small active={false} onClick={() => setShowAllCommunities(true)}>
+                  All communities…
                 </OptionButton>
               </div>
-              {showDropdown && (
-                <div
-                  className="mt-3 max-h-52 overflow-y-auto rounded-md border border-line"
-                  style={{ background: "var(--bg-inset)" }}
-                  role="listbox"
-                  aria-label="Choose a community"
-                >
-                  {[...COMMUNITY_LABELS, "Not sure yet"].map((c) => {
-                    const selected = area === c;
-                    return (
-                      <button
-                        type="button"
-                        key={c}
-                        role="option"
-                        aria-selected={selected}
-                        onClick={() => chooseArea(c)}
-                        className="block w-full px-4 py-2.5 text-left text-sm transition-colors hover:bg-[rgba(122,106,77,0.09)]"
-                        style={{
-                          color: selected ? "var(--accent-600)" : "var(--text-secondary)",
-                          backgroundColor: selected ? "rgba(122,106,77,0.12)" : "transparent",
-                        }}
-                      >
-                        {c}
-                      </button>
-                    );
-                  })}
-                </div>
-              )}
             </fieldset>
           )}
 
@@ -357,6 +346,65 @@ export function LeadForm({
           background-position: right 1rem center;
         }
       `}</style>
+
+      {/* Community picker overlay: a fixed drawer on the right that escapes any
+          sticky/overflow clipping, always scrolls, and closes via ×, backdrop,
+          or Escape. */}
+      {showAllCommunities && (
+        <div className="fixed inset-0 z-[60]" role="dialog" aria-modal="true" aria-label="Select a community">
+          <button
+            type="button"
+            aria-label="Close community list"
+            onClick={() => setShowAllCommunities(false)}
+            className="absolute inset-0 bg-black/50"
+          />
+          <div className="absolute inset-y-0 right-0 flex w-full max-w-sm flex-col border-l border-line bg-elevated shadow-2xl">
+            <div className="flex items-center justify-between border-b border-line px-5 py-4">
+              <p className="font-display text-lg text-ink">Select a community</p>
+              <button
+                type="button"
+                onClick={() => setShowAllCommunities(false)}
+                aria-label="Close"
+                className="text-2xl leading-none text-faint transition-colors hover:text-ink"
+              >
+                &times;
+              </button>
+            </div>
+            <div className="border-b border-line p-4">
+              <input
+                autoFocus
+                value={communityQuery}
+                onChange={(e) => setCommunityQuery(e.target.value)}
+                placeholder="Search communities…"
+                className="lux-input"
+              />
+            </div>
+            <div className="flex-1 overflow-y-auto p-2">
+              {filteredCommunities.length === 0 ? (
+                <p className="px-3 py-6 text-sm text-faint">No matches. Try another name.</p>
+              ) : (
+                filteredCommunities.map((c) => {
+                  const selected = area === c;
+                  return (
+                    <button
+                      type="button"
+                      key={c}
+                      onClick={() => chooseArea(c)}
+                      className="block w-full rounded-md px-4 py-3 text-left text-[0.95rem] transition-colors hover:bg-[rgba(122,106,77,0.1)]"
+                      style={{
+                        color: selected ? "var(--accent-600)" : "var(--text-primary)",
+                        backgroundColor: selected ? "rgba(122,106,77,0.12)" : "transparent",
+                      }}
+                    >
+                      {c}
+                    </button>
+                  );
+                })
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

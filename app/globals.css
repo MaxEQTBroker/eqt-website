@@ -104,7 +104,9 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
+  /* `clip` (not `hidden`) prevents sideways scroll WITHOUT turning body into a
+     scroll container, which would break `position: sticky` on the lead form. */
+  overflow-x: clip;
 }
 
 h1, h2, h3 {

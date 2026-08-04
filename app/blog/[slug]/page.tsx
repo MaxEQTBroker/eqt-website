@@ -226,7 +226,7 @@ export default async function BlogPostPage({
 
           </div>
 
-          <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:overflow-x-hidden lg:pr-1">
+          <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start">
             <p className="eyebrow mb-2">Speak with a private advisor</p>
             <p className="mb-4 text-sm text-muted">
               Have a question about this? Send your brief and we&rsquo;ll reply personally, or message

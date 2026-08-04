@@ -59,6 +59,11 @@ export default async function AreaPage({
     getSoldRecords({ area: area.slug }),
   ]);
 
+  // Show only the 6 most valuable recent sales here; the rest live on /sold.
+  const topSold = [...sold]
+    .sort((a, b) => (b.soldPriceAed ?? 0) - (a.soldPriceAed ?? 0))
+    .slice(0, 6);
+
   return (
     <>
       <BreadcrumbJsonLd
@@ -101,7 +106,7 @@ export default async function AreaPage({
           {/* Lead form, top-left and sticky so it's visible immediately */}
           <aside
             id="enquire"
-            className="lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:overflow-x-hidden lg:pr-1"
+            className="lg:sticky lg:top-24 lg:self-start"
           >
             <p className="eyebrow mb-2">Considering {area.label}?</p>
             <p className="mb-4 text-sm text-muted">
@@ -231,12 +236,19 @@ export default async function AreaPage({
             </Reveal>
           </div>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {sold.map((record, i) => (
+            {topSold.map((record, i) => (
               <Reveal key={record.reference} delay={(i % 3) * 90}>
                 <SoldCard record={record} />
               </Reveal>
             ))}
           </div>
+          {sold.length > topSold.length && (
+            <div className="mt-12 text-center">
+              <Link href={`/sold?area=${area.slug}`} className="btn btn-accent">
+                See all {sold.length} sales in {area.label}
+              </Link>
+            </div>
+          )}
         </section>
       )}
 
