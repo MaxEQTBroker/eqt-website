@@ -2,6 +2,19 @@ import { NextResponse } from "next/server";
 import type { LeadPayload } from "@/lib/leads/types";
 
 /**
+ * Health/config check (safe: booleans only, never the secret values).
+ * GET /api/lead lets us confirm the CRM env vars actually reached the running
+ * deployment without exposing anything.
+ */
+export async function GET() {
+  return NextResponse.json({
+    ok: true,
+    webhookConfigured: Boolean(process.env.CRM_LEAD_WEBHOOK_URL),
+    apiKeyConfigured: Boolean(process.env.CRM_LEAD_API_KEY),
+  });
+}
+
+/**
  * Lead intake endpoint. The browser POSTs a LeadPayload here; this server route
  * forwards it to the CRM. Running server-side keeps the CRM credentials out of
  * the browser and avoids CORS issues.
