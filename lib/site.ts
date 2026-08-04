@@ -35,8 +35,7 @@ export const site = {
   },
 
   social: {
-    instagram: "https://instagram.com/eqt",
-    linkedin: "https://linkedin.com/company/eqt",
+    instagram: "https://www.instagram.com/dubaieqt/",
   },
 } as const;
 
