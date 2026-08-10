@@ -696,9 +696,10 @@ export const mockPosts: BlogPost[] = [
 // ── Repository (the seam) ────────────────────────────────────────────────
 import { heroImages } from "./mock/heroImages";
 import { generatedPosts } from "./mock/posts-generated";
+import { seoPosts } from "./mock/posts-seo";
 
 /** Hand-written posts plus the long-form generated set, one combined library. */
-const allPosts: BlogPost[] = [...mockPosts, ...generatedPosts];
+const allPosts: BlogPost[] = [...mockPosts, ...generatedPosts, ...seoPosts];
 
 /** Overlay the central Pexels hero image if one exists for this post's slug. */
 function withHero(post: BlogPost): BlogPost {

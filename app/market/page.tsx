@@ -6,6 +6,7 @@ import {
   queryListings,
 } from "@/lib/data/repository";
 import { Reveal } from "@/components/motion/Reveal";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { formatAed } from "@/lib/format";
 import { site, whatsappLink } from "@/lib/site";
@@ -102,6 +103,9 @@ export default async function MarketPage() {
 
       {/* Hero */}
       <section className="container-lux pb-14 pt-40">
+        <div className="mb-6">
+          <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Market Insights", href: "/market" }]} />
+        </div>
         <p className="eyebrow mb-5">Market insights</p>
         <h1 className="display-hero max-w-[18ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
           Dubai&apos;s prime market, in real numbers

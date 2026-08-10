@@ -11,6 +11,7 @@ import {
 import { ListingCard } from "@/components/ui/ListingCard";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
 
@@ -95,6 +96,15 @@ export default async function PropertyTypePage({
       {/* Below the hero: the lead form is a sticky LEFT rail that follows the
           whole page; every content block lives in the RIGHT column. */}
       <section className="container-lux py-[var(--section-py)]">
+        <div className="mb-8">
+          <Breadcrumbs
+            items={[
+              { name: "Home", href: "/" },
+              { name: "Property types", href: "/property" },
+              { name: guide.label, href: `/property/${guide.slug}` },
+            ]}
+          />
+        </div>
         <div className="grid gap-12 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-16 lg:items-start">
           {/* Lead form, left rail, sticky for the entire page */}
           <aside id="enquire" className="lg:sticky lg:top-24 lg:self-start">
