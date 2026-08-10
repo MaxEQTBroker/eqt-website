@@ -6,7 +6,7 @@ import {
   getAllListingSlugs,
   getListingBySlug,
 } from "@/lib/data/repository";
-import { Reveal } from "@/components/motion/Reveal";
+import { LeadForm } from "@/components/lead/LeadForm";
 import {
   BreadcrumbJsonLd,
   ListingJsonLd,
@@ -75,47 +75,66 @@ export default async function ListingDetailPage({
       />
       <ListingJsonLd listing={listing} />
 
-      {/* Gallery */}
-      <section className="container-lux pt-32">
-        <div className="relative aspect-[16/10] overflow-hidden rounded-lg" style={{ backgroundColor: cover.tone }}>
-          <Image
-            src={cover.url}
-            alt={cover.alt}
-            fill
-            priority
-            sizes="(max-width: 1024px) 100vw, 1400px"
-            className="object-cover"
-          />
-        </div>
-        {rest.length > 0 && (
-          <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
-            {rest.map((img) => (
-              <div key={img.url} className="relative aspect-[4/3] overflow-hidden rounded-lg" style={{ backgroundColor: img.tone }}>
-                <Image src={img.url} alt={img.alt} fill sizes="(max-width: 640px) 50vw, 33vw" className="object-cover" />
-              </div>
-            ))}
-          </div>
-        )}
-      </section>
+      <article className="container-lux pt-40">
+        <Link href="/listings" className="eyebrow inline-block transition-opacity hover:opacity-60">
+          ← All listings
+        </Link>
 
-      {/* Header + details */}
-      <section className="container-lux py-[var(--section-py)]">
-        <div className="grid gap-14 lg:grid-cols-[1.6fr_1fr] lg:gap-20">
-          {/* Main */}
-          <div>
-            <Link href={`/areas/${listing.area}`} className="eyebrow hover:underline">
+        {/* Lead form left rail; photos + details on the right (matches /sold). */}
+        <div className="mt-8 grid gap-12 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-16 lg:items-start">
+          {/* Left: enquiry form */}
+          <aside id="enquire" className="lg:sticky lg:top-24 lg:self-start">
+            <p className="eyebrow mb-2">Interested in this home?</p>
+            <p className="mb-4 text-sm text-muted">
+              Tell us your brief and an advisor will be in touch about this{" "}
+              {listing.type.toLowerCase()} in {listing.areaLabel}, and similar homes.
+            </p>
+            <a
+              href={enquiry}
+              className="link-whatsapp mb-5 inline-block text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message us on WhatsApp
+            </a>
+            <LeadForm defaultArea={listing.community ?? listing.areaLabel} source={`listing:${listing.slug}`} />
+          </aside>
+
+          {/* Right: gallery + details */}
+          <div className="min-w-0">
+            {cover && (
+              <div className="relative aspect-[16/10] overflow-hidden rounded-lg" style={{ backgroundColor: cover.tone }}>
+                <Image
+                  src={cover.url}
+                  alt={cover.alt}
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 900px"
+                  className="object-cover"
+                />
+              </div>
+            )}
+            {rest.length > 0 && (
+              <div className="mt-3 grid grid-cols-2 gap-3">
+                {rest.map((img) => (
+                  <div key={img.url} className="relative aspect-[4/3] overflow-hidden rounded-lg" style={{ backgroundColor: img.tone }}>
+                    <Image src={img.url} alt={img.alt} fill sizes="(max-width: 1024px) 50vw, 400px" className="object-cover" />
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <Link href={`/areas/${listing.area}`} className="eyebrow mt-8 inline-block hover:underline">
               {listing.areaLabel}
             </Link>
-            <h1 className="mt-4 font-display text-[clamp(2.25rem,5vw,4rem)] leading-[1.05] text-ink">
+            <h1 className="mt-3 font-display text-[clamp(1.9rem,4vw,3rem)] leading-tight text-ink">
               {listing.title}
             </h1>
             <p className="mt-4 text-2xl text-accent-500">
               {listing.priceLabel ?? formatAed(listing.priceAed)}
             </p>
 
-            <div className="mt-10 hairline" />
-
-            <p className="mt-10 text-lg leading-relaxed text-muted">{listing.description}</p>
+            <p className="mt-8 text-lg leading-relaxed text-muted">{listing.description}</p>
 
             {listing.highlights.length > 0 && (
               <div className="mt-10">
@@ -130,36 +149,23 @@ export default async function ListingDetailPage({
                 </ul>
               </div>
             )}
-          </div>
 
-          {/* Sticky enquiry / specs */}
-          <div className="lg:sticky lg:top-24 lg:self-start">
-            <div className="rounded-lg border border-line bg-elevated p-8">
-              <dl className="space-y-4">
-                {specs.map((spec) => (
-                  <div key={spec.label} className="flex items-baseline justify-between gap-4 border-b border-line pb-3 last:border-0 last:pb-0">
-                    <dt className="text-sm text-faint">{spec.label}</dt>
-                    <dd className="text-right text-ink">{spec.value}</dd>
-                  </div>
-                ))}
-              </dl>
+            <dl className="mt-10 grid grid-cols-2 gap-x-8 gap-y-4 border-t border-line pt-8 sm:grid-cols-3">
+              {specs.map((spec) => (
+                <div key={spec.label}>
+                  <dt className="text-sm text-faint">{spec.label}</dt>
+                  <dd className="mt-1 text-ink">{spec.value}</dd>
+                </div>
+              ))}
+            </dl>
 
-              <a href={enquiry} className="btn btn-whatsapp mt-8 w-full" target="_blank" rel="noopener noreferrer">
-                Enquire on WhatsApp
-              </a>
-              <a href={`mailto:${site.contact.email}?subject=${encodeURIComponent(`Enquiry: ${listing.title} (${listing.reference})`)}`} className="btn btn-ghost mt-3 w-full">
-                Email us
-              </a>
-
-              {/* Permit number, legally required on Dubai listings */}
-              <p className="mt-6 text-center text-xs text-faint">
-                Permit No.{" "}
-                <span className="text-muted">{listing.permitNumber}</span>
-              </p>
-            </div>
+            {/* Permit number, legally required on Dubai listings */}
+            <p className="mt-8 text-xs text-faint">
+              Permit No. <span className="text-muted">{listing.permitNumber}</span>
+            </p>
           </div>
         </div>
-      </section>
+      </article>
     </>
   );
 }

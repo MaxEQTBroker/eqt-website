@@ -179,6 +179,9 @@ export async function getAllListingSlugs(): Promise<string[]> {
  *
  * CONFIG (Vercel env, server-side): CRM_SOLD_URL, CRM_SOLD_TOKEN.
  */
+/** Sold records whose first photo is a blank/marble placeholder to be dropped. */
+const SOLD_DROP_FIRST_PHOTO = new Set<string>(["EQT-3096", "EQT-3122"]);
+
 async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
   const url = process.env.CRM_SOLD_URL;
   if (!url) return null;
@@ -197,21 +200,27 @@ async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
     const arr: unknown[] = Array.isArray(data) ? data : (data?.records ?? []);
     return arr.map((raw): SoldRecord => {
       const r = raw as Record<string, unknown>;
+      const reference = String(r.reference ?? "");
       const title = String(r.title ?? "");
       const rawImgs = Array.isArray(r.images) ? (r.images as unknown[]) : [];
-      const images = rawImgs
+      let images = rawImgs
         .map((im) => {
           const o = im as { url?: string; alt?: string };
           const u = typeof im === "string" ? im : o?.url;
           return u ? { url: String(u), alt: String(o?.alt ?? title) } : null;
         })
         .filter((x): x is { url: string; alt: string } => x !== null);
+      // A few records lead with a blank marble/placeholder cover — drop it so the
+      // real first photo becomes the cover (list page) and gallery lead.
+      const dropFirst = SOLD_DROP_FIRST_PHOTO.has(reference) && images.length > 1;
+      if (dropFirst) images = images.slice(1);
       const single = r.image as { url?: string; alt?: string } | undefined;
-      const cover =
-        (single?.url ? { url: single.url, alt: single.alt ?? title } : undefined) ??
-        images[0];
+      const cover = dropFirst
+        ? images[0]
+        : ((single?.url ? { url: single.url, alt: single.alt ?? title } : undefined) ??
+          images[0]);
       return {
-        reference: String(r.reference ?? ""),
+        reference,
         title,
         area: String(r.area ?? "") as AreaSlug,
         areaLabel: String(r.areaLabel ?? r.area ?? ""),
