@@ -53,7 +53,7 @@ export function OrganizationJsonLd() {
           name: "RERA ORN",
           value: site.regulatory.reraOrn,
         },
-        sameAs: [site.social.instagram],
+        sameAs: [site.social.instagram, site.social.google].filter(Boolean),
       }}
     />
   );

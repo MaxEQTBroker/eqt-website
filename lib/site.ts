@@ -36,6 +36,7 @@ export const site = {
 
   social: {
     instagram: "https://www.instagram.com/dubaieqt/",
+    google: "https://share.google/PS7dYKzeLOX9NawbL",
   },
 } as const;
 

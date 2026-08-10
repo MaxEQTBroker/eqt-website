@@ -35,7 +35,7 @@ Creating a Wikidata item helps Google's Knowledge Graph and AI answer engines re
 - (LinkedIn company page, if created)
 
 ## To do before submitting
-1. Fill in **inception year**.
+1. Fill in **2014**.
 2. Claim **Google Business Profile** and paste its URL into `sameAs` (site + Wikidata).
 3. Gather **2+ independent references** (press, directory, licence record) for notability.
 4. After the domain goes live, update **official website (P856)** to the eqt.ae URL.
