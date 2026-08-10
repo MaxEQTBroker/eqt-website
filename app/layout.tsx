@@ -7,7 +7,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppFab } from "@/components/layout/WhatsAppFab";
 import { SmoothScroll } from "@/components/motion/SmoothScroll";
-import { OrganizationJsonLd } from "@/lib/seo/jsonld";
+import { OrganizationJsonLd, WebsiteJsonLd } from "@/lib/seo/jsonld";
 import { Analytics } from "@/components/analytics/Analytics";
 
 const display = Cormorant_Garamond({
@@ -90,6 +90,7 @@ export default function RootLayout({
       <body>
         <Analytics />
         <OrganizationJsonLd />
+        <WebsiteJsonLd />
         <SmoothScroll />
         <Header />
         <main id="main">{children}</main>

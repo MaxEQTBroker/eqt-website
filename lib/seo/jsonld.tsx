@@ -38,9 +38,21 @@ export function OrganizationJsonLd() {
         legalName: site.legalName,
         description: site.description,
         url: site.url,
+        logo: `${site.url}/brand/logo-mark.png`,
+        image: `${site.url}/brand/logo-mark.png`,
         email: site.contact.email,
         telephone: site.contact.phone,
-        areaServed: { "@type": "City", name: "Dubai" },
+        priceRange: "$$$$",
+        foundingDate: "2014",
+        founder: { "@type": "Person", name: "Vladyslav Franchuk" },
+        knowsAbout: [
+          "Luxury real estate",
+          "Palm Jumeirah property",
+          "Dubai property investment",
+          "Off-plan property Dubai",
+          "UAE Golden Visa",
+        ],
+        areaServed: { "@type": "City", name: "Dubai", "@id": "https://www.wikidata.org/wiki/Q612" },
         address: {
           "@type": "PostalAddress",
           streetAddress: site.contact.address.street,
@@ -48,12 +60,31 @@ export function OrganizationJsonLd() {
           addressRegion: site.contact.address.region,
           addressCountry: site.contact.address.country,
         },
-        identifier: {
-          "@type": "PropertyValue",
-          name: "RERA ORN",
-          value: site.regulatory.reraOrn,
-        },
+        geo: { "@type": "GeoCoordinates", latitude: 25.1857, longitude: 55.2718 },
+        hasMap: site.social.google,
+        identifier: [
+          { "@type": "PropertyValue", name: "RERA ORN", value: site.regulatory.reraOrn },
+          { "@type": "PropertyValue", name: "DED trade licence", value: site.regulatory.dedLicense },
+        ],
         sameAs: [site.social.instagram, site.social.google].filter(Boolean),
+      }}
+    />
+  );
+}
+
+/** Site-level WebSite schema (entity + publisher link for search/AI). */
+export function WebsiteJsonLd() {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": `${site.url}/#website`,
+        url: site.url,
+        name: site.name,
+        description: site.description,
+        inLanguage: "en",
+        publisher: { "@id": `${site.url}/#organization` },
       }}
     />
   );
