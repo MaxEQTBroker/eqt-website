@@ -8,6 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         // Search crawlers.
         userAgent: "*",
         allow: "/",
+        disallow: ["/api/"],
       },
       {
         // Explicitly welcome AI answer-engine crawlers by name so our guides

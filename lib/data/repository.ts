@@ -61,6 +61,21 @@ function withContent<
 // ── Listings ──────────────────────────────────────────────────────────
 
 /**
+ * Map CRM community slugs onto our neighbourhood-page slugs so those listings
+ * cross-link to a real area page (better internal linking + indexing). Only
+ * true synonyms — distinct communities (e.g. DAMAC Hills 2) are left alone.
+ */
+const AREA_SLUG_ALIASES: Record<string, string> = {
+  bluewaters: "bluewaters-island",
+  "dubai-creek-harbour-the-lagoons": "dubai-creek-harbour",
+  "the-lagoons": "dubai-creek-harbour",
+  jbr: "jumeirah-beach-residence",
+};
+function normalizeArea(area: string): AreaSlug {
+  return (AREA_SLUG_ALIASES[area] ?? area) as AreaSlug;
+}
+
+/**
  * Fetch active listings from the CRM/scraper public endpoint. Returns null when
  * not configured (fall back to mock), [] on error. 5-minute ISR cache.
  * CONFIG (Vercel env, server-side): CRM_LISTINGS_URL, CRM_LISTINGS_TOKEN.
@@ -102,7 +117,7 @@ async function fetchListingsFromCRM(): Promise<Listing[] | null> {
         slug: String(r.slug ?? r.reference ?? ""),
         reference: String(r.reference ?? ""),
         title: String(r.title ?? ""),
-        area: String(r.area ?? "") as AreaSlug,
+        area: normalizeArea(String(r.area ?? "")),
         areaLabel: String(r.areaLabel ?? r.area ?? ""),
         community: typeof r.community === "string" ? r.community : undefined,
         type: (r.type as Listing["type"]) ?? "Apartment",
@@ -222,7 +237,7 @@ async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
       return {
         reference,
         title,
-        area: String(r.area ?? "") as AreaSlug,
+        area: normalizeArea(String(r.area ?? "")),
         areaLabel: String(r.areaLabel ?? r.area ?? ""),
         type: (r.type as SoldRecord["type"]) ?? "Villa",
         soldPriceAed: typeof r.soldPriceAed === "number" ? r.soldPriceAed : undefined,
