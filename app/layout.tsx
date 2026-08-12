@@ -47,11 +47,20 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: `${site.name}, Dubai Luxury Real Estate`,
     description: site.description,
+    images: [
+      {
+        url: "https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "EQT, Dubai luxury real estate",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${site.name}, Dubai Luxury Real Estate`,
     description: site.description,
+    images: ["https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
   },
   robots: {
     index: true,
