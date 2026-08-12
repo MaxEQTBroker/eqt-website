@@ -10,6 +10,7 @@ import {
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { EVERGREEN_GUIDES } from "@/lib/data/guideLinks";
 import {
   BreadcrumbJsonLd,
   DeveloperJsonLd,
@@ -293,6 +294,24 @@ export default async function DeveloperPage({
                 </div>
               </div>
             )}
+
+            {/* Buyer guides, internal links (SEO). */}
+            <div className="border-t border-line pt-16">
+              <p className="eyebrow mb-5">Buyer guides</p>
+              <ul className="divide-y divide-line border-y border-line">
+                {EVERGREEN_GUIDES.map((g) => (
+                  <li key={g.href}>
+                    <Link
+                      href={g.href}
+                      className="group flex items-center justify-between gap-4 py-4 text-lg text-ink transition-colors hover:text-accent-500"
+                    >
+                      <span>{g.label}</span>
+                      <span className="text-accent-500 transition-transform group-hover:translate-x-0.5">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

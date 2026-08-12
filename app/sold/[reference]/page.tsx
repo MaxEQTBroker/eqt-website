@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSoldReferences, getSoldByReference } from "@/lib/data/repository";
 import { LeadForm } from "@/components/lead/LeadForm";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { formatAed, formatSqft } from "@/lib/format";
 import { crmPhoto } from "@/lib/images";
@@ -58,9 +58,13 @@ export default async function SoldDetailPage({
       />
 
       <article className="container-lux pt-40">
-        <Link href="/sold" className="eyebrow inline-block transition-opacity hover:opacity-60">
-          ← Sold portfolio
-        </Link>
+        <Breadcrumbs
+          items={[
+            { name: "Home", href: "/" },
+            { name: "Sold Portfolio", href: "/sold" },
+            { name: record.title, href: `/sold/${encodeURIComponent(record.reference)}` },
+          ]}
+        />
 
         <div className="mt-8 grid gap-12 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-16 lg:items-start">
           {/* Left rail: enquiry form */}

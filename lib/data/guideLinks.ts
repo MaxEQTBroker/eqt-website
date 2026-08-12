@@ -5,7 +5,7 @@
  */
 export type GuideLink = { label: string; href: string };
 
-const EVERGREEN_GUIDES: GuideLink[] = [
+export const EVERGREEN_GUIDES: GuideLink[] = [
   { label: "Can foreigners buy property in Dubai?", href: "/blog/can-foreigners-buy-property-dubai-freehold" },
   { label: "Golden Visa through Dubai property", href: "/blog/golden-visa-dubai-property-2026-guide" },
   { label: "Buying property in Dubai from abroad", href: "/blog/how-to-buy-property-in-dubai-from-abroad" },

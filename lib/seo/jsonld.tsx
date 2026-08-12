@@ -67,6 +67,17 @@ export function OrganizationJsonLd() {
           { "@type": "PropertyValue", name: "DED trade licence", value: site.regulatory.dedLicense },
         ],
         sameAs: [site.social.instagram, site.social.google].filter(Boolean),
+        // Star rating shows only when real review data is set (never fabricate).
+        ...(process.env.NEXT_PUBLIC_REVIEW_RATING && process.env.NEXT_PUBLIC_REVIEW_COUNT
+          ? {
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: process.env.NEXT_PUBLIC_REVIEW_RATING,
+                reviewCount: process.env.NEXT_PUBLIC_REVIEW_COUNT,
+                bestRating: "5",
+              },
+            }
+          : {}),
       }}
     />
   );
@@ -241,12 +252,12 @@ export function ArticleJsonLd({ post }: { post: BlogPost }) {
         datePublished: post.publishedAt,
         dateModified: post.updatedAt,
         author: { "@type": "Organization", name: post.author.name, url: site.url },
-        publisher: {
-          "@type": "Organization",
-          name: site.name,
-          logo: { "@type": "ImageObject", url: `${site.url}/brand/logo-mark.png` },
-        },
+        publisher: { "@id": `${site.url}/#organization` },
         mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}/blog/${post.slug}` },
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: ["h1", ".post-intro"],
+        },
         keywords: post.keywords.join(", "),
         articleSection: post.category,
       }}

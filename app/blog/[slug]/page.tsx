@@ -7,6 +7,7 @@ import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/data/blog
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
 
@@ -77,9 +78,13 @@ export default async function BlogPostPage({
       {/* Header */}
       <article className="container-lux pt-40">
         <div className="mx-auto max-w-3xl">
-          <Link href="/blog" className="eyebrow inline-block transition-opacity hover:opacity-60">
-            ← Journal
-          </Link>
+          <Breadcrumbs
+            items={[
+              { name: "Home", href: "/" },
+              { name: "Journal", href: "/blog" },
+              { name: post.title, href: `/blog/${post.slug}` },
+            ]}
+          />
           <p className="eyebrow mt-8 mb-4">
             {post.category} · {post.readingMinutes} min read
           </p>
@@ -111,7 +116,7 @@ export default async function BlogPostPage({
         {/* Article body + sticky enquiry sidebar (form on the left on desktop) */}
         <div className="mt-14 grid gap-10 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-14">
           <div className="mx-auto w-full max-w-3xl lg:order-2 lg:mx-0">
-          <p className="border-l-2 border-accent-500 pl-6 text-xl leading-relaxed text-ink">
+          <p className="post-intro border-l-2 border-accent-500 pl-6 text-xl leading-relaxed text-ink">
             {post.intro}
           </p>
 

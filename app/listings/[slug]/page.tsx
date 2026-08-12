@@ -7,6 +7,7 @@ import {
   getListingBySlug,
 } from "@/lib/data/repository";
 import { LeadForm } from "@/components/lead/LeadForm";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import {
   BreadcrumbJsonLd,
   ListingJsonLd,
@@ -76,9 +77,13 @@ export default async function ListingDetailPage({
       <ListingJsonLd listing={listing} />
 
       <article className="container-lux pt-40">
-        <Link href="/listings" className="eyebrow inline-block transition-opacity hover:opacity-60">
-          ← All listings
-        </Link>
+        <Breadcrumbs
+          items={[
+            { name: "Home", href: "/" },
+            { name: "Listings", href: "/listings" },
+            { name: listing.title, href: `/listings/${listing.slug}` },
+          ]}
+        />
 
         {/* Lead form left rail; photos + details on the right (matches /sold). */}
         <div className="mt-8 grid gap-12 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-16 lg:items-start">
