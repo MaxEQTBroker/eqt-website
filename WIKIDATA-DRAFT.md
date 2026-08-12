@@ -10,14 +10,14 @@ Creating a Wikidata item helps Google's Knowledge Graph and AI answer engines re
 - **Also known as (aliases):** EQT Real Estate; EQT Real Estate Brokerage LLC; EQT Dubai
 
 ## Statements (Property → Value)
-- **instance of (P31):** real estate company (Q1058914) — or “enterprise” (Q6881511)
-- **industry (P452):** real estate (Q1058914) / real estate brokerage
-- **country (P17):** United Arab Emirates (Q878)
-- **headquarters location (P159):** Dubai (Q612)
-- **located in the administrative territorial entity (P131):** Dubai (Q612)
-- **official website (P856):** https://www.eqt.ae  *(update once the domain is live; use the current URL meanwhile)*
-- **inception (P571):** <year EQT was founded — fill in>
-- **legal form (P1454):** limited liability company (Q15646299)
+- **instance of (P31):** real estate company (**Q1660104** — verified)
+- **industry (P452):** real estate industry (**Q1660132** — verified)
+- **country (P17):** United Arab Emirates (**Q878** — verified)
+- **headquarters location (P159):** Dubai (**Q612** — verified)
+- **located in the administrative territorial entity (P131):** Dubai (**Q612** — verified)
+- **official website (P856):** https://eqt-website-ten.vercel.app  *(update to https://www.eqt.ae once the domain is live)*
+- **inception (P571):** 2014
+- **legal form (P1454):** OPTIONAL / skip — no clean generic "LLC" item exists on Wikidata (matches are country-specific, none for the UAE). If you want it, use "private limited company" (Q17376040, the generic parent). Otherwise omit; the legal name already states "…LLC".
 - **industry regulator / regulated by:** Dubai Land Department (DLD) / RERA (add as qualifier or note)
 - **Instagram username (P2003):** dubaieqt
 - **phone number (P1329):** +971 50 630 8888
