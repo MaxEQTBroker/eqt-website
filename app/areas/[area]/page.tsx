@@ -13,6 +13,7 @@ import { SoldCard } from "@/components/ui/SoldCard";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { guidesForArea } from "@/lib/data/guideLinks";
 import {
   AreaFaqJsonLd,
   BreadcrumbJsonLd,
@@ -59,6 +60,8 @@ export default async function AreaPage({
     getAvailableListings(area.slug),
     getSoldRecords({ area: area.slug }),
   ]);
+
+  const guides = guidesForArea(area.slug);
 
   // Show only the 6 most valuable recent sales here; the rest live on /sold.
   const topSold = [...sold]
@@ -272,6 +275,26 @@ export default async function AreaPage({
                     </Reveal>
                   ))}
                 </div>
+              </div>
+            )}
+
+            {/* Buyer guides — internal links into the guide cluster (SEO). */}
+            {guides.length > 0 && (
+              <div className="border-t border-line pt-16">
+                <p className="eyebrow mb-5">Buyer guides</p>
+                <ul className="divide-y divide-line border-y border-line">
+                  {guides.map((g) => (
+                    <li key={g.href}>
+                      <Link
+                        href={g.href}
+                        className="group flex items-center justify-between gap-4 py-4 text-lg text-ink transition-colors hover:text-accent-500"
+                      >
+                        <span>{g.label}</span>
+                        <span className="text-accent-500 transition-transform group-hover:translate-x-0.5">→</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
           </div>
