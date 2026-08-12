@@ -1783,5 +1783,493 @@ export const seoPosts: BlogPost[] = [
       "Palm Jumeirah apartments",
       "Dubai rental yield areas"
     ]
+  },
+  {
+    "slug": "dubai-penthouse-prices-what-you-get-and-where-to-buy",
+    "title": "Dubai Penthouse Prices: What You Get and Where to Buy",
+    "excerpt": "Dubai penthouses range from a few million AED to AED 100M+ for super-prime. Here is what your budget buys and the best districts to buy in.",
+    "category": "Investment",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-07-13",
+    "updatedAt": "2026-08-04",
+    "readingMinutes": 10,
+    "heroImage": blogBodyPool[14],
+    "intro": "Dubai penthouse prices span an exceptionally wide band: entry-level penthouses in established communities start from a few million dirhams, mid-market sky homes sit between AED 8M and AED 25M, and super-prime residences on Palm Jumeirah and in Downtown Dubai routinely exceed AED 100M. What you pay for is not floor area alone but position, ceiling height, private outdoor space, view corridors and the calibre of the building's services. This guide sets out what each price tier delivers and where the strongest addresses are.",
+    "keyTakeaways": [
+      "Dubai penthouses range from a few million AED at the entry level to AED 100M+ for super-prime units on Palm Jumeirah and in Downtown Dubai.",
+      "Price is driven by view, private terrace and pool provision, ceiling height, floor level and building brand, not square footage alone.",
+      "Foreigners can buy penthouses freehold in designated areas, with no annual property tax and no capital-gains tax on resale.",
+      "Palm Jumeirah, Downtown Dubai, Dubai Marina and Jumeirah Bay Island hold value best and offer the deepest resale demand.",
+      "Prime penthouses typically yield around 5-7% gross, ahead of comparable global cities."
+    ],
+    "sections": [
+      {
+        "heading": "What a Dubai penthouse actually is",
+        "body": [
+          "In Dubai the term penthouse is applied broadly, so it pays to define what you are buying. At its most rigorous, a penthouse is the top-floor residence of a tower, often occupying a full or half floor, with private lift access, generous ceiling heights and substantial private terraces. In practice, developers also market upper-floor duplexes and large simplex apartments on high floors as penthouses.",
+          "The features that separate a genuine trophy penthouse from a large apartment are consistent: uninterrupted view corridors that cannot be built out, a private roof terrace or plunge pool, ceiling heights above the standard 2.9 metres, dedicated parking and, in the finest examples, staff quarters and a private entrance lobby. These attributes, more than the headline area, explain the enormous spread in prices."
+        ]
+      },
+      {
+        "heading": "Dubai penthouse prices by tier",
+        "body": [
+          "Because the market is so broad, it is clearest to think in tiers. Each tier reflects a combination of location, building age and specification rather than size in isolation."
+        ],
+        "bullets": [
+          "Entry level (from a few million AED to AED 8M): upper-floor units in maturing communities such as Jumeirah Village Circle, Business Bay and parts of Dubai Marina, typically without a private pool.",
+          "Mid-market (AED 8M-25M): well-positioned penthouses in Dubai Marina, Downtown Dubai and Dubai Hills Estate, usually with a private terrace and strong views.",
+          "Prime (AED 25M-60M): landmark towers in Downtown Dubai and on Palm Jumeirah, with private pools, double-height living space and branded services.",
+          "Super-prime (AED 60M-100M+): full-floor and duplex penthouses on Palm Jumeirah, Jumeirah Bay Island and in the most sought-after Downtown addresses, where individual sales can exceed AED 100M."
+        ]
+      },
+      {
+        "heading": "Where to buy: Palm Jumeirah",
+        "body": [
+          "Palm Jumeirah is the address most closely associated with Dubai's super-prime penthouse market. Its appeal rests on scarcity of genuine beachfront, protected sea views across the Arabian Gulf and a concentration of branded residences. Penthouses here command the highest per-square-foot values in the city and have shown resilient capital growth.",
+          "Buyers on the Palm are typically acquiring a primary or seasonal home rather than a pure yield play, though the strength of the short-let and prime rental market means well-configured units still let readily. Expect prime and super-prime pricing, with the finest full-floor penthouses well into nine figures."
+        ]
+      },
+      {
+        "heading": "Where to buy: Downtown Dubai and beyond",
+        "body": [
+          "Downtown Dubai offers the city's most recognisable skyline outlook, with penthouses framing the Burj Khalifa and Dubai Fountain. Demand is deep and liquid, making it a sound choice for buyers who value resale certainty alongside lifestyle.",
+          "For those weighing alternatives, Dubai Marina delivers waterfront living at more accessible mid-market pricing, Jumeirah Bay Island offers ultra-exclusive low-density living, and Dubai Hills Estate suits buyers who prefer greenery and space to a dense urban setting. Each district has a distinct penthouse profile, so the right choice depends on whether your priority is view, privacy, yield or lifestyle."
+        ]
+      },
+      {
+        "heading": "What drives penthouse value up or down",
+        "body": [
+          "Two penthouses of identical size in the same tower can differ substantially in price. Understanding the value drivers helps you buy well and avoid overpaying for a name."
+        ],
+        "bullets": [
+          "View: protected sea, skyline or fountain views carry a clear premium over units that may be overlooked in future.",
+          "Private outdoor space: a large terrace, and above all a private pool, materially lifts value.",
+          "Ceiling height and volume: double-height living space distinguishes true penthouses from high-floor apartments.",
+          "Floor level and exclusivity: full-floor units with private lift access sit at the top of any building's pricing.",
+          "Branding and services: residences operated under a hospitality brand command higher prices and rents."
+        ]
+      },
+      {
+        "heading": "Costs, ownership and returns",
+        "body": [
+          "Foreign buyers can own penthouses freehold in Dubai's designated areas, which include Palm Jumeirah, Downtown Dubai and Dubai Marina. There is no annual property tax and no capital-gains tax on resale, which improves net returns relative to many international markets.",
+          "The principal transaction cost is the Dubai Land Department transfer fee of 4%, alongside agency and, in secondary sales, conveyancing costs. On the income side, prime Dubai penthouses typically achieve gross yields of around 5-7%, though trophy assets bought primarily as homes may prioritise capital preservation over income. Because pricing is so specification-sensitive, a considered valuation before you offer is the single most valuable step in the process."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does a penthouse cost in Dubai?",
+        "answer": "Prices range from a few million dirhams for entry-level upper-floor units to AED 100M and above for super-prime penthouses on Palm Jumeirah and in Downtown Dubai. Most well-appointed penthouses with a private terrace sit between AED 8M and AED 60M."
+      },
+      {
+        "question": "Can foreigners buy a penthouse in Dubai?",
+        "answer": "Yes. Foreign nationals can buy penthouses on a freehold basis in Dubai's designated freehold areas, which include Palm Jumeirah, Downtown Dubai and Dubai Marina, with full ownership rights and no annual property tax."
+      },
+      {
+        "question": "Which area has the most expensive penthouses in Dubai?",
+        "answer": "Palm Jumeirah and Jumeirah Bay Island hold the highest per-square-foot penthouse values, with Downtown Dubai close behind. These districts contain the super-prime residences that can exceed AED 100M."
+      },
+      {
+        "question": "Do Dubai penthouses make a good investment?",
+        "answer": "Prime penthouses typically achieve gross yields of around 5-7%, with no capital-gains tax on resale. Value is highly sensitive to view, private outdoor space and building quality, so careful selection is essential."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Explore penthouses for sale",
+        "href": "/property/penthouses"
+      },
+      {
+        "label": "Palm Jumeirah area guide",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Request a property valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "Dubai penthouse prices",
+      "penthouse for sale Dubai",
+      "Palm Jumeirah penthouse",
+      "Downtown Dubai penthouse",
+      "luxury penthouse Dubai",
+      "super-prime Dubai property",
+      "buy penthouse Dubai",
+      "Dubai penthouse investment"
+    ]
+  },
+  {
+    "slug": "dubai-vs-london-for-property-investment-which-is-better",
+    "title": "Dubai vs London for Property Investment: Which Is Better?",
+    "excerpt": "Dubai offers higher yields (~5-7%), no property or capital-gains tax and freehold ownership; London offers deep liquidity but lower yields and higher taxes.",
+    "category": "Investment",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-07-21",
+    "updatedAt": "2026-08-04",
+    "readingMinutes": 10,
+    "heroImage": blogBodyPool[20],
+    "intro": "For most income-focused international investors, Dubai currently offers the stronger case: gross rental yields of roughly 5-7% against London's typical 2-4%, no annual property tax, no capital-gains tax on resale and freehold ownership for foreigners. London's advantage is a deep, mature and highly liquid market with a long track record, but it carries higher transaction taxes and lower net returns. The right choice depends on whether you prioritise income and tax efficiency or established liquidity and long-term stability.",
+    "keyTakeaways": [
+      "Dubai typically yields around 5-7% gross versus roughly 2-4% in prime London.",
+      "Dubai levies no annual property tax and no capital-gains tax on resale; London applies stamp duty and capital-gains tax to many buyers.",
+      "Foreigners can own freehold in Dubai's designated areas; London ownership is often leasehold for apartments.",
+      "London offers deeper liquidity, a longer track record and currency familiarity for sterling investors.",
+      "Dubai suits income and tax efficiency; London suits investors prioritising established stability and liquidity."
+    ],
+    "sections": [
+      {
+        "heading": "Rental yields compared",
+        "body": [
+          "Yield is where the two markets diverge most sharply. Prime and mid-market Dubai residential typically generates gross rental yields of around 5-7%, supported by strong tenant demand, population growth and a large expatriate rental base. Prime central London, by contrast, has long delivered lower gross yields, commonly in the region of 2-4%, because capital values are high relative to achievable rents.",
+          "For an investor whose objective is income, this gap is decisive over time. It also gives Dubai a cushion: even after service charges and management costs, net yields generally remain competitive, whereas thin London yields leave less room for costs before the position becomes marginal on income alone."
+        ]
+      },
+      {
+        "heading": "Taxation and running costs",
+        "body": [
+          "Tax treatment is the second major point of separation, and it compounds the yield difference. Dubai imposes no annual property tax and no capital-gains tax on resale, so more of both the rental income and any appreciation stays with the investor.",
+          "London property, by contrast, attracts stamp duty land tax on purchase, which can be substantial for higher-value and additional properties, and capital-gains tax may apply on disposal. Rental income is also subject to income tax. These layers do not make London uninvestable, but they materially reduce net returns and must be modelled carefully before committing."
+        ],
+        "bullets": [
+          "Dubai: no annual property tax, no capital-gains tax on resale; main cost is the 4% Dubai Land Department transfer fee.",
+          "London: stamp duty on purchase, potential capital-gains tax on sale, and income tax on rents.",
+          "Both markets carry service charges and management fees that should be netted from headline yields."
+        ]
+      },
+      {
+        "heading": "Ownership rights and structure",
+        "body": [
+          "Dubai permits foreign nationals to buy freehold in designated areas such as Palm Jumeirah, Downtown Dubai and Dubai Marina, giving outright ownership of the property and, in the case of apartments, a share in the common areas. The process is efficient and title is registered with the Dubai Land Department.",
+          "In London, many apartments are held on a leasehold basis, meaning the buyer owns the property for a fixed term and pays ground rent and service charges, with freehold typically reserved for houses. Neither structure is inherently superior, but freehold ownership and a straightforward registration process are often cited by international buyers as advantages of the Dubai market."
+        ]
+      },
+      {
+        "heading": "Liquidity, maturity and risk",
+        "body": [
+          "London's principal strength is the depth and maturity of its market. Centuries of established title, a broad domestic and international buyer pool and transparent institutional infrastructure make it highly liquid and, historically, a store of value through economic cycles. For investors who prioritise the ability to exit quickly and a long track record, this matters.",
+          "Dubai's market is younger and has historically shown more pronounced cycles, though its regulatory framework has matured considerably and RERA oversight, escrow protections and transparent registration have strengthened investor confidence. The practical implication is that London offers steadier, lower-volatility exposure, while Dubai offers higher income and growth potential with a somewhat different risk profile."
+        ]
+      },
+      {
+        "heading": "Currency and lifestyle considerations",
+        "body": [
+          "Currency exposure cuts both ways. The dirham is pegged to the US dollar, which gives dollar-linked investors stability and can be attractive to those seeking to diversify away from sterling. Sterling investors, conversely, take on currency risk when buying in Dubai and may value the natural hedge of holding assets in their home currency in London.",
+          "Lifestyle and residency factors also weigh on the decision. Dubai property ownership can support residency visa eligibility above certain thresholds, and the city's tax-free personal income environment appeals to relocating investors. London offers cultural depth, education and a time zone convenient for global business. These non-financial factors often tip a decision that the numbers leave finely balanced."
+        ]
+      },
+      {
+        "heading": "Which market is right for you",
+        "body": [
+          "There is no universal winner; the better market depends on your objective. If your priority is rental income, tax efficiency and freehold ownership, Dubai has a clear edge on the numbers. If your priority is deep liquidity, a long track record and currency familiarity as a sterling investor, London remains compelling.",
+          "Many international investors ultimately hold both, using Dubai for yield and tax-efficient growth and London for stability and liquidity. Whichever you choose, the decision should rest on modelled net returns after all costs and taxes, not headline prices. A considered market view and an independent valuation are the right starting points."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Dubai or London better for property investment?",
+        "answer": "For income and tax efficiency, Dubai is generally stronger, offering roughly 5-7% gross yields, no property or capital-gains tax and freehold ownership. London offers deeper liquidity and a longer track record but lower yields and higher taxes."
+      },
+      {
+        "question": "What rental yield can I expect in Dubai versus London?",
+        "answer": "Dubai residential typically achieves gross yields of around 5-7%, while prime central London commonly returns roughly 2-4%. The gap is a key reason income-focused investors favour Dubai."
+      },
+      {
+        "question": "Do I pay tax on Dubai property?",
+        "answer": "Dubai imposes no annual property tax and no capital-gains tax on resale. The main transaction cost is the 4% Dubai Land Department transfer fee, alongside service charges and any management fees."
+      },
+      {
+        "question": "Can foreigners own property outright in Dubai?",
+        "answer": "Yes. Foreign nationals can buy freehold in Dubai's designated areas, including Palm Jumeirah, Downtown Dubai and Dubai Marina, with title registered at the Dubai Land Department."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "View current Dubai market data",
+        "href": "/market"
+      },
+      {
+        "label": "Guide to buying property in Dubai",
+        "href": "/guides/buying-property-in-dubai"
+      },
+      {
+        "label": "Browse apartments for sale",
+        "href": "/property/apartments"
+      }
+    ],
+    "keywords": [
+      "Dubai vs London property investment",
+      "Dubai property investment",
+      "London property investment",
+      "Dubai rental yields",
+      "Dubai property tax",
+      "best city to invest in property",
+      "international property investment",
+      "Dubai freehold property"
+    ]
+  },
+  {
+    "slug": "dubai-mortgages-expats-non-residents",
+    "title": "Dubai Mortgages for Expats and Non-Residents: A Guide",
+    "excerpt": "Expat residents can borrow up to ~80% LTV on Dubai property under AED 5M; non-residents typically 50-60%. Here is how financing works.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-08-04",
+    "readingMinutes": 10,
+    "heroImage": blogBodyPool[2],
+    "intro": "Yes, expats and non-residents can obtain a mortgage to buy property in Dubai. Resident buyers can generally borrow up to around 80% of the value of a property priced under AED 5 million (the loan-to-value ratio is lower for higher-value homes), while non-resident buyers are typically capped at 50-60% LTV and must fund a larger deposit from their own resources. Beyond the deposit, budget for a 4% Dubai Land Department (DLD) transfer fee and a 0.25% DLD mortgage registration fee. Rates and terms vary by lender, income profile and property, so the figures below are guidance rather than fixed rules.",
+    "keyTakeaways": [
+      "Expat residents: up to ~80% LTV on property under AED 5M; the cap tightens for homes above AED 5M.",
+      "Non-residents: typically 50-60% LTV, so expect to fund 40-50% of the price as a deposit.",
+      "Add costs beyond the deposit: 4% DLD transfer fee, 0.25% DLD mortgage registration fee, plus arrangement and valuation fees.",
+      "Mortgages are available on both ready and, in some cases, off-plan property, subject to lender and developer criteria.",
+      "Rates (fixed or variable) and eligibility vary widely by lender, income and residency status."
+    ],
+    "sections": [
+      {
+        "heading": "Can expats and non-residents get a Dubai mortgage?",
+        "body": [
+          "Dubai's mortgage market is open to foreign buyers, and lenders distinguish primarily between two groups: expatriates who are UAE residents and hold a valid residency visa, and non-residents who live abroad. Both can borrow, but the terms differ meaningfully.",
+          "Resident expats are treated similarly to Emirati nationals for lending purposes, with only a modest difference in the maximum loan-to-value ratio. Non-residents face stricter loan-to-value limits and a narrower field of lenders, as fewer banks offer non-resident products. Eligibility, in every case, rests on income, credit history and the property itself."
+        ]
+      },
+      {
+        "heading": "How much can you borrow? Loan-to-value ratios",
+        "body": [
+          "Loan-to-value (LTV) is the share of the purchase price a bank will finance; the remainder is your deposit. For resident expats, lenders will generally advance up to around 80% of the value of a property priced under AED 5 million, meaning a deposit of roughly 20% plus transaction costs. For homes valued above AED 5 million, the LTV cap is lower, so the deposit requirement rises.",
+          "Non-resident buyers are typically limited to 50-60% LTV. In practice this means funding 40-50% of the price yourself before fees. Second and subsequent properties, and purchases intended as investments rather than a primary home, may attract lower LTV ceilings again."
+        ],
+        "bullets": [
+          "Resident expat, property under AED 5M: up to ~80% LTV.",
+          "Resident expat, property over AED 5M: lower LTV, larger deposit.",
+          "Non-resident: typically 50-60% LTV.",
+          "Additional or investment properties: expect a lower LTV than a first home."
+        ]
+      },
+      {
+        "heading": "The upfront costs beyond your deposit",
+        "body": [
+          "The deposit is only part of the cash you need at completion. The single largest additional cost is the DLD transfer fee of 4% of the purchase price, payable to the Dubai Land Department. Where you are financing with a mortgage, the DLD also charges a mortgage registration fee of 0.25% of the loan amount, plus a small administrative charge.",
+          "Lenders levy their own charges too, most commonly an arrangement or processing fee and a property valuation fee. A trustee office registration fee and, if you use one, agency and conveyancing fees complete the picture. As a rule of thumb, set aside a buffer of around 6-8% of the price for fees on top of your deposit."
+        ],
+        "bullets": [
+          "DLD transfer fee: 4% of the purchase price.",
+          "DLD mortgage registration: 0.25% of the loan amount, plus admin fee.",
+          "Bank arrangement fee and valuation fee (varies by lender).",
+          "Trustee registration and any agency or conveyancing fees."
+        ]
+      },
+      {
+        "heading": "Rates, terms and the pre-approval process",
+        "body": [
+          "Dubai mortgages are offered on both fixed and variable rates. Fixed rates give certainty for an initial period before reverting to a variable rate, while variable rates track a reference rate and move with it. The rate you are offered depends on your profile, the loan size, the term and the lender's appetite, so it is worth comparing several banks rather than accepting the first quote.",
+          "The practical first step is a mortgage pre-approval. A lender assesses your income, existing liabilities and credit standing and issues an in-principle approval, typically valid for a set number of days. Pre-approval tells you your budget with confidence, strengthens your negotiating position and speeds up the final purchase, because the bank has already done the groundwork before you commit to a property."
+        ]
+      },
+      {
+        "heading": "Documents lenders will ask for",
+        "body": [
+          "Requirements vary between residents and non-residents, but the core documentation is consistent. Salaried applicants provide proof of income and employment; self-employed applicants provide business and financial records. Non-residents should expect to supply internationally sourced documents, sometimes attested, and banks may apply additional scrutiny to overseas income."
+        ],
+        "bullets": [
+          "Valid passport (and UAE residency visa and Emirates ID for residents).",
+          "Proof of income: salary certificate and recent payslips, or business accounts if self-employed.",
+          "Bank statements, usually covering the past six months.",
+          "Evidence of existing liabilities and, in some cases, a credit report from your home country."
+        ]
+      },
+      {
+        "heading": "Financing off-plan versus ready property",
+        "body": [
+          "Mortgages are most straightforward on completed, ready-to-move-in homes, where the bank can value a tangible asset. Financing off-plan property is possible with some lenders and developers, but the structure differs: during construction you often follow the developer's staged payment plan, with the mortgage drawn down or arranged closer to handover.",
+          "Because off-plan payment plans and mortgage financing can interact in different ways, it is sensible to confirm at the outset whether a specific project and lender combination works for your situation. Clarifying this early avoids a mismatch between the developer's instalment schedule and the bank's disbursement terms."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can a non-resident get a mortgage in Dubai?",
+        "answer": "Yes. Non-residents can borrow from a number of UAE banks, though loan-to-value ratios are typically capped at 50-60%, meaning you must fund 40-50% of the price yourself before fees. The choice of lenders is narrower than for residents, and additional documentation may be required."
+      },
+      {
+        "question": "What is the minimum deposit for an expat buying property in Dubai?",
+        "answer": "A resident expat buying a property under AED 5 million can generally borrow up to around 80% of the value, so the minimum deposit is roughly 20% of the price, plus transaction fees. The deposit requirement is higher for properties above AED 5 million and for non-residents."
+      },
+      {
+        "question": "What fees apply when taking out a Dubai mortgage?",
+        "answer": "Beyond the deposit, expect a 4% DLD transfer fee, a 0.25% DLD mortgage registration fee on the loan amount, and lender charges such as an arrangement fee and a valuation fee. Budgeting around 6-8% of the purchase price for total fees is a sensible starting point."
+      },
+      {
+        "question": "Should I get pre-approved before viewing properties?",
+        "answer": "Yes. Mortgage pre-approval confirms how much you can borrow, is usually valid for a defined period, and makes you a more credible buyer. It also shortens the final purchase timeline because the lender has already assessed your income and credit before you commit."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Guide to buying property in Dubai",
+        "href": "/guides/buying-property-in-dubai"
+      },
+      {
+        "label": "Request a property valuation",
+        "href": "/valuation"
+      },
+      {
+        "label": "Browse apartments for sale",
+        "href": "/property/apartments"
+      }
+    ],
+    "keywords": [
+      "Dubai mortgages for expats",
+      "non-resident mortgage Dubai",
+      "Dubai mortgage loan-to-value",
+      "expat home loan Dubai",
+      "mortgage deposit Dubai",
+      "DLD mortgage registration fee",
+      "Dubai mortgage pre-approval",
+      "financing Dubai property"
+    ]
+  },
+  {
+    "slug": "dubai-off-plan-payment-plans-explained",
+    "title": "Dubai Off-Plan Payment Plans Explained",
+    "excerpt": "Off-plan payment plans start with a ~10-20% booking deposit, followed by staged instalments during construction, with funds held in DLD-supervised escrow.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-07-26",
+    "updatedAt": "2026-08-04",
+    "readingMinutes": 10,
+    "heroImage": blogBodyPool[4],
+    "intro": "An off-plan payment plan lets you buy a property before or during its construction and pay for it in stages rather than all at once. Typically it begins with a booking deposit of around 10-20% of the price, followed by a series of instalments tied to construction milestones or fixed dates, with the balance due at handover. Some developers also offer post-handover plans, where a portion of the price is paid in instalments after you receive the keys. Crucially, your payments are made into a DLD-supervised escrow account, so funds are released to the developer against construction progress rather than paid directly and unconditionally. This structure spreads the cost over time and underpins buyer protection in Dubai's off-plan market.",
+    "keyTakeaways": [
+      "A booking deposit of roughly 10-20% secures the unit and initiates the reservation.",
+      "The balance is paid in staged instalments during construction, often linked to milestones or set dates.",
+      "Post-handover plans let you pay part of the price after receiving the keys, easing cash flow.",
+      "All payments go into a DLD-supervised escrow account, released to the developer against progress.",
+      "Off-plan spreads cost over time but carries construction and handover-timeline considerations."
+    ],
+    "sections": [
+      {
+        "heading": "What is an off-plan payment plan?",
+        "body": [
+          "Buying off-plan means purchasing a property that is not yet built, or is still under construction, directly from the developer. Instead of paying the full price on day one, you follow a payment plan: a schedule that breaks the total into a booking deposit and a series of instalments spread across the build period and, in some cases, beyond handover.",
+          "This approach makes higher-value property more accessible, because you commit capital gradually as the project rises rather than in a single lump sum. It is one of the defining features of Dubai's primary market and a key reason off-plan appeals to both end-users and investors."
+        ]
+      },
+      {
+        "heading": "The booking deposit: how it starts",
+        "body": [
+          "The plan begins with a booking or reservation deposit, generally in the region of 10-20% of the purchase price. Paying it reserves the specific unit at the agreed price and takes it off the market while the paperwork is prepared.",
+          "At this stage you sign the reservation form and then the Sale and Purchase Agreement (SPA), the contract that sets out the price, the payment schedule, the specification and the anticipated completion date. Reading the SPA carefully matters: it is the document that governs what you pay, when you pay it and what you receive."
+        ]
+      },
+      {
+        "heading": "Instalments during construction",
+        "body": [
+          "After the deposit, the balance is paid in instalments across the construction period. Developers structure these in one of two common ways: construction-linked, where each payment falls due as the project reaches a defined milestone such as completion of the foundation or a particular floor, or time-linked, where payments are due on fixed dates regardless of build stage.",
+          "A construction-linked plan aligns your outlay with visible progress, which many buyers prefer. A time-linked plan offers predictability for budgeting. In both cases the schedule, and the trigger for each payment, is set out in the SPA, so you know the full sequence before you commit."
+        ],
+        "bullets": [
+          "Construction-linked: instalments due as the build reaches defined milestones.",
+          "Time-linked: instalments due on set calendar dates.",
+          "A final instalment is typically due at handover, when the property is completed.",
+          "The full schedule is fixed in the Sale and Purchase Agreement."
+        ]
+      },
+      {
+        "heading": "Post-handover payment plans",
+        "body": [
+          "Some developers offer post-handover payment plans, where you pay only part of the price during construction and settle the remainder in instalments after you have taken possession. For example, a plan might require the bulk of the price by handover and spread the final portion over a period of years thereafter.",
+          "Post-handover plans ease cash flow because you can occupy or rent the property while still paying it down. They are a marketing and financing tool that varies significantly between developers and projects, so the split between pre- and post-handover payments should be confirmed against the specific SPA rather than assumed."
+        ]
+      },
+      {
+        "heading": "How escrow protects your payments",
+        "body": [
+          "Off-plan buyer protection in Dubai rests on the escrow account system, supervised by the Dubai Land Department. Every instalment you pay is deposited into a project-specific escrow account rather than paid directly to the developer's own funds.",
+          "Money is released from escrow to the developer in line with construction progress, which ties the developer's access to funds to the delivery of the project. This mechanism is designed to reduce the risk of paying for a home that is not built and is a central reason the off-plan model in Dubai carries a recognised layer of safeguards. Always confirm that payments are directed to the registered escrow account."
+        ]
+      },
+      {
+        "heading": "The costs and risks to weigh",
+        "body": [
+          "Beyond the instalments, off-plan purchases carry the same DLD registration costs as other property, and Oqood (interim off-plan registration) formalities apply during construction. Factor these into your budget alongside the payment schedule.",
+          "The main considerations are timeline and delivery. Completion dates are estimates, and construction can run to schedule or beyond it, so buyers should be comfortable with the anticipated handover window. Because the SPA fixes your obligations, understanding the payment triggers, the specification and the developer's track record before signing is the single most important step."
+        ],
+        "bullets": [
+          "DLD registration and Oqood (interim registration) formalities apply.",
+          "Handover dates are estimates; allow for the possibility of delay.",
+          "Review the developer's delivery record and the project's escrow arrangements.",
+          "Confirm whether mortgage financing is available if you need it near handover."
+        ]
+      },
+      {
+        "heading": "Off-plan versus ready property",
+        "body": [
+          "The payment plan is what most distinguishes off-plan from buying a ready home. With a completed property you typically pay the full price, often supported by a mortgage, at the point of transfer. With off-plan you pay in stages over the build, which lowers the initial cash barrier but means waiting for completion.",
+          "Which suits you depends on your priorities: immediate use and certainty of the finished product point towards ready property, while a lower entry point and a staged commitment point towards off-plan. Both routes sit within Dubai's regulated framework, and the right choice follows from your timeline, budget and risk appetite."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much deposit do I need for an off-plan property in Dubai?",
+        "answer": "Off-plan payment plans usually start with a booking deposit of around 10-20% of the purchase price. Paying it reserves the unit at the agreed price and precedes signing the Sale and Purchase Agreement, which sets out the remaining instalments."
+      },
+      {
+        "question": "Where do my off-plan payments go?",
+        "answer": "Payments are made into a project-specific escrow account supervised by the Dubai Land Department, not directly to the developer. Funds are released to the developer against construction progress, which is a core buyer-protection feature of the off-plan system."
+      },
+      {
+        "question": "What is a post-handover payment plan?",
+        "answer": "A post-handover plan lets you pay part of the price during construction and the remainder in instalments after you receive the keys. It eases cash flow because you can occupy or rent the property while still paying it down, though the exact split varies by developer and project."
+      },
+      {
+        "question": "Can I get a mortgage for an off-plan property?",
+        "answer": "Sometimes. Mortgage financing for off-plan is available with certain lenders and developers, but it is structured differently from a ready-property loan, often arranged or drawn down closer to handover. Confirm the specific project and lender combination early, as during construction you generally follow the developer's payment plan."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Guide to buying property in Dubai",
+        "href": "/guides/buying-property-in-dubai"
+      },
+      {
+        "label": "Browse current listings",
+        "href": "/listings"
+      },
+      {
+        "label": "Explore Palm Jumeirah",
+        "href": "/areas/palm-jumeirah"
+      }
+    ],
+    "keywords": [
+      "Dubai off-plan payment plans",
+      "off-plan booking deposit Dubai",
+      "post-handover payment plan",
+      "off-plan escrow account Dubai",
+      "buying off-plan Dubai",
+      "off-plan instalments",
+      "Dubai Land Department escrow",
+      "off-plan vs ready property"
+    ]
   }
 ];
