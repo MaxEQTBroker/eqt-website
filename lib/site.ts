@@ -37,6 +37,7 @@ export const site = {
   social: {
     instagram: "https://www.instagram.com/dubaieqt/",
     google: "https://share.google/PS7dYKzeLOX9NawbL",
+    wikidata: "https://www.wikidata.org/wiki/Q140982827",
   },
 } as const;
 

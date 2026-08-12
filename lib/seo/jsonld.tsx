@@ -66,7 +66,7 @@ export function OrganizationJsonLd() {
           { "@type": "PropertyValue", name: "RERA ORN", value: site.regulatory.reraOrn },
           { "@type": "PropertyValue", name: "DED trade licence", value: site.regulatory.dedLicense },
         ],
-        sameAs: [site.social.instagram, site.social.google].filter(Boolean),
+        sameAs: [site.social.instagram, site.social.google, site.social.wikidata].filter(Boolean),
         // Star rating shows only when real review data is set (never fabricate).
         ...(process.env.NEXT_PUBLIC_REVIEW_RATING && process.env.NEXT_PUBLIC_REVIEW_COUNT
           ? {
