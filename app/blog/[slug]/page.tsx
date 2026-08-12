@@ -50,6 +50,14 @@ function formatDate(iso: string): string {
   return `${months[m - 1]} ${d}, ${y}`;
 }
 
+/** Stable anchor id from a section heading (for the table of contents). */
+function sectionId(heading: string): string {
+  return heading
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -127,12 +135,28 @@ export default async function BlogPostPage({
               <ul className="space-y-3">
                 {post.keyTakeaways.map((point, i) => (
                   <li key={i} className="flex gap-3 text-lg leading-relaxed text-ink">
-                    <span className="mt-1 text-accent-500">—</span>
+                    <span className="mt-1 text-accent-500">•</span>
                     <span>{point}</span>
                   </li>
                 ))}
               </ul>
             </div>
+          )}
+
+          {/* Table of contents (longer guides only) */}
+          {post.sections.length >= 4 && (
+            <nav aria-label="Contents" className="mt-8 rounded-lg border border-line bg-elevated p-7 md:p-8">
+              <p className="eyebrow mb-4">In this guide</p>
+              <ol className="space-y-2">
+                {post.sections.map((s) => (
+                  <li key={s.heading}>
+                    <a href={`#${sectionId(s.heading)}`} className="text-muted transition-colors hover:text-accent-500">
+                      {s.heading}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
           )}
 
           {/* Body */}
@@ -143,7 +167,7 @@ export default async function BlogPostPage({
               return (
                 <Fragment key={section.heading}>
                   <Reveal>
-                    <section>
+                    <section id={sectionId(section.heading)} className="scroll-mt-28">
                       <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">
                         {section.heading}
                       </h2>
