@@ -5,7 +5,7 @@ import type { Area, AreaSlug } from "@/lib/data/types";
 export const PRICE_BANDS = [
   { token: "all", label: "Any price", minPriceAed: undefined, maxPriceAed: undefined },
   { token: "sub-30", label: "Under AED 30M", minPriceAed: undefined, maxPriceAed: 30_000_000 },
-  { token: "30-75", label: "AED 30M – 75M", minPriceAed: 30_000_000, maxPriceAed: 75_000_000 },
+  { token: "30-75", label: "AED 30M - 75M", minPriceAed: 30_000_000, maxPriceAed: 75_000_000 },
   { token: "75-plus", label: "AED 75M+", minPriceAed: 75_000_000, maxPriceAed: undefined },
 ] as const;
 

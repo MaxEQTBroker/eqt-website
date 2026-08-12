@@ -17,7 +17,7 @@ export const mockPropertyTypes: PropertyGuide[] = [
     listingType: "Villa",
     keyFacts: [
       { label: "Ownership", value: "Freehold in designated areas" },
-      { label: "Typical price range", value: "AED 2.5M – 100M+" },
+      { label: "Typical price range", value: "AED 2.5M - 100M+" },
       { label: "Popular communities", value: "Dubai Hills, Ranches, Palm Jumeirah" },
       { label: "Best for", value: "Families, end-users, lifestyle" },
     ],
@@ -62,7 +62,7 @@ export const mockPropertyTypes: PropertyGuide[] = [
       "Dubai's mansion market is concentrated in a handful of ultra-prime communities, Emirates Hills, Palm Jumeirah, Jumeirah Bay Island, District One and Al Barari. These are large, often bespoke homes on generous plots, many with private beaches, golf frontage or lagoon views, and represent the top of the emirate's residential market.",
     listingType: "Mansion",
     keyFacts: [
-      { label: "Typical price range", value: "AED 25M – 400M+" },
+      { label: "Typical price range", value: "AED 25M - 400M+" },
       { label: "Prime addresses", value: "Emirates Hills, Palm, Jumeirah Bay" },
       { label: "Features", value: "Private beach, golf or lagoon frontage" },
       { label: "Best for", value: "Trophy assets & bespoke estates" },
@@ -102,7 +102,7 @@ export const mockPropertyTypes: PropertyGuide[] = [
       "Dubai's penthouses crown its most prestigious towers, in Downtown Dubai, Dubai Marina, Palm Jumeirah, Emaar Beachfront and Business Bay. Expect expansive floor plates, private terraces and pools, branded interiors and panoramic views of the skyline, sea or Burj Khalifa.",
     listingType: "Penthouse",
     keyFacts: [
-      { label: "Typical price range", value: "AED 8M – 150M+" },
+      { label: "Typical price range", value: "AED 8M - 150M+" },
       { label: "Prime towers", value: "Downtown, Marina, Palm, Beachfront" },
       { label: "Features", value: "Private terraces, pools, branded interiors" },
       { label: "Best for", value: "Lock-up-and-leave luxury & views" },
@@ -142,7 +142,7 @@ export const mockPropertyTypes: PropertyGuide[] = [
       "Apartments are the most liquid segment of Dubai's market, spanning value-driven investment districts like Jumeirah Village Circle to branded residences in Downtown Dubai and beachfront homes at Emaar Beachfront. Strong rental yields and a deep resale market make apartments a popular entry point for investors and end-users alike.",
     listingType: "Apartment",
     keyFacts: [
-      { label: "Typical price range", value: "AED 700K – 60M+" },
+      { label: "Typical price range", value: "AED 700K - 60M+" },
       { label: "For yield", value: "JVC, Business Bay, Dubai Marina" },
       { label: "For lifestyle", value: "Downtown, Beachfront, City Walk" },
       { label: "Best for", value: "Investment & first purchase" },
@@ -183,7 +183,7 @@ export const mockPropertyTypes: PropertyGuide[] = [
       "Townhouses offer Dubai families private, multi-storey living with gardens and community amenities at a more accessible price than standalone villas. They are concentrated in master communities such as Dubai Hills Estate, DAMAC Hills, Tilal Al Ghaf and Arabian Ranches, close to schools, parks and retail.",
     listingType: "Townhouse",
     keyFacts: [
-      { label: "Typical price range", value: "AED 1.8M – 15M+" },
+      { label: "Typical price range", value: "AED 1.8M - 15M+" },
       { label: "Popular communities", value: "Dubai Hills, DAMAC Hills, Ranches" },
       { label: "Features", value: "Private garden, community amenities" },
       { label: "Best for", value: "Young families, first villa move" },

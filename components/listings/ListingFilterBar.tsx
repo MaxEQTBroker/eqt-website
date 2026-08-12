@@ -5,7 +5,7 @@ import type { Area, AreaSlug, PropertyType } from "@/lib/data/types";
 export const LISTING_PRICE_BANDS = [
   { token: "all", label: "Any price", minPriceAed: undefined, maxPriceAed: undefined },
   { token: "sub-30", label: "Under AED 30M", minPriceAed: undefined, maxPriceAed: 30_000_000 },
-  { token: "30-75", label: "AED 30M – 75M", minPriceAed: 30_000_000, maxPriceAed: 75_000_000 },
+  { token: "30-75", label: "AED 30M - 75M", minPriceAed: 30_000_000, maxPriceAed: 75_000_000 },
   { token: "75-plus", label: "AED 75M+", minPriceAed: 75_000_000, maxPriceAed: undefined },
 ] as const;
 
@@ -19,8 +19,8 @@ export function listingBandFromToken(token?: string) {
 export const LISTING_SIZE_BANDS = [
   { token: "all", label: "Any size", minAreaSqft: undefined, maxAreaSqft: undefined },
   { token: "sub-1500", label: "Under 1,500 sqft", minAreaSqft: undefined, maxAreaSqft: 1500 },
-  { token: "1500-3000", label: "1,500 – 3,000 sqft", minAreaSqft: 1500, maxAreaSqft: 3000 },
-  { token: "3000-6000", label: "3,000 – 6,000 sqft", minAreaSqft: 3000, maxAreaSqft: 6000 },
+  { token: "1500-3000", label: "1,500 - 3,000 sqft", minAreaSqft: 1500, maxAreaSqft: 3000 },
+  { token: "3000-6000", label: "3,000 - 6,000 sqft", minAreaSqft: 3000, maxAreaSqft: 6000 },
   { token: "6000-plus", label: "6,000 sqft +", minAreaSqft: 6000, maxAreaSqft: undefined },
 ] as const;
 

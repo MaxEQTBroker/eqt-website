@@ -19,7 +19,7 @@ export const mockAreas: Area[] = [
       "Palm Jumeirah is Dubai's landmark man-made archipelago, home to beachfront villas on the fronds, the Signature Villas, and a growing collection of ultra-prime penthouses along the crescent. Residents enjoy private beach access, five-star hospitality on their doorstep, and some of the strongest capital appreciation in the emirate.",
     keyFacts: [
       { label: "Property types", value: "Signature & Garden Homes villas, penthouses" },
-      { label: "Typical price range", value: "AED 12M – 200M+" },
+      { label: "Typical price range", value: "AED 12M - 200M+" },
       { label: "Beachfront", value: "Private beach on frond villas" },
       { label: "Best for", value: "Waterfront living, landmark trophy assets" },
     ],
@@ -56,7 +56,7 @@ export const mockAreas: Area[] = [
       "There is nowhere else in Dubai quite like Al Barari. In a city defined by ambition and density, this is the deliberate exception, more than 60% of the land surrendered to nature. Gardens, lakes and mature trees frame a small collection of custom villas and mansions, each opening onto green. The air is cooler, quieter, unhurried, and yet it is minutes from everything Dubai offers.",
     keyFacts: [
       { label: "Property types", value: "Custom villas & botanical mansions" },
-      { label: "Typical price range", value: "AED 20M – 120M+" },
+      { label: "Typical price range", value: "AED 20M - 120M+" },
       { label: "Setting", value: "60%+ landscaped, private gardens & lakes" },
       { label: "Connectivity", value: "≈15 min to DIFC & Burj Khalifa" },
     ],
@@ -93,7 +93,7 @@ export const mockAreas: Area[] = [
       "Jumeirah Islands is a gated community of villa clusters set among landscaped, man-made lakes. Mature planting, waterfront plots and a genuine sense of community make it one of Dubai's most liveable villa addresses, architecturally varied, family-oriented, and moments from Dubai Marina and the beaches of JBR.",
     keyFacts: [
       { label: "Property types", value: "Lakeside & waterfront villas" },
-      { label: "Typical price range", value: "AED 8M – 40M+" },
+      { label: "Typical price range", value: "AED 8M - 40M+" },
       { label: "Setting", value: "Gated villa clusters around lakes" },
       { label: "Best for", value: "Waterfront family living" },
     ],
@@ -129,7 +129,7 @@ export const mockAreas: Area[] = [
       "Emirates Hills is Dubai's most established gated villa community, built around the Montgomerie golf course. Large freehold plots, fully bespoke mansions and absolute privacy make it the address of choice for the emirate's most prominent families. Supply of prime mansions is scarce, which keeps values among the highest in the city.",
     keyFacts: [
       { label: "Property types", value: "Custom mansions & villa plots" },
-      { label: "Typical price range", value: "AED 30M – 300M+" },
+      { label: "Typical price range", value: "AED 30M - 300M+" },
       { label: "Setting", value: "Gated, golf-course frontage" },
       { label: "Best for", value: "Ultra-private family estates" },
     ],
@@ -165,7 +165,7 @@ export const mockAreas: Area[] = [
       "Downtown Dubai is the beating heart of the city, home to the Burj Khalifa, The Dubai Mall and the Opera District. Branded residences and high-floor apartments here command premium rents and enduring liquidity, making it one of the most resilient investment locations in Dubai.",
     keyFacts: [
       { label: "Property types", value: "Branded & luxury apartments, penthouses" },
-      { label: "Typical price range", value: "AED 2.5M – 80M+" },
+      { label: "Typical price range", value: "AED 2.5M - 80M+" },
       { label: "Landmark", value: "Burj Khalifa & Dubai Opera" },
       { label: "Best for", value: "Investment, pied-à-terre, walkability" },
     ],
@@ -196,7 +196,7 @@ export const mockAreas: Area[] = [
       "Dubai Hills Estate is a master-planned community wrapped around an 18-hole championship golf course and a central park. It balances contemporary villas, townhouses and apartments with schools, healthcare and retail, and offers easy access to both Downtown and Dubai Marina.",
     keyFacts: [
       { label: "Property types", value: "Villas, townhouses, apartments" },
-      { label: "Typical price range", value: "AED 2M – 60M+" },
+      { label: "Typical price range", value: "AED 2M - 60M+" },
       { label: "Setting", value: "Golf, parks, family amenities" },
       { label: "Best for", value: "Growing families, end-user living" },
     ],
@@ -227,7 +227,7 @@ export const mockAreas: Area[] = [
       "Shaped like a seahorse and connected to the mainland by a private bridge, Jumeirah Bay Island is one of Dubai's rarest ultra-prime addresses, home to the Bulgari Resort & Residences and a small collection of custom beachfront mansions. Scarcity and prestige place it at the very top of the market.",
     keyFacts: [
       { label: "Property types", value: "Beachfront mansions & branded residences" },
-      { label: "Typical price range", value: "AED 25M – 400M+" },
+      { label: "Typical price range", value: "AED 25M - 400M+" },
       { label: "Icon", value: "Bulgari Resort & Residences" },
       { label: "Best for", value: "Trophy beachfront assets" },
     ],
@@ -258,7 +258,7 @@ export const mockAreas: Area[] = [
       "Emaar Beachfront is a gated island community of contemporary towers set between Dubai Marina and Palm Jumeirah, with private beach access and skyline-and-sea views. It has become one of the most sought-after addresses for waterfront apartments and penthouses.",
     keyFacts: [
       { label: "Property types", value: "Beachfront apartments & penthouses" },
-      { label: "Typical price range", value: "AED 2.5M – 50M+" },
+      { label: "Typical price range", value: "AED 2.5M - 50M+" },
       { label: "Setting", value: "Private beach, gated island" },
       { label: "Best for", value: "Waterfront investment & lifestyle" },
     ],
@@ -289,7 +289,7 @@ export const mockAreas: Area[] = [
       "Dubai Marina is a vibrant, high-rise waterfront district built around a man-made canal, lined with restaurants, a promenade and yacht berths. It offers a deep, liquid market of apartments and penthouses with strong rental yields and round-the-clock energy.",
     keyFacts: [
       { label: "Property types", value: "Apartments, penthouses, some villas" },
-      { label: "Typical price range", value: "AED 1.5M – 40M+" },
+      { label: "Typical price range", value: "AED 1.5M - 40M+" },
       { label: "Setting", value: "Canal-front, marina promenade" },
       { label: "Best for", value: "Rental yield, lifestyle, first purchase" },
     ],
@@ -320,7 +320,7 @@ export const mockAreas: Area[] = [
       "District One, at the heart of Mohammed Bin Rashid City, is built around one of the world's largest man-made crystal lagoons. Gated and low-density, it offers contemporary mansions and villas with lagoon or skyline views, just minutes from Downtown Dubai and Meydan.",
     keyFacts: [
       { label: "Property types", value: "Contemporary mansions & villas" },
-      { label: "Typical price range", value: "AED 12M – 150M+" },
+      { label: "Typical price range", value: "AED 12M - 150M+" },
       { label: "Setting", value: "Crystal lagoon, gated, low-density" },
       { label: "Best for", value: "Modern waterfront mansions near Downtown" },
     ],
@@ -351,7 +351,7 @@ export const mockAreas: Area[] = [
       "Dubai Creek Harbour is a large master-planned waterfront destination on the historic Creek, offering contemporary apartments and penthouses with views of the skyline, the marina and the wildlife sanctuary. It is one of Emaar's flagship growth districts and a favourite for off-plan investors.",
     keyFacts: [
       { label: "Property types", value: "Apartments & penthouses" },
-      { label: "Typical price range", value: "AED 1.5M – 30M+" },
+      { label: "Typical price range", value: "AED 1.5M - 30M+" },
       { label: "Setting", value: "Creek-front, marina & promenade" },
       { label: "Best for", value: "Off-plan investment, waterfront views" },
     ],
@@ -382,7 +382,7 @@ export const mockAreas: Area[] = [
       "Business Bay is Dubai's central business and lifestyle district, wrapped around the Dubai Water Canal and moments from Downtown. A dense mix of branded residences, offices and apartments makes it one of the most liquid rental markets in the city, popular with professionals and investors alike.",
     keyFacts: [
       { label: "Property types", value: "Apartments, branded residences, offices" },
-      { label: "Typical price range", value: "AED 1.2M – 25M+" },
+      { label: "Typical price range", value: "AED 1.2M - 25M+" },
       { label: "Setting", value: "Dubai Water Canal, central" },
       { label: "Best for", value: "Rental yield, city professionals" },
     ],
@@ -413,7 +413,7 @@ export const mockAreas: Area[] = [
       "Bluewaters Island is a stylish, low-rise waterfront community anchored by Ain Dubai, the world's largest observation wheel. Its residences and penthouses offer private beach access, marina views and a walkable lifestyle of dining and retail, just off the JBR coastline.",
     keyFacts: [
       { label: "Property types", value: "Apartments, penthouses, townhouses" },
-      { label: "Typical price range", value: "AED 3M – 60M+" },
+      { label: "Typical price range", value: "AED 3M - 60M+" },
       { label: "Icon", value: "Ain Dubai observation wheel" },
       { label: "Best for", value: "Beachfront lifestyle & branded living" },
     ],
@@ -444,7 +444,7 @@ export const mockAreas: Area[] = [
       "City Walk is a low-rise, pedestrian-friendly community in the heart of Jumeirah, blending contemporary apartments with boutique retail, dining and green boulevards. Its central location and lifestyle appeal make it a favourite for owner-occupiers who want walkability close to the beach and Downtown.",
     keyFacts: [
       { label: "Property types", value: "Low-rise apartments & penthouses" },
-      { label: "Typical price range", value: "AED 1.8M – 30M+" },
+      { label: "Typical price range", value: "AED 1.8M - 30M+" },
       { label: "Setting", value: "Walkable urban village, central Jumeirah" },
       { label: "Best for", value: "Lifestyle, walkability, end-users" },
     ],
@@ -475,7 +475,7 @@ export const mockAreas: Area[] = [
       "Jumeirah Golf Estates is a gated, resort-style community set around two championship courses, including the DP World Tour Championship venue. Villas and mansions here look over fairways and lakes, offering a tranquil, green lifestyle with strong family appeal.",
     keyFacts: [
       { label: "Property types", value: "Villas, mansions, some apartments" },
-      { label: "Typical price range", value: "AED 4M – 80M+" },
+      { label: "Typical price range", value: "AED 4M - 80M+" },
       { label: "Setting", value: "Two championship golf courses, gated" },
       { label: "Best for", value: "Golf lifestyle, family villas" },
     ],
@@ -506,7 +506,7 @@ export const mockAreas: Area[] = [
       "Arabian Ranches is one of Dubai's most loved family villa communities, a low-rise, desert-inspired master plan of villas and townhouses around a golf course, schools and parks. Its maturity, greenery and community feel make it a benchmark for suburban family living.",
     keyFacts: [
       { label: "Property types", value: "Villas & townhouses" },
-      { label: "Typical price range", value: "AED 3M – 30M+" },
+      { label: "Typical price range", value: "AED 3M - 30M+" },
       { label: "Setting", value: "Golf, schools, mature landscaping" },
       { label: "Best for", value: "Families, end-user villa living" },
     ],
@@ -537,7 +537,7 @@ export const mockAreas: Area[] = [
       "Tilal Al Ghaf is a contemporary master community built around a swimmable recreational lagoon and white-sand beaches. Its signature Lanai and Alaya mansions have become some of the most in-demand new villas in Dubai, blending resort amenities with modern architecture.",
     keyFacts: [
       { label: "Property types", value: "Villas, mansions, townhouses" },
-      { label: "Typical price range", value: "AED 3M – 90M+" },
+      { label: "Typical price range", value: "AED 3M - 90M+" },
       { label: "Setting", value: "Recreational lagoon & beaches" },
       { label: "Best for", value: "New-build resort lifestyle" },
     ],
@@ -568,7 +568,7 @@ export const mockAreas: Area[] = [
       "DAMAC Hills is a large master community centred on the Trump International Golf Club Dubai, offering villas, townhouses and apartments alongside parks, sports facilities and retail. It appeals to families and investors looking for space and amenities at accessible prices.",
     keyFacts: [
       { label: "Property types", value: "Villas, townhouses, apartments" },
-      { label: "Typical price range", value: "AED 1.2M – 40M+" },
+      { label: "Typical price range", value: "AED 1.2M - 40M+" },
       { label: "Setting", value: "Golf course, parks, gated" },
       { label: "Best for", value: "Family living, value & amenities" },
     ],
@@ -599,7 +599,7 @@ export const mockAreas: Area[] = [
       "Jumeirah Park is a landscaped, family-focused villa community of generous plots and mature greenery, centrally located near Dubai Marina, JLT and the Metro. Its large gardens and range of villa styles make it a perennial favourite with families upgrading from apartments.",
     keyFacts: [
       { label: "Property types", value: "Family villas" },
-      { label: "Typical price range", value: "AED 4M – 25M+" },
+      { label: "Typical price range", value: "AED 4M - 25M+" },
       { label: "Setting", value: "Landscaped, generous plots" },
       { label: "Best for", value: "Families wanting space & greenery" },
     ],
@@ -630,7 +630,7 @@ export const mockAreas: Area[] = [
       "The Meadows is an established, gated villa community of tree-lined streets and lakes within Emirates Living. Spacious independent villas, mature landscaping and proximity to schools and Dubai Marina keep it consistently in demand among families.",
     keyFacts: [
       { label: "Property types", value: "Independent family villas" },
-      { label: "Typical price range", value: "AED 5M – 35M+" },
+      { label: "Typical price range", value: "AED 5M - 35M+" },
       { label: "Setting", value: "Gated, lakes, mature trees" },
       { label: "Best for", value: "Established family villa living" },
     ],
@@ -661,7 +661,7 @@ export const mockAreas: Area[] = [
       "The Springs is a gated townhouse-and-villa community within Emirates Living, arranged around lakes and green walkways. Affordable entry points, a strong community feel and proximity to Dubai Marina make it one of the most popular first villa purchases in the city.",
     keyFacts: [
       { label: "Property types", value: "Townhouses & small villas" },
-      { label: "Typical price range", value: "AED 2.5M – 12M+" },
+      { label: "Typical price range", value: "AED 2.5M - 12M+" },
       { label: "Setting", value: "Gated, lakes, walkways" },
       { label: "Best for", value: "First villa, young families" },
     ],
@@ -692,7 +692,7 @@ export const mockAreas: Area[] = [
       "The Lakes is a low-density, gated villa community within Emirates Living, known for its calm, leafy streets and shimmering lakes. Larger plots and a peaceful setting beside Emirates Hills make it a discreet choice for families who want space close to the city.",
     keyFacts: [
       { label: "Property types", value: "Family villas" },
-      { label: "Typical price range", value: "AED 6M – 40M+" },
+      { label: "Typical price range", value: "AED 6M - 40M+" },
       { label: "Setting", value: "Gated, low-density, lakes" },
       { label: "Best for", value: "Quiet upscale family living" },
     ],
@@ -723,7 +723,7 @@ export const mockAreas: Area[] = [
       "Palm Jebel Ali is Dubai's second, larger palm-shaped island, now under active development with a new collection of beachfront villas and mansions. Early buyers gain ground-floor access to a landmark waterfront destination set to rival Palm Jumeirah in scale and prestige.",
     keyFacts: [
       { label: "Property types", value: "Beachfront villas & mansions (off-plan)" },
-      { label: "Typical price range", value: "AED 18M – 200M+" },
+      { label: "Typical price range", value: "AED 18M - 200M+" },
       { label: "Setting", value: "New palm island, private beaches" },
       { label: "Best for", value: "Early-stage landmark investment" },
     ],
@@ -754,7 +754,7 @@ export const mockAreas: Area[] = [
       "Pearl Jumeirah is an exclusive man-made island off the historic Jumeirah coast, offering rare beachfront plots and custom mansions alongside the Nikki Beach Residences. Its central location and low density make it a discreet home for bespoke waterfront living.",
     keyFacts: [
       { label: "Property types", value: "Beachfront plots, mansions, residences" },
-      { label: "Typical price range", value: "AED 15M – 150M+" },
+      { label: "Typical price range", value: "AED 15M - 150M+" },
       { label: "Setting", value: "Man-made island, private beaches" },
       { label: "Best for", value: "Bespoke beachfront mansions" },
     ],
@@ -785,7 +785,7 @@ export const mockAreas: Area[] = [
       "Jumeirah Village Circle (JVC) is a fast-growing, centrally located community of apartments, townhouses and villas. Competitive prices and some of the strongest rental yields in Dubai have made it one of the most active investment districts in the city.",
     keyFacts: [
       { label: "Property types", value: "Apartments, townhouses, villas" },
-      { label: "Typical price range", value: "AED 700K – 12M+" },
+      { label: "Typical price range", value: "AED 700K - 12M+" },
       { label: "Setting", value: "Central, landscaped villages" },
       { label: "Best for", value: "High rental yield, first investment" },
     ],
@@ -816,7 +816,7 @@ export const mockAreas: Area[] = [
       "Port de La Mer is a Mediterranean-inspired marina community on the La Mer peninsula in Jumeirah, offering low-rise apartments and penthouses with sea views, a yacht marina and private beach access, minutes from Downtown and the city's best beaches.",
     keyFacts: [
       { label: "Property types", value: "Apartments & penthouses" },
-      { label: "Typical price range", value: "AED 2.5M – 40M+" },
+      { label: "Typical price range", value: "AED 2.5M - 40M+" },
       { label: "Setting", value: "Marina, private beach, low-rise" },
       { label: "Best for", value: "Beachfront lifestyle near the city" },
     ],
