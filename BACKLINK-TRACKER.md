@@ -23,7 +23,7 @@ Business facts to use everywhere (keep identical — NAP consistency):
 |---|---|---|---|
 | Property Finder | Portal | **DONE** (profile live) | Add website `https://eqt.ae` in company dashboard. Profile: propertyfinder.ae/en/broker/eqt-real-estate-6497 |
 | Bayut / Dubizzle | Portal | **REQUESTED** | Awaiting Bayut for Business (Profolio) setup. Highest UAE traffic. |
-| JamesEdition | Global luxury marketplace | TODO | NOT a competitor — a listings marketplace. List properties. |
+| JamesEdition | Global luxury marketplace | DEMO BOOKED 2026-08-18 | Only way in is via their sales demo; likely PAID. Evaluate cost at demo. |
 | Emirates.Estate | Aggregator | TODO | Listings aggregator, not a brokerage. |
 | Houza.ae | Portal | TODO | Newer UAE portal. |
 | realestateclubdubai.com | Neutral directory | TODO | Submit for inclusion in their agency directory / 2026 rankings. |
@@ -37,8 +37,8 @@ Business facts to use everywhere (keep identical — NAP consistency):
 | GetListedUAE.com | **DONE** | Listing ID 741183 → getlisteduae.com/listings/eqt-real-estate |
 | HiDubai.com | **DONE** | Dubai's main local directory. |
 | Bing Places | **DONE** | "Bing connected" 2026-08-17. |
-| Dubai Chamber directory | TODO | Fee AED 300-2,200, ~2hr processing. If MAINLAND, likely already a member via DED license — CHECK directory first, don't pay twice. dubaichambers.com/en/new-membership |
-| YallaPages.ae | TODO | Free listing. |
+| Dubai Chamber directory | DECIDE | ANNUAL fee AED 300-2,200 (not one-time), ~2hr. If MAINLAND, likely already a member via DED license — CHECK directory first. If free-zone, optional/skip. |
+| YallaPages.ae | **DEAD/SCAM** | Redirects to malicious cf.labtide.site cloaking tracker. Do NOT use. |
 | Connect.ae | RETRY | Site unreachable at last try — retry later. |
 | Apple Business Connect | TODO | Apple Maps citation. |
 | Apple Business Connect | TODO | Apple Maps citation. |
@@ -52,7 +52,7 @@ Business facts to use everywhere (keep identical — NAP consistency):
 | Instagram | **DONE** | instagram.com/dubaieqt |
 | Google Business Profile | **DONE** | |
 | Wikidata | **DONE** | Q140982827, official website = eqt.ae |
-| LinkedIn Company Page | IN PROGRESS | Slug `eqt` AND `eqt-real-estate` both taken (EQT AB = Swedish PE giant) — use `eqt-real-estate-dubai`. Form otherwise ready (website eqt.ae, logo, tagline all set). |
+| LinkedIn Company Page | **DONE** | Page created with website eqt.ae. (Slug `eqt`/`eqt-real-estate` were taken by EQT AB.) |
 | YouTube channel | LATER | High GEO value (most-cited in AI). |
 | Crunchbase | **SKIP** | Paid ($49/yr) + low ROI for a brokerage (built for funded startups). |
 | Trustpilot | **SKIP/OPTIONAL** | UAE coverage weak; use **Google reviews** as the primary review signal. |
