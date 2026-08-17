@@ -2,19 +2,16 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  // 301 every hit on the old Vercel URL (or www) to the canonical apex domain,
-  // so ranking/indexing signals consolidate onto eqt.ae after the domain switch.
+  // 301 the old Vercel preview URL to the canonical apex domain, so ranking/indexing
+  // signals consolidate onto eqt.ae. NOTE: apex<->www is handled by Vercel's own
+  // "primary domain" redirect, NOT here. Do not add a www->apex rule: Vercel already
+  // redirects apex->www by default, and a www->apex rule here creates an infinite loop.
+  // Set eqt.ae as the Primary Domain in Vercel so Vercel redirects www->apex to match.
   async redirects() {
     return [
       {
         source: "/:path*",
         has: [{ type: "host", value: "eqt-website-ten.vercel.app" }],
-        destination: "https://eqt.ae/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.eqt.ae" }],
         destination: "https://eqt.ae/:path*",
         permanent: true,
       },
