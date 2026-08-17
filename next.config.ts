@@ -2,6 +2,24 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // 301 every hit on the old Vercel URL (or www) to the canonical apex domain,
+  // so ranking/indexing signals consolidate onto eqt.ae after the domain switch.
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "eqt-website-ten.vercel.app" }],
+        destination: "https://eqt.ae/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.eqt.ae" }],
+        destination: "https://eqt.ae/:path*",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     // Serve images without Vercel's optimizer. The Hobby plan's image-optimization
     // quota was being exceeded (402 Payment Required -> broken images). Source URLs
