@@ -3001,5 +3001,144 @@ export const seoPosts: BlogPost[] = [
       "Arabian Ranches property",
       "Dubai property for first-time buyers"
     ]
+  },
+  {
+    "slug": "dubai-property-prices-2026-cost-guide",
+    "title": "Dubai Property Prices in 2026: A Complete Cost Guide",
+    "excerpt": "Prime Dubai apartments start from around AED 1.5M and Palm Jumeirah villas from AED 12M. Here are 2026 prices by community, plus the true cost of buying.",
+    "category": "Market & Data",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-01",
+    "updatedAt": "2026-08-04",
+    "readingMinutes": 9,
+    "heroImage": blogBodyPool[9],
+    "intro": "Prime Dubai property prices in 2026 start from roughly AED 1.5 million for a well-located apartment and around AED 12 million for a beachfront villa on Palm Jumeirah, rising beyond AED 100 million for the finest homes. On top of the purchase price, buyers should budget about 7 to 8 percent in one-off transaction costs, led by the 4 percent Dubai Land Department transfer fee. There is no annual property tax and no capital gains tax on resale, and foreign nationals can own freehold outright in designated areas. This guide sets out current prices community by community, the full cost of buying, and what actually drives the numbers.",
+    "keyTakeaways": [
+      "Prime apartments start from around AED 1.5M; Palm Jumeirah villas from around AED 12M, exceeding AED 100M for the finest homes.",
+      "Budget roughly 7 to 8 percent in one-off buying costs, led by the 4 percent DLD transfer fee.",
+      "No annual property tax and no capital gains tax on residential resale.",
+      "Foreigners can own freehold in designated areas; a purchase of AED 2M+ can support a 10-year Golden Visa.",
+      "Prime apartments typically yield around 5 to 7 percent gross; villas around 4 to 5 percent."
+    ],
+    "sections": [
+      {
+        "heading": "How much does property cost in Dubai?",
+        "body": [
+          "Dubai spans an unusually wide price range, from accessible apartments in newer communities to trophy villas among the most expensive homes in the world. At the prime end, where EQT focuses, well-located apartments begin at roughly AED 1.5 million, while beachfront villas on Palm Jumeirah start at around AED 12 million and the largest signature homes exceed AED 100 million.",
+          "The figure you pay is driven far more by location, land, view and condition than by floor area alone. Two similar homes in the same community can differ by millions depending on position, orientation and how recently they were renovated. The ranges below are orientation rather than a valuation."
+        ]
+      },
+      {
+        "heading": "Dubai property prices by community",
+        "body": [
+          "Indicative price ranges for Dubai's prime and super-prime residential communities in 2026. Actual figures depend on unit type, size, floor, view and condition."
+        ],
+        "bullets": [
+          "Palm Jumeirah: from AED 12M, typically AED 12M to 200M+. Beachfront villas and branded sea-view apartments.",
+          "Emirates Hills: from AED 20M, typically AED 20M to 300M+. Gated, bespoke golf-side mansions.",
+          "Al Barari: from AED 12M, typically AED 12M to 150M+. Low-density villas among botanical gardens.",
+          "Downtown Dubai: from AED 1.5M, typically AED 1.5M to 40M+. Burj Khalifa-view apartments and penthouses.",
+          "Dubai Marina: from AED 1.5M, typically AED 1.5M to 30M+. Waterfront apartments with strong liquidity.",
+          "Business Bay: from AED 1M, typically AED 1M to 15M. Central, canal-side, accessible entry point."
+        ]
+      },
+      {
+        "heading": "What drives the price up or down",
+        "body": [
+          "Within any community, a handful of factors explain most of the price difference between two otherwise similar homes. Understanding them helps you judge whether an asking price is fair.",
+          "For villas, plot size, frontage and direct beach or water access carry the largest premiums, followed by whether the home has been renovated to a contemporary standard. For apartments, the decisive variables are the view, the floor level, and the quality and service level of the building, with branded residences commanding a clear premium."
+        ],
+        "bullets": [
+          "Location and position within the community (frond, corner, waterfront).",
+          "View: protected sea, skyline or landmark views command a premium.",
+          "Condition: renovated, turn-key homes trade well above original condition.",
+          "Building and brand: serviced and branded residences cost more per square foot."
+        ]
+      },
+      {
+        "heading": "The total cost of buying",
+        "body": [
+          "Beyond the headline price, buyers in Dubai should plan for roughly 7 to 8 percent in one-off transaction costs. The largest single item is the Dubai Land Department transfer fee of 4 percent, with the remainder made up of agency, registration and, where a mortgage is used, financing charges.",
+          "Owning also carries recurring annual service charges, set per square foot and approved through the Mollak system. These commonly run from about AED 10 to 16 per square foot for mainstream apartments to AED 25 to 35 or more for branded and heavily serviced buildings. There is no annual property tax."
+        ],
+        "bullets": [
+          "DLD transfer fee: 4 percent of the purchase price.",
+          "Agency commission: typically 2 percent plus 5 percent VAT.",
+          "Trustee and registration: a few thousand dirhams.",
+          "Mortgage, if financing: 0.25 percent DLD mortgage registration plus bank fees."
+        ]
+      },
+      {
+        "heading": "Ownership, tax and the Golden Visa",
+        "body": [
+          "Since 2002, non-UAE nationals have been able to buy freehold property outright in Dubai's designated zones, which include Palm Jumeirah, Downtown, Business Bay, Emirates Hills and Al Barari. Title is registered directly with the Dubai Land Department, and there is no requirement to be a resident to own.",
+          "The tax position is a central part of the appeal. There is no annual property tax and no capital gains tax on residential resale, so more of both your rental income and any appreciation stays with you. A property purchase of AED 2 million or more can also support a renewable 10-year Golden Visa, extendable to a spouse and dependants."
+        ]
+      },
+      {
+        "heading": "Rental yields",
+        "body": [
+          "For investors, prime Dubai apartments typically produce gross rental yields of around 5 to 7 percent, ahead of most mature global cities, while luxury villas generally return 4 to 5 percent because their value is anchored more by land and scarcity than by rent.",
+          "The number that matters is net yield, after service charges, management and an allowance for vacancy, which is usually one to two percentage points below the gross figure. Because service charges vary widely, two apartments with the same gross yield can deliver materially different net returns."
+        ]
+      },
+      {
+        "heading": "How to get an accurate figure",
+        "body": [
+          "Because pricing is so specific to the individual property, the ranges here are a starting point rather than a valuation. The most reliable way to know what a home is worth, or what your own could achieve, is to value it against genuine recent comparable sales, which the Dubai Land Department publishes.",
+          "EQT prepares free, no-obligation valuations from real comparable evidence, usually within the hour. Whether you are buying, selling or simply gauging the market, an evidence-based figure is the right foundation for any decision."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to buy property in Dubai?",
+        "answer": "Prime apartments start from around AED 1.5 million and beachfront villas from around AED 12 million, exceeding AED 100 million for the finest homes. Add roughly 7 to 8 percent in one-off costs, led by the 4 percent Dubai Land Department transfer fee."
+      },
+      {
+        "question": "Which is the most expensive area in Dubai?",
+        "answer": "Palm Jumeirah, Emirates Hills and Jumeirah Bay Island hold the highest values, where individual homes can exceed AED 100 to 200 million."
+      },
+      {
+        "question": "Are there taxes on buying or owning property in Dubai?",
+        "answer": "There is no annual property tax and no capital gains tax on residential resale. The main one-off cost is the 4 percent DLD transfer fee, alongside agency and registration fees, plus annual service charges."
+      },
+      {
+        "question": "Can foreigners buy property in Dubai?",
+        "answer": "Yes. Foreign nationals can own freehold property outright in Dubai's designated freehold zones, with no residency requirement. A purchase of AED 2 million or more can support a 10-year Golden Visa."
+      },
+      {
+        "question": "What rental yield can I expect in Dubai?",
+        "answer": "Prime apartments typically yield around 5 to 7 percent gross and luxury villas around 4 to 5 percent. Net yield, after service charges and vacancy, is usually one to two percentage points lower."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Live Dubai market insights",
+        "href": "/market"
+      },
+      {
+        "label": "Guide to buying property in Dubai",
+        "href": "/guides/buying-property-in-dubai"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "Dubai property prices",
+      "Dubai property prices 2026",
+      "cost of property in Dubai",
+      "how much does property cost in Dubai",
+      "Dubai real estate prices",
+      "Palm Jumeirah property prices",
+      "Dubai property price by area",
+      "buying property in Dubai cost"
+    ]
   }
 ];
