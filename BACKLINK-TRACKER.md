@@ -35,11 +35,12 @@ Business facts to use everywhere (keep identical — NAP consistency):
 | Site | Status | Notes |
 |---|---|---|
 | GetListedUAE.com | **DONE** | Listing ID 741183 → getlisteduae.com/listings/eqt-real-estate |
-| HiDubai.com | **REQUESTED** | Dubai's main local directory. |
-| Dubai Chamber directory | TODO | Likely ALREADY a member (mandatory for Dubai DED license) — check/claim, don't re-register. Portal: dubaichambers.com/en/join |
+| HiDubai.com | **DONE** | Dubai's main local directory. |
+| Bing Places | **DONE** | "Bing connected" 2026-08-17. |
+| Dubai Chamber directory | TODO | Fee AED 300-2,200, ~2hr processing. If MAINLAND, likely already a member via DED license — CHECK directory first, don't pay twice. dubaichambers.com/en/new-membership |
 | YallaPages.ae | TODO | Free listing. |
 | Connect.ae | RETRY | Site unreachable at last try — retry later. |
-| Bing Places | TODO | Map citation (feeds Bing/Copilot). |
+| Apple Business Connect | TODO | Apple Maps citation. |
 | Apple Business Connect | TODO | Apple Maps citation. |
 | Yellow Pages UAE | **SKIP** | yellowpages.ae redirected to a scam (exness/lifechangerquiz) — unsafe. $6/mo not worth it. |
 | Yalwa | **DEAD** | Directory closed, merged into Locanto (US classifieds). Do not use. |
@@ -51,7 +52,7 @@ Business facts to use everywhere (keep identical — NAP consistency):
 | Instagram | **DONE** | instagram.com/dubaieqt |
 | Google Business Profile | **DONE** | |
 | Wikidata | **DONE** | Q140982827, official website = eqt.ae |
-| LinkedIn Company Page | IN PROGRESS | Slug `eqt` is taken by **EQT AB** (Swedish PE giant) — use a unique slug like `eqt-real-estate` or `eqt-dubai`. No support ticket needed. |
+| LinkedIn Company Page | IN PROGRESS | Slug `eqt` AND `eqt-real-estate` both taken (EQT AB = Swedish PE giant) — use `eqt-real-estate-dubai`. Form otherwise ready (website eqt.ae, logo, tagline all set). |
 | YouTube channel | LATER | High GEO value (most-cited in AI). |
 | Crunchbase | **SKIP** | Paid ($49/yr) + low ROI for a brokerage (built for funded startups). |
 | Trustpilot | **SKIP/OPTIONAL** | UAE coverage weak; use **Google reviews** as the primary review signal. |
