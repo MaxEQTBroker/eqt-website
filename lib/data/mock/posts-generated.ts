@@ -6,7 +6,7 @@ export const generatedPosts: BlogPost[] = [
     "slug": "how-to-sell-property-in-dubai",
     "title": "How to sell property in Dubai: a step-by-step guide",
     "excerpt": "To sell property in Dubai, appoint a RERA broker, agree a price, sign Form A, secure a buyer, obtain a developer NOC, then transfer title at the DLD.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",

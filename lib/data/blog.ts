@@ -25,7 +25,7 @@ export interface BlogPost {
   title: string;
   /** Answer-first summary (also the meta description). */
   excerpt: string;
-  category: "Buyer Guides" | "Community Guides" | "Market & Data" | "Investment";
+  category: "Buyer Guides" | "Seller Guides" | "Community Guides" | "Market & Data" | "Investment";
   author: Author;
   publishedAt: string; // ISO
   updatedAt: string; // ISO

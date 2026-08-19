@@ -1095,7 +1095,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-sell-your-dubai-property-best-price",
     "title": "How to Sell Your Dubai Property for the Best Price",
     "excerpt": "Sell your Dubai property for the best price: obtain a Form A, secure a NOC from the developer, price against comparable sales, and settle at the DLD.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -3145,7 +3145,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-much-does-it-cost-to-sell-property-in-dubai",
     "title": "How Much Does It Cost to Sell Property in Dubai?",
     "excerpt": "Selling in Dubai typically costs the seller 2 to 3 percent of the price, made up of a 2 percent agent commission plus 5 percent VAT, a developer NOC fee, and small transfer and conveyancing charges. There is no UAE tax on the gain.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -3275,7 +3275,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "best-time-to-sell-property-in-dubai",
     "title": "Best Time to Sell Property in Dubai",
     "excerpt": "The strongest selling window in Dubai runs from October to April, when cooler weather brings the highest volume of active buyers. Listings launched early in that season typically transact faster and closer to asking.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -3392,7 +3392,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-price-your-dubai-property-to-sell",
     "title": "How to Price Your Dubai Property to Sell",
     "excerpt": "Price your Dubai property from genuine DLD comparable sales, not aspirational asking prices, and aim within about 3 percent of true market value. Overpricing usually costs more in time and eventual discount than pricing correctly from day one.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -3521,7 +3521,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "documents-needed-to-sell-property-in-dubai",
     "title": "Documents You Need to Sell Property in Dubai",
     "excerpt": "To sell in Dubai you need the title deed, your passport and Emirates ID, a signed Form A listing agreement, the developer NOC, and, if applicable, a mortgage liability letter. A power of attorney is required if you sell remotely.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -3655,7 +3655,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-sell-off-plan-property-in-dubai-before-handover",
     "title": "How to Sell Off-Plan Property in Dubai Before Handover",
     "excerpt": "You can sell an off-plan unit before handover through an assignment, but most developers require you to have paid 30 to 40 percent of the purchase price first, plus a developer NOC and a transfer fee.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -3789,7 +3789,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-sell-a-tenanted-property-in-dubai",
     "title": "How to Sell a Tenanted Property in Dubai",
     "excerpt": "You can sell a tenanted property in Dubai at any time, but the buyer inherits the existing lease and the tenant can stay until it ends; to sell with vacant possession you must give the tenant 12 months notarised notice.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -3923,7 +3923,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "noc-for-selling-property-in-dubai",
     "title": "What Is an NOC for Selling Property in Dubai?",
     "excerpt": "An NOC is the developer's No Objection Certificate confirming you have no service-charge arrears and it does not object to the sale; it typically costs AED 500 to 5,000 and takes a few days to two weeks.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -4050,7 +4050,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "selling-property-in-dubai-with-a-mortgage",
     "title": "How to Sell a Property in Dubai With a Mortgage",
     "excerpt": "You can sell a mortgaged property in Dubai: your bank issues a liability letter, the loan is settled on transfer day, the DLD blocks the property until it clears, and an early settlement fee is capped at 1 percent of the outstanding balance or AED 10,000, whichever is lower.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -4189,7 +4189,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-sell-your-property-in-dubai-fast",
     "title": "How to Sell Your Property in Dubai Fast",
     "excerpt": "To sell your Dubai property fast, price it correctly from day one using DLD comparables, present it professionally, and appoint one committed exclusive agent who can reach pre-qualified and cash buyers while you stay transaction-ready.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -4338,7 +4338,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "exclusive-vs-open-listing-in-dubai",
     "title": "Exclusive vs Open Listing: How to Sell in Dubai",
     "excerpt": "An exclusive listing appoints one agent under RERA Form A and concentrates marketing, accountability and portal prominence, which typically sells faster and at a cleaner price than an open listing spread across many agents.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -4474,7 +4474,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-stage-your-dubai-property-for-sale",
     "title": "How to Stage Your Dubai Property for Sale",
     "excerpt": "Staging a Dubai property for sale means decluttering, neutralising and making small repairs, then styling for professional photography and viewings, a modest investment that widens the buyer pool and supports a stronger, faster sale.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -4623,7 +4623,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-sell-a-luxury-villa-in-dubai",
     "title": "How to Sell a Luxury Villa in Dubai",
     "excerpt": "Selling a trophy villa in Dubai is won on preparation and discretion, not exposure. Price it from genuine comparable sales, market it privately to qualified international buyers, present it to a standard that matches the asset, and appoint a specialist prime agent with a real private database.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -4766,7 +4766,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "do-you-pay-tax-when-you-sell-property-in-dubai",
     "title": "Do You Pay Tax When You Sell Property in Dubai?",
     "excerpt": "No. The UAE charges no capital gains tax and no income tax on the sale of property, so you keep the full profit from a Dubai sale. Your only costs are transaction fees. The one caveat is that your home country may still tax the gain, so check your own tax residency rules.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",
@@ -4898,7 +4898,7 @@ export const seoPosts: BlogPost[] = [
     "slug": "how-to-sell-property-in-dubai-as-a-non-resident",
     "title": "How to Sell Property in Dubai as a Non-Resident",
     "excerpt": "You can sell your Dubai property from anywhere in the world without flying in. Grant a notarised and attested Power of Attorney to a trusted representative, who completes the DLD transfer on your behalf, then repatriate the proceeds freely. This guide covers the POA, documents, banking and timelines.",
-    "category": "Buyer Guides",
+    "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
       "role": "Dubai luxury real estate advisors",

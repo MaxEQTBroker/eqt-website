@@ -20,7 +20,8 @@ export const metadata: Metadata = {
 
 /** Category display order + one-line descriptions for the grouped index. */
 const CATEGORIES: { name: string; blurb: string }[] = [
-  { name: "Buyer Guides", blurb: "How to buy, sell, finance and own property in Dubai." },
+  { name: "Buyer Guides", blurb: "How to buy, finance and own property in Dubai." },
+  { name: "Seller Guides", blurb: "How to sell your Dubai property for the best price." },
   { name: "Investment", blurb: "Yields, ROI, strategy and where to invest." },
   { name: "Market & Data", blurb: "Prices, forecasts and the market outlook." },
   { name: "Community Guides", blurb: "Where to live and what your money buys, area by area." },
