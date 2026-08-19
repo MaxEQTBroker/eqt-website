@@ -11,6 +11,8 @@ export interface TeamMember {
   bio: string;
   languages?: string;
   areas?: string;
+  /** RERA Broker Registration Number, where the member holds one (real, verified). */
+  brn?: string;
 }
 
 export const team: TeamMember[] = [
@@ -26,6 +28,7 @@ export const team: TeamMember[] = [
     name: "Masoud Raeissi",
     role: "Senior Broker",
     photo: "/team/masoud-raeissi.jpg",
+    brn: "87122",
     languages: "English, Arabic, Farsi",
     areas: "Palm Jumeirah, Business Bay, Dubai Creek Harbour, Jumeirah Islands",
     bio: "Masoud Raeissi is a RERA-licensed broker (BRN 87122) with more than six years advising buyers and investors across Dubai. Multilingual in English, Arabic and Farsi among other languages, Masoud specialises in Palm Jumeirah, Business Bay, Dubai Creek Harbour and Jumeirah Islands, across both luxury and off-plan homes, building long-term relationships on trust, transparency and genuine market insight.",
@@ -42,6 +45,7 @@ export const team: TeamMember[] = [
     name: "Kateryna Babenko",
     role: "Senior Broker",
     photo: "/team/kateryna-babenko.jpg",
+    brn: "68203",
     languages: "Ukrainian, English, Russian, Italian",
     areas: "Palm Jumeirah, JLT, Dubai Creek Harbour, JBR, Maritime City",
     bio: "Kateryna Babenko is a RERA-licensed broker (BRN 68203) with over six years in Dubai real estate and a strong record of completed transactions. Speaking Ukrainian, English, Russian and Italian, Kateryna focuses on Palm Jumeirah, Jumeirah Lake Towers, Dubai Creek Harbour, JBR and Maritime City, guiding international clients with analytical rigour and integrity.",

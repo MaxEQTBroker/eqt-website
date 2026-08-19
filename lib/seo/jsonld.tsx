@@ -9,6 +9,7 @@
 import { site } from "@/lib/site";
 import type { Area, Developer, Listing, SoldRecord } from "@/lib/data/types";
 import type { BlogPost } from "@/lib/data/blog";
+import type { TeamMember } from "@/lib/data/team";
 import { formatAedFull } from "@/lib/format";
 
 /** Resolve a possibly-relative asset URL to an absolute one for schema/OG. */
@@ -67,6 +68,27 @@ export function OrganizationJsonLd() {
           dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
           opens: "09:00",
           closes: "20:00",
+        },
+        makesOffer: {
+          "@type": "OfferCatalog",
+          name: "EQT real estate services",
+          itemListElement: [
+            "Buyer representation",
+            "Seller and listing representation",
+            "Off-plan property advisory",
+            "Property valuation",
+            "Property management",
+            "Investment advisory",
+          ].map((service) => ({
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: service,
+              serviceType: service,
+              areaServed: { "@type": "City", name: "Dubai" },
+              provider: { "@id": `${site.url}/#organization` },
+            },
+          })),
         },
         identifier: [
           { "@type": "PropertyValue", name: "RERA ORN", value: site.regulatory.reraOrn },
@@ -216,12 +238,38 @@ export function TeamJsonLd({
         "@context": "https://schema.org",
         "@graph": members.map((m) => ({
           "@type": "Person",
+          "@id": `${site.url}/team/${m.slug}#person`,
           name: m.name,
           jobTitle: m.role,
           image: absUrl(m.photo),
-          url: `${site.url}/team`,
-          worksFor: { "@type": "RealEstateAgent", name: site.name, url: site.url },
+          url: `${site.url}/team/${m.slug}`,
+          worksFor: { "@id": `${site.url}/#organization` },
         })),
+      }}
+    />
+  );
+}
+
+/** Single team member as a Person entity (E-E-A-T + entity signal), for /team/[slug]. */
+export function PersonJsonLd({ member }: { member: TeamMember }) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": `${site.url}/team/${member.slug}#person`,
+        name: member.name,
+        jobTitle: member.role,
+        image: absUrl(member.photo),
+        url: `${site.url}/team/${member.slug}`,
+        worksFor: { "@id": `${site.url}/#organization` },
+        ...(member.areas ? { knowsAbout: member.areas.split(",").map((s) => s.trim()) } : {}),
+        ...(member.languages
+          ? { knowsLanguage: member.languages.split(",").map((s) => s.trim()) }
+          : {}),
+        ...(member.brn
+          ? { identifier: { "@type": "PropertyValue", name: "RERA BRN", value: member.brn } }
+          : {}),
       }}
     />
   );

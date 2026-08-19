@@ -101,8 +101,9 @@ export default async function BlogPostPage({
           </h1>
           <p className="mt-5 text-sm text-faint">
             {post.author.name}
-            {post.author.credential ? ` · ${post.author.credential}` : ""} · Updated{" "}
-            {formatDate(post.updatedAt)}
+            {post.author.credential ? ` · ${post.author.credential}` : ""} · Published{" "}
+            {formatDate(post.publishedAt)}
+            {post.updatedAt !== post.publishedAt ? ` · Updated ${formatDate(post.updatedAt)}` : ""}
           </p>
         </div>
 

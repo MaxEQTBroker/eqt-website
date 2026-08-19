@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { team } from "@/lib/data/team";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd, TeamJsonLd } from "@/lib/seo/jsonld";
@@ -42,8 +43,9 @@ export default function TeamPage() {
           {team.map((m, i) => (
             <Reveal key={m.slug} delay={(i % 3) * 90}>
               <article id={m.slug} className="scroll-mt-32">
-                <div
-                  className="relative mb-6 aspect-[4/5] overflow-hidden rounded-lg"
+                <Link
+                  href={`/team/${m.slug}`}
+                  className="relative mb-6 block aspect-[4/5] overflow-hidden rounded-lg"
                   style={{ backgroundColor: "var(--bg-inset)" }}
                 >
                   <Image
@@ -51,10 +53,14 @@ export default function TeamPage() {
                     alt={`${m.name}, ${m.role} at ${site.name}`}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover object-top"
+                    className="object-cover object-top transition-transform duration-500 hover:scale-[1.03]"
                   />
-                </div>
-                <h2 className="font-display text-2xl text-ink">{m.name}</h2>
+                </Link>
+                <h2 className="font-display text-2xl text-ink">
+                  <Link href={`/team/${m.slug}`} className="transition-colors hover:text-accent-600">
+                    {m.name}
+                  </Link>
+                </h2>
                 <p className="mt-1 text-sm uppercase tracking-[0.18em] text-accent-600">{m.role}</p>
                 <p className="mt-4 text-muted">{m.bio}</p>
                 {(m.languages || m.areas) && (

@@ -8,6 +8,7 @@ import {
   getAllSoldReferences,
 } from "@/lib/data/repository";
 import { getAllPostSlugs } from "@/lib/data/blog";
+import { team } from "@/lib/data/team";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [areaSlugs, listingSlugs, developerSlugs, propertyTypeSlugs, postSlugs, soldRefs] =
@@ -71,6 +72,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
+  const teamRoutes = team.map((m) => ({
+    url: `${site.url}/team/${m.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
   return [
     ...staticRoutes,
     ...areaRoutes,
@@ -79,5 +87,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...listingRoutes,
     ...postRoutes,
     ...soldRoutes,
+    ...teamRoutes,
   ];
 }
