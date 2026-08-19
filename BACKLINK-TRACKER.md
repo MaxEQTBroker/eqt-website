@@ -40,7 +40,7 @@ Business facts to use everywhere (keep identical — NAP consistency):
 | Dubai Chamber directory | DECIDE | ANNUAL fee AED 300-2,200 (not one-time), ~2hr. If MAINLAND, likely already a member via DED license — CHECK directory first. If free-zone, optional/skip. |
 | YallaPages.ae | **DEAD/SCAM** | Redirects to malicious cf.labtide.site cloaking tracker. Do NOT use. |
 | Connect.ae | RETRY | Site unreachable at last try — retry later. |
-| Apple Business Connect | TODO | Apple Maps citation. |
+| Apple Business Connect | **DONE** | Apple Maps location published (2026-08-19), website eqt.ae. |
 | Yellow Pages UAE | **SKIP** | yellowpages.ae redirected to a scam (exness/lifechangerquiz) — unsafe. $6/mo not worth it. |
 | Yalwa | **DEAD** | Directory closed, merged into Locanto (US classifieds). Do not use. |
 
