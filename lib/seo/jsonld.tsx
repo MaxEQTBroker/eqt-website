@@ -62,6 +62,12 @@ export function OrganizationJsonLd() {
         },
         geo: { "@type": "GeoCoordinates", latitude: 25.1857, longitude: 55.2718 },
         hasMap: site.social.google,
+        openingHoursSpecification: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          opens: "09:00",
+          closes: "20:00",
+        },
         identifier: [
           { "@type": "PropertyValue", name: "RERA ORN", value: site.regulatory.reraOrn },
           { "@type": "PropertyValue", name: "DED trade licence", value: site.regulatory.dedLicense },
