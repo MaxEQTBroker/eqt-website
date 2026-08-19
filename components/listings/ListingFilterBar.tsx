@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Area, AreaSlug, PropertyType } from "@/lib/data/types";
+import type { AreaSlug, PropertyType } from "@/lib/data/types";
 
 /** Price bands used for filtering, clean URL tokens, not raw numbers. */
 export const LISTING_PRICE_BANDS = [
@@ -59,7 +59,8 @@ export function ListingFilterBar({
   activeBeds,
   activeSize,
 }: {
-  areas: Area[];
+  /** Community options — curated area pages plus any community in live inventory. */
+  areas: { slug: string; label: string }[];
   types: PropertyType[];
   activeArea: AreaSlug | "all";
   activeBand: ListingPriceBandToken;

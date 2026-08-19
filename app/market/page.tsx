@@ -14,7 +14,7 @@ import { site, whatsappLink } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Dubai Luxury Property Market Insights & Prices",
   description:
-    "A live snapshot of Dubai's prime property market from EQT's own inventory and verified sales — entry prices, active listings and transaction counts by community (Palm Jumeirah, Downtown, Business Bay and more).",
+    "A live snapshot of Dubai's prime property market from EQT's own inventory and verified sales: entry prices, active listings and transaction counts by community (Palm Jumeirah, Downtown, Business Bay and more).",
   keywords: [
     "Dubai luxury property prices",
     "Palm Jumeirah villa prices",
@@ -62,7 +62,7 @@ export default async function MarketPage() {
   const stats = [
     { value: String(listings.length), label: "Active listings" },
     { value: String(communityCount), label: "Communities covered" },
-    { value: minAll ? `from ${formatAed(minAll)}` : "—", label: "Entry price" },
+    { value: minAll ? `from ${formatAed(minAll)}` : "On request", label: "Entry price" },
     { value: String(sold.length), label: "Verified sales (track record)" },
   ];
 
@@ -79,15 +79,15 @@ export default async function MarketPage() {
     },
     {
       question: "Does EQT have a verified sales track record?",
-      answer: `Yes. ${sold.length} completed transactions across Dubai's prime communities are published on our Sold page — a verifiable record, not marketing claims.`,
+      answer: `Yes. ${sold.length} completed transactions across Dubai's prime communities are published on our Sold page. It's a verifiable record, not marketing claims.`,
     },
     {
       question: "Which Dubai communities does EQT specialise in?",
-      answer: `EQT is active across ${rows.slice(0, 8).map((r) => r.label).join(", ")}${rows.length > 8 ? " and more" : ""} — prime and super-prime addresses across the emirate.`,
+      answer: `EQT is active across ${rows.slice(0, 8).map((r) => r.label).join(", ")}${rows.length > 8 ? " and more" : ""}, all prime and super-prime addresses across the emirate.`,
     },
     {
       question: "How can I find out what my Dubai property is worth?",
-      answer: "Use EQT's free, no-obligation valuation — a RERA-licensed advisor prepares a figure from real comparable sales, usually within the hour.",
+      answer: "Use EQT's free, no-obligation valuation. A RERA-licensed advisor prepares a figure from real comparable sales, usually within the hour.",
     },
   ];
 
@@ -111,7 +111,7 @@ export default async function MarketPage() {
           Dubai&apos;s prime market, in real numbers
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
-          A live snapshot drawn from EQT&apos;s own inventory and verified transactions —
+          A live snapshot drawn from EQT&apos;s own inventory and verified transactions:
           entry prices, active supply and completed sales by community. Updated continuously,
           not quarterly guesswork.
         </p>
@@ -156,17 +156,23 @@ export default async function MarketPage() {
                 {rows.map((r) => (
                   <tr key={r.label} className="border-b border-line last:border-0">
                     <td className="px-5 py-4 text-ink">
-                      {areaSet.has(r.slug) ? (
-                        <Link href={`/areas/${r.slug}`} className="transition-colors hover:text-accent-500">
-                          {r.label}
-                        </Link>
-                      ) : (
-                        r.label
-                      )}
+                      <Link
+                        href={areaSet.has(r.slug) ? `/areas/${r.slug}` : `/listings?area=${r.slug}`}
+                        className="transition-colors hover:text-accent-500"
+                      >
+                        {r.label}
+                      </Link>
                     </td>
-                    <td className="px-5 py-4 text-muted">{r.active}</td>
-                    <td className="px-5 py-4 text-muted">{r.from ? formatAed(r.from) : "—"}</td>
-                    <td className="px-5 py-4 text-muted">{r.sold || "—"}</td>
+                    <td className="px-5 py-4 text-muted">
+                      <Link
+                        href={`/listings?area=${r.slug}`}
+                        className="text-accent-600 underline-offset-2 transition-colors hover:text-accent-500 hover:underline"
+                      >
+                        {r.active} {r.active === 1 ? "listing" : "listings"}
+                      </Link>
+                    </td>
+                    <td className="px-5 py-4 text-muted">{r.from ? formatAed(r.from) : "On request"}</td>
+                    <td className="px-5 py-4 text-muted">{r.sold || "0"}</td>
                   </tr>
                 ))}
               </tbody>

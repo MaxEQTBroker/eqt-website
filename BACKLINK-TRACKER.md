@@ -41,7 +41,6 @@ Business facts to use everywhere (keep identical — NAP consistency):
 | YallaPages.ae | **DEAD/SCAM** | Redirects to malicious cf.labtide.site cloaking tracker. Do NOT use. |
 | Connect.ae | RETRY | Site unreachable at last try — retry later. |
 | Apple Business Connect | TODO | Apple Maps citation. |
-| Apple Business Connect | TODO | Apple Maps citation. |
 | Yellow Pages UAE | **SKIP** | yellowpages.ae redirected to a scam (exness/lifechangerquiz) — unsafe. $6/mo not worth it. |
 | Yalwa | **DEAD** | Directory closed, merged into Locanto (US classifieds). Do not use. |
 
@@ -66,10 +65,11 @@ Business facts to use everywhere (keep identical — NAP consistency):
 
 ---
 
-## Accountability — next actions (in order)
-1. Finish Bayut setup (Tier 1) + add website URL on Property Finder dashboard.
-2. Fix LinkedIn slug → publish company page.
-3. Dubai Chamber: check if already listed, claim/update.
-4. Quick wins: HiDubai (confirm live), YallaPages, Bing Places, Apple Business Connect.
-5. Tier 1 portals: JamesEdition, Emirates.Estate, Houza, realestateclubdubai submission.
-6. THEN Tier 4 (press release + partner outreach) — the real link equity.
+## Accountability — next actions (in order), as of 2026-08-18
+1. **JamesEdition demo today** — evaluate cost; only worth it if the listing/link justifies the fee.
+2. **Apple Business Connect** — free, quick Apple Maps citation.
+3. **Dubai Chamber** — check if already a member (mainland = likely yes) before paying the annual fee.
+4. **Emirates.Estate · Houza.ae** — portal listings.
+5. **realestateclubdubai.com** — submit for their agency directory / rankings.
+6. **Bayut** — follow up on Profolio setup.
+7. **THEN Tier 4** (press release + partner/journalist outreach) — the real link equity.

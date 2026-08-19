@@ -92,6 +92,32 @@ export function LeadForm({
     return () => window.removeEventListener("keydown", onKey);
   }, [showAllCommunities]);
 
+  // Track the visual viewport so the community popup (and its search field) stay
+  // centred in the *visible* area rather than behind the on-screen keyboard on
+  // iOS/Android. When the keyboard opens the visual viewport shrinks; we pin the
+  // popup layer to it so the input never ends up hidden under the keyboard.
+  const [viewport, setViewport] = useState<{
+    top: number;
+    left: number;
+    width: number;
+    height: number;
+  } | null>(null);
+  useEffect(() => {
+    if (!showAllCommunities) return;
+    const vv = typeof window !== "undefined" ? window.visualViewport : null;
+    if (!vv) return;
+    const update = () =>
+      setViewport({ top: vv.offsetTop, left: vv.offsetLeft, width: vv.width, height: vv.height });
+    update();
+    vv.addEventListener("resize", update);
+    vv.addEventListener("scroll", update);
+    return () => {
+      vv.removeEventListener("resize", update);
+      vv.removeEventListener("scroll", update);
+      setViewport(null);
+    };
+  }, [showAllCommunities]);
+
   const filteredCommunities = useMemo(() => {
     const q = communityQuery.trim().toLowerCase();
     const all = [...COMMUNITY_LABELS, "Not sure yet"];
@@ -363,8 +389,26 @@ export function LeadForm({
             onClick={() => setShowAllCommunities(false)}
             className="absolute inset-0 cursor-default"
           />
-          {/* Compact popup, centred over the content. */}
-          <div className="absolute left-1/2 top-1/2 flex max-h-[70vh] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-lg border border-line bg-elevated shadow-2xl">
+          {/* Positioning layer pinned to the visual viewport so the popup stays
+              above the keyboard on mobile. pointer-events-none lets outside taps
+              fall through to the click-catcher above; the popup re-enables them. */}
+          <div
+            className="pointer-events-none absolute inset-0 flex items-center justify-center p-4"
+            style={
+              viewport
+                ? {
+                    top: viewport.top,
+                    left: viewport.left,
+                    width: viewport.width,
+                    height: viewport.height,
+                    right: "auto",
+                    bottom: "auto",
+                  }
+                : undefined
+            }
+          >
+          {/* Compact popup, centred in the visible viewport. */}
+          <div className="pointer-events-auto flex max-h-full w-[min(22rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-lg border border-line bg-elevated shadow-2xl">
             <div className="flex items-center justify-between border-b border-line px-4 py-3">
               <p className="font-display text-lg text-ink">Select a community</p>
               <button
@@ -410,6 +454,7 @@ export function LeadForm({
                 })
               )}
             </div>
+          </div>
           </div>
         </div>,
         document.body,

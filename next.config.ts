@@ -15,6 +15,13 @@ const nextConfig: NextConfig = {
         destination: "https://eqt.ae/:path*",
         permanent: true,
       },
+      // Legal-page aliases: catch common spellings so they never 404.
+      { source: "/privacy", destination: "/privacy-policy", permanent: true },
+      { source: "/privacypolicy", destination: "/privacy-policy", permanent: true },
+      { source: "/terms-and-conditions", destination: "/terms", permanent: true },
+      { source: "/terms-conditions", destination: "/terms", permanent: true },
+      { source: "/cookie-policy", destination: "/cookies", permanent: true },
+      { source: "/cookies-policy", destination: "/cookies", permanent: true },
     ];
   },
   images: {

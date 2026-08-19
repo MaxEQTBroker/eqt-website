@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getAreas, queryListings } from "@/lib/data/repository";
 import type { AreaSlug, PropertyType } from "@/lib/data/types";
 import { ListingCard } from "@/components/ui/ListingCard";
+import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import {
   ListingFilterBar,
@@ -40,11 +41,23 @@ export default async function ListingsPage({
   searchParams: Promise<SearchParams>;
 }) {
   const sp = await searchParams;
-  const areas = await getAreas();
-  const areaSlugs = areas.map((a) => a.slug);
+  const [areas, everything] = await Promise.all([getAreas(), queryListings({})]);
+
+  // Valid community filters = curated area pages ∪ every community present in the
+  // live inventory (e.g. a CRM-only community such as The Valley). This lets
+  // /listings?area=the-valley resolve even without a curated area guide.
+  const areaOptionMap = new Map<string, string>();
+  for (const a of areas) areaOptionMap.set(a.slug, a.label);
+  for (const l of everything) {
+    if (!areaOptionMap.has(l.area)) areaOptionMap.set(l.area, l.areaLabel || l.area);
+  }
+  const areaOptions = [...areaOptionMap.entries()]
+    .map(([slug, label]) => ({ slug, label }))
+    .sort((a, b) => a.label.localeCompare(b.label));
 
   const activeArea: AreaSlug | "all" =
-    sp.area && areaSlugs.includes(sp.area as AreaSlug) ? (sp.area as AreaSlug) : "all";
+    sp.area && areaOptionMap.has(sp.area) ? (sp.area as AreaSlug) : "all";
+  const activeAreaLabel = activeArea === "all" ? null : areaOptionMap.get(activeArea) ?? null;
   const activeType: PropertyType | "all" =
     sp.type && TYPES.includes(sp.type as PropertyType) ? (sp.type as PropertyType) : "all";
   const band = listingBandFromToken(sp.band);
@@ -90,20 +103,35 @@ export default async function ListingsPage({
       />
 
       <section className="container-lux pb-16 pt-40">
-        <p className="eyebrow mb-5">Curated collection</p>
+        <p className="eyebrow mb-5">
+          {activeAreaLabel ? activeAreaLabel : "Curated collection"}
+        </p>
         <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          Residences for sale
+          {activeAreaLabel ? `Homes for sale in ${activeAreaLabel}` : "Residences for sale"}
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
-          A deliberately small, hand-selected collection across Dubai&apos;s most
-          exclusive communities. Many of our best homes are off-market, ask us.
+          {activeAreaLabel ? (
+            <>
+              Our current on-market homes in {activeAreaLabel}. Many of our best
+              residences here are off-market, ask us and we&apos;ll share them privately.{" "}
+              <Link href="/listings" className="text-accent-600 underline-offset-2 hover:underline">
+                View all communities
+              </Link>
+              .
+            </>
+          ) : (
+            <>
+              A deliberately small, hand-selected collection across Dubai&apos;s most
+              exclusive communities. Many of our best homes are off-market, ask us.
+            </>
+          )}
         </p>
       </section>
 
       <section className="container-lux">
         <div className="rounded-lg border border-line bg-elevated p-6 sm:p-8">
           <ListingFilterBar
-            areas={areas}
+            areas={areaOptions}
             types={TYPES}
             activeArea={activeArea}
             activeBand={activeBand}
@@ -178,6 +206,39 @@ export default async function ListingsPage({
             </a>
           </div>
         )}
+      </section>
+
+      {/* Lead form — every non-home page should give a direct way to enquire. */}
+      <section className="border-t border-line bg-elevated">
+        <div className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[minmax(0,1fr)_400px] lg:items-start lg:gap-16">
+          <div>
+            <p className="eyebrow mb-4">Private advisory</p>
+            <h2 className="display-h2 max-w-[16ch] text-ink">
+              {activeAreaLabel ? `Looking in ${activeAreaLabel}?` : "Tell us what you're looking for"}
+            </h2>
+            <p className="mt-6 max-w-md text-lg text-muted">
+              Many of our best homes{activeAreaLabel ? ` in ${activeAreaLabel}` : ""} never get
+              advertised. Share your brief and we&apos;ll send a private shortlist, usually within
+              the hour.
+            </p>
+            <a
+              href={whatsappLink(
+                activeAreaLabel
+                  ? `Hello ${site.name}, I'd like to discuss homes in ${activeAreaLabel}.`
+                  : `Hello ${site.name}, I'm looking for a specific home.`,
+              )}
+              className="link-whatsapp mt-6 inline-block text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message us on WhatsApp
+            </a>
+          </div>
+          <LeadForm
+            defaultArea={activeAreaLabel ?? undefined}
+            source={activeArea === "all" ? "listings" : `listings:${activeArea}`}
+          />
+        </div>
       </section>
     </>
   );

@@ -33,6 +33,9 @@ export function Footer() {
             <Link href="/about" className="transition-colors hover:text-ink">About</Link>
             <Link href="/site-map" className="transition-colors hover:text-ink">Site map</Link>
             <Link href="/credits" className="transition-colors hover:text-ink">Photography</Link>
+            <Link href="/privacy-policy" className="transition-colors hover:text-ink">Privacy</Link>
+            <Link href="/terms" className="transition-colors hover:text-ink">Terms</Link>
+            <Link href="/cookies" className="transition-colors hover:text-ink">Cookies</Link>
             <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Instagram</a>
           </div>
         </div>
