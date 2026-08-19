@@ -3157,7 +3157,7 @@ export const seoPosts: BlogPost[] = [
     "intro": "Selling a property in Dubai usually costs the seller between 2 and 3 percent of the sale price. The single largest line is the agent commission, set at 2 percent of the price plus 5 percent VAT on that fee. On top of that you pay a developer No Objection Certificate fee of roughly AED 500 to 5,000, a trustee transfer-office fee of about AED 4,000 plus VAT, and optional conveyancing of AED 6,000 to 10,000. The 4 percent Dubai Land Department transfer fee is normally the buyer's cost, not yours, and there is no UAE capital gains tax on your profit.",
     "keyTakeaways": [
       "Budget 2 to 3 percent of the sale price in total seller costs on a standard cash deal.",
-      "Agent commission is 2 percent of price plus 5 percent VAT; on a sale the seller pays it.",
+      "Agent commission is 2 percent plus 5 percent VAT, paid to the agent you appoint under a Form A listing; it is negotiable.",
       "The 4 percent DLD transfer fee is the buyer's cost by market convention, not the seller's.",
       "A developer NOC costs about AED 500 to 5,000 and confirms your service charges are clear.",
       "There is no UAE tax on your sale gain, though your home country may still tax you."
@@ -3167,7 +3167,7 @@ export const seoPosts: BlogPost[] = [
         "heading": "The main seller cost: agent commission plus VAT",
         "body": [
           "The largest cost of selling in Dubai is the brokerage commission. The market standard is 2 percent of the agreed sale price, and 5 percent VAT is charged on that commission. On an AED 3 million sale the commission is AED 60,000 and the VAT on it is AED 3,000, for a total of AED 63,000.",
-          "When you are selling, the seller pays the agent that represents the sale under the Form A listing agreement. If a separate agent brings the buyer, the two brokerages usually split the fee between them, but that is handled inside the profession and does not increase what you pay. Agree the percentage and who pays in writing before you list, so there are no surprises on transfer day."
+          "When you sell, you pay a commission of 2 percent plus 5 percent VAT to the brokerage you appoint under the Form A listing agreement. This is negotiable, and the exact arrangement varies: on many secondary deals each side pays its own agent 2 percent, while on others a single fee is split between the two brokerages. Agree the percentage and who pays what in writing before you list, so there are no surprises on transfer day."
         ],
         "bullets": [
           "Commission: 2 percent of the sale price.",
@@ -3238,7 +3238,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "How much is the agent commission when selling property in Dubai?",
-        "answer": "The standard brokerage commission is 2 percent of the sale price, plus 5 percent VAT charged on the commission. On the sale side, the seller pays this fee. On an AED 3 million sale that is AED 60,000 plus AED 3,000 VAT."
+        "answer": "The standard brokerage commission is 2 percent of the sale price, plus 5 percent VAT charged on the commission. You pay this fee to the agent you appoint to sell, though it is negotiable and the buyer typically pays their own agent separately. On an AED 3 million sale that is AED 60,000 plus AED 3,000 VAT."
       },
       {
         "question": "What is the early-settlement fee if I sell with a mortgage?",
@@ -3835,7 +3835,7 @@ export const seoPosts: BlogPost[] = [
         "heading": "The 12-month notice rule for vacant possession",
         "body": [
           "If a buyer wants the property empty, or you want to sell it vacant to widen the market, the owner must give the tenant 12 months notice that the tenancy will end. The notice must state the reason, be notarised, and be served by registered means such as registered mail or a notary public, so there is proof of service.",
-          "The 12 months runs from the date the tenant receives the notice, not from when you decide to sell. This is why owners who plan to sell vacant should serve notice well ahead of listing. If notice has not been served, a buyer wanting immediate vacant possession cannot get it, and you will be limited to selling tenanted or to buyers willing to wait out the notice period."
+          "The 12 months runs from the date the tenant receives the notice, not from when you decide to sell. Note that where a long fixed-term lease is still running, vacant possession is generally available at the later of the lease expiry or the end of the 12-month notice period, so serving notice does not always deliver an empty property in exactly 12 months. This is why owners who plan to sell vacant should serve notice well ahead of listing. If notice has not been served, a buyer wanting immediate vacant possession cannot get it, and you will be limited to selling tenanted or to buyers willing to wait out the notice period."
         ],
         "bullets": [
           "12 months notice, notarised, served through a registered method with proof of service.",
@@ -4096,7 +4096,7 @@ export const seoPosts: BlogPost[] = [
         "heading": "How the buyer's payment clears your loan",
         "body": [
           "On transfer day the buyer's funds are used to pay off your outstanding mortgage first, and only the balance goes to you. In practice the buyer, or the trustee office managing the transfer, issues a payment directly to your bank for the liability amount, and your bank confirms the loan is settled.",
-          "This is why the numbers must line up in advance. The sale price has to cover the liability, the DLD transfer fee of 4 percent that the buyer usually pays, the agent commission of 2 percent plus 5 percent VAT that the seller pays, and any other costs. If there is a shortfall between the sale price and what you owe, you have to make it up so the loan can be cleared."
+          "This is why the numbers must line up in advance. The sale price has to cover the liability, the DLD transfer fee of 4 percent that the buyer usually pays, the agent commission of 2 percent plus 5 percent VAT payable to your listing agent, and any other costs. If there is a shortfall between the sale price and what you owe, you have to make it up so the loan can be cleared."
         ],
         "bullets": [
           "The buyer's funds clear your mortgage first; you receive the remainder.",
@@ -4349,7 +4349,7 @@ export const seoPosts: BlogPost[] = [
     "readingMinutes": 8,
     "intro": "An exclusive listing appoints one agent under RERA Form A to sell your property, while an open listing lets several agents market the same home at once. In Dubai, the exclusive route usually delivers the better outcome, because it concentrates marketing spend, professional photography, portal prominence and accountability in one committed party rather than spreading thin effort across many. Open listings feel like more exposure, but in practice they often dilute effort, create price undercutting between agents and produce inconsistent marketing that unsettles buyers. This guide defines both models, weighs their pros and cons honestly, and shows you how to choose and what to expect from a good exclusive agent.",
     "keyTakeaways": [
-      "An exclusive listing is a Form A agreement giving one agent the sole mandate to sell your property.",
+      "An exclusive listing gives one agent the sole mandate to sell your property, recorded on a RERA Form A.",
       "An open listing lets many agents market the same home, which can dilute effort and marketing spend.",
       "Exclusivity concentrates accountability, professional marketing and portal prominence in one committed agent.",
       "Open listings often create price undercutting and inconsistent presentation across portals.",
@@ -4365,7 +4365,7 @@ export const seoPosts: BlogPost[] = [
         "bullets": [
           "Exclusive: one agent, one Form A mandate, full accountability for the outcome.",
           "Open: many agents, no single mandate, whoever finds the buyer is paid.",
-          "Form A is the RERA listing agreement that formalises the exclusive relationship.",
+          "Form A is the RERA listing agreement used for both exclusive and open mandates; it records which one applies.",
           "The commercial incentive to invest is very different between the two models."
         ]
       },
@@ -4437,7 +4437,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "What is RERA Form A?",
-        "answer": "Form A is the official seller-agent listing agreement in Dubai. Signing it establishes an exclusive mandate between you and one brokerage, formalising the terms, duration and commission for marketing and selling your property."
+        "answer": "Form A is the official seller-agent listing agreement in Dubai, used for both exclusive and non-exclusive mandates. It records the terms, duration, commission and whether the mandate is exclusive. For an open listing a seller can sign a Form A with more than one brokerage, up to a maximum of three."
       },
       {
         "question": "What should I expect from a good exclusive agent?",

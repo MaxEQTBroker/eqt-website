@@ -24,6 +24,10 @@ export function Footer() {
 
         <div className="hairline my-10" />
 
+        <address className="mb-6 text-[0.72rem] not-italic leading-relaxed text-faint">
+          {site.contact.address.street}, {site.contact.address.city}, United Arab Emirates
+        </address>
+
         <div className="flex flex-col gap-3 text-[0.72rem] text-faint md:flex-row md:items-center md:justify-between">
           <p>
             © {new Date().getFullYear()} {site.legalName}. RERA ORN {site.regulatory.reraOrn} · DED {site.regulatory.dedLicense}.
