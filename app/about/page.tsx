@@ -56,9 +56,13 @@ export default function AboutPage() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
           {site.name} ({site.legalName}) is a RERA-licensed brokerage focused exclusively on Dubai&apos;s
-          most sought-after addresses — Palm Jumeirah, Emirates Hills, Al Barari, Jumeirah Islands,
+          most sought-after addresses: Palm Jumeirah, Emirates Hills, Al Barari, Jumeirah Islands,
           Downtown and Business Bay. We represent buyers, sellers and investors with the discretion,
           data and access the segment demands.
+        </p>
+        <p className="mt-5 max-w-2xl text-lg text-muted">
+          Since 2014, EQT has transacted more than AED 5 billion across over 1,000 deals in Dubai, a
+          12-year track record built on discreet, evidence-based advice.
         </p>
       </section>
 
