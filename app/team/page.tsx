@@ -45,15 +45,15 @@ export default function TeamPage() {
               <article id={m.slug} className="scroll-mt-32">
                 <Link
                   href={`/team/${m.slug}`}
-                  className="relative mb-6 block aspect-[4/5] overflow-hidden rounded-lg"
+                  className="relative mb-5 block h-28 w-28 overflow-hidden rounded-full"
                   style={{ backgroundColor: "var(--bg-inset)" }}
                 >
                   <Image
                     src={m.photo}
                     alt={`${m.name}, ${m.role} at ${site.name}`}
                     fill
-                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover object-top transition-transform duration-500 hover:scale-[1.03]"
+                    sizes="112px"
+                    className="object-cover object-top transition-transform duration-500 hover:scale-[1.05]"
                   />
                 </Link>
                 <h2 className="font-display text-2xl text-ink">

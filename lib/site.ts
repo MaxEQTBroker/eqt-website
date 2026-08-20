@@ -51,10 +51,10 @@ export const primaryNav: NavItem[] = [
   { label: "Developers", href: "/developers" },
   { label: "Sold Properties", href: "/sold" },
   { label: "Active Properties", href: "/listings" },
-  { label: "Property Type", href: "/property" },
+  { label: "Property Types", href: "/property" },
   { label: "Market Insights", href: "/market" },
   { label: "Free Valuation", href: "/valuation" },
-  { label: "Blog Posts", href: "/blog" },
+  { label: "Resources", href: "/blog" },
 ];
 
 /** Build a prefilled WhatsApp deep link. */

@@ -8,12 +8,12 @@ import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Journal, Dubai Property Guides & Market Insight",
+  title: "Resources, Dubai Property Guides & Market Insight",
   description:
     "Answer-first guides to buying, selling and investing in Dubai's finest communities, freehold ownership, the Golden Visa, Palm Jumeirah villa prices and more, from EQT's private office.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: `Journal, ${site.name}`,
+    title: `Resources, ${site.name}`,
     description: "Dubai luxury property guides, community insight and market data.",
   },
 };
@@ -38,13 +38,13 @@ export default async function BlogIndexPage() {
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Journal", path: "/blog" },
+          { name: "Resources", path: "/blog" },
         ]}
       />
 
       {/* Masthead */}
       <section className="container-lux pb-4 pt-40">
-        <p className="eyebrow mb-4">The EQT Journal</p>
+        <p className="eyebrow mb-4">EQT Resources</p>
         <RevealText
           as="h1"
           text="Dubai property, explained."

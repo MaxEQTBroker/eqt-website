@@ -149,7 +149,6 @@ export default async function MarketPage() {
                   <th className="px-5 py-4 font-medium">Community</th>
                   <th className="px-5 py-4 font-medium">Active listings</th>
                   <th className="px-5 py-4 font-medium">From</th>
-                  <th className="px-5 py-4 font-medium">Verified sales</th>
                 </tr>
               </thead>
               <tbody>
@@ -172,7 +171,6 @@ export default async function MarketPage() {
                       </Link>
                     </td>
                     <td className="px-5 py-4 text-muted">{r.from ? formatAed(r.from) : "On request"}</td>
-                    <td className="px-5 py-4 text-muted">{r.sold || "0"}</td>
                   </tr>
                 ))}
               </tbody>

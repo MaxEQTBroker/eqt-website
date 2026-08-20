@@ -89,7 +89,7 @@ export default async function BlogPostPage({
           <Breadcrumbs
             items={[
               { name: "Home", href: "/" },
-              { name: "Journal", href: "/blog" },
+              { name: "Resources", href: "/blog" },
               { name: post.title, href: `/blog/${post.slug}` },
             ]}
           />

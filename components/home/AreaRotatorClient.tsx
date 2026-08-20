@@ -180,7 +180,7 @@ function SideCard({
         backgroundColor: tone,
       }}
     >
-      <Image src={src} alt="" fill sizes="460px" className="object-cover" />
+      <Image src={src} alt="" fill sizes="460px" loading="eager" className="object-cover" />
     </div>
   );
 }
@@ -201,6 +201,7 @@ function Face({ area }: { area: Area }) {
         alt={area.heroImage.alt}
         fill
         sizes="900px"
+        loading="eager"
         className="object-cover"
       />
       <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
@@ -240,6 +241,7 @@ function StaticGrid({ areas }: { areas: Area[] }) {
               alt={area.heroImage.alt}
               fill
               sizes="(max-width: 640px) 100vw, 25vw"
+              loading="eager"
               className="object-cover opacity-85 transition-all duration-700 group-hover:scale-105 group-hover:opacity-100"
             />
             <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />

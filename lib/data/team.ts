@@ -21,6 +21,7 @@ export const team: TeamMember[] = [
     name: "Vladyslav Franchuk",
     role: "Founder & CEO",
     photo: "/team/vladyslav-franchuk.jpg",
+    languages: "English, Ukrainian, Russian",
     bio: "Vladyslav Franchuk is the Founder and CEO of EQT Real Estate. Vlad built EQT as a private, client-first brokerage focused on Dubai's most sought-after communities, pairing discreet, personal service with genuine market expertise. Vlad leads the firm's vision and its handpicked team of multilingual advisors, with a commitment to honest guidance and long-term relationships over transactions.",
   },
   {
@@ -38,7 +39,8 @@ export const team: TeamMember[] = [
     name: "Max Karnaukh",
     role: "Property Advisor",
     photo: "/team/max-karnaukh.jpg",
-    bio: "Max Karnaukh advises buyers, sellers and investors across Dubai's prime communities. Combining a client-first approach with sharp local market knowledge, Max guides clients discreetly and personally through every stage, from the first viewing to a smooth handover.",
+    languages: "English, Ukrainian, Russian",
+    bio: "Max Karnaukh advises buyers, sellers and investors across Dubai's prime communities. Before Dubai, Max worked as a real estate agent in Greater Vancouver, Canada, where he ranked in the top 10 percent of agents for three consecutive years. He combines a client-first approach with sharp local market knowledge, guiding clients discreetly and personally through every stage, from the first viewing to a smooth handover.",
   },
   {
     slug: "kateryna-babenko",
