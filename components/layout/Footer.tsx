@@ -40,6 +40,10 @@ export function Footer() {
             <Link href="/privacy-policy" className="transition-colors hover:text-ink">Privacy</Link>
             <Link href="/terms" className="transition-colors hover:text-ink">Terms</Link>
             <Link href="/cookies" className="transition-colors hover:text-ink">Cookies</Link>
+            <a href={`tel:${site.contact.phone.replace(/\s/g, "")}`} className="transition-colors hover:text-ink">Call {site.contact.phone}</a>
+            <a href={`mailto:${site.contact.email}`} className="transition-colors hover:text-ink">Email</a>
+            <a href={site.social.google} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Google</a>
+            <a href={site.social.linkedin} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">LinkedIn</a>
             <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Instagram</a>
           </div>
         </div>

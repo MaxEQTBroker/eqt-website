@@ -29,19 +29,43 @@ export function HeroVideo({
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduced) return; // keep the poster only
 
-    const isMobile = window.matchMedia("(max-width: 768px)").matches;
-    v.src = isMobile ? mobileSrc : desktopSrc;
-    v.load();
+    // Respect data-saver / very slow connections: keep the poster, skip the video.
+    const conn = (navigator as unknown as {
+      connection?: { saveData?: boolean; effectiveType?: string };
+    }).connection;
+    if (conn?.saveData || conn?.effectiveType === "slow-2g" || conn?.effectiveType === "2g") return;
 
-    const play = () => {
-      v.play().catch(() => {
-        /* autoplay may be blocked; poster remains */
-      });
+    let started = false;
+    const start = () => {
+      const el = videoRef.current;
+      if (started || !el) return;
+      started = true;
+      const isMobile = window.matchMedia("(max-width: 768px)").matches;
+      el.src = isMobile ? mobileSrc : desktopSrc;
+      el.load();
+      const play = () => el.play().catch(() => {});
+      if (el.readyState >= 2) play();
+      else el.addEventListener("canplay", play, { once: true });
     };
-    if (v.readyState >= 2) play();
-    else v.addEventListener("canplay", play, { once: true });
 
-    return () => v.removeEventListener("canplay", play);
+    // Defer loading the multi-MB video until the browser is idle, so it never
+    // competes with the LCP paint (the poster + heading render immediately).
+    const w = window as unknown as {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    let idleId: number | undefined;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    if (typeof w.requestIdleCallback === "function") {
+      idleId = w.requestIdleCallback(start, { timeout: 2500 });
+    } else {
+      timer = setTimeout(start, 1200);
+    }
+
+    return () => {
+      if (timer) clearTimeout(timer);
+      if (idleId !== undefined && w.cancelIdleCallback) w.cancelIdleCallback(idleId);
+    };
   }, [desktopSrc, mobileSrc]);
 
   return (
