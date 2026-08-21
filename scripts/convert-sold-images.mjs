@@ -25,8 +25,10 @@ const MAX_WIDTH = 1600;
 const QUALITY = 78;
 
 if (!SERVICE_KEY) {
-  console.error("Missing SUPABASE_SERVICE_KEY environment variable.");
-  process.exit(1);
+  // Not configured yet: skip quietly as a no-op so the scheduled run succeeds
+  // (no failure emails). Add the SUPABASE_SERVICE_KEY repo secret to enable it.
+  console.log("SUPABASE_SERVICE_KEY is not set. Skipping conversion (no-op).");
+  process.exit(0);
 }
 
 const authHeaders = { apikey: SERVICE_KEY, Authorization: `Bearer ${SERVICE_KEY}` };
