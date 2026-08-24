@@ -7511,5 +7511,482 @@ export const seoPosts: BlogPost[] = [
       "jumeirah golf estates"
     ],
     "heroImage": blogBodyPool[12]
+  },
+  {
+    "slug": "living-on-palm-jumeirah",
+    "title": "Living on Palm Jumeirah: A Resident's Guide",
+    "excerpt": "Life on Palm Jumeirah pairs private beachfront living with world-class dining, family amenities and a 20 to 30 minute reach to Downtown.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 9,
+    "intro": "Living on Palm Jumeirah means waking up to the sea on Dubai's most recognisable address, an island where beachfront villas and apartments sit minutes from beach clubs, fine dining and family attractions. The Palm is arranged as a trunk, a crescent and a series of fronds, each frond a quiet residential street ending at private sand. Residents value the combination of resort atmosphere and everyday practicality, with schools, clinics and supermarkets close at hand. It suits families, professionals and those who simply want the water as a permanent backdrop. This guide walks through what daily life is actually like for people who call the island home.",
+    "keyTakeaways": [
+      "The Palm offers both frond villas with private beach access and crescent or trunk apartments with sea and skyline views.",
+      "Beach clubs, fine dining and Atlantis attractions sit within a short drive of every home.",
+      "Nakheel Mall and West Beach provide everyday retail, dining and leisure without leaving the island.",
+      "Downtown Dubai and DIFC are typically 20 to 30 minutes away by road.",
+      "The island suits families and professionals who want beachfront living with resort-level amenities."
+    ],
+    "sections": [
+      {
+        "heading": "The setting and atmosphere",
+        "body": [
+          "Palm Jumeirah is a man-made island shaped like a palm tree, reaching into the Arabian Gulf off Dubai's coast. Its design gives residents an unusual amount of coastline, with the fronds delivering private beaches and the crescent framing the whole island with sea views.",
+          "The mood is calm and residential once you leave the busier trunk. Frond streets are low-traffic and lined with villas, while the crescent carries resorts and beach clubs. The overall feeling is of a settled seaside community rather than a tourist strip, even though visitors do come for the landmarks."
+        ]
+      },
+      {
+        "heading": "Homes on the island",
+        "body": [
+          "Housing falls into two broad groups. The fronds are given over to villas, many with direct beach frontage, gardens and pools, while the trunk and crescent hold apartments and penthouses in low and mid-rise buildings.",
+          "Villas start from around AED 12M and apartments from around AED 1.5M, figures shared here only for context. What matters day to day is the variety, from signature villas to branded residences, which lets very different households find a home that fits."
+        ],
+        "bullets": [
+          "Frond villas with private beach, garden and pool",
+          "Crescent and trunk apartments with sea or skyline views",
+          "Penthouses and branded residences for lock-and-leave living"
+        ]
+      },
+      {
+        "heading": "Beaches, dining and leisure",
+        "body": [
+          "The island is built around the water. Residents reach private frond beaches directly, while communal spots such as West Beach offer casual dining and sea air along a promenade. Beach clubs on the crescent give a more curated day by the pool and sand.",
+          "Dining runs from relaxed cafes to some of Dubai's most celebrated fine dining rooms, many gathered around the resorts and the crescent. Atlantis anchors the far end with its aquarium, waterpark and restaurants, useful for weekends and visiting family."
+        ]
+      },
+      {
+        "heading": "Everyday amenities and schools",
+        "body": [
+          "Nakheel Mall sits at the centre of the trunk and covers most daily needs, with supermarkets, pharmacies, clinics, fashion and a cinema. Smaller retail clusters and marina-side outlets fill in the gaps.",
+          "Families have international schools within a short drive on the mainland, along with nurseries and clinics nearby. Everyday services such as gyms, salons and veterinary care are all present, so the island functions as a complete neighbourhood rather than a resort you have to leave for essentials."
+        ]
+      },
+      {
+        "heading": "Getting around",
+        "body": [
+          "A single road spine runs along the trunk, with a monorail linking the gateway to Atlantis and the crescent. Most residents drive, and connections to Sheikh Zayed Road put Dubai Marina minutes away and Downtown Dubai or DIFC typically 20 to 30 minutes out.",
+          "The island is walkable in parts, particularly around Nakheel Mall and the beach promenades, though its scale means a car remains the practical choice for daily life."
+        ]
+      },
+      {
+        "heading": "Who it suits",
+        "body": [
+          "Palm Jumeirah suits people who want the sea at the centre of daily life without giving up city access. Families are drawn to the private beaches, space and nearby schools, while professionals value the quick link to Marina, Media City and Downtown.",
+          "It also appeals to buyers who want a home that doubles as a lifestyle base, close to weekend leisure yet quiet enough to live in year round."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do all homes on Palm Jumeirah have beach access?",
+        "answer": "Frond villas typically have private or direct beach access. Apartment residents use communal beaches and beach clubs, and spots such as West Beach are open along the promenade."
+      },
+      {
+        "question": "How far is Palm Jumeirah from Downtown Dubai?",
+        "answer": "By road it is usually 20 to 30 minutes to Downtown Dubai and DIFC, with Dubai Marina only minutes away via Sheikh Zayed Road."
+      },
+      {
+        "question": "Is Palm Jumeirah good for families?",
+        "answer": "Yes. The private beaches, villa gardens, nearby international schools and everyday amenities at Nakheel Mall make it a practical and comfortable place for families."
+      },
+      {
+        "question": "What is there to do on the island?",
+        "answer": "Residents enjoy private and public beaches, beach clubs, fine dining, the shops and cinema at Nakheel Mall, and the aquarium and waterpark at Atlantis."
+      },
+      {
+        "question": "Can you live on the Palm without a car?",
+        "answer": "It is possible around the trunk and Nakheel Mall, helped by the monorail, but the island's scale means most residents find a car more practical for daily life."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "living on Palm Jumeirah",
+      "Palm Jumeirah lifestyle",
+      "Palm Jumeirah residents guide",
+      "Palm Jumeirah villas",
+      "Palm Jumeirah apartments",
+      "Palm Jumeirah beaches",
+      "Nakheel Mall",
+      "Dubai beachfront living"
+    ],
+    "heroImage": blogBodyPool[3]
+  },
+  {
+    "slug": "living-in-al-barari",
+    "title": "Living in Al Barari: Nature, Wellness and Privacy",
+    "excerpt": "Al Barari is Dubai's green retreat, an ultra-low-density community of gardens, water features and large villas built around nature and wellness.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 9,
+    "intro": "Living in Al Barari means settling into one of Dubai's greenest and most private communities, a botanical enclave in Dubailand where landscaped gardens and water features outnumber the homes. The community is defined by its ultra-low density, so villas sit generously among mature planting rather than pressed together on tight plots. Wellness runs through daily life, from a health-focused restaurant to a dedicated gym and quiet walking routes. It appeals to residents who want calm, nature and seclusion within reach of the city. This guide explains what living surrounded by greenery is really like.",
+    "keyTakeaways": [
+      "Al Barari is an ultra-low-density community where landscaped greenery and water features dominate the setting.",
+      "Villas are large and private, set among botanical gardens rather than on compact plots.",
+      "Wellness is central, anchored by The Farm restaurant and the Body Language gym.",
+      "The atmosphere is calm and secluded, a retreat roughly 20 to 25 minutes from Downtown Dubai.",
+      "It suits buyers who prioritise privacy, nature and a slower, health-focused rhythm."
+    ],
+    "sections": [
+      {
+        "heading": "A community built around greenery",
+        "body": [
+          "Al Barari sits in Dubailand and is known for devoting most of its land to gardens, themed landscapes and flowing water features rather than buildings. The result is a green canopy that softens the climate and gives the community a distinct, almost resort-like calm.",
+          "Because density is deliberately low, homes feel tucked into nature. Walking or cycling the community means passing streams, lakes and mature planting rather than rows of façades, which sets Al Barari apart from more conventional villa districts."
+        ]
+      },
+      {
+        "heading": "The homes and their setting",
+        "body": [
+          "Villas here are large and private, positioned on generous plots with direct outlooks over gardens and water. Architecture leans contemporary, with wide glazing that draws the greenery indoors and blurs the line between house and landscape.",
+          "The emphasis is on space and seclusion. Neighbours are rarely on top of one another, and mature planting provides natural screening, so residents enjoy a strong sense of privacy without high walls dominating the view."
+        ]
+      },
+      {
+        "heading": "Wellness and daily life",
+        "body": [
+          "Wellness is woven into the community rather than added as an afterthought. The Farm is a well-known health-focused restaurant set among lakes and gardens, a place residents use for relaxed meals in nature.",
+          "The Body Language gym provides fitness and training within the community, and the wider landscape encourages walking, running and cycling. Daily life tends toward a slower, healthier rhythm shaped by the surroundings."
+        ],
+        "bullets": [
+          "The Farm restaurant for health-focused dining among the gardens",
+          "Body Language gym for fitness within the community",
+          "Walking and cycling routes through landscaped greenery"
+        ]
+      },
+      {
+        "heading": "Privacy and atmosphere",
+        "body": [
+          "Al Barari is one of Dubai's quieter addresses, valued by residents who want to step back from the pace of the city. The low density, mature planting and limited through-traffic combine to create a genuinely peaceful setting.",
+          "The atmosphere is closer to a private garden estate than a typical suburb. That seclusion is the point for many residents, offering a retreat that still sits within the wider city rather than far outside it."
+        ]
+      },
+      {
+        "heading": "Location and access",
+        "body": [
+          "The community lies in Dubailand, roughly 20 to 25 minutes from Downtown Dubai by road, which keeps the city's dining, business and retail within comfortable reach. Major routes connect it to the rest of Dubai without placing traffic on the community's own streets.",
+          "International schools, clinics and everyday retail are available in the surrounding Dubailand area, so residents balance the seclusion of home with practical services close by."
+        ]
+      },
+      {
+        "heading": "Who it suits",
+        "body": [
+          "Al Barari suits people who place nature, privacy and wellness above proximity to nightlife or the beach. Families and professionals who want a calm base, room to breathe and greenery outside every window are the natural fit.",
+          "It also appeals to buyers seeking a distinctive home that feels removed from the city's intensity while remaining a short drive from its centre."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What makes Al Barari different from other Dubai communities?",
+        "answer": "Its ultra-low density and botanical landscaping. Gardens, lakes and water features dominate the setting, so large villas sit among nature rather than on tight plots."
+      },
+      {
+        "question": "Is Al Barari good for wellness-focused living?",
+        "answer": "Yes. It centres on wellness, with The Farm restaurant, the Body Language gym and extensive walking and cycling routes through landscaped greenery."
+      },
+      {
+        "question": "How far is Al Barari from Downtown Dubai?",
+        "answer": "It is roughly 20 to 25 minutes from Downtown Dubai by road, set within the Dubailand area with good connections to major routes."
+      },
+      {
+        "question": "Is Al Barari private and quiet?",
+        "answer": "Very. Low density, mature planting and limited through-traffic give the community a peaceful, secluded atmosphere closer to a private garden estate."
+      },
+      {
+        "question": "Who is Al Barari best suited to?",
+        "answer": "Buyers who prioritise nature, privacy and a slower, health-focused lifestyle, and who value calm and greenery over beachfront or nightlife access."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Al Barari",
+        "href": "/areas/al-barari"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "living in Al Barari",
+      "Al Barari lifestyle",
+      "Al Barari villas",
+      "Al Barari wellness",
+      "The Farm Al Barari",
+      "Dubai green community",
+      "Dubailand villas",
+      "private Dubai community"
+    ],
+    "heroImage": blogBodyPool[8]
+  },
+  {
+    "slug": "living-in-emirates-hills",
+    "title": "Living in Emirates Hills: Inside Dubai's Most Exclusive Address",
+    "excerpt": "Emirates Hills is Dubai's most exclusive gated community, a golf-course enclave of custom mansions, expansive plots and round-the-clock security.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 9,
+    "intro": "Living in Emirates Hills means holding one of Dubai's most prestigious addresses, a gated community of custom-built mansions arranged around the Montgomerie golf course. Plots here are among the largest in the city, and homes are individually designed rather than repeated to a template, giving the community a distinctive, established character. Security operates around the clock, and international schools sit close by, which reinforces its standing with families at the top of the market. It is a status address that pairs privacy with genuine everyday liveability. This guide looks at what life is like inside the gates.",
+    "keyTakeaways": [
+      "Emirates Hills is Dubai's most exclusive gated community, often compared to the world's leading luxury enclaves.",
+      "Custom-built mansions sit on expansive plots around the Montgomerie golf course.",
+      "Round-the-clock security and controlled access underpin its privacy and prestige.",
+      "Leading international schools, including Dubai International Academy, are close at hand.",
+      "Homes range widely in value, from around AED 20M to well above AED 300M."
+    ],
+    "sections": [
+      {
+        "heading": "An address defined by prestige",
+        "body": [
+          "Emirates Hills is widely regarded as Dubai's most exclusive residential community. Its reputation rests on scale, seclusion and the fact that nearly every home is a bespoke commission, so the streetscape is varied and mature rather than uniform.",
+          "The community draws senior business figures, established families and international buyers who want a recognised address. That concentration of profile gives Emirates Hills a settled, discreet atmosphere that few other Dubai communities match."
+        ]
+      },
+      {
+        "heading": "Mansions and plots",
+        "body": [
+          "Homes are large custom mansions set on some of the most generous plots in Dubai. Because owners design their own residences, architectural styles range widely, from classical to sharply contemporary, each responding to its position and outlook.",
+          "Values reflect that individuality, spanning roughly AED 20M to more than AED 300M depending on plot, position and specification, figures given here only for context. Many homes face the golf course or the community's lakes, adding to the sense of space."
+        ],
+        "bullets": [
+          "Custom-designed mansions rather than repeated house types",
+          "Expansive plots, among the largest in the city",
+          "Frontages onto the golf course and community lakes"
+        ]
+      },
+      {
+        "heading": "Golf and the setting",
+        "body": [
+          "The community is built around the Montgomerie golf course, which shapes both the layout and the views. Wide fairways and water give the district an open, green outlook that is unusual for a city as dense as Dubai.",
+          "For residents who play, the course is on the doorstep, and its clubhouse adds dining and social life within the gates. For those who do not, the greenery still provides a calm, landscaped backdrop to daily life."
+        ]
+      },
+      {
+        "heading": "Security and privacy",
+        "body": [
+          "Access is controlled and security operates 24 hours a day, which is central to the community's appeal. Gated entry and patrols allow residents a high degree of privacy, valued by families and high-profile owners alike.",
+          "The combination of large plots, mature planting and managed access means homes feel genuinely private. This is a place designed for people who want to be left undisturbed at home."
+        ]
+      },
+      {
+        "heading": "Schools and everyday life",
+        "body": [
+          "Leading international schools sit close to the community, including Dubai International Academy, which makes Emirates Hills practical for families with school-age children. Nurseries, clinics and everyday retail are within a short drive in the surrounding areas.",
+          "Neighbouring districts such as Emirates Living and the nearby marina add dining, supermarkets and services, so residents balance the seclusion of home with easy access to daily needs and city amenities."
+        ]
+      },
+      {
+        "heading": "Who it suits",
+        "body": [
+          "Emirates Hills suits buyers who want a landmark address with space, privacy and security, and who value the ability to build or own a home that is genuinely one of a kind. It is a natural fit for established families and senior professionals.",
+          "It also appeals to those who see property as a long-term hold at the top of the market, where scarcity and reputation matter as much as the home itself."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why is Emirates Hills considered so exclusive?",
+        "answer": "It combines custom-built mansions, some of the largest plots in Dubai, a golf-course setting and round-the-clock security, making it the city's most prestigious gated community."
+      },
+      {
+        "question": "Are the homes in Emirates Hills all different?",
+        "answer": "Largely, yes. Owners commission bespoke designs, so architectural styles vary widely and the community has a varied, established streetscape rather than repeated house types."
+      },
+      {
+        "question": "What schools are near Emirates Hills?",
+        "answer": "Leading international schools sit close by, including Dubai International Academy, with nurseries, clinics and everyday retail available in the surrounding areas."
+      },
+      {
+        "question": "Is Emirates Hills a secure community?",
+        "answer": "Yes. Access is controlled and security operates 24 hours a day, which, alongside large plots and mature planting, gives residents a high degree of privacy."
+      },
+      {
+        "question": "Who typically lives in Emirates Hills?",
+        "answer": "Established families, senior business figures and international buyers who want a landmark address offering space, privacy and long-term standing at the top of the market."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Emirates Hills",
+        "href": "/areas/emirates-hills"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "living in Emirates Hills",
+      "Emirates Hills lifestyle",
+      "Emirates Hills mansions",
+      "Emirates Hills gated community",
+      "Montgomerie golf Dubai",
+      "Dubai luxury villas",
+      "exclusive Dubai community",
+      "Dubai International Academy"
+    ],
+    "heroImage": blogBodyPool[14]
+  },
+  {
+    "slug": "luxury-lifestyle-in-dubai",
+    "title": "The Luxury Lifestyle in Dubai: Dining, Beaches and Experiences",
+    "excerpt": "Dubai's luxury lifestyle blends world-class dining, beach clubs, yachting, retail and wellness with safety, year-round sun and no income tax.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 10,
+    "intro": "The luxury lifestyle in Dubai brings together fine dining, beach clubs, yachting, world-class retail and wellness under year-round sun, backed by safety and a tax-free income environment. It is a city built for people who want convenience and quality without compromise, where a morning on the water and an evening at a celebrated restaurant sit within the same day. Beyond the spectacle, the practical foundations matter, from international schools to reliable services and strong personal safety. This is what draws established families and professionals to make Dubai home. This guide sets out the experiences that define daily luxury living here.",
+    "keyTakeaways": [
+      "Dubai offers world-class dining, beach clubs, marinas and yachting within easy reach of home.",
+      "Retail runs from The Dubai Mall to Mall of the Emirates, alongside boutique and designer destinations.",
+      "Wellness, golf and year-round sun support an active, outdoor lifestyle.",
+      "International schools, safety and reliable services underpin family life.",
+      "No personal income tax adds to Dubai's appeal for globally mobile residents."
+    ],
+    "sections": [
+      {
+        "heading": "Dining at every level",
+        "body": [
+          "Dubai's dining scene is one of its defining pleasures, spanning celebrated fine dining rooms, waterfront restaurants and relaxed neighbourhood cafes. International chefs and homegrown concepts sit side by side, so residents can move from a quiet brunch to a landmark tasting menu without leaving the city.",
+          "Much of the best dining clusters around the beachfront, the marinas and the major hotels, which keeps standout meals close to home for residents of the coastal and central communities."
+        ]
+      },
+      {
+        "heading": "Beaches, beach clubs and the water",
+        "body": [
+          "The coastline is central to daily life. Public and private beaches line the city, and beach clubs offer curated days of pools, dining and sea air. For many residents, weekends revolve around the water.",
+          "Marinas support a strong yachting culture, with charters and private berths making the Gulf accessible for day trips and entertaining. The warm sea and long season mean the water is usable for much of the year."
+        ],
+        "bullets": [
+          "Public and private beaches along the coast",
+          "Beach clubs for curated leisure days",
+          "Marinas and yachting for time on the water"
+        ]
+      },
+      {
+        "heading": "Retail and shopping",
+        "body": [
+          "Shopping in Dubai ranges from vast destination malls to intimate designer boutiques. The Dubai Mall and Mall of the Emirates anchor the scene, pairing flagship stores with dining, entertainment and leisure under one roof.",
+          "Beyond the malls, waterfront promenades and boutique districts add character, so retail is as much about the experience and the setting as the brands themselves."
+        ]
+      },
+      {
+        "heading": "Wellness, golf and the outdoors",
+        "body": [
+          "Wellness is a serious part of Dubai life, with spas, fitness studios and health-focused dining widely available. The year-round sun encourages an active outdoor routine, from beach mornings to desert weekends.",
+          "Golf is well established, with championship courses set within and alongside residential communities. Together these give residents plenty of ways to stay active without travelling far."
+        ]
+      },
+      {
+        "heading": "The practical foundations",
+        "body": [
+          "Behind the lifestyle sits a strong practical base. Dubai is known for personal safety, reliable infrastructure and efficient services, which makes daily life smooth for residents and their families.",
+          "International schools cover a wide range of curricula, healthcare is of a high standard, and the absence of personal income tax adds to the city's appeal for globally mobile professionals and business owners."
+        ],
+        "bullets": [
+          "Wide choice of international schools and curricula",
+          "Strong personal safety and reliable services",
+          "No personal income tax for residents"
+        ]
+      },
+      {
+        "heading": "Who Dubai suits",
+        "body": [
+          "Dubai suits people who want quality and convenience in one place, whether that means families seeking safety and schools or professionals wanting connectivity and lifestyle. The city rewards those who value both experience and practicality.",
+          "It is equally suited to globally mobile residents who want a well-connected base with the dining, leisure and financial advantages that come with living here."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What defines the luxury lifestyle in Dubai?",
+        "answer": "A blend of world-class dining, beach clubs, yachting, designer retail and wellness, supported by year-round sun, personal safety and a tax-free income environment."
+      },
+      {
+        "question": "Is Dubai a good place for families?",
+        "answer": "Yes. A wide choice of international schools, strong personal safety, reliable services and abundant family leisure make it well suited to family life."
+      },
+      {
+        "question": "What is the dining scene like?",
+        "answer": "It spans celebrated fine dining, waterfront restaurants and relaxed cafes, with international chefs and local concepts concentrated around the beachfront, marinas and major hotels."
+      },
+      {
+        "question": "Can residents enjoy the water year round?",
+        "answer": "For much of the year, yes. Warm seas, beaches, beach clubs and marinas support swimming, boating and yachting across a long season."
+      },
+      {
+        "question": "Does Dubai really have no income tax?",
+        "answer": "Dubai levies no personal income tax on residents, which is one of the factors that attracts globally mobile professionals and business owners to the city."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Live Dubai market insights",
+        "href": "/market"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "Dubai luxury lifestyle",
+      "luxury living in Dubai",
+      "Dubai fine dining",
+      "Dubai beach clubs",
+      "Dubai yachting",
+      "Dubai shopping",
+      "Dubai wellness",
+      "tax-free living Dubai"
+    ],
+    "heroImage": blogBodyPool[19]
   }
 ];
