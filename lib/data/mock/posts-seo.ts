@@ -555,7 +555,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "dubai-property-service-charges-hidden-costs-explained",
     "title": "Dubai Property Service Charges & Hidden Costs Explained",
-    "excerpt": "Buying in Dubai costs roughly 7-8% above the price: a 4% DLD transfer fee plus agency, trustee and registration, then annual service charges of AED 10-30+/sqft.",
+    "excerpt": "Buying in Dubai costs roughly 7-8% above the price: a 4% DLD transfer fee plus agency, trustee and registration, then annual service charges of AED.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -692,7 +692,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "rental-yields-dubai-best-performing-luxury-communities",
     "title": "Rental Yields in Dubai: Best Luxury Communities",
-    "excerpt": "Prime Dubai apartments typically yield ~5-7% gross, outperforming villas at ~4-5%. Dubai Marina and well-run apartment districts lead luxury rental performance.",
+    "excerpt": "Prime Dubai apartments typically yield ~5-7% gross, outperforming villas at ~4-5%. Dubai Marina and well-run apartment districts lead luxury rental.",
     "category": "Market & Data",
     "author": {
       "name": "The EQT Private Office",
@@ -1907,7 +1907,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "dubai-vs-london-for-property-investment-which-is-better",
     "title": "Dubai vs London for Property Investment: Which Is Better?",
-    "excerpt": "Dubai offers higher yields (~5-7%), no property or capital-gains tax and freehold ownership; London offers deep liquidity but lower yields and higher taxes.",
+    "excerpt": "Dubai offers higher yields (~5-7%), no property or capital-gains tax and freehold ownership; London offers deep liquidity but lower yields and higher.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -2395,7 +2395,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "renting-vs-buying-in-dubai-which-makes-sense",
     "title": "Renting vs Buying in Dubai: Which Makes Sense?",
-    "excerpt": "Buying in Dubai usually makes sense if you will stay several years and can absorb costs; renting suits shorter horizons and flexibility. Here is how to decide.",
+    "excerpt": "Buying in Dubai usually makes sense if you will stay several years and can absorb costs; renting suits shorter horizons and flexibility.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -2642,7 +2642,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "cheapest-freehold-areas-to-buy-in-dubai",
     "title": "Cheapest Freehold Areas to Buy in Dubai",
-    "excerpt": "The cheapest freehold areas to buy in Dubai include International City, Dubai South, JVC, Arjan, Town Square, Damac Hills 2, and entry-level Business Bay units.",
+    "excerpt": "The cheapest freehold areas to buy in Dubai include International City, Dubai South, JVC, Arjan, Town Square, Damac Hills 2, and entry-level Business Bay.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2762,7 +2762,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "dubai-vs-abu-dhabi-property-investment",
     "title": "Dubai vs Abu Dhabi for Property Investment",
-    "excerpt": "Dubai offers a larger, more liquid market and stronger international demand; Abu Dhabi is more stable and government-led with higher yields on select assets.",
+    "excerpt": "Dubai offers a larger, more liquid market and stronger international demand; Abu Dhabi is more stable and government-led with higher yields on select.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2881,7 +2881,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "townhouse-vs-villa-dubai-which-to-buy",
     "title": "Townhouse vs Villa in Dubai: Which Should You Buy?",
-    "excerpt": "Townhouses are cheaper, lower-maintenance and share walls, ideal for families and first buyers; villas are larger, private and command stronger prime appreciation.",
+    "excerpt": "Townhouses are cheaper, lower-maintenance and share walls, ideal for families and first buyers; villas are larger, private and command stronger prime.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3152,7 +3152,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-much-does-it-cost-to-sell-property-in-dubai",
     "title": "How Much Does It Cost to Sell Property in Dubai?",
-    "excerpt": "Selling in Dubai typically costs the seller 2 to 3 percent of the price, made up of a 2 percent agent commission plus 5 percent VAT, a developer NOC fee, and small transfer and conveyancing charges. There is no UAE tax on the gain.",
+    "excerpt": "Selling in Dubai typically costs the seller 2 to 3 percent of the price, made up of a 2 percent agent commission plus 5 percent VAT, a developer NOC fee.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3282,7 +3282,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "best-time-to-sell-property-in-dubai",
     "title": "Best Time to Sell Property in Dubai",
-    "excerpt": "The strongest selling window in Dubai runs from October to April, when cooler weather brings the highest volume of active buyers. Listings launched early in that season typically transact faster and closer to asking.",
+    "excerpt": "The strongest selling window in Dubai runs from October to April, when cooler weather brings the highest volume of active buyers.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3399,7 +3399,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-price-your-dubai-property-to-sell",
     "title": "How to Price Your Dubai Property to Sell",
-    "excerpt": "Price your Dubai property from genuine DLD comparable sales, not aspirational asking prices, and aim within about 3 percent of true market value. Overpricing usually costs more in time and eventual discount than pricing correctly from day one.",
+    "excerpt": "Price your Dubai property from genuine DLD comparable sales, not aspirational asking prices, and aim within about 3 percent of true market value.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3528,7 +3528,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "documents-needed-to-sell-property-in-dubai",
     "title": "Documents You Need to Sell Property in Dubai",
-    "excerpt": "To sell in Dubai you need the title deed, your passport and Emirates ID, a signed Form A listing agreement, the developer NOC, and, if applicable, a mortgage liability letter. A power of attorney is required if you sell remotely.",
+    "excerpt": "To sell in Dubai you need the title deed, your passport and Emirates ID, a signed Form A listing agreement, the developer NOC, and, if applicable, a.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3662,7 +3662,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-off-plan-property-in-dubai-before-handover",
     "title": "How to Sell Off-Plan Property in Dubai Before Handover",
-    "excerpt": "You can sell an off-plan unit before handover through an assignment, but most developers require you to have paid 30 to 40 percent of the purchase price first, plus a developer NOC and a transfer fee.",
+    "excerpt": "You can sell an off-plan unit before handover through an assignment, but most developers require you to have paid 30 to 40 percent of the purchase price.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3796,7 +3796,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-a-tenanted-property-in-dubai",
     "title": "How to Sell a Tenanted Property in Dubai",
-    "excerpt": "You can sell a tenanted property in Dubai at any time, but the buyer inherits the existing lease and the tenant can stay until it ends; to sell with vacant possession you must give the tenant 12 months notarised notice.",
+    "excerpt": "You can sell a tenanted property in Dubai at any time, but the buyer inherits the existing lease and the tenant can stay until it ends; to sell with.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3930,7 +3930,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "noc-for-selling-property-in-dubai",
     "title": "What Is an NOC for Selling Property in Dubai?",
-    "excerpt": "An NOC is the developer's No Objection Certificate confirming you have no service-charge arrears and it does not object to the sale; it typically costs AED 500 to 5,000 and takes a few days to two weeks.",
+    "excerpt": "An NOC is the developer's No Objection Certificate confirming you have no service-charge arrears and it does not object to the sale; it typically costs.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4057,7 +4057,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "selling-property-in-dubai-with-a-mortgage",
     "title": "How to Sell a Property in Dubai With a Mortgage",
-    "excerpt": "You can sell a mortgaged property in Dubai: your bank issues a liability letter, the loan is settled on transfer day, the DLD blocks the property until it clears, and an early settlement fee is capped at 1 percent of the outstanding balance or AED 10,000, whichever is lower.",
+    "excerpt": "You can sell a mortgaged property in Dubai: your bank issues a liability letter, the loan is settled on transfer day, the DLD blocks the property until it.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4196,7 +4196,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-your-property-in-dubai-fast",
     "title": "How to Sell Your Property in Dubai Fast",
-    "excerpt": "To sell your Dubai property fast, price it correctly from day one using DLD comparables, present it professionally, and appoint one committed exclusive agent who can reach pre-qualified and cash buyers while you stay transaction-ready.",
+    "excerpt": "To sell your Dubai property fast, price it correctly from day one using DLD comparables, present it professionally, and appoint one committed exclusive.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4345,7 +4345,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "exclusive-vs-open-listing-in-dubai",
     "title": "Exclusive vs Open Listing: How to Sell in Dubai",
-    "excerpt": "An exclusive listing appoints one agent under RERA Form A and concentrates marketing, accountability and portal prominence, which typically sells faster and at a cleaner price than an open listing spread across many agents.",
+    "excerpt": "An exclusive listing appoints one agent under RERA Form A and concentrates marketing, accountability and portal prominence, which typically sells faster.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4481,7 +4481,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-stage-your-dubai-property-for-sale",
     "title": "How to Stage Your Dubai Property for Sale",
-    "excerpt": "Staging a Dubai property for sale means decluttering, neutralising and making small repairs, then styling for professional photography and viewings, a modest investment that widens the buyer pool and supports a stronger, faster sale.",
+    "excerpt": "Staging a Dubai property for sale means decluttering, neutralising and making small repairs, then styling for professional photography and viewings, a.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4630,7 +4630,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-a-luxury-villa-in-dubai",
     "title": "How to Sell a Luxury Villa in Dubai",
-    "excerpt": "Selling a trophy villa in Dubai is won on preparation and discretion, not exposure. Price it from genuine comparable sales, market it privately to qualified international buyers, present it to a standard that matches the asset, and appoint a specialist prime agent with a real private database.",
+    "excerpt": "Selling a trophy villa in Dubai is won on preparation and discretion, not exposure. Price it from genuine comparable sales, market it privately to.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4773,7 +4773,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "do-you-pay-tax-when-you-sell-property-in-dubai",
     "title": "Do You Pay Tax When You Sell Property in Dubai?",
-    "excerpt": "No. The UAE charges no capital gains tax and no income tax on the sale of property, so you keep the full profit from a Dubai sale. Your only costs are transaction fees. The one caveat is that your home country may still tax the gain, so check your own tax residency rules.",
+    "excerpt": "No. The UAE charges no capital gains tax and no income tax on the sale of property, so you keep the full profit from a Dubai sale.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4905,7 +4905,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-property-in-dubai-as-a-non-resident",
     "title": "How to Sell Property in Dubai as a Non-Resident",
-    "excerpt": "You can sell your Dubai property from anywhere in the world without flying in. Grant a notarised and attested Power of Attorney to a trusted representative, who completes the DLD transfer on your behalf, then repatriate the proceeds freely. This guide covers the POA, documents, banking and timelines.",
+    "excerpt": "You can sell your Dubai property from anywhere in the world without flying in. Grant a notarised and attested Power of Attorney to a trusted.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5049,7 +5049,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "what-is-the-7-percent-rule-in-real-estate",
     "title": "What Is the 7% Rule in Real Estate?",
-    "excerpt": "The 7% rule is an informal US investing heuristic, not a Dubai regulation. Most people use it to mean a property should produce a gross rental yield of at least 7 percent, a target that is achievable in select Dubai apartment communities where prime yields run 5 to 7 percent, but rare for luxury villas.",
+    "excerpt": "The 7% rule is an informal US investing heuristic, not a Dubai regulation. Most people use it to mean a property should produce a gross rental yield of at.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -5179,7 +5179,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "disadvantages-of-buying-property-in-dubai",
     "title": "The Disadvantages of Buying Property in Dubai",
-    "excerpt": "Dubai property carries real trade-offs alongside its tax advantages: service charges of roughly AED 10 to 35 per square foot that trim net yields by 1 to 2 points, a cyclical market with periodic oversupply, off-plan completion risk, thinner liquidity at the luxury end, currency risk from the USD peg, and one-off buying costs of about 7 to 8 percent. Each can be managed with the right diligence.",
+    "excerpt": "Dubai property carries real trade-offs alongside its tax advantages: service charges of roughly AED 10 to 35 per square foot that trim net yields by 1 to.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5318,7 +5318,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-tell-if-a-dubai-property-is-a-good-investment",
     "title": "How to Tell If a Dubai Property Is a Good Investment",
-    "excerpt": "A Dubai property is a sound investment when it combines a liquid, demand-led location, a defensible net yield after costs, manageable service charges, and a credible developer. Prime apartments commonly yield 5 to 7 percent gross, but the number that decides it is the net yield you keep after service charges of roughly AED 10 to 35 per square foot and the 7 to 8 percent of one-off buying costs.",
+    "excerpt": "A Dubai property is a sound investment when it combines a liquid, demand-led location, a defensible net yield after costs, manageable service charges, and.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -5458,7 +5458,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-negotiate-property-prices-in-dubai",
     "title": "How to Negotiate Property Prices in Dubai",
-    "excerpt": "You negotiate a Dubai property with evidence, not instinct: genuine DLD comparable sales set a defensible number, seller motivation sets your leverage, and cash strengthens your hand. Ready resale is generally more negotiable, often in the low single digits to around 10 percent off asking in softer conditions, while off-plan negotiation is limited to developer incentives such as a DLD fee waiver, furniture, or an extended payment plan.",
+    "excerpt": "You negotiate a Dubai property with evidence, not instinct: genuine DLD comparable sales set a defensible number, seller motivation sets your leverage.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5601,7 +5601,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "questions-to-ask-a-real-estate-agent-in-dubai",
     "title": "Questions to Ask a Real Estate Agent in Dubai",
-    "excerpt": "Before you sign anything, ask an agent for their RERA Broker Registration Number, evidenced comparable sales in your exact community, whether the listing is exclusive, the total fees, and how they verify the seller's ownership. A capable agent answers each of these plainly and puts the detail in writing.",
+    "excerpt": "Before you sign anything, ask an agent for their RERA Broker Registration Number, evidenced comparable sales in your exact community, whether the listing.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5757,7 +5757,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-real-estate-commission-works-in-dubai",
     "title": "How Real Estate Agent Commission Works in Dubai",
-    "excerpt": "In Dubai the standard real estate commission is 2% of the property price plus 5% VAT. On a resale the buyer typically pays their agent's 2% plus VAT, while on off-plan the developer usually pays the agent, so the buyer often pays nothing. Commission is due on successful transfer, not on viewings, and it is negotiable.",
+    "excerpt": "In Dubai the standard real estate commission is 2% of the property price plus 5% VAT. On a resale the buyer typically pays their agent's 2% plus VAT.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5900,7 +5900,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "do-real-estate-agents-in-dubai-need-a-license",
     "title": "Do Real Estate Agents in Dubai Need a License?",
-    "excerpt": "Yes. Every real estate agent in Dubai must be licensed: the individual holds a RERA Broker Registration Number and works under an agency with an Office Registration Number. Practising without a licence is illegal. You can verify any agent in minutes using the Dubai REST app or the DLD public Brokers register.",
+    "excerpt": "Yes. Every real estate agent in Dubai must be licensed: the individual holds a RERA Broker Registration Number and works under an agency with an Office.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6043,7 +6043,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "real-estate-agent-red-flags-in-dubai",
     "title": "Real Estate Agent Red Flags to Watch For in Dubai",
-    "excerpt": "The clearest red flags with a Dubai agent are no verifiable BRN, pressure and false urgency, requests to pay a personal or overseas account rather than a DLD trustee, and refusal to use RERA forms or allow DLD and developer verification. Prices far below market, reused listing photos and vagueness on fees are further warnings. Protect yourself by verifying the licence and keeping money in official channels.",
+    "excerpt": "The clearest red flags with a Dubai agent are no verifiable BRN, pressure and false urgency, requests to pay a personal or overseas account rather than a.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6341,7 +6341,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "documents-needed-to-buy-property-in-dubai",
     "title": "What Documents Do You Need to Buy Property in Dubai?",
-    "excerpt": "A non-resident mainly needs a valid passport, while the core buyer checklist covers the passport, signed MOU (Form F), proof of funds or mortgage pre-approval, the 10% deposit cheque and, for financed purchases, the bank's offer letter.",
+    "excerpt": "A non-resident mainly needs a valid passport, while the core buyer checklist covers the passport, signed MOU (Form F), proof of funds or mortgage.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6484,7 +6484,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "furnished-vs-unfurnished-apartments-in-dubai",
     "title": "Furnished vs Unfurnished Apartments in Dubai",
-    "excerpt": "Furnished apartments can command higher short-term and holiday-let rates but cost more upfront and depreciate, while unfurnished units suit long-term family tenants, are cheaper to maintain and are the norm for annual leases.",
+    "excerpt": "Furnished apartments can command higher short-term and holiday-let rates but cost more upfront and depreciate, while unfurnished units suit long-term.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6627,7 +6627,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "villa-vs-apartment-living-in-dubai",
     "title": "Villa vs Apartment Living in Dubai",
-    "excerpt": "Villas offer space, privacy and land value but higher price, maintenance and a gross yield of about 4 to 5%, while apartments offer a lower entry point, amenities, stronger liquidity and a gross yield of about 5 to 7%.",
+    "excerpt": "Villas offer space, privacy and land value but higher price, maintenance and a gross yield of about 4 to 5%, while apartments offer a lower entry point.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6770,7 +6770,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "off-market-luxury-villas-dubai",
     "title": "Off-Market Luxury Villas in Dubai: A Buyer's Guide",
-    "excerpt": "Off-market luxury villas in Dubai are homes sold privately, never listed on Property Finder or Bayut, and accessed only through a broker's confidential database. Many of the finest villas on Palm Jumeirah, in Emirates Hills and Al Barari trade this way to protect seller privacy and price.",
+    "excerpt": "Off-market luxury villas in Dubai are homes sold privately, never listed on Property Finder or Bayut, and accessed only through a broker's confidential.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6920,7 +6920,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "discreet-property-sales-in-dubai",
     "title": "Discreet Property Sales in Dubai: Selling Privately",
-    "excerpt": "A discreet property sale in Dubai lets you sell without any public listing, using NDA-bound viewings and a vetted shortlist of buyers reached through a broker's private database. It suits owners who value confidentiality and price control over maximum public exposure.",
+    "excerpt": "A discreet property sale in Dubai lets you sell without any public listing, using NDA-bound viewings and a vetted shortlist of buyers reached through a.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7069,7 +7069,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "buying-property-on-palm-jumeirah",
     "title": "Buying Property on Palm Jumeirah: The Complete Guide",
-    "excerpt": "Buying property on Palm Jumeirah means choosing between the private fronds, the connected trunk and the beachfront crescent, with villas from around AED 12M and apartments from around AED 1.5M. Expect roughly 7 to 8 percent in one-off costs and no annual property tax.",
+    "excerpt": "Buying property on Palm Jumeirah means choosing between the private fronds, the connected trunk and the beachfront crescent, with villas from around AED.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7223,7 +7223,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "al-barari-real-estate-guide",
     "title": "Al Barari Real Estate Guide: Villas, Prices and Living",
-    "excerpt": "Al Barari is an ultra-low-density botanical community in Dubailand where large villas sit among landscaped gardens and themed water features, with villa prices typically from about AED 12M to AED 150M and above.",
+    "excerpt": "Al Barari is an ultra-low-density botanical community in Dubailand where large villas sit among landscaped gardens and themed water features, with villa.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7371,7 +7371,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "best-gated-communities-in-dubai",
     "title": "The Best Gated Communities in Dubai",
-    "excerpt": "Dubai's best gated communities include Emirates Hills, Al Barari, Jumeirah Islands, District One, Dubai Hills Estate, Palm Jumeirah villa enclaves and Jumeirah Golf Estates, with prime villa prices ranging from single-digit millions to AED 300M and above.",
+    "excerpt": "Dubai's best gated communities include Emirates Hills, Al Barari, Jumeirah Islands, District One, Dubai Hills Estate, Palm Jumeirah villa enclaves and.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7511,5 +7511,482 @@ export const seoPosts: BlogPost[] = [
       "jumeirah golf estates"
     ],
     "heroImage": blogBodyPool[12]
+  },
+  {
+    "slug": "living-on-palm-jumeirah",
+    "title": "Living on Palm Jumeirah: A Resident's Guide",
+    "excerpt": "Life on Palm Jumeirah pairs private beachfront living with world-class dining, family amenities and a 20 to 30 minute reach to Downtown.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 9,
+    "intro": "Living on Palm Jumeirah means waking up to the sea on Dubai's most recognisable address, an island where beachfront villas and apartments sit minutes from beach clubs, fine dining and family attractions. The Palm is arranged as a trunk, a crescent and a series of fronds, each frond a quiet residential street ending at private sand. Residents value the combination of resort atmosphere and everyday practicality, with schools, clinics and supermarkets close at hand. It suits families, professionals and those who simply want the water as a permanent backdrop. This guide walks through what daily life is actually like for people who call the island home.",
+    "keyTakeaways": [
+      "The Palm offers both frond villas with private beach access and crescent or trunk apartments with sea and skyline views.",
+      "Beach clubs, fine dining and Atlantis attractions sit within a short drive of every home.",
+      "Nakheel Mall and West Beach provide everyday retail, dining and leisure without leaving the island.",
+      "Downtown Dubai and DIFC are typically 20 to 30 minutes away by road.",
+      "The island suits families and professionals who want beachfront living with resort-level amenities."
+    ],
+    "sections": [
+      {
+        "heading": "The setting and atmosphere",
+        "body": [
+          "Palm Jumeirah is a man-made island shaped like a palm tree, reaching into the Arabian Gulf off Dubai's coast. Its design gives residents an unusual amount of coastline, with the fronds delivering private beaches and the crescent framing the whole island with sea views.",
+          "The mood is calm and residential once you leave the busier trunk. Frond streets are low-traffic and lined with villas, while the crescent carries resorts and beach clubs. The overall feeling is of a settled seaside community rather than a tourist strip, even though visitors do come for the landmarks."
+        ]
+      },
+      {
+        "heading": "Homes on the island",
+        "body": [
+          "Housing falls into two broad groups. The fronds are given over to villas, many with direct beach frontage, gardens and pools, while the trunk and crescent hold apartments and penthouses in low and mid-rise buildings.",
+          "Villas start from around AED 12M and apartments from around AED 1.5M, figures shared here only for context. What matters day to day is the variety, from signature villas to branded residences, which lets very different households find a home that fits."
+        ],
+        "bullets": [
+          "Frond villas with private beach, garden and pool",
+          "Crescent and trunk apartments with sea or skyline views",
+          "Penthouses and branded residences for lock-and-leave living"
+        ]
+      },
+      {
+        "heading": "Beaches, dining and leisure",
+        "body": [
+          "The island is built around the water. Residents reach private frond beaches directly, while communal spots such as West Beach offer casual dining and sea air along a promenade. Beach clubs on the crescent give a more curated day by the pool and sand.",
+          "Dining runs from relaxed cafes to some of Dubai's most celebrated fine dining rooms, many gathered around the resorts and the crescent. Atlantis anchors the far end with its aquarium, waterpark and restaurants, useful for weekends and visiting family."
+        ]
+      },
+      {
+        "heading": "Everyday amenities and schools",
+        "body": [
+          "Nakheel Mall sits at the centre of the trunk and covers most daily needs, with supermarkets, pharmacies, clinics, fashion and a cinema. Smaller retail clusters and marina-side outlets fill in the gaps.",
+          "Families have international schools within a short drive on the mainland, along with nurseries and clinics nearby. Everyday services such as gyms, salons and veterinary care are all present, so the island functions as a complete neighbourhood rather than a resort you have to leave for essentials."
+        ]
+      },
+      {
+        "heading": "Getting around",
+        "body": [
+          "A single road spine runs along the trunk, with a monorail linking the gateway to Atlantis and the crescent. Most residents drive, and connections to Sheikh Zayed Road put Dubai Marina minutes away and Downtown Dubai or DIFC typically 20 to 30 minutes out.",
+          "The island is walkable in parts, particularly around Nakheel Mall and the beach promenades, though its scale means a car remains the practical choice for daily life."
+        ]
+      },
+      {
+        "heading": "Who it suits",
+        "body": [
+          "Palm Jumeirah suits people who want the sea at the centre of daily life without giving up city access. Families are drawn to the private beaches, space and nearby schools, while professionals value the quick link to Marina, Media City and Downtown.",
+          "It also appeals to buyers who want a home that doubles as a lifestyle base, close to weekend leisure yet quiet enough to live in year round."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do all homes on Palm Jumeirah have beach access?",
+        "answer": "Frond villas typically have private or direct beach access. Apartment residents use communal beaches and beach clubs, and spots such as West Beach are open along the promenade."
+      },
+      {
+        "question": "How far is Palm Jumeirah from Downtown Dubai?",
+        "answer": "By road it is usually 20 to 30 minutes to Downtown Dubai and DIFC, with Dubai Marina only minutes away via Sheikh Zayed Road."
+      },
+      {
+        "question": "Is Palm Jumeirah good for families?",
+        "answer": "Yes. The private beaches, villa gardens, nearby international schools and everyday amenities at Nakheel Mall make it a practical and comfortable place for families."
+      },
+      {
+        "question": "What is there to do on the island?",
+        "answer": "Residents enjoy private and public beaches, beach clubs, fine dining, the shops and cinema at Nakheel Mall, and the aquarium and waterpark at Atlantis."
+      },
+      {
+        "question": "Can you live on the Palm without a car?",
+        "answer": "It is possible around the trunk and Nakheel Mall, helped by the monorail, but the island's scale means most residents find a car more practical for daily life."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "living on Palm Jumeirah",
+      "Palm Jumeirah lifestyle",
+      "Palm Jumeirah residents guide",
+      "Palm Jumeirah villas",
+      "Palm Jumeirah apartments",
+      "Palm Jumeirah beaches",
+      "Nakheel Mall",
+      "Dubai beachfront living"
+    ],
+    "heroImage": blogBodyPool[3]
+  },
+  {
+    "slug": "living-in-al-barari",
+    "title": "Living in Al Barari: Nature, Wellness and Privacy",
+    "excerpt": "Al Barari is Dubai's green retreat, an ultra-low-density community of gardens, water features and large villas built around nature and wellness.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 9,
+    "intro": "Living in Al Barari means settling into one of Dubai's greenest and most private communities, a botanical enclave in Dubailand where landscaped gardens and water features outnumber the homes. The community is defined by its ultra-low density, so villas sit generously among mature planting rather than pressed together on tight plots. Wellness runs through daily life, from a health-focused restaurant to a dedicated gym and quiet walking routes. It appeals to residents who want calm, nature and seclusion within reach of the city. This guide explains what living surrounded by greenery is really like.",
+    "keyTakeaways": [
+      "Al Barari is an ultra-low-density community where landscaped greenery and water features dominate the setting.",
+      "Villas are large and private, set among botanical gardens rather than on compact plots.",
+      "Wellness is central, anchored by The Farm restaurant and the Body Language gym.",
+      "The atmosphere is calm and secluded, a retreat roughly 20 to 25 minutes from Downtown Dubai.",
+      "It suits buyers who prioritise privacy, nature and a slower, health-focused rhythm."
+    ],
+    "sections": [
+      {
+        "heading": "A community built around greenery",
+        "body": [
+          "Al Barari sits in Dubailand and is known for devoting most of its land to gardens, themed landscapes and flowing water features rather than buildings. The result is a green canopy that softens the climate and gives the community a distinct, almost resort-like calm.",
+          "Because density is deliberately low, homes feel tucked into nature. Walking or cycling the community means passing streams, lakes and mature planting rather than rows of façades, which sets Al Barari apart from more conventional villa districts."
+        ]
+      },
+      {
+        "heading": "The homes and their setting",
+        "body": [
+          "Villas here are large and private, positioned on generous plots with direct outlooks over gardens and water. Architecture leans contemporary, with wide glazing that draws the greenery indoors and blurs the line between house and landscape.",
+          "The emphasis is on space and seclusion. Neighbours are rarely on top of one another, and mature planting provides natural screening, so residents enjoy a strong sense of privacy without high walls dominating the view."
+        ]
+      },
+      {
+        "heading": "Wellness and daily life",
+        "body": [
+          "Wellness is woven into the community rather than added as an afterthought. The Farm is a well-known health-focused restaurant set among lakes and gardens, a place residents use for relaxed meals in nature.",
+          "The Body Language gym provides fitness and training within the community, and the wider landscape encourages walking, running and cycling. Daily life tends toward a slower, healthier rhythm shaped by the surroundings."
+        ],
+        "bullets": [
+          "The Farm restaurant for health-focused dining among the gardens",
+          "Body Language gym for fitness within the community",
+          "Walking and cycling routes through landscaped greenery"
+        ]
+      },
+      {
+        "heading": "Privacy and atmosphere",
+        "body": [
+          "Al Barari is one of Dubai's quieter addresses, valued by residents who want to step back from the pace of the city. The low density, mature planting and limited through-traffic combine to create a genuinely peaceful setting.",
+          "The atmosphere is closer to a private garden estate than a typical suburb. That seclusion is the point for many residents, offering a retreat that still sits within the wider city rather than far outside it."
+        ]
+      },
+      {
+        "heading": "Location and access",
+        "body": [
+          "The community lies in Dubailand, roughly 20 to 25 minutes from Downtown Dubai by road, which keeps the city's dining, business and retail within comfortable reach. Major routes connect it to the rest of Dubai without placing traffic on the community's own streets.",
+          "International schools, clinics and everyday retail are available in the surrounding Dubailand area, so residents balance the seclusion of home with practical services close by."
+        ]
+      },
+      {
+        "heading": "Who it suits",
+        "body": [
+          "Al Barari suits people who place nature, privacy and wellness above proximity to nightlife or the beach. Families and professionals who want a calm base, room to breathe and greenery outside every window are the natural fit.",
+          "It also appeals to buyers seeking a distinctive home that feels removed from the city's intensity while remaining a short drive from its centre."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What makes Al Barari different from other Dubai communities?",
+        "answer": "Its ultra-low density and botanical landscaping. Gardens, lakes and water features dominate the setting, so large villas sit among nature rather than on tight plots."
+      },
+      {
+        "question": "Is Al Barari good for wellness-focused living?",
+        "answer": "Yes. It centres on wellness, with The Farm restaurant, the Body Language gym and extensive walking and cycling routes through landscaped greenery."
+      },
+      {
+        "question": "How far is Al Barari from Downtown Dubai?",
+        "answer": "It is roughly 20 to 25 minutes from Downtown Dubai by road, set within the Dubailand area with good connections to major routes."
+      },
+      {
+        "question": "Is Al Barari private and quiet?",
+        "answer": "Very. Low density, mature planting and limited through-traffic give the community a peaceful, secluded atmosphere closer to a private garden estate."
+      },
+      {
+        "question": "Who is Al Barari best suited to?",
+        "answer": "Buyers who prioritise nature, privacy and a slower, health-focused lifestyle, and who value calm and greenery over beachfront or nightlife access."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Al Barari",
+        "href": "/areas/al-barari"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "living in Al Barari",
+      "Al Barari lifestyle",
+      "Al Barari villas",
+      "Al Barari wellness",
+      "The Farm Al Barari",
+      "Dubai green community",
+      "Dubailand villas",
+      "private Dubai community"
+    ],
+    "heroImage": blogBodyPool[8]
+  },
+  {
+    "slug": "living-in-emirates-hills",
+    "title": "Living in Emirates Hills: Inside Dubai's Most Exclusive Address",
+    "excerpt": "Emirates Hills is Dubai's most exclusive gated community, a golf-course enclave of custom mansions, expansive plots and round-the-clock security.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 9,
+    "intro": "Living in Emirates Hills means holding one of Dubai's most prestigious addresses, a gated community of custom-built mansions arranged around the Montgomerie golf course. Plots here are among the largest in the city, and homes are individually designed rather than repeated to a template, giving the community a distinctive, established character. Security operates around the clock, and international schools sit close by, which reinforces its standing with families at the top of the market. It is a status address that pairs privacy with genuine everyday liveability. This guide looks at what life is like inside the gates.",
+    "keyTakeaways": [
+      "Emirates Hills is Dubai's most exclusive gated community, often compared to the world's leading luxury enclaves.",
+      "Custom-built mansions sit on expansive plots around the Montgomerie golf course.",
+      "Round-the-clock security and controlled access underpin its privacy and prestige.",
+      "Leading international schools, including Dubai International Academy, are close at hand.",
+      "Homes range widely in value, from around AED 20M to well above AED 300M."
+    ],
+    "sections": [
+      {
+        "heading": "An address defined by prestige",
+        "body": [
+          "Emirates Hills is widely regarded as Dubai's most exclusive residential community. Its reputation rests on scale, seclusion and the fact that nearly every home is a bespoke commission, so the streetscape is varied and mature rather than uniform.",
+          "The community draws senior business figures, established families and international buyers who want a recognised address. That concentration of profile gives Emirates Hills a settled, discreet atmosphere that few other Dubai communities match."
+        ]
+      },
+      {
+        "heading": "Mansions and plots",
+        "body": [
+          "Homes are large custom mansions set on some of the most generous plots in Dubai. Because owners design their own residences, architectural styles range widely, from classical to sharply contemporary, each responding to its position and outlook.",
+          "Values reflect that individuality, spanning roughly AED 20M to more than AED 300M depending on plot, position and specification, figures given here only for context. Many homes face the golf course or the community's lakes, adding to the sense of space."
+        ],
+        "bullets": [
+          "Custom-designed mansions rather than repeated house types",
+          "Expansive plots, among the largest in the city",
+          "Frontages onto the golf course and community lakes"
+        ]
+      },
+      {
+        "heading": "Golf and the setting",
+        "body": [
+          "The community is built around the Montgomerie golf course, which shapes both the layout and the views. Wide fairways and water give the district an open, green outlook that is unusual for a city as dense as Dubai.",
+          "For residents who play, the course is on the doorstep, and its clubhouse adds dining and social life within the gates. For those who do not, the greenery still provides a calm, landscaped backdrop to daily life."
+        ]
+      },
+      {
+        "heading": "Security and privacy",
+        "body": [
+          "Access is controlled and security operates 24 hours a day, which is central to the community's appeal. Gated entry and patrols allow residents a high degree of privacy, valued by families and high-profile owners alike.",
+          "The combination of large plots, mature planting and managed access means homes feel genuinely private. This is a place designed for people who want to be left undisturbed at home."
+        ]
+      },
+      {
+        "heading": "Schools and everyday life",
+        "body": [
+          "Leading international schools sit close to the community, including Dubai International Academy, which makes Emirates Hills practical for families with school-age children. Nurseries, clinics and everyday retail are within a short drive in the surrounding areas.",
+          "Neighbouring districts such as Emirates Living and the nearby marina add dining, supermarkets and services, so residents balance the seclusion of home with easy access to daily needs and city amenities."
+        ]
+      },
+      {
+        "heading": "Who it suits",
+        "body": [
+          "Emirates Hills suits buyers who want a landmark address with space, privacy and security, and who value the ability to build or own a home that is genuinely one of a kind. It is a natural fit for established families and senior professionals.",
+          "It also appeals to those who see property as a long-term hold at the top of the market, where scarcity and reputation matter as much as the home itself."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why is Emirates Hills considered so exclusive?",
+        "answer": "It combines custom-built mansions, some of the largest plots in Dubai, a golf-course setting and round-the-clock security, making it the city's most prestigious gated community."
+      },
+      {
+        "question": "Are the homes in Emirates Hills all different?",
+        "answer": "Largely, yes. Owners commission bespoke designs, so architectural styles vary widely and the community has a varied, established streetscape rather than repeated house types."
+      },
+      {
+        "question": "What schools are near Emirates Hills?",
+        "answer": "Leading international schools sit close by, including Dubai International Academy, with nurseries, clinics and everyday retail available in the surrounding areas."
+      },
+      {
+        "question": "Is Emirates Hills a secure community?",
+        "answer": "Yes. Access is controlled and security operates 24 hours a day, which, alongside large plots and mature planting, gives residents a high degree of privacy."
+      },
+      {
+        "question": "Who typically lives in Emirates Hills?",
+        "answer": "Established families, senior business figures and international buyers who want a landmark address offering space, privacy and long-term standing at the top of the market."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Emirates Hills",
+        "href": "/areas/emirates-hills"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "living in Emirates Hills",
+      "Emirates Hills lifestyle",
+      "Emirates Hills mansions",
+      "Emirates Hills gated community",
+      "Montgomerie golf Dubai",
+      "Dubai luxury villas",
+      "exclusive Dubai community",
+      "Dubai International Academy"
+    ],
+    "heroImage": blogBodyPool[14]
+  },
+  {
+    "slug": "luxury-lifestyle-in-dubai",
+    "title": "The Luxury Lifestyle in Dubai: Dining, Beaches and Experiences",
+    "excerpt": "Dubai's luxury lifestyle blends world-class dining, beach clubs, yachting, retail and wellness with safety, year-round sun and no income tax.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-24",
+    "updatedAt": "2026-08-24",
+    "readingMinutes": 10,
+    "intro": "The luxury lifestyle in Dubai brings together fine dining, beach clubs, yachting, world-class retail and wellness under year-round sun, backed by safety and a tax-free income environment. It is a city built for people who want convenience and quality without compromise, where a morning on the water and an evening at a celebrated restaurant sit within the same day. Beyond the spectacle, the practical foundations matter, from international schools to reliable services and strong personal safety. This is what draws established families and professionals to make Dubai home. This guide sets out the experiences that define daily luxury living here.",
+    "keyTakeaways": [
+      "Dubai offers world-class dining, beach clubs, marinas and yachting within easy reach of home.",
+      "Retail runs from The Dubai Mall to Mall of the Emirates, alongside boutique and designer destinations.",
+      "Wellness, golf and year-round sun support an active, outdoor lifestyle.",
+      "International schools, safety and reliable services underpin family life.",
+      "No personal income tax adds to Dubai's appeal for globally mobile residents."
+    ],
+    "sections": [
+      {
+        "heading": "Dining at every level",
+        "body": [
+          "Dubai's dining scene is one of its defining pleasures, spanning celebrated fine dining rooms, waterfront restaurants and relaxed neighbourhood cafes. International chefs and homegrown concepts sit side by side, so residents can move from a quiet brunch to a landmark tasting menu without leaving the city.",
+          "Much of the best dining clusters around the beachfront, the marinas and the major hotels, which keeps standout meals close to home for residents of the coastal and central communities."
+        ]
+      },
+      {
+        "heading": "Beaches, beach clubs and the water",
+        "body": [
+          "The coastline is central to daily life. Public and private beaches line the city, and beach clubs offer curated days of pools, dining and sea air. For many residents, weekends revolve around the water.",
+          "Marinas support a strong yachting culture, with charters and private berths making the Gulf accessible for day trips and entertaining. The warm sea and long season mean the water is usable for much of the year."
+        ],
+        "bullets": [
+          "Public and private beaches along the coast",
+          "Beach clubs for curated leisure days",
+          "Marinas and yachting for time on the water"
+        ]
+      },
+      {
+        "heading": "Retail and shopping",
+        "body": [
+          "Shopping in Dubai ranges from vast destination malls to intimate designer boutiques. The Dubai Mall and Mall of the Emirates anchor the scene, pairing flagship stores with dining, entertainment and leisure under one roof.",
+          "Beyond the malls, waterfront promenades and boutique districts add character, so retail is as much about the experience and the setting as the brands themselves."
+        ]
+      },
+      {
+        "heading": "Wellness, golf and the outdoors",
+        "body": [
+          "Wellness is a serious part of Dubai life, with spas, fitness studios and health-focused dining widely available. The year-round sun encourages an active outdoor routine, from beach mornings to desert weekends.",
+          "Golf is well established, with championship courses set within and alongside residential communities. Together these give residents plenty of ways to stay active without travelling far."
+        ]
+      },
+      {
+        "heading": "The practical foundations",
+        "body": [
+          "Behind the lifestyle sits a strong practical base. Dubai is known for personal safety, reliable infrastructure and efficient services, which makes daily life smooth for residents and their families.",
+          "International schools cover a wide range of curricula, healthcare is of a high standard, and the absence of personal income tax adds to the city's appeal for globally mobile professionals and business owners."
+        ],
+        "bullets": [
+          "Wide choice of international schools and curricula",
+          "Strong personal safety and reliable services",
+          "No personal income tax for residents"
+        ]
+      },
+      {
+        "heading": "Who Dubai suits",
+        "body": [
+          "Dubai suits people who want quality and convenience in one place, whether that means families seeking safety and schools or professionals wanting connectivity and lifestyle. The city rewards those who value both experience and practicality.",
+          "It is equally suited to globally mobile residents who want a well-connected base with the dining, leisure and financial advantages that come with living here."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What defines the luxury lifestyle in Dubai?",
+        "answer": "A blend of world-class dining, beach clubs, yachting, designer retail and wellness, supported by year-round sun, personal safety and a tax-free income environment."
+      },
+      {
+        "question": "Is Dubai a good place for families?",
+        "answer": "Yes. A wide choice of international schools, strong personal safety, reliable services and abundant family leisure make it well suited to family life."
+      },
+      {
+        "question": "What is the dining scene like?",
+        "answer": "It spans celebrated fine dining, waterfront restaurants and relaxed cafes, with international chefs and local concepts concentrated around the beachfront, marinas and major hotels."
+      },
+      {
+        "question": "Can residents enjoy the water year round?",
+        "answer": "For much of the year, yes. Warm seas, beaches, beach clubs and marinas support swimming, boating and yachting across a long season."
+      },
+      {
+        "question": "Does Dubai really have no income tax?",
+        "answer": "Dubai levies no personal income tax on residents, which is one of the factors that attracts globally mobile professionals and business owners to the city."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Live Dubai market insights",
+        "href": "/market"
+      },
+      {
+        "label": "Villas",
+        "href": "/property/villas"
+      },
+      {
+        "label": "Request a free valuation",
+        "href": "/valuation"
+      }
+    ],
+    "keywords": [
+      "Dubai luxury lifestyle",
+      "luxury living in Dubai",
+      "Dubai fine dining",
+      "Dubai beach clubs",
+      "Dubai yachting",
+      "Dubai shopping",
+      "Dubai wellness",
+      "tax-free living Dubai"
+    ],
+    "heroImage": blogBodyPool[19]
   }
 ];

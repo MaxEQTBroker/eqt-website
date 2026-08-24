@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { primaryNav, site } from "@/lib/site";
 
 /** Minimal footer: logo, a single nav row, and one quiet legal line. */
@@ -34,6 +34,8 @@ export function Footer() {
           </p>
           <div className="flex gap-6">
             <Link href="/guides/buying-property-in-dubai" className="transition-colors hover:text-ink">Buying Guide</Link>
+            <Link href="/sell" className="transition-colors hover:text-ink">Sell</Link>
+            <Link href="/market-report" className="transition-colors hover:text-ink">Price Guide</Link>
             <Link href="/about" className="transition-colors hover:text-ink">About</Link>
             <Link href="/site-map" className="transition-colors hover:text-ink">Site map</Link>
             <Link href="/credits" className="transition-colors hover:text-ink">Photography</Link>

@@ -8,6 +8,7 @@ import {
   getAllSoldReferences,
 } from "@/lib/data/repository";
 import { getAllPostSlugs } from "@/lib/data/blog";
+import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
 import { team } from "@/lib/data/team";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -21,7 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       getAllSoldReferences(),
     ]);
 
-  const staticRoutes = ["", "/about", "/team", "/areas", "/developers", "/property", "/market", "/sold", "/listings", "/valuation", "/guides/buying-property-in-dubai", "/blog", "/site-map", "/contact", "/privacy-policy", "/terms", "/cookies"].map(
+  const staticRoutes = ["", "/about", "/team", "/areas", "/developers", "/property", "/market", "/market-report", "/sold", "/listings", "/valuation", "/sell", "/guides/buying-property-in-dubai", "/blog", "/site-map", "/contact", "/privacy-policy", "/terms", "/cookies"].map(
     (path) => ({
       url: `${site.url}${path}`,
       lastModified: new Date(),
@@ -58,12 +59,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  const postRoutes = postSlugs.map((slug) => ({
-    url: `${site.url}/blog/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  const postRoutes = postSlugs.map((slug) => {
+    // Advertise a localized alternate only where a real translation exists.
+    const languages: Record<string, string> = { en: `${site.url}/blog/${slug}` };
+    if (hasPostTranslation(slug, "uk")) languages.uk = `${site.url}/uk/blog/${slug}`;
+    if (hasPostTranslation(slug, "ru")) languages.ru = `${site.url}/ru/blog/${slug}`;
+    return {
+      url: `${site.url}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+      ...(Object.keys(languages).length > 1 ? { alternates: { languages } } : {}),
+    };
+  });
 
   const soldRoutes = soldRefs.map((reference) => ({
     url: `${site.url}/sold/${encodeURIComponent(reference)}`,

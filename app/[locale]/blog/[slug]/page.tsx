@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/data/blog";
+import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
@@ -20,16 +21,29 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const { slug, locale } = await params;
+  const post = await getPostBySlug(slug, locale);
   if (!post) return {};
+  const canonical = locale === "en" ? `/blog/${post.slug}` : `/${locale}/blog/${post.slug}`;
+  const translated = hasPostTranslation(slug, locale);
+  // hreflang: advertise a localized alternate only where a real translation exists,
+  // so Google never cross-links to an English-fallback page. English is x-default.
+  const languages: Record<string, string> = { "x-default": `/blog/${post.slug}`, en: `/blog/${post.slug}` };
+  if (hasPostTranslation(slug, "uk")) languages.uk = `/uk/blog/${post.slug}`;
+  if (hasPostTranslation(slug, "ru")) languages.ru = `/ru/blog/${post.slug}`;
   return {
     title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical, languages },
+    // Translated posts index (overriding the layout's per-locale noindex); a
+    // not-yet-translated uk/ru post renders English fallback and stays noindexed
+    // so Google never treats it as a duplicate English page at a localized URL.
+    robots: translated
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
     openGraph: {
       type: "article",
       title: post.title,
@@ -61,13 +75,13 @@ function sectionId(heading: string): string {
 export default async function BlogPostPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const { slug, locale } = await params;
+  const post = await getPostBySlug(slug, locale);
   if (!post) notFound();
 
-  const related = await getRelatedPosts(slug);
+  const related = await getRelatedPosts(slug, 2, locale);
   // Editorial photos woven between sections to break up the text.
   const bodyImages = bodyImagesFor(post.slug, 2);
 

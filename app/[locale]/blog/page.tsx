@@ -29,8 +29,13 @@ const CATEGORIES: { name: string; blurb: string }[] = [
 
 const catId = (name: string) => name.toLowerCase().replace(/[^a-z]+/g, "-");
 
-export default async function BlogIndexPage() {
-  const posts = await getAllPosts();
+export default async function BlogIndexPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const posts = await getAllPosts(locale);
   const [lead, ...rest] = posts;
 
   return (
