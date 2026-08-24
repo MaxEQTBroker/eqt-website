@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Home",
+    "team": "Team",
+    "neighborhoods": "Neighborhoods",
+    "developers": "Developers",
+    "sold": "Sold Properties",
+    "active": "Active Properties",
+    "propertyTypes": "Property Types",
+    "market": "Market Insights",
+    "valuation": "Free Valuation",
+    "resources": "Resources"
+  },
+  "common": {
+    "messageWhatsapp": "Message us on WhatsApp",
+    "call": "Call",
+    "email": "Email",
+    "requestValuation": "Request a free valuation",
+    "menu": "Menu",
+    "close": "Close",
+    "inquire": "Inquire"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "uk": "Українська",
+    "ru": "Русский"
+  }
+}

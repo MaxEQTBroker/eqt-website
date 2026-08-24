@@ -1,17 +1,33 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { primaryNav, site, whatsappLink } from "@/lib/site";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { site, whatsappLink } from "@/lib/site";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+
+/** Nav items map to translation keys (labels come from messages/<locale>.json). */
+const NAV: { href: string; key: string }[] = [
+  { href: "/", key: "home" },
+  { href: "/team", key: "team" },
+  { href: "/areas", key: "neighborhoods" },
+  { href: "/developers", key: "developers" },
+  { href: "/sold", key: "sold" },
+  { href: "/listings", key: "active" },
+  { href: "/property", key: "propertyTypes" },
+  { href: "/market", key: "market" },
+  { href: "/valuation", key: "valuation" },
+  { href: "/blog", key: "resources" },
+];
 
 /**
- * Minimal editorial header (111 West 57th-inspired): MENU (left) · logo
- * (center) · INQUIRE (right), no buttons cluttering the bar. "Menu" opens a
- * slow full-screen overlay with oversized serif links. Transparent white over
- * the hero video, solid beige once scrolled. All nav links are server-rendered.
+ * Minimal editorial header: MENU (left) · logo (center) · language switcher +
+ * INQUIRE (right). "Menu" opens a full-screen overlay with oversized serif links.
  */
 export function Header() {
+  const t = useTranslations("nav");
+  const tc = useTranslations("common");
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -39,8 +55,6 @@ export function Header() {
         borderBottom: !open && scrolled ? "1px solid var(--line)" : "1px solid transparent",
       }}
     >
-      {/* relative z-50 keeps the bar (×, logo, Inquire) ABOVE the z-40 overlay,
-          otherwise the overlay paints over them and the close button vanishes. */}
       <div className="container-lux relative z-50 flex h-20 items-center justify-between">
         {/* Left, Menu toggle */}
         <button
@@ -49,7 +63,7 @@ export function Header() {
           className="group flex items-center gap-3"
           style={{ color: barColor }}
           aria-expanded={open}
-          aria-label={open ? "Close menu" : "Open menu"}
+          aria-label={open ? tc("close") : tc("menu")}
         >
           {open ? (
             <span className="text-[2rem] font-light leading-none" aria-hidden="true">
@@ -62,7 +76,7 @@ export function Header() {
                 <span className="absolute bottom-0 left-0 h-[2px] w-6" style={{ backgroundColor: barColor }} />
               </span>
               <span className="text-[0.72rem] font-medium uppercase tracking-[0.24em]">
-                Menu
+                {tc("menu")}
               </span>
             </>
           )}
@@ -81,21 +95,26 @@ export function Header() {
           </span>
         </Link>
 
-        {/* Right, Inquire (hidden while the menu is open — close lives on the left) */}
-        {!open && (
-          <a
-            href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
-            style={{ color: barColor }}
-          >
-            Inquire
-          </a>
-        )}
+        {/* Right, language switcher (desktop) + Inquire */}
+        <div className="flex items-center gap-5">
+          <div className="hidden sm:flex">
+            <LanguageSwitcher color={barColor} />
+          </div>
+          {!open && (
+            <a
+              href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
+              style={{ color: barColor }}
+            >
+              {tc("inquire")}
+            </a>
+          )}
+        </div>
       </div>
 
-      {/* Full-screen menu overlay, scrolls when the links exceed the viewport */}
+      {/* Full-screen menu overlay */}
       <div
         className="fixed inset-0 z-40 overflow-y-auto overscroll-contain"
         style={{
@@ -107,7 +126,7 @@ export function Header() {
       >
         <div className="relative flex min-h-full flex-col px-0 py-24">
           <nav aria-label="Primary" className="container-lux my-auto flex flex-col items-start">
-            {primaryNav.map((item, i) => (
+            {NAV.map((item, i) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -120,19 +139,20 @@ export function Header() {
                   transition: `opacity 0.6s ${0.12 + i * 0.06}s var(--ease-lux), transform 0.6s ${0.12 + i * 0.06}s var(--ease-lux), color 0.3s`,
                 }}
               >
-                {item.label}
+                {t(item.key)}
               </Link>
             ))}
           </nav>
 
           <div
-            className="container-lux absolute inset-x-0 bottom-12 flex flex-col items-end gap-2 text-right text-sm"
+            className="container-lux absolute inset-x-0 bottom-12 flex flex-col items-end gap-3 text-right text-sm"
             style={{
               color: "#b9ac90",
               opacity: open ? 1 : 0,
-              transition: `opacity 0.6s ${0.12 + primaryNav.length * 0.06}s var(--ease-lux)`,
+              transition: `opacity 0.6s ${0.12 + NAV.length * 0.06}s var(--ease-lux)`,
             }}
           >
+            <LanguageSwitcher color="#b9ac90" />
             <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit transition-colors hover:text-[#e8e0cd]">
               {site.contact.phone} · WhatsApp
             </a>

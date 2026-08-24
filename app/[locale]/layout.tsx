@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { Cormorant_Garamond, Inter } from "next/font/google";
-import "./globals.css";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import "../globals.css";
 
+import { routing, type Locale } from "@/i18n/routing";
 import { site } from "@/lib/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -11,14 +15,14 @@ import { OrganizationJsonLd, WebsiteJsonLd } from "@/lib/seo/jsonld";
 import { Analytics } from "@/components/analytics/Analytics";
 
 const display = Cormorant_Garamond({
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
   weight: ["400", "500", "600"],
   variable: "--font-display",
   display: "swap",
 });
 
 const body = Inter({
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
   variable: "--font-body",
   display: "swap",
 });
@@ -67,44 +71,53 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
-  // Google Search Console verification. Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
-  // (in Vercel env vars) to the token Google gives you under the "HTML tag"
-  // method; when unset, no tag is emitted.
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
-    // Bing Webmaster Tools "meta tag" verification (feeds ChatGPT/Copilot).
     other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
       ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION }
       : {},
   },
 };
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 /**
  * Sets `data-reveal-ready` BEFORE first paint, but only when JS is on and the
- * user allows motion. This is what activates the reveal hide-rule, so no-JS,
- * crawlers, and reduced-motion users never get hidden content (no flash either).
+ * user allows motion, so no-JS, crawlers and reduced-motion users never get
+ * hidden content.
  */
 const revealBootstrap = `try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.setAttribute('data-reveal-ready','true')}}catch(e){}`;
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  if (!routing.locales.includes(locale as Locale)) notFound();
+  setRequestLocale(locale);
+  const messages = await getMessages();
+
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
+    <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: revealBootstrap }} />
       </head>
       <body>
-        <Analytics />
-        <OrganizationJsonLd />
-        <WebsiteJsonLd />
-        <SmoothScroll />
-        <Header />
-        <main id="main">{children}</main>
-        <Footer />
-        <WhatsAppFab />
+        <NextIntlClientProvider messages={messages}>
+          <Analytics />
+          <OrganizationJsonLd />
+          <WebsiteJsonLd />
+          <SmoothScroll />
+          <Header />
+          <main id="main">{children}</main>
+          <Footer />
+          <WhatsAppFab />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

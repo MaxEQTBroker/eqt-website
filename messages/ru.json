@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Главная",
+    "team": "Команда",
+    "neighborhoods": "Районы",
+    "developers": "Застройщики",
+    "sold": "Проданные объекты",
+    "active": "Объекты в продаже",
+    "propertyTypes": "Типы недвижимости",
+    "market": "Обзор рынка",
+    "valuation": "Бесплатная оценка",
+    "resources": "Ресурсы"
+  },
+  "common": {
+    "messageWhatsapp": "Напишите нам в WhatsApp",
+    "call": "Позвонить",
+    "email": "Email",
+    "requestValuation": "Заказать бесплатную оценку",
+    "menu": "Меню",
+    "close": "Закрыть",
+    "inquire": "Обратиться"
+  },
+  "language": {
+    "label": "Язык",
+    "en": "English",
+    "uk": "Українська",
+    "ru": "Русский"
+  }
+}

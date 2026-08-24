@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Головна",
+    "team": "Команда",
+    "neighborhoods": "Райони",
+    "developers": "Забудовники",
+    "sold": "Продані об'єкти",
+    "active": "Об'єкти в продажу",
+    "propertyTypes": "Типи нерухомості",
+    "market": "Огляд ринку",
+    "valuation": "Безкоштовна оцінка",
+    "resources": "Ресурси"
+  },
+  "common": {
+    "messageWhatsapp": "Напишіть нам у WhatsApp",
+    "call": "Зателефонувати",
+    "email": "Email",
+    "requestValuation": "Замовити безкоштовну оцінку",
+    "menu": "Меню",
+    "close": "Закрити",
+    "inquire": "Звернутися"
+  },
+  "language": {
+    "label": "Мова",
+    "en": "English",
+    "uk": "Українська",
+    "ru": "Русский"
+  }
+}
