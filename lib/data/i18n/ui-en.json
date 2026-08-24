@@ -1,0 +1,51 @@
+{
+  "sell": {
+    "metaTitle": "Sell Your Property in Dubai",
+    "metaDescription": "Sell your Dubai property with EQT, a RERA-licensed prime brokerage. Discreet, off-market reach, evidence-based pricing from real DLD comparables, and a full-service transfer.",
+    "eyebrow": "Sell with EQT",
+    "h1": "Sell your Dubai property",
+    "intro": "EQT sells prime and off-market homes across Dubai's most sought-after communities. We price on real evidence, market with discretion, and manage every step to a clean, timely sale, whether you list publicly or sell privately.",
+    "points": [
+      {
+        "title": "Priced on real evidence",
+        "body": "We price from genuine Dubai Land Department comparable sales, not guesswork, so your asking price is credible from day one and defensible in negotiation."
+      },
+      {
+        "title": "Discreet, off-market reach",
+        "body": "Many of Dubai's finest homes sell privately. We can market your property quietly to a curated database of qualified buyers, protecting your privacy and your price."
+      },
+      {
+        "title": "One accountable, RERA-licensed team",
+        "body": "An exclusive mandate concentrates professional photography, portal prominence and negotiation in one committed party, which typically achieves a cleaner, faster sale."
+      },
+      {
+        "title": "Full service to completion",
+        "body": "We manage the listing, viewings, the developer NOC, and the transfer at the trustee office, keeping your sale on track from first enquiry to final handover."
+      }
+    ],
+    "regulated": "Regulated by the {authority}. RERA ORN {orn}.",
+    "faqsHeading": "Common questions",
+    "faqs": [
+      {
+        "question": "How much does it cost to sell a property in Dubai?",
+        "answer": "Selling typically costs the seller around 2 percent agency commission plus 5 percent VAT, a developer NOC fee of roughly AED 500 to 5,000, and small transfer and conveyancing charges. The 4 percent DLD transfer fee is normally the buyer's cost, and there is no capital gains tax on the sale."
+      },
+      {
+        "question": "Can EQT sell my property off-market?",
+        "answer": "Yes. Discreet, off-market sales are a core specialism. We can market your home privately to vetted, qualified buyers with no public listing, which suits high-profile sellers and prime homes."
+      },
+      {
+        "question": "How do you decide the asking price?",
+        "answer": "From real, recent comparable sales recorded by the Dubai Land Department, adjusted for floor, view, size and condition. We show you the evidence behind the figure, never an inflated number to win the listing."
+      },
+      {
+        "question": "How long does it take to sell?",
+        "answer": "A well-priced, well-presented home with a committed agent can go under offer within days to a few weeks, with completion following once the developer NOC is issued and the transfer is booked at the trustee office."
+      }
+    ],
+    "ctaValuation": "Request a free valuation",
+    "ctaWhatsapp": "Message us on WhatsApp",
+    "breadcrumbHome": "Home",
+    "breadcrumbSell": "Sell"
+  }
+}
