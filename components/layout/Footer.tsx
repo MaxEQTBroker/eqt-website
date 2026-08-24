@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { primaryNav, site } from "@/lib/site";
 
 /** Minimal footer: logo, a single nav row, and one quiet legal line. */

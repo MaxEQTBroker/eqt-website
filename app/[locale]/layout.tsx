@@ -27,57 +27,66 @@ const body = Inter({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
-  title: {
-    default: `${site.name}, Dubai Luxury Real Estate`,
-    template: `%s, ${site.name}`,
-  },
-  description: site.description,
-  applicationName: site.name,
-  keywords: [
-    "Dubai luxury real estate",
-    "Palm Jumeirah villas",
-    "Al Barari villas",
-    "Al Barari mansions",
-    "Jumeirah Islands waterfront villas",
-    "luxury property Dubai",
-  ],
-  alternates: { canonical: "/" },
-  openGraph: {
-    type: "website",
-    locale: site.locale,
-    url: site.url,
-    siteName: site.name,
-    title: `${site.name}, Dubai Luxury Real Estate`,
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const isEn = locale === "en";
+  return {
+    metadataBase: new URL(site.url),
+    title: {
+      default: `${site.name}, Dubai Luxury Real Estate`,
+      template: `%s, ${site.name}`,
+    },
     description: site.description,
-    images: [
-      {
-        url: "https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
-        width: 1200,
-        height: 630,
-        alt: "EQT, Dubai luxury real estate",
-      },
+    applicationName: site.name,
+    keywords: [
+      "Dubai luxury real estate",
+      "Palm Jumeirah villas",
+      "Al Barari villas",
+      "Al Barari mansions",
+      "Jumeirah Islands waterfront villas",
+      "luxury property Dubai",
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${site.name}, Dubai Luxury Real Estate`,
-    description: site.description,
-    images: ["https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true, "max-image-preview": "large" },
-  },
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
-    other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
-      ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION }
-      : {},
-  },
-};
+    alternates: { canonical: isEn ? "/" : `/${locale}` },
+    openGraph: {
+      type: "website",
+      locale: site.locale,
+      url: site.url,
+      siteName: site.name,
+      title: `${site.name}, Dubai Luxury Real Estate`,
+      description: site.description,
+      images: [
+        {
+          url: "https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
+          width: 1200,
+          height: 630,
+          alt: "EQT, Dubai luxury real estate",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${site.name}, Dubai Luxury Real Estate`,
+      description: site.description,
+      images: ["https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+    },
+    // English pages index normally. Localized (uk/ru) pages that still render the
+    // English base copy are noindexed here to avoid duplicate content; translated
+    // blog posts override this back to index:true in their own generateMetadata.
+    robots: isEn
+      ? { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } }
+      : { index: false, follow: true },
+    verification: {
+      google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+      other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+        ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION }
+        : {},
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

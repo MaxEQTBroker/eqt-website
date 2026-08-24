@@ -38,9 +38,12 @@ export async function generateMetadata({
     description: post.excerpt,
     keywords: post.keywords,
     alternates: { canonical, languages },
-    // Not-yet-translated uk/ru posts render English as a fallback; noindex them
-    // so Google never treats them as duplicate English pages at localized URLs.
-    ...(translated ? {} : { robots: { index: false, follow: true } }),
+    // Translated posts index (overriding the layout's per-locale noindex); a
+    // not-yet-translated uk/ru post renders English fallback and stays noindexed
+    // so Google never treats it as a duplicate English page at a localized URL.
+    robots: translated
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
     openGraph: {
       type: "article",
       title: post.title,
