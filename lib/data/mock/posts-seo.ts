@@ -555,7 +555,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "dubai-property-service-charges-hidden-costs-explained",
     "title": "Dubai Property Service Charges & Hidden Costs Explained",
-    "excerpt": "Buying in Dubai costs roughly 7-8% above the price: a 4% DLD transfer fee plus agency, trustee and registration, then annual service charges of AED 10-30+/sqft.",
+    "excerpt": "Buying in Dubai costs roughly 7-8% above the price: a 4% DLD transfer fee plus agency, trustee and registration, then annual service charges of AED.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -692,7 +692,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "rental-yields-dubai-best-performing-luxury-communities",
     "title": "Rental Yields in Dubai: Best Luxury Communities",
-    "excerpt": "Prime Dubai apartments typically yield ~5-7% gross, outperforming villas at ~4-5%. Dubai Marina and well-run apartment districts lead luxury rental performance.",
+    "excerpt": "Prime Dubai apartments typically yield ~5-7% gross, outperforming villas at ~4-5%. Dubai Marina and well-run apartment districts lead luxury rental.",
     "category": "Market & Data",
     "author": {
       "name": "The EQT Private Office",
@@ -1907,7 +1907,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "dubai-vs-london-for-property-investment-which-is-better",
     "title": "Dubai vs London for Property Investment: Which Is Better?",
-    "excerpt": "Dubai offers higher yields (~5-7%), no property or capital-gains tax and freehold ownership; London offers deep liquidity but lower yields and higher taxes.",
+    "excerpt": "Dubai offers higher yields (~5-7%), no property or capital-gains tax and freehold ownership; London offers deep liquidity but lower yields and higher.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -2395,7 +2395,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "renting-vs-buying-in-dubai-which-makes-sense",
     "title": "Renting vs Buying in Dubai: Which Makes Sense?",
-    "excerpt": "Buying in Dubai usually makes sense if you will stay several years and can absorb costs; renting suits shorter horizons and flexibility. Here is how to decide.",
+    "excerpt": "Buying in Dubai usually makes sense if you will stay several years and can absorb costs; renting suits shorter horizons and flexibility.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -2642,7 +2642,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "cheapest-freehold-areas-to-buy-in-dubai",
     "title": "Cheapest Freehold Areas to Buy in Dubai",
-    "excerpt": "The cheapest freehold areas to buy in Dubai include International City, Dubai South, JVC, Arjan, Town Square, Damac Hills 2, and entry-level Business Bay units.",
+    "excerpt": "The cheapest freehold areas to buy in Dubai include International City, Dubai South, JVC, Arjan, Town Square, Damac Hills 2, and entry-level Business Bay.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2762,7 +2762,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "dubai-vs-abu-dhabi-property-investment",
     "title": "Dubai vs Abu Dhabi for Property Investment",
-    "excerpt": "Dubai offers a larger, more liquid market and stronger international demand; Abu Dhabi is more stable and government-led with higher yields on select assets.",
+    "excerpt": "Dubai offers a larger, more liquid market and stronger international demand; Abu Dhabi is more stable and government-led with higher yields on select.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2881,7 +2881,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "townhouse-vs-villa-dubai-which-to-buy",
     "title": "Townhouse vs Villa in Dubai: Which Should You Buy?",
-    "excerpt": "Townhouses are cheaper, lower-maintenance and share walls, ideal for families and first buyers; villas are larger, private and command stronger prime appreciation.",
+    "excerpt": "Townhouses are cheaper, lower-maintenance and share walls, ideal for families and first buyers; villas are larger, private and command stronger prime.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3152,7 +3152,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-much-does-it-cost-to-sell-property-in-dubai",
     "title": "How Much Does It Cost to Sell Property in Dubai?",
-    "excerpt": "Selling in Dubai typically costs the seller 2 to 3 percent of the price, made up of a 2 percent agent commission plus 5 percent VAT, a developer NOC fee, and small transfer and conveyancing charges. There is no UAE tax on the gain.",
+    "excerpt": "Selling in Dubai typically costs the seller 2 to 3 percent of the price, made up of a 2 percent agent commission plus 5 percent VAT, a developer NOC fee.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3282,7 +3282,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "best-time-to-sell-property-in-dubai",
     "title": "Best Time to Sell Property in Dubai",
-    "excerpt": "The strongest selling window in Dubai runs from October to April, when cooler weather brings the highest volume of active buyers. Listings launched early in that season typically transact faster and closer to asking.",
+    "excerpt": "The strongest selling window in Dubai runs from October to April, when cooler weather brings the highest volume of active buyers.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3399,7 +3399,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-price-your-dubai-property-to-sell",
     "title": "How to Price Your Dubai Property to Sell",
-    "excerpt": "Price your Dubai property from genuine DLD comparable sales, not aspirational asking prices, and aim within about 3 percent of true market value. Overpricing usually costs more in time and eventual discount than pricing correctly from day one.",
+    "excerpt": "Price your Dubai property from genuine DLD comparable sales, not aspirational asking prices, and aim within about 3 percent of true market value.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3528,7 +3528,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "documents-needed-to-sell-property-in-dubai",
     "title": "Documents You Need to Sell Property in Dubai",
-    "excerpt": "To sell in Dubai you need the title deed, your passport and Emirates ID, a signed Form A listing agreement, the developer NOC, and, if applicable, a mortgage liability letter. A power of attorney is required if you sell remotely.",
+    "excerpt": "To sell in Dubai you need the title deed, your passport and Emirates ID, a signed Form A listing agreement, the developer NOC, and, if applicable, a.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3662,7 +3662,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-off-plan-property-in-dubai-before-handover",
     "title": "How to Sell Off-Plan Property in Dubai Before Handover",
-    "excerpt": "You can sell an off-plan unit before handover through an assignment, but most developers require you to have paid 30 to 40 percent of the purchase price first, plus a developer NOC and a transfer fee.",
+    "excerpt": "You can sell an off-plan unit before handover through an assignment, but most developers require you to have paid 30 to 40 percent of the purchase price.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3796,7 +3796,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-a-tenanted-property-in-dubai",
     "title": "How to Sell a Tenanted Property in Dubai",
-    "excerpt": "You can sell a tenanted property in Dubai at any time, but the buyer inherits the existing lease and the tenant can stay until it ends; to sell with vacant possession you must give the tenant 12 months notarised notice.",
+    "excerpt": "You can sell a tenanted property in Dubai at any time, but the buyer inherits the existing lease and the tenant can stay until it ends; to sell with.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3930,7 +3930,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "noc-for-selling-property-in-dubai",
     "title": "What Is an NOC for Selling Property in Dubai?",
-    "excerpt": "An NOC is the developer's No Objection Certificate confirming you have no service-charge arrears and it does not object to the sale; it typically costs AED 500 to 5,000 and takes a few days to two weeks.",
+    "excerpt": "An NOC is the developer's No Objection Certificate confirming you have no service-charge arrears and it does not object to the sale; it typically costs.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4057,7 +4057,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "selling-property-in-dubai-with-a-mortgage",
     "title": "How to Sell a Property in Dubai With a Mortgage",
-    "excerpt": "You can sell a mortgaged property in Dubai: your bank issues a liability letter, the loan is settled on transfer day, the DLD blocks the property until it clears, and an early settlement fee is capped at 1 percent of the outstanding balance or AED 10,000, whichever is lower.",
+    "excerpt": "You can sell a mortgaged property in Dubai: your bank issues a liability letter, the loan is settled on transfer day, the DLD blocks the property until it.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4196,7 +4196,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-your-property-in-dubai-fast",
     "title": "How to Sell Your Property in Dubai Fast",
-    "excerpt": "To sell your Dubai property fast, price it correctly from day one using DLD comparables, present it professionally, and appoint one committed exclusive agent who can reach pre-qualified and cash buyers while you stay transaction-ready.",
+    "excerpt": "To sell your Dubai property fast, price it correctly from day one using DLD comparables, present it professionally, and appoint one committed exclusive.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4345,7 +4345,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "exclusive-vs-open-listing-in-dubai",
     "title": "Exclusive vs Open Listing: How to Sell in Dubai",
-    "excerpt": "An exclusive listing appoints one agent under RERA Form A and concentrates marketing, accountability and portal prominence, which typically sells faster and at a cleaner price than an open listing spread across many agents.",
+    "excerpt": "An exclusive listing appoints one agent under RERA Form A and concentrates marketing, accountability and portal prominence, which typically sells faster.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4481,7 +4481,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-stage-your-dubai-property-for-sale",
     "title": "How to Stage Your Dubai Property for Sale",
-    "excerpt": "Staging a Dubai property for sale means decluttering, neutralising and making small repairs, then styling for professional photography and viewings, a modest investment that widens the buyer pool and supports a stronger, faster sale.",
+    "excerpt": "Staging a Dubai property for sale means decluttering, neutralising and making small repairs, then styling for professional photography and viewings, a.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4630,7 +4630,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-a-luxury-villa-in-dubai",
     "title": "How to Sell a Luxury Villa in Dubai",
-    "excerpt": "Selling a trophy villa in Dubai is won on preparation and discretion, not exposure. Price it from genuine comparable sales, market it privately to qualified international buyers, present it to a standard that matches the asset, and appoint a specialist prime agent with a real private database.",
+    "excerpt": "Selling a trophy villa in Dubai is won on preparation and discretion, not exposure. Price it from genuine comparable sales, market it privately to.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4773,7 +4773,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "do-you-pay-tax-when-you-sell-property-in-dubai",
     "title": "Do You Pay Tax When You Sell Property in Dubai?",
-    "excerpt": "No. The UAE charges no capital gains tax and no income tax on the sale of property, so you keep the full profit from a Dubai sale. Your only costs are transaction fees. The one caveat is that your home country may still tax the gain, so check your own tax residency rules.",
+    "excerpt": "No. The UAE charges no capital gains tax and no income tax on the sale of property, so you keep the full profit from a Dubai sale.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4905,7 +4905,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-sell-property-in-dubai-as-a-non-resident",
     "title": "How to Sell Property in Dubai as a Non-Resident",
-    "excerpt": "You can sell your Dubai property from anywhere in the world without flying in. Grant a notarised and attested Power of Attorney to a trusted representative, who completes the DLD transfer on your behalf, then repatriate the proceeds freely. This guide covers the POA, documents, banking and timelines.",
+    "excerpt": "You can sell your Dubai property from anywhere in the world without flying in. Grant a notarised and attested Power of Attorney to a trusted.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5049,7 +5049,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "what-is-the-7-percent-rule-in-real-estate",
     "title": "What Is the 7% Rule in Real Estate?",
-    "excerpt": "The 7% rule is an informal US investing heuristic, not a Dubai regulation. Most people use it to mean a property should produce a gross rental yield of at least 7 percent, a target that is achievable in select Dubai apartment communities where prime yields run 5 to 7 percent, but rare for luxury villas.",
+    "excerpt": "The 7% rule is an informal US investing heuristic, not a Dubai regulation. Most people use it to mean a property should produce a gross rental yield of at.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -5179,7 +5179,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "disadvantages-of-buying-property-in-dubai",
     "title": "The Disadvantages of Buying Property in Dubai",
-    "excerpt": "Dubai property carries real trade-offs alongside its tax advantages: service charges of roughly AED 10 to 35 per square foot that trim net yields by 1 to 2 points, a cyclical market with periodic oversupply, off-plan completion risk, thinner liquidity at the luxury end, currency risk from the USD peg, and one-off buying costs of about 7 to 8 percent. Each can be managed with the right diligence.",
+    "excerpt": "Dubai property carries real trade-offs alongside its tax advantages: service charges of roughly AED 10 to 35 per square foot that trim net yields by 1 to.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5318,7 +5318,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-tell-if-a-dubai-property-is-a-good-investment",
     "title": "How to Tell If a Dubai Property Is a Good Investment",
-    "excerpt": "A Dubai property is a sound investment when it combines a liquid, demand-led location, a defensible net yield after costs, manageable service charges, and a credible developer. Prime apartments commonly yield 5 to 7 percent gross, but the number that decides it is the net yield you keep after service charges of roughly AED 10 to 35 per square foot and the 7 to 8 percent of one-off buying costs.",
+    "excerpt": "A Dubai property is a sound investment when it combines a liquid, demand-led location, a defensible net yield after costs, manageable service charges, and.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -5458,7 +5458,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-to-negotiate-property-prices-in-dubai",
     "title": "How to Negotiate Property Prices in Dubai",
-    "excerpt": "You negotiate a Dubai property with evidence, not instinct: genuine DLD comparable sales set a defensible number, seller motivation sets your leverage, and cash strengthens your hand. Ready resale is generally more negotiable, often in the low single digits to around 10 percent off asking in softer conditions, while off-plan negotiation is limited to developer incentives such as a DLD fee waiver, furniture, or an extended payment plan.",
+    "excerpt": "You negotiate a Dubai property with evidence, not instinct: genuine DLD comparable sales set a defensible number, seller motivation sets your leverage.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5601,7 +5601,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "questions-to-ask-a-real-estate-agent-in-dubai",
     "title": "Questions to Ask a Real Estate Agent in Dubai",
-    "excerpt": "Before you sign anything, ask an agent for their RERA Broker Registration Number, evidenced comparable sales in your exact community, whether the listing is exclusive, the total fees, and how they verify the seller's ownership. A capable agent answers each of these plainly and puts the detail in writing.",
+    "excerpt": "Before you sign anything, ask an agent for their RERA Broker Registration Number, evidenced comparable sales in your exact community, whether the listing.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5757,7 +5757,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-real-estate-commission-works-in-dubai",
     "title": "How Real Estate Agent Commission Works in Dubai",
-    "excerpt": "In Dubai the standard real estate commission is 2% of the property price plus 5% VAT. On a resale the buyer typically pays their agent's 2% plus VAT, while on off-plan the developer usually pays the agent, so the buyer often pays nothing. Commission is due on successful transfer, not on viewings, and it is negotiable.",
+    "excerpt": "In Dubai the standard real estate commission is 2% of the property price plus 5% VAT. On a resale the buyer typically pays their agent's 2% plus VAT.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5900,7 +5900,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "do-real-estate-agents-in-dubai-need-a-license",
     "title": "Do Real Estate Agents in Dubai Need a License?",
-    "excerpt": "Yes. Every real estate agent in Dubai must be licensed: the individual holds a RERA Broker Registration Number and works under an agency with an Office Registration Number. Practising without a licence is illegal. You can verify any agent in minutes using the Dubai REST app or the DLD public Brokers register.",
+    "excerpt": "Yes. Every real estate agent in Dubai must be licensed: the individual holds a RERA Broker Registration Number and works under an agency with an Office.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6043,7 +6043,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "real-estate-agent-red-flags-in-dubai",
     "title": "Real Estate Agent Red Flags to Watch For in Dubai",
-    "excerpt": "The clearest red flags with a Dubai agent are no verifiable BRN, pressure and false urgency, requests to pay a personal or overseas account rather than a DLD trustee, and refusal to use RERA forms or allow DLD and developer verification. Prices far below market, reused listing photos and vagueness on fees are further warnings. Protect yourself by verifying the licence and keeping money in official channels.",
+    "excerpt": "The clearest red flags with a Dubai agent are no verifiable BRN, pressure and false urgency, requests to pay a personal or overseas account rather than a.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6341,7 +6341,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "documents-needed-to-buy-property-in-dubai",
     "title": "What Documents Do You Need to Buy Property in Dubai?",
-    "excerpt": "A non-resident mainly needs a valid passport, while the core buyer checklist covers the passport, signed MOU (Form F), proof of funds or mortgage pre-approval, the 10% deposit cheque and, for financed purchases, the bank's offer letter.",
+    "excerpt": "A non-resident mainly needs a valid passport, while the core buyer checklist covers the passport, signed MOU (Form F), proof of funds or mortgage.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6484,7 +6484,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "furnished-vs-unfurnished-apartments-in-dubai",
     "title": "Furnished vs Unfurnished Apartments in Dubai",
-    "excerpt": "Furnished apartments can command higher short-term and holiday-let rates but cost more upfront and depreciate, while unfurnished units suit long-term family tenants, are cheaper to maintain and are the norm for annual leases.",
+    "excerpt": "Furnished apartments can command higher short-term and holiday-let rates but cost more upfront and depreciate, while unfurnished units suit long-term.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6627,7 +6627,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "villa-vs-apartment-living-in-dubai",
     "title": "Villa vs Apartment Living in Dubai",
-    "excerpt": "Villas offer space, privacy and land value but higher price, maintenance and a gross yield of about 4 to 5%, while apartments offer a lower entry point, amenities, stronger liquidity and a gross yield of about 5 to 7%.",
+    "excerpt": "Villas offer space, privacy and land value but higher price, maintenance and a gross yield of about 4 to 5%, while apartments offer a lower entry point.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6770,7 +6770,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "off-market-luxury-villas-dubai",
     "title": "Off-Market Luxury Villas in Dubai: A Buyer's Guide",
-    "excerpt": "Off-market luxury villas in Dubai are homes sold privately, never listed on Property Finder or Bayut, and accessed only through a broker's confidential database. Many of the finest villas on Palm Jumeirah, in Emirates Hills and Al Barari trade this way to protect seller privacy and price.",
+    "excerpt": "Off-market luxury villas in Dubai are homes sold privately, never listed on Property Finder or Bayut, and accessed only through a broker's confidential.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -6920,7 +6920,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "discreet-property-sales-in-dubai",
     "title": "Discreet Property Sales in Dubai: Selling Privately",
-    "excerpt": "A discreet property sale in Dubai lets you sell without any public listing, using NDA-bound viewings and a vetted shortlist of buyers reached through a broker's private database. It suits owners who value confidentiality and price control over maximum public exposure.",
+    "excerpt": "A discreet property sale in Dubai lets you sell without any public listing, using NDA-bound viewings and a vetted shortlist of buyers reached through a.",
     "category": "Seller Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7069,7 +7069,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "buying-property-on-palm-jumeirah",
     "title": "Buying Property on Palm Jumeirah: The Complete Guide",
-    "excerpt": "Buying property on Palm Jumeirah means choosing between the private fronds, the connected trunk and the beachfront crescent, with villas from around AED 12M and apartments from around AED 1.5M. Expect roughly 7 to 8 percent in one-off costs and no annual property tax.",
+    "excerpt": "Buying property on Palm Jumeirah means choosing between the private fronds, the connected trunk and the beachfront crescent, with villas from around AED.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7223,7 +7223,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "al-barari-real-estate-guide",
     "title": "Al Barari Real Estate Guide: Villas, Prices and Living",
-    "excerpt": "Al Barari is an ultra-low-density botanical community in Dubailand where large villas sit among landscaped gardens and themed water features, with villa prices typically from about AED 12M to AED 150M and above.",
+    "excerpt": "Al Barari is an ultra-low-density botanical community in Dubailand where large villas sit among landscaped gardens and themed water features, with villa.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7371,7 +7371,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "best-gated-communities-in-dubai",
     "title": "The Best Gated Communities in Dubai",
-    "excerpt": "Dubai's best gated communities include Emirates Hills, Al Barari, Jumeirah Islands, District One, Dubai Hills Estate, Palm Jumeirah villa enclaves and Jumeirah Golf Estates, with prime villa prices ranging from single-digit millions to AED 300M and above.",
+    "excerpt": "Dubai's best gated communities include Emirates Hills, Al Barari, Jumeirah Islands, District One, Dubai Hills Estate, Palm Jumeirah villa enclaves and.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",

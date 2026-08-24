@@ -141,7 +141,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "how-to-rent-out-your-property-in-dubai",
     "title": "How to rent out your property in Dubai: a landlord's guide",
-    "excerpt": "To rent out property in Dubai, appoint a RERA agent or list it yourself, sign a tenancy contract, register it on Ejari, and hand over with a deposit collected.",
+    "excerpt": "To rent out property in Dubai, appoint a RERA agent or list it yourself, sign a tenancy contract, register it on Ejari, and hand over with a deposit.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -276,7 +276,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "short-term-vs-long-term-rental-dubai",
     "title": "Short-term vs long-term rental in Dubai: which earns more?",
-    "excerpt": "Short-term holiday lets in Dubai can earn 20 to 40% more gross than long-term rentals, but higher costs and effort often narrow the net gap. Here is the full comparison.",
+    "excerpt": "Short-term holiday lets in Dubai can earn 20 to 40% more gross than long-term rentals, but higher costs and effort often narrow the net gap.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -411,7 +411,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "property-management-in-dubai-explained",
     "title": "Property management in Dubai explained",
-    "excerpt": "Property management in Dubai means a company handles tenants, rent, maintenance and Ejari for you, typically for 5 to 10% of annual rent. Here is how it works.",
+    "excerpt": "Property management in Dubai means a company handles tenants, rent, maintenance and Ejari for you, typically for 5 to 10% of annual rent.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -560,7 +560,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "renting-vs-buying-in-dubai",
     "title": "Renting vs buying in Dubai: which is better?",
-    "excerpt": "Buying in Dubai tends to beat renting if you stay 3 to 5 years or more, thanks to no property tax and tax-free gains. Here is how to decide for your situation.",
+    "excerpt": "Buying in Dubai tends to beat renting if you stay 3 to 5 years or more, thanks to no property tax and tax-free gains.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -695,7 +695,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "how-to-check-property-value-in-dubai",
     "title": "How to check a property's value in Dubai",
-    "excerpt": "To check a property's value in Dubai, review DLD transaction data, compare recent sales of similar units, and get a RERA-registered valuation for a formal figure.",
+    "excerpt": "To check a property's value in Dubai, review DLD transaction data, compare recent sales of similar units, and get a RERA-registered valuation for a formal.",
     "category": "Market & Data",
     "author": {
       "name": "The EQT Private Office",
@@ -1247,7 +1247,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "dubai-property-payment-plans-explained",
     "title": "Dubai property payment plans explained",
-    "excerpt": "Dubai payment plans let you buy off-plan by paying in instalments during construction, often with post-handover options that spread costs for years after completion.",
+    "excerpt": "Dubai payment plans let you buy off-plan by paying in instalments during construction, often with post-handover options that spread costs for years after.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -1526,7 +1526,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "how-to-avoid-property-scams-in-dubai",
     "title": "How to avoid property scams in Dubai",
-    "excerpt": "Avoid Dubai property scams by verifying your agent's RERA licence, checking ownership with the DLD and paying only through official escrow and registered channels.",
+    "excerpt": "Avoid Dubai property scams by verifying your agent's RERA licence, checking ownership with the DLD and paying only through official escrow and registered.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -1670,7 +1670,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "buying-property-in-dubai-for-uk-buyers",
     "title": "Buying property in Dubai for UK buyers",
-    "excerpt": "UK buyers can purchase freehold property in Dubai remotely, own the title outright at the DLD, pay a 4% transfer fee, and enjoy no property or capital gains tax.",
+    "excerpt": "UK buyers can purchase freehold property in Dubai remotely, own the title outright at the DLD, pay a 4% transfer fee, and enjoy no property or capital.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -1816,7 +1816,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "buying-property-in-dubai-for-pakistani-buyers",
     "title": "Buying property in Dubai for Pakistani buyers",
-    "excerpt": "Pakistani buyers can own Dubai freehold property outright at the DLD, buy remotely, pay a 4% transfer fee, and pay no property, capital gains or rental income tax.",
+    "excerpt": "Pakistani buyers can own Dubai freehold property outright at the DLD, buy remotely, pay a 4% transfer fee, and pay no property, capital gains or rental.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -1962,7 +1962,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "buying-property-in-dubai-for-chinese-buyers",
     "title": "Buying property in Dubai for Chinese buyers",
-    "excerpt": "Chinese buyers can own Dubai freehold property outright at the DLD, purchase remotely, pay a 4% transfer fee, and pay no property, capital gains or rental income tax.",
+    "excerpt": "Chinese buyers can own Dubai freehold property outright at the DLD, purchase remotely, pay a 4% transfer fee, and pay no property, capital gains or rental.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2108,7 +2108,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "buying-property-in-dubai-for-us-citizens",
     "title": "Buying property in Dubai for US citizens",
-    "excerpt": "US citizens can own Dubai freehold property outright at the DLD, buy remotely, and pay no local property or capital gains tax, but must meet FATCA and US worldwide reporting.",
+    "excerpt": "US citizens can own Dubai freehold property outright at the DLD, buy remotely, and pay no local property or capital gains tax, but must meet FATCA and US.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2260,7 +2260,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "how-to-get-dubai-residency-by-buying-property",
     "title": "How to get Dubai residency by buying property",
-    "excerpt": "Buying Dubai property worth AED 2,000,000 or more secures a 10-year Golden Visa, while qualifying lower-value purchases can earn a renewable 2-year investor visa.",
+    "excerpt": "Buying Dubai property worth AED 2,000,000 or more secures a 10-year Golden Visa, while qualifying lower-value purchases can earn a renewable 2-year.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2407,7 +2407,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "cost-of-living-in-dubai-for-property-buyers",
     "title": "Cost of living in Dubai: a guide for property buyers",
-    "excerpt": "A comfortable single lifestyle in Dubai costs roughly AED 8,000-15,000 a month excluding rent, with families higher; no income tax and no property tax help offset costs.",
+    "excerpt": "A comfortable single lifestyle in Dubai costs roughly AED 8,000-15,000 a month excluding rent, with families higher; no income tax and no property tax.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -2553,7 +2553,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "best-communities-for-capital-appreciation-in-dubai",
     "title": "Best communities for capital appreciation in Dubai",
-    "excerpt": "Dubai's strongest capital appreciation sits in low-supply prime areas like Palm Jumeirah, Downtown and Emirates Hills. Here is where prices grow fastest and why.",
+    "excerpt": "Dubai's strongest capital appreciation sits in low-supply prime areas like Palm Jumeirah, Downtown and Emirates Hills.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -2692,7 +2692,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "studio-and-one-bed-apartment-investment-in-dubai",
     "title": "Studio and one-bed apartment investment in Dubai",
-    "excerpt": "Studios and one-beds are Dubai's highest-yielding entry point, often 6-9% gross, with studios in value areas starting from around AED 700,000. Here is how to invest.",
+    "excerpt": "Studios and one-beds are Dubai's highest-yielding entry point, often 6-9% gross, with studios in value areas starting from around AED 700,000.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -2830,7 +2830,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "is-now-a-good-time-to-buy-property-in-dubai",
     "title": "Is now a good time to buy property in Dubai?",
-    "excerpt": "For most long-term buyers, yes. Dubai offers 6-9% yields, no property or capital gains tax and steady population-led demand. Timing matters less than horizon.",
+    "excerpt": "For most long-term buyers, yes. Dubai offers 6-9% yields, no property or capital gains tax and steady population-led demand.",
     "category": "Market & Data",
     "author": {
       "name": "The EQT Private Office",
@@ -2969,7 +2969,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "dubai-vs-global-cities-property-investment",
     "title": "Dubai vs global cities for property investment",
-    "excerpt": "Dubai beats Singapore, New York, London and Miami on yield and tax, offering 6-9% gross returns with no property or capital gains tax. Here is the full comparison.",
+    "excerpt": "Dubai beats Singapore, New York, London and Miami on yield and tax, offering 6-9% gross returns with no property or capital gains tax.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -3101,7 +3101,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "mortgage-rates-in-dubai-explained",
     "title": "Mortgage rates in Dubai explained",
-    "excerpt": "Dubai mortgage rates track EIBOR and come as fixed or variable. Non-residents borrow ~50-60% LTV, residents up to 80%. Here is how rates and terms really work.",
+    "excerpt": "Dubai mortgage rates track EIBOR and come as fixed or variable. Non-residents borrow ~50-60% LTV, residents up to 80%.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3244,7 +3244,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "cheapest-areas-to-buy-property-in-dubai",
     "title": "Cheapest areas to buy property in Dubai",
-    "excerpt": "Dubai's cheapest areas include International City, JVC, Dubai Sports City and Dubailand, with studios from around AED 700,000 and some of the city's best yields.",
+    "excerpt": "Dubai's cheapest areas include International City, JVC, Dubai Sports City and Dubailand, with studios from around AED 700,000 and some of the city's best.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3529,7 +3529,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "waterfront-property-in-dubai-best-areas",
     "title": "Waterfront property in Dubai: best areas and prices",
-    "excerpt": "Dubai's best waterfront areas are Palm Jumeirah, Emaar Beachfront, Dubai Marina, Bluewaters and Jumeirah Bay, spanning beach apartments to AED 100M+ villas.",
+    "excerpt": "Dubai's best waterfront areas are Palm Jumeirah, Emaar Beachfront, Dubai Marina, Bluewaters and Jumeirah Bay, spanning beach apartments to AED 100M+.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3673,7 +3673,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "branded-residences-in-dubai-explained",
     "title": "Branded residences in Dubai explained",
-    "excerpt": "Branded residences are homes tied to a luxury brand like Bulgari, Armani or Dorchester Collection, offering hotel-grade service, design and a resale premium.",
+    "excerpt": "Branded residences are homes tied to a luxury brand like Bulgari, Armani or Dorchester Collection, offering hotel-grade service, design and a resale.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -4106,7 +4106,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "how-to-buy-your-first-property-in-dubai",
     "title": "How to buy your first property in Dubai",
-    "excerpt": "First-time buyers can purchase freehold in Dubai's designated areas: budget for a 10% deposit, 4% DLD fee and ~2% agency plus 5% VAT, then register at the DLD.",
+    "excerpt": "First-time buyers can purchase freehold in Dubai's designated areas: budget for a 10% deposit, 4% DLD fee and ~2% agency plus 5% VAT, then register at the.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5093,7 +5093,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "off-plan-vs-ready-property-in-dubai",
     "title": "Off-plan vs ready property in Dubai: which is better?",
-    "excerpt": "Off-plan suits investors chasing capital growth and low entry payments; ready property suits buyers who want immediate rental income and zero construction risk.",
+    "excerpt": "Off-plan suits investors chasing capital growth and low entry payments; ready property suits buyers who want immediate rental income and zero construction.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5504,7 +5504,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "property-tax-in-dubai",
     "title": "Property tax in Dubai: is Dubai really tax-free?",
-    "excerpt": "Dubai has no annual property tax, no capital gains tax and no tax on rental income, but buyers pay a one-off 4% DLD transfer fee and yearly service charges.",
+    "excerpt": "Dubai has no annual property tax, no capital gains tax and no tax on rental income, but buyers pay a one-off 4% DLD transfer fee and yearly service.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -5777,7 +5777,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "how-to-invest-in-dubai-real-estate-from-india",
     "title": "How to invest in Dubai real estate from India: an NRI guide",
-    "excerpt": "Indian investors can buy Dubai freehold property outright, remit funds under the RBI Liberalised Remittance Scheme, and purchase remotely via power of attorney.",
+    "excerpt": "Indian investors can buy Dubai freehold property outright, remit funds under the RBI Liberalised Remittance Scheme, and purchase remotely via power of.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -6949,7 +6949,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "dubai-property-investment-mistakes-to-avoid",
     "title": "10 Dubai property investment mistakes to avoid",
-    "excerpt": "The costliest Dubai property mistakes are ignoring total buying costs, skipping due diligence on the developer, and chasing yield without checking service charges.",
+    "excerpt": "The costliest Dubai property mistakes are ignoring total buying costs, skipping due diligence on the developer, and chasing yield without checking service.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7350,7 +7350,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "how-to-transfer-property-ownership-in-dubai",
     "title": "How to transfer property ownership in Dubai",
-    "excerpt": "Property ownership in Dubai transfers at the Dubai Land Department, where buyer and seller sign, the 4% transfer fee is paid, and a new title deed is issued.",
+    "excerpt": "Property ownership in Dubai transfers at the Dubai Land Department, where buyer and seller sign, the 4% transfer fee is paid, and a new title deed is.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -7482,7 +7482,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "buying-property-in-dubai-for-russian-buyers",
     "title": "Buying property in Dubai for Russian buyers",
-    "excerpt": "Russian buyers can own freehold property in Dubai, buy remotely by power of attorney, and qualify for a 10-year Golden Visa on purchases from AED 2 million.",
+    "excerpt": "Russian buyers can own freehold property in Dubai, buy remotely by power of attorney, and qualify for a 10-year Golden Visa on purchases from AED 2.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -8007,7 +8007,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "dubai-real-estate-hotspots-2026",
     "title": "Dubai real estate hotspots to watch in 2026",
-    "excerpt": "Dubai's 2026 hotspots include Dubai South, Jumeirah Village Circle, Dubai Creek Harbour, and Business Bay, blending strong yields with room for capital growth.",
+    "excerpt": "Dubai's 2026 hotspots include Dubai South, Jumeirah Village Circle, Dubai Creek Harbour, and Business Bay, blending strong yields with room for capital.",
     "category": "Market & Data",
     "author": {
       "name": "The EQT Private Office",
