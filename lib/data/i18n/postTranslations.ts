@@ -22,3 +22,10 @@ export function localizePost(post: BlogPost, locale?: string): BlogPost {
   const overlay = MAPS[locale]?.[post.slug];
   return overlay ? { ...post, ...overlay } : post;
 }
+
+/** True when a real translation exists for this post in this locale. Used to
+ * noindex not-yet-translated uk/ru pages so they never rank as English duplicates. */
+export function hasPostTranslation(slug: string, locale?: string): boolean {
+  if (!locale || locale === "en") return true;
+  return Boolean(MAPS[locale]?.[slug]);
+}

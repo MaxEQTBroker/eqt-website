@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/data/blog";
+import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
@@ -25,11 +26,16 @@ export async function generateMetadata({
   const { slug, locale } = await params;
   const post = await getPostBySlug(slug, locale);
   if (!post) return {};
+  const canonical = locale === "en" ? `/blog/${post.slug}` : `/${locale}/blog/${post.slug}`;
+  const translated = hasPostTranslation(slug, locale);
   return {
     title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical },
+    // Not-yet-translated uk/ru posts render English as a fallback; noindex them
+    // so Google never treats them as duplicate English pages at localized URLs.
+    ...(translated ? {} : { robots: { index: false, follow: true } }),
     openGraph: {
       type: "article",
       title: post.title,
