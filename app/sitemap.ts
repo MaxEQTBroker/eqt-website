@@ -9,6 +9,7 @@ import {
 } from "@/lib/data/repository";
 import { getAllPostSlugs } from "@/lib/data/blog";
 import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
+import { hasAreaTranslation } from "@/lib/data/i18n/areaTranslations";
 import { team } from "@/lib/data/team";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -31,12 +32,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }),
   );
 
-  const areaRoutes = areaSlugs.map((slug) => ({
-    url: `${site.url}/areas/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  const areaRoutes = areaSlugs.map((slug) => {
+    const languages: Record<string, string> = { en: `${site.url}/areas/${slug}` };
+    if (hasAreaTranslation(slug, "uk")) languages.uk = `${site.url}/uk/areas/${slug}`;
+    if (hasAreaTranslation(slug, "ru")) languages.ru = `${site.url}/ru/areas/${slug}`;
+    return {
+      url: `${site.url}/areas/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+      ...(Object.keys(languages).length > 1 ? { alternates: { languages } } : {}),
+    };
+  });
 
   const listingRoutes = listingSlugs.map((slug) => ({
     url: `${site.url}/listings/${slug}`,

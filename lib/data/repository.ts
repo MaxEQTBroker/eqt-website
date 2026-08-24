@@ -32,6 +32,7 @@ import { mockPropertyTypes } from "./mock/propertyTypes";
 import { mockTrustSignals } from "./mock/trust";
 import { heroImages } from "./mock/heroImages";
 import { areaContent } from "./mock/areaContent";
+import { localizeArea } from "./i18n/areaTranslations";
 import { developerContent } from "./mock/developerContent";
 
 /**
@@ -294,9 +295,11 @@ export async function getAreas(): Promise<Area[]> {
   return mockAreas.map(withHero);
 }
 
-export async function getAreaBySlug(slug: string): Promise<Area | null> {
+export async function getAreaBySlug(slug: string, locale?: string): Promise<Area | null> {
   const area = mockAreas.find((a) => a.slug === slug);
-  return area ? withContent(withHero(area), areaContent) : null;
+  if (!area) return null;
+  const merged = withContent(withHero(area), areaContent);
+  return localizeArea(merged, locale);
 }
 
 export async function getAllAreaSlugs(): Promise<AreaSlug[]> {

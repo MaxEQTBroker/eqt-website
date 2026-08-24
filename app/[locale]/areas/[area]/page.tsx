@@ -14,6 +14,7 @@ import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { guidesForArea } from "@/lib/data/guideLinks";
+import { hasAreaTranslation } from "@/lib/data/i18n/areaTranslations";
 import {
   AreaFaqJsonLd,
   BreadcrumbJsonLd,
@@ -64,16 +65,24 @@ const AREA_SEO_TITLES: Record<string, string> = {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ area: string }>;
+  params: Promise<{ locale: string; area: string }>;
 }): Promise<Metadata> {
-  const { area: slug } = await params;
-  const area = await getAreaBySlug(slug);
+  const { area: slug, locale } = await params;
+  const area = await getAreaBySlug(slug, locale);
   if (!area) return {};
+  const translated = hasAreaTranslation(slug, locale);
+  const canonical = locale === "en" ? `/areas/${area.slug}` : `/${locale}/areas/${area.slug}`;
+  const languages: Record<string, string> = { "x-default": `/areas/${area.slug}`, en: `/areas/${area.slug}` };
+  if (hasAreaTranslation(slug, "uk")) languages.uk = `/uk/areas/${area.slug}`;
+  if (hasAreaTranslation(slug, "ru")) languages.ru = `/ru/areas/${area.slug}`;
   return {
     title: AREA_SEO_TITLES[area.slug] ?? `${area.label} Property for Sale in Dubai`,
     description: area.intro.slice(0, 155),
     keywords: area.keywords,
-    alternates: { canonical: `/areas/${area.slug}` },
+    alternates: { canonical, languages },
+    // Localized area pages index only once fully translated; otherwise they
+    // render the English base and stay noindexed (no duplicate English pages).
+    robots: translated ? { index: true, follow: true } : { index: false, follow: true },
     openGraph: {
       title: `${area.label}, ${site.name}`,
       description: area.headline,
@@ -85,10 +94,10 @@ export async function generateMetadata({
 export default async function AreaPage({
   params,
 }: {
-  params: Promise<{ area: string }>;
+  params: Promise<{ locale: string; area: string }>;
 }) {
-  const { area: slug } = await params;
-  const area = await getAreaBySlug(slug);
+  const { area: slug, locale } = await params;
+  const area = await getAreaBySlug(slug, locale);
   if (!area) notFound();
 
   const [listings, sold] = await Promise.all([
