@@ -28,11 +28,16 @@ export async function generateMetadata({
   if (!post) return {};
   const canonical = locale === "en" ? `/blog/${post.slug}` : `/${locale}/blog/${post.slug}`;
   const translated = hasPostTranslation(slug, locale);
+  // hreflang: advertise a localized alternate only where a real translation exists,
+  // so Google never cross-links to an English-fallback page. English is x-default.
+  const languages: Record<string, string> = { "x-default": `/blog/${post.slug}`, en: `/blog/${post.slug}` };
+  if (hasPostTranslation(slug, "uk")) languages.uk = `/uk/blog/${post.slug}`;
+  if (hasPostTranslation(slug, "ru")) languages.ru = `/ru/blog/${post.slug}`;
   return {
     title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
-    alternates: { canonical },
+    alternates: { canonical, languages },
     // Not-yet-translated uk/ru posts render English as a fallback; noindex them
     // so Google never treats them as duplicate English pages at localized URLs.
     ...(translated ? {} : { robots: { index: false, follow: true } }),
