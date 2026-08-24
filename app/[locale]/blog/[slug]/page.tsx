@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/data/blog";
 import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
@@ -11,6 +11,9 @@ import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
+
+/** Open Graph locale codes per site language (og:locale wants xx_YY). */
+const OG_LOCALE: Record<string, string> = { en: "en_US", uk: "uk_UA", ru: "ru_RU" };
 
 /** SSG: pre-render every post at build time. */
 export async function generateStaticParams() {
@@ -46,6 +49,8 @@ export async function generateMetadata({
       : { index: false, follow: true },
     openGraph: {
       type: "article",
+      locale: OG_LOCALE[locale] ?? OG_LOCALE.en,
+      alternateLocale: Object.values(OG_LOCALE).filter((l) => l !== (OG_LOCALE[locale] ?? OG_LOCALE.en)),
       title: post.title,
       description: post.excerpt,
       images: [post.heroImage.url],
@@ -94,7 +99,7 @@ export default async function BlogPostPage({
           { name: post.title, path: `/blog/${post.slug}` },
         ]}
       />
-      <ArticleJsonLd post={post} />
+      <ArticleJsonLd post={post} locale={locale} />
       <FaqJsonLd faqs={post.faqs} />
 
       {/* Header */}

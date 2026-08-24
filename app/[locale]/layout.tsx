@@ -34,6 +34,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const isEn = locale === "en";
+  const ogLocale = ({ en: "en_US", uk: "uk_UA", ru: "ru_RU" } as Record<string, string>)[locale] ?? "en_US";
   return {
     metadataBase: new URL(site.url),
     title: {
@@ -53,7 +54,7 @@ export async function generateMetadata({
     alternates: { canonical: isEn ? "/" : `/${locale}` },
     openGraph: {
       type: "website",
-      locale: site.locale,
+      locale: ogLocale,
       url: site.url,
       siteName: site.name,
       title: `${site.name}, Dubai Luxury Real Estate`,

@@ -299,7 +299,8 @@ export function FaqJsonLd({ faqs }: { faqs: { question: string; answer: string }
 }
 
 /** BlogPosting — lets search + AI engines attribute and cite the article. */
-export function ArticleJsonLd({ post }: { post: BlogPost }) {
+export function ArticleJsonLd({ post, locale = "en" }: { post: BlogPost; locale?: string }) {
+  const path = locale === "en" ? `/blog/${post.slug}` : `/${locale}/blog/${post.slug}`;
   return (
     <JsonLd
       data={{
@@ -308,11 +309,12 @@ export function ArticleJsonLd({ post }: { post: BlogPost }) {
         headline: post.title,
         description: post.excerpt,
         image: [absUrl(post.heroImage.url)],
+        inLanguage: locale,
         datePublished: post.publishedAt,
         dateModified: post.updatedAt,
         author: { "@type": "Organization", name: post.author.name, url: site.url },
         publisher: { "@id": `${site.url}/#organization` },
-        mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}/blog/${post.slug}` },
+        mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}${path}` },
         speakable: {
           "@type": "SpeakableSpecification",
           cssSelector: ["h1", ".post-intro"],
