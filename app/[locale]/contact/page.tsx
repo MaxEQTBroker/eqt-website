@@ -3,24 +3,59 @@ import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Contact",
-  description:
-    "Speak with a private advisor at EQT, WhatsApp, email or phone. Dubai luxury real estate across Palm Jumeirah, Al Barari and Jumeirah Islands.",
-  alternates: { canonical: "/contact" },
+type ContactCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  breadcrumb: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
+  channelWhatsapp: string;
+  channelWhatsappValue: string;
+  channelEmail: string;
+  channelPhone: string;
+  officeLabel: string;
+  regulatedLine: string;
+  reraLine: string;
 };
 
-export default function ContactPage() {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<ContactCopy>("contact", locale);
+  const canonical = locale === "en" ? "/contact" : `/${locale}/contact`;
+  const languages: Record<string, string> = { "x-default": "/contact", en: "/contact" };
+  if (hasUiTranslation("contact", "uk")) languages.uk = "/uk/contact";
+  if (hasUiTranslation("contact", "ru")) languages.ru = "/ru/contact";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("contact", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
+
+export default async function ContactPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<ContactCopy>("contact", locale);
   const channels = [
     {
-      label: "WhatsApp",
-      value: "Message us directly",
+      label: c.channelWhatsapp,
+      value: c.channelWhatsappValue,
       href: whatsappLink(`Hello ${site.name}, I'd like to enquire.`),
       primary: true,
     },
-    { label: "Email", value: site.contact.email, href: `mailto:${site.contact.email}` },
-    { label: "Phone", value: site.contact.phone, href: `tel:${site.contact.phone.replace(/\s/g, "")}` },
+    { label: c.channelEmail, value: site.contact.email, href: `mailto:${site.contact.email}` },
+    { label: c.channelPhone, value: site.contact.phone, href: `tel:${site.contact.phone.replace(/\s/g, "")}` },
   ];
 
   return (
@@ -28,37 +63,34 @@ export default function ContactPage() {
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Contact", path: "/contact" },
+          { name: c.breadcrumb, path: "/contact" },
         ]}
       />
 
       <section className="container-lux pb-12 pt-40">
-        <p className="eyebrow mb-5">Begin the conversation</p>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
         <h1 className="display-hero max-w-[14ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          Speak with a private advisor
+          {c.h1}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg text-muted">
-          Tell us what you&apos;re looking for and we&apos;ll respond personally,
-          usually within the hour, with a shortlist matched to your brief.
-        </p>
+        <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro}</p>
       </section>
 
       <section className="container-lux grid gap-14 pb-[var(--section-py)] lg:grid-cols-[1fr_1.1fr] lg:gap-20">
         {/* Channels + details */}
         <Reveal>
           <div className="space-y-4">
-            {channels.map((c) => (
+            {channels.map((ch) => (
               <a
-                key={c.label}
-                href={c.href}
-                target={c.href.startsWith("http") ? "_blank" : undefined}
-                rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                key={ch.label}
+                href={ch.href}
+                target={ch.href.startsWith("http") ? "_blank" : undefined}
+                rel={ch.href.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="flex items-center justify-between gap-4 rounded-lg border border-line bg-elevated px-6 py-5 transition-colors duration-300 hover:border-accent-500"
               >
                 <span>
-                  <span className="block text-sm text-faint">{c.label}</span>
-                  <span className={c.primary ? "text-lg text-accent-500" : "text-lg text-ink"}>
-                    {c.value}
+                  <span className="block text-sm text-faint">{ch.label}</span>
+                  <span className={ch.primary ? "text-lg text-accent-500" : "text-lg text-ink"}>
+                    {ch.value}
                   </span>
                 </span>
                 <span className="text-accent-500">→</span>
@@ -67,7 +99,7 @@ export default function ContactPage() {
           </div>
 
           <div className="mt-10 rounded-lg border border-line bg-elevated p-8">
-            <p className="eyebrow mb-5">Office</p>
+            <p className="eyebrow mb-5">{c.officeLabel}</p>
             <address className="not-italic leading-relaxed text-muted">
               {site.contact.address.street}
               <br />
@@ -75,9 +107,11 @@ export default function ContactPage() {
             </address>
             <div className="mt-6 hairline" />
             <p className="mt-6 text-sm text-faint">
-              Regulated by the {site.regulatory.authority}.<br />
-              RERA ORN <span className="text-muted">{site.regulatory.reraOrn}</span> · DED
-              License <span className="text-muted">{site.regulatory.dedLicense}</span>
+              {c.regulatedLine.replace("{authority}", site.regulatory.authority)}
+              <br />
+              {c.reraLine
+                .replace("{orn}", site.regulatory.reraOrn)
+                .replace("{ded}", site.regulatory.dedLicense)}
             </p>
           </div>
         </Reveal>

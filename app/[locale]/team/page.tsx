@@ -1,40 +1,69 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { team } from "@/lib/data/team";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd, TeamJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Our Team, Dubai Real Estate Advisors",
-  description:
-    "Meet the EQT team, a handpicked group of multilingual, RERA-licensed Dubai real estate advisors led by founder Vladyslav Franchuk, covering Palm Jumeirah, Dubai Marina, Downtown and beyond.",
-  alternates: { canonical: "/team" },
+type TeamCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  breadcrumb: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
+  languagesLabel: string;
+  focusLabel: string;
+  ctaEyebrow: string;
+  ctaHeading: string;
+  ctaWhatsapp: string;
 };
 
-export default function TeamPage() {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<TeamCopy>("team", locale);
+  const canonical = locale === "en" ? "/team" : `/${locale}/team`;
+  const languages: Record<string, string> = { "x-default": "/team", en: "/team" };
+  if (hasUiTranslation("team", "uk")) languages.uk = "/uk/team";
+  if (hasUiTranslation("team", "ru")) languages.ru = "/ru/team";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("team", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
+
+export default async function TeamPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<TeamCopy>("team", locale);
   return (
     <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Team", path: "/team" },
+          { name: c.breadcrumb, path: "/team" },
         ]}
       />
       <TeamJsonLd members={team} />
 
       {/* Header */}
       <section className="container-lux pb-16 pt-40">
-        <p className="eyebrow mb-5">The people behind EQT</p>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
         <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          Meet the team
+          {c.h1}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg text-muted">
-          A private, handpicked team of multilingual, RERA-licensed advisors, chosen for genuine
-          market knowledge and a client-first way of working. Between us we speak your language and
-          know every prime community in Dubai.
-        </p>
+        <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro}</p>
       </section>
 
       {/* Team grid */}
@@ -67,13 +96,13 @@ export default function TeamPage() {
                   <dl className="mt-5 space-y-2 border-t border-line pt-5 text-sm">
                     {m.languages && (
                       <div className="flex gap-2">
-                        <dt className="shrink-0 text-faint">Languages</dt>
+                        <dt className="shrink-0 text-faint">{c.languagesLabel}</dt>
                         <dd className="text-muted">{m.languages}</dd>
                       </div>
                     )}
                     {m.areas && (
                       <div className="flex gap-2">
-                        <dt className="shrink-0 text-faint">Focus</dt>
+                        <dt className="shrink-0 text-faint">{c.focusLabel}</dt>
                         <dd className="text-muted">{m.areas}</dd>
                       </div>
                     )}
@@ -89,8 +118,8 @@ export default function TeamPage() {
       <section className="border-t border-line bg-elevated">
         <div className="container-lux flex flex-col items-start gap-8 py-[var(--section-py)] md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="eyebrow mb-4">Work with us</p>
-            <h2 className="display-h2 max-w-[16ch] text-ink">Speak with a private advisor</h2>
+            <p className="eyebrow mb-4">{c.ctaEyebrow}</p>
+            <h2 className="display-h2 max-w-[16ch] text-ink">{c.ctaHeading}</h2>
           </div>
           <a
             href={whatsappLink(`Hello ${site.name}, I'd like to speak with an advisor.`)}
@@ -98,7 +127,7 @@ export default function TeamPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Message us on WhatsApp
+            {c.ctaWhatsapp}
           </a>
         </div>
       </section>
