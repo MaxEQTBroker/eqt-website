@@ -11,6 +11,7 @@ import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { EVERGREEN_GUIDES } from "@/lib/data/guideLinks";
+import { hasDeveloperTranslation } from "@/lib/data/i18n/developerTranslations";
 import {
   BreadcrumbJsonLd,
   DeveloperJsonLd,
@@ -26,16 +27,22 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const dev = await getDeveloperBySlug(slug);
+  const { slug, locale } = await params;
+  const dev = await getDeveloperBySlug(slug, locale);
   if (!dev) return {};
+  const translated = hasDeveloperTranslation(slug, locale);
+  const canonical = locale === "en" ? `/developers/${dev.slug}` : `/${locale}/developers/${dev.slug}`;
+  const languages: Record<string, string> = { "x-default": `/developers/${dev.slug}`, en: `/developers/${dev.slug}` };
+  if (hasDeveloperTranslation(slug, "uk")) languages.uk = `/uk/developers/${dev.slug}`;
+  if (hasDeveloperTranslation(slug, "ru")) languages.ru = `/ru/developers/${dev.slug}`;
   return {
     title: `${dev.name} Developments in Dubai`,
     description: dev.intro.slice(0, 155),
     keywords: dev.keywords,
-    alternates: { canonical: `/developers/${dev.slug}` },
+    alternates: { canonical, languages },
+    robots: translated ? { index: true, follow: true } : { index: false, follow: true },
     openGraph: {
       title: `${dev.name}, ${site.name}`,
       description: dev.tagline,
@@ -47,15 +54,15 @@ export async function generateMetadata({
 export default async function DeveloperPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const dev = await getDeveloperBySlug(slug);
+  const { slug, locale } = await params;
+  const dev = await getDeveloperBySlug(slug, locale);
   if (!dev) notFound();
 
   // Resolve related community labels (only those that exist as area guides).
   const relatedAreas = (
-    await Promise.all((dev.relatedAreas ?? []).map((s) => getAreaBySlug(s)))
+    await Promise.all((dev.relatedAreas ?? []).map((s) => getAreaBySlug(s, locale)))
   ).filter((a): a is NonNullable<typeof a> => a !== null);
 
   return (

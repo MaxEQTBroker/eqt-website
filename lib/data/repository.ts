@@ -34,6 +34,7 @@ import { heroImages } from "./mock/heroImages";
 import { areaContent } from "./mock/areaContent";
 import { localizeArea } from "./i18n/areaTranslations";
 import { localizePropertyGuide } from "./i18n/propertyTranslations";
+import { localizeDeveloper } from "./i18n/developerTranslations";
 import { developerContent } from "./mock/developerContent";
 
 /**
@@ -313,9 +314,10 @@ export async function getDevelopers(): Promise<Developer[]> {
   return mockDevelopers.map(withHero);
 }
 
-export async function getDeveloperBySlug(slug: string): Promise<Developer | null> {
+export async function getDeveloperBySlug(slug: string, locale?: string): Promise<Developer | null> {
   const dev = mockDevelopers.find((d) => d.slug === slug);
-  return dev ? withContent(withHero(dev), developerContent) : null;
+  if (!dev) return null;
+  return localizeDeveloper(withContent(withHero(dev), developerContent), locale);
 }
 
 export async function getAllDeveloperSlugs(): Promise<string[]> {
