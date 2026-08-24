@@ -699,6 +699,7 @@ import { heroImages } from "./mock/heroImages";
 import { generatedPosts } from "./mock/posts-generated";
 import { seoPosts } from "./mock/posts-seo";
 import { localizePost } from "./i18n/postTranslations";
+import { aeoIntros } from "./i18n/aeoIntros";
 
 /** Hand-written posts plus the long-form generated set, one combined library. */
 const allPosts: BlogPost[] = [...mockPosts, ...generatedPosts, ...seoPosts];
@@ -709,16 +710,24 @@ function withHero(post: BlogPost): BlogPost {
   return hero ? { ...post, heroImage: hero } : post;
 }
 
+/** Apply the answer-first intro rewrite (AEO) to the English base, if one exists.
+ * Runs before localization; localized overlays carry their own translated intro. */
+function withAeoIntro(post: BlogPost): BlogPost {
+  const intro = aeoIntros[post.slug];
+  return intro ? { ...post, intro } : post;
+}
+
 export async function getAllPosts(locale?: string): Promise<BlogPost[]> {
   return [...allPosts]
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
     .map(withHero)
+    .map(withAeoIntro)
     .map((p) => localizePost(p, locale));
 }
 
 export async function getPostBySlug(slug: string, locale?: string): Promise<BlogPost | null> {
   const post = allPosts.find((p) => p.slug === slug);
-  return post ? localizePost(withHero(post), locale) : null;
+  return post ? localizePost(withAeoIntro(withHero(post)), locale) : null;
 }
 
 export async function getAllPostSlugs(): Promise<string[]> {
@@ -732,5 +741,6 @@ export async function getRelatedPosts(slug: string, limit = 2, locale?: string):
     .sort((a, b) => (b.category === current?.category ? 1 : 0) - (a.category === current?.category ? 1 : 0))
     .slice(0, limit)
     .map(withHero)
+    .map(withAeoIntro)
     .map((p) => localizePost(p, locale));
 }
