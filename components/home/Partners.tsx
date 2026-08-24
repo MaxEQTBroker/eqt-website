@@ -1,3 +1,6 @@
+import { getLocale } from "next-intl/server";
+import { uiContent } from "@/lib/data/i18n/ui";
+
 /** Slow marquee of the real developer logos EQT transacts across. */
 const logos = [
   { src: "/brand/developers/emaar-crop.png", name: "Emaar" },
@@ -10,12 +13,14 @@ const logos = [
   { src: "/brand/developers/omniyat-logo.webp", name: "Omniyat" },
 ];
 
-export function Partners() {
+export async function Partners() {
+  const locale = await getLocale();
+  const c = uiContent<{ partners: string }>("home", locale);
   const row = [...logos, ...logos];
   return (
     <section className="border-y border-line py-12 md:py-16">
       <p className="container-lux mb-9 text-xs uppercase tracking-[0.24em] text-faint">
-        Trusted across Dubai&apos;s finest developments
+        {c.partners}
       </p>
       <div className="overflow-hidden" aria-hidden="true">
         <div className="marquee-track items-center gap-16">

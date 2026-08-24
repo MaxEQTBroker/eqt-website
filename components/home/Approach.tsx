@@ -1,15 +1,19 @@
-import Link from "next/link";
+import { getLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { site, whatsappLink } from "@/lib/site";
+import { uiContent } from "@/lib/data/i18n/ui";
 
 /**
  * Three ways to work with EQT. On hover, only the *content* zooms (the bordered
  * column stays put, so the divider lines never move or cross).
  */
-export function Approach() {
+export async function Approach() {
+  const locale = await getLocale();
+  const t = uiContent<{ approach: { label: string; desc: string }[] }>("home", locale).approach;
   const options = [
-    { label: "Buy", desc: "Find your address across Dubai's finest communities.", href: "/listings", external: false },
-    { label: "Sell", desc: "A discreet valuation and a quiet, qualified sale.", href: whatsappLink(`Hello ${site.name}, I'd like a valuation.`), external: true },
-    { label: "Invest", desc: "Build a portfolio with off-market access.", href: whatsappLink(`Hello ${site.name}, I'd like to discuss investing.`), external: true },
+    { label: t[0].label, desc: t[0].desc, href: "/listings", external: false },
+    { label: t[1].label, desc: t[1].desc, href: whatsappLink(`Hello ${site.name}, I'd like a valuation.`), external: true },
+    { label: t[2].label, desc: t[2].desc, href: whatsappLink(`Hello ${site.name}, I'd like to discuss investing.`), external: true },
   ];
 
   return (

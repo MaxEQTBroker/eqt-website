@@ -1,25 +1,20 @@
 import Image from "next/image";
-import Link from "next/link";
+import { getLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { RevealText } from "@/components/motion/RevealText";
 import { ScrollScale } from "@/components/motion/ScrollScale";
+import { uiContent } from "@/lib/data/i18n/ui";
 
 /** Editorial narrative: text and image alternate; image scales slowly on scroll. */
-const beats = [
-  {
-    kicker: "Access",
-    line: "The best homes in Dubai are never advertised.",
-    body: "A significant share of prime transactions happen off-market. Our relationships across Palm Jumeirah, Al Barari and Jumeirah Islands mean you see them first, quietly, and before anyone else.",
-    image: { url: "/images/palm-jumeirah/1.jpg", alt: "Palm Jumeirah villa with a long infinity pool" },
-  },
-  {
-    kicker: "Discretion",
-    line: "Private sales, handled privately.",
-    body: "From confidential introductions to closing, we protect your identity and your interests. No leaks, no noise, only the right buyer, or the right home.",
-    image: { url: "/images/al-barari/3.jpg", alt: "Double-height Al Barari living room opening onto a garden" },
-  },
+const images = [
+  { url: "/images/palm-jumeirah/1.jpg", alt: "Palm Jumeirah villa with a long infinity pool" },
+  { url: "/images/al-barari/3.jpg", alt: "Double-height Al Barari living room opening onto a garden" },
 ];
 
-export function Voice() {
+export async function Voice() {
+  const locale = await getLocale();
+  const t = uiContent<{ voice: { kicker: string; line: string; body: string }[]; voiceCta: string }>("home", locale);
+  const beats = t.voice.map((b, i) => ({ ...b, image: images[i] }));
   return (
     <section className="container-lux space-y-14 py-[var(--section-py)] md:space-y-20">
       {beats.map((b, i) => {
@@ -45,7 +40,7 @@ export function Voice() {
               <p className="mt-6 max-w-md text-lg text-muted">{b.body}</p>
               {i === beats.length - 1 && (
                 <Link href="/contact" className="btn btn-ghost mt-9">
-                  Speak with an advisor
+                  {t.voiceCta}
                 </Link>
               )}
             </div>

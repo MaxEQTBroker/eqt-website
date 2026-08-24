@@ -1,7 +1,11 @@
+import { getLocale } from "next-intl/server";
 import { BackgroundVideo } from "@/components/motion/BackgroundVideo";
+import { uiContent } from "@/lib/data/i18n/ui";
 
 /** Full-bleed cinematic video moment between sections. */
-export function Interlude() {
+export async function Interlude() {
+  const locale = await getLocale();
+  const c = uiContent<{ interlude: string }>("home", locale);
   return (
     <section className="relative flex min-h-[72svh] items-end overflow-hidden">
       <BackgroundVideo
@@ -15,7 +19,7 @@ export function Interlude() {
           className="max-w-[18ch] font-display text-[clamp(2rem,4.6vw,4.25rem)] font-medium leading-[1.05] text-white"
           style={{ textShadow: "0 2px 30px rgba(0,0,0,0.45)" }}
         >
-          Homes you will not find anywhere else.
+          {c.interlude}
         </h2>
       </div>
     </section>

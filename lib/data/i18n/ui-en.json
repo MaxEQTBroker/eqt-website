@@ -152,5 +152,33 @@
       { "title": "From advisors who transact here", "body": "RERA-licensed specialists who sell in your community every week, so the number reflects what buyers will actually pay." }
     ],
     "regulated": "Regulated by the {authority}. RERA ORN {orn}."
+  },
+  "home": {
+    "heroH1": "Dubai's most exceptional addresses.",
+    "statementEyebrow": "EQT · Dubai",
+    "statement": "A private brokerage for Dubai's most exceptional homes, represented quietly, and offered to a select few who value discretion above all.",
+    "metrics": [
+      { "label": "Transacted", "detail": "Total sales volume" },
+      { "label": "Deals closed", "detail": "Transactions across Dubai" },
+      { "label": "Years in business", "detail": "Serving Dubai since 2014" }
+    ],
+    "communitiesHeading": "Where we operate",
+    "communitiesLink": "All communities",
+    "featuredHeading": "A curated few",
+    "featuredLink": "View all residences",
+    "approach": [
+      { "label": "Buy", "desc": "Find your address across Dubai's finest communities." },
+      { "label": "Sell", "desc": "A discreet valuation and a quiet, qualified sale." },
+      { "label": "Invest", "desc": "Build a portfolio with off-market access." }
+    ],
+    "voice": [
+      { "kicker": "Access", "line": "The best homes in Dubai are never advertised.", "body": "A significant share of prime transactions happen off-market. Our relationships across Palm Jumeirah, Al Barari and Jumeirah Islands mean you see them first, quietly, and before anyone else." },
+      { "kicker": "Discretion", "line": "Private sales, handled privately.", "body": "From confidential introductions to closing, we protect your identity and your interests. No leaks, no noise, only the right buyer, or the right home." }
+    ],
+    "voiceCta": "Speak with an advisor",
+    "interlude": "Homes you will not find anywhere else.",
+    "partners": "Trusted across Dubai's finest developments",
+    "enquireHeading": "The best villas in Dubai are sold privately.",
+    "enquireBody": "Search a private database of off-market homes, and speak with an advisor who answers personally, usually within the hour."
   }
 }
