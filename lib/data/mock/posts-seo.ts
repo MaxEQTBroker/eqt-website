@@ -1,7 +1,17 @@
 import type { BlogPost } from "../blog";
 import { blogBodyPool } from "./blogBodyImages";
 
-/** Buyer-intent / comparison SEO+AEO posts (answer-first). */
+/**
+ * Buyer-intent / comparison SEO+AEO posts.
+ *
+ * ANSWER-FIRST RULE (required for every new post): the `intro` MUST directly
+ * answer the question implied by the `title` in its first 1-2 sentences (~first
+ * 100 words), so AI answer engines and Google featured snippets can extract it.
+ * Open with "X is/means…", "Yes/No, …", or the named list/figure up front, then
+ * add context. Never bury the answer behind scene-setting. (All 125 existing
+ * posts were audited to this rule on 2026-08-24; any manual intro override lives
+ * in lib/data/i18n/aeoIntros.ts and is applied in lib/data/blog.ts.)
+ */
 export const seoPosts: BlogPost[] = [
   {
     "slug": "cost-to-buy-villa-palm-jumeirah",

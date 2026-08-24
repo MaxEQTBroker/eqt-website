@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import {
   getAreas,
   getDevelopers,
@@ -8,25 +8,33 @@ import {
 import { getAllPosts } from "@/lib/data/blog";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Site Map",
-  description: "Every page on the EQT website in one place — communities, developers, property types, guides and the journal.",
-  alternates: { canonical: "/site-map" },
+type SiteMapCopy = {
+  metaTitle: string; metaDescription: string; breadcrumb: string; eyebrow: string; h1: string;
+  groupMain: string; groupNeighbourhoods: string; groupDevelopers: string;
+  groupPropertyTypes: string; groupJournal: string;
+  mainLinks: { label: string; href: string }[];
 };
 
-const MAIN = [
-  { label: "Home", href: "/" },
-  { label: "About EQT", href: "/about" },
-  { label: "Team", href: "/team" },
-  { label: "Active listings", href: "/listings" },
-  { label: "Sold portfolio", href: "/sold" },
-  { label: "Free valuation", href: "/valuation" },
-  { label: "Market insights", href: "/market" },
-  { label: "Buying guide", href: "/guides/buying-property-in-dubai" },
-  { label: "Journal", href: "/blog" },
-  { label: "Contact", href: "/contact" },
-];
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<SiteMapCopy>("siteMap", locale);
+  const canonical = locale === "en" ? "/site-map" : `/${locale}/site-map`;
+  const languages: Record<string, string> = { "x-default": "/site-map", en: "/site-map" };
+  if (hasUiTranslation("siteMap", "uk")) languages.uk = "/uk/site-map";
+  if (hasUiTranslation("siteMap", "ru")) languages.ru = "/ru/site-map";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("siteMap", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
 
 function Group({ title, links }: { title: string; links: { label: string; href: string }[] }) {
   return (
@@ -45,12 +53,18 @@ function Group({ title, links }: { title: string; links: { label: string; href: 
   );
 }
 
-export default async function SiteMapPage() {
+export default async function SiteMapPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<SiteMapCopy>("siteMap", locale);
   const [areas, developers, guides, posts] = await Promise.all([
-    getAreas(),
-    getDevelopers(),
-    getPropertyGuides(),
-    getAllPosts(),
+    getAreas(locale),
+    getDevelopers(locale),
+    getPropertyGuides(locale),
+    getAllPosts(locale),
   ]);
 
   return (
@@ -58,22 +72,22 @@ export default async function SiteMapPage() {
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Site Map", path: "/site-map" },
+          { name: c.breadcrumb, path: "/site-map" },
         ]}
       />
       <section className="container-lux pb-[var(--section-py)] pt-40">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Site map", href: "/site-map" }]} />
+          <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: c.breadcrumb, href: "/site-map" }]} />
         </div>
-        <p className="eyebrow mb-5">Site map</p>
-        <h1 className="display-h2 text-ink">Every page, in one place</h1>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
+        <h1 className="display-h2 text-ink">{c.h1}</h1>
 
         <div className="mt-12 space-y-10">
-          <Group title="Main pages" links={MAIN} />
-          <Group title="Neighbourhoods" links={areas.map((a) => ({ label: a.label, href: `/areas/${a.slug}` }))} />
-          <Group title="Developers" links={developers.map((d) => ({ label: d.name, href: `/developers/${d.slug}` }))} />
-          <Group title="Property types" links={guides.map((g) => ({ label: g.label, href: `/property/${g.slug}` }))} />
-          <Group title="Journal" links={posts.map((p) => ({ label: p.title, href: `/blog/${p.slug}` }))} />
+          <Group title={c.groupMain} links={c.mainLinks} />
+          <Group title={c.groupNeighbourhoods} links={areas.map((a) => ({ label: a.label, href: `/areas/${a.slug}` }))} />
+          <Group title={c.groupDevelopers} links={developers.map((d) => ({ label: d.name, href: `/developers/${d.slug}` }))} />
+          <Group title={c.groupPropertyTypes} links={guides.map((g) => ({ label: g.label, href: `/property/${g.slug}` }))} />
+          <Group title={c.groupJournal} links={posts.map((p) => ({ label: p.title, href: `/blog/${p.slug}` }))} />
         </div>
       </section>
     </>
