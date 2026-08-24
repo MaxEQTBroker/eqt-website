@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { getSoldRecords } from "@/lib/data/repository";
 import { SoldCard } from "@/components/ui/SoldCard";
 import { Reveal } from "@/components/motion/Reveal";
@@ -8,24 +8,48 @@ import {
   SoldCollectionJsonLd,
 } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Sold Portfolio",
-  description:
-    "EQT's verified track record of completed luxury sales across Palm Jumeirah, Al Barari and Jumeirah Islands. Filter by community and price.",
-  // Canonical stays clean so filtered views don't create duplicate content.
-  alternates: { canonical: "/sold" },
+type SoldCopy = {
+  metaTitle: string; metaDescription: string; breadcrumb: string; eyebrow: string;
+  h1: string; intro: string; communityLabel: string; allCommunities: string;
+  apply: string; reset: string; resultSingular: string; resultPlural: string;
+  inArea: string; pageOf: string; prev: string; next: string; emptyHeading: string;
+  emptyBody: string; emptyCta: string; ctaEyebrow: string; ctaHeading: string; ctaValuation: string;
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<SoldCopy>("sold", locale);
+  const canonical = locale === "en" ? "/sold" : `/${locale}/sold`;
+  const languages: Record<string, string> = { "x-default": "/sold", en: "/sold" };
+  if (hasUiTranslation("sold", "uk")) languages.uk = "/uk/sold";
+  if (hasUiTranslation("sold", "ru")) languages.ru = "/ru/sold";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("sold", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
 
 type SearchParams = { area?: string; page?: string };
 
 const PER_PAGE = 9;
 
 export default async function SoldPage({
+  params,
   searchParams,
 }: {
+  params: Promise<{ locale: string }>;
   searchParams: Promise<SearchParams>;
 }) {
+  const { locale } = await params;
+  const c = uiContent<SoldCopy>("sold", locale);
   const sp = await searchParams;
   const allSold = await getSoldRecords();
 
@@ -59,21 +83,18 @@ export default async function SoldPage({
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Sold Portfolio", path: "/sold" },
+          { name: c.breadcrumb, path: "/sold" },
         ]}
       />
       <SoldCollectionJsonLd records={records} />
 
       {/* Header */}
       <section className="container-lux pb-16 pt-40">
-        <p className="eyebrow mb-5">Proven results</p>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
         <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          The sold portfolio
+          {c.h1}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg text-muted">
-          A record you can verify, completed sales across Dubai&apos;s most
-          exclusive communities. Confidential where required, always real.
-        </p>
+        <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro}</p>
       </section>
 
       {/* Filter: community */}
@@ -81,35 +102,35 @@ export default async function SoldPage({
         <div className="rounded-lg border border-line bg-elevated p-6 sm:p-8">
           <form method="get" action="/sold" className="flex flex-col gap-4 sm:flex-row sm:items-end">
             <label className="block sm:max-w-xs sm:flex-1">
-              <span className="mb-2 block text-xs uppercase tracking-[0.2em] text-faint">Community</span>
+              <span className="mb-2 block text-xs uppercase tracking-[0.2em] text-faint">{c.communityLabel}</span>
               <select
                 name="area"
                 defaultValue={activeArea}
                 className="w-full rounded-md border px-3 py-2.5 text-sm"
                 style={{ borderColor: "var(--line)", backgroundColor: "var(--bg-inset)", color: "var(--text-primary)" }}
               >
-                <option value="all">All communities</option>
-                {communities.map((c) => (
-                  <option key={c.slug} value={c.slug}>
-                    {c.label}
+                <option value="all">{c.allCommunities}</option>
+                {communities.map((com) => (
+                  <option key={com.slug} value={com.slug}>
+                    {com.label}
                   </option>
                 ))}
               </select>
             </label>
             <div className="flex gap-3">
               <button type="submit" className="btn btn-accent">
-                Apply
+                {c.apply}
               </button>
               <Link href="/sold" className="btn btn-ghost">
-                Reset
+                {c.reset}
               </Link>
             </div>
           </form>
         </div>
         <p className="mt-6 text-sm text-faint" aria-live="polite">
-          {records.length} {records.length === 1 ? "result" : "results"}
-          {activeLabel && ` in ${activeLabel}`}
-          {totalPages > 1 && ` · page ${page} of ${totalPages}`}
+          {records.length} {records.length === 1 ? c.resultSingular : c.resultPlural}
+          {activeLabel && ` ${c.inArea.replace("{area}", activeLabel)}`}
+          {totalPages > 1 && ` · ${c.pageOf.replace("{page}", String(page)).replace("{total}", String(totalPages))}`}
         </p>
       </section>
 
@@ -129,7 +150,7 @@ export default async function SoldPage({
               <nav className="mt-14 flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">
                 {page > 1 && (
                   <Link href={hrefFor(page - 1)} className="rounded-md border border-line px-4 py-2 text-sm text-muted transition-colors hover:border-accent-500 hover:text-ink">
-                    ← Prev
+                    ← {c.prev}
                   </Link>
                 )}
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
@@ -150,7 +171,7 @@ export default async function SoldPage({
                 ))}
                 {page < totalPages && (
                   <Link href={hrefFor(page + 1)} className="rounded-md border border-line px-4 py-2 text-sm text-muted transition-colors hover:border-accent-500 hover:text-ink">
-                    Next →
+                    {c.next} →
                   </Link>
                 )}
               </nav>
@@ -159,19 +180,16 @@ export default async function SoldPage({
         ) : (
           <div className="rounded-lg border border-line bg-elevated p-12 text-center">
             <h2 className="font-display text-2xl text-ink">
-              No sales match this filter, yet.
+              {c.emptyHeading}
             </h2>
-            <p className="mx-auto mt-3 max-w-md text-muted">
-              We complete confidential transactions regularly. Tell us what
-              you&apos;re after and we&apos;ll share relevant, comparable results.
-            </p>
+            <p className="mx-auto mt-3 max-w-md text-muted">{c.emptyBody}</p>
             <a
               href={whatsappLink(`Hello ${site.name}, I'd like to see your track record.`)}
               className="btn btn-accent mt-8"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ask on WhatsApp
+              {c.emptyCta}
             </a>
           </div>
         )}
@@ -181,13 +199,13 @@ export default async function SoldPage({
       <section className="border-t border-line bg-elevated">
         <div className="container-lux flex flex-col items-start gap-8 py-[var(--section-py)] md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="eyebrow mb-4">Thinking of selling?</p>
+            <p className="eyebrow mb-4">{c.ctaEyebrow}</p>
             <h2 className="display-h2 max-w-[16ch] text-ink">
-              Your home deserves the same result
+              {c.ctaHeading}
             </h2>
           </div>
           <Link href="/valuation" className="btn btn-accent">
-            Request a free valuation
+            {c.ctaValuation}
           </Link>
         </div>
       </section>

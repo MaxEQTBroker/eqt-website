@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { getAreas, queryListings } from "@/lib/data/repository";
 import type { AreaSlug, PropertyType } from "@/lib/data/types";
 import { ListingCard } from "@/components/ui/ListingCard";
@@ -14,13 +14,35 @@ import {
 } from "@/components/listings/ListingFilterBar";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Listings",
-  description:
-    "Curated luxury residences for sale across Palm Jumeirah, Al Barari and Jumeirah Islands. Filter by community, type and price.",
-  alternates: { canonical: "/listings" },
+type ListingsCopy = {
+  metaTitle: string; metaDescription: string; breadcrumb: string;
+  eyebrowDefault: string; h1Default: string; h1Area: string; introDefault: string;
+  introAreaLead: string; viewAllCommunities: string; residenceSingular: string;
+  residencePlural: string; pageOf: string; prev: string; next: string;
+  emptyHeading: string; emptyBody: string; emptyCta: string; advisoryEyebrow: string;
+  advisoryHeadingDefault: string; advisoryHeadingArea: string; advisoryBody: string; advisoryWhatsapp: string;
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<ListingsCopy>("listings", locale);
+  const canonical = locale === "en" ? "/listings" : `/${locale}/listings`;
+  const languages: Record<string, string> = { "x-default": "/listings", en: "/listings" };
+  if (hasUiTranslation("listings", "uk")) languages.uk = "/uk/listings";
+  if (hasUiTranslation("listings", "ru")) languages.ru = "/ru/listings";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("listings", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
 
 const TYPES: PropertyType[] = ["Villa", "Mansion", "Penthouse", "Apartment", "Townhouse", "Plot"];
 
@@ -36,12 +58,16 @@ type SearchParams = {
 };
 
 export default async function ListingsPage({
+  params,
   searchParams,
 }: {
+  params: Promise<{ locale: string }>;
   searchParams: Promise<SearchParams>;
 }) {
+  const { locale } = await params;
+  const c = uiContent<ListingsCopy>("listings", locale);
   const sp = await searchParams;
-  const [areas, everything] = await Promise.all([getAreas(), queryListings({})]);
+  const [areas, everything] = await Promise.all([getAreas(locale), queryListings({})]);
 
   // Valid community filters = curated area pages ∪ every community present in the
   // live inventory (e.g. a CRM-only community such as The Valley). This lets
@@ -104,26 +130,22 @@ export default async function ListingsPage({
 
       <section className="container-lux pb-16 pt-40">
         <p className="eyebrow mb-5">
-          {activeAreaLabel ? activeAreaLabel : "Curated collection"}
+          {activeAreaLabel ? activeAreaLabel : c.eyebrowDefault}
         </p>
         <h1 className="display-hero max-w-[16ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          {activeAreaLabel ? `Homes for sale in ${activeAreaLabel}` : "Residences for sale"}
+          {activeAreaLabel ? c.h1Area.replace("{area}", activeAreaLabel) : c.h1Default}
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">
           {activeAreaLabel ? (
             <>
-              Our current on-market homes in {activeAreaLabel}. Many of our best
-              residences here are off-market, ask us and we&apos;ll share them privately.{" "}
+              {c.introAreaLead.replace("{area}", activeAreaLabel)}{" "}
               <Link href="/listings" className="text-accent-600 underline-offset-2 hover:underline">
-                View all communities
+                {c.viewAllCommunities}
               </Link>
               .
             </>
           ) : (
-            <>
-              A deliberately small, hand-selected collection across Dubai&apos;s most
-              exclusive communities. Many of our best homes are off-market, ask us.
-            </>
+            <>{c.introDefault}</>
           )}
         </p>
       </section>
@@ -141,8 +163,8 @@ export default async function ListingsPage({
           />
         </div>
         <p className="mt-6 text-sm text-faint" aria-live="polite">
-          {all.length} {all.length === 1 ? "residence" : "residences"}
-          {totalPages > 1 && ` · page ${page} of ${totalPages}`}
+          {all.length} {all.length === 1 ? c.residenceSingular : c.residencePlural}
+          {totalPages > 1 && ` · ${c.pageOf.replace("{page}", String(page)).replace("{total}", String(totalPages))}`}
         </p>
       </section>
 
@@ -161,7 +183,7 @@ export default async function ListingsPage({
               <nav className="mt-14 flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">
                 {page > 1 && (
                   <Link href={hrefFor(page - 1)} className="rounded-md border border-line px-4 py-2 text-sm text-muted transition-colors hover:border-accent-500 hover:text-ink">
-                    ← Prev
+                    ← {c.prev}
                   </Link>
                 )}
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
@@ -181,7 +203,7 @@ export default async function ListingsPage({
                 ))}
                 {page < totalPages && (
                   <Link href={hrefFor(page + 1)} className="rounded-md border border-line px-4 py-2 text-sm text-muted transition-colors hover:border-accent-500 hover:text-ink">
-                    Next →
+                    {c.next} →
                   </Link>
                 )}
               </nav>
@@ -190,19 +212,16 @@ export default async function ListingsPage({
         ) : (
           <div className="rounded-lg border border-line bg-elevated p-12 text-center">
             <h2 className="font-display text-2xl text-ink">
-              Nothing on-market matches, but we likely have it off-market.
+              {c.emptyHeading}
             </h2>
-            <p className="mx-auto mt-3 max-w-md text-muted">
-              A large share of prime Dubai stock never gets advertised. Tell us
-              your brief and we&apos;ll share matching homes privately.
-            </p>
+            <p className="mx-auto mt-3 max-w-md text-muted">{c.emptyBody}</p>
             <a
               href={whatsappLink(`Hello ${site.name}, I'm looking for a specific home.`)}
               className="btn btn-accent mt-8"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Send us your brief
+              {c.emptyCta}
             </a>
           </div>
         )}
@@ -212,15 +231,11 @@ export default async function ListingsPage({
       <section className="border-t border-line bg-elevated">
         <div className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[minmax(0,1fr)_400px] lg:items-start lg:gap-16">
           <div>
-            <p className="eyebrow mb-4">Private advisory</p>
+            <p className="eyebrow mb-4">{c.advisoryEyebrow}</p>
             <h2 className="display-h2 max-w-[16ch] text-ink">
-              {activeAreaLabel ? `Looking in ${activeAreaLabel}?` : "Tell us what you're looking for"}
+              {activeAreaLabel ? c.advisoryHeadingArea.replace("{area}", activeAreaLabel) : c.advisoryHeadingDefault}
             </h2>
-            <p className="mt-6 max-w-md text-lg text-muted">
-              Many of our best homes{activeAreaLabel ? ` in ${activeAreaLabel}` : ""} never get
-              advertised. Share your brief and we&apos;ll send a private shortlist, usually within
-              the hour.
-            </p>
+            <p className="mt-6 max-w-md text-lg text-muted">{c.advisoryBody}</p>
             <a
               href={whatsappLink(
                 activeAreaLabel
@@ -231,7 +246,7 @@ export default async function ListingsPage({
               target="_blank"
               rel="noopener noreferrer"
             >
-              Message us on WhatsApp
+              {c.advisoryWhatsapp}
             </a>
           </div>
           <LeadForm
