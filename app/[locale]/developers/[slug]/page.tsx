@@ -32,7 +32,7 @@ export async function generateMetadata({
   const dev = await getDeveloperBySlug(slug);
   if (!dev) return {};
   return {
-    title: `${dev.name}, Developer Guide & Properties for Sale`,
+    title: `${dev.name} Developments in Dubai`,
     description: dev.intro.slice(0, 155),
     keywords: dev.keywords,
     alternates: { canonical: `/developers/${dev.slug}` },

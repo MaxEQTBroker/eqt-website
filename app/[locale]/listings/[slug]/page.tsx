@@ -30,7 +30,11 @@ export async function generateMetadata({
   const listing = await getListingBySlug(slug);
   if (!listing) return {};
   return {
-    title: `${listing.title}, ${listing.areaLabel}`,
+    // listing.title often already ends with the area; only append it when absent
+    // (avoids "..., Al Barari, Al Barari" and keeps the title under the length cap).
+    title: listing.title.includes(listing.areaLabel)
+      ? listing.title
+      : `${listing.title}, ${listing.areaLabel}`,
     description: listing.summary,
     alternates: { canonical: `/listings/${listing.slug}` },
     openGraph: {

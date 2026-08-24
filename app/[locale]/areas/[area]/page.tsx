@@ -26,6 +26,41 @@ export async function generateStaticParams() {
   return slugs.map((area) => ({ area }));
 }
 
+/**
+ * Hand-tuned SEO titles per area: <= ~46 chars so that with the ", EQT" layout
+ * template they stay under Google's ~60-char cutoff, and each targets that area's
+ * real dominant asset type (villa communities vs apartment districts) so the
+ * title matches the query intent it should rank for.
+ */
+const AREA_SEO_TITLES: Record<string, string> = {
+  "palm-jumeirah": "Palm Jumeirah Luxury Villas for Sale",
+  "al-barari": "Al Barari Luxury Villas & Mansions",
+  "jumeirah-islands": "Jumeirah Islands Waterfront Villas",
+  "emirates-hills": "Emirates Hills Mansions & Villa Plots",
+  "downtown-dubai": "Downtown Dubai Luxury Apartments",
+  "dubai-hills-estate": "Dubai Hills Estate Villas & Apartments",
+  "jumeirah-bay-island": "Jumeirah Bay Island Mansions",
+  "emaar-beachfront": "Emaar Beachfront Apartments for Sale",
+  "dubai-marina": "Dubai Marina Apartments & Penthouses",
+  "district-one": "District One Mansions & Villas",
+  "dubai-creek-harbour": "Dubai Creek Harbour Apartments",
+  "business-bay": "Business Bay Apartments for Sale",
+  "bluewaters-island": "Bluewaters Island Apartments & Homes",
+  "city-walk": "City Walk Apartments & Penthouses",
+  "jumeirah-golf-estates": "Jumeirah Golf Estates Villas",
+  "arabian-ranches": "Arabian Ranches Villas & Townhouses",
+  "tilal-al-ghaf": "Tilal Al Ghaf Villas & Mansions",
+  "damac-hills": "DAMAC Hills Villas & Townhouses",
+  "jumeirah-park": "Jumeirah Park Family Villas",
+  "the-meadows": "The Meadows Family Villas for Sale",
+  "the-springs": "The Springs Townhouses & Villas",
+  "the-lakes": "The Lakes Family Villas for Sale",
+  "palm-jebel-ali": "Palm Jebel Ali Beachfront Villas",
+  "pearl-jumeirah": "Pearl Jumeirah Mansions & Residences",
+  "jumeirah-village-circle": "JVC Apartments, Villas & Townhouses",
+  "port-de-la-mer": "Port de La Mer Apartments for Sale",
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -35,7 +70,7 @@ export async function generateMetadata({
   const area = await getAreaBySlug(slug);
   if (!area) return {};
   return {
-    title: `${area.label} Property Guide, Villas & Apartments for Sale`,
+    title: AREA_SEO_TITLES[area.slug] ?? `${area.label} Property for Sale in Dubai`,
     description: area.intro.slice(0, 155),
     keywords: area.keywords,
     alternates: { canonical: `/areas/${area.slug}` },

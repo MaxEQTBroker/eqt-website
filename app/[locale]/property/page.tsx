@@ -6,7 +6,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 
 export const metadata: Metadata = {
-  title: "Property Types in Dubai, Villas, Penthouses, Off-Plan & More",
+  title: "Dubai Property Types: Villas, Apartments & More",
   description:
     "Explore Dubai property by type, villas, mansions, penthouses, apartments, townhouses and off-plan. Guides, prices and the best communities for each, from EQT.",
   alternates: { canonical: "/property" },
