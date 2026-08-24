@@ -14,11 +14,15 @@ export function LegalDoc({
   intro,
   path,
   children,
+  eyebrow = "Legal",
+  lastUpdatedLabel = "Last updated",
 }: {
   title: string;
-  intro: string;
+  intro: ReactNode;
   path: string;
   children: ReactNode;
+  eyebrow?: string;
+  lastUpdatedLabel?: string;
 }) {
   return (
     <>
@@ -32,12 +36,12 @@ export function LegalDoc({
         <div className="mb-6">
           <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: title, href: path }]} />
         </div>
-        <p className="eyebrow mb-5">Legal</p>
+        <p className="eyebrow mb-5">{eyebrow}</p>
         <h1 className="display-hero max-w-[18ch] text-ink" style={{ fontSize: "clamp(2.25rem,6vw,4.5rem)" }}>
           {title}
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted">{intro}</p>
-        <p className="mt-5 text-sm text-faint">Last updated {LEGAL_UPDATED}</p>
+        <p className="mt-5 text-sm text-faint">{lastUpdatedLabel} {LEGAL_UPDATED}</p>
         <div className="mt-14 max-w-3xl space-y-12">{children}</div>
       </section>
     </>
