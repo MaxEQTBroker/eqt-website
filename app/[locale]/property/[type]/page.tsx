@@ -13,6 +13,7 @@ import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { EVERGREEN_GUIDES } from "@/lib/data/guideLinks";
+import { hasPropertyTranslation } from "@/lib/data/i18n/propertyTranslations";
 import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
 
@@ -24,16 +25,22 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ type: string }>;
+  params: Promise<{ locale: string; type: string }>;
 }): Promise<Metadata> {
-  const { type } = await params;
-  const guide = await getPropertyGuideBySlug(type);
+  const { type, locale } = await params;
+  const guide = await getPropertyGuideBySlug(type, locale);
   if (!guide) return {};
+  const translated = hasPropertyTranslation(type, locale);
+  const canonical = locale === "en" ? `/property/${guide.slug}` : `/${locale}/property/${guide.slug}`;
+  const languages: Record<string, string> = { "x-default": `/property/${guide.slug}`, en: `/property/${guide.slug}` };
+  if (hasPropertyTranslation(type, "uk")) languages.uk = `/uk/property/${guide.slug}`;
+  if (hasPropertyTranslation(type, "ru")) languages.ru = `/ru/property/${guide.slug}`;
   return {
     title: guide.title,
     description: guide.intro.slice(0, 155),
     keywords: guide.keywords,
-    alternates: { canonical: `/property/${guide.slug}` },
+    alternates: { canonical, languages },
+    robots: translated ? { index: true, follow: true } : { index: false, follow: true },
     openGraph: {
       title: `${guide.title}, ${site.name}`,
       description: guide.headline,
@@ -45,10 +52,10 @@ export async function generateMetadata({
 export default async function PropertyTypePage({
   params,
 }: {
-  params: Promise<{ type: string }>;
+  params: Promise<{ locale: string; type: string }>;
 }) {
-  const { type } = await params;
-  const guide = await getPropertyGuideBySlug(type);
+  const { type, locale } = await params;
+  const guide = await getPropertyGuideBySlug(type, locale);
   if (!guide) notFound();
 
   const [listings, relatedAreas] = await Promise.all([

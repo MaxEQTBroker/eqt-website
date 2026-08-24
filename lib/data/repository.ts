@@ -33,6 +33,7 @@ import { mockTrustSignals } from "./mock/trust";
 import { heroImages } from "./mock/heroImages";
 import { areaContent } from "./mock/areaContent";
 import { localizeArea } from "./i18n/areaTranslations";
+import { localizePropertyGuide } from "./i18n/propertyTranslations";
 import { developerContent } from "./mock/developerContent";
 
 /**
@@ -327,9 +328,9 @@ export async function getPropertyGuides(): Promise<PropertyGuide[]> {
   return mockPropertyTypes.map(withHero);
 }
 
-export async function getPropertyGuideBySlug(slug: string): Promise<PropertyGuide | null> {
+export async function getPropertyGuideBySlug(slug: string, locale?: string): Promise<PropertyGuide | null> {
   const guide = mockPropertyTypes.find((p) => p.slug === slug);
-  return guide ? withHero(guide) : null;
+  return guide ? localizePropertyGuide(withHero(guide), locale) : null;
 }
 
 export async function getAllPropertyTypeSlugs(): Promise<string[]> {

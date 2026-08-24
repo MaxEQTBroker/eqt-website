@@ -10,6 +10,7 @@ import {
 import { getAllPostSlugs } from "@/lib/data/blog";
 import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
 import { hasAreaTranslation } from "@/lib/data/i18n/areaTranslations";
+import { hasPropertyTranslation } from "@/lib/data/i18n/propertyTranslations";
 import { team } from "@/lib/data/team";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -59,12 +60,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  const propertyTypeRoutes = propertyTypeSlugs.map((slug) => ({
-    url: `${site.url}/property/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  const propertyTypeRoutes = propertyTypeSlugs.map((slug) => {
+    const languages: Record<string, string> = { en: `${site.url}/property/${slug}` };
+    if (hasPropertyTranslation(slug, "uk")) languages.uk = `${site.url}/uk/property/${slug}`;
+    if (hasPropertyTranslation(slug, "ru")) languages.ru = `${site.url}/ru/property/${slug}`;
+    return {
+      url: `${site.url}/property/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+      ...(Object.keys(languages).length > 1 ? { alternates: { languages } } : {}),
+    };
+  });
 
   const postRoutes = postSlugs.map((slug) => {
     // Advertise a localized alternate only where a real translation exists.
