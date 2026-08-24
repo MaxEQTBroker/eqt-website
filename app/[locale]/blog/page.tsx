@@ -1,33 +1,51 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { getAllPosts } from "@/lib/data/blog";
 import { Reveal } from "@/components/motion/Reveal";
 import { RevealText } from "@/components/motion/RevealText";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site } from "@/lib/site";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Resources, Dubai Property Guides & Market Insight",
-  description:
-    "Answer-first guides to buying, selling and investing in Dubai's finest communities, freehold ownership, the Golden Visa, Palm Jumeirah villa prices and more, from EQT's private office.",
-  alternates: { canonical: "/blog" },
-  openGraph: {
-    title: `Resources, ${site.name}`,
-    description: "Dubai luxury property guides, community insight and market data.",
-  },
+type BlogIndexCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  ogDescription: string;
+  breadcrumb: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
+  minRead: string;
+  readGuide: string;
+  browse: string;
+  categories: { name: string; label: string; blurb: string }[];
 };
 
-/** Category display order + one-line descriptions for the grouped index. */
-const CATEGORIES: { name: string; blurb: string }[] = [
-  { name: "Buyer Guides", blurb: "How to buy, finance and own property in Dubai." },
-  { name: "Seller Guides", blurb: "How to sell your Dubai property for the best price." },
-  { name: "Investment", blurb: "Yields, ROI, strategy and where to invest." },
-  { name: "Market & Data", blurb: "Prices, forecasts and the market outlook." },
-  { name: "Community Guides", blurb: "Where to live and what your money buys, area by area." },
-];
-
 const catId = (name: string) => name.toLowerCase().replace(/[^a-z]+/g, "-");
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<BlogIndexCopy>("blogIndex", locale);
+  const canonical = locale === "en" ? "/blog" : `/${locale}/blog`;
+  const languages: Record<string, string> = { "x-default": "/blog", en: "/blog" };
+  if (hasUiTranslation("blogIndex", "uk")) languages.uk = "/uk/blog";
+  if (hasUiTranslation("blogIndex", "ru")) languages.ru = "/ru/blog";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("blogIndex", locale) ? { index: true, follow: true } : { index: false, follow: true },
+    openGraph: {
+      title: `${c.breadcrumb}, ${site.name}`,
+      description: c.ogDescription,
+    },
+  };
+}
 
 export default async function BlogIndexPage({
   params,
@@ -35,30 +53,29 @@ export default async function BlogIndexPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const c = uiContent<BlogIndexCopy>("blogIndex", locale);
   const posts = await getAllPosts(locale);
   const [lead, ...rest] = posts;
+  const catLabel = (name: string) => c.categories.find((x) => x.name === name)?.label ?? name;
 
   return (
     <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Resources", path: "/blog" },
+          { name: c.breadcrumb, path: "/blog" },
         ]}
       />
 
       {/* Masthead */}
       <section className="container-lux pb-4 pt-40">
-        <p className="eyebrow mb-4">EQT Resources</p>
+        <p className="eyebrow mb-4">{c.eyebrow}</p>
         <RevealText
           as="h1"
-          text="Dubai property, explained."
+          text={c.h1}
           className="block font-display text-[clamp(2.5rem,6vw,5.5rem)] font-medium leading-[1.02] text-ink"
         />
-        <p className="mt-6 max-w-2xl text-lg text-muted">
-          Clear, direct answers to the questions serious buyers, sellers and investors ask about
-          Dubai&rsquo;s finest communities, written by the people who transact in them.
-        </p>
+        <p className="mt-6 max-w-2xl text-lg text-muted">{c.intro}</p>
       </section>
 
       {/* Lead story */}
@@ -80,13 +97,13 @@ export default async function BlogIndexPage({
               </div>
               <div>
                 <p className="eyebrow mb-4">
-                  {lead.category} · {lead.readingMinutes} min read
+                  {catLabel(lead.category)} · {lead.readingMinutes} {c.minRead}
                 </p>
                 <h2 className="font-display text-[clamp(1.75rem,3.6vw,3rem)] leading-tight text-ink">
                   {lead.title}
                 </h2>
                 <p className="mt-5 max-w-xl text-muted">{lead.excerpt}</p>
-                <span className="link-quiet mt-7 inline-block">Read the guide</span>
+                <span className="link-quiet mt-7 inline-block">{c.readGuide}</span>
               </div>
             </Link>
           </Reveal>
@@ -95,14 +112,14 @@ export default async function BlogIndexPage({
 
       {/* Category jump nav */}
       <section className="sticky top-20 z-30 border-y border-line bg-base">
-        <nav className="container-lux flex flex-wrap gap-x-6 gap-y-2 py-4 text-xs uppercase tracking-[0.18em]" aria-label="Browse by category">
-          <span className="text-faint">Browse</span>
-          {CATEGORIES.map((c) => {
-            const count = posts.filter((p) => p.category === c.name).length;
+        <nav className="container-lux flex flex-wrap gap-x-6 gap-y-2 py-4 text-xs uppercase tracking-[0.18em]" aria-label={c.browse}>
+          <span className="text-faint">{c.browse}</span>
+          {c.categories.map((cat) => {
+            const count = posts.filter((p) => p.category === cat.name).length;
             if (!count) return null;
             return (
-              <a key={c.name} href={`#${catId(c.name)}`} className="text-accent-600 transition-opacity hover:opacity-60">
-                {c.name} <span className="text-faint">({count})</span>
+              <a key={cat.name} href={`#${catId(cat.name)}`} className="text-accent-600 transition-opacity hover:opacity-60">
+                {cat.label} <span className="text-faint">({count})</span>
               </a>
             );
           })}
@@ -110,14 +127,14 @@ export default async function BlogIndexPage({
       </section>
 
       {/* Grouped by category */}
-      {CATEGORIES.map((cat) => {
+      {c.categories.map((cat) => {
         const items = rest.filter((p) => p.category === cat.name);
         if (items.length === 0) return null;
         return (
           <section key={cat.name} id={catId(cat.name)} className="scroll-mt-32 border-t border-line first:border-t-0">
             <div className="container-lux py-[var(--section-py)]">
               <div className="mb-12 max-w-2xl">
-                <h2 className="font-display text-[clamp(1.75rem,3.4vw,2.75rem)] leading-tight text-ink">{cat.name}</h2>
+                <h2 className="font-display text-[clamp(1.75rem,3.4vw,2.75rem)] leading-tight text-ink">{cat.label}</h2>
                 <p className="mt-3 text-muted">{cat.blurb}</p>
               </div>
               <div className="grid gap-x-8 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
@@ -137,7 +154,7 @@ export default async function BlogIndexPage({
                         />
                       </div>
                       <p className="eyebrow mb-3">
-                        {post.category} · {post.readingMinutes} min read
+                        {catLabel(post.category)} · {post.readingMinutes} {c.minRead}
                       </p>
                       <h3 className="font-display text-2xl leading-snug text-ink transition-opacity group-hover:opacity-70">
                         {post.title}

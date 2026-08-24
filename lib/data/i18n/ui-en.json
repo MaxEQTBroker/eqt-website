@@ -393,5 +393,24 @@
     "ctaEyebrow": "Thinking of selling?",
     "ctaHeading": "Your home deserves the same result",
     "ctaValuation": "Request a free valuation"
+  },
+  "blogIndex": {
+    "metaTitle": "Resources, Dubai Property Guides & Market Insight",
+    "metaDescription": "Answer-first guides to buying, selling and investing in Dubai's finest communities, freehold ownership, the Golden Visa, Palm Jumeirah villa prices and more, from EQT's private office.",
+    "ogDescription": "Dubai luxury property guides, community insight and market data.",
+    "breadcrumb": "Resources",
+    "eyebrow": "EQT Resources",
+    "h1": "Dubai property, explained.",
+    "intro": "Clear, direct answers to the questions serious buyers, sellers and investors ask about Dubai's finest communities, written by the people who transact in them.",
+    "minRead": "min read",
+    "readGuide": "Read the guide",
+    "browse": "Browse",
+    "categories": [
+      { "name": "Buyer Guides", "label": "Buyer Guides", "blurb": "How to buy, finance and own property in Dubai." },
+      { "name": "Seller Guides", "label": "Seller Guides", "blurb": "How to sell your Dubai property for the best price." },
+      { "name": "Investment", "label": "Investment", "blurb": "Yields, ROI, strategy and where to invest." },
+      { "name": "Market & Data", "label": "Market & Data", "blurb": "Prices, forecasts and the market outlook." },
+      { "name": "Community Guides", "label": "Community Guides", "blurb": "Where to live and what your money buys, area by area." }
+    ]
   }
 }
