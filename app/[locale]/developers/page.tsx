@@ -1,39 +1,64 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { getDevelopers } from "@/lib/data/repository";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Dubai Property Developers, Guides & Off-Plan for Sale",
-  description:
-    "Guides to Dubai's leading developers, Emaar, Nakheel, Sobha, DAMAC, Meraas, OMNIYAT, Ellington and Majid Al Futtaim. EQT advises on primary (off-plan) and resale across every developer.",
-  alternates: { canonical: "/developers" },
+type DevelopersIndexCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  breadcrumb: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
+  cardLink: string;
 };
 
-export default async function DevelopersIndexPage() {
-  const developers = await getDevelopers();
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<DevelopersIndexCopy>("developersIndex", locale);
+  const canonical = locale === "en" ? "/developers" : `/${locale}/developers`;
+  const languages: Record<string, string> = { "x-default": "/developers", en: "/developers" };
+  if (hasUiTranslation("developersIndex", "uk")) languages.uk = "/uk/developers";
+  if (hasUiTranslation("developersIndex", "ru")) languages.ru = "/ru/developers";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("developersIndex", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
+
+export default async function DevelopersIndexPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<DevelopersIndexCopy>("developersIndex", locale);
+  const developers = await getDevelopers(locale);
 
   return (
     <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Developers", path: "/developers" },
+          { name: c.breadcrumb, path: "/developers" },
         ]}
       />
 
       <section className="container-lux pb-16 pt-40">
-        <p className="eyebrow mb-5">Primary &amp; resale, every developer</p>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
         <h1 className="display-hero max-w-[18ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          Dubai&apos;s leading developers
+          {c.h1}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg text-muted">
-          We work across every Dubai developer, on both off-plan launches and the
-          resale market. Explore each builder&apos;s signature communities, what
-          they&apos;re known for, and how to buy.
-        </p>
+        <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro}</p>
       </section>
 
       <section className="container-lux pb-[var(--section-py)]">
@@ -63,7 +88,7 @@ export default async function DevelopersIndexPage() {
                   <h2 className="font-display text-2xl text-ink">{dev.name}</h2>
                   <p className="mt-2 text-sm text-muted">{dev.tagline}</p>
                   <p className="mt-5 text-sm text-accent-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                    View developer guide →
+                    {c.cardLink} →
                   </p>
                 </div>
               </Link>

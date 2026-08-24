@@ -1,39 +1,63 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { getPropertyGuides } from "@/lib/data/repository";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Dubai Property Types: Villas, Apartments & More",
-  description:
-    "Explore Dubai property by type, villas, mansions, penthouses, apartments, townhouses and off-plan. Guides, prices and the best communities for each, from EQT.",
-  alternates: { canonical: "/property" },
+type PropertyIndexCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  breadcrumb: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
 };
 
-export default async function PropertyIndexPage() {
-  const guides = await getPropertyGuides();
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<PropertyIndexCopy>("propertyIndex", locale);
+  const canonical = locale === "en" ? "/property" : `/${locale}/property`;
+  const languages: Record<string, string> = { "x-default": "/property", en: "/property" };
+  if (hasUiTranslation("propertyIndex", "uk")) languages.uk = "/uk/property";
+  if (hasUiTranslation("propertyIndex", "ru")) languages.ru = "/ru/property";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("propertyIndex", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
+
+export default async function PropertyIndexPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<PropertyIndexCopy>("propertyIndex", locale);
+  const guides = await getPropertyGuides(locale);
 
   return (
     <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Property types", path: "/property" },
+          { name: c.breadcrumb, path: "/property" },
         ]}
       />
 
       <section className="container-lux pb-16 pt-40">
-        <p className="eyebrow mb-5">Any property type, anywhere in Dubai</p>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
         <h1 className="display-hero max-w-[18ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          Find your kind of home
+          {c.h1}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg text-muted">
-          Whether it&apos;s a family villa, a trophy mansion, a skyline penthouse or
-          an off-plan investment, explore the guide, the pricing and the best
-          communities for each.
-        </p>
+        <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro}</p>
       </section>
 
       <section className="container-lux pb-[var(--section-py)]">

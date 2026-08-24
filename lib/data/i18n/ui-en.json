@@ -112,5 +112,45 @@
     "ctaHeading": "Meet the team or start a conversation",
     "ctaTeam": "Meet the team",
     "ctaContact": "Contact us"
+  },
+  "areasIndex": {
+    "metaTitle": "Dubai Communities, Area Guides & Property for Sale",
+    "metaDescription": "In-depth guides to Dubai's most sought-after communities, from Palm Jumeirah and Emirates Hills to Dubai Marina, Business Bay and beyond. Track records, available homes and local insight.",
+    "breadcrumb": "Communities",
+    "eyebrow": "Where we operate",
+    "h1": "Dubai's most sought-after communities",
+    "intro": "We transact across every prime Dubai community, any area, any developer, any property type. Explore the guides, the track record, and what's currently available.",
+    "cardLink": "Explore the guide"
+  },
+  "propertyIndex": {
+    "metaTitle": "Dubai Property Types: Villas, Apartments & More",
+    "metaDescription": "Explore Dubai property by type, villas, mansions, penthouses, apartments, townhouses and off-plan. Guides, prices and the best communities for each, from EQT.",
+    "breadcrumb": "Property types",
+    "eyebrow": "Any property type, anywhere in Dubai",
+    "h1": "Find your kind of home",
+    "intro": "Whether it's a family villa, a trophy mansion, a skyline penthouse or an off-plan investment, explore the guide, the pricing and the best communities for each."
+  },
+  "developersIndex": {
+    "metaTitle": "Dubai Property Developers, Guides & Off-Plan for Sale",
+    "metaDescription": "Guides to Dubai's leading developers, Emaar, Nakheel, Sobha, DAMAC, Meraas, OMNIYAT, Ellington and Majid Al Futtaim. EQT advises on primary (off-plan) and resale across every developer.",
+    "breadcrumb": "Developers",
+    "eyebrow": "Primary & resale, every developer",
+    "h1": "Dubai's leading developers",
+    "intro": "We work across every Dubai developer, on both off-plan launches and the resale market. Explore each builder's signature communities, what they're known for, and how to buy.",
+    "cardLink": "View developer guide"
+  },
+  "valuation": {
+    "metaTitle": "Free Dubai Property Valuation",
+    "metaDescription": "Find out what your Dubai property is worth. Get a free, no-obligation valuation from EQT's RERA-licensed advisors, based on real transaction data across Palm Jumeirah, Dubai Marina, Downtown and beyond.",
+    "breadcrumb": "Valuation",
+    "eyebrow": "Thinking of selling?",
+    "h1": "What is your Dubai property worth?",
+    "intro": "Get a free, no-obligation valuation from EQT. Tell us about your home and a RERA-licensed advisor will prepare a considered figure based on real, comparable sales, usually within the hour.",
+    "points": [
+      { "title": "Priced on real data", "body": "We value against genuine comparable sales and current market activity, not guesswork or an automated estimate." },
+      { "title": "Discreet and no-obligation", "body": "A private figure prepared for you. No pressure, no listing commitment, and your details stay with EQT." },
+      { "title": "From advisors who transact here", "body": "RERA-licensed specialists who sell in your community every week, so the number reflects what buyers will actually pay." }
+    ],
+    "regulated": "Regulated by the {authority}. RERA ORN {orn}."
   }
 }

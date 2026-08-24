@@ -293,8 +293,8 @@ export async function getAllSoldReferences(): Promise<string[]> {
 
 // ── Areas ─────────────────────────────────────────────────────────────
 
-export async function getAreas(): Promise<Area[]> {
-  return mockAreas.map(withHero);
+export async function getAreas(locale?: string): Promise<Area[]> {
+  return mockAreas.map((a) => localizeArea(withHero(a), locale));
 }
 
 export async function getAreaBySlug(slug: string, locale?: string): Promise<Area | null> {
@@ -310,8 +310,8 @@ export async function getAllAreaSlugs(): Promise<AreaSlug[]> {
 
 // ── Developers ────────────────────────────────────────────────────────
 
-export async function getDevelopers(): Promise<Developer[]> {
-  return mockDevelopers.map(withHero);
+export async function getDevelopers(locale?: string): Promise<Developer[]> {
+  return mockDevelopers.map((d) => localizeDeveloper(withHero(d), locale));
 }
 
 export async function getDeveloperBySlug(slug: string, locale?: string): Promise<Developer | null> {
@@ -326,8 +326,8 @@ export async function getAllDeveloperSlugs(): Promise<string[]> {
 
 // ── Property-type guides ──────────────────────────────────────────────
 
-export async function getPropertyGuides(): Promise<PropertyGuide[]> {
-  return mockPropertyTypes.map(withHero);
+export async function getPropertyGuides(locale?: string): Promise<PropertyGuide[]> {
+  return mockPropertyTypes.map((p) => localizePropertyGuide(withHero(p), locale));
 }
 
 export async function getPropertyGuideBySlug(slug: string, locale?: string): Promise<PropertyGuide | null> {

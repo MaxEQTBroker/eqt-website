@@ -1,39 +1,64 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import { getAreas } from "@/lib/data/repository";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Dubai Communities, Area Guides & Property for Sale",
-  description:
-    "In-depth guides to Dubai's most sought-after communities, from Palm Jumeirah and Emirates Hills to Dubai Marina, Business Bay and beyond. Track records, available homes and local insight.",
-  alternates: { canonical: "/areas" },
+type AreasIndexCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  breadcrumb: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
+  cardLink: string;
 };
 
-export default async function AreasIndexPage() {
-  const areas = await getAreas();
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<AreasIndexCopy>("areasIndex", locale);
+  const canonical = locale === "en" ? "/areas" : `/${locale}/areas`;
+  const languages: Record<string, string> = { "x-default": "/areas", en: "/areas" };
+  if (hasUiTranslation("areasIndex", "uk")) languages.uk = "/uk/areas";
+  if (hasUiTranslation("areasIndex", "ru")) languages.ru = "/ru/areas";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: hasUiTranslation("areasIndex", locale) ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
+
+export default async function AreasIndexPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<AreasIndexCopy>("areasIndex", locale);
+  const areas = await getAreas(locale);
 
   return (
     <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "Communities", path: "/areas" },
+          { name: c.breadcrumb, path: "/areas" },
         ]}
       />
 
       <section className="container-lux pb-16 pt-40">
-        <p className="eyebrow mb-5">Where we operate</p>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
         <h1 className="display-hero max-w-[18ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5.5rem)" }}>
-          Dubai&apos;s most sought-after communities
+          {c.h1}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg text-muted">
-          We transact across every prime Dubai community, any area, any developer,
-          any property type. Explore the guides, the track record, and what&apos;s
-          currently available.
-        </p>
+        <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro}</p>
       </section>
 
       <section className="container-lux pb-[var(--section-py)]">
@@ -57,7 +82,7 @@ export default async function AreasIndexPage() {
                   <h2 className="font-display text-2xl text-ink">{area.label}</h2>
                   <p className="mt-2 line-clamp-2 text-sm text-muted">{area.headline}</p>
                   <p className="mt-3 text-sm text-accent-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                    Explore the guide →
+                    {c.cardLink} →
                   </p>
                 </div>
               </Link>
