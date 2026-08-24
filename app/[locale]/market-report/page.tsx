@@ -1,77 +1,72 @@
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
-import { site } from "@/lib/site";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "Dubai Prime Property Price Guide 2026",
-  description:
-    "Indicative 2026 price ranges for Dubai's prime communities, plus the key market facts (fees, tax, yields) for buyers and sellers. Compiled by EQT from public DLD data and market experience.",
-  alternates: { canonical: "/market-report" },
+type MarketCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
+  tableCommunity: string;
+  tableFrom: string;
+  tableCharacter: string;
+  communities: { name: string; from: string; note: string }[];
+  factsHeading: string;
+  facts: { label: string; value: string; note: string }[];
+  faqs: { question: string; answer: string }[];
+  ctaValuation: string;
+  ctaMarket: string;
+  breadcrumbHome: string;
+  breadcrumbPriceGuide: string;
 };
 
-/** Indicative orientation ranges (same figures published across the EQT guides).
- * These are starting points, not valuations. */
-const COMMUNITIES = [
-  { name: "Palm Jumeirah", from: "AED 12M", note: "Beachfront villas and sea-view apartments" },
-  { name: "Emirates Hills", from: "AED 20M", note: "Gated golf-side mansions" },
-  { name: "Al Barari", from: "AED 12M", note: "Low-density villas among botanical gardens" },
-  { name: "Jumeirah Islands", from: "AED 8M", note: "Lake-set family villas" },
-  { name: "Downtown Dubai", from: "AED 1.5M", note: "Burj Khalifa-view apartments and penthouses" },
-  { name: "Dubai Marina", from: "AED 1.5M", note: "Waterfront apartments with strong liquidity" },
-  { name: "Business Bay", from: "AED 1M", note: "Central, canal-side, accessible entry point" },
-];
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<MarketCopy>("marketReport", locale);
+  const translated = hasUiTranslation("marketReport", locale);
+  const canonical = locale === "en" ? "/market-report" : `/${locale}/market-report`;
+  const languages: Record<string, string> = { "x-default": "/market-report", en: "/market-report" };
+  if (hasUiTranslation("marketReport", "uk")) languages.uk = "/uk/market-report";
+  if (hasUiTranslation("marketReport", "ru")) languages.ru = "/ru/market-report";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: translated ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
 
-const FACTS = [
-  { label: "DLD transfer fee", value: "4% of price", note: "Usually paid by the buyer" },
-  { label: "Agency commission", value: "2% + 5% VAT", note: "Standard market rate" },
-  { label: "Annual property tax", value: "None", note: "No annual property tax in Dubai" },
-  { label: "Capital gains tax", value: "None", note: "No CGT on residential resale" },
-  { label: "Prime apartment yields", value: "~5 to 7% gross", note: "Villas typically ~4 to 5%" },
-  { label: "Golden Visa threshold", value: "AED 2M+", note: "Supports a 10-year renewable visa" },
-];
+export default async function MarketReportPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<MarketCopy>("marketReport", locale);
 
-const FAQS = [
-  {
-    question: "What is the most expensive area in Dubai?",
-    answer:
-      "Palm Jumeirah, Emirates Hills and Jumeirah Bay Island hold the highest values, where individual homes can exceed AED 100 to 200 million.",
-  },
-  {
-    question: "Are these prices exact?",
-    answer:
-      "No. They are indicative starting points for orientation, compiled from public Dubai Land Department data and market experience. Actual value depends on the specific property, so request a valuation for a real figure.",
-  },
-  {
-    question: "How can I get an accurate figure for my property?",
-    answer:
-      "Value it against genuine recent comparable sales recorded by the DLD. EQT prepares free, no-obligation valuations from real comparable evidence, usually within the hour.",
-  },
-];
-
-export default function MarketReportPage() {
   return (
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", path: "/" },
-          { name: "Price Guide", path: "/market-report" },
+          { name: c.breadcrumbHome, path: "/" },
+          { name: c.breadcrumbPriceGuide, path: "/market-report" },
         ]}
       />
-      <FaqJsonLd faqs={FAQS} />
+      <FaqJsonLd faqs={c.faqs} />
 
       <section className="container-lux pb-[var(--section-py)] pt-40">
         <div className="max-w-3xl">
-          <p className="eyebrow mb-5">Market data</p>
+          <p className="eyebrow mb-5">{c.eyebrow}</p>
           <h1 className="display-hero text-ink" style={{ fontSize: "clamp(2.25rem,6vw,4rem)" }}>
-            Dubai prime property price guide, 2026
+            {c.h1}
           </h1>
-          <p className="mt-8 max-w-2xl text-lg text-muted">
-            Indicative 2026 price ranges for Dubai&apos;s prime and super-prime communities, alongside
-            the key facts that shape the cost of buying, owning and selling. Compiled by {site.name}
-            from public Dubai Land Department data and our own market experience. These are starting
-            points for orientation, not valuations.
-          </p>
+          <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro}</p>
         </div>
 
         {/* Price by community */}
@@ -79,17 +74,17 @@ export default function MarketReportPage() {
           <table className="w-full min-w-[560px] text-left text-sm">
             <thead>
               <tr className="border-b border-line bg-elevated text-faint">
-                <th className="px-5 py-4 font-medium">Community</th>
-                <th className="px-5 py-4 font-medium">From</th>
-                <th className="px-5 py-4 font-medium">Character</th>
+                <th className="px-5 py-4 font-medium">{c.tableCommunity}</th>
+                <th className="px-5 py-4 font-medium">{c.tableFrom}</th>
+                <th className="px-5 py-4 font-medium">{c.tableCharacter}</th>
               </tr>
             </thead>
             <tbody>
-              {COMMUNITIES.map((c) => (
-                <tr key={c.name} className="border-b border-line last:border-0">
-                  <td className="px-5 py-4 text-ink">{c.name}</td>
-                  <td className="px-5 py-4 text-muted">{c.from}</td>
-                  <td className="px-5 py-4 text-muted">{c.note}</td>
+              {c.communities.map((row) => (
+                <tr key={row.name} className="border-b border-line last:border-0">
+                  <td className="px-5 py-4 text-ink">{row.name}</td>
+                  <td className="px-5 py-4 text-muted">{row.from}</td>
+                  <td className="px-5 py-4 text-muted">{row.note}</td>
                 </tr>
               ))}
             </tbody>
@@ -98,9 +93,9 @@ export default function MarketReportPage() {
 
         {/* Key facts */}
         <div className="mt-16 max-w-3xl">
-          <p className="eyebrow mb-8">The numbers that matter</p>
+          <p className="eyebrow mb-8">{c.factsHeading}</p>
           <dl className="grid gap-x-10 gap-y-6 sm:grid-cols-2">
-            {FACTS.map((f) => (
+            {c.facts.map((f) => (
               <div key={f.label} className="border-t border-line pt-4">
                 <dt className="text-sm text-faint">{f.label}</dt>
                 <dd className="mt-1 font-display text-2xl text-ink">{f.value}</dd>
@@ -113,10 +108,10 @@ export default function MarketReportPage() {
         {/* CTA */}
         <div className="mt-16 flex flex-wrap items-center gap-6">
           <Link href="/valuation" className="btn btn-accent">
-            Request a free valuation
+            {c.ctaValuation}
           </Link>
           <Link href="/market" className="text-sm text-muted underline-offset-4 hover:text-ink hover:underline">
-            See live market insights
+            {c.ctaMarket}
           </Link>
         </div>
       </section>

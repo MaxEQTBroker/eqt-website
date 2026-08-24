@@ -47,5 +47,70 @@
     "ctaWhatsapp": "Message us on WhatsApp",
     "breadcrumbHome": "Home",
     "breadcrumbSell": "Sell"
+  },
+  "marketReport": {
+    "metaTitle": "Dubai Prime Property Price Guide 2026",
+    "metaDescription": "Indicative 2026 price ranges for Dubai's prime communities, plus the key market facts (fees, tax, yields) for buyers and sellers. Compiled by EQT from public DLD data and market experience.",
+    "eyebrow": "Market data",
+    "h1": "Dubai prime property price guide, 2026",
+    "intro": "Indicative 2026 price ranges for Dubai's prime and super-prime communities, alongside the key facts that shape the cost of buying, owning and selling. Compiled by EQT from public Dubai Land Department data and our own market experience. These are starting points for orientation, not valuations.",
+    "tableCommunity": "Community",
+    "tableFrom": "From",
+    "tableCharacter": "Character",
+    "communities": [
+      { "name": "Palm Jumeirah", "from": "AED 12M", "note": "Beachfront villas and sea-view apartments" },
+      { "name": "Emirates Hills", "from": "AED 20M", "note": "Gated golf-side mansions" },
+      { "name": "Al Barari", "from": "AED 12M", "note": "Low-density villas among botanical gardens" },
+      { "name": "Jumeirah Islands", "from": "AED 8M", "note": "Lake-set family villas" },
+      { "name": "Downtown Dubai", "from": "AED 1.5M", "note": "Burj Khalifa-view apartments and penthouses" },
+      { "name": "Dubai Marina", "from": "AED 1.5M", "note": "Waterfront apartments with strong liquidity" },
+      { "name": "Business Bay", "from": "AED 1M", "note": "Central, canal-side, accessible entry point" }
+    ],
+    "factsHeading": "The numbers that matter",
+    "facts": [
+      { "label": "DLD transfer fee", "value": "4% of price", "note": "Usually paid by the buyer" },
+      { "label": "Agency commission", "value": "2% + 5% VAT", "note": "Standard market rate" },
+      { "label": "Annual property tax", "value": "None", "note": "No annual property tax in Dubai" },
+      { "label": "Capital gains tax", "value": "None", "note": "No CGT on residential resale" },
+      { "label": "Prime apartment yields", "value": "~5 to 7% gross", "note": "Villas typically ~4 to 5%" },
+      { "label": "Golden Visa threshold", "value": "AED 2M+", "note": "Supports a 10-year renewable visa" }
+    ],
+    "faqs": [
+      { "question": "What is the most expensive area in Dubai?", "answer": "Palm Jumeirah, Emirates Hills and Jumeirah Bay Island hold the highest values, where individual homes can exceed AED 100 to 200 million." },
+      { "question": "Are these prices exact?", "answer": "No. They are indicative starting points for orientation, compiled from public Dubai Land Department data and market experience. Actual value depends on the specific property, so request a valuation for a real figure." },
+      { "question": "How can I get an accurate figure for my property?", "answer": "Value it against genuine recent comparable sales recorded by the DLD. EQT prepares free, no-obligation valuations from real comparable evidence, usually within the hour." }
+    ],
+    "ctaValuation": "Request a free valuation",
+    "ctaMarket": "See live market insights",
+    "breadcrumbHome": "Home",
+    "breadcrumbPriceGuide": "Price Guide"
+  },
+  "about": {
+    "metaTitle": "About EQT, Dubai Luxury Real Estate Brokerage",
+    "metaDescription": "EQT is a RERA-licensed Dubai brokerage specialising in prime and super-prime residential property, Palm Jumeirah, Emirates Hills, Al Barari, Downtown and Business Bay. Our credentials, approach and contacts.",
+    "breadcrumb": "About",
+    "eyebrow": "About EQT",
+    "h1": "A private office for Dubai's prime market",
+    "intro1": "EQT (EQT Real Estate) is a RERA-licensed brokerage focused exclusively on Dubai's most sought-after addresses: Palm Jumeirah, Emirates Hills, Al Barari, Jumeirah Islands, Downtown and Business Bay. We represent buyers, sellers and investors with the discretion, data and access the segment demands.",
+    "intro2": "Since 2014, EQT has transacted more than AED 5 billion across over 1,000 deals in Dubai, a 12-year track record built on discreet, evidence-based advice.",
+    "principles": [
+      { "title": "Off-market access", "body": "A large share of Dubai's finest homes never reach the portals. Our relationships put private, pre-market opportunities in front of clients first." },
+      { "title": "Evidence, not adjectives", "body": "We advise from real comparable transactions and a verifiable sold record, not sentiment. Every valuation is grounded in data." },
+      { "title": "Discretion by default", "body": "Confidential representation for buyers and sellers who value privacy, from first enquiry to completion." }
+    ],
+    "credentialsEyebrow": "Credentials",
+    "credentialsHeading": "Licensed, regulated, accountable",
+    "credentialsBody": "EQT operates under Dubai's regulatory framework. Our registration details are public and verifiable with the Dubai Land Department.",
+    "factLegalName": "Legal name",
+    "factHeadOffice": "Head office",
+    "factReraOrn": "RERA ORN",
+    "factDedLicence": "DED trade licence",
+    "factRegulatedBy": "Regulated by",
+    "factSpecialisation": "Specialisation",
+    "specialisationValue": "Prime & super-prime residential sales",
+    "ctaEyebrow": "Work with us",
+    "ctaHeading": "Meet the team or start a conversation",
+    "ctaTeam": "Meet the team",
+    "ctaContact": "Contact us"
   }
 }

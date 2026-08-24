@@ -1,75 +1,97 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
+import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
-export const metadata: Metadata = {
-  title: "About EQT — Dubai Luxury Real Estate Brokerage",
-  description:
-    "EQT is a RERA-licensed Dubai brokerage specialising in prime and super-prime residential property — Palm Jumeirah, Emirates Hills, Al Barari, Downtown and Business Bay. Our credentials, approach and contacts.",
-  alternates: { canonical: "/about" },
+type AboutCopy = {
+  metaTitle: string;
+  metaDescription: string;
+  breadcrumb: string;
+  eyebrow: string;
+  h1: string;
+  intro1: string;
+  intro2: string;
+  principles: { title: string; body: string }[];
+  credentialsEyebrow: string;
+  credentialsHeading: string;
+  credentialsBody: string;
+  factLegalName: string;
+  factHeadOffice: string;
+  factReraOrn: string;
+  factDedLicence: string;
+  factRegulatedBy: string;
+  factSpecialisation: string;
+  specialisationValue: string;
+  ctaEyebrow: string;
+  ctaHeading: string;
+  ctaTeam: string;
+  ctaContact: string;
 };
 
-const facts = [
-  { label: "Legal name", value: site.legalName },
-  { label: "Head office", value: `${site.contact.address.street}, ${site.contact.address.city}` },
-  { label: "RERA ORN", value: site.regulatory.reraOrn },
-  { label: "DED trade licence", value: site.regulatory.dedLicense },
-  { label: "Regulated by", value: site.regulatory.authority },
-  { label: "Specialisation", value: "Prime & super-prime residential sales" },
-];
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const c = uiContent<AboutCopy>("about", locale);
+  const translated = hasUiTranslation("about", locale);
+  const canonical = locale === "en" ? "/about" : `/${locale}/about`;
+  const languages: Record<string, string> = { "x-default": "/about", en: "/about" };
+  if (hasUiTranslation("about", "uk")) languages.uk = "/uk/about";
+  if (hasUiTranslation("about", "ru")) languages.ru = "/ru/about";
+  return {
+    title: c.metaTitle,
+    description: c.metaDescription,
+    alternates: { canonical, languages },
+    robots: translated ? { index: true, follow: true } : { index: false, follow: true },
+  };
+}
 
-const principles = [
-  {
-    title: "Off-market access",
-    body: "A large share of Dubai's finest homes never reach the portals. Our relationships put private, pre-market opportunities in front of clients first.",
-  },
-  {
-    title: "Evidence, not adjectives",
-    body: "We advise from real comparable transactions and a verifiable sold record — not sentiment. Every valuation is grounded in data.",
-  },
-  {
-    title: "Discretion by default",
-    body: "Confidential representation for buyers and sellers who value privacy, from first enquiry to completion.",
-  },
-];
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const c = uiContent<AboutCopy>("about", locale);
+  const facts = [
+    { label: c.factLegalName, value: site.legalName },
+    { label: c.factHeadOffice, value: `${site.contact.address.street}, ${site.contact.address.city}` },
+    { label: c.factReraOrn, value: site.regulatory.reraOrn },
+    { label: c.factDedLicence, value: site.regulatory.dedLicense },
+    { label: c.factRegulatedBy, value: site.regulatory.authority },
+    { label: c.factSpecialisation, value: c.specialisationValue },
+  ];
 
-export default function AboutPage() {
   return (
     <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
-          { name: "About", path: "/about" },
+          { name: c.breadcrumb, path: "/about" },
         ]}
       />
 
       <section className="container-lux pb-14 pt-40">
         <div className="mb-6">
-          <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "About", href: "/about" }]} />
+          <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: c.breadcrumb, href: "/about" }]} />
         </div>
-        <p className="eyebrow mb-5">About EQT</p>
+        <p className="eyebrow mb-5">{c.eyebrow}</p>
         <h1 className="display-hero max-w-[20ch] text-ink" style={{ fontSize: "clamp(2.5rem,7vw,5rem)" }}>
-          A private office for Dubai&apos;s prime market
+          {c.h1}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg text-muted">
-          {site.name} ({site.legalName}) is a RERA-licensed brokerage focused exclusively on Dubai&apos;s
-          most sought-after addresses: Palm Jumeirah, Emirates Hills, Al Barari, Jumeirah Islands,
-          Downtown and Business Bay. We represent buyers, sellers and investors with the discretion,
-          data and access the segment demands.
-        </p>
-        <p className="mt-5 max-w-2xl text-lg text-muted">
-          Since 2014, EQT has transacted more than AED 5 billion across over 1,000 deals in Dubai, a
-          12-year track record built on discreet, evidence-based advice.
-        </p>
+        <p className="mt-8 max-w-2xl text-lg text-muted">{c.intro1}</p>
+        <p className="mt-5 max-w-2xl text-lg text-muted">{c.intro2}</p>
       </section>
 
       {/* Principles */}
       <section className="container-lux pb-[var(--section-py)]">
         <div className="grid gap-6 md:grid-cols-3">
-          {principles.map((p, i) => (
+          {c.principles.map((p, i) => (
             <Reveal key={p.title} delay={i * 90}>
               <div className="h-full rounded-lg border border-line bg-elevated p-8">
                 <span className="font-display text-2xl text-accent-500">{String(i + 1).padStart(2, "0")}</span>
@@ -85,12 +107,9 @@ export default function AboutPage() {
       <section className="border-t border-line bg-elevated">
         <div className="container-lux grid gap-12 py-[var(--section-py)] lg:grid-cols-[1fr_1.2fr] lg:gap-20">
           <Reveal>
-            <p className="eyebrow mb-4">Credentials</p>
-            <h2 className="display-h2 max-w-[16ch] text-ink">Licensed, regulated, accountable</h2>
-            <p className="mt-6 max-w-md text-muted">
-              EQT operates under Dubai&apos;s regulatory framework. Our registration details are public
-              and verifiable with the Dubai Land Department.
-            </p>
+            <p className="eyebrow mb-4">{c.credentialsEyebrow}</p>
+            <h2 className="display-h2 max-w-[16ch] text-ink">{c.credentialsHeading}</h2>
+            <p className="mt-6 max-w-md text-muted">{c.credentialsBody}</p>
           </Reveal>
           <Reveal delay={100}>
             <dl className="grid gap-x-8 gap-y-5 sm:grid-cols-2">
@@ -108,18 +127,18 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="container-lux flex flex-col items-start gap-6 py-[var(--section-py)] md:flex-row md:items-center md:justify-between">
         <div>
-          <p className="eyebrow mb-4">Work with us</p>
-          <h2 className="display-h2 max-w-[18ch] text-ink">Meet the team or start a conversation</h2>
+          <p className="eyebrow mb-4">{c.ctaEyebrow}</p>
+          <h2 className="display-h2 max-w-[18ch] text-ink">{c.ctaHeading}</h2>
         </div>
         <div className="flex flex-wrap gap-4">
-          <Link href="/team" className="btn btn-ghost">Meet the team</Link>
+          <Link href="/team" className="btn btn-ghost">{c.ctaTeam}</Link>
           <a
             href={whatsappLink(`Hello ${site.name}, I'd like to learn more about working with you.`)}
             className="btn btn-accent"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contact us
+            {c.ctaContact}
           </a>
         </div>
       </section>
