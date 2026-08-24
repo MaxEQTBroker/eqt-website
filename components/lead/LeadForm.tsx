@@ -3,10 +3,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { useLocale } from "next-intl";
 import { site, whatsappLink } from "@/lib/site";
 import { postLead } from "@/lib/leads/submit";
 import { trackLead } from "@/lib/analytics";
 import { COMMUNITY_LABELS } from "@/lib/data/communityLabels";
+import { uiContent } from "@/lib/data/i18n/ui";
 
 /**
  * Multi-step lead form. On submit it POSTs the lead to /api/lead (which forwards
@@ -17,9 +19,20 @@ import { COMMUNITY_LABELS } from "@/lib/data/communityLabels";
 
 type Intent = "Buy" | "Sell" | "Invest" | "Relocate";
 const INTENTS: Intent[] = ["Buy", "Sell", "Invest", "Relocate"];
-const BUDGETS = ["Under AED 10M", "AED 10M - 30M", "AED 30M - 75M", "AED 75M+"];
-const TIMEFRAMES = ["Under 3 months", "3-6 months", "6+ months"];
 const QUICK_COMMUNITIES = ["Palm Jumeirah", "Dubai Marina", "Downtown Dubai"];
+
+type LeadCopy = {
+  step: string; of: string; legendGoal: string;
+  intentBuy: string; intentSell: string; intentInvest: string; intentRelocate: string;
+  legendCommunity: string; allCommunities: string; legendBudget: string;
+  budgetUnder10: string; budget10to30: string; budget30to75: string; budget75plus: string;
+  legendTimeframe: string; timeUnder3: string; time3to6: string; time6plus: string;
+  legendContact: string; fullName: string; fullNamePlaceholder: string;
+  contactLabel: string; contactPlaceholder: string; back: string; sending: string;
+  send: string; tapToContinue: string; notSureYet: string; selectCommunity: string;
+  closeList: string; close: string; searchPlaceholder: string; noMatches: string;
+  thankYou: string; successHeading: string; successBody: string; continueWhatsapp: string;
+};
 
 type StepKey = "goal" | "community" | "budget" | "timeframe" | "contact";
 
@@ -33,6 +46,13 @@ export function LeadForm({
   source,
 }: { defaultArea?: string; source?: string } = {}) {
   const reduce = useReducedMotion();
+  const locale = useLocale();
+  const c = uiContent<LeadCopy>("leadForm", locale);
+  const intentLabels: Record<Intent, string> = {
+    Buy: c.intentBuy, Sell: c.intentSell, Invest: c.intentInvest, Relocate: c.intentRelocate,
+  };
+  const BUDGETS = [c.budgetUnder10, c.budget10to30, c.budget30to75, c.budget75plus];
+  const TIMEFRAMES = [c.timeUnder3, c.time3to6, c.time6plus];
   const [step, setStep] = useState(0);
   const [intent, setIntent] = useState<Intent | null>(null);
   const [area, setArea] = useState<string | null>(defaultArea ?? null);
@@ -120,7 +140,7 @@ export function LeadForm({
 
   const filteredCommunities = useMemo(() => {
     const q = communityQuery.trim().toLowerCase();
-    const all = [...COMMUNITY_LABELS, "Not sure yet"];
+    const all = [...COMMUNITY_LABELS, c.notSureYet];
     return q ? all.filter((c) => c.toLowerCase().includes(q)) : all;
   }, [communityQuery]);
 
@@ -169,19 +189,16 @@ export function LeadForm({
   if (sent) {
     return (
       <div className="rounded-lg border border-line bg-elevated p-6 text-center sm:p-8">
-        <p className="eyebrow mb-4">Thank you, {name.split(" ")[0]}</p>
-        <h3 className="font-display text-xl text-ink">We&rsquo;ve received your enquiry</h3>
-        <p className="mx-auto mt-4 max-w-sm text-muted">
-          A private advisor will be in touch shortly. For the fastest response, continue the
-          conversation on WhatsApp.
-        </p>
+        <p className="eyebrow mb-4">{c.thankYou}, {name.split(" ")[0]}</p>
+        <h3 className="font-display text-xl text-ink">{c.successHeading}</h3>
+        <p className="mx-auto mt-4 max-w-sm text-muted">{c.successBody}</p>
         <a
           href={whatsappLink(message)}
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-whatsapp mt-7 inline-block"
         >
-          Continue on WhatsApp
+          {c.continueWhatsapp}
         </a>
       </div>
     );
@@ -201,7 +218,7 @@ export function LeadForm({
         ))}
       </div>
       <p className="eyebrow mb-5">
-        Step {stepIndex + 1} / {flow.length}
+        {c.step} {stepIndex + 1} {c.of} {flow.length}
       </p>
 
       <AnimatePresence mode="wait">
@@ -213,12 +230,12 @@ export function LeadForm({
           {current === "goal" && (
             <fieldset>
               <legend className="mb-4 font-display text-xl text-ink">
-                How can we help?
+                {c.legendGoal}
               </legend>
               <div className="grid grid-cols-2 gap-2.5">
                 {INTENTS.map((opt) => (
                   <OptionButton key={opt} active={intent === opt} onClick={() => chooseIntent(opt)}>
-                    {opt}
+                    {intentLabels[opt]}
                   </OptionButton>
                 ))}
               </div>
@@ -227,7 +244,7 @@ export function LeadForm({
 
           {current === "community" && (
             <fieldset>
-              <legend className="mb-4 font-display text-xl text-ink">Which community?</legend>
+              <legend className="mb-4 font-display text-xl text-ink">{c.legendCommunity}</legend>
               <div className="flex flex-wrap gap-2.5">
                 {quickPicks.map((opt) => (
                   <OptionButton key={opt} small active={area === opt} onClick={() => chooseArea(opt)}>
@@ -240,7 +257,7 @@ export function LeadForm({
                   </OptionButton>
                 )}
                 <OptionButton small active={false} onClick={() => setShowAllCommunities(true)}>
-                  All communities…
+                  {c.allCommunities}
                 </OptionButton>
               </div>
             </fieldset>
@@ -248,7 +265,7 @@ export function LeadForm({
 
           {current === "budget" && (
             <fieldset>
-              <legend className="mb-4 font-display text-xl text-ink">Budget</legend>
+              <legend className="mb-4 font-display text-xl text-ink">{c.legendBudget}</legend>
               <div className="flex flex-wrap gap-2.5">
                 {BUDGETS.map((opt) => (
                   <OptionButton
@@ -270,7 +287,7 @@ export function LeadForm({
           {current === "timeframe" && (
             <fieldset>
               <legend className="mb-4 font-display text-xl text-ink">
-                When are you looking to relocate?
+                {c.legendTimeframe}
               </legend>
               <div className="flex flex-wrap gap-2.5">
                 {TIMEFRAMES.map((opt) => (
@@ -292,22 +309,22 @@ export function LeadForm({
 
           {current === "contact" && (
             <div className="space-y-5">
-              <legend className="mb-1 font-display text-xl text-ink">Your details</legend>
-              <Field label="Full name">
+              <legend className="mb-1 font-display text-xl text-ink">{c.legendContact}</legend>
+              <Field label={c.fullName}>
                 <input
                   className="lux-input"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  placeholder="e.g. Alexander Ross"
+                  placeholder={c.fullNamePlaceholder}
                   autoComplete="name"
                 />
               </Field>
-              <Field label="WhatsApp or email">
+              <Field label={c.contactLabel}>
                 <input
                   className="lux-input"
                   value={contact}
                   onChange={(e) => setContact(e.target.value)}
-                  placeholder="+971 50 000 0000"
+                  placeholder={c.contactPlaceholder}
                   autoComplete="tel"
                 />
               </Field>
@@ -336,7 +353,7 @@ export function LeadForm({
           onClick={() => setStep((s) => Math.max(0, s - 1))}
           disabled={stepIndex === 0}
         >
-          ← Back
+          ← {c.back}
         </button>
 
         {current === "contact" ? (
@@ -346,10 +363,10 @@ export function LeadForm({
             onClick={submit}
             disabled={!canSubmit || sending}
           >
-            {sending ? "Sending…" : "Send enquiry"}
+            {sending ? c.sending : c.send}
           </button>
         ) : (
-          <span className="text-xs text-faint">Tap an option to continue</span>
+          <span className="text-xs text-faint">{c.tapToContinue}</span>
         )}
       </div>
 
@@ -381,11 +398,11 @@ export function LeadForm({
           sticky/overflow clipping, always scrolls, and closes via ×, backdrop,
           or Escape. */}
       {mounted && showAllCommunities && createPortal(
-        <div className="fixed inset-0 z-[2147483000]" role="dialog" aria-modal="true" aria-label="Select a community">
+        <div className="fixed inset-0 z-[2147483000]" role="dialog" aria-modal="true" aria-label={c.selectCommunity}>
           {/* Transparent click-catcher: closes on outside click without darkening the screen. */}
           <button
             type="button"
-            aria-label="Close community list"
+            aria-label={c.closeList}
             onClick={() => setShowAllCommunities(false)}
             className="absolute inset-0 cursor-default"
           />
@@ -410,11 +427,11 @@ export function LeadForm({
           {/* Compact popup, centred in the visible viewport. */}
           <div className="pointer-events-auto flex max-h-full w-[min(22rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-lg border border-line bg-elevated shadow-2xl">
             <div className="flex items-center justify-between border-b border-line px-4 py-3">
-              <p className="font-display text-lg text-ink">Select a community</p>
+              <p className="font-display text-lg text-ink">{c.selectCommunity}</p>
               <button
                 type="button"
                 onClick={() => setShowAllCommunities(false)}
-                aria-label="Close"
+                aria-label={c.close}
                 className="text-2xl leading-none text-faint transition-colors hover:text-ink"
               >
                 &times;
@@ -425,7 +442,7 @@ export function LeadForm({
                 autoFocus
                 value={communityQuery}
                 onChange={(e) => setCommunityQuery(e.target.value)}
-                placeholder="Search communities…"
+                placeholder={c.searchPlaceholder}
                 className="lux-input"
               />
             </div>
@@ -433,7 +450,7 @@ export function LeadForm({
                 smooth-scroll library eating the wheel and scrolling the page. */}
             <div className="flex-1 overflow-y-auto overscroll-contain p-2" data-lenis-prevent>
               {filteredCommunities.length === 0 ? (
-                <p className="px-3 py-6 text-sm text-faint">No matches. Try another name.</p>
+                <p className="px-3 py-6 text-sm text-faint">{c.noMatches}</p>
               ) : (
                 filteredCommunities.map((c) => {
                   const selected = area === c;
