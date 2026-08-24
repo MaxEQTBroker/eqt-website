@@ -20,10 +20,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const { slug, locale } = await params;
+  const post = await getPostBySlug(slug, locale);
   if (!post) return {};
   return {
     title: post.title,
@@ -61,13 +61,13 @@ function sectionId(heading: string): string {
 export default async function BlogPostPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const { slug, locale } = await params;
+  const post = await getPostBySlug(slug, locale);
   if (!post) notFound();
 
-  const related = await getRelatedPosts(slug);
+  const related = await getRelatedPosts(slug, 2, locale);
   // Editorial photos woven between sections to break up the text.
   const bodyImages = bodyImagesFor(post.slug, 2);
 

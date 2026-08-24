@@ -698,6 +698,7 @@ export const mockPosts: BlogPost[] = [
 import { heroImages } from "./mock/heroImages";
 import { generatedPosts } from "./mock/posts-generated";
 import { seoPosts } from "./mock/posts-seo";
+import { localizePost } from "./i18n/postTranslations";
 
 /** Hand-written posts plus the long-form generated set, one combined library. */
 const allPosts: BlogPost[] = [...mockPosts, ...generatedPosts, ...seoPosts];
@@ -708,26 +709,28 @@ function withHero(post: BlogPost): BlogPost {
   return hero ? { ...post, heroImage: hero } : post;
 }
 
-export async function getAllPosts(): Promise<BlogPost[]> {
+export async function getAllPosts(locale?: string): Promise<BlogPost[]> {
   return [...allPosts]
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-    .map(withHero);
+    .map(withHero)
+    .map((p) => localizePost(p, locale));
 }
 
-export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+export async function getPostBySlug(slug: string, locale?: string): Promise<BlogPost | null> {
   const post = allPosts.find((p) => p.slug === slug);
-  return post ? withHero(post) : null;
+  return post ? localizePost(withHero(post), locale) : null;
 }
 
 export async function getAllPostSlugs(): Promise<string[]> {
   return allPosts.map((p) => p.slug);
 }
 
-export async function getRelatedPosts(slug: string, limit = 2): Promise<BlogPost[]> {
+export async function getRelatedPosts(slug: string, limit = 2, locale?: string): Promise<BlogPost[]> {
   const current = allPosts.find((p) => p.slug === slug);
   return allPosts
     .filter((p) => p.slug !== slug)
     .sort((a, b) => (b.category === current?.category ? 1 : 0) - (a.category === current?.category ? 1 : 0))
     .slice(0, limit)
-    .map(withHero);
+    .map(withHero)
+    .map((p) => localizePost(p, locale));
 }
