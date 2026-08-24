@@ -131,11 +131,11 @@ export const seoPosts: BlogPost[] = [
     ],
     "relatedLinks": [
       {
-        "label": "Explore Palm Jumeirah",
+        "label": "Palm Jumeirah luxury villas",
         "href": "/areas/palm-jumeirah"
       },
       {
-        "label": "Browse villas for sale",
+        "label": "Dubai luxury villas",
         "href": "/property/villas"
       },
       {
@@ -3128,6 +3128,14 @@ export const seoPosts: BlogPost[] = [
       {
         "label": "Request a free valuation",
         "href": "/valuation"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Dubai luxury villas",
+        "href": "/property/villas"
       }
     ],
     "keywords": [

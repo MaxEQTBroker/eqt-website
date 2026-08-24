@@ -136,7 +136,8 @@ export const mockPosts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { label: "Palm Jumeirah community guide", href: "/areas/palm-jumeirah" },
+      { label: "Palm Jumeirah luxury villas", href: "/areas/palm-jumeirah" },
+      { label: "Dubai luxury villas", href: "/property/villas" },
       { label: "How to buy a villa in Dubai", href: "/blog/how-to-buy-a-villa-in-dubai" },
       { label: "Luxury property in Dubai: a price guide", href: "/blog/luxury-property-in-dubai-price-guide" },
       { label: "Waterfront property in Dubai: best areas", href: "/blog/waterfront-property-in-dubai-best-areas" },
