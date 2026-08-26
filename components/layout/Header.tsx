@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { site, whatsappLink } from "@/lib/site";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -28,6 +28,10 @@ const NAV: { href: string; key: string }[] = [
 export function Header() {
   const t = useTranslations("nav");
   const tc = useTranslations("common");
+  const pathname = usePathname();
+  // Only the home page has a dark full-bleed hero video behind the header, so
+  // only there does the header sit on dark and need light text at the top.
+  const isHome = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -45,7 +49,9 @@ export function Header() {
     };
   }, [open]);
 
-  const barColor = open ? "#e8ecf4" : scrolled ? "var(--text-primary)" : "#ffffff";
+  // Navy by default (readable on the light pearl pages); white only at the top
+  // of the home page over its dark hero; pearl while the dark menu overlay is open.
+  const barColor = open ? "#e8ecf4" : !scrolled && isHome ? "#ffffff" : "var(--text-primary)";
 
   return (
     <header
@@ -97,7 +103,9 @@ export function Header() {
 
         {/* Right, language switcher (desktop) + Inquire */}
         <div className="flex items-center gap-5">
-          <div className="hidden sm:flex">
+          {/* Language switcher: desktop always; on mobile it appears when the
+              menu is open (so it's the single switcher, none duplicated below). */}
+          <div className={open ? "flex" : "hidden sm:flex"}>
             <LanguageSwitcher color={barColor} />
           </div>
           {!open && (
@@ -152,11 +160,10 @@ export function Header() {
               transition: `opacity 0.6s ${0.12 + NAV.length * 0.06}s var(--ease-lux)`,
             }}
           >
-            <LanguageSwitcher color="#93a0b8" />
-            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit transition-colors hover:text-[#e8ecf4]">
+            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
               {site.contact.phone} · WhatsApp
             </a>
-            <a href={`mailto:${site.contact.email}`} className="w-fit transition-colors hover:text-[#e8ecf4]">
+            <a href={`mailto:${site.contact.email}`} className="w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
               {site.contact.email}
             </a>
           </div>
