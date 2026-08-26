@@ -9449,4 +9449,1438 @@ export const seoPosts: BlogPost[] = [
       "Dubai property tax Thai residents"
     ]
   },
+  {
+    "slug": "buying-property-in-dubai-for-french-buyers",
+    "title": "Buying Property in Dubai for French Buyers",
+    "excerpt": "Yes, French citizens can buy freehold property in Dubai outright. Here is what French buyers need to know on ownership, French tax, costs and the.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, French citizens can buy and own freehold property in Dubai outright, with full title in their own name and no UAE residency required. France and the UAE have long, friendly ties, and thousands of French nationals already own homes across Dubai. You can purchase in designated freehold areas, hold the property indefinitely, rent it out and sell it freely. There is no Dubai income tax or annual property tax on what you earn locally. The important nuance is on the French side: if you remain a French tax resident, your Dubai income and gains stay reportable in France. This guide walks through ownership, buying remotely, French tax and total costs.",
+    "keyTakeaways": [
+      "French buyers can own freehold Dubai property outright, in their own name, with no UAE residency requirement.",
+      "The whole purchase can be completed remotely from France using a notarised power of attorney.",
+      "Dubai charges 0% income tax and 0% annual property tax, but French tax residents must still report worldwide rental income and capital gains in France.",
+      "A France-UAE double taxation treaty exists and helps avoid being taxed twice on the same income.",
+      "French wealth tax (IFI) can include worldwide real estate for French tax residents whose net property assets exceed EUR 1.3 million.",
+      "Investing AED 2 million or more can qualify you for a 10-year renewable Golden Visa."
+    ],
+    "sections": [
+      {
+        "heading": "Can French citizens own property in Dubai?",
+        "body": [
+          "Yes. French nationals have the same rights as other foreign buyers to purchase and own freehold property in Dubai. Freehold means you hold the full title, registered with the Dubai Land Department in your own name, and you can keep, rent, renovate or sell the property as you wish, with no expiry on your ownership.",
+          "Ownership is limited to designated freehold zones, but these cover most of the areas French buyers care about, including Palm Jumeirah, Dubai Marina, Downtown Dubai, Emirates Hills, Jumeirah and District One. You do not need to live in the UAE or hold a residency visa to buy. Many French owners purchase purely as an investment or a second home and visit a few times a year.",
+          "There is no restriction on how many properties you can own, and no nationality quota. Your title is protected under UAE property law and registered on a government system, giving you the same legal certainty a local buyer receives."
+        ],
+        "bullets": [
+          "Full freehold title registered in your own name with the Dubai Land Department.",
+          "No UAE residency or visa needed to complete a purchase.",
+          "No limit on the number of properties a French national can own."
+        ]
+      },
+      {
+        "heading": "Buying remotely from France",
+        "body": [
+          "You do not need to fly to Dubai to buy. A large share of French purchases are completed entirely from France. For ready (completed) properties, once you have agreed terms, the transaction is handled through the Dubai Land Department and typically settles within a few weeks.",
+          "If you cannot attend in person, you can sign a power of attorney authorising a trusted representative or your brokerage to act on your behalf. The document is usually notarised in France and legalised so it is recognised in the UAE. Off-plan purchases from a developer are even simpler and are routinely signed digitally from abroad.",
+          "You will need a passport, proof of funds and the ability to transfer the purchase price internationally. A good broker coordinates the paperwork, verifies the title, handles the DLD registration and keeps you updated remotely. We recommend a short video call and, where possible, one visit to view shortlisted homes before you commit."
+        ],
+        "bullets": [
+          "Sign via a notarised, legalised power of attorney if you cannot travel.",
+          "Have your passport, proof of funds and international transfer ready.",
+          "Off-plan developer purchases can often be signed digitally from France."
+        ]
+      },
+      {
+        "heading": "French tax: what you still owe at home",
+        "body": [
+          "This is the point French buyers most often get wrong. Dubai does not tax your rental income or your capital gains locally. However, if you remain a French tax resident, France taxes you on your worldwide income, so your Dubai rental income and any capital gain on a sale remain reportable to the French tax authorities.",
+          "The good news is that France and the UAE have a double taxation treaty. It sets out which country has taxing rights over different types of income and provides mechanisms to avoid paying tax twice on the same amount. How your Dubai property is treated in practice depends on your personal situation and how the treaty applies to you.",
+          "There is also the French real estate wealth tax, the IFI (impot sur la fortune immobiliere). French tax residents whose net worldwide real estate assets exceed EUR 1.3 million can be liable, and a Dubai property can count toward that threshold. If you are not a French tax resident, the IFI generally applies only to French-situated real estate.",
+          "Because the outcome depends on your residency, your other assets and how the treaty applies, you should speak with a French notaire or fiscaliste before you buy. This guide is general information, not tax advice."
+        ],
+        "bullets": [
+          "French tax residents report worldwide Dubai rental income and capital gains in France.",
+          "The France-UAE double taxation treaty helps prevent being taxed twice.",
+          "IFI wealth tax can include a Dubai property once net real estate assets exceed EUR 1.3 million.",
+          "Always confirm your position with a French notaire or fiscaliste."
+        ]
+      },
+      {
+        "heading": "Currency: paying in EUR for an AED asset",
+        "body": [
+          "Dubai property is priced in UAE dirhams (AED). As a French buyer you will convert euros into dirhams to fund the purchase, so the EUR to AED rate matters for your total cost.",
+          "One point works in your favour: the dirham is pegged to the US dollar at a fixed rate of about 3.6725 AED per USD. That removes AED-versus-USD volatility, so your only real currency exposure is the euro against the dollar. This makes budgeting more predictable than in many floating-currency markets.",
+          "For larger transfers, compare your bank against a specialist foreign exchange provider, as the spread and fees can differ meaningfully on a seven-figure purchase. Plan the timing of your conversion, and keep clear records of the transfer for both your UAE registration and your French reporting."
+        ],
+        "bullets": [
+          "Property is priced and settled in AED; you convert from EUR.",
+          "AED is pegged to USD at roughly 3.6725, removing AED volatility.",
+          "Compare bank and FX-specialist rates on large transfers to reduce cost."
+        ]
+      },
+      {
+        "heading": "Costs, fees and the Golden Visa",
+        "body": [
+          "Budget for transaction costs on top of the purchase price. The main one is the Dubai Land Department transfer fee of 4% of the property value. Expect an agency fee of around 2% plus 5% VAT on that fee, along with smaller registration and trustee charges. As a rule of thumb, allow roughly 6% to 7% of the price in total fees.",
+          "If you buy with a value of AED 2 million or more, you can qualify for a 10-year renewable Golden Visa. This gives you long-term UAE residency, the ability to sponsor family, and greater flexibility to live in or travel through the UAE. It does not automatically make you a UAE tax resident, and it does not by itself change your French tax residency, which depends on where you actually live and your ties.",
+          "Financing is possible for non-residents through some UAE banks, though most French buyers purchase in cash or arrange funds at home. A broker can introduce mortgage options if you need them."
+        ],
+        "bullets": [
+          "4% DLD transfer fee, about 2% agency fee plus 5% VAT, and minor registration costs.",
+          "Total transaction costs are typically around 6% to 7% of the price.",
+          "AED 2 million or more can qualify you for a 10-year renewable Golden Visa."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to French buyers",
+        "body": [
+          "The tax contrast is the headline. Dubai levies 0% personal income tax and 0% annual property tax, which stands in sharp relief against France's high income tax, social charges and IFI. Even accounting for what remains reportable in France, the local environment is attractive for income-producing property.",
+          "Beyond tax, the lifestyle draw is real: year-round sun, a high standard of safety, world-class dining and schools, and strong rental yields that commonly run in the 5% to 8% range, well above prime Paris. Dubai is around a seven-hour direct flight from Paris, making a second home genuinely usable across the year.",
+          "There is also a large and growing French community in Dubai, with French schools, bakeries, restaurants and business networks, so buyers rarely feel isolated. For many French investors, Dubai offers a rare combination of yield, lifestyle and a straightforward buying process."
+        ],
+        "bullets": [
+          "0% Dubai income and property tax versus France's high tax burden.",
+          "Rental yields commonly in the 5% to 8% range, above prime Paris.",
+          "Around a 7-hour direct flight from Paris, with a large French community on the ground."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I buy in Dubai as a French citizen without living in the UAE?",
+        "answer": "Yes. You can buy and own freehold Dubai property outright without any UAE residency or visa. Ownership and residency are separate; many French owners buy as an investment or second home and simply visit."
+      },
+      {
+        "question": "Do I still pay tax in France on my Dubai property?",
+        "answer": "If you remain a French tax resident, yes, in the sense that your worldwide income is reportable in France, so Dubai rental income and capital gains must be declared. The France-UAE double taxation treaty helps avoid being taxed twice. Confirm your position with a French fiscaliste. This is not tax advice."
+      },
+      {
+        "question": "Does a Dubai property count toward French wealth tax (IFI)?",
+        "answer": "It can. French tax residents whose net worldwide real estate assets exceed EUR 1.3 million may be liable for IFI, and a Dubai property can count toward that threshold. Non-residents are generally taxed under IFI only on French real estate. Take professional advice for your situation."
+      },
+      {
+        "question": "What are the total costs of buying in Dubai?",
+        "answer": "Plan for roughly 6% to 7% of the price in fees: a 4% Dubai Land Department transfer fee, about 2% agency fee plus 5% VAT on that fee, and small registration charges, on top of the purchase price and your EUR to AED conversion cost."
+      },
+      {
+        "question": "Can buying property get me a UAE residency visa?",
+        "answer": "Yes. A property investment of AED 2 million or more can qualify you for a 10-year renewable Golden Visa, which grants long-term residency and family sponsorship. It does not automatically change your French tax residency, which depends on where you actually live."
+      },
+      {
+        "question": "How does the currency work for a French buyer?",
+        "answer": "Property is priced in AED, so you convert euros to dirhams. The dirham is pegged to the US dollar at about 3.6725, which removes AED volatility; your main exposure is EUR against USD. Compare bank and FX-specialist rates on large transfers to save on spread."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for French buyers",
+      "French buyers Dubai real estate",
+      "Dubai property French tax",
+      "France UAE double taxation treaty property",
+      "IFI wealth tax Dubai property",
+      "Dubai Golden Visa French investors",
+      "buy Dubai property from France",
+      "freehold property Dubai French citizens"
+    ]
+  },
+  {
+    "slug": "buying-property-in-dubai-for-dutch-buyers",
+    "title": "Buying Property in Dubai for Dutch Buyers",
+    "excerpt": "Yes, Dutch citizens can own Dubai freehold outright. A guide to buying remotely, Box 3 tax, currency, costs and the Golden Visa.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Dutch citizens can buy and own freehold property in Dubai outright, with full legal title registered in their own name at the Dubai Land Department. You do not need to be a UAE resident, and you do not need to live in Dubai or hold a visa to complete a purchase. As a Netherlands passport holder you can buy in any designated freehold area, own it indefinitely, rent it out, and sell or pass it on freely. The whole transaction can be handled remotely from the Netherlands. The one area that needs real care is Dutch tax at home, where your worldwide assets matter. This guide covers ownership, buying from abroad, tax, currency, costs and the Golden Visa.",
+    "keyTakeaways": [
+      "Dutch buyers can own Dubai freehold property outright, in their own name, with no residency or visa required.",
+      "The entire purchase can be completed remotely from the Netherlands using a notarised power of attorney.",
+      "Dubai charges no annual property tax, no income tax on rent and no capital gains tax on resale.",
+      "In the Netherlands your Dubai property generally falls under Box 3 wealth tax, but the Netherlands-UAE tax treaty usually exempts the value while still affecting your rate (vrijstelling met progressievoorbehoud).",
+      "The AED is pegged to the US dollar at about 3.6725, so your main currency exposure is the EUR to USD rate.",
+      "A purchase of AED 2 million or more can qualify you for a 10-year renewable Golden Visa.",
+      "Always confirm your personal position with a Dutch belastingadviseur before you buy."
+    ],
+    "sections": [
+      {
+        "heading": "Can Dutch citizens own property in Dubai?",
+        "body": [
+          "Yes. Dutch nationals have the same buying rights in Dubai as almost every other foreign nationality. Since 2002 the emirate has allowed foreigners to own property on a freehold basis within designated freehold areas, and the Netherlands is on no restricted list. Freehold means you own both the building and the land it sits on, indefinitely, with your name recorded on the title deed issued by the Dubai Land Department.",
+          "There is no requirement to be a UAE resident, to hold a visa, or to have ever set foot in Dubai before you buy. Ownership is not tied to your immigration status, so the property remains yours whether or not you ever relocate. You are free to live in it, leave it empty, rent it out on long or short lets, renovate it, or sell it whenever you choose.",
+          "Popular freehold districts with Dutch buyers include Dubai Marina, Downtown Dubai, Palm Jumeirah, Business Bay, Jumeirah Village Circle and the newer waterfront communities. A RERA-registered brokerage such as EQT can confirm that any specific building or plot is genuinely freehold and open to foreign ownership before you commit."
+        ],
+        "bullets": [
+          "Full freehold title in your own name, held indefinitely.",
+          "No UAE residency, visa or prior travel required to buy.",
+          "Freedom to rent, sell, renovate or bequeath the property."
+        ]
+      },
+      {
+        "heading": "Buying remotely from the Netherlands",
+        "body": [
+          "You do not need to fly to Dubai to complete a purchase. A large share of overseas buyers close the entire transaction from home, and the process is well established for Netherlands-based clients working across the time zone.",
+          "The usual route is a power of attorney (POA). You appoint a trusted representative, often your lawyer or a named person at your brokerage, to sign documents and register the transfer on your behalf. The POA is typically prepared in Dubai, then notarised and legalised so it is valid for use in the UAE. Your ID documents can be verified digitally, and funds are sent by international bank transfer.",
+          "A typical remote purchase runs through property selection and video viewings, a signed reservation form, a Memorandum of Understanding (Form F) with a deposit of around 10 percent, then final transfer at the Dubai Land Department where the new title deed is issued. Your representative can attend the transfer appointment so you never have to travel.",
+          "Because you are managing this from a distance, work only with a RERA-registered brokerage and use an escrow arrangement for off-plan payments so your money is protected at every stage."
+        ],
+        "bullets": [
+          "Grant a notarised, legalised power of attorney to a trusted representative.",
+          "View by video, then sign the reservation and Form F remotely.",
+          "Funds move by international transfer; title deed issues at the Dubai Land Department."
+        ]
+      },
+      {
+        "heading": "Dutch tax when you own property abroad",
+        "body": [
+          "This is the part Dutch buyers most often get wrong, so treat it carefully. As a resident of the Netherlands you are taxed on your worldwide assets, not just on what you hold at home. A property in Dubai is a foreign asset and, because it is not your primary Dutch home and usually is not financed as such, it generally falls under Box 3, the Dutch tax on savings and investments. Box 3 taxes the value of your assets rather than the actual rental income they produce.",
+          "The key relief comes from the double taxation treaty between the Netherlands and the United Arab Emirates. Under that treaty, immovable property is taxable in the country where it sits, so your Dubai property value is typically exempted from Dutch tax. The Netherlands applies this as a vrijstelling met progressievoorbehoud, an exemption with progression. In plain terms the property value is taken out of the amount you are actually taxed on, but it can still be counted when working out the rate that applies to your remaining Box 3 assets. The effect is that you are not double taxed on the Dubai property, but it may still nudge the rate on your other assets.",
+          "You are still required to declare the foreign property in your Dutch tax return so the exemption can be applied correctly. Rules on Box 3, valuations and the treaty change over time, and your personal outcome depends on your wider financial picture, so this is general information and not tax advice. Speak to a Dutch belastingadviseur, ideally one who handles foreign real estate, before you complete."
+        ],
+        "bullets": [
+          "The Netherlands taxes residents on worldwide assets; a Dubai property generally sits in Box 3.",
+          "The Netherlands-UAE treaty usually exempts the property value (vrijstelling met progressievoorbehoud).",
+          "You must still declare the property; confirm your position with a Dutch belastingadviseur."
+        ]
+      },
+      {
+        "heading": "Tax in Dubai itself",
+        "body": [
+          "The other side of the picture is refreshingly simple. Dubai levies no annual property tax on residential real estate, no income tax on rent you collect, and no capital gains tax when you sell. That is a sharp contrast to owning investment property in the Netherlands and is a big part of why Dutch investors look to Dubai in the first place.",
+          "The main government charge is a one-time Dubai Land Department transfer fee of 4 percent of the purchase price, paid at registration. Beyond that you have ordinary running costs such as service charges to the building or community, plus a small annual municipality fee that is collected through your DEWA utility bill on rented homes.",
+          "So while the Netherlands may still consider the asset for rate purposes, Dubai itself takes nothing from your rental yield or your eventual gain. For a buy-to-let held over several years that difference compounds meaningfully."
+        ],
+        "bullets": [
+          "No annual property tax, no rental income tax, no capital gains tax in Dubai.",
+          "One-time 4 percent Dubai Land Department transfer fee at registration.",
+          "Ongoing service charges and a small municipality fee via the utility bill."
+        ]
+      },
+      {
+        "heading": "Currency, costs and payment",
+        "body": [
+          "Dubai prices are quoted in dirhams (AED). The dirham is pegged to the US dollar at a fixed rate of about 3.6725, which removes the AED-USD swing entirely. Your real currency exposure is therefore the euro to dollar rate, because your euros first convert into dollars in effect and then into a fixed number of dirhams. When the euro is strong against the dollar, Dubai property costs you less in euro terms.",
+          "For a large transfer it is usually cheaper to use a specialist foreign exchange provider than your high-street bank, and you can consider a forward contract to lock a rate between signing and final payment. Send funds from an account in your own name to keep the source-of-funds trail clean, which matters for both the escrow and any later Golden Visa application.",
+          "Budget for total transaction costs of roughly 7 to 8 percent of the price on top of the property itself. That covers the 4 percent transfer fee, agency commission of around 2 percent, and smaller registration, trustee, conveyancing and mortgage-related fees. If you buy with a UAE mortgage rather than cash there are additional bank and valuation charges, though many overseas buyers purchase in cash."
+        ],
+        "bullets": [
+          "AED is pegged to the US dollar at about 3.6725; watch the EUR to USD rate.",
+          "Use a specialist FX provider and consider a forward contract for the transfer.",
+          "Plan for about 7 to 8 percent in total transaction costs above the purchase price."
+        ]
+      },
+      {
+        "heading": "The Golden Visa and why Dubai appeals to Dutch buyers",
+        "body": [
+          "A property purchase of AED 2 million or more can qualify you for the UAE Golden Visa, a 10-year renewable residence permit. It can extend to your spouse and children, does not require you to live in the UAE full time, and can be applied for on completed or qualifying off-plan property. It is a genuine draw for Dutch families who want an optional base in the sun without giving up life in the Netherlands.",
+          "Beyond the visa, the appeal is easy to understand. Dubai charges zero personal income tax and zero property tax, so more of your yield stays with you. Rental yields commonly run in the 5 to 8 percent range, well above what comparable Dutch cities offer. The city is safe, sunny year round, and highly organised, with world-class healthcare and international schools.",
+          "Practically, Dubai is only about a 7 hour non-stop flight from Amsterdam Schiphol, which makes owning and visiting realistic rather than a once-a-year expedition. There is a large and growing Dutch and wider European expat community, English is the working language everywhere, and day-to-day life is straightforward. For many Dutch buyers it adds up to a lifestyle bolt-hole and a tax-efficient income asset in one."
+        ],
+        "bullets": [
+          "AED 2 million or more can secure a 10-year renewable Golden Visa for you and your family.",
+          "Zero Dubai income and property tax, with yields commonly in the 5 to 8 percent range.",
+          "About 7 hours from Schiphol, safe and sunny, with a large Dutch expat community."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need to live in Dubai or hold a visa to buy property there?",
+        "answer": "No. Dutch citizens can buy freehold property in Dubai without being a UAE resident and without holding any visa. Ownership is separate from immigration status, so the title deed is yours whether or not you ever relocate. A property worth AED 2 million or more can, if you wish, later be used to apply for a 10-year Golden Visa, but that is optional and not a condition of buying."
+      },
+      {
+        "question": "Can I complete the whole purchase from the Netherlands?",
+        "answer": "Yes. Most overseas buyers close remotely. You appoint a representative through a notarised and legalised power of attorney, view properties by video, sign the reservation and Memorandum of Understanding electronically, and transfer funds by international bank transfer. Your representative attends the Dubai Land Department transfer on your behalf, and the new title deed is issued in your name. You never have to travel if you prefer not to."
+      },
+      {
+        "question": "Will I be taxed in the Netherlands on my Dubai property?",
+        "answer": "As a Dutch resident you are taxed on worldwide assets, and a Dubai property generally falls under Box 3 wealth tax. However, the Netherlands-UAE double taxation treaty usually exempts the property value from Dutch tax while still letting it affect your rate, an arrangement called vrijstelling met progressievoorbehoud. You must still declare the property in your return. This is general information, not tax advice, so confirm your position with a Dutch belastingadviseur."
+      },
+      {
+        "question": "How does the currency work when I pay in euros?",
+        "answer": "Dubai prices are in dirhams (AED), which are pegged to the US dollar at a fixed rate of about 3.6725. Because the AED to USD rate does not move, your real exposure is the euro to US dollar rate. A stronger euro makes Dubai property cheaper for you. For a large transfer, a specialist foreign exchange provider is usually cheaper than a bank, and a forward contract can lock your rate between signing and final payment."
+      },
+      {
+        "question": "What are the total costs of buying beyond the price?",
+        "answer": "Budget roughly 7 to 8 percent of the purchase price in transaction costs. The largest item is the one-time Dubai Land Department transfer fee of 4 percent, followed by agency commission of around 2 percent, with smaller registration, trustee and conveyancing fees. Dubai then charges no annual property tax, no tax on rental income and no capital gains tax on resale, so the ongoing cost of holding is limited to service charges and a small municipality fee."
+      },
+      {
+        "question": "Why do so many Dutch buyers choose Dubai specifically?",
+        "answer": "The combination is hard to match: zero personal income and property tax, rental yields commonly of 5 to 8 percent, a safe and sunny year-round climate, and a well-run city with excellent healthcare and schools. It is only about a 7 hour flight from Amsterdam Schiphol, English is used everywhere, and there is a large and growing Dutch and European expat community. A qualifying purchase can also unlock a 10-year Golden Visa for the whole family."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Dutch buyers",
+      "Dutch citizens buy Dubai property",
+      "Dubai property Netherlands tax Box 3",
+      "vrijstelling met progressievoorbehoud Dubai",
+      "Netherlands UAE double taxation treaty property",
+      "buy Dubai property remotely from Netherlands",
+      "Dubai Golden Visa property Dutch",
+      "Dubai freehold property foreigners",
+      "EUR to AED property purchase",
+      "Dubai real estate yields Dutch investors"
+    ]
+  },
+  {
+    "slug": "buying-property-in-dubai-for-polish-buyers",
+    "title": "Buying Property in Dubai for Polish Buyers",
+    "excerpt": "Yes, Polish citizens can buy freehold property in Dubai outright. Here is how ownership, remote buying, Polish tax, currency and the Golden Visa work.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Polish citizens can buy and own freehold property in Dubai outright, with no residency requirement and no local partner needed. As a foreign buyer you hold full title in your own name in designated freehold zones, exactly as a UAE national would. You can complete the entire purchase remotely from Poland, pay in AED (pegged to the US dollar), and, at AED 2 million or more, qualify for a renewable 10-year Golden Visa. Dubai itself levies no property, income or capital gains tax, but as a Polish tax resident you must still report worldwide income at home. This guide walks through every step for buyers from Poland.",
+    "keyTakeaways": [
+      "Polish citizens can buy freehold Dubai property outright in their own name, with no UAE residency required.",
+      "The full purchase can be completed remotely from Poland using a notarised power of attorney.",
+      "Dubai charges 0% property, income and capital gains tax, but Polish tax residents must report worldwide income in Poland.",
+      "A Poland-UAE double taxation treaty exists; Poland amended it and applies relief methods, so consult a Polish doradca podatkowy.",
+      "The AED is pegged to the US dollar at roughly 3.6725, so your main currency exposure is PLN against USD.",
+      "A property purchase of AED 2 million or more qualifies for a renewable 10-year Golden Visa."
+    ],
+    "sections": [
+      {
+        "heading": "Can Polish citizens own property in Dubai?",
+        "body": [
+          "Yes. Poland is one of many nationalities that can buy and own freehold property in Dubai with full, permanent title. There is no restriction specific to Polish passport holders, no requirement to be a UAE resident, and no need for a local sponsor or partner. You hold the property in your own name and your ownership is registered with the Dubai Land Department.",
+          "Foreign ownership is permitted in designated freehold areas, which include almost all of the districts international buyers care about: Palm Jumeirah, Dubai Marina, Downtown Dubai, Business Bay, Emirates Hills, Dubai Hills Estate, Jumeirah and many more. In these zones you receive a title deed granting outright ownership of the apartment or villa and, in the case of a villa, the land beneath it.",
+          "Freehold is distinct from leasehold, where you hold rights for a fixed term. For the areas most Polish buyers consider, freehold is the standard, so the property is yours to live in, rent out, renovate, sell or pass on to heirs."
+        ]
+      },
+      {
+        "heading": "Buying remotely from Poland",
+        "body": [
+          "You do not need to fly to Dubai to complete a purchase. Many of our Polish clients buy remotely and only visit once they take possession. The mechanism that makes this possible is a power of attorney (pełnomocnictwo), which lets a trusted representative or your broker sign on your behalf.",
+          "The typical remote process runs as follows: you select the property and agree terms; you sign a reservation form and pay a deposit by international transfer; a sale and purchase agreement (or Form F for ready resale) is executed; and the transfer is registered at the Dubai Land Department. A power of attorney is usually notarised in Poland, then legalised or apostilled and, where required, translated into Arabic before it is used in the UAE.",
+          "Due diligence still applies at a distance. We verify the title, check for any developer or service-charge arrears, confirm the developer's escrow arrangements on off-plan units, and make sure funds move through regulated channels. Working with a RERA-registered brokerage means each step is documented and the transfer is only completed once ownership is clean."
+        ]
+      },
+      {
+        "heading": "Polish tax: what you must report at home",
+        "body": [
+          "This is the point Polish buyers most often get wrong, so read it carefully. Dubai imposes no personal income tax, no capital gains tax and no annual property tax. That 0% environment applies inside the UAE. It does not switch off your obligations in Poland.",
+          "If you are a Polish tax resident, Poland taxes you on your worldwide income. That means rental income you earn from a Dubai apartment, and gains you realise when you sell it, are in principle reportable in Poland, even though Dubai itself takes nothing. Ignoring this is a common and avoidable mistake.",
+          "A double taxation treaty exists between Poland and the UAE to prevent the same income being taxed twice. Poland amended this treaty, and it applies methods to avoid double taxation (relief is given through the mechanisms set out in the treaty and Polish law, which can affect how foreign income is calculated and reported). Because the rules changed and depend on your personal circumstances, you should not rely on general summaries.",
+          "Before you buy, and again before you file, consult a Polish doradca podatkowy (licensed tax adviser). They can confirm your residency status, tell you exactly what to declare, and apply the current treaty relief correctly. Nothing in this guide is tax advice; treat it as a prompt to get proper professional advice specific to your situation."
+        ]
+      },
+      {
+        "heading": "Currency: moving from PLN to AED",
+        "body": [
+          "Dubai property is priced and transacted in UAE dirhams (AED). The dirham is pegged to the US dollar at a fixed rate of roughly 3.6725 AED to 1 USD, and that peg has held for decades. In practical terms this removes dollar-dirham volatility from your purchase entirely.",
+          "Your real currency exposure as a Polish buyer is therefore the zloty against the US dollar, since PLN converts to AED effectively through USD. When the zloty is strong against the dollar, your buying power in Dubai rises; when it weakens, the same AED price costs more in zloty. It is worth timing large transfers with this in mind.",
+          "For sizeable transfers, a specialist foreign-exchange provider will usually beat a standard high-street bank on both the rate and the fees, and can lock a rate in advance. Keep clear records of the PLN amounts sent and the rates applied, as these figures matter for your Polish reporting."
+        ]
+      },
+      {
+        "heading": "Costs and the Golden Visa",
+        "body": [
+          "Budget beyond the headline price. The main one-off cost is the Dubai Land Department transfer fee of 4% of the purchase price, typically paid by the buyer. On top of that, expect a property registration fee, a trustee office fee, an agency commission (commonly 2% on ready property), and, if you use one, a mortgage registration fee. As a rough guide, allow around 6% to 8% of the price in total transaction costs.",
+          "Ongoing costs are modest: annual service charges (billed per square foot and varying by building and community) and utilities. There is no annual municipal property tax to budget for as you would in Poland.",
+          "A purchase of AED 2 million or more qualifies you for the UAE Golden Visa, a renewable 10-year residency that also covers your spouse and children. It does not require you to live in Dubai full time, and it can be obtained on both ready and qualifying off-plan property. For many Polish buyers the Golden Visa is a decisive benefit, turning a property purchase into a long-term residency option for the whole family."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to Polish buyers",
+        "body": [
+          "The tax profile is the headline: 0% on rental income, capital gains and property inside Dubai. Combined with rental yields that commonly run between 5% and 8% gross, considerably higher than most Polish and Western European cities, the income case is strong.",
+          "Lifestyle does much of the rest. Dubai offers year-round sun, a very high standard of personal safety, world-class infrastructure, schools and healthcare, and no language barrier in business, where English is standard. Flights from Warsaw to Dubai take around five and a half hours direct, close enough for long weekends and easy management of a property.",
+          "There is also a growing Polish community in Dubai, with an expanding network of Polish-speaking professionals, businesses and social groups, which makes both relocating and simply visiting more comfortable. For a buyer weighing a second home, an investment, or a Golden Visa base, Dubai combines yield, lifestyle and residency in a way few destinations match."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can a Polish citizen buy property in Dubai without living there?",
+        "answer": "Yes. There is no residency requirement to buy freehold property in Dubai. Polish citizens can purchase in their own name while remaining resident in Poland, and a purchase of AED 2 million or more can then qualify you for a 10-year Golden Visa if you want residency."
+      },
+      {
+        "question": "Do I have to travel to Dubai to complete the purchase?",
+        "answer": "No. The entire transaction can be handled remotely from Poland through a notarised and legalised power of attorney, allowing a trusted representative or your broker to sign on your behalf. Many of our Polish clients complete the purchase before their first visit."
+      },
+      {
+        "question": "Do I pay tax in Poland on my Dubai property?",
+        "answer": "Dubai charges no property, income or capital gains tax. However, if you are a Polish tax resident, Poland taxes your worldwide income, so Dubai rental income and gains on sale are in principle reportable in Poland. A Poland-UAE double taxation treaty applies relief. Consult a Polish doradca podatkowy for advice specific to you."
+      },
+      {
+        "question": "What currency do I pay in, and how does the zloty affect me?",
+        "answer": "Property is transacted in UAE dirhams (AED), which is pegged to the US dollar at roughly 3.6725. Your real exposure is the zloty against the dollar, so a stronger PLN increases your buying power. For large transfers, a specialist FX provider usually beats a bank on rate and fees."
+      },
+      {
+        "question": "How much are the total costs on top of the price?",
+        "answer": "Allow roughly 6% to 8% of the purchase price for transaction costs. The largest item is the Dubai Land Department transfer fee of 4%, plus registration and trustee fees, agency commission (commonly around 2% on ready property), and any mortgage registration fee. Ongoing costs are annual service charges and utilities."
+      },
+      {
+        "question": "Does buying property give me residency in the UAE?",
+        "answer": "A qualifying purchase of AED 2 million or more entitles you to a renewable 10-year Golden Visa, which also covers your spouse and children and does not require full-time residence. Smaller purchases can qualify for shorter investor visas. This makes property a practical route to UAE residency for Polish families."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Polish buyers",
+      "Dubai property Poland",
+      "can Polish citizens buy property in Dubai",
+      "Dubai real estate for Poles",
+      "Poland UAE double taxation treaty property",
+      "Dubai Golden Visa Polish buyers",
+      "freehold property Dubai Polish citizens",
+      "buying Dubai property remotely from Poland",
+      "Dubai rental yields Polish investors",
+      "PLN to AED property purchase"
+    ]
+  },
+  {
+    "slug": "buying-property-in-dubai-for-nigerian-buyers",
+    "title": "Buying Property in Dubai for Nigerian Buyers",
+    "excerpt": "Yes, Nigerians can own freehold property in Dubai outright. A clear guide to documents, moving money from Naira, 0% tax and the Golden Visa.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Nigerian citizens can buy and own freehold property in Dubai outright, with full ownership rights and no requirement to be a resident or to hold a UAE visa first. In designated freehold zones, foreign buyers own the property and the land it sits on, registered in their own name at the Dubai Land Department. There is no property tax and no income tax on rental earnings. For many Nigerian investors the real questions are practical rather than legal: how to move funds through licensed banking channels, how to satisfy standard checks on the source of those funds, and how ownership can support a Golden Visa. This guide answers each of those points clearly.",
+    "keyTakeaways": [
+      "Nigerian citizens can buy freehold Dubai property outright, in their own name, with no residency or prior visa required.",
+      "You need a valid passport, proof of funds and evidence of the source of those funds; anti-money-laundering checks apply to every buyer regardless of nationality.",
+      "Moving money out of Nigeria is the main practical hurdle: Central Bank of Nigeria foreign-exchange rules and USD access require planning and licensed channels.",
+      "The AED is pegged to the US dollar at roughly 3.6725, giving currency stability that many buyers value against Naira volatility.",
+      "Dubai charges no property tax and no income tax, though you should still consider your own obligations in Nigeria.",
+      "A property purchase of AED 2 million or more can qualify you for a 10-year renewable Golden Visa."
+    ],
+    "sections": [
+      {
+        "heading": "Can Nigerians own property in Dubai?",
+        "body": [
+          "Yes. Nigerian nationals have the same right as other foreign buyers to purchase and own property on a freehold basis in Dubai's designated freehold areas. Freehold means you hold full, permanent ownership of the unit and the land beneath it, registered in your own name with the Dubai Land Department, and you can sell, lease or pass it on as you wish.",
+          "You do not need to live in the UAE, hold a residency visa, or have any prior connection to the country before you buy. Ownership is open to non-residents, and many Nigerian buyers complete a purchase remotely or during a short visit. Popular freehold communities include Dubai Marina, Downtown Dubai, Palm Jumeirah, Business Bay and Dubai Hills Estate, spanning apartments, townhouses and villas.",
+          "It is worth confirming that any specific building or community you are considering sits within a freehold zone. A RERA-registered brokerage can verify this for you before you commit."
+        ],
+        "bullets": [
+          "Full freehold ownership in your own name, registered at the Dubai Land Department.",
+          "No residency, visa or physical presence required to purchase.",
+          "You can sell, rent out or inherit the property freely."
+        ]
+      },
+      {
+        "heading": "The buying process and documents you need",
+        "body": [
+          "The core paperwork is straightforward. As a Nigerian buyer you will generally need a valid international passport, and for off-plan or mortgage purchases some additional identity and financial documents. You do not need a UAE residency visa to complete a cash purchase.",
+          "Every buyer, of any nationality, is subject to standard anti-money-laundering checks. This means you should be prepared to show proof of funds and evidence of the source of those funds, for example bank statements, business income, salary records, or documentation for the sale of another asset. These checks are routine and apply equally to buyers from every country; they are part of how Dubai keeps its property market compliant with international standards.",
+          "A typical purchase moves from reservation and signing a Memorandum of Understanding, to paying a deposit, to final transfer at the Dubai Land Department where the title is registered in your name. Working with a licensed brokerage and, where useful, an independent conveyancer helps keep each step properly documented."
+        ],
+        "bullets": [
+          "Valid international passport as the primary identity document.",
+          "Proof of funds plus clear evidence of their source for anti-money-laundering checks.",
+          "Reservation, Memorandum of Understanding, deposit, then title transfer and registration."
+        ]
+      },
+      {
+        "heading": "Moving money from Nigeria the right way",
+        "body": [
+          "For most Nigerian buyers, transferring funds is the part that needs the most planning. The Central Bank of Nigeria operates foreign-exchange controls, and access to US dollars can be constrained, so it is important to move money through proper, licensed banking channels rather than informal routes. Using regulated banks keeps your transfer transparent and produces the paper trail that Dubai's source-of-funds checks require.",
+          "Give yourself time. Sourcing foreign currency, meeting documentation requirements and completing international transfers can take longer from Nigeria than from some other markets, so build this into your timeline and speak with your bank early about limits and paperwork.",
+          "One reason many Nigerian investors look to Dubai is currency stability. The UAE dirham is pegged to the US dollar at approximately 3.6725, so its value does not swing with the Naira. Holding an asset in a dollar-linked currency is, for many families, a way to preserve wealth and diversify away from local currency volatility. This is a genuine appeal of Dubai property, but you should plan transfers carefully and take professional advice on the most compliant, efficient route for your circumstances."
+        ],
+        "bullets": [
+          "Use licensed banks and regulated channels so every transfer is transparent and documented.",
+          "Plan ahead for Central Bank of Nigeria foreign-exchange rules and USD access.",
+          "The dirham's peg to the US dollar (about 3.6725) offers stability against Naira volatility."
+        ]
+      },
+      {
+        "heading": "Tax on Dubai property",
+        "body": [
+          "Dubai is one of the reasons Dubai property is attractive on an after-tax basis. There is no annual property tax, no capital gains tax on the sale of property, and no personal income tax, which means rental income is not taxed at the emirate level. The main government cost is a one-time transfer fee paid at purchase, which we cover in the costs section below.",
+          "That said, tax is personal. As a Nigerian citizen you should consider your own obligations at home, including any reporting or tax that may apply to overseas assets or income under Nigerian rules. The Dubai side may be tax-free, but your total position depends on your residency and circumstances.",
+          "This guide is general information, not tax advice. We strongly recommend speaking to a qualified tax adviser familiar with both Nigerian and UAE rules before you buy, so your ownership structure is set up correctly from the start."
+        ],
+        "bullets": [
+          "No property tax, no capital gains tax and no personal income tax in Dubai.",
+          "Rental income is not taxed at the emirate level.",
+          "Consider your own obligations in Nigeria and take qualified advice."
+        ]
+      },
+      {
+        "heading": "Costs and the Golden Visa",
+        "body": [
+          "Beyond the purchase price, budget for the main transaction costs. The largest is the Dubai Land Department transfer fee of 4 percent of the property value, plus smaller registration and title fees. If you use a brokerage, an agency fee of around 2 percent is standard, and off-plan or mortgaged purchases carry their own additional charges. A sensible rule of thumb is to allow roughly 7 to 8 percent of the price for total transaction costs.",
+          "A property purchase can also open a residency path. A qualifying investment of AED 2 million or more can make you eligible for the UAE Golden Visa, a 10-year renewable residency. For Nigerian families this is often valued as much for the stable base it provides, a long-term foothold in a safe, well-connected city, as for the residency status itself. The visa can extend to your spouse and children, subject to the rules in force at the time.",
+          "Eligibility criteria and thresholds can change, so confirm the current requirements before you rely on them. A licensed brokerage can walk you through both the costs and the visa route for the specific property you are considering."
+        ],
+        "bullets": [
+          "Dubai Land Department transfer fee of 4 percent, plus registration, title and agency fees.",
+          "Budget roughly 7 to 8 percent of the purchase price for total transaction costs.",
+          "AED 2 million or more can qualify you for a 10-year renewable Golden Visa."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to Nigerian buyers",
+        "body": [
+          "Dubai combines several things Nigerian investors look for in one place. It is consistently ranked among the safer major cities in the world, with a high standard of living, world-class healthcare and schooling, and a stable, business-friendly environment. The 0 percent tax position means more of your rental income and gains stay with you.",
+          "The investment case is strong too. Gross rental yields in prime and mid-market communities commonly run in the region of 5 to 8 percent, higher than many mature global markets, supported by steady demand from residents and visitors. Combined with the dollar-linked dirham, that makes Dubai property a way to hold a hard-currency, income-producing asset.",
+          "Practical ties help as well. Direct and one-stop flights connect Lagos and Abuja to Dubai in around 7 to 8 hours, and there is a large and growing Nigerian community in the UAE, which makes settling in, or simply visiting your investment, far easier. For many buyers Dubai is a natural second base rather than a distant purchase.",
+          "As with any major investment, do your own due diligence and take independent professional advice before committing funds. EQT is a RERA-registered brokerage and can guide you through each step."
+        ],
+        "bullets": [
+          "Safety, 0 percent tax and a high standard of living.",
+          "Strong rental yields, commonly around 5 to 8 percent gross.",
+          "Roughly 7 to 8 hour flights from Nigeria and a large Nigerian community."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can a Nigerian citizen buy property in Dubai without living there?",
+        "answer": "Yes. You do not need to be a UAE resident or hold a visa to buy freehold property in Dubai. Non-residents can purchase in their own name, and many Nigerian buyers complete the process remotely or during a short visit, with the title registered at the Dubai Land Department."
+      },
+      {
+        "question": "What documents do I need as a Nigerian buyer?",
+        "answer": "At minimum a valid international passport. Because anti-money-laundering checks apply to every buyer, you should also be ready to provide proof of funds and evidence of their source, such as bank statements or records of business or salary income. Off-plan and mortgage purchases may require some additional documents."
+      },
+      {
+        "question": "How do I move money from Nigeria to pay for a Dubai property?",
+        "answer": "Use proper, licensed banking channels rather than informal routes, so every transfer is transparent and documented. Because the Central Bank of Nigeria operates foreign-exchange controls and USD access can be limited, plan ahead, speak to your bank early about limits and paperwork, and allow extra time for transfers to complete."
+      },
+      {
+        "question": "Do Nigerians pay tax on Dubai property?",
+        "answer": "Dubai has no property tax, no capital gains tax and no personal income tax, so rental income is not taxed at the emirate level. You should, however, consider any obligations that may apply in Nigeria on overseas assets or income, and take qualified advice covering both countries before you buy."
+      },
+      {
+        "question": "Can buying property give me a UAE Golden Visa?",
+        "answer": "Yes. A qualifying property investment of AED 2 million or more can make you eligible for a 10-year renewable Golden Visa, which can extend to your spouse and children. Thresholds and criteria can change, so confirm the current rules for the specific property before you rely on them."
+      },
+      {
+        "question": "Why do so many Nigerian investors choose Dubai?",
+        "answer": "Dubai offers safety, a 0 percent tax environment, strong rental yields commonly around 5 to 8 percent, and a currency pegged to the US dollar that provides stability against Naira volatility. Add flights of roughly 7 to 8 hours and a large Nigerian community, and it becomes a practical second base as well as an investment."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Nigerian buyers",
+      "can Nigerians buy property in Dubai",
+      "Dubai property Nigeria",
+      "Nigerian investors Dubai real estate",
+      "moving money from Nigeria to Dubai",
+      "Dubai Golden Visa Nigeria",
+      "freehold property Dubai Nigerian",
+      "Dubai property no tax",
+      "Dubai real estate for foreigners"
+    ]
+  },
+  {
+    "slug": "buying-property-in-dubai-for-egyptian-buyers",
+    "title": "Buying Property in Dubai for Egyptian Buyers",
+    "excerpt": "Egyptian citizens can buy freehold property in Dubai outright, with no residency required. Here is the full guide to ownership, moving money, tax and.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Egyptian citizens can buy and own freehold property in Dubai outright, with full title in their own name and no requirement to live in the UAE or hold residency first. Egyptians are treated the same as other foreign nationals: you can buy in designated freehold zones, register the title with the Dubai Land Department, and either occupy the home, leave it vacant, or rent it out. For many Egyptian buyers the appeal goes beyond the property itself. With the Egyptian pound having devalued sharply in recent years, an asset priced in dirhams pegged to the US dollar offers currency stability, wealth preservation and diversification, plus an optional route to long-term residency through the Golden Visa.",
+    "keyTakeaways": [
+      "Egyptian nationals can own freehold Dubai property outright, in their own name, with no residency requirement.",
+      "You buy through designated freehold zones and register title with the Dubai Land Department.",
+      "Move funds only through licensed banking channels, with clear source-of-funds records for standard AML checks.",
+      "The dirham is pegged to the US dollar at roughly 3.6725, giving Egyptian buyers a stable, hard-currency store of value.",
+      "Dubai levies no annual property tax and no personal income tax, though your own Egyptian obligations may still apply.",
+      "A property investment of AED 2 million or more can qualify you for a 10-year renewable Golden Visa."
+    ],
+    "sections": [
+      {
+        "heading": "Can Egyptians own property in Dubai?",
+        "body": [
+          "Yes. Egyptian citizens have the same ownership rights as other foreign buyers in Dubai. In designated freehold areas you can buy property on a full freehold basis, meaning you own both the unit and, in a legal sense, the land it sits on in perpetuity, with your name recorded on the title deed issued by the Dubai Land Department.",
+          "You do not need to be a UAE resident to buy, and you do not need to buy in order to gain residency. The two are separate. Many Egyptian buyers purchase purely as an investment or a currency hedge and never relocate, while others use the purchase as a stepping stone to a Golden Visa and a regional base.",
+          "Freehold ownership is concentrated in well-known communities such as Downtown Dubai, Dubai Marina, Palm Jumeirah, Business Bay, Emirates Hills, Dubai Hills Estate and Jumeirah Village Circle, among many others. Your broker can confirm that any specific building or plot sits within a freehold zone before you commit."
+        ]
+      },
+      {
+        "heading": "The buying process and paperwork",
+        "body": [
+          "The mechanics are straightforward and can often be completed in a matter of weeks. For a ready (completed) property, buyer and seller sign a Memorandum of Understanding, the buyer pays a deposit (commonly 10 percent), and the transfer is finalised at a Dubai Land Department trustee office, where the new title deed is issued on the spot.",
+          "As an Egyptian buyer you will typically need a valid passport, and for some steps an Emirates ID if you are resident. You do not need a UAE visa to purchase. Off-plan purchases from a developer follow a slightly different path, with a reservation form, a sales and purchase agreement, and a staged payment plan tied to construction milestones.",
+          "Expect standard anti-money-laundering (AML) checks. Brokers, developers and conveyancers in Dubai are required to verify your identity and to understand your source of funds. Having clean, documented evidence of where your money comes from, for example property sale proceeds, business income, salary or inheritance, will keep the process smooth and free of delays."
+        ]
+      },
+      {
+        "heading": "Moving money from Egypt the right way",
+        "body": [
+          "This is the step that needs the most care. The Egyptian pound has devalued significantly over recent years, and Egypt has at times operated currency and foreign-exchange controls that limit how much hard currency individuals can move abroad and how quickly. Rules can change, so treat this as a live area to check rather than a fixed one.",
+          "Always move funds through proper licensed banking channels: your Egyptian bank, a licensed exchange house, or a regulated international transfer provider, into a UAE account or directly to the escrow or trustee account for your purchase. Keep every transfer receipt and bank statement. Informal or unofficial money-transfer routes should be avoided entirely; they create AML problems on the Dubai side and legal exposure on the Egyptian side.",
+          "The strategic upside is currency stability. The UAE dirham is pegged to the US dollar at roughly 3.6725, so a Dubai property effectively holds its value in hard currency. For an Egyptian buyer whose wealth is otherwise concentrated in pounds, that peg is the core wealth-preservation and diversification argument: you are converting a volatile local currency exposure into a dollar-linked, income-producing asset. Speak to your bank and a qualified adviser early so the transfer is planned, compliant and correctly timed."
+        ]
+      },
+      {
+        "heading": "Tax on Dubai property",
+        "body": [
+          "Dubai is highly tax-efficient for property owners. There is no annual property tax, no council tax, and no personal income tax on rental income or on capital gains when you sell. This is one of the largest differences Egyptian buyers notice compared with holding investment property at home.",
+          "You should still budget for the one-off transaction costs (covered below) and, for apartments and villas in managed communities, ongoing service charges paid to the owners association. These fund maintenance of shared areas and amenities and vary by building and community.",
+          "Critically, no property is tax-free in isolation from your own circumstances. As an Egyptian national or resident you may still have reporting or tax obligations at home on foreign assets, rental income or gains. Dubai's zero-tax treatment applies locally; it does not override your obligations in Egypt or in any other country where you are tax-resident. Take qualified cross-border tax advice before you buy."
+        ]
+      },
+      {
+        "heading": "Costs and the Golden Visa",
+        "body": [
+          "Budget for transaction costs on top of the purchase price. The main item is the Dubai Land Department transfer fee of 4 percent, plus smaller administrative and title-issuance fees, a trustee-office charge, and a real estate brokerage fee that is customarily around 2 percent plus VAT. A realistic all-in allowance is roughly 6 to 8 percent of the price for a ready property.",
+          "Property is also a well-established route to residency. A qualifying property investment of AED 2 million or more can make you eligible for the UAE Golden Visa, a 10-year residency that is renewable and can extend to your spouse and children. It does not require you to live in Dubai full time.",
+          "For many Egyptian families the Golden Visa is valued less as a relocation and more as an insurance policy: a stable, well-regulated regional base a short flight from Cairo, with the option to spend more time in the UAE if circumstances at home change. It also simplifies opening bank accounts, enrolling children in school and running a business locally."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to Egyptian buyers",
+        "body": [
+          "Proximity is a big part of it. Cairo to Dubai is only a three to four hour flight, with dozens of connections a day, so the UAE feels close rather than far. That makes it practical to check on a property, spend part of the year there, or move family at short notice.",
+          "The lifestyle fit is strong too. Dubai is safe and well-ordered, it is an Arabic-speaking environment where language is no barrier, and it is home to one of the largest Egyptian expat communities in the world. Many buyers already have relatives, friends or business contacts on the ground, which makes settling in and managing an asset far easier.",
+          "And the numbers work. Prime and mid-market Dubai property has delivered gross rental yields commonly in the 5 to 8 percent range, materially higher than many mature global cities, alongside the dollar-linked currency stability described above. That combination of income, hard-currency preservation and a familiar, accessible base is what keeps Egyptian buyers active in the market. As always, past performance is not a guarantee of future returns, so take independent advice tailored to your situation."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do Egyptians need a residency visa to buy property in Dubai?",
+        "answer": "No. Egyptian citizens can buy freehold property in Dubai without holding UAE residency. Ownership and residency are separate; a passport is enough to purchase, and the property itself can later help you qualify for a Golden Visa if you wish."
+      },
+      {
+        "question": "How can I legally transfer money from Egypt to buy in Dubai?",
+        "answer": "Use licensed channels only: your Egyptian bank, a licensed exchange house, or a regulated international transfer provider, sending funds to a UAE bank or the purchase escrow account. Keep all receipts. Because Egypt has at times applied FX controls, check current limits with your bank and plan the transfer in advance."
+      },
+      {
+        "question": "Is Dubai property really tax-free for Egyptian owners?",
+        "answer": "Within Dubai there is no annual property tax and no income tax on rent or capital gains. However, you may still have obligations in Egypt or wherever you are tax-resident. Dubai's local tax treatment does not remove those, so take cross-border tax advice."
+      },
+      {
+        "question": "How much do I need to invest for a Golden Visa?",
+        "answer": "A qualifying property investment of AED 2 million or more can make you eligible for a 10-year renewable Golden Visa, which can include your spouse and children. It does not require full-time residence in the UAE."
+      },
+      {
+        "question": "Why do Egyptian buyers see Dubai as a safe place for their money?",
+        "answer": "The dirham is pegged to the US dollar at roughly 3.6725, so property holds value in hard currency. Against a significantly devalued Egyptian pound, that peg makes Dubai property a tool for wealth preservation and diversification, alongside rental yields often in the 5 to 8 percent range."
+      },
+      {
+        "question": "What are the total upfront costs of buying?",
+        "answer": "Beyond the price, budget roughly 6 to 8 percent for a ready property. This mainly covers the 4 percent Dubai Land Department transfer fee, plus administrative and trustee fees and a brokerage fee customarily around 2 percent plus VAT. Managed communities also charge ongoing service fees."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Egyptian buyers",
+      "can Egyptians buy property in Dubai",
+      "Dubai freehold property Egyptian nationals",
+      "transferring money from Egypt to Dubai property",
+      "Dubai Golden Visa for Egyptians",
+      "Dubai property investment for Egyptians",
+      "Egyptian expat property Dubai",
+      "Dubai real estate no residency required"
+    ]
+  },
+  {
+    "slug": "buying-property-in-dubai-for-lebanese-buyers",
+    "title": "Buying Property in Dubai for Lebanese Buyers",
+    "excerpt": "A clear, answer-first guide for Lebanese buyers on owning freehold Dubai property: ownership rules, moving money, tax, costs, and the Golden Visa.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Lebanese citizens can buy and own freehold property in Dubai outright, with full ownership rights and no requirement to live in the UAE or hold residency first. Lebanese buyers are treated the same as any other foreign national and may purchase in the emirate's designated freehold areas, holding the title in their own name. There is no property tax and no income tax on rental returns, the dirham is pegged to the US dollar for hard-currency stability, and a purchase of AED 2 million or more can qualify you for a renewable 10-year Golden Visa. Below we walk through ownership, buying steps, moving funds, tax, total costs, and why Dubai resonates with Lebanese families.",
+    "keyTakeaways": [
+      "Lebanese nationals can buy 100% freehold property in Dubai in their own name, with no residency required.",
+      "Dubai charges no annual property tax and no personal income tax on rental income.",
+      "The UAE dirham is pegged to the US dollar at roughly 3.6725, offering hard-currency stability and wealth preservation.",
+      "A property purchase of AED 2 million or more can secure a 10-year renewable Golden Visa.",
+      "Move funds through proper licensed banking channels with clear source-of-funds documentation to satisfy standard AML checks.",
+      "Dubai's proximity, safety, Arabic-speaking environment, and rental yields of 5-8% make it a natural base for Lebanese buyers."
+    ],
+    "sections": [
+      {
+        "heading": "Can Lebanese citizens own property in Dubai?",
+        "body": [
+          "Yes. Lebanese nationals have the same right as other foreign buyers to purchase freehold property in Dubai's designated freehold zones. Freehold means you own both the unit and the land it sits on outright, in perpetuity, and the title is registered with the Dubai Land Department in your own name.",
+          "You do not need to be a UAE resident, hold a visa, or live in the country to buy. Ownership itself is straightforward and does not depend on your immigration status. Popular freehold areas include Palm Jumeirah, Dubai Marina, Downtown Dubai, Emirates Hills, Jumeirah Bay Island, and Dubai Hills Estate, among many others.",
+          "There is no restriction on the number of properties a Lebanese buyer can own, and you can hold property personally, jointly, or through a suitable corporate structure if that fits your wider planning."
+        ],
+        "bullets": [
+          "Full freehold ownership registered in your name at the Dubai Land Department.",
+          "No residency, visa, or minimum stay required to purchase.",
+          "Freedom to buy multiple properties across the city's freehold areas."
+        ]
+      },
+      {
+        "heading": "How the buying process works",
+        "body": [
+          "The process is designed to be efficient. Once you have selected a property and agreed terms, you sign a Memorandum of Understanding (Form F) and typically pay a deposit of around 10%. The transfer is then completed at the Dubai Land Department, where the title is issued in your name.",
+          "For documentation, you generally need a valid passport. As part of standard anti-money-laundering (AML) checks, the brokerage and any bank involved will ask you to confirm the source of your funds, so it helps to have clear records such as bank statements, sale proceeds, business income, or inheritance documents prepared in advance.",
+          "These checks are routine and apply to buyers of every nationality. Working with a RERA-registered brokerage keeps the process compliant and protects you at every step, from due diligence on the property to the final transfer."
+        ],
+        "bullets": [
+          "Valid passport for identification.",
+          "Signed MOU (Form F) and a deposit of around 10%.",
+          "Source-of-funds evidence to satisfy standard AML checks."
+        ]
+      },
+      {
+        "heading": "Moving money from Lebanon",
+        "body": [
+          "This is often the most important practical question for Lebanese buyers, and it deserves careful, professional handling. Lebanon's prolonged banking crisis and informal capital controls have made holding and moving money domestically difficult for many households, and as a result a large number of Lebanese have chosen to diversify their assets abroad and hold wealth in hard currency.",
+          "Dubai is a natural destination for this. The UAE dirham is pegged to the US dollar at roughly 3.6725, which means property here is effectively a dollar-denominated asset that offers hard-currency stability and long-term wealth preservation, insulated from local-currency volatility.",
+          "The key principle is to move funds through proper, licensed banking channels with a clear and documented paper trail. Transfers should come from legitimate, traceable sources so they pass standard AML and source-of-funds checks smoothly. Given the complexity of the current environment, we strongly recommend taking specialist banking, legal, and tax advice on the best route for your specific situation before transferring any funds."
+        ],
+        "bullets": [
+          "Use licensed banking channels with a clear, documented source of funds.",
+          "The dirham's peg to the US dollar preserves value in hard currency.",
+          "Seek specialist banking and legal advice on the right transfer route for you."
+        ]
+      },
+      {
+        "heading": "Tax: what you will and will not pay",
+        "body": [
+          "One of Dubai's biggest attractions is its tax environment. There is no annual property tax, no capital gains tax on the sale of property, and no personal income tax, which means rental income you earn is not taxed in the UAE.",
+          "The main government charge is a one-time Dubai Land Department transfer fee of 4% of the purchase price, paid at the point of registration. Beyond that, your ongoing costs are the usual service charges for building maintenance and amenities rather than recurring taxes.",
+          "You should still consider your obligations in Lebanon or any other country where you are tax resident, as your home-country rules may apply to foreign assets and income. This is a general overview and not tax advice, so confirm your position with a qualified tax adviser."
+        ],
+        "bullets": [
+          "No annual property tax, no capital gains tax, no income tax in Dubai.",
+          "One-time 4% Dubai Land Department transfer fee on purchase.",
+          "Check your home-country tax obligations with a professional adviser."
+        ]
+      },
+      {
+        "heading": "Total costs and the Golden Visa",
+        "body": [
+          "Beyond the purchase price, budget for transaction costs of roughly 6-8% in total. These include the 4% Dubai Land Department transfer fee, an agency fee of around 2%, plus registration, trustee, and administrative charges. If you finance the purchase, mortgage-related fees apply as well.",
+          "A property purchase of AED 2 million or more can qualify you for the UAE Golden Visa, a 10-year renewable residency. For Lebanese buyers, this is one of the most valued benefits, offering a stable base in a secure country, the ability to sponsor family, and long-term residency that is not tied to employment.",
+          "The Golden Visa can be applied for once the qualifying property is registered, and it renews so long as you continue to meet the criteria. It pairs naturally with a real-estate purchase, turning your investment into both an asset and a residency route."
+        ],
+        "bullets": [
+          "Plan for around 6-8% in total transaction costs on top of the price.",
+          "AED 2M+ purchase can secure a 10-year renewable Golden Visa.",
+          "Residency lets you sponsor family and build a stable base in the UAE."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to Lebanese buyers",
+        "body": [
+          "For many Lebanese families, Dubai feels close and familiar. Flights from Beirut are only around 3.5 hours, making it easy to visit property, family, and business without a long journey. The city offers safety, stability, and world-class infrastructure, which carries particular weight for those seeking a secure environment.",
+          "Dubai is also Arabic-speaking and home to one of the largest Lebanese communities abroad, with established restaurants, schools, businesses, and social networks that make settling in far easier. Many buyers find they already have friends or relatives nearby.",
+          "On the numbers, Dubai property is attractive too, with gross rental yields commonly in the 5-8% range, higher than many mature global markets. Combined with the tax advantages and the dollar peg, that makes Dubai a compelling place for Lebanese buyers to both live and invest. As with any major decision, we recommend seeking professional advice tailored to your circumstances before you commit."
+        ],
+        "bullets": [
+          "Only about 3.5 hours by air from Beirut.",
+          "Arabic-speaking city with one of the largest Lebanese communities abroad.",
+          "Strong gross rental yields, commonly in the 5-8% range."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do Lebanese citizens need UAE residency to buy property in Dubai?",
+        "answer": "No. Lebanese buyers can purchase freehold property without holding UAE residency or a visa. Ownership is independent of immigration status, and you can buy while living in Lebanon or anywhere else. A qualifying purchase can, in turn, make you eligible to apply for a residency visa if you want one."
+      },
+      {
+        "question": "Can I move money from Lebanon to buy property in Dubai?",
+        "answer": "Yes, but it must be done through proper, licensed banking channels with a clear, documented source of funds so it passes standard AML checks. Given Lebanon's banking situation and informal capital controls, many buyers plan the transfer route carefully with specialist banking and legal advisers before moving any money."
+      },
+      {
+        "question": "How much tax will I pay on a Dubai property?",
+        "answer": "In Dubai there is no annual property tax, no capital gains tax, and no personal income tax, so rental income is not taxed locally. The main charge is a one-time 4% Dubai Land Department transfer fee at purchase. You should still check any tax obligations in Lebanon or your country of tax residence."
+      },
+      {
+        "question": "How much do I need to invest for a Golden Visa?",
+        "answer": "A property purchase of AED 2 million or more can qualify you for a 10-year renewable Golden Visa. Once the qualifying property is registered, you can apply, and the visa renews as long as you continue to meet the criteria. It lets you sponsor family and maintain long-term residency in the UAE."
+      },
+      {
+        "question": "Why is the dirham peg important for Lebanese buyers?",
+        "answer": "The UAE dirham is pegged to the US dollar at roughly 3.6725, so Dubai property is effectively a dollar-denominated asset. For Lebanese buyers focused on wealth preservation, this hard-currency stability protects value against local-currency volatility and offers a more predictable long-term store of wealth."
+      },
+      {
+        "question": "What rental yields can I expect in Dubai?",
+        "answer": "Gross rental yields in Dubai commonly fall in the 5-8% range, higher than many mature global markets, though returns vary by area, property type, and how the asset is managed. Combined with no income tax on rent and the dollar peg, the net position is attractive, but always model your specific case with an adviser."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Lebanese buyers",
+      "Lebanese buyers Dubai real estate",
+      "can Lebanese buy property in Dubai",
+      "Dubai property Golden Visa Lebanese",
+      "moving money from Lebanon to Dubai",
+      "Dubai freehold property Lebanese nationals",
+      "Dubai property tax Lebanese buyers",
+      "Dubai real estate for Lebanese investors"
+    ]
+  },
+  {
+    "slug": "buying-property-in-dubai-for-kazakh-buyers",
+    "title": "Buying Property in Dubai for Kazakh Buyers",
+    "excerpt": "Yes, Kazakh citizens can own freehold property in Dubai. A clear guide to buying remotely, moving funds, tax, costs and the Golden Visa.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Kazakh citizens can buy and own freehold property in Dubai outright, with full legal title, in the same way any other foreign national can. You do not need to live in the UAE, hold a residency visa, or have a local partner. In designated freehold areas the freehold zones that cover most of the city's prime districts you own the apartment or villa outright and your name is registered on the title deed with the Dubai Land Department. You can buy while still in Kazakhstan, purchase in your own name, and later apply for a Golden Visa if your investment qualifies. This guide walks Kazakh buyers through ownership, buying remotely, moving money, tax and costs.",
+    "keyTakeaways": [
+      "Kazakh nationals can own freehold Dubai property outright, with no UAE residency required.",
+      "The entire purchase can be completed remotely from Kazakhstan, often via a power of attorney.",
+      "Move funds through licensed banking channels with clear source-of-funds documentation for standard AML checks.",
+      "Dubai charges no annual property tax and no personal income tax on rental income or gains.",
+      "A property investment of AED 2M or more can qualify you for a 10-year renewable Golden Visa.",
+      "Prime Dubai yields of roughly 5-8 percent, plus AED stability pegged to the US dollar, drive Central Asian demand."
+    ],
+    "sections": [
+      {
+        "heading": "Can Kazakh citizens own property in Dubai?",
+        "body": [
+          "Yes. Kazakhstan passport holders have the same buying rights in Dubai as almost any other foreign nationality. In the emirate's designated freehold areas you can purchase and hold property in full ownership, meaning the land and the unit are registered to you personally, indefinitely, and can be sold, rented, gifted or inherited as you choose.",
+          "There is no requirement to be a UAE resident before you buy, and no requirement to relocate afterwards. Many of our Kazakh clients own Dubai homes purely as investments or as a second base, while continuing to live and work in Almaty, Astana or Shymkent.",
+          "Freehold areas cover the majority of Dubai's most sought-after addresses, from Downtown and Dubai Marina to Palm Jumeirah and the newer waterfront communities. Your broker and the Dubai Land Department confirm that a specific building sits within a freehold zone before you commit."
+        ],
+        "bullets": [
+          "Full freehold title registered in your own name at the Dubai Land Department.",
+          "No UAE residency or local sponsor needed to purchase.",
+          "The property can be resold, leased, gifted or passed on to heirs."
+        ]
+      },
+      {
+        "heading": "Buying remotely from Kazakhstan",
+        "body": [
+          "You do not need to fly to Dubai to complete a purchase. A large share of our Kazakh buyers close the whole transaction remotely, reviewing shortlists over video, receiving detailed floor plans and payment schedules, and signing electronically or through a trusted representative.",
+          "For the documentation, you will typically need a clear passport copy and basic personal details. Because UAE real estate follows standard anti-money-laundering (AML) rules, you should also be ready to show source-of-funds evidence, for example bank statements, salary or business income records, sale of another asset, or dividend documentation that explains where the money comes from. This is routine and applies to buyers of every nationality.",
+          "If you cannot travel for signing or handover, a limited power of attorney lets a licensed representative act on your behalf for the specific steps involved. A good brokerage coordinates the developer, the conveyancer and the paperwork so the process stays simple from Kazakhstan."
+        ],
+        "bullets": [
+          "Passport copy and personal contact details to open the file.",
+          "Source-of-funds documents to satisfy standard AML checks.",
+          "Optional power of attorney so a representative can sign locally."
+        ]
+      },
+      {
+        "heading": "Moving money from Kazakhstan to Dubai",
+        "body": [
+          "Funds should always move through proper, licensed banking channels. In practice that means an international bank transfer, converting Kazakhstani tenge (KZT) into UAE dirhams (AED) through a regulated bank or licensed exchange, with a clear paper trail from your account to the seller or developer escrow account.",
+          "One reason Dubai appeals to Central Asian buyers is currency stability. The dirham is pegged to the US dollar at a fixed rate of roughly 3.6725 AED to 1 USD, and has held that peg for decades. For a buyer whose home currency can move against the dollar, holding a hard-currency-linked asset offers a form of diversification and a hedge that a tenge-denominated asset cannot.",
+          "Keep every confirmation, SWIFT receipt and conversion record. These documents both satisfy the AML checks on the Dubai side and give you a clean history should you later remit rental income or sale proceeds back out. Your bank in Kazakhstan can advise on any local reporting that applies to outbound transfers."
+        ],
+        "bullets": [
+          "Transfer via a regulated bank or licensed exchange, never informal channels.",
+          "AED is pegged to the US dollar at about 3.6725, giving hard-currency stability.",
+          "Retain SWIFT and conversion receipts as your source-of-funds trail."
+        ]
+      },
+      {
+        "heading": "Tax for Kazakh buyers",
+        "body": [
+          "Dubai is one of the reasons the numbers work so well for overseas investors. The emirate charges no annual property tax, no personal income tax, and no capital gains tax on the sale of residential property. Rental income you earn from a Dubai home is not taxed in the UAE, and there is no inheritance tax on the property itself.",
+          "That said, tax is decided by where you are resident as much as where the asset sits. As a Kazakhstan tax resident you may still have reporting or tax obligations at home on foreign income and foreign-held assets. Kazakhstan and the UAE have a double taxation treaty, which is designed to prevent the same income being taxed twice, but the way it applies depends on your personal situation.",
+          "We are real estate advisors, not tax advisors, so treat this as general information rather than tax advice. Before you buy, speak with a qualified tax professional familiar with Kazakh rules so you understand exactly what, if anything, you need to declare."
+        ],
+        "bullets": [
+          "No UAE property tax, income tax or capital gains tax on residential property.",
+          "You may still owe reporting or tax in Kazakhstan on foreign income and assets.",
+          "Consult a qualified Kazakh tax professional before committing."
+        ]
+      },
+      {
+        "heading": "Costs and the Golden Visa",
+        "body": [
+          "Beyond the purchase price, budget for the transaction costs. The main one is the Dubai Land Department transfer fee of 4 percent of the property value, plus smaller registration and trustee fees, an agency commission of around 2 percent, and a title deed issuance charge. As a rule of thumb, allow roughly 6 to 7 percent on top of the price to cover everything.",
+          "A property purchase can also open the door to residency. An investment of AED 2M or more in qualifying real estate can make you eligible for the UAE Golden Visa, a 10-year renewable residency that you can extend to your spouse and children. It does not require you to live in Dubai full time, but it gives you the right to reside, and can simplify banking, schooling and long stays.",
+          "For many Kazakh families the Golden Visa is a decisive benefit: a second, stable base within a short flight of home, secured through an asset they own outright rather than a fee that buys nothing tangible."
+        ],
+        "bullets": [
+          "Roughly 6-7 percent in fees on top of the price, led by the 4 percent DLD transfer fee.",
+          "AED 2M or more in qualifying property can qualify for a 10-year renewable Golden Visa.",
+          "The visa can extend to your spouse and children without full-time residence."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to Kazakh buyers",
+        "body": [
+          "Interest from Central Asia has grown quickly, and Dubai has actively welcomed it. The city is comfortable for Russian-speaking buyers, with Russian-speaking agents, lawyers, schools and services widely available, so language is rarely a barrier to getting things done properly.",
+          "Practically, Dubai is close. Direct flights from Almaty and Astana run around 4 to 5 hours, which makes it realistic to visit for a long weekend, manage a property in person, or split the year between the two cities. That proximity, combined with safety, world-class infrastructure and a lifestyle built around beaches, dining and international schools, makes it a natural second home.",
+          "Then there are the fundamentals. Zero tax on rental income, a currency pegged to the US dollar, and prime residential yields commonly in the 5 to 8 percent range give Kazakh investors a rare combination of income, hard-currency protection and lifestyle in one asset. It is a diversification play as much as a property purchase."
+        ],
+        "bullets": [
+          "Russian-speaking-friendly market with advisors, schools and services in place.",
+          "Direct flights of about 4-5 hours from Almaty and Astana.",
+          "Zero tax, dollar-pegged currency and strong 5-8 percent yields."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do Kazakh citizens need a residency visa to buy property in Dubai?",
+        "answer": "No. Kazakhstan nationals can buy and own freehold property in Dubai without any UAE residency visa or local sponsor. Residency is optional, and buying a qualifying property can in fact be the route to a Golden Visa rather than a prerequisite for purchase."
+      },
+      {
+        "question": "Can I complete the purchase without travelling to Dubai?",
+        "answer": "Yes. Most steps can be handled remotely from Kazakhstan, from viewing and reserving to signing. Where an in-person signature is needed, a limited power of attorney lets a licensed representative act for you, so the whole transaction can close without you leaving home."
+      },
+      {
+        "question": "How do I transfer money from Kazakhstan to buy a Dubai home?",
+        "answer": "Use licensed banking channels. Send an international bank transfer that converts tenge to dirhams through a regulated bank or licensed exchange, into the seller or developer escrow account. Keep every SWIFT and conversion receipt as your source-of-funds trail for standard AML checks."
+      },
+      {
+        "question": "Will I pay tax on my Dubai property?",
+        "answer": "Dubai charges no property tax, income tax or capital gains tax on residential property, so your rental income and any sale gain are untaxed in the UAE. However, you may still have obligations in Kazakhstan on foreign assets and income, so consult a qualified tax professional before buying."
+      },
+      {
+        "question": "How much do I need for a Golden Visa?",
+        "answer": "An investment of AED 2M or more in qualifying real estate can make you eligible for a 10-year renewable UAE Golden Visa. It can extend to your spouse and children and grants residency rights without requiring you to live in Dubai full time."
+      },
+      {
+        "question": "What are typical rental yields in prime Dubai?",
+        "answer": "Prime residential yields commonly fall in the 5 to 8 percent range, higher than many mature global markets. Combined with no tax on rental income and a dirham pegged to the US dollar, this is a core reason Central Asian investors find Dubai attractive."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Kazakh buyers",
+      "Dubai property for Kazakhstan citizens",
+      "can Kazakh citizens buy property in Dubai",
+      "buying Dubai real estate from Kazakhstan",
+      "Dubai Golden Visa Kazakhstan",
+      "transfer money from Kazakhstan to Dubai property",
+      "Dubai property tax for foreigners",
+      "freehold property Dubai Kazakh investors"
+    ]
+  },
+  {
+    "slug": "how-much-deposit-to-buy-property-in-dubai",
+    "title": "How Much Deposit Do You Need to Buy in Dubai?",
+    "excerpt": "The deposit you need to buy in Dubai: 10-20% off-plan, at least 20% down for resident mortgages, 25%+ for non-residents, plus the 4% DLD fee.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "To buy property in Dubai you typically need a deposit of 10-20% for off-plan and, for a mortgage on a ready home, a down payment of at least 20% for residents (25% or more for non-residents), plus the 4% Dubai Land Department (DLD) transfer fee. Cash buyers of ready property usually pay a 10% deposit to secure the deal on signing the Memorandum of Understanding (MOU, or Form F). So the real question is not just the deposit, but the total upfront cash: on a ready home you should budget for the down payment plus roughly 6-7% in fees and charges. Below we break down each buyer type, the Central Bank loan-to-value rules, and worked examples so you know exactly what to have ready.",
+    "keyTakeaways": [
+      "Off-plan: developers usually ask for a 10-20% down payment on booking, then instalments to handover.",
+      "Cash buyers of ready property: expect a 10% deposit on signing the MOU (Form F), balance at transfer.",
+      "Resident mortgage: minimum 20% down (up to 80% LTV) on homes under AED 5M; non-residents often 25% or more.",
+      "Above AED 5M or a second home: the Central Bank requires a larger deposit and lower LTV.",
+      "Beyond the deposit, budget about 6-7% for the 4% DLD fee, agency commission plus VAT, and mortgage and trustee fees.",
+      "Figures are indicative; confirm current Central Bank rules and your lender's terms before you commit."
+    ],
+    "sections": [
+      {
+        "heading": "The short answer: deposit by buyer type",
+        "body": [
+          "Your deposit depends on how you are buying. There are three common routes, and each has its own rule of thumb.",
+          "Cash buyer of a ready (secondary market) home: you pay a booking or MOU deposit, most commonly 10% of the price, when you sign the sale agreement. The balance is settled at transfer.",
+          "Mortgage buyer of a ready home: the Central Bank of the UAE caps how much a bank can lend, so your down payment is set by the loan-to-value (LTV) limit. Residents put down at least 20%; non-residents usually put down more.",
+          "Off-plan buyer (buying from the developer): you pay a down payment, usually 10-20%, then follow the developer's payment plan in instalments up to handover.",
+          "Whichever route you take, the deposit is only part of the cash you need on day one. The transfer fees and other costs, covered further down, are separate and are almost always paid from your own funds rather than borrowed."
+        ]
+      },
+      {
+        "heading": "Cash buyers of ready property",
+        "body": [
+          "If you are not using a mortgage, buying a completed home is fast and the deposit structure is simple.",
+          "Once you agree a price, both parties sign a Memorandum of Understanding (the standard RERA contract, also called Form F) through the Dubai REST system. At this point the buyer typically pays a 10% deposit. This is usually held by the registration trustee or the agent, not handed to the seller directly, which protects both sides.",
+          "That 10% secures the property and commits both parties. From there, you move to the transfer appointment at a registered trustee office, where you pay the remaining balance and the fees, and the title deed is issued in your name.",
+          "A few practical points worth knowing:"
+        ],
+        "bullets": [
+          "The 10% deposit is common practice, but it is negotiable; on higher-value or off-market deals the figure and the terms can be tailored.",
+          "If the buyer pulls out without a valid contractual reason, the deposit is usually at risk, so only sign once you are committed.",
+          "Cash purchases can complete in as little as a few weeks, since there is no mortgage approval to wait on.",
+          "Even as a cash buyer, keep the DLD and agency fees ready on top of the price; they are due at transfer."
+        ]
+      },
+      {
+        "heading": "Mortgage buyers and Central Bank LTV rules",
+        "body": [
+          "If you borrow, the Central Bank of the UAE sets the maximum loan-to-value, and whatever the bank will not lend becomes your down payment. These are the widely applied benchmarks.",
+          "UAE residents (expats) buying a first home under AED 5 million can typically borrow up to 80% LTV, meaning a minimum 20% deposit. For a first home priced above AED 5 million, the cap is lower (around 70% LTV), so you would put down roughly 30% or more.",
+          "UAE nationals get slightly higher limits, often up to 85% LTV on a first home under AED 5 million, so around a 15% deposit.",
+          "Non-residents buying from overseas are usually offered less leverage. Many banks lend around 50-75% LTV to non-residents, so plan for a deposit of 25-50% depending on the lender, the property, and your profile.",
+          "Second and subsequent properties require a bigger deposit for everyone, with LTV commonly capped near 60-65%, so budget for 35-40% down.",
+          "Two more things the Central Bank rules make clear: the deposit must come from your own funds and cannot itself be borrowed, and the DLD and associated fees sit on top and are not covered by the loan.",
+          "Because lender appetite varies, the exact deposit a bank asks of you can differ from these benchmarks. It is worth getting a mortgage pre-approval early so you know your real number before you shop."
+        ]
+      },
+      {
+        "heading": "Off-plan: developer payment plans",
+        "body": [
+          "Buying off-plan (directly from a developer before or during construction) works differently. Instead of one large deposit and a mortgage, you follow a staged payment plan set by the developer.",
+          "The down payment on booking is usually 10-20% of the price. After that, you pay instalments tied either to construction milestones or to a fixed calendar, up to handover. Many plans are structured so you have paid a large share by completion, with the rest due on handover, and some developers now offer post-handover plans that let you keep paying for a year or more after you move in.",
+          "This makes off-plan attractive to buyers who prefer to spread the cost, since the initial cash outlay can be lower than a mortgage deposit on a comparable ready home.",
+          "Keep these points in mind:"
+        ],
+        "bullets": [
+          "The 4% DLD registration fee still applies to off-plan and is usually paid early, at or soon after booking.",
+          "Payment plans vary widely between developers and projects, so compare the schedule, not just the headline price.",
+          "You can often arrange a mortgage later to cover the handover payment, subject to the bank's rules at that time.",
+          "Reserve the unit with a booking form and a small reservation fee first; the formal Sale and Purchase Agreement (SPA) follows."
+        ]
+      },
+      {
+        "heading": "The extra upfront cash beyond the deposit",
+        "body": [
+          "The deposit is not the whole story. Every buyer needs additional cash at transfer, and these costs are paid from your own pocket, not the mortgage. As a rule of thumb, budget around 6-7% of the price for the items below.",
+          "DLD transfer fee: 4% of the purchase price, paid to the Dubai Land Department, plus a small fixed admin fee. This is the largest add-on and applies to nearly every purchase.",
+          "Agency commission: typically 2% of the price plus 5% VAT on that commission.",
+          "Mortgage registration fee (if you borrow): about 0.25% of the loan amount, plus a small admin fee, paid to the DLD.",
+          "Trustee (transfer) office fee: a fixed charge, commonly around AED 4,000 (plus VAT) for properties above AED 500,000, paid at the transfer appointment.",
+          "Other smaller items can include bank arrangement or valuation fees on a mortgage, a No Objection Certificate (NOC) fee from the developer, and the first service-charge payment. None are large individually, but together they are worth planning for.",
+          "Add it up and, on a ready home bought with a mortgage, your true day-one cash is the down payment plus roughly 6-7% in fees, so a 20% deposit really means having close to 26-27% of the price available."
+        ]
+      },
+      {
+        "heading": "Worked examples and tips",
+        "body": [
+          "Numbers make this concrete. The examples below are indicative and round the fees for clarity.",
+          "Example 1, resident mortgage on a ready AED 2,000,000 apartment: 20% deposit is AED 400,000, the 4% DLD fee is AED 80,000, agency commission at 2% plus VAT is about AED 42,000, and mortgage plus trustee fees add roughly AED 9,000. Total upfront is around AED 531,000, of which the deposit is AED 400,000.",
+          "Example 2, cash purchase of a ready AED 5,000,000 villa: 10% MOU deposit on signing is AED 500,000, then at transfer you pay the AED 4,500,000 balance, the 4% DLD fee of AED 200,000, and agency commission of about AED 105,000. You need the full price plus roughly AED 305,000 in fees.",
+          "Example 3, off-plan AED 3,000,000 apartment on a 20% down plan: AED 600,000 down payment on booking, the 4% DLD fee of AED 120,000 usually paid early, and the remaining 80% spread over the construction schedule to handover.",
+          "A few tips to keep your deposit working hard:"
+        ],
+        "bullets": [
+          "Get a mortgage pre-approval before you offer, so you know your exact deposit and can negotiate as a ready buyer.",
+          "Keep the DLD and agency fees in a separate pot; do not spend your fee budget on a bigger deposit.",
+          "For non-residents, compare several banks; LTV and rates for overseas buyers vary more than for residents.",
+          "On off-plan, weigh a lower entry payment against the total plan; a longer plan is not always cheaper overall.",
+          "Ask us for an itemised cost sheet for any specific property before you commit, so there are no surprises at transfer."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum deposit to buy property in Dubai?",
+        "answer": "For a resident buying a ready home under AED 5 million with a mortgage, the minimum is a 20% down payment (up to 80% LTV). Off-plan buyers can often start with a 10% down payment on a developer plan. Remember the 4% DLD fee and other costs sit on top of the deposit."
+      },
+      {
+        "question": "How much deposit do non-residents need in Dubai?",
+        "answer": "Non-residents buying with a mortgage usually need a larger deposit than residents, commonly 25-50%, because many banks cap non-resident lending around 50-75% LTV. Cash buyers avoid this entirely and typically pay a 10% deposit on signing the MOU. The exact figure depends on the lender and property."
+      },
+      {
+        "question": "Is the deposit refundable if the deal falls through?",
+        "answer": "It depends on the contract. On a ready-home MOU, the 10% deposit is usually at risk if the buyer withdraws without a valid contractual reason, and is generally returned if the seller defaults. Terms are negotiable, so read the agreement carefully and take advice before signing."
+      },
+      {
+        "question": "Can I use the mortgage to cover the DLD and agency fees?",
+        "answer": "No. Under Central Bank rules the deposit and the transfer costs must come from your own funds; the loan covers only the agreed loan-to-value portion of the price. Budget the 4% DLD fee, agency commission plus VAT, and mortgage and trustee fees as separate cash on top of your deposit."
+      },
+      {
+        "question": "How much total cash do I need on top of the deposit?",
+        "answer": "Plan for roughly 6-7% of the purchase price in fees: 4% for the DLD transfer, about 2% agency commission plus 5% VAT on it, around 0.25% mortgage registration if you borrow, and a fixed trustee fee. So a 20% deposit realistically means having close to 26-27% of the price available on day one."
+      },
+      {
+        "question": "Is the deposit lower for off-plan than for a ready home?",
+        "answer": "Often yes. Off-plan down payments usually start at 10-20% and the rest is spread over a developer payment plan to handover, so the initial outlay can be lower than a 20-25% mortgage deposit on a comparable ready home. The 4% DLD fee still applies and is usually paid early."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How much does it cost to buy property in Dubai?",
+        "href": "/blog/how-much-does-it-cost-to-buy-property-in-dubai"
+      },
+      {
+        "label": "Can foreigners get a mortgage in Dubai?",
+        "href": "/blog/can-foreigners-get-a-mortgage-in-dubai"
+      },
+      {
+        "label": "Dubai off-plan payment plans explained",
+        "href": "/blog/dubai-off-plan-payment-plans-explained"
+      },
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "deposit to buy property in Dubai",
+      "down payment Dubai property",
+      "Dubai mortgage LTV rules",
+      "how much deposit Dubai apartment",
+      "off-plan down payment Dubai",
+      "non-resident mortgage deposit Dubai",
+      "DLD 4% transfer fee",
+      "cost to buy property in Dubai"
+    ]
+  },
+  {
+    "slug": "dubai-off-plan-escrow-accounts-explained",
+    "title": "Dubai Off-Plan Escrow: How Your Money Is Protected",
+    "excerpt": "How Dubai's law-mandated escrow accounts protect off-plan buyers, what escrow does and does not cover, and how to verify a project before you pay.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "When you buy off-plan in Dubai your money is protected by a law-mandated escrow account. Under Dubai Law No. 8 of 2007, developers must deposit all buyer payments into a project-specific escrow account regulated by the Dubai Land Department, and funds are released to the developer only as construction milestones are verified. This means your instalments are ring-fenced for your building, not spent freely or moved to other projects. Escrow is powerful, but it is not a guarantee against every risk. Below we explain how the system works, what it does and does not protect against, and the exact steps to verify a project has a valid escrow account before you sign.",
+    "keyTakeaways": [
+      "Every off-plan project in Dubai must, by law, hold buyer payments in a project-specific escrow account overseen by the Dubai Land Department.",
+      "Escrow funds are released to the developer in stages, tied to verified construction progress, so money cannot be spent freely upfront.",
+      "Escrow protects your capital from misuse and diversion, but it does not by itself compensate you for delays or poor build quality.",
+      "Always pay into the official project escrow account, never a personal or unrelated company account.",
+      "Verify the project is RERA-registered and has a valid escrow account via the Dubai REST app or the Dubai Land Department before you transfer any money."
+    ],
+    "sections": [
+      {
+        "heading": "What an escrow account actually is",
+        "body": [
+          "An escrow account is a dedicated bank account held by an independent, government-approved escrow agent (a bank licensed for this purpose). When you buy an off-plan unit, your deposit and every subsequent instalment are paid into this account rather than directly to the developer.",
+          "The key idea is separation and control. The developer cannot simply withdraw your money at will. Instead, the escrow agent holds the funds and releases them in tranches, only as the project reaches defined stages of completion. The account is ring-fenced to one specific project, so money paid by buyers of your building can only be used for your building.",
+          "This structure exists to solve a specific problem: buyers paying for something that does not yet physically exist. Escrow bridges that gap by making sure your capital is tied to construction of the exact asset you are purchasing."
+        ]
+      },
+      {
+        "heading": "The law behind it: Dubai Law No. 8 of 2007",
+        "body": [
+          "The framework is set by Dubai Law No. 8 of 2007 Concerning Escrow Accounts for Real Estate Development in the Emirate of Dubai, commonly called the Escrow Law. It made escrow accounts mandatory for off-plan property sales in Dubai.",
+          "Oversight sits with the Real Estate Regulatory Agency (RERA), the regulatory arm of the Dubai Land Department (DLD). Before a developer can sell off-plan units, it must register the project and open a dedicated escrow account with an accredited escrow agent, and the account is monitored by the regulator.",
+          "In practice this means a legitimate off-plan project cannot legally take your money without a registered escrow account behind it. The law also requires developers to hold the land and meet registration conditions before selling, adding further checks before a project reaches the market."
+        ]
+      },
+      {
+        "heading": "How milestone-based releases work",
+        "body": [
+          "Money does not flow to the developer in one lump sum. Instead, the escrow agent releases funds in stages tied to verified construction progress. As the developer completes a milestone, an approved engineering consultant or project auditor confirms the work, and the corresponding portion of escrow funds is released.",
+          "This alignment of payment with progress is the core protection. If a developer stalls and stops building, it stops unlocking the money still sitting in escrow. The system is designed so a developer cannot collect the full price of a tower while it is still a hole in the ground.",
+          "Regulations also require a portion of funds to be retained after handover for a defined period, which supports the developer's obligation to fix defects. The exact percentages and mechanics are governed by DLD rules and can be updated, so treat specific figures as something to confirm at the time of purchase."
+        ]
+      },
+      {
+        "heading": "What escrow does and does not protect against",
+        "body": [
+          "Escrow is strong protection for one thing above all: it stops your capital from being diverted or spent freely. Because funds are ring-fenced to the project and released against progress, the risk of a developer simply pocketing deposits is dramatically reduced.",
+          "But escrow is not a warranty. It does not by itself guarantee the project finishes on time, and it does not compensate you for delays. It does not judge build quality or ensure the finished unit matches the brochure. And while the milestone system discourages abandonment, it does not make a troubled project immune to problems.",
+          "The practical takeaway: escrow protects your money's use, not your outcome. That is why due diligence on the developer's track record, the specific project, and the contract terms still matters as much as ever."
+        ],
+        "bullets": [
+          "Protects against: misuse of funds, diversion to other projects, a developer withdrawing your money before building.",
+          "Does not protect against: construction delays, changes to design or finish quality, market price movements.",
+          "Does not replace: checking the developer's delivery history, reading the Sale and Purchase Agreement carefully, and confirming payment plan terms."
+        ]
+      },
+      {
+        "heading": "How to verify a project has a valid escrow account",
+        "body": [
+          "Before transferring a single dirham, confirm the project is real, registered, and escrow-backed. This takes minutes and is the single most important step you can take.",
+          "Ask the developer or your broker directly for the project's escrow account details and the name of the escrow agent bank. A legitimate developer will provide these without hesitation. Then check the project independently using the Dubai Land Department's official channels, including the Dubai REST app, which lets you look up registered projects and developers.",
+          "Only buy off-plan that is RERA-registered. If a project or unit does not appear in official DLD records, or the seller cannot show a registered escrow account, treat that as a reason to stop and investigate before proceeding."
+        ],
+        "bullets": [
+          "Ask for the project's official escrow account details and the escrow agent (bank) name.",
+          "Look up the project and developer in the Dubai REST app or via the Dubai Land Department.",
+          "Confirm the project is RERA-registered before paying anything.",
+          "Make every payment into the named project escrow account, never a personal or unrelated account."
+        ]
+      },
+      {
+        "heading": "Red flags and buyer tips",
+        "body": [
+          "Most off-plan purchases in Dubai proceed smoothly because the escrow framework is robust and enforced. Problems tend to cluster around sellers trying to work outside that framework, so learn the warning signs.",
+          "The clearest red flag is any request to pay outside the official escrow account, for example into a personal account, a marketing company, or an overseas entity. Be equally wary of pressure to pay quickly to secure a discount, reluctance to share escrow or registration details, and prices that look too good to be true.",
+          "Work with a RERA-licensed brokerage, keep every payment inside the official escrow account, keep written records of all receipts, and read the Sale and Purchase Agreement before signing. If anything feels off, pause and verify through the DLD before you commit."
+        ],
+        "bullets": [
+          "Red flag: any request to pay outside the official project escrow account.",
+          "Red flag: refusal or delay in sharing escrow account and registration details.",
+          "Red flag: high-pressure tactics or a discount that expires in hours.",
+          "Tip: use a RERA-licensed broker, keep receipts, and verify through the Dubai Land Department before paying."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is an escrow account mandatory for off-plan property in Dubai?",
+        "answer": "Yes. Under Dubai Law No. 8 of 2007, every off-plan real estate project in Dubai must have a dedicated, project-specific escrow account with an accredited escrow agent, overseen by the Real Estate Regulatory Agency and the Dubai Land Department. A legitimate developer cannot legally sell off-plan units without one."
+      },
+      {
+        "question": "Who controls the money in the escrow account?",
+        "answer": "An independent, government-approved escrow agent, which is a licensed bank, holds the funds. The developer cannot freely withdraw them. The agent releases money to the developer in stages as verified construction milestones are reached, keeping payments aligned with actual progress."
+      },
+      {
+        "question": "Does escrow guarantee my off-plan project will be finished on time?",
+        "answer": "No. Escrow protects how your money is used and stops it from being diverted or spent freely, but it does not by itself guarantee on-time delivery or compensate you for delays. That is why checking the developer's track record and the contract terms remains essential."
+      },
+      {
+        "question": "How do I check if a Dubai off-plan project has an escrow account?",
+        "answer": "Ask the developer or your broker for the escrow account details and the escrow agent bank, then verify the project and developer independently through the Dubai Land Department's official channels, including the Dubai REST app. Only proceed if the project is RERA-registered and escrow-backed."
+      },
+      {
+        "question": "What should I do if a seller asks me to pay outside the escrow account?",
+        "answer": "Stop and do not pay. A request to send money to a personal account, a marketing company, or any account other than the official project escrow account is a serious red flag. All legitimate off-plan payments go into the named project escrow account. Verify everything with the Dubai Land Department first."
+      },
+      {
+        "question": "Does escrow protect me against poor build quality?",
+        "answer": "Not directly. Escrow governs the flow and use of funds, not the standard of construction or finishes. Regulations do require some funds to be retained after handover to support defect rectification, but you should still inspect the unit, review the contract's specifications, and rely on the developer's warranty obligations."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy off-plan property in Dubai",
+        "href": "/blog/how-to-buy-off-plan-property-in-dubai"
+      },
+      {
+        "label": "Off-plan vs ready property in Dubai",
+        "href": "/blog/off-plan-vs-ready-property-in-dubai"
+      },
+      {
+        "label": "Dubai off-plan payment plans explained",
+        "href": "/blog/dubai-off-plan-payment-plans-explained"
+      },
+      {
+        "label": "How to avoid property scams in Dubai",
+        "href": "/blog/how-to-avoid-property-scams-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai off-plan escrow account",
+      "Dubai Law No. 8 of 2007 escrow",
+      "off-plan buyer protection Dubai",
+      "RERA escrow account",
+      "Dubai Land Department escrow",
+      "how to verify off-plan project Dubai",
+      "Dubai REST app off-plan",
+      "off-plan property Dubai safety"
+    ]
+  },
 ];
