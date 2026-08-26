@@ -8,6 +8,7 @@
 
 import { site } from "@/lib/site";
 import type { Area, Developer, Listing, SoldRecord } from "@/lib/data/types";
+import type { AreaIndex } from "@/lib/data/marketIndex";
 import type { BlogPost } from "@/lib/data/blog";
 import type { TeamMember } from "@/lib/data/team";
 import { formatAedFull } from "@/lib/format";
@@ -345,6 +346,51 @@ export function SoldCollectionJsonLd({ records }: { records: SoldRecord[] }) {
               : {}),
           },
         })),
+      }}
+    />
+  );
+}
+
+/**
+ * The "EQT [Area] Index" as a schema.org Dataset: proprietary market statistics
+ * derived from EQT's own verified transactions. Gives AI answer engines and
+ * search a structured, attributable summary of the same numbers shown on-page.
+ */
+export function AreaIndexJsonLd({
+  index,
+  areaLabel,
+  path,
+}: {
+  index: AreaIndex;
+  areaLabel: string;
+  path: string;
+}) {
+  const measure = (name: string, value: number, unit?: string) => ({
+    "@type": "PropertyValue",
+    name,
+    value,
+    ...(unit ? { unitText: unit } : {}),
+  });
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        name: `EQT ${areaLabel} Index`,
+        description: `Proprietary market statistics for ${areaLabel}, Dubai, compiled by EQT from its own ${index.count}+ verified completed sales. Figures are historical and indicative, not a valuation.`,
+        url: `${site.url}${path}`,
+        creator: { "@type": "Organization", name: site.name, url: site.url },
+        isAccessibleForFree: true,
+        ...(index.latestDate ? { dateModified: index.latestDate } : {}),
+        variableMeasured: [
+          measure("Verified sales", index.count),
+          measure("Total transacted (AED)", index.totalVolumeAed, "AED"),
+          measure("Average price (AED)", index.avgPriceAed, "AED"),
+          measure("Median price (AED)", index.medianPriceAed, "AED"),
+          measure("Lowest sale (AED)", index.minPriceAed, "AED"),
+          measure("Highest sale (AED)", index.maxPriceAed, "AED"),
+          ...(index.avgPerSqft ? [measure("Average price per sq ft (AED)", index.avgPerSqft, "AED per sq ft")] : []),
+        ],
       }}
     />
   );

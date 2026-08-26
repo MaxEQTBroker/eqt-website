@@ -15,8 +15,11 @@ import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { guidesForArea } from "@/lib/data/guideLinks";
 import { hasAreaTranslation } from "@/lib/data/i18n/areaTranslations";
+import { computeAreaIndex } from "@/lib/data/marketIndex";
+import { AreaMarketIndex } from "@/components/area/AreaMarketIndex";
 import {
   AreaFaqJsonLd,
+  AreaIndexJsonLd,
   BreadcrumbJsonLd,
 } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
@@ -107,6 +110,11 @@ export default async function AreaPage({
 
   const guides = guidesForArea(area.slug);
 
+  // Proprietary "EQT [Area] Index" from our own verified sold records. Null when
+  // fewer than 3 priced sales exist for the area (locally most areas; in prod the
+  // Palm and other core areas populate), so sparse areas render nothing.
+  const areaIndex = computeAreaIndex(sold);
+
   // Show only the 6 most valuable recent sales here; the rest live on /sold.
   const topSold = [...sold]
     .sort((a, b) => (b.soldPriceAed ?? 0) - (a.soldPriceAed ?? 0))
@@ -122,6 +130,13 @@ export default async function AreaPage({
         ]}
       />
       <AreaFaqJsonLd area={area} />
+      {areaIndex && (
+        <AreaIndexJsonLd
+          index={areaIndex}
+          areaLabel={area.label}
+          path={locale === "en" ? `/areas/${area.slug}` : `/${locale}/areas/${area.slug}`}
+        />
+      )}
 
       {/* Hero */}
       <section className="relative flex min-h-[70svh] items-end overflow-hidden">
@@ -215,6 +230,15 @@ export default async function AreaPage({
                 </div>
               </Reveal>
             </div>
+
+            {/* EQT [Area] Index — proprietary stats from our own verified sales.
+                High on the money page and rich in extractable numbers for AI
+                citation. Renders only where we have enough priced sold records. */}
+            {areaIndex && (
+              <Reveal>
+                <AreaMarketIndex index={areaIndex} areaLabel={area.label} locale={locale} />
+              </Reveal>
+            )}
 
             {/* Extended editorial: what the community is like */}
             {area.sections && area.sections.length > 0 && (
