@@ -1105,6 +1105,9 @@
     "colSize": "Size",
     "colPrice": "Price",
     "methodology": "Compiled by EQT from its own completed transactions. Figures are historical and indicative, not a valuation. Last updated {date}.",
-    "bedShort": "bed"
+    "bedShort": "bed",
+    "byTypeHeading": "Average price by property type",
+    "colType": "Type",
+    "colCount": "Sales"
   }
 }

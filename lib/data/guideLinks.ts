@@ -15,7 +15,9 @@ export const EVERGREEN_GUIDES: GuideLink[] = [
 
 const AREA_GUIDES: Record<string, GuideLink[]> = {
   "palm-jumeirah": [
+    { label: "Palm Jumeirah property prices: 2026 guide", href: "/blog/palm-jumeirah-property-prices-guide" },
     { label: "How much to buy a villa on Palm Jumeirah", href: "/blog/cost-to-buy-villa-palm-jumeirah" },
+    { label: "Palm Jumeirah rental yields and ROI", href: "/blog/palm-jumeirah-rental-yields-and-roi" },
     { label: "Emirates Hills vs Palm Jumeirah", href: "/blog/emirates-hills-vs-palm-jumeirah-where-to-buy" },
   ],
   "emirates-hills": [

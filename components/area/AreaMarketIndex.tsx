@@ -5,6 +5,7 @@ import { uiContent } from "@/lib/data/i18n/ui";
 type IndexCopy = {
   eyebrow: string; heading: string; intro: string;
   statSales: string; statVolume: string; statAvg: string; statPerSqft: string; statRange: string;
+  byTypeHeading: string; colType: string; colCount: string;
   recentHeading: string; colDate: string; colHome: string; colSize: string; colPrice: string;
   methodology: string; bedShort: string;
 };
@@ -70,6 +71,34 @@ export function AreaMarketIndex({
           </div>
         ))}
       </div>
+
+      {/* Average price by property type — only when >1 type is represented, so
+          a single-type area doesn't show a one-row table that repeats the average. */}
+      {index.byType.length > 1 && (
+        <div className="mt-12">
+          <p className="eyebrow mb-5">{c.byTypeHeading}</p>
+          <div className="overflow-x-auto rounded-lg border border-line">
+            <table className="w-full min-w-[420px] text-left text-sm">
+              <thead>
+                <tr className="border-b border-line bg-elevated text-xs uppercase tracking-[0.14em] text-faint">
+                  <th className="px-5 py-3 font-medium">{c.colType}</th>
+                  <th className="px-5 py-3 font-medium">{c.colCount}</th>
+                  <th className="px-5 py-3 font-medium">{c.statAvg}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {index.byType.map((t) => (
+                  <tr key={t.type} className="border-b border-line last:border-0">
+                    <td className="px-5 py-3 text-ink">{t.type}</td>
+                    <td className="px-5 py-3 text-muted">{t.count}</td>
+                    <td className="px-5 py-3 text-ink">{aed(t.avgPriceAed)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
 
       {/* Recent verified sales */}
       {index.recent.length > 0 && (

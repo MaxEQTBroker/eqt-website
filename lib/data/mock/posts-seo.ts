@@ -12534,4 +12534,132 @@ export const seoPosts: BlogPost[] = [
       "short-term vs long-term rental Dubai"
     ]
   },
+  {
+    "slug": "palm-jumeirah-property-prices-guide",
+    "title": "Palm Jumeirah Property Prices: 2026 Price Guide",
+    "excerpt": "Palm Jumeirah apartments start around AED 2.5M, signature frond villas run AED 25M-100M+, and penthouses reach nine figures. Full 2026 price bands by type.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "/images/palm-jumeirah/2.jpg",
+      "alt": "Palm Jumeirah villas and apartment towers at dusk",
+      "tone": "#e7e6e2"
+    },
+    "intro": "As an indicative 2026 guide, Palm Jumeirah apartments start at roughly AED 2.5M for a smaller unit and run past AED 15M for a large branded or sea-facing residence; garden homes on the fronds sit around AED 15M-35M; signature villas with private beach frontage typically trade between AED 25M and AED 100M+; and the largest penthouses and mansions reach well into nine figures. Priced another way, expect roughly AED 2,500-5,000 per square foot on apartments and AED 4,000-9,000+ on prime villas, depending on frond, view, age and fit-out. These are guide figures to frame a budget, not valuations. The bands below break down each property type, then explain what actually moves the price and how to get an accurate number for a specific home.",
+    "keyTakeaways": [
+      "Apartments: roughly AED 2.5M entry to AED 15M+ for large, sea-facing or branded units.",
+      "Garden homes on the fronds: indicatively AED 15M-35M depending on frond and condition.",
+      "Signature villas with private beach: typically AED 25M-100M+, the Palm's core trophy tier.",
+      "Penthouses, mansions and top branded residences: from around AED 20M into nine figures.",
+      "Price per square foot runs roughly AED 2,500-5,000 on apartments and AED 4,000-9,000+ on prime villas.",
+      "Frond position, sea view, tower or villa type, age and renovation quality drive most of the variance."
+    ],
+    "sections": [
+      {
+        "heading": "Apartment prices on Palm Jumeirah",
+        "body": [
+          "Apartments are the Palm's most accessible tier and cover the widest range. Older Shoreline and trunk buildings offer the lowest entry, with smaller one-bedroom units indicatively from around AED 2.5M, while two and three-bedroom homes in these towers commonly sit in the AED 4M-9M region. Newer and branded developments along the crescent and trunk command a clear premium: larger sea-facing residences, penthouses and half-floor units in landmark towers frequently trade from AED 12M to well past AED 25M. The spread is driven by building age and brand, floor and view, and whether the unit has been fully renovated. As a rough guide, apartment pricing works out to roughly AED 2,500-5,000 per square foot, with the branded and sea-facing top end pushing higher."
+        ]
+      },
+      {
+        "heading": "Garden homes and townhouse-style villas",
+        "body": [
+          "Garden homes are the entry point to villa living on the fronds: three to five-bedroom homes arranged along the palm's leaves, each with a garden and, on many plots, direct or near beach access. Indicatively they trade in the AED 15M-35M range, with condition and exact frond position doing most of the work on price. An original, unrenovated garden home sits at the lower end; a fully rebuilt, contemporary home with a redesigned pool and interior can command a substantial premium over its neighbours. Because the footprint and plot are broadly standardised across the fronds, renovation quality and view are often the clearest differentiators between two otherwise similar homes."
+        ]
+      },
+      {
+        "heading": "Signature villas: the Palm's trophy tier",
+        "body": [
+          "Signature villas sit at the tips and along the fronds with private beach frontage and larger plots, and they are the assets most buyers mean when they talk about owning on the Palm. Pricing typically runs from around AED 25M for an original signature villa to AED 100M and beyond for a large, architect-rebuilt home with prime sea views and generous beach frontage. Within this tier the variance is enormous: two villas on the same frond can differ by tens of millions based on rebuild quality, plot width, orientation and outlook. This is a low-supply, high-demand segment where genuinely turnkey, sea-facing homes are scarce and trade quickly, often off-market, which is why guide ranges only take you so far."
+        ]
+      },
+      {
+        "heading": "Penthouses, mansions and branded residences",
+        "body": [
+          "At the top of the market sit full-floor penthouses, custom mansions and the newest branded residences. Penthouses in landmark towers commonly start around AED 20M and rise into the AED 50M-150M+ range for the largest sky homes with private pools and panoramic views. Branded residences, where a global hospitality or fashion name attaches to the building and its services, carry a premium for the brand, the finish and the managed lifestyle, and price accordingly against comparable unbranded stock. Bespoke mansions on the crescent and premium fronds are effectively priced individually. In this tier the number reflects scarcity, provenance and finish as much as floor area, so square-foot comparisons become a weaker guide than the specific asset."
+        ]
+      },
+      {
+        "heading": "What actually drives the price",
+        "body": [
+          "Six factors explain most of the difference between two Palm homes. Frond and position: proximity to the tip, plot width and privacy matter. View and orientation: a clear sea view and favourable sun aspect command a premium over a frond-facing or road-side outlook. Property type and brand: signature villa versus garden home, branded versus unbranded tower. Age and renovation: a fully rebuilt, turnkey home trades well above an original one needing work. Beach access and plot: direct private frontage is worth a great deal. And finally liquidity and timing: the best sea-facing, renovated homes are scarce, sell fast and often trade privately, so live availability and current sentiment move the achievable price as much as any fixed metric."
+        ]
+      },
+      {
+        "heading": "How to get an accurate figure for a specific home",
+        "body": [
+          "Guide bands set a budget; they do not value a specific property. For an accurate number you need recent, verified comparable sales for that exact building or frond, adjusted for floor, view, plot and renovation, plus a read on what is actually available right now and how quickly it is moving. That is where our own transaction record matters: the EQT Palm Jumeirah Index on our community page is built purely from our verified completed sales, and our team can pull true like-for-like comparables and current off-market availability for the home you are considering. If you are weighing a purchase or want a realistic valuation before you offer, send us the building or frond and we will come back with specific numbers, not a range."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does an apartment on Palm Jumeirah cost?",
+        "answer": "Indicatively from around AED 2.5M for a smaller one-bedroom in an older tower, with two and three-bedroom units commonly AED 4M-9M and larger sea-facing or branded residences from AED 12M past AED 25M. Price per square foot runs roughly AED 2,500-5,000. Figures are illustrative and vary by building, floor, view and fit-out."
+      },
+      {
+        "question": "How much is a villa on Palm Jumeirah?",
+        "answer": "Garden homes trade indicatively around AED 15M-35M, while signature villas with private beach frontage typically run from AED 25M to AED 100M and beyond for large, renovated, sea-facing homes. Condition, frond position, plot and view drive most of the difference. These are guide figures, not valuations."
+      },
+      {
+        "question": "What is the price per square foot on Palm Jumeirah?",
+        "answer": "As a rough guide, roughly AED 2,500-5,000 per square foot on apartments and AED 4,000-9,000+ on prime villas, with branded, sea-facing and fully renovated homes at the top of each range. Square-foot pricing is less reliable at the trophy end, where scarcity and finish matter more than floor area."
+      },
+      {
+        "question": "What is the cheapest way to buy on Palm Jumeirah?",
+        "answer": "The lowest entry is a smaller apartment in an older Shoreline or trunk building, indicatively from around AED 2.5M. It still buys a Palm Jumeirah address with beach and community access, though not the private-beach villa lifestyle. Our team can show current availability at the entry end."
+      },
+      {
+        "question": "Why do two similar Palm homes sell for very different prices?",
+        "answer": "Because frond position, sea view and orientation, renovation quality, beach access and brand can each move the price substantially. Two villas on the same frond can differ by tens of millions based on rebuild quality and outlook alone. That is why a guide range is a starting point and a real comparable-based valuation is essential."
+      },
+      {
+        "question": "Are Palm Jumeirah prices still rising in 2026?",
+        "answer": "Supply on the Palm is effectively capped on a finite island while global demand for beachfront trophy homes remains strong, which has historically supported prices. Past performance does not guarantee future results and values can move both ways. For a current read on your specific tier, speak to our team."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "How much does a Palm Jumeirah villa cost?",
+        "href": "/blog/cost-to-buy-villa-palm-jumeirah"
+      },
+      {
+        "label": "Signature villas vs garden homes on the Palm",
+        "href": "/blog/palm-jumeirah-signature-villas-vs-garden-homes"
+      },
+      {
+        "label": "Palm Jumeirah penthouses: buyer's guide",
+        "href": "/blog/palm-jumeirah-penthouses-buyers-guide"
+      },
+      {
+        "label": "Palm Jumeirah rental yields and ROI",
+        "href": "/blog/palm-jumeirah-rental-yields-and-roi"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Palm Jumeirah property prices",
+      "Palm Jumeirah price guide",
+      "Palm Jumeirah apartment prices",
+      "Palm Jumeirah villa price",
+      "Palm Jumeirah price per square foot",
+      "cost of property on Palm Jumeirah",
+      "Palm Jumeirah signature villa price",
+      "Palm Jumeirah penthouse price"
+    ]
+  },
 ];
