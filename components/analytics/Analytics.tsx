@@ -21,7 +21,20 @@ export function Analytics() {
         {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${id}');`}
+gtag('config', '${id}');
+// Count WhatsApp clicks (the primary enquiry path) + tel/mailto clicks as leads.
+document.addEventListener('click', function(e){
+  var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+  if(!a) return;
+  var h = a.getAttribute('href') || '';
+  if(h.indexOf('wa.me')>-1 || h.indexOf('api.whatsapp')>-1 || h.indexOf('whatsapp')>-1){
+    gtag('event','generate_lead',{source:'whatsapp'});
+  } else if(h.indexOf('tel:')===0){
+    gtag('event','generate_lead',{source:'phone'});
+  } else if(h.indexOf('mailto:')===0){
+    gtag('event','generate_lead',{source:'email'});
+  }
+}, true);`}
       </Script>
     </>
   );
