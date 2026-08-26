@@ -45,7 +45,7 @@ export function Header() {
     };
   }, [open]);
 
-  const barColor = open ? "#e8e0cd" : scrolled ? "var(--text-primary)" : "#ffffff";
+  const barColor = open ? "#e8ecf4" : scrolled ? "var(--text-primary)" : "#ffffff";
 
   return (
     <header
@@ -118,7 +118,7 @@ export function Header() {
       <div
         className="fixed inset-0 z-40 overflow-y-auto overscroll-contain"
         style={{
-          backgroundColor: "#241d14",
+          backgroundColor: "#0d1730",
           opacity: open ? 1 : 0,
           pointerEvents: open ? "auto" : "none",
           transition: "opacity 0.7s var(--ease-lux)",
@@ -133,7 +133,7 @@ export function Header() {
                 onClick={() => setOpen(false)}
                 className="block w-fit py-1.5 font-display leading-[1.12] text-[clamp(1.35rem,4vw,2.6rem)] transition-colors hover:text-[color:var(--accent-400)]"
                 style={{
-                  color: "#e8e0cd",
+                  color: "#e8ecf4",
                   opacity: open ? 1 : 0,
                   transform: open ? "translateY(0)" : "translateY(24px)",
                   transition: `opacity 0.6s ${0.12 + i * 0.06}s var(--ease-lux), transform 0.6s ${0.12 + i * 0.06}s var(--ease-lux), color 0.3s`,
@@ -147,16 +147,16 @@ export function Header() {
           <div
             className="container-lux absolute inset-x-0 bottom-12 flex flex-col items-end gap-3 text-right text-sm"
             style={{
-              color: "#b9ac90",
+              color: "#93a0b8",
               opacity: open ? 1 : 0,
               transition: `opacity 0.6s ${0.12 + NAV.length * 0.06}s var(--ease-lux)`,
             }}
           >
-            <LanguageSwitcher color="#b9ac90" />
-            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit transition-colors hover:text-[#e8e0cd]">
+            <LanguageSwitcher color="#93a0b8" />
+            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit transition-colors hover:text-[#e8ecf4]">
               {site.contact.phone} · WhatsApp
             </a>
-            <a href={`mailto:${site.contact.email}`} className="w-fit transition-colors hover:text-[#e8e0cd]">
+            <a href={`mailto:${site.contact.email}`} className="w-fit transition-colors hover:text-[#e8ecf4]">
               {site.contact.email}
             </a>
           </div>

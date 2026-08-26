@@ -259,26 +259,6 @@ export default async function BlogPostPage({
             </div>
           )}
 
-          {/* Related internal links */}
-          {post.relatedLinks && post.relatedLinks.length > 0 && (
-            <div className="mt-16 border-t border-line pt-12">
-              <p className="eyebrow mb-6">{t.exploreNext}</p>
-              <ul className="grid gap-3 sm:grid-cols-2">
-                {post.relatedLinks.map((l) => (
-                  <li key={l.href}>
-                    <Link
-                      href={l.href}
-                      className="group flex items-center justify-between gap-4 rounded-lg border border-line px-5 py-4 text-ink transition-colors hover:border-accent-500"
-                    >
-                      <span>{l.label}</span>
-                      <span className="text-accent-500 transition-transform group-hover:translate-x-0.5">→</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
           </div>
 
           <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start">
@@ -299,8 +279,8 @@ export default async function BlogPostPage({
 
       {/* Related */}
       {related.length > 0 && (
-        <section className="border-t border-line">
-          <div className="container-lux py-[var(--section-py)]">
+        <section>
+          <div className="container-lux pb-[var(--section-py)] pt-4">
             <h2 className="mb-10 font-display text-[clamp(1.75rem,3.4vw,2.75rem)] leading-tight text-ink">
               {t.youMightLike}
             </h2>
