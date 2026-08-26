@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import type { LeadPayload } from "@/lib/leads/types";
 import { storeLead } from "@/lib/leads/store";
+import { notifyLead } from "@/lib/leads/notify";
 
 /**
  * Health/config check (safe: booleans only, never the secret values).
@@ -59,9 +60,9 @@ export async function POST(req: Request) {
     submittedAt: new Date().toISOString(),
   };
 
-  // Backup every lead to our own Supabase store (best-effort) so leads are
-  // reviewable on-site without opening the CRM. Never blocks the response.
-  await storeLead(lead);
+  // Backup every lead to our own Supabase store + email a notification
+  // (both best-effort, so leads are reviewable without the CRM). Never fatal.
+  await Promise.allSettled([storeLead(lead), notifyLead(lead)]);
 
   const webhook = process.env.CRM_LEAD_WEBHOOK_URL;
   if (!webhook) {
