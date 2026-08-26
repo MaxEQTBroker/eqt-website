@@ -15,16 +15,17 @@
   --bg-inset: #d7dce8;      /* wells, inputs */
   --line: #c3cad9;          /* cool blue-grey hairline */
 
-  /* Accent — champagne / antique gold (warm metal against the navy = luxury) */
-  --accent-400: #cbae79;
-  --accent-500: #ae8a54;
-  --accent-600: #866739;
+  /* Accent — refined sapphire blue (all interactive/highlight elements read as
+     an elegant blue against the pearl + navy; no warm/brown tones anywhere) */
+  --accent-400: #4e7cb0;
+  --accent-500: #2e5d93;
+  --accent-600: #234a76;
 
   /* Text — deep midnight navy (the "blue" that anchors the whole page) */
   --text-primary: #16223b;
   --text-secondary: #3d4c67;
   --text-tertiary: #6c7891;
-  --text-on-accent: #16223b;  /* navy on gold — elegant and high-contrast */
+  --text-on-accent: #ffffff;  /* white on sapphire — clean, high-contrast */
 
   /* Semantic */
   --accent: var(--accent-500);

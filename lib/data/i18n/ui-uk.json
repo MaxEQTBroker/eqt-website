@@ -1061,5 +1061,33 @@
     "advisorBody": "Маєте запитання щодо цього? Надішліть свій запит, і ми відповімо особисто, або напишіть нам у WhatsApp.",
     "advisorWhatsapp": "Напишіть нам у WhatsApp",
     "youMightLike": "Вам також може сподобатися"
+  },
+  "footer": {
+    "tagline": "Елітна нерухомість Дубая з ліцензією RERA. Престижні та позаринкові будинки на Palm Jumeirah, Emirates Hills, Al Barari та не тільки.",
+    "colExplore": "Огляд",
+    "colCompany": "Компанія",
+    "colLegal": "Правова інформація",
+    "colConnect": "Контакти",
+    "linkNeighbourhoods": "Райони",
+    "linkPropertyTypes": "Типи нерухомості",
+    "linkDevelopers": "Забудовники",
+    "linkListings": "Активні пропозиції",
+    "linkSold": "Продані об'єкти",
+    "linkMarket": "Аналітика ринку",
+    "linkAbout": "Про нас",
+    "linkTeam": "Команда",
+    "linkContact": "Зв'язатися",
+    "linkSell": "Продати",
+    "linkValuation": "Безкоштовна оцінка",
+    "linkPriceGuide": "Довідник цін",
+    "linkBuyingGuide": "Посібник покупця",
+    "linkPrivacy": "Конфіденційність",
+    "linkTerms": "Умови",
+    "linkCookies": "Файли cookie",
+    "linkSitemap": "Карта сайту",
+    "linkPhotography": "Фотографія",
+    "call": "Зателефонувати",
+    "email": "Електронна пошта",
+    "followGoogle": "Стежте в Google"
   }
 }

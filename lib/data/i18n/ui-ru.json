@@ -1061,5 +1061,33 @@
     "advisorBody": "Есть вопрос по этой теме? Отправьте нам краткое описание, и мы ответим лично, или напишите нам в WhatsApp.",
     "advisorWhatsapp": "Напишите нам в WhatsApp",
     "youMightLike": "Вам также может понравиться"
+  },
+  "footer": {
+    "tagline": "Лицензированная RERA элитная недвижимость Дубая. Престижные и внерыночные дома на Palm Jumeirah, в Emirates Hills, Al Barari и других районах.",
+    "colExplore": "Обзор",
+    "colCompany": "Компания",
+    "colLegal": "Правовая информация",
+    "colConnect": "Связаться",
+    "linkNeighbourhoods": "Районы",
+    "linkPropertyTypes": "Типы недвижимости",
+    "linkDevelopers": "Застройщики",
+    "linkListings": "Активные объявления",
+    "linkSold": "Проданные объекты",
+    "linkMarket": "Обзор рынка",
+    "linkAbout": "О компании",
+    "linkTeam": "Команда",
+    "linkContact": "Контакты",
+    "linkSell": "Продать",
+    "linkValuation": "Бесплатная оценка",
+    "linkPriceGuide": "Гид по ценам",
+    "linkBuyingGuide": "Гид покупателя",
+    "linkPrivacy": "Конфиденциальность",
+    "linkTerms": "Условия",
+    "linkCookies": "Файлы cookie",
+    "linkSitemap": "Карта сайта",
+    "linkPhotography": "Фотография",
+    "call": "Позвонить",
+    "email": "Электронная почта",
+    "followGoogle": "Подписаться в Google"
   }
 }

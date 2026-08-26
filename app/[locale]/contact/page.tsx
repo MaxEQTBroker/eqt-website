@@ -114,6 +114,17 @@ export default async function ContactPage({
                 .replace("{ded}", site.regulatory.dedLicense)}
             </p>
           </div>
+
+          {/* Embedded location map */}
+          <div className="mt-6 overflow-hidden rounded-lg border border-line">
+            <iframe
+              title={`${site.name} office location on Google Maps`}
+              src="https://www.google.com/maps?q=OPUS%20Tower%20Business%20Bay%20Dubai&output=embed"
+              className="block h-[320px] w-full"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
         </Reveal>
 
         {/* Multi-step form */}
