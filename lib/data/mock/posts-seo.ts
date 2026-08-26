@@ -7999,4 +7999,347 @@ export const seoPosts: BlogPost[] = [
     ],
     "heroImage": blogBodyPool[19]
   }
+,
+  {
+    "slug": "buying-property-in-dubai-for-canadians",
+    "title": "Buying Property in Dubai for Canadians (2026 Guide)",
+    "excerpt": "Yes, Canadians can buy freehold property in Dubai outright. Our 2026 guide covers remote purchases, CRA tax, currency, costs and the Golden Visa.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Canadian citizens and residents can buy and own freehold property in Dubai outright, with full title in their own name and no requirement to live in the UAE or hold residency first. Canadians are treated the same as any other foreign buyer: you can purchase in designated freehold zones, register the title with the Dubai Land Department, and even complete the whole transaction remotely from Canada. What takes more planning is the tax side, because the Canada Revenue Agency taxes Canadian residents on worldwide income, including Dubai rental income and gains. This guide walks through ownership, buying remotely, Canadian tax, moving money, costs and why Dubai appeals to Canadian buyers.",
+    "keyTakeaways": [
+      "Canadians can own freehold Dubai property outright, in their own name, with no UAE residency required.",
+      "You can buy entirely from Canada using a notarized, apostilled power of attorney.",
+      "Dubai charges 0% property tax and 0% income tax, but the CRA taxes Canadian residents on worldwide income.",
+      "The AED is pegged to the US dollar at roughly 3.6725, so CAD to AED cost tracks the CAD/USD rate.",
+      "A property purchase of AED 2M or more can qualify you for a 10-year renewable Golden Visa."
+    ],
+    "sections": [
+      {
+        "heading": "Can Canadians own property in Dubai?",
+        "body": [
+          "Yes. Since 2002, Dubai has allowed foreign nationals to buy and own property on a freehold basis in designated areas, and Canadians qualify on exactly the same terms as other overseas buyers. Freehold means you own both the unit and the land it sits on outright, in perpetuity, with the title registered in your own name at the Dubai Land Department (DLD). There is no requirement to be a UAE resident, to live in Dubai, or to hold any visa before you buy.",
+          "Ownership is restricted to designated freehold zones, but these cover most of the areas international buyers care about, including Dubai Marina, Downtown Dubai, Palm Jumeirah, Business Bay, Dubai Hills Estate, Emirates Hills and Jumeirah Village Circle. Outside these zones property is generally leasehold or reserved for UAE and GCC nationals, so confirming a development sits in a freehold area is one of the first checks we make for every client."
+        ],
+        "bullets": [
+          "Freehold ownership in your own name, with no UAE residency needed to buy.",
+          "Title registered and protected at the Dubai Land Department.",
+          "Popular freehold zones include Downtown, Marina, Palm Jumeirah and Dubai Hills.",
+          "Individual or company ownership is possible; we advise on the right structure."
+        ]
+      },
+      {
+        "heading": "Buying remotely from Canada",
+        "body": [
+          "You do not need to fly to Dubai to complete a purchase. Many of our Canadian clients buy entirely remotely, and the process is well established. The most common route is to appoint someone you trust, often your broker or a UAE lawyer, under a power of attorney (POA) so they can sign and register on your behalf. The POA is drafted for the specific transaction, notarized in Canada, and then apostilled or legalized so it is recognized in the UAE; a certified Arabic translation is usually attached.",
+          "Funds move by international bank transfer. You will typically pay a booking deposit, then the balance and fees at transfer, with money sent to the seller or an escrow account for off-plan purchases. UAE banks and the DLD apply source-of-funds and anti-money-laundering checks, so keep clear documentation of where your money came from. Your broker coordinates the sale agreement, the DLD transfer appointment and the title registration, and modern purchases can be completed digitally with e-signatures and remote DLD processing."
+        ],
+        "bullets": [
+          "Appoint a trusted representative under a notarized, apostilled power of attorney.",
+          "Expect source-of-funds and anti-money-laundering checks on incoming transfers.",
+          "Use escrow for off-plan payments; balance and fees settle at DLD transfer.",
+          "Much of the process, including signing, can now be done digitally."
+        ]
+      },
+      {
+        "heading": "Canadian tax considerations",
+        "body": [
+          "This is where Canadian buyers need the most care. Dubai itself charges no personal income tax and no annual property tax, but that does not make the income tax-free for you. The Canada Revenue Agency (CRA) taxes Canadian residents on their worldwide income, which includes rental income earned from a Dubai property and capital gains when you sell it. You are expected to report Dubai rental income on your Canadian return and pay Canadian tax on any gain, even though Dubai took nothing.",
+          "There are two reporting points to know. First, if the total cost of your foreign property exceeds CAD 100,000 at any time in the year, you generally must file Form T1135, the Foreign Income Verification Statement, with your Canadian tax return; personal-use property such as a vacation home you do not rent out can be excluded, so the treatment depends on how you use it. Second, there is currently no Canada-UAE double-taxation treaty in force, so you cannot assume the usual treaty relief or foreign-tax-credit offsets will smooth things over. Because Dubai levies no tax, there may be little or no foreign tax to credit against your Canadian bill, which makes upfront planning important.",
+          "This article is general information, not tax advice. Cross-border tax is genuinely complex and the right structure depends on your residency status and goals, so consult a qualified Canadian cross-border tax advisor before you buy."
+        ],
+        "bullets": [
+          "CRA taxes Canadian residents on worldwide income, including Dubai rent and gains.",
+          "Form T1135 may be required if foreign property cost exceeds CAD 100,000.",
+          "No Canada-UAE double-tax treaty is currently in force, so plan carefully.",
+          "This is not tax advice; speak to a cross-border tax professional."
+        ]
+      },
+      {
+        "heading": "Currency and moving money",
+        "body": [
+          "Dubai prices property in UAE dirhams (AED). The dirham is pegged to the US dollar at a fixed rate of roughly 3.6725 AED to 1 USD, and that peg has held for decades. For Canadians this is helpful, because it removes AED volatility from the equation: your real currency exposure is effectively the Canadian dollar against the US dollar. When CAD is strong versus USD your Dubai purchase is cheaper in Canadian-dollar terms, and vice versa.",
+          "When you convert and send funds, the retail exchange rate and transfer fees your bank charges matter more than the peg. Many buyers use a specialist foreign-exchange provider rather than a high-street bank to get a tighter CAD-to-AED rate and lower fees on large transfers. Keep records of every conversion and transfer, both for the UAE source-of-funds checks and for your Canadian reporting."
+        ],
+        "bullets": [
+          "Property is priced in AED, pegged near 3.6725 to the US dollar.",
+          "Your practical currency risk is CAD versus USD, not AED.",
+          "Specialist FX providers often beat bank rates on large transfers.",
+          "Keep full records of conversions for UAE and CRA purposes."
+        ]
+      },
+      {
+        "heading": "Costs, fees and the Golden Visa",
+        "body": [
+          "Budget for transaction costs on top of the purchase price. The main one is the Dubai Land Department transfer fee of 4% of the property value. Add agency commission of around 2% plus 5% VAT on that commission, along with smaller registration and trustee-office fees and, for mortgaged purchases, a mortgage registration fee. As a rough guide, plan for roughly 6% to 8% of the price in total acquisition costs; there is no annual property tax to pay afterwards.",
+          "A property purchase also opens the door to long-term residency. Buying property worth AED 2 million or more can qualify you for the UAE Golden Visa, a 10-year residence permit that is renewable and can include your spouse and children. It does not require you to live in Dubai full time and is a major draw for Canadian buyers who want a base in the region without giving up flexibility. We confirm current thresholds and eligibility with you before you commit, since program details can be updated."
+        ],
+        "bullets": [
+          "DLD transfer fee: 4% of the property value.",
+          "Agency commission: around 2%, plus 5% VAT on the commission.",
+          "Total acquisition costs typically land around 6% to 8% of the price.",
+          "AED 2M+ purchase can qualify for a 10-year renewable Golden Visa."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to Canadian buyers",
+        "body": [
+          "For many Canadians the appeal starts with the numbers. Dubai charges 0% annual property tax and 0% personal income tax locally, and residential rental yields commonly run in the 5% to 8% range, well above what most Canadian cities offer. Combined with strong tenant demand and a fast-growing population, that makes Dubai attractive as an income and lifestyle asset, even after you account for your Canadian tax obligations.",
+          "Lifestyle and access seal it. Dubai is consistently ranked among the safest large cities in the world, offers reliable sunshine year-round, and has world-class schools, healthcare and infrastructure. Connectivity is strong, with direct long-haul links between Dubai and Canadian hubs such as Toronto making it easy to travel back and forth. There is also a large and growing Canadian and wider expatriate community, so buyers rarely feel like outsiders. For a second home, a rental investment or a Golden Visa base, Dubai lines up well against the alternatives."
+        ],
+        "bullets": [
+          "0% annual property tax and 0% personal income tax in Dubai itself.",
+          "Rental yields commonly around 5% to 8% gross.",
+          "Among the safest major cities, with year-round sun and strong infrastructure.",
+          "Direct flights to Canadian hubs and a large, growing Canadian community."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can Canadians buy property in Dubai without living there?",
+        "answer": "Yes. Canadians can buy freehold property in designated zones in their own name with no requirement to be a UAE resident or to live in Dubai. You can hold it purely as an investment or second home and can even complete the purchase remotely from Canada."
+      },
+      {
+        "question": "Do I have to pay Canadian tax on my Dubai property?",
+        "answer": "If you are a Canadian tax resident, yes. The CRA taxes worldwide income, so Dubai rental income and any capital gain on sale are reportable in Canada, even though Dubai charges no local tax. This is general information, not tax advice; consult a Canadian cross-border tax advisor."
+      },
+      {
+        "question": "Do I need to file Form T1135?",
+        "answer": "Generally, if the total cost of your foreign property exceeds CAD 100,000 at any point in the year, you must file Form T1135, the Foreign Income Verification Statement, with your Canadian return. Personal-use property such as a vacation home you do not rent may be excluded, so confirm with a tax professional."
+      },
+      {
+        "question": "Is there a tax treaty between Canada and the UAE?",
+        "answer": "There is currently no Canada-UAE double-taxation treaty in force. That means you should not assume the usual treaty relief or foreign-tax-credit offsets will apply, and because Dubai levies no tax there may be little foreign tax to credit. Plan the structure carefully with an advisor before buying."
+      },
+      {
+        "question": "How much money do I need beyond the purchase price?",
+        "answer": "Plan for roughly 6% to 8% of the price in transaction costs. That includes the 4% Dubai Land Department transfer fee, agency commission of around 2% plus 5% VAT on that commission, and smaller registration fees. There is no annual property tax to pay afterwards."
+      },
+      {
+        "question": "Can buying property in Dubai get me a Golden Visa?",
+        "answer": "Yes. A property purchase worth AED 2 million or more can qualify you for the UAE Golden Visa, a 10-year renewable residence permit that can include your spouse and children and does not require full-time residence. We confirm current thresholds with you before you commit."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Canadians",
+      "can Canadians buy property in Dubai",
+      "Dubai real estate for Canadian buyers",
+      "Canadian tax on Dubai property",
+      "Form T1135 Dubai property",
+      "Dubai Golden Visa for Canadians",
+      "buy Dubai property from Canada",
+      "Dubai freehold property Canadian citizens"
+    ]
+  },
+  {
+    "slug": "buying-property-in-dubai-for-irish-buyers",
+    "title": "Buying Property in Dubai for Irish Buyers (2026)",
+    "excerpt": "Can Irish citizens buy property in Dubai? Yes, and outright. A 2026 guide to freehold ownership, buying remotely, Irish tax, currency, costs and the.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Irish citizens can buy and own freehold property in Dubai outright, with full title in their own name and no requirement to live in the UAE or hold residency. Ireland places no restriction on citizens purchasing real estate abroad, and Dubai actively welcomes foreign buyers in designated freehold zones that cover most of the city's prime addresses. You can complete the whole transaction remotely from Dublin, Cork or Galway, pay in euro converted to dirhams, and register the title with the Dubai Land Department. The two points that need real planning are Irish tax on the income and any gain, and moving your funds cleanly and compliantly.",
+    "keyTakeaways": [
+      "Irish citizens can buy freehold property in Dubai outright, in their own name, with no UAE residency required.",
+      "Purchases can be completed remotely from Ireland using a notarised, apostilled power of attorney.",
+      "Dubai charges 0% property tax, income tax and capital gains tax, but Irish-resident and domiciled buyers remain taxable in Ireland on the rental income and on gains (CGT at 33%).",
+      "An Ireland-UAE double taxation agreement helps prevent the same income being taxed twice.",
+      "Buying property worth AED 2 million or more can qualify you for a 10-year renewable Golden Visa."
+    ],
+    "sections": [
+      {
+        "heading": "Can Irish citizens own property in Dubai?",
+        "body": [
+          "Yes. Irish citizens have the same right as almost any other foreign national to buy property in Dubai's freehold areas. Freehold means you own the property and the land it sits on indefinitely, with your name registered on the title deed at the Dubai Land Department (DLD). You do not need to be a UAE resident, hold a visa, or have any prior connection to the country to purchase.",
+          "Freehold ownership for foreigners is concentrated in designated zones, but those zones include most of Dubai's best-known neighbourhoods, for example Palm Jumeirah, Dubai Marina, Downtown Dubai, Business Bay, Emirates Hills, Jumeirah Village Circle, Dubai Hills Estate and Arabian Ranches. You can buy ready (completed) property or off-plan directly from a developer.",
+          "There is no minimum spend to buy, and there is no separate 'foreign buyer' surcharge of the kind some countries apply. The transaction and registration process is the same for an Irish buyer as for a local one."
+        ],
+        "bullets": [
+          "Full freehold title registered in your own name at the DLD.",
+          "No UAE residency or visa needed to purchase or to hold the property.",
+          "Prime districts are almost all within freehold zones open to foreign buyers.",
+          "Both ready and off-plan property are available to Irish purchasers."
+        ]
+      },
+      {
+        "heading": "Buying remotely from Ireland",
+        "body": [
+          "You do not need to fly to Dubai to complete a purchase, although many buyers like to visit at least once. Irish buyers regularly transact entirely from home. The two practical tools are a power of attorney and a clear paper trail for your funds.",
+          "A power of attorney (POA) lets a trusted representative or your broker's nominated legal contact sign documents and register the property on your behalf. For use in the UAE, the POA is typically signed before a notary in Ireland, then apostilled (Ireland is a party to the Hague Apostille Convention), and often translated into Arabic and attested. Your conveyancer will confirm the exact wording and attestation route.",
+          "On funds, plan early. UAE banks and the DLD expect a clean, documented source of funds, so keep evidence of where your deposit and balance come from. Many overseas buyers pay developer or seller instalments by international transfer; some open a UAE bank account, though a local account is not strictly required to complete a cash purchase. A good broker will coordinate reservation, sale and purchase agreement, deposit, and the final transfer and title registration remotely."
+        ],
+        "bullets": [
+          "Sign a notarised, apostilled power of attorney in Ireland for a fully remote purchase.",
+          "Keep documented evidence of your source of funds for bank and DLD checks.",
+          "A UAE bank account can help but is not mandatory for a cash purchase.",
+          "Your broker and conveyancer can handle signing and registration on your behalf."
+        ]
+      },
+      {
+        "heading": "Irish tax considerations",
+        "body": [
+          "This is the part that catches Irish buyers out, so it deserves care, and the following is general information rather than tax advice. Dubai itself charges no property tax, no personal income tax and no capital gains tax. That does not make your Dubai property tax-free if you live in Ireland.",
+          "Irish Revenue taxes individuals who are Irish resident and Irish domiciled on their worldwide income and gains. In practice that means rental income from your Dubai property is taxable in Ireland, and if you sell at a profit, Irish Capital Gains Tax applies to the gain at the standard rate of 33 percent, even though Dubai imposes no CGT of its own. You would report the rental income through the Irish self-assessment system and the gain via CGT.",
+          "There is relief from being taxed twice. Ireland and the UAE have a double taxation agreement, which is designed to ensure the same income or gain is not fully taxed in both countries and sets out how taxing rights are allocated. Because the UAE levies little or no tax on individuals in this context, the practical effect for many Irish-resident owners is that the Irish liability is the one that bites, but the treaty framework still matters and should be applied correctly.",
+          "If you are resident in Ireland but not Irish domiciled, you may be able to use the remittance basis, under which foreign income and gains are generally taxed in Ireland only to the extent you bring (remit) them into the State. Domicile is a technical concept and not the same as residence or citizenship. Given how much turns on residence, domicile and timing, speak to an Irish tax advisor before you buy so the ownership structure and cash flows are set up correctly from day one."
+        ],
+        "bullets": [
+          "Dubai: 0% property tax, 0% income tax, 0% capital gains tax.",
+          "Irish resident and domiciled: worldwide basis, so Dubai rent is taxable in Ireland.",
+          "Irish CGT of 33% applies to gains on sale for Irish residents despite Dubai charging none.",
+          "The Ireland-UAE double taxation agreement helps avoid the same income being taxed twice.",
+          "Non-domiciled Irish residents may qualify for the remittance basis.",
+          "This is not tax advice; consult a qualified Irish tax professional."
+        ]
+      },
+      {
+        "heading": "Currency and moving your money",
+        "body": [
+          "Dubai property is priced and transacted in UAE dirhams (AED), so as an Irish buyer you will be converting euro to dirhams. The dirham is pegged to the US dollar at a fixed rate of roughly 3.6725 AED to 1 USD, which removes AED/USD volatility but means your effective euro cost still moves with the EUR/USD exchange rate.",
+          "Because a purchase can involve six or seven figures, the exchange spread and transfer fees matter. Many Irish buyers use a specialist currency provider or foreign exchange broker rather than a high-street bank to secure a better rate, and some use forward contracts to lock in a rate for a future off-plan instalment. Compare the all-in cost, not just the headline rate.",
+          "Send funds through regulated channels and retain the transfer records. Clean documentation supports the source-of-funds checks that UAE banks and the DLD carry out, and it keeps your Irish tax reporting straightforward."
+        ],
+        "bullets": [
+          "You will convert EUR to AED; property is transacted in dirhams.",
+          "AED is pegged to the US dollar at about 3.6725, so your euro cost tracks EUR/USD.",
+          "A currency specialist or FX broker often beats a bank on large transfers.",
+          "Forward contracts can lock a rate for staged off-plan payments."
+        ]
+      },
+      {
+        "heading": "Costs, fees and the Golden Visa",
+        "body": [
+          "Budget for transaction costs on top of the purchase price. The main one is the Dubai Land Department transfer fee of 4 percent of the property value, usually paid at registration. Expect an agency commission of around 2 percent plus 5 percent VAT on that commission, along with smaller charges such as a title deed issuance fee, trustee office registration fees, and a no-objection certificate fee on resale transactions. Off-plan purchases follow a developer payment plan, often with staged instalments during construction and a portion on handover.",
+          "Property can also be a route to residency. Buying real estate worth AED 2 million or more can qualify you for the UAE Golden Visa, a 10-year residence permit that is renewable and can include your spouse and children. It lets you live in the UAE without needing an employer sponsor, though it does not by itself change your Irish tax residence, which is determined by Irish rules on days spent and other factors.",
+          "As a rule of thumb, allow roughly 7 to 8 percent of the price for fees and closing costs so you are not caught short at registration. Your broker should give you a full, itemised cost sheet before you commit."
+        ],
+        "bullets": [
+          "DLD transfer fee: 4% of the property value.",
+          "Agency commission: around 2% plus 5% VAT on the commission.",
+          "Additional charges: title deed, trustee registration and NOC fees.",
+          "AED 2 million or more can qualify for a 10-year renewable Golden Visa.",
+          "Plan for roughly 7 to 8 percent of the price in total transaction costs."
+        ]
+      },
+      {
+        "heading": "Why Dubai appeals to Irish buyers",
+        "body": [
+          "The tax contrast is the headline. Dubai levies 0 percent property tax, 0 percent personal income tax and 0 percent capital gains tax locally, against a high Irish tax environment. While Irish-resident owners still face Irish tax as covered above, buyers who relocate and become non-resident in Ireland, or who structure ownership carefully, can find the numbers compelling. Always take advice on your own position.",
+          "Yields are the other draw. Prime and well-chosen Dubai residential property has been delivering gross rental yields in the region of 5 to 8 percent, generally higher than comparable yields in Dublin, supported by strong tenant demand and population growth. Combined with no local tax on that rent, the gross returns are attractive.",
+          "Then there is lifestyle and connectivity. Year-round sun, a strong personal safety record, world-class amenities and a large and growing international community all appeal to Irish buyers, whether for a holiday home, an investment let or a full relocation. Emirates operates direct flights between Dublin and Dubai, putting the city within convenient reach, and the Irish expat community in the UAE continues to grow, which makes settling in easier."
+        ],
+        "bullets": [
+          "0% local property, income and capital gains tax in Dubai.",
+          "Gross rental yields commonly around 5 to 8 percent.",
+          "Sun, safety and world-class amenities for lifestyle and relocation.",
+          "Direct Emirates flights between Dublin and Dubai.",
+          "A growing Irish expat community on the ground."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can an Irish citizen buy property in Dubai without living there?",
+        "answer": "Yes. Irish citizens can buy freehold property in Dubai in their own name with no requirement to be a UAE resident, hold a visa, or live in the country. Most of Dubai's prime districts sit within freehold zones open to foreign buyers, and the purchase can be completed remotely from Ireland."
+      },
+      {
+        "question": "Do I pay tax in Ireland on my Dubai property?",
+        "answer": "If you are Irish resident and domiciled, yes. Dubai charges no property, income or capital gains tax, but Ireland taxes your worldwide income and gains, so rental income is taxable in Ireland and Capital Gains Tax at 33 percent applies to any gain on sale. Non-domiciled residents may use the remittance basis. This is general information, not tax advice, so consult an Irish tax professional."
+      },
+      {
+        "question": "Is there a double taxation agreement between Ireland and the UAE?",
+        "answer": "Yes. Ireland and the UAE have a double taxation agreement designed to prevent the same income or gain being taxed in full in both countries and to allocate taxing rights between them. Because the UAE levies little or no personal tax, the Irish liability is often the one that applies for Irish-resident owners, but the treaty framework should still be applied correctly."
+      },
+      {
+        "question": "How do I buy in Dubai remotely from Ireland?",
+        "answer": "You can complete the whole purchase from Ireland using a power of attorney signed before a notary, apostilled, and where needed translated into Arabic and attested. Your broker and conveyancer can then sign documents and register the title on your behalf. Keep clear evidence of your source of funds for bank and Dubai Land Department checks."
+      },
+      {
+        "question": "What does it cost to buy property in Dubai?",
+        "answer": "Beyond the price, budget for the Dubai Land Department transfer fee of 4 percent, an agency commission of around 2 percent plus 5 percent VAT on that commission, and smaller charges such as title deed, trustee registration and NOC fees. A useful rule of thumb is to allow roughly 7 to 8 percent of the price for total transaction costs."
+      },
+      {
+        "question": "Can buying property get me a UAE Golden Visa?",
+        "answer": "Yes. Buying real estate worth AED 2 million or more can qualify you for the UAE Golden Visa, a 10-year renewable residence permit that can include your spouse and children and lets you live in the UAE without an employer sponsor. It does not by itself change your Irish tax residence, which is determined by Irish rules."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "Property tax in Dubai",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Dubai Golden Visa through property",
+        "href": "/blog/dubai-golden-visa-through-property"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "buying property in Dubai for Irish buyers",
+      "can Irish citizens buy property in Dubai",
+      "Dubai property Irish tax",
+      "Ireland UAE double taxation agreement",
+      "Dubai Golden Visa property",
+      "buying Dubai property from Ireland",
+      "Dubai freehold property for foreigners",
+      "Dubai rental yields for Irish investors"
+    ]
+  },
 ];
