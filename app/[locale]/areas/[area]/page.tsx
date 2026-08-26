@@ -136,7 +136,7 @@ export default async function AreaPage({
           />
           <div
             className="absolute inset-x-0 bottom-0 h-[60%]"
-            style={{ background: "linear-gradient(to top, rgba(227,219,200,0.96) 0%, rgba(227,219,200,0.7) 42%, rgba(227,219,200,0) 100%)" }}
+            style={{ background: "linear-gradient(to top, rgba(237,239,244,0.96) 0%, rgba(237,239,244,0.7) 42%, rgba(237,239,244,0) 100%)" }}
           />
         </div>
         <div className="container-lux relative z-10 pb-16 pt-40">

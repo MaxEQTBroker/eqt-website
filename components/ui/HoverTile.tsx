@@ -13,7 +13,7 @@ export function HoverTile({
   alt,
   title,
   subtitle,
-  tone = "#cdc2a7",
+  tone = "#d7dce8",
   ratio = "aspect-[4/5]",
 }: {
   href: string;

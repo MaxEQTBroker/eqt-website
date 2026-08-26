@@ -22,7 +22,7 @@ export async function Voice() {
         return (
           <div key={b.kicker} className="grid items-center gap-10 md:grid-cols-2 md:gap-20">
             <div className={right ? "md:order-2" : ""}>
-              <div className="relative aspect-[4/5] w-full overflow-hidden" style={{ backgroundColor: "#cdc2a7" }}>
+              <div className="relative aspect-[4/5] w-full overflow-hidden" style={{ backgroundColor: "#d7dce8" }}>
                 <ScrollScale from={1.16} to={1.0}>
                   <Image src={b.image.url} alt={b.image.alt} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 </ScrollScale>

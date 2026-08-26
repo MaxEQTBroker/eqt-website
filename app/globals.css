@@ -9,22 +9,22 @@
    (v1 Dark&Gold, v2 Hermès, v3 Azure navy live in git history.)
    ══════════════════════════════════════════════════════════════════════ */
 :root {
-  /* Surfaces — warm, deep beige (never white) */
-  --bg-base: #e3dbc8;       /* deep warm beige canvas */
-  --bg-elevated: #d8cfb7;   /* deeper beige — alternating sections */
-  --bg-inset: #cdc2a7;      /* wells, inputs */
-  --line: #b0a486;          /* warm, clean hairline */
+  /* Surfaces — cool pearl (light, elegant, a whisper of blue; never stark white) */
+  --bg-base: #edeff4;       /* soft cool pearl canvas */
+  --bg-elevated: #e3e7f0;   /* deeper pearl — alternating sections */
+  --bg-inset: #d7dce8;      /* wells, inputs */
+  --line: #c3cad9;          /* cool blue-grey hairline */
 
-  /* Accent — warm bronze (no blue anywhere but the logo mark) */
-  --accent-400: #b0a184;
-  --accent-500: #7a6a4d;
-  --accent-600: #574a34;
+  /* Accent — champagne / antique gold (warm metal against the navy = luxury) */
+  --accent-400: #cbae79;
+  --accent-500: #ae8a54;
+  --accent-600: #866739;
 
-  /* Text — warm espresso near-black */
-  --text-primary: #282017;
-  --text-secondary: #5c5343;
-  --text-tertiary: #8a7f68;
-  --text-on-accent: #ffffff;
+  /* Text — deep midnight navy (the "blue" that anchors the whole page) */
+  --text-primary: #16223b;
+  --text-secondary: #3d4c67;
+  --text-tertiary: #6c7891;
+  --text-on-accent: #16223b;  /* navy on gold — elegant and high-contrast */
 
   /* Semantic */
   --accent: var(--accent-500);
@@ -32,9 +32,9 @@
   --focus-ring: var(--accent-500);
   --sold-flag: var(--accent-500);
 
-  /* Flat scrims for text-over-media (solid, never gradients) */
-  --scrim-strong: rgba(20, 16, 10, 0.5);
-  --scrim-soft: rgba(20, 16, 10, 0.14);
+  /* Flat scrims for text-over-media (solid, never gradients) — navy-based */
+  --scrim-strong: rgba(12, 19, 36, 0.52);
+  --scrim-soft: rgba(12, 19, 36, 0.16);
 
   /* Motion */
   --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);

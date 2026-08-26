@@ -89,7 +89,7 @@ export default async function PropertyTypePage({
           />
           <div
             className="absolute inset-x-0 bottom-0 h-[60%]"
-            style={{ background: "linear-gradient(to top, rgba(227,219,200,0.96) 0%, rgba(227,219,200,0.7) 42%, rgba(227,219,200,0) 100%)" }}
+            style={{ background: "linear-gradient(to top, rgba(237,239,244,0.96) 0%, rgba(237,239,244,0.7) 42%, rgba(237,239,244,0) 100%)" }}
           />
         </div>
         <div className="container-lux relative z-10 pb-14 pt-40">
@@ -215,7 +215,7 @@ export default async function PropertyTypePage({
                           sizes="(max-width: 640px) 100vw, 25vw"
                           className="object-cover opacity-85 transition-all duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105 group-hover:opacity-100"
                         />
-                        <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
+                        <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(227,231,240,0.82)" }} />
                         <div className="absolute inset-x-0 bottom-0 p-6">
                           <h3 className="font-display text-xl text-ink">{area.label}</h3>
                           <p className="mt-2 text-sm text-accent-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100">

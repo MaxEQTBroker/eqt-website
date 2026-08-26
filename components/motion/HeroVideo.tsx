@@ -81,7 +81,7 @@ export function HeroVideo({
       />
       {/* Flat, even wash (no gradient) so clean white text reads over the
           footage. */}
-      <div className="absolute inset-0" style={{ backgroundColor: "rgba(20,16,10,0.34)" }} />
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(12,19,36,0.34)" }} />
     </div>
   );
 }

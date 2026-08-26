@@ -18,7 +18,7 @@ export async function FeaturedListings() {
         className="absolute inset-0 h-full w-full object-cover"
       />
       {/* Flat wash (no gradient), lets the footage read through. */}
-      <div className="absolute inset-0" style={{ backgroundColor: "rgba(20,16,10,0.34)" }} />
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(12,19,36,0.34)" }} />
 
       <div className="container-lux relative z-10">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">

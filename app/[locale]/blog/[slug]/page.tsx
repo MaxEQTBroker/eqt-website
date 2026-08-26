@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/data/blog";
 import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
+import { uiContent } from "@/lib/data/i18n/ui";
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
@@ -86,7 +87,12 @@ export default async function BlogPostPage({
   const post = await getPostBySlug(slug, locale);
   if (!post) notFound();
 
-  const related = await getRelatedPosts(slug, 2, locale);
+  const related = await getRelatedPosts(slug, 3, locale);
+  const t = uiContent<{
+    breadcrumbResources: string; minRead: string; publishedLabel: string; updatedLabel: string;
+    keyTakeaways: string; inThisGuide: string; frequentlyAsked: string; exploreNext: string;
+    advisorEyebrow: string; advisorBody: string; advisorWhatsapp: string; youMightLike: string;
+  }>("post", locale);
   // Editorial photos woven between sections to break up the text.
   const bodyImages = bodyImagesFor(post.slug, 2);
 
@@ -108,21 +114,21 @@ export default async function BlogPostPage({
           <Breadcrumbs
             items={[
               { name: "Home", href: "/" },
-              { name: "Resources", href: "/blog" },
+              { name: t.breadcrumbResources, href: "/blog" },
               { name: post.title, href: `/blog/${post.slug}` },
             ]}
           />
           <p className="eyebrow mt-8 mb-4">
-            {post.category} · {post.readingMinutes} min read
+            {post.category} · {post.readingMinutes} {t.minRead}
           </p>
           <h1 className="font-display text-[clamp(2rem,5vw,4rem)] font-medium leading-[1.05] text-ink">
             {post.title}
           </h1>
           <p className="mt-5 text-sm text-faint">
             {post.author.name}
-            {post.author.credential ? ` · ${post.author.credential}` : ""} · Published{" "}
+            {post.author.credential ? ` · ${post.author.credential}` : ""} · {t.publishedLabel}{" "}
             {formatDate(post.publishedAt)}
-            {post.updatedAt !== post.publishedAt ? ` · Updated ${formatDate(post.updatedAt)}` : ""}
+            {post.updatedAt !== post.publishedAt ? ` · ${t.updatedLabel} ${formatDate(post.updatedAt)}` : ""}
           </p>
         </div>
 
@@ -151,7 +157,7 @@ export default async function BlogPostPage({
           {/* Key takeaways */}
           {post.keyTakeaways && post.keyTakeaways.length > 0 && (
             <div className="mt-10 rounded-lg border border-line bg-elevated p-7 md:p-8">
-              <p className="eyebrow mb-4">Key takeaways</p>
+              <p className="eyebrow mb-4">{t.keyTakeaways}</p>
               <ul className="space-y-3">
                 {post.keyTakeaways.map((point, i) => (
                   <li key={i} className="flex gap-3 text-lg leading-relaxed text-ink">
@@ -166,7 +172,7 @@ export default async function BlogPostPage({
           {/* Table of contents (longer guides only) */}
           {post.sections.length >= 4 && (
             <nav aria-label="Contents" className="mt-8 rounded-lg border border-line bg-elevated p-7 md:p-8">
-              <p className="eyebrow mb-4">In this guide</p>
+              <p className="eyebrow mb-4">{t.inThisGuide}</p>
               <ol className="space-y-2">
                 {post.sections.map((s) => (
                   <li key={s.heading}>
@@ -235,7 +241,7 @@ export default async function BlogPostPage({
           {post.faqs.length > 0 && (
             <div className="mt-16 border-t border-line pt-12">
               <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">
-                Frequently asked
+                {t.frequentlyAsked}
               </h2>
               <div className="mt-8 divide-y divide-line border-y border-line">
                 {post.faqs.map((faq) => (
@@ -256,7 +262,7 @@ export default async function BlogPostPage({
           {/* Related internal links */}
           {post.relatedLinks && post.relatedLinks.length > 0 && (
             <div className="mt-16 border-t border-line pt-12">
-              <p className="eyebrow mb-6">Explore next</p>
+              <p className="eyebrow mb-6">{t.exploreNext}</p>
               <ul className="grid gap-3 sm:grid-cols-2">
                 {post.relatedLinks.map((l) => (
                   <li key={l.href}>
@@ -276,18 +282,15 @@ export default async function BlogPostPage({
           </div>
 
           <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start">
-            <p className="eyebrow mb-2">Speak with a private advisor</p>
-            <p className="mb-4 text-sm text-muted">
-              Have a question about this? Send your brief and we&rsquo;ll reply personally, or message
-              us on WhatsApp.
-            </p>
+            <p className="eyebrow mb-2">{t.advisorEyebrow}</p>
+            <p className="mb-4 text-sm text-muted">{t.advisorBody}</p>
             <a
               href={whatsappLink(`Hello ${site.name}, I read your guide on ${post.title} and have a question.`)}
               target="_blank"
               rel="noopener noreferrer"
               className="link-whatsapp mb-5 inline-block text-sm"
             >
-              Message us on WhatsApp
+              {t.advisorWhatsapp}
             </a>
             <LeadForm source={`blog:${post.slug}`} />
           </aside>
@@ -298,8 +301,10 @@ export default async function BlogPostPage({
       {related.length > 0 && (
         <section className="border-t border-line">
           <div className="container-lux py-[var(--section-py)]">
-            <p className="eyebrow mb-10">Keep reading</p>
-            <div className="grid gap-x-8 gap-y-12 md:grid-cols-2">
+            <h2 className="mb-10 font-display text-[clamp(1.75rem,3.4vw,2.75rem)] leading-tight text-ink">
+              {t.youMightLike}
+            </h2>
+            <div className="grid gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
               {related.map((rp) => (
                 <Link key={rp.slug} href={`/blog/${rp.slug}`} className="group grid grid-cols-[100px_1fr] gap-5">
                   <div

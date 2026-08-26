@@ -47,6 +47,7 @@ export function Footer() {
             <a href={site.social.google} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Google</a>
             <a href={site.social.linkedin} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">LinkedIn</a>
             <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Instagram</a>
+            <a href="https://www.google.com/preferences/source?q=eqt.ae" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Follow on Google</a>
           </div>
         </div>
       </div>

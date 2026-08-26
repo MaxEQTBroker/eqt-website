@@ -13,7 +13,7 @@ export async function Interlude() {
         poster="/videos/featured-poster.jpg"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      <div className="absolute inset-0" style={{ backgroundColor: "rgba(20,16,10,0.42)" }} />
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(12,19,36,0.42)" }} />
       <div className="container-lux relative z-10 pb-[10vh]">
         <h2
           className="max-w-[18ch] font-display text-[clamp(2rem,4.6vw,4.25rem)] font-medium leading-[1.05] text-white"

@@ -459,10 +459,10 @@ export function LeadForm({
                       type="button"
                       key={c}
                       onClick={() => chooseArea(c)}
-                      className="block w-full rounded-md px-4 py-2.5 text-left text-[0.95rem] transition-colors hover:bg-[rgba(122,106,77,0.1)]"
+                      className="block w-full rounded-md px-4 py-2.5 text-left text-[0.95rem] transition-colors hover:bg-[rgba(174,138,84,0.1)]"
                       style={{
                         color: selected ? "var(--accent-600)" : "var(--text-primary)",
-                        backgroundColor: selected ? "rgba(122,106,77,0.12)" : "transparent",
+                        backgroundColor: selected ? "rgba(174,138,84,0.12)" : "transparent",
                       }}
                     >
                       {c}
@@ -499,7 +499,7 @@ function OptionButton({
       className="flex items-center justify-center rounded-md border text-center leading-tight transition-all duration-300"
       style={{
         borderColor: active ? "var(--accent-500)" : "var(--line)",
-        backgroundColor: active ? "rgba(122,106,77,0.12)" : "var(--bg-inset)",
+        backgroundColor: active ? "rgba(174,138,84,0.12)" : "var(--bg-inset)",
         color: active ? "var(--accent-600)" : "var(--text-secondary)",
         padding: small ? "0.55rem 0.85rem" : "0.85rem 0.6rem",
         fontSize: small ? "0.875rem" : "0.95rem",

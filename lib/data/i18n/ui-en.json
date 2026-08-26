@@ -417,6 +417,20 @@
     "eyebrow": "Legal",
     "lastUpdated": "Last updated"
   },
+  "post": {
+    "breadcrumbResources": "Resources",
+    "minRead": "min read",
+    "publishedLabel": "Published",
+    "updatedLabel": "Updated",
+    "keyTakeaways": "Key takeaways",
+    "inThisGuide": "In this guide",
+    "frequentlyAsked": "Frequently asked",
+    "exploreNext": "Explore next",
+    "advisorEyebrow": "Speak with a private advisor",
+    "advisorBody": "Have a question about this? Send your brief and we'll reply personally, or message us on WhatsApp.",
+    "advisorWhatsapp": "Message us on WhatsApp",
+    "youMightLike": "You might also like"
+  },
   "market": {
     "metaTitle": "Dubai Luxury Property Market Insights & Prices",
     "metaDescription": "A live snapshot of Dubai's prime property market from EQT's own inventory and verified sales: entry prices, active listings and transaction counts by community (Palm Jumeirah, Downtown, Business Bay and more).",

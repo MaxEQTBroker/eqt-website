@@ -77,7 +77,7 @@ export default async function AreasIndexPage({
                   sizes="(max-width: 640px) 100vw, 25vw"
                   className="object-cover opacity-85 transition-all duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105 group-hover:opacity-100"
                 />
-                <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(214,205,182,0.82)" }} />
+                <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(227,231,240,0.82)" }} />
                 <div className="absolute inset-x-0 bottom-0 p-6">
                   <h2 className="font-display text-2xl text-ink">{area.label}</h2>
                   <p className="mt-2 line-clamp-2 text-sm text-muted">{area.headline}</p>
