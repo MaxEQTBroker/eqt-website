@@ -60,18 +60,24 @@ const nextConfig: NextConfig = {
     ];
   },
   images: {
-    // Serve images without Vercel's optimizer. The Hobby plan's image-optimization
-    // quota was being exceeded (402 Payment Required -> broken images). Source URLs
-    // (Pexels, Supabase transform, Property Finder) are already sized, so we skip
-    // Vercel optimization entirely for reliability. Re-enable on a Pro plan / domain.
-    unoptimized: true,
-    // Allow remote luxury imagery; tighten to your real CDN/domains before launch.
+    // Vercel Image Optimization is ON (Pro plan). Vercel fetches each remote
+    // source ONCE, transcodes to AVIF/WebP, and serves every visitor from its
+    // CDN as /_next/image — so Supabase storage egress drops to ~one fetch per
+    // image instead of one per visitor. Cache each optimized image for 30 days
+    // before revalidating the source, since property photos live at stable,
+    // content-addressed URLs (a changed photo gets a new URL).
+    formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 2_592_000,
     remotePatterns: [
       { protocol: "https", hostname: "images.pexels.com" },
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "**.eqt.ae" },
-      // CRM property photos: Supabase storage (sold) + Property Finder CDN (listings).
+      // CRM property photos. Supabase storage (sold + some listings): allow both
+      // the public-object and image-render paths so Vercel can fetch + cache them.
+      { protocol: "https", hostname: "oquqfodpimubvrgkekah.supabase.co", pathname: "/storage/v1/object/public/**" },
+      { protocol: "https", hostname: "oquqfodpimubvrgkekah.supabase.co", pathname: "/storage/v1/render/image/public/**" },
       { protocol: "https", hostname: "**.supabase.co" },
+      // Property Finder listing-photo CDN.
       { protocol: "https", hostname: "**.propertyfinder.ae" },
     ],
   },
