@@ -10883,4 +10883,667 @@ export const seoPosts: BlogPost[] = [
       "off-plan property Dubai safety"
     ]
   },
+  {
+    "slug": "palm-jumeirah-signature-villas-vs-garden-homes",
+    "title": "Signature Villas vs Garden Homes on Palm Jumeirah",
+    "excerpt": "The honest, answer-first comparison of Palm Jumeirah's two frond villa types: sizes, plots, indicative prices, beach access, and which one suits your budge",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "/images/palm-jumeirah/5.jpg",
+      "alt": "Palm Jumeirah villa with sea views",
+      "tone": "#e7e6e2"
+    },
+    "intro": "On Palm Jumeirah, Garden Homes are the smaller, more attainable four-to-five-bedroom frond villas that typically start from around AED 12-20M, while Signature Villas are the larger, higher-plot, higher-priced homes with more beach frontage that generally run from about AED 30M up past AED 100M once fully renovated. Both were built by Nakheel and sit on the same private fronds with direct or near-direct beach access. The right choice comes down to budget, plot size, and how much beach frontage and privacy you want. Below we break down what each villa type is, real size and plot ranges, indicative pricing, views, the buyer each suits, the renovation upside, and how each resells.",
+    "keyTakeaways": [
+      "Garden Homes are the entry point to Palm frond villas: four to five bedrooms, smaller plots, and indicative prices from roughly AED 12-20M.",
+      "Signature Villas are larger, sit on wider beachfront plots, and start around AED 30M, reaching AED 100M+ for fully renovated or extended homes.",
+      "Both villa types line the Palm's fronds and offer private or shared beach access; Signature Villas simply command more frontage and privacy.",
+      "Garden Homes suit end-users and first-time Palm buyers; Signature Villas suit trophy-home buyers and larger families wanting scale.",
+      "Renovation is where value is made on both: original Nakheel-spec homes trade at a discount to turnkey, remodelled properties.",
+      "Prices here are indicative and move with plot, frond position, condition, and view; always confirm live comparables before you offer."
+    ],
+    "sections": [
+      {
+        "heading": "What each villa type actually is",
+        "body": [
+          "Both Garden Homes and Signature Villas are original Nakheel villa communities built along the fronds of Palm Jumeirah, the palm-shaped island that defines Dubai's beachfront luxury market. Garden Homes are the more numerous, standardised frond villas designed as family homes, delivered in a set of recognisable layouts and elevations. Signature Villas were positioned by Nakheel as the premium tier: bigger footprints, wider plots, more generous beach frontage, and a small number of grand elevation styles. Both types share the same island infrastructure, gated frond access, and proximity to the beach, so the core distinction is scale and prestige rather than location or amenities."
+        ]
+      },
+      {
+        "heading": "Sizes, bedrooms and plots",
+        "body": [
+          "Garden Homes are generally configured as four and five-bedroom villas, with built-up areas commonly in the region of 5,000 to 7,000 sq ft on plots that often sit around 5,000 to 7,500 sq ft. They are comfortable family homes but sit on tighter plots than their bigger sibling. Signature Villas step up substantially: typically five to seven bedrooms, built-up areas frequently from 7,000 sq ft up beyond 12,000 sq ft, and wider plots that can run from roughly 7,000 sq ft to well over 12,000 sq ft depending on frond position and whether the home has been extended. The extra plot width on a Signature Villa is what buys more beach frontage and a larger garden and pool."
+        ]
+      },
+      {
+        "heading": "Indicative price ranges",
+        "body": [
+          "Pricing on the Palm is condition and plot-driven, so treat these as indicative bands rather than fixed quotes. Garden Homes typically trade from around AED 12-20M, with original-condition homes at the lower end and renovated, turnkey properties toward the top. Signature Villas generally start from about AED 30M and rise well past AED 100M for the largest, fully renovated or architecturally rebuilt homes on prime fronds. Between those bands, price is set by frond position, sea versus Dubai-skyline aspect, plot size, and the depth of any renovation. Because the Palm is a thin-supply market, comparable sales can move quickly, so always confirm live evidence before making an offer."
+        ]
+      },
+      {
+        "heading": "Beach access and views",
+        "body": [
+          "Every frond villa on Palm Jumeirah sits close to the water, but frontage differs by type and position. Signature Villas, with their wider plots, generally enjoy more private beach frontage and a more expansive sea outlook. Garden Homes still offer beach access, though frontage is narrower and some plots share access arrangements. View also depends heavily on which side of the frond a villa faces: homes on one side look toward the open sea and Dubai's coastline, while those on the other look across the water toward neighbouring fronds or the mainland skyline. When comparing two villas, the aspect and the width of beach frontage often matter more to value than the headline built-up area."
+        ]
+      },
+      {
+        "heading": "Which buyer each suits",
+        "body": [
+          "Garden Homes are the natural entry point for buyers who want a genuine Palm Jumeirah beach lifestyle without stepping into trophy-home pricing. They suit end-users, growing families, and first-time Palm buyers who value the address and beach access over sheer scale. Signature Villas suit buyers prioritising space, privacy, and prestige: larger families, buyers wanting a statement home, and those planning significant renovation or rebuild projects. If you are optimising for the most attainable route onto the fronds, start with Garden Homes. If you want the widest plot, the most frontage, and a home that reads as a trophy asset, the Signature Villa tier is where you look."
+        ]
+      },
+      {
+        "heading": "Renovation upside and resale liquidity",
+        "body": [
+          "On both villa types, much of the value is made through renovation. Many original Nakheel-spec homes still trade at a clear discount to fully remodelled, turnkey properties, so buyers with an appetite for a project can capture upside by upgrading dated interiors, extending, or rebuilding within plot rules. Turnkey homes command a premium precisely because most buyers want to move straight in. On liquidity, Garden Homes tend to transact more frequently thanks to their lower price point and larger buyer pool, which can mean quicker resale. Signature Villas sit in a thinner, higher-value segment: fewer buyers, but strong demand for the best homes, so well-positioned, renovated Signature Villas hold value and can sell decisively when priced to the market."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the main difference between Garden Homes and Signature Villas?",
+        "answer": "Scale and price. Garden Homes are the smaller, more attainable four-to-five-bedroom frond villas from roughly AED 12-20M, while Signature Villas are larger five-to-seven-bedroom homes on wider plots with more beach frontage, generally from about AED 30M upward."
+      },
+      {
+        "question": "How much does a Garden Home on Palm Jumeirah cost?",
+        "answer": "Indicatively, Garden Homes trade from around AED 12-20M, with original-condition villas at the lower end and renovated, turnkey homes toward the top. Frond position, plot size, and sea aspect all move the figure, so confirm live comparables before offering."
+      },
+      {
+        "question": "How much does a Signature Villa cost?",
+        "answer": "Signature Villas generally start from about AED 30M and can exceed AED 100M for the largest, fully renovated or rebuilt homes on prime fronds. These are indicative bands driven by plot, condition, frontage, and view rather than fixed prices."
+      },
+      {
+        "question": "Do both villa types have private beach access?",
+        "answer": "Both sit on the Palm's fronds close to the water. Signature Villas, with wider plots, typically enjoy more private beach frontage, while Garden Homes have beach access with narrower frontage and, on some plots, shared access arrangements."
+      },
+      {
+        "question": "Which is the better investment, a Garden Home or a Signature Villa?",
+        "answer": "It depends on your goal. Garden Homes offer a larger buyer pool and quicker liquidity at a lower entry price. Signature Villas sit in a thinner, higher-value segment where the best renovated homes command strong demand. On both, renovation is where much of the value is made."
+      },
+      {
+        "question": "How many bedrooms do these villas have?",
+        "answer": "Garden Homes are generally four to five bedrooms, while Signature Villas typically range from five to seven bedrooms, often with larger living spaces, wider plots, and more generous gardens and pools."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "How much does a Palm Jumeirah villa cost?",
+        "href": "/blog/cost-to-buy-villa-palm-jumeirah"
+      },
+      {
+        "label": "Living on Palm Jumeirah",
+        "href": "/blog/living-on-palm-jumeirah"
+      },
+      {
+        "label": "Buying property on Palm Jumeirah",
+        "href": "/blog/buying-property-on-palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Palm Jumeirah Signature Villas",
+      "Palm Jumeirah Garden Homes",
+      "Signature Villas vs Garden Homes",
+      "Palm Jumeirah frond villas",
+      "Palm Jumeirah villa prices",
+      "Nakheel villas Palm Jumeirah",
+      "Palm Jumeirah beachfront villas",
+      "buy villa Palm Jumeirah"
+    ]
+  },
+  {
+    "slug": "palm-jumeirah-vs-palm-jebel-ali",
+    "title": "Palm Jumeirah vs Palm Jebel Ali: Where to Buy",
+    "excerpt": "Palm Jumeirah is the established, ready, blue-chip Palm; Palm Jebel Ali is the larger, newer, off-plan one with more upside. Here is how to choose.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "/images/palm-jumeirah/1.jpg",
+      "alt": "Aerial view of Palm Jumeirah",
+      "tone": "#e7e6e2"
+    },
+    "intro": "Buy on Palm Jumeirah if you want an established, ready, blue-chip address with proven resale and rental demand; buy on Palm Jebel Ali if you want a larger, newer, mostly off-plan beachfront home with more upside and a longer horizon. Palm Jumeirah has been completed and lived in since 2007, so you get a finished community, a working track record and homes you can move into now, at premium prices. Palm Jebel Ali is roughly twice the size, relaunched by master developer Nakheel, and sells largely off-plan today, which means lower entry pricing, more potential appreciation, and a multi-year build to wait through. The right answer depends on whether you value certainty or potential.",
+    "keyTakeaways": [
+      "Palm Jumeirah is the mature, completed Palm (delivered from 2007) with ready homes, a proven resale market and premium pricing.",
+      "Palm Jebel Ali is the larger, newer Palm, relaunched by Nakheel and sold mostly off-plan with a multi-year construction horizon.",
+      "Choose Palm Jumeirah for certainty: move in now, established amenities, deep liquidity and a long price history.",
+      "Choose Palm Jebel Ali for potential: lower entry pricing, staged payments and more room for capital growth as the island matures.",
+      "Ready homes carry less delivery risk but cost more; off-plan offers upside and payment flexibility with completion and market risk to manage.",
+      "All price references here are indicative and move with the market; ask us for live, comparable figures before you decide."
+    ],
+    "sections": [
+      {
+        "heading": "Palm Jumeirah: the established, blue-chip Palm",
+        "body": [
+          "Palm Jumeirah is Dubai's original palm-shaped island and one of the most recognised addresses in the world. Handovers began around 2007, so it is a fully completed, lived-in community: the villas on the fronds, the apartment buildings along the trunk, the hotels, beach clubs, marinas and the Nakheel Mall and boardwalk are all built and operating. When you buy here, you are buying into a finished place, not a rendering.",
+          "That maturity is the whole point. Trees have grown in, restaurants and beach clubs have reputations, and the community has a settled rhythm. For buyers who want to see, touch and move into the exact home they are purchasing, and to understand precisely what the neighbourhood is like day to day, Palm Jumeirah removes most of the guesswork. It is the blue-chip choice among Dubai's islands."
+        ],
+        "bullets": [
+          "Completed and handed over from around 2007; a fully established community.",
+          "Ready villas, townhouses and apartments you can inspect and occupy now.",
+          "Mature amenities: hotels, beach clubs, marinas, Nakheel Mall and the boardwalk.",
+          "A globally recognised, prestige address with a long ownership history."
+        ]
+      },
+      {
+        "heading": "Palm Jebel Ali: the larger, newer Palm",
+        "body": [
+          "Palm Jebel Ali sits further down Dubai's coastline and is a bigger, more ambitious island, planned at roughly twice the size of Palm Jumeirah with far more shoreline and space for fronds, villas and future districts. After years dormant, it was relaunched by master developer Nakheel, and it is now one of the emirate's flagship new waterfront projects, with a strong emphasis on beachfront villas and generous plots.",
+          "Because it is early in its life, most of what is available today is off-plan: you are buying a home to be built and delivered over a multi-year construction programme, rather than a finished property. That is the trade-off at the heart of Palm Jebel Ali. You commit ahead of completion in exchange for entry pricing, choice of the best plots, and exposure to the island's growth as it is built out and matures."
+        ],
+        "bullets": [
+          "Roughly double the footprint of Palm Jumeirah, with far more coastline.",
+          "Relaunched by Nakheel as a flagship new waterfront destination.",
+          "Focus on beachfront villas with large plots and sea frontage.",
+          "Predominantly off-plan today, delivered over a multi-year build."
+        ]
+      },
+      {
+        "heading": "Maturity versus potential",
+        "body": [
+          "The clearest way to frame the decision is maturity versus potential. Palm Jumeirah offers maturity: a proven address where the community, amenities and price history already exist. You know what you are getting, values are supported by years of transactions, and demand is deep and continuous. What you give up is the early-stage upside, because much of the island's growth story has already played out.",
+          "Palm Jebel Ali offers potential. Buying earlier in a master-planned island's life cycle has historically been where larger percentage gains are captured, as infrastructure completes, amenities open and the destination establishes itself. The flip side is that potential is not a guarantee: it depends on delivery, timing and the wider market. One island rewards certainty; the other rewards conviction and patience."
+        ],
+        "bullets": [
+          "Palm Jumeirah: established value, deep demand, less early-stage upside left.",
+          "Palm Jebel Ali: earlier entry point with more room for appreciation.",
+          "Maturity means predictability; potential means both opportunity and uncertainty.",
+          "Your time horizon should drive the choice as much as the price does."
+        ]
+      },
+      {
+        "heading": "Ready versus off-plan: the risk trade-off",
+        "body": [
+          "On Palm Jumeirah you are mostly buying ready, secondary homes. The advantages are certainty and speed: you see the actual property, you can rent it out or live in it immediately, there is no construction risk, and financing a completed home is straightforward. The cost of that certainty is price, because ready blue-chip stock trades at a premium, and you typically pay in full at transfer rather than in stages.",
+          "On Palm Jebel Ali you are mostly buying off-plan. The advantages are lower entry pricing, developer payment plans that spread cost across the build, and first pick of plots and layouts. The risks are the ones inherent to off-plan anywhere: delivery timelines can move, the finished product must match the plan, and you carry market risk over the years until handover. Dubai mitigates this with escrow-protected project accounts and RERA oversight, but the risk profile is genuinely different from buying something already built.",
+          "Neither approach is better in the abstract. Ready suits buyers who want the home now and value protection from delivery risk. Off-plan suits buyers who are comfortable waiting and want the pricing and upside that comes with committing early."
+        ],
+        "bullets": [
+          "Ready (Palm Jumeirah): move in now, no build risk, easier finance, higher price.",
+          "Off-plan (Palm Jebel Ali): lower entry, staged payments, plot choice, longer wait.",
+          "Off-plan carries delivery and market risk over the construction period.",
+          "Escrow accounts and RERA oversight provide structural protection on off-plan buys."
+        ]
+      },
+      {
+        "heading": "Who each island suits",
+        "body": [
+          "Palm Jumeirah suits the buyer who wants to enjoy the home straight away, or to hold a proven, liquid asset. That includes end-users relocating now, families who want an established community with schools, clinics and amenities already in place, and investors who prioritise reliable rental demand and an easy future resale. If the priority is certainty and a name that needs no explanation, this is the island.",
+          "Palm Jebel Ali suits the buyer with a longer horizon and an appetite for upside. That includes investors positioning early in a landmark development, buyers who want a larger, brand-new beachfront villa on a generous plot, and those who prefer to spread payments over a build rather than fund a purchase in full today. If you can wait for handover and want to own a piece of the next chapter of Dubai's coastline, this is the island."
+        ],
+        "bullets": [
+          "Palm Jumeirah: end-users, relocating families, and buyers wanting proven liquidity.",
+          "Palm Jebel Ali: longer-horizon investors and buyers chasing early-stage upside.",
+          "Want a home to use now? Palm Jumeirah. Comfortable waiting? Palm Jebel Ali.",
+          "Prefer a large new-build beachfront villa on a big plot? Palm Jebel Ali."
+        ]
+      },
+      {
+        "heading": "The investment case, side by side",
+        "body": [
+          "As an investment, Palm Jumeirah is the lower-volatility, income-oriented play. It has a long, transparent price record, consistent short and long-term rental demand from a global tenant pool, and the deep liquidity that comes with being one of Dubai's most sought-after addresses. Indicative resale prices for prime Palm Jumeirah villas typically run well into the tens of millions of dirhams and beyond for signature homes, reflecting scarcity and a finished, blue-chip location. These figures are indicative and move with the market.",
+          "Palm Jebel Ali is the growth-oriented play. Entry pricing at launch has generally been set below comparable finished Palm Jumeirah product, and the investment thesis rests on the island maturing, infrastructure and amenities completing, and values re-rating over the build-out. The return potential is higher, and so is the uncertainty, because it depends on delivery and market conditions across a multi-year timeline. Payment plans can also improve the effective return on capital deployed early.",
+          "In short, Palm Jumeirah is about protecting and compounding value in a proven market; Palm Jebel Ali is about backing a new one earlier. Many of our clients ultimately weigh how long they can wait, how much delivery risk they will accept, and whether the home is primarily to use or to grow. We are happy to model both against live, comparable pricing before you commit."
+        ],
+        "bullets": [
+          "Palm Jumeirah: proven price history, strong rental demand, deep resale liquidity.",
+          "Palm Jebel Ali: lower entry pricing with higher, delivery-dependent upside.",
+          "Off-plan payment plans can improve return on capital deployed early.",
+          "All price references are indicative; we can share live comparables on request."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which is better, Palm Jumeirah or Palm Jebel Ali?",
+        "answer": "Neither is universally better; they suit different buyers. Palm Jumeirah is the established, completed island with ready homes, proven resale and premium pricing, ideal if you want certainty and to move in now. Palm Jebel Ali is the larger, newer, mostly off-plan island with lower entry pricing and more upside, ideal if you have a longer horizon and can wait for handover. The right choice depends on your priorities and time frame."
+      },
+      {
+        "question": "Is Palm Jumeirah fully built and ready to move into?",
+        "answer": "Yes. Palm Jumeirah has been handed over and lived in since around 2007. The villas, apartments, hotels, beach clubs, marinas, retail and the boardwalk are all complete and operating, so you can inspect the exact home you are buying and occupy or rent it immediately, with no construction risk."
+      },
+      {
+        "question": "Is Palm Jebel Ali off-plan or ready?",
+        "answer": "Palm Jebel Ali is predominantly off-plan today. It was relaunched by master developer Nakheel and is being built out over a multi-year programme, so most homes are bought before completion and delivered later. That means lower entry pricing and developer payment plans, in exchange for a construction wait and the delivery and market risk that come with any off-plan purchase."
+      },
+      {
+        "question": "Is Palm Jebel Ali bigger than Palm Jumeirah?",
+        "answer": "Yes. Palm Jebel Ali is planned at roughly twice the size of Palm Jumeirah, with significantly more coastline and space. That larger footprint supports more fronds, more beachfront villa plots and additional districts, which is part of why it is positioned as one of Dubai's flagship new waterfront developments."
+      },
+      {
+        "question": "Which island is the better investment?",
+        "answer": "It depends on your goal. Palm Jumeirah is the lower-volatility, income-oriented option, with a long price history, strong rental demand and deep liquidity. Palm Jebel Ali is the growth-oriented option, with lower entry pricing and higher potential appreciation as it matures, alongside greater delivery and timing risk. All price references are indicative and move with the market, so ask us for live comparables before deciding."
+      },
+      {
+        "question": "How much do homes on the two Palms cost?",
+        "answer": "Pricing is indicative and changes with the market. Prime ready villas on Palm Jumeirah typically trade well into the tens of millions of dirhams, with signature homes higher, reflecting scarcity and a finished blue-chip location. Palm Jebel Ali launch pricing has generally been set below comparable finished Palm Jumeirah product, with staged payment plans. We can provide current, like-for-like figures for both on request."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Palm Jebel Ali beachfront villas",
+        "href": "/areas/palm-jebel-ali"
+      },
+      {
+        "label": "Buying property on Palm Jumeirah",
+        "href": "/blog/buying-property-on-palm-jumeirah"
+      },
+      {
+        "label": "Is it worth buying property in Dubai?",
+        "href": "/blog/is-it-worth-buying-property-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Palm Jumeirah vs Palm Jebel Ali",
+      "where to buy Palm Jumeirah or Palm Jebel Ali",
+      "Palm Jebel Ali villas for sale",
+      "Palm Jumeirah luxury villas",
+      "Palm Jebel Ali off-plan investment",
+      "Palm Jumeirah vs Palm Jebel Ali investment",
+      "buying on Palm Jebel Ali",
+      "Dubai Palm islands comparison"
+    ]
+  },
+  {
+    "slug": "palm-jumeirah-penthouses-buyers-guide",
+    "title": "Palm Jumeirah Penthouses: A Buyer's Guide",
+    "excerpt": "Views, terraces, branded residences and indicative prices for Palm Jumeirah penthouses, plus service charges, resale appeal and who they suit.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "/images/palm-jumeirah/6.jpg",
+      "alt": "Palm Jumeirah penthouse with panoramic sea views",
+      "tone": "#e7e6e2"
+    },
+    "intro": "Palm Jumeirah penthouses are among Dubai's most sought-after apartments, offering panoramic sea and skyline views, private terraces and access to five-star branded residences on the trunk and crescent, typically from around AED 12 million for a well-located non-branded unit and rising into the AED 100 million-plus range for signature branded homes. Buyers are paying for a genuinely finite address: the Palm is a man-made island with a fixed footprint, so top-floor homes with wraparound views and pools rarely come to market. This guide explains where penthouses sit, what you actually get, indicative price ranges, the branded versus non-branded question, service charges, resale and rental appeal, and who the lifestyle suits.",
+    "keyTakeaways": [
+      "Penthouses cluster on the trunk (the palm's stem, more connected and walkable) and the crescent (the outer breakwater, more private with open-sea views).",
+      "Indicative pricing starts around AED 12 million for non-branded penthouses and runs well beyond AED 100 million for signature branded residences.",
+      "Branded residences such as Atlantis The Royal, One at Palm, Six Senses and Armani Beach carry a premium for design, service and rarity.",
+      "Service charges are a real ownership cost; branded and amenity-heavy buildings sit at the higher end, so budget for them alongside the purchase price.",
+      "Fixed island supply supports resale and rental appeal, but liquidity is strongest for well-priced homes with standout views and layouts."
+    ],
+    "sections": [
+      {
+        "heading": "What a Palm Jumeirah penthouse is, and where they sit",
+        "body": [
+          "A penthouse on Palm Jumeirah is a top-floor or upper-floor apartment, usually with expanded ceiling heights, a large private terrace and, in many cases, a private pool. They are found in two distinct settings. The trunk is the central spine of the island, home to the older Shoreline and Golden Mile clusters as well as newer mid-rise buildings; it is the more connected, walkable part of the Palm, close to Nakheel Mall and the monorail. The crescent is the outer arc that wraps the island and shelters the lagoon; it holds the marquee resorts and the newest branded towers, and it delivers the most open, uninterrupted sea views. Trunk homes tend to face the Dubai Marina and city skyline, while crescent homes look out over the Arabian Gulf. Neither is objectively better; the right choice depends on whether you prioritise convenience and skyline views or privacy and open water."
+        ]
+      },
+      {
+        "heading": "The branded residences on the Palm",
+        "body": [
+          "Much of the recent penthouse activity centres on branded residences, where a hotel or fashion house lends its name, design language and service standards to the homes. Atlantis The Royal Residences pair the crescent's resort amenities with some of the island's most recognised architecture. One at Palm, on the trunk, is known for expansive floor plates, floor-to-ceiling glass and concierge-level service. Six Senses Residences The Palm leans into wellness, with spa and longevity facilities built into the offering. Armani Beach Residences brings a fashion-house interior signature to a crescent address. These names matter because they concentrate scarcity: each building releases a limited number of penthouses, and the combination of brand, location and finish is what pushes the top of the market. Buyers should still assess each unit on its own merits, since floor, orientation and terrace size vary widely even within a single branded tower."
+        ]
+      },
+      {
+        "heading": "What you actually get: views, terraces and amenities",
+        "body": [
+          "The core appeal is the outlook. A well-positioned penthouse offers panoramic views across the Gulf, the Dubai Marina skyline or the Burj Al Arab and Burj Khalifa on a clear day, often from multiple aspects. Private terraces are the defining feature; the best run to several thousand square feet, with room for outdoor dining, lounging and a private pool. Inside, expect larger layouts than standard apartments, higher ceilings, premium kitchens and, in branded buildings, designer interiors delivered move-in ready. Amenities typically include direct or shared beach access, infinity pools, gyms, spas, valet and 24-hour security, with branded towers adding hotel services such as housekeeping, in-residence dining and concierge. Beach access is a genuine differentiator on the Palm and is worth confirming building by building, as arrangements differ between the trunk and crescent."
+        ]
+      },
+      {
+        "heading": "Indicative price ranges",
+        "body": [
+          "Pricing is broad because the category spans older refurbished homes and brand-new signature residences. The figures below are indicative market ranges as a planning guide, not quotes, and move with floor, view, size and finish. Non-branded penthouses on the trunk generally start from around AED 12 million to AED 25 million. Larger or higher-floor non-branded homes, and entry branded units, tend to sit in the AED 25 million to AED 50 million band. Established premium branded residences commonly range from AED 50 million to AED 100 million. Signature and duplex penthouses in the most sought-after crescent towers regularly exceed AED 100 million, with the rarest homes trading well beyond that. On a per-square-foot basis, branded crescent stock commands the highest rates on the island. We can share live comparables for any specific building on request."
+        ]
+      },
+      {
+        "heading": "Branded versus non-branded, and service charges",
+        "body": [
+          "The branded premium buys three things: design pedigree, hotel-grade service, and scarcity that tends to hold value. The trade-off is cost, both at purchase and in ongoing charges. Non-branded penthouses can offer more space per dirham and lower running costs, which suits buyers focused on square footage and value over label. Service charges are the ownership cost buyers most often underestimate. On the Palm they vary meaningfully by building; older non-branded stock sits at the lower end, while amenity-heavy and branded towers with pools, spas and full service sit materially higher. Because a penthouse carries a large built-up area, the annual charge can run into six figures in the most serviced buildings. Always request the current service charge per square foot and the reserve fund position before committing, and factor it into your total cost of ownership rather than the headline price alone."
+        ]
+      },
+      {
+        "heading": "Resale, rental appeal and who it suits",
+        "body": [
+          "The Palm's fixed island footprint underpins long-term demand: supply of true penthouses is finite and cannot expand, which supports resale values for well-configured homes. Liquidity, however, is not uniform. Homes with standout views, generous terraces and efficient layouts sell and let more readily than compromised units, so buying quality matters more than buying cheaply. On the rental side, furnished branded penthouses attract strong short and long-let interest from executives and high-net-worth visitors, and the Palm's global recognition helps occupancy. This category suits end-users who want a trophy home with genuine lifestyle value, and investors comfortable with a higher entry point in exchange for a scarce, globally known address. It is less suited to buyers chasing maximum rental yield, where smaller apartments elsewhere on the island often perform better on a percentage basis."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does a Palm Jumeirah penthouse cost?",
+        "answer": "Indicatively, non-branded penthouses start from around AED 12 million, larger and entry branded homes sit roughly between AED 25 million and AED 50 million, and premium branded residences run from AED 50 million to well over AED 100 million. Final pricing depends on floor, view, size and finish, so treat these as planning ranges rather than quotes."
+      },
+      {
+        "question": "Should I buy on the trunk or the crescent?",
+        "answer": "The trunk is more connected and walkable, closer to Nakheel Mall and the monorail, and generally faces the Marina and city skyline. The crescent is more private, with open Arabian Gulf views and most of the newest branded towers. Choose the trunk for convenience and skyline outlook, the crescent for privacy and open-sea views."
+      },
+      {
+        "question": "Are branded residences worth the premium?",
+        "answer": "For many buyers, yes. Branded residences offer designer interiors, hotel-grade service and scarcity that tends to support value, which suits trophy-home buyers and those who want turnkey luxury. If your priority is maximum space per dirham or lower running costs, a non-branded penthouse can be the better value."
+      },
+      {
+        "question": "What are service charges like on a Palm penthouse?",
+        "answer": "They vary widely by building. Older non-branded stock sits at the lower end, while amenity-heavy and branded towers charge materially more per square foot. Because penthouses have large built-up areas, the annual charge can reach six figures in the most serviced buildings. Always confirm the current rate and reserve fund before buying."
+      },
+      {
+        "question": "Do Palm Jumeirah penthouses come with beach access?",
+        "answer": "Many do, but arrangements differ between the trunk and crescent and between individual buildings. Some homes have direct private or shared beach access, others use resort or club facilities. Beach access is a genuine value differentiator on the Palm, so confirm the specifics building by building before you commit."
+      },
+      {
+        "question": "Are Palm penthouses a good investment?",
+        "answer": "The island's fixed supply supports long-term resale demand, and branded furnished units attract strong rental interest. Liquidity is best for homes with standout views and efficient layouts. They suit end-users and investors comfortable with a high entry point for a scarce address, rather than buyers chasing the highest percentage rental yield."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Dubai penthouses guide",
+        "href": "/property/penthouses"
+      },
+      {
+        "label": "Branded residences in Dubai: worth it?",
+        "href": "/blog/branded-residences-dubai-worth-it"
+      },
+      {
+        "label": "Living on Palm Jumeirah",
+        "href": "/blog/living-on-palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Palm Jumeirah penthouses",
+      "Palm Jumeirah penthouse for sale",
+      "Palm Jumeirah branded residences",
+      "Palm Jumeirah penthouse price",
+      "luxury penthouse Dubai",
+      "Atlantis The Royal Residences",
+      "One at Palm Jumeirah",
+      "Six Senses Residences The Palm",
+      "Armani Beach Residences",
+      "Dubai penthouse buyers guide"
+    ]
+  },
+  {
+    "slug": "palm-jumeirah-rental-yields-and-roi",
+    "title": "Palm Jumeirah Rental Yields and ROI: What to Expect",
+    "excerpt": "Palm Jumeirah villas yield around 4-6% gross and apartments 5-7%, backed by strong appreciation, short-let premiums and blue-chip liquidity.",
+    "category": "Investment",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "/images/palm-jumeirah/1.jpg",
+      "alt": "Palm Jumeirah beachfront villas",
+      "tone": "#e7e6e2"
+    },
+    "intro": "Palm Jumeirah typically delivers gross rental yields of around 4-6% on villas and 5-7% on apartments, lower than mass-market Dubai but backed by strong capital appreciation, short-let premiums and blue-chip liquidity. Investors here are not chasing the highest headline yield. They are buying a scarce, globally recognised trophy address that holds value, rents quickly to a premium tenant pool, and can be run as a high-rate holiday let when it suits. Total return, the combination of rental income and price growth, is where the Palm has historically outperformed. The figures below are indicative, vary by tower, villa frond and fit-out, and are never guaranteed.",
+    "keyTakeaways": [
+      "Expect indicative gross yields of roughly 4-6% on Palm villas and 5-7% on apartments.",
+      "Short-let and holiday rentals can lift gross income above long-let levels, though costs and vacancy rise too.",
+      "The Palm's real strength is total return: modest yield plus a strong capital appreciation track record.",
+      "Service charges, management fees and furnishing all reduce net yield below the gross figure.",
+      "Investors accept a lower yield in exchange for a scarce, liquid trophy asset that holds value.",
+      "Best suited to buyers prioritising wealth preservation, appreciation and lifestyle over pure cash flow."
+    ],
+    "sections": [
+      {
+        "heading": "What rental yields to expect on the Palm",
+        "body": [
+          "As an indicative guide, Palm Jumeirah villas tend to produce gross rental yields in the region of 4-6%, while apartments generally sit a little higher at around 5-7%. Apartments yield more because their entry price per square foot is lower relative to the rent they command, a pattern seen across most prime markets. Signature villas on the fronds, with private beach frontage, sit at the top of the price range and therefore at the lower end of the yield range. These are gross figures, calculated before costs, and they vary meaningfully by building, frond, view, age and quality of fit-out. A well-renovated, sea-facing unit will let faster and hold rate better than a tired equivalent. Treat any single number as a starting point for underwriting, not a promise."
+        ]
+      },
+      {
+        "heading": "Long-let versus holiday and short-let income",
+        "body": [
+          "The Palm is one of Dubai's strongest short-let markets. Its beach, hotels and instantly recognisable setting draw a steady flow of holidaymakers willing to pay premium nightly rates, so a well-run holiday let can generate gross income above what a standard annual tenancy would achieve. That upside comes with trade-offs: higher management and cleaning costs, furnishing and replacement, seasonal vacancy, licensing through the relevant Dubai tourism framework, and more hands-on oversight. A traditional long let delivers a lower but far more predictable income with minimal effort. Many owners run a hybrid, holiday-letting in peak season and switching to longer tenancies when it makes sense. Which route wins on net return depends on your unit, your appetite for management and current market conditions."
+        ]
+      },
+      {
+        "heading": "Capital appreciation track record",
+        "body": [
+          "Where the Palm has historically distinguished itself is price growth. As a finite, master-planned island with no comparable substitute, supply is effectively capped while global demand for beachfront trophy homes keeps rising. Over recent cycles, prime Palm villas and branded residences have seen substantial capital appreciation, at times outpacing the wider Dubai market, driven by limited stock, international buyer inflows and a flight to prime, liquid assets. Past performance is not a guarantee of future gains, and values can move in both directions, but the structural scarcity story remains intact. For many buyers the appreciation potential, not the rent cheque, is the primary reason to own here."
+        ]
+      },
+      {
+        "heading": "Total return: yield plus appreciation",
+        "body": [
+          "Judging the Palm on rental yield alone misses most of the picture. The right metric is total return, the sum of net rental income and capital appreciation over your holding period. A 5% gross yield paired with meaningful annual price growth produces a total return that comfortably exceeds many higher-yielding but slower-appreciating communities elsewhere in Dubai. This is the core investment logic of prime real estate worldwide: you accept a lower running yield because the asset compounds in value and stays liquid. Model both components together over a realistic five to ten year horizon, stress-test the appreciation assumption, and compare on total return rather than on the headline yield number in isolation."
+        ]
+      },
+      {
+        "heading": "Costs that affect your net yield",
+        "body": [
+          "Gross yield flatters reality. Several costs sit between it and what you actually keep. Service charges on the Palm are among the higher in Dubai, reflecting premium facilities, beach access and maintenance, and they are levied per square foot so larger units carry a larger bill. Add property management fees (higher for short lets), leasing commission, furnishing and periodic refurbishment, insurance, and provision for vacancy. Together these can pull a 6% gross yield down towards the 4-5% region net, and short-let gross figures compress further once operating costs are counted. Always underwrite on net, not gross, and ask for the specific service charge rate on any building or villa before you commit."
+        ]
+      },
+      {
+        "heading": "Who Palm Jumeirah suits, and why lower yield is accepted",
+        "body": [
+          "Sophisticated investors knowingly accept a lower yield on the Palm because they are buying a different asset class: a scarce, globally branded trophy home with deep liquidity and strong wealth-preservation qualities. In uncertain markets, prime beachfront assets like these tend to hold value and remain sellable when secondary stock stalls. That combination of capital security, appreciation potential and lifestyle is worth more to this buyer than an extra point or two of running yield. The Palm suits end-users wanting a landmark home, long-term investors prioritising appreciation and capital protection, and holiday-let operators chasing premium nightly rates. It suits pure cash-flow investors far less well; for maximum yield, other Dubai communities are a better fit."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What rental yield does Palm Jumeirah offer?",
+        "answer": "Indicatively, around 4-6% gross on villas and 5-7% gross on apartments, before costs. Figures vary by building, frond, view and fit-out, and net yields land lower once service charges, management and vacancy are counted. These numbers are illustrative and not guaranteed."
+      },
+      {
+        "question": "Why are Palm Jumeirah yields lower than mass-market Dubai?",
+        "answer": "Because prices per square foot are high relative to rents, as with prime property everywhere. Investors accept the lower running yield in return for scarcity, strong capital appreciation, liquidity and wealth preservation. On total return, income plus price growth, the Palm has historically competed well."
+      },
+      {
+        "question": "Is a holiday let more profitable than a long let on the Palm?",
+        "answer": "It can produce higher gross income because the Palm commands premium nightly rates, but management, cleaning, furnishing, licensing and seasonal vacancy costs are higher too. A long let earns less but is more predictable and passive. The better net option depends on the unit and your appetite for management."
+      },
+      {
+        "question": "What is the capital appreciation potential on Palm Jumeirah?",
+        "answer": "Historically strong, driven by capped supply on a finite island and rising global demand for beachfront trophy homes. Prime Palm assets have at times outpaced the wider market. Past performance does not guarantee future results, and values can move in both directions."
+      },
+      {
+        "question": "What costs reduce my net yield on the Palm?",
+        "answer": "Mainly service charges, which are among Dubai's higher rates and charged per square foot, plus property management and leasing fees, furnishing and refurbishment, insurance and a vacancy allowance. Together these can move a 6% gross yield toward 4-5% net, so always underwrite on net figures."
+      },
+      {
+        "question": "Who should invest in Palm Jumeirah?",
+        "answer": "Long-term investors prioritising appreciation, liquidity and capital preservation, end-users wanting a landmark home, and operators chasing premium holiday-let rates. It suits pure cash-flow investors less well; for the highest headline yields, other Dubai communities are a stronger fit. Speak to our team for a tailored view."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Rental yields in Dubai: best communities",
+        "href": "/blog/rental-yields-dubai-best-performing-luxury-communities"
+      },
+      {
+        "label": "How much does a Palm Jumeirah villa cost?",
+        "href": "/blog/cost-to-buy-villa-palm-jumeirah"
+      },
+      {
+        "label": "Is Dubai property a good investment in 2026?",
+        "href": "/blog/is-dubai-property-a-good-investment-in-2026"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Palm Jumeirah rental yields",
+      "Palm Jumeirah ROI",
+      "Palm Jumeirah investment",
+      "Palm Jumeirah villa yield",
+      "Palm Jumeirah apartment rental yield",
+      "Palm Jumeirah capital appreciation",
+      "Dubai luxury property investment",
+      "Palm Jumeirah short-let income"
+    ]
+  },
+  {
+    "slug": "best-fronds-on-palm-jumeirah-to-buy",
+    "title": "Best Fronds on Palm Jumeirah to Buy a Villa",
+    "excerpt": "Which Palm Jumeirah frond is best to buy a villa? A frond-by-frond guide to orientation, views, privacy, beach width and where the premiums cluster.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-26",
+    "updatedAt": "2026-08-26",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "/images/palm-jumeirah/5.jpg",
+      "alt": "Palm Jumeirah frond villas by the sea",
+      "tone": "#e7e6e2"
+    },
+    "intro": "The best frond on Palm Jumeirah depends on your priority: for sunset views and privacy buyers favour the outer fronds (A to D) on the west side, while east-facing fronds catch the Dubai skyline and sunrise. The highest-value villas cluster on the fronds closest to the tip with the widest sea frontage and the least overlooking. Broadly, west-facing plots look out over open sea toward the sunset, and east-facing plots frame the marina and city skyline at sunrise. Frond letter, orientation, plot width and distance from the trunk all move the price, so the right choice is the one that matches how you actually want to live on the island.",
+    "keyTakeaways": [
+      "Palm Jumeirah has 16 residential fronds, lettered A to P, branching off the central trunk like a palm leaf.",
+      "West-facing fronds get open-sea views and sunsets; east-facing fronds get the Dubai skyline, marina and sunrise.",
+      "Villas nearer the tip of each frond enjoy wider beach frontage, more privacy and command the highest premiums.",
+      "Fronds closer to the trunk trade some view and privacy for quicker access to amenities, schools and the mainland.",
+      "Always check the exact plot orientation, beach width, overlooking and villa type before you commit to a frond."
+    ],
+    "sections": [
+      {
+        "heading": "How the fronds are laid out",
+        "body": [
+          "Palm Jumeirah is built as a stylised palm tree: a central trunk running out from the mainland, a crescent breakwater wrapping the whole island, and 16 residential fronds fanning off the trunk like leaves. The fronds are lettered A to P, with the A to H fronds on one side of the trunk and the I to P fronds on the other. Each frond is a single private road lined with beachfront villas, gated at the entrance where it meets the trunk. Because the fronds point outward in different directions, no two villas share exactly the same aspect, and the frond letter is effectively shorthand for a whole bundle of factors: orientation, position on the island, beach width and the character of the villas that were built there."
+        ]
+      },
+      {
+        "heading": "East versus west: views and orientation",
+        "body": [
+          "Orientation is the single biggest driver of how a frond feels. Broadly, west-facing fronds look out over open sea toward the horizon and catch the sunset, which is why they are prized by buyers who want uninterrupted water views and evening light on the terrace. East-facing fronds look back across the water toward Dubai Marina and the mainland skyline, catching the sunrise and the city lights at night. Neither is objectively better; they suit different lifestyles. Sunset chasers and those who value the calm of open water gravitate west, while buyers who love the drama of the skyline and marina traffic lean east. Because each frond runs at a slight angle, villas on opposite sides of the same frond road face opposite ways, so the side of the frond matters as much as the frond itself."
+        ]
+      },
+      {
+        "heading": "Privacy and beach width",
+        "body": [
+          "Every frond villa comes with its own stretch of private beach, but the width of that frontage is not equal. Villas positioned toward the outer tip of a frond generally sit on wider plots with more generous beach frontage and greater separation from neighbours, while villas packed nearer the trunk can feel closer together with narrower sand. Privacy also depends on which villas overlook you: some plots are angled so a neighbour's upper floor or terrace has a clear sightline onto your pool deck, and others are not. The most private villas tend to be the tip plots on the longer fronds, where the beach opens up and there is water on both sides. If privacy is your priority, judge it plot by plot rather than by frond letter alone."
+        ]
+      },
+      {
+        "heading": "Which fronds command premiums",
+        "body": [
+          "Premiums on Palm Jumeirah cluster where three things line up: a wide plot, a strong open-sea or skyline view, and minimal overlooking. The tip villas on the longer fronds, and the larger Signature Villas, sit at the top of the market because they combine all three. Newly rebuilt or heavily upgraded villas add another layer of premium on top of location, so a modern custom-built home on a mid-tier frond can trade higher than a dated original villa on a prime one. Because the island is fully built out and supply is fixed, the best plots rarely come to market, and when they do they move quickly and often off-market. The takeaway: chase the specific plot and villa, not just the frond letter, because condition and exact position can outweigh the address."
+        ]
+      },
+      {
+        "heading": "Proximity to the trunk and amenities",
+        "body": [
+          "The trunk is where daily life happens: the Golden Mile with its shops and cafes, Nakheel Mall, Palm West Beach, hotels, restaurants and the road and monorail links back to the mainland. Villas on fronds nearer the base of the island are closest to all of this, which suits families who value quick access to schools, groceries and the city. Villas out toward the tip of a long frond feel more secluded and resort-like but add a few minutes to every trip in and out. There is no single wrong answer; it is a trade between seclusion and convenience. If you will use the island as a primary home with a daily commute, weight convenience more heavily; if it is a weekend retreat or a view-led purchase, seclusion may win."
+        ]
+      },
+      {
+        "heading": "What to check when choosing a frond villa",
+        "body": [
+          "Before you commit, verify the details that a frond letter alone will not tell you. Confirm the exact compass orientation of the specific plot and where the sun sits morning and evening. Measure the beach frontage and check the plot width against neighbouring villas. Walk the plot to see which terraces and windows overlook you and whether the water view is open or partly blocked. Ask whether the villa is an original or a rebuild, and review any renovation permits and structural work. Check flood, drainage and beach-erosion history for that stretch, service charges, and any community rules on rebuilds and extensions. Finally, look at recent comparable sales on the same and adjacent fronds so you can judge whether the asking price reflects the plot's real position, not just the Palm postcode."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many fronds does Palm Jumeirah have?",
+        "answer": "Palm Jumeirah has 16 residential fronds lettered A to P, each branching off the central trunk like a leaf on a palm and lined with private beachfront villas."
+      },
+      {
+        "question": "Which fronds have the best sunset views?",
+        "answer": "West-facing fronds and west-facing plots look out over open sea toward the horizon and catch the sunset, which is why they are favoured by buyers who want uninterrupted water views and evening light."
+      },
+      {
+        "question": "Which fronds see the Dubai skyline?",
+        "answer": "East-facing fronds look back across the water toward Dubai Marina and the mainland, so they frame the city skyline and catch the sunrise, plus the city lights at night."
+      },
+      {
+        "question": "Are villas near the tip of a frond worth more?",
+        "answer": "Usually yes. Tip villas tend to sit on wider plots with more beach frontage, more privacy and stronger views, which is why they command the highest premiums on the island."
+      },
+      {
+        "question": "Is it better to be near the trunk or the tip?",
+        "answer": "It is a trade-off. Fronds near the trunk offer quicker access to shops, schools and the mainland, while tip plots feel more secluded and resort-like but add time to every trip in and out."
+      },
+      {
+        "question": "Does the frond letter alone determine value?",
+        "answer": "No. Value comes down to the specific plot: its orientation, beach width, overlooking, and whether the villa is original or rebuilt. Condition and exact position can outweigh the frond letter."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Signature Villas vs Garden Homes on Palm Jumeirah",
+        "href": "/blog/palm-jumeirah-signature-villas-vs-garden-homes"
+      },
+      {
+        "label": "How much does a Palm Jumeirah villa cost?",
+        "href": "/blog/cost-to-buy-villa-palm-jumeirah"
+      },
+      {
+        "label": "Buying property on Palm Jumeirah",
+        "href": "/blog/buying-property-on-palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "best frond on Palm Jumeirah",
+      "Palm Jumeirah fronds",
+      "Palm Jumeirah villa for sale",
+      "which frond to buy Palm Jumeirah",
+      "Palm Jumeirah frond orientation",
+      "east vs west frond Palm Jumeirah",
+      "Palm Jumeirah beachfront villa"
+    ]
+  },
 ];
