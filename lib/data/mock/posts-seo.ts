@@ -19782,4 +19782,772 @@ export const seoPosts: BlogPost[] = [
       "Dubai residence visa for parents"
     ]
   },
+  {
+    "slug": "alcohol-laws-in-dubai",
+    "title": "Alcohol Laws in Dubai: What's Allowed in 2026",
+    "excerpt": "Yes, non-Muslims aged 21+ can legally drink in Dubai's licensed hotels, bars and at home. Here are the current rules, simply explained.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Rooftop bar at dusk overlooking the Dubai skyline with glasses on the table",
+      "tone": "#141821"
+    },
+    "intro": "Alcohol is legal in Dubai for non-Muslims aged 21 and over, provided you drink in a licensed venue or at home rather than in public. Most hotels, plus many bars, restaurants and clubs, hold the licence needed to serve drinks, and you can buy alcohol to take home from licensed retailers such as MMI and African and Eastern. Since 2023, the personal alcohol licence for buying from these shops has effectively been dropped for residents, and the fine for not holding one was scrapped. The main red lines are simple and strictly enforced: no drink-driving at all, no drinking or being drunk in public, and extra discretion during Ramadan. Rules can change, so always check the current position before you rely on this guide.",
+    "keyTakeaways": [
+      "Drinking is legal for non-Muslims aged 21 and over in licensed venues and private homes.",
+      "Licensed hotels, bars, restaurants and clubs can legally serve alcohol; you can also drink at home.",
+      "Since 2023 the personal alcohol licence to buy from licensed shops has effectively been removed for residents, and the fine was scrapped.",
+      "Buy take-home alcohol from licensed retailers such as MMI and African and Eastern.",
+      "Zero tolerance on drink-driving: any alcohol in your system while driving is an offence.",
+      "No drinking or being intoxicated in public, and show extra respect during Ramadan."
+    ],
+    "sections": [
+      {
+        "heading": "The short answer: is drinking legal in Dubai?",
+        "body": [
+          "Yes. For non-Muslim residents and visitors who are 21 or over, drinking alcohol in Dubai is legal in the right settings. Dubai runs a licensing system that lets hotels, bars, restaurants, clubs and dedicated shops serve or sell alcohol to eligible customers.",
+          "The distinction that matters is where you drink, not whether you can. Alcohol is welcome in licensed venues and in the privacy of your own home. It is not permitted in public spaces such as streets, beaches, parks and public transport. Get that difference right and the rest follows easily.",
+          "This is a general overview rather than legal advice, and the details are updated from time to time. Treat the sections below as a starting point and confirm the current rules before you act on them."
+        ]
+      },
+      {
+        "heading": "Where you can legally drink",
+        "body": [
+          "The most common place to drink is a licensed hotel. Dubai has a large hotel scene, and the bars, lounges and restaurants inside them typically hold the licence needed to serve alcohol. Many standalone bars, restaurants and nightclubs across the city are also licensed.",
+          "You can drink at home too. Alcohol consumption in a private residence is generally accepted for non-Muslims of legal age, which is why residents commonly keep a supply at home for entertaining.",
+          "If you are unsure whether a particular venue is licensed, it is fine to ask. Licensed places make no secret of it, and the presence of a full drinks menu is usually a clear signal."
+        ]
+      },
+      {
+        "heading": "The personal licence: what changed",
+        "body": [
+          "For years, buying alcohol from a shop to take home required a personal alcohol licence, and drinking without one was technically an offence. That position was relaxed in 2023.",
+          "Since early 2023, the personal licence requirement for purchasing from licensed retailers has effectively been removed in Dubai, and the fee and fines linked to it were scrapped. In practice, retailers may still register you at the till using your Emirates ID or passport, and this registration is free.",
+          "Because this area has moved recently, it is worth confirming the exact process with the retailer at the time of purchase. What matters most has not changed: you must be 21 or over, and you buy only from a licensed outlet."
+        ]
+      },
+      {
+        "heading": "Buying from licensed retailers",
+        "body": [
+          "For take-home alcohol, the two best-known licensed retail chains are MMI (Maritime and Mercantile International) and African and Eastern. Both stock a wide range of wines, beers and spirits and have branches across the city.",
+          "Residents typically shop with their Emirates ID, while visitors can usually be served on presentation of a passport, sometimes via a short-term registration valid for a limited period. There is normally no fee for this.",
+          "Bring valid photo identification, expect to show it, and remember that these shops are the legitimate route for buying alcohol to consume at home. Prices include applicable taxes, which have changed over recent years, so the amount you pay can shift over time."
+        ]
+      },
+      {
+        "heading": "The rules that are strictly enforced",
+        "body": [
+          "Two rules deserve real attention. First, drink-driving carries a zero-tolerance policy. There is no accepted safe limit, so any trace of alcohol while driving can lead to serious penalties. If you have had a drink, use a taxi or a ride-hailing app.",
+          "Second, drinking in public or being visibly intoxicated in public is not allowed and can lead to trouble. Keep your drinking to licensed venues and private homes, and travel home calmly and discreetly.",
+          "The legal age is a hard line too. You must be 21 or over to buy or be served alcohol, and venues and shops are entitled to ask for identification. Carry ID if there is any chance you will be asked."
+        ]
+      },
+      {
+        "heading": "Ramadan and everyday etiquette",
+        "body": [
+          "During the holy month of Ramadan, many people fast from dawn to sunset, and it is respectful to be mindful of this. Some venues adjust how and when they serve alcohol, and it is courteous to keep any drinking low-key and private during daylight hours.",
+          "Year round, a little cultural awareness goes a long way. Dubai is relaxed and welcoming, but it is still a place where discretion is valued. Enjoy the excellent bars and restaurants, and avoid drawing attention through loud or disorderly behaviour.",
+          "None of this should feel restrictive. Thousands of residents and visitors enjoy Dubai's hospitality scene every week without issue, simply by staying within the licensed settings and respecting local norms."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can tourists drink alcohol in Dubai?",
+        "answer": "Yes. Non-Muslim visitors aged 21 and over can drink in licensed hotels, bars, restaurants and clubs. Visitors can also usually buy from licensed retailers on presentation of a passport. Public drinking and drink-driving are not allowed."
+      },
+      {
+        "question": "What is the legal drinking age in Dubai?",
+        "answer": "The legal age to buy and be served alcohol in Dubai is 21. Venues and shops can ask for photo identification, so it is sensible to carry ID if you may be asked to prove your age."
+      },
+      {
+        "question": "Do I still need a personal alcohol licence to buy from shops?",
+        "answer": "Since 2023 the personal licence requirement for buying from licensed retailers in Dubai has effectively been removed, and the associated fine was scrapped. Shops may still register you for free using your ID. Check the current process at the point of purchase."
+      },
+      {
+        "question": "Where can I buy alcohol to drink at home?",
+        "answer": "From licensed retailers such as MMI and African and Eastern, which have branches across Dubai and stock wine, beer and spirits. Bring valid photo identification, as you will usually be asked to show it at the till."
+      },
+      {
+        "question": "How strict is Dubai on drink-driving?",
+        "answer": "Very strict. There is a zero-tolerance policy, meaning any alcohol in your system while driving is an offence with serious penalties. If you plan to drink, use a taxi or a ride-hailing app instead of driving."
+      },
+      {
+        "question": "Do I need to change my habits during Ramadan?",
+        "answer": "It is respectful to keep any drinking discreet and private during daylight hours in Ramadan, as many people are fasting. Some venues adjust their service. Being mindful of the month is courteous and widely appreciated."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai culture and etiquette",
+        "href": "/blog/dubai-culture-and-etiquette"
+      },
+      {
+        "label": "Is Dubai safe? A newcomer's guide",
+        "href": "/blog/is-dubai-safe-newcomer-guide"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "alcohol laws in Dubai",
+      "drinking age in Dubai",
+      "Dubai alcohol licence",
+      "buying alcohol in Dubai",
+      "MMI African and Eastern",
+      "drink driving Dubai",
+      "drinking in Dubai for expats",
+      "Dubai alcohol rules 2026"
+    ]
+  },
+  {
+    "slug": "can-unmarried-couples-live-together-dubai",
+    "title": "Can Unmarried Couples Live Together in Dubai? (2026)",
+    "excerpt": "Yes. Since the 2020 legal reforms, unmarried couples can live together in Dubai, and it is common and widely accepted in practice.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 6,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10593631/pexels-photo-10593631.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Couple relaxing together in a bright modern Dubai apartment with city views",
+      "tone": "#141821"
+    },
+    "intro": "Yes. Following legal reforms introduced in late 2020, cohabitation by unmarried couples is permitted across the UAE, including Dubai, and in practice it is common and widely accepted. Before the reforms, sharing a home without being married sat in a legal grey area. That changed when the federal government decriminalised consensual cohabitation between adults, effective from late 2020. Today unmarried expat couples routinely rent and buy homes together in Dubai, and landlords and agents generally do not ask for a marriage certificate. Dubai is a cosmopolitan, expat-majority city where this is an everyday reality. As with any move abroad, it is sensible to respect local norms and confirm the current position for your own situation.",
+    "keyTakeaways": [
+      "Unmarried couples can legally live together in Dubai following the 2020 UAE legal reforms.",
+      "In practice cohabitation is common and widely accepted, especially among Dubai's large expat community.",
+      "Landlords and agents generally do not object or ask for a marriage certificate when a couple rents together.",
+      "Related reforms mean children born to unmarried parents can be registered and documented.",
+      "Public displays of affection are still discouraged, so respect local customs in public.",
+      "Laws can be updated over time, so confirm the current position for your own circumstances."
+    ],
+    "sections": [
+      {
+        "heading": "What the 2020 reforms changed",
+        "body": [
+          "In November 2020 the UAE announced a broad package of updates to its personal and family laws, covering cohabitation, alcohol, inheritance and more. The most relevant change for couples was the decriminalisation of consensual cohabitation between adults, which took effect in late 2020.",
+          "Before this, unmarried couples sharing a home sat in an uncertain legal position. After the reforms, living together without being married is no longer treated as a criminal matter. This applies to residents, expatriates and visitors alike.",
+          "The reforms were part of a wider modernisation of the UAE's legal framework, designed to reflect the country's diverse, international population while keeping certain cultural values intact."
+        ]
+      },
+      {
+        "heading": "Renting a home together as an unmarried couple",
+        "body": [
+          "In practice, renting a home together in Dubai is straightforward. Landlords and letting agents generally do not object to unmarried couples, and you are not usually asked to provide a marriage certificate to sign a tenancy.",
+          "The standard requirements are the same as for anyone: valid Emirates ID or passport, proof of income or funds, and the usual deposit and agency arrangements. Whose name goes on the tenancy contract is a practical decision between you, and either or both partners can be named.",
+          "Because Dubai's rental market is built around a highly international tenant base, this is an everyday, well-worn process rather than an exception."
+        ]
+      },
+      {
+        "heading": "Buying a home together",
+        "body": [
+          "The same openness applies when buying. Unmarried couples can purchase property together in Dubai, and co-ownership between two named buyers is common. You do not need to be married to appear jointly on a title deed.",
+          "As with any joint purchase anywhere in the world, it is worth agreeing in advance how ownership shares, mortgage responsibility and a future sale would be handled. A clear written understanding protects both partners.",
+          "If you are weighing renting against buying, our team can walk you through mortgage eligibility, fees and the areas that suit your budget and lifestyle."
+        ]
+      },
+      {
+        "heading": "The practical reality for expats",
+        "body": [
+          "Dubai is an expat-majority city, with residents from across the world living, working and raising families here. Unmarried couples cohabiting is a normal part of everyday life, and you are very unlikely to encounter any friction in daily living, from renting to opening accounts to socialising.",
+          "Hotels routinely allow unmarried couples to share a room, and couples travel, dine and go about normal life together without issue.",
+          "The overall picture is a relaxed and welcoming one. The reforms brought the law into line with how the city already lived, and Dubai remains one of the most international and easy-going places in the region for expats to settle."
+        ]
+      },
+      {
+        "heading": "Related reforms: children and family life",
+        "body": [
+          "The 2020 changes went beyond cohabitation. Alongside them, the position for children born to unmarried parents was reformed so that such children can be registered and given official documentation, including birth certificates and passports, and can access healthcare.",
+          "This was a meaningful shift for families, as registering a child born outside marriage was previously very difficult. Where both parents acknowledge the child and complete the proper documentation under UAE law, the process is now workable.",
+          "Family and personal-status law in the UAE continues to evolve, with further updates consolidated in more recent legislation. For anything touching on children, marriage or inheritance, it is best to take current, tailored advice."
+        ]
+      },
+      {
+        "heading": "Respect local norms and confirm the current law",
+        "body": [
+          "While cohabitation is permitted and widely accepted, Dubai remains a place with its own customs, and a little cultural awareness goes a long way. Public displays of affection are still discouraged, so keeping things respectful in public spaces is the norm.",
+          "Laws can be updated and details can change over time. This article is general guidance, not legal advice, so for your specific situation it is wise to confirm the current position with an official source or a qualified UAE lawyer.",
+          "None of this should feel daunting. Hundreds of thousands of expat couples live comfortably in Dubai, and with a bit of everyday courtesy you will fit in easily."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is it legal for unmarried couples to live together in Dubai?",
+        "answer": "Yes. Since the UAE legal reforms of late 2020, consensual cohabitation between unmarried adults has been decriminalised, so couples can legally live together in Dubai."
+      },
+      {
+        "question": "Do we need a marriage certificate to rent a home together?",
+        "answer": "Generally no. Landlords and agents in Dubai do not usually ask unmarried couples for a marriage certificate. You provide the standard documents such as ID, passport and proof of funds."
+      },
+      {
+        "question": "Can unmarried couples buy property together in Dubai?",
+        "answer": "Yes. Two unnamed partners can co-own property and appear jointly on a title deed without being married. It is sensible to agree ownership shares and exit terms in writing."
+      },
+      {
+        "question": "Is cohabitation actually common in Dubai, or just technically allowed?",
+        "answer": "It is common and widely accepted. Dubai is an expat-majority city, and unmarried couples living together is an ordinary part of everyday life with little to no friction."
+      },
+      {
+        "question": "What about children born to unmarried parents?",
+        "answer": "Related reforms mean children born to unmarried parents can be registered and given official documents such as birth certificates and passports, provided the parents complete the proper process under UAE law."
+      },
+      {
+        "question": "Are there any customs we should still be mindful of?",
+        "answer": "Yes. Public displays of affection are discouraged, so keep things respectful in public. Laws can also change over time, so confirm the current position for your own circumstances."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai culture and etiquette",
+        "href": "/blog/dubai-culture-and-etiquette"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "unmarried couples living together Dubai",
+      "cohabitation Dubai law",
+      "can unmarried couples live together UAE",
+      "renting together unmarried Dubai",
+      "UAE 2020 cohabitation reforms",
+      "children out of wedlock UAE",
+      "expat couples Dubai",
+      "living together in Dubai unmarried"
+    ]
+  },
+  {
+    "slug": "dubai-culture-and-etiquette",
+    "title": "Dubai Culture and Etiquette: Do's and Don'ts for Newcomers (2026)",
+    "excerpt": "Dubai is a cosmopolitan, welcoming city. Dress modestly in public, avoid public affection, respect Ramadan, and drink only in licensed venues.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10486073/pexels-photo-10486073.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with modern towers and traditional architecture, reflecting the city's blend of cultures",
+      "tone": "#141821"
+    },
+    "intro": "Dubai is one of the world's most cosmopolitan cities, home to more than 200 nationalities, and it is genuinely welcoming to newcomers. It is also a Muslim city in the United Arab Emirates, so a little cultural awareness goes a long way. The good news is that the rules are common sense and easy to follow: dress modestly in public spaces such as malls and government offices, keep beachwear to the beach and pool, avoid public displays of affection, be considerate during Ramadan, and drink only in licensed venues. Respect these customs and you will find daily life relaxed, safe, and friendly. This guide covers the everyday do's and don'ts so you can settle in with confidence and courtesy.",
+    "keyTakeaways": [
+      "Dubai is tolerant and multicultural, but it remains a Muslim city where local customs are respected.",
+      "Dress modestly in public places like malls, offices, and mosques; swimwear is fine at beaches and pools.",
+      "Avoid public displays of affection, rude gestures, and swearing in public, which can cause offence.",
+      "During Ramadan, be discreet about eating, drinking, and smoking in public during daylight hours.",
+      "Alcohol is available in licensed hotels, bars, and restaurants; drinking in public or being drunk in public is not allowed.",
+      "Ask before photographing people, and avoid photographing government or military sites."
+    ],
+    "sections": [
+      {
+        "heading": "A cosmopolitan city with local roots",
+        "body": [
+          "Dubai brings together people from more than 200 nationalities, and English is widely spoken alongside Arabic. You will hear dozens of languages in a single afternoon and find restaurants, places of worship, and communities from around the world. This diversity is part of what makes the city so easy to settle into.",
+          "At the same time, Dubai is part of the United Arab Emirates, a Muslim country, and Emirati culture is warm, hospitable, and proud of its traditions. Respecting local customs is not about restriction; it is simply good manners in your new home. Most newcomers find the balance intuitive within a few weeks.",
+          "The city has also introduced meaningful social reforms in recent years, including changes to family and cohabitation laws and a shift to a Saturday to Sunday weekend for the public sector. Dubai continues to modernise while keeping its cultural identity, and the practical guidance below reflects how the city works today."
+        ]
+      },
+      {
+        "heading": "Dress code: modest in public, relaxed at the beach",
+        "body": [
+          "In everyday public spaces such as shopping malls, souks, government offices, and restaurants, the general guideline is modest dress that covers the shoulders and knees for both men and women. Malls sometimes display signs asking visitors to dress respectfully, and this is easy to meet with ordinary smart-casual clothing.",
+          "At beaches, hotel pools, and beach clubs, swimwear and bikinis are completely normal and expected. The simple rule is to save beachwear for those settings and cover up when you leave, for example when walking through a mall on the way home.",
+          "When visiting a mosque, dress more conservatively: arms and legs covered, and a headscarf for women. Major mosques that welcome visitors, such as those with public tours, often provide traditional dress to borrow. Business attire in Dubai is generally smart and professional, in line with international norms."
+        ]
+      },
+      {
+        "heading": "Public behaviour and courtesy",
+        "body": [
+          "Public displays of affection are best kept to a minimum. Holding hands is generally fine for married couples, but kissing and embracing in public can cause offence and is not advised. Keeping things low-key in public is the safe and respectful approach.",
+          "Politeness matters. Aggressive gestures, rude hand signs, shouting, and swearing in public are taken seriously and are considered offensive. This includes moments of frustration in traffic; staying calm and courteous is both expected and appreciated.",
+          "Dubai is a very safe, orderly city, and everyday courtesy goes a long way. Queue patiently, keep your voice measured in public, and treat staff and strangers with respect. These small habits reflect the tone of the city and make daily life smoother for everyone."
+        ]
+      },
+      {
+        "heading": "Respect during Ramadan",
+        "body": [
+          "Ramadan is the Islamic holy month of fasting, when many Muslims do not eat, drink, or smoke between dawn and sunset. Non-Muslims are not required to fast, and daily life continues, but a little discretion during daylight hours is a valued courtesy.",
+          "In recent years many restaurants and cafes stay open during the day, and rules have relaxed compared with the past. Even so, it is polite to eat, drink, and smoke discreetly rather than conspicuously in public during fasting hours. Dress and behaviour tend to be a little more conservative during the month.",
+          "Ramadan is also a beautiful time to experience local culture. The evening iftar meal that breaks the fast is a warm, social occasion, and visitors are often welcomed to join. Working hours are frequently shortened during the month, so plan appointments with a little extra flexibility."
+        ]
+      },
+      {
+        "heading": "Alcohol, photography, and everyday practicalities",
+        "body": [
+          "Alcohol is available and widely served in licensed venues such as hotels, bars, and many restaurants, and residents can buy it from licensed retailers. The key points are simple: drink within licensed venues, do not drink or appear drunk in public, and never drink and drive, as the UAE applies a zero-tolerance policy to drink-driving.",
+          "Photography etiquette is mostly common sense. Always ask before taking photographs of people, and be especially considerate about photographing local women and families. Avoid photographing government buildings, military sites, courts, and airports, where restrictions apply.",
+          "A few other practicalities help you fit in: dispose of litter properly, respect no-smoking areas, and be mindful of noise near residential buildings. These are ordinary courtesies anywhere, and they are noticed and appreciated in Dubai."
+        ]
+      },
+      {
+        "heading": "Greetings, hospitality, and the weekly rhythm",
+        "body": [
+          "Emirati and wider Arab culture places great value on hospitality and warm greetings. A common greeting is As-salamu alaykum, meaning peace be upon you, with the reply Wa alaykum as-salam. A friendly Marhaba, meaning hello, is always welcome. Handshakes are usual, though it is polite to let the other person, particularly a woman, extend their hand first, as some prefer not to shake hands across genders.",
+          "If you are offered Arabic coffee, dates, or refreshments as a guest, accepting graciously is a lovely way to honour local hospitality. Using your right hand for greetings, eating, and passing items is customary and appreciated.",
+          "The public-sector working week runs Monday to Friday, with a weekend of Saturday and Sunday, and a shorter half-day on Friday to accommodate midday prayers. Friday is the main day for congregational prayer, and the call to prayer is heard five times a day across the city. Business continues around these rhythms, and being patient and understanding of prayer times is a simple mark of respect."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should I wear in Dubai as a newcomer?",
+        "answer": "In public places such as malls, offices, and souks, dress modestly by covering shoulders and knees. Swimwear is completely fine at beaches and pools. For mosques, cover arms and legs, and women should wear a headscarf. Everyday smart-casual clothing meets the guidelines easily."
+      },
+      {
+        "question": "Can I drink alcohol in Dubai?",
+        "answer": "Yes. Alcohol is served in licensed hotels, bars, and restaurants, and residents can buy it from licensed retailers. Just keep drinking to licensed venues, avoid being drunk in public, and never drink and drive, as the UAE has a zero-tolerance policy on drink-driving."
+      },
+      {
+        "question": "How should I behave during Ramadan if I am not Muslim?",
+        "answer": "You are not required to fast, but it is courteous to eat, drink, and smoke discreetly in public during daylight hours. Many restaurants now stay open during the day. Dress and behaviour are a little more conservative, and joining an evening iftar is a warm cultural experience."
+      },
+      {
+        "question": "Are public displays of affection allowed in Dubai?",
+        "answer": "Keep them to a minimum. Holding hands is generally acceptable for couples, but kissing and embracing in public can cause offence and is best avoided. Discretion in public spaces is the respectful and sensible approach."
+      },
+      {
+        "question": "Can I take photos freely in Dubai?",
+        "answer": "Mostly yes, but ask before photographing people, and be especially considerate with local women and families. Avoid photographing government buildings, military sites, courts, and airports, where restrictions apply. When in doubt, ask first."
+      },
+      {
+        "question": "Is Dubai welcoming to foreigners and different cultures?",
+        "answer": "Very much so. Dubai is home to more than 200 nationalities, English is widely spoken, and communities and places of worship from around the world are present. It is a tolerant, cosmopolitan city, and respecting local customs makes settling in easy and enjoyable."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Is Dubai safe? A newcomer's guide",
+        "href": "/blog/is-dubai-safe-newcomer-guide"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai culture and etiquette",
+      "Dubai dress code",
+      "living in Dubai for newcomers",
+      "Ramadan etiquette Dubai",
+      "Dubai customs and traditions",
+      "alcohol rules Dubai",
+      "moving to Dubai",
+      "Dubai do's and don'ts"
+    ]
+  },
+  {
+    "slug": "dubai-maid-visa-domestic-worker",
+    "title": "How to Get a Maid Visa in Dubai (Domestic Worker Sponsorship) (2026)",
+    "excerpt": "To sponsor a maid in Dubai, most expats need around AED 25,000 monthly income, or use a licensed Tadbeer centre with a lower threshold.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Bright, tidy modern Dubai apartment interior representing a household that employs a domestic worker",
+      "tone": "#141821"
+    },
+    "intro": "To get a maid visa in Dubai you sponsor a domestic worker as their employer, either directly through the GDRFA or, more commonly, through a licensed Tadbeer service centre run under MOHRE. Expat sponsors are usually expected to earn around AED 25,000 a month (a threshold frequently cited, sometimes met by combined family income), while Tadbeer packages can apply a lower figure, often near AED 10,000. You provide suitable housing, pay the visa, medical, Emirates ID, insurance and a refundable deposit, and sign a registered contract. Rules, fees and income limits change often, so confirm the current requirements with Tadbeer or the GDRFA before you commit.",
+    "keyTakeaways": [
+      "Most expat sponsors are asked to show income around AED 25,000 a month; Tadbeer routes may accept a lower threshold, often near AED 10,000.",
+      "Two routes exist: direct sponsorship via the GDRFA, or a licensed Tadbeer service centre that handles paperwork end to end.",
+      "Expect to pay for the visa, medical fitness test, Emirates ID, mandatory health insurance and a refundable deposit (commonly cited around AED 2,000 for expats).",
+      "A registered employment contract, fair pay, rest days and proper accommodation are legal obligations, not optional extras.",
+      "The residence visa typically runs two years and needs a fresh medical, renewed Emirates ID and renewal fees.",
+      "Fees and rules shift regularly, so always verify current figures with Tadbeer or the GDRFA."
+    ],
+    "sections": [
+      {
+        "heading": "Who can sponsor a domestic worker",
+        "body": [
+          "A maid visa in Dubai is an employer sponsorship. You, the resident, become the legal sponsor of a domestic worker (a housemaid, nanny, cook, driver or similar role) and take on responsibility for their status, pay and welfare while they live and work in your home.",
+          "For expatriate sponsors, the most commonly cited requirement is a monthly income of about AED 25,000. In practice this figure is sometimes met through combined family income, and it can vary by emirate and by the recruitment channel you use. UAE nationals face a lower personal income threshold.",
+          "Beyond income, sponsors are generally expected to hold a valid residence visa themselves and to have suitable accommodation, often described as a home with at least two bedrooms so the worker has proper private space. Because these conditions change, treat the numbers here as indicative and confirm the current rules before applying."
+        ]
+      },
+      {
+        "heading": "The sponsor income requirement",
+        "body": [
+          "Income is the requirement that trips up most applicants, so it is worth understanding clearly. The widely quoted benchmark for expat sponsors is around AED 25,000 a month. Some sources note this can be satisfied by adding a spouse's salary to your own, but you should not assume that without checking.",
+          "If you do not meet the standard threshold, a Tadbeer service centre can be the practical answer. Tadbeer packages are sometimes offered against a lower income figure, frequently cited near AED 10,000 a month, because the centre acts as a regulated intermediary and carries part of the employer liability.",
+          "These figures are indicative and subject to change. Before you build plans around a specific number, confirm the exact income requirement for your situation directly with a Tadbeer centre or the GDRFA."
+        ]
+      },
+      {
+        "heading": "Two routes: direct sponsorship vs Tadbeer centres",
+        "body": [
+          "There are two main ways to bring a domestic worker onto your sponsorship. The first is direct sponsorship, where you apply through the General Directorate of Residency and Foreigners Affairs (GDRFA) and manage the visa, medical, Emirates ID and contract steps yourself.",
+          "The second, and by far the more common route for expats, is a licensed Tadbeer service centre. Tadbeer is the government-regulated domestic worker programme overseen by the Ministry of Human Resources and Emiratisation (MOHRE). The centres provide an end-to-end service: recruiting from approved source countries, processing the visa, arranging the medical test and insurance, registering the MOHRE contract and offering ongoing support.",
+          "The trade-off is straightforward. Direct sponsorship can cost less but demands more of your time and admin. Tadbeer costs more but bundles the steps, reduces paperwork and provides employer protections such as replacement or dispute support. Choose based on how much you value convenience and safeguards."
+        ]
+      },
+      {
+        "heading": "The process and documents",
+        "body": [
+          "The overall flow is similar whichever route you pick. First, confirm you meet the income and housing conditions. Next, either lodge the application with the GDRFA or engage a Tadbeer centre and choose a worker or a package.",
+          "An entry permit or visa is then issued. Once the worker is in the country, they complete a medical fitness test, apply for the Emirates ID and have health insurance arranged. The residence visa is stamped, and the employment contract is registered so the arrangement is legally recorded.",
+          "Typical documents include your passport and residence visa, your Emirates ID, proof of income such as a salary certificate or bank statements, your tenancy contract or title deed as proof of accommodation, and the worker's passport and photographs. A Tadbeer centre will tell you exactly which papers it needs, but preparing these in advance saves delays."
+        ]
+      },
+      {
+        "heading": "Costs, deposit, insurance and fair treatment",
+        "body": [
+          "Costs vary widely by route, the worker's nationality and the insurance package. As a rough guide often quoted for 2026, a first year via Tadbeer can fall in the region of AED 8,500 to AED 12,000, while private sponsorship can run higher. These are indicative ranges only; get a written quote before you commit.",
+          "The fee usually covers the visa, the mandatory medical fitness test, the Emirates ID, domestic-worker health insurance and a refundable deposit. The deposit is commonly cited at around AED 2,000 for expat sponsors and is returned later, so keep your IBAN handy for the refund. Health insurance for the worker is mandatory, not optional.",
+          "Fair treatment is a legal duty. You must pay the agreed wage on time, provide proper accommodation and food, allow rest days and paid leave, and respect the worker's rights under the registered contract. Withholding a passport or wages, or denying rest, breaches UAE labour rules. Treating the arrangement as a genuine, well-documented employment relationship protects both sides."
+        ]
+      },
+      {
+        "heading": "Renewal and keeping the visa valid",
+        "body": [
+          "A domestic worker residence visa typically runs for two years, then needs renewing to stay valid. Renewal usually repeats the core steps: a fresh medical fitness test, a renewed Emirates ID, updated health insurance and payment of the renewal fees.",
+          "Annual or ongoing costs from year two are generally lower than the first-year outlay, but still recur, so budget for them. Start the renewal before the visa expires to avoid fines or gaps in the worker's legal status.",
+          "If the arrangement ends, you must cancel the visa properly rather than simply letting it lapse. Because fees, timelines and requirements are updated regularly, confirm the current renewal or cancellation process with your Tadbeer centre or the GDRFA each time."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What income do I need to sponsor a maid in Dubai?",
+        "answer": "Expat sponsors are most often asked to show around AED 25,000 a month, sometimes met by combined family income. Tadbeer routes may accept a lower figure, frequently cited near AED 10,000. These numbers change, so confirm the current requirement with Tadbeer or the GDRFA."
+      },
+      {
+        "question": "What is a Tadbeer centre?",
+        "answer": "Tadbeer is the UAE's government-regulated domestic worker programme run under MOHRE. Licensed Tadbeer centres recruit workers from approved countries and handle the visa, medical, Emirates ID, insurance and contract, giving employers a bundled service and added protections."
+      },
+      {
+        "question": "How much does a maid visa cost in 2026?",
+        "answer": "Costs vary by route, nationality and insurance. As an indicative guide, a first year via Tadbeer is often quoted at roughly AED 8,500 to AED 12,000, with private sponsorship sometimes higher. Always get a written quote, as figures change frequently."
+      },
+      {
+        "question": "Is there a refundable deposit?",
+        "answer": "Yes. A deposit, commonly cited at around AED 2,000 for expat sponsors, is usually payable and refundable later. Keep your IBAN details ready for the refund. Confirm the exact amount and terms with your chosen Tadbeer centre or the GDRFA."
+      },
+      {
+        "question": "Is health insurance mandatory for the worker?",
+        "answer": "Yes. Health insurance for the domestic worker is mandatory and is normally included in a Tadbeer package or arranged as part of direct sponsorship. You are also legally obliged to provide fair pay, proper accommodation and rest days under the registered contract."
+      },
+      {
+        "question": "How long is the visa valid and how do I renew it?",
+        "answer": "A domestic worker visa typically runs for two years. Renewal usually requires a fresh medical fitness test, a renewed Emirates ID, updated insurance and renewal fees. Begin before expiry to avoid fines, and verify the current process each time as rules are updated regularly."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai family visa: sponsoring spouse and children",
+        "href": "/blog/dubai-family-visa-sponsor-spouse-children"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai maid visa",
+      "domestic worker sponsorship Dubai",
+      "Tadbeer centre",
+      "maid visa cost 2026",
+      "sponsor income requirement Dubai",
+      "housemaid visa UAE",
+      "domestic worker health insurance",
+      "maid visa renewal Dubai"
+    ]
+  },
+  {
+    "slug": "public-holidays-in-dubai",
+    "title": "Public Holidays and Working Hours in Dubai (2026)",
+    "excerpt": "Dubai works Monday to Friday, with a shorter public-sector Friday. Here are the 2026 public holidays and typical private-sector hours.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 6,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa rising above the city",
+      "tone": "#141821"
+    },
+    "intro": "Dubai runs a Monday-to-Friday working week, in place across the UAE since January 2022. The weekend is Saturday and Sunday. Public-sector offices work a full day Monday to Thursday and a shorter Friday morning, while most private companies work Monday to Friday with a normal Friday. The main paid public holidays are New Year's Day, Eid al-Fitr, Arafat Day and Eid al-Adha, the Islamic New Year, the Prophet Muhammad's Birthday, Commemoration Day and UAE National Day. Islamic holiday dates move each year with the lunar calendar and are confirmed by moon sighting, usually only a day or two beforehand. This guide sets out the working week, typical hours and what to expect during Ramadan.",
+    "keyTakeaways": [
+      "The UAE working week is Monday to Friday, with Saturday and Sunday as the weekend, since January 2022.",
+      "Public-sector staff work Monday to Thursday plus a shorter Friday morning; most private firms work a normal Monday-to-Friday week.",
+      "New Year's Day and UAE National Day (1 and 2 December, marked on 2 and 3 December in 2026) have fixed dates.",
+      "Islamic holidays such as Eid al-Fitr and Eid al-Adha shift each year with the lunar calendar and are confirmed close to the time.",
+      "During Ramadan, working hours are reduced by law, usually by around two hours a day.",
+      "Always check the official government announcement before booking travel, as dates can move by a day or two."
+    ],
+    "sections": [
+      {
+        "heading": "The Dubai working week",
+        "body": [
+          "Since January 2022, the UAE has followed a Monday-to-Friday working week, bringing it into line with global markets. The weekend is Saturday and Sunday. This applies across Dubai and the wider UAE for both the public and private sectors.",
+          "For the public sector, offices work a full day Monday to Thursday and a shorter day on Friday, typically finishing around midday to allow time for Friday prayers. Government service counters and ministries follow this pattern.",
+          "The private sector has more flexibility. Most companies work Monday to Friday, and many treat Friday as a normal full working day. Some firms in retail, hospitality and construction operate six days a week or on rotating shifts, so your exact schedule depends on your employer and industry."
+        ]
+      },
+      {
+        "heading": "Typical private-sector hours",
+        "body": [
+          "A standard office day in Dubai usually runs from around 9am to 6pm, with an hour for lunch. UAE labour law caps the working week at 48 hours, generally eight hours a day over a five or six-day week, though many white-collar roles work fewer.",
+          "Retail and mall hours are longer, often 10am to 10pm or later, with staff working shifts. Restaurants, hotels and leisure venues run late into the evening, especially at weekends.",
+          "Banks and many government-facing services keep shorter public hours, so it is worth checking opening times before you visit. During the hot summer months, some outdoor and construction work is subject to a mandatory midday break, when labour outdoors is paused during the hottest hours."
+        ]
+      },
+      {
+        "heading": "Fixed-date public holidays",
+        "body": [
+          "Two of the main holidays fall on fixed dates each year. New Year's Day is marked on 1 January, giving a single day off.",
+          "UAE National Day, also known as Eid al-Etihad, celebrates the founding of the union in 1971 and falls on 1 and 2 December. In practice it is often observed across 2 and 3 December, giving a two-day break, and it is one of the most festive periods of the year with fireworks, parades and displays across the city.",
+          "Commemoration Day, which honours Emiratis who have given their lives in service, has in recent years been marked around 30 November, close to National Day, and is confirmed in the official holiday calendar."
+        ]
+      },
+      {
+        "heading": "Islamic holidays that move each year",
+        "body": [
+          "Most UAE public holidays follow the Hijri lunar calendar, so their dates shift by roughly ten to eleven days earlier each year against the Gregorian calendar. The exact days are confirmed by the official moon-sighting committee, usually only one or two days in advance.",
+          "Eid al-Fitr marks the end of Ramadan and typically brings a break of three to four days. In 2026 it is expected around mid to late March, but treat any specific date as provisional until the government confirms it.",
+          "Arafat Day and Eid al-Adha, the Feast of Sacrifice, fall during the Hajj pilgrimage season and together usually give a longer break of several days, expected around late May in 2026. The Islamic New Year (Hijri New Year) is a single day, and the Prophet Muhammad's Birthday (Mawlid al-Nabi) is also a single day; both move with the lunar calendar and are confirmed closer to the time."
+        ]
+      },
+      {
+        "heading": "Working hours during Ramadan",
+        "body": [
+          "Ramadan is the holy month of fasting and has a noticeable effect on daily rhythm. By UAE labour law, working hours are reduced during Ramadan, commonly by around two hours a day, so a typical eight-hour day is shortened. This reduction applies to fasting and non-fasting employees alike in many workplaces.",
+          "Government offices and many businesses adjust their opening times, and some shops open later and close later. Restaurants may limit daytime service, though hotels and many food outlets continue to serve, and the city comes alive after sunset with iftar gatherings.",
+          "Ramadan itself is not a public holiday, but it leads directly into Eid al-Fitr. Because it follows the lunar calendar, its start date shifts each year and is confirmed by moon sighting shortly beforehand."
+        ]
+      },
+      {
+        "heading": "Planning around the holidays",
+        "body": [
+          "If you are moving to Dubai, buying property or scheduling business here, build the holiday calendar into your plans. Long weekends around Eid and National Day are popular for travel, so flights and hotels fill up and prices rise. Government offices and some private firms close, which can slow paperwork such as title transfers, visa steps or bank appointments.",
+          "Because the Islamic dates are only confirmed close to the time, keep a little flexibility in any deadline that depends on them. A meeting or completion set for the week of Eid may need to move if the holiday lands differently than expected.",
+          "For anything time-sensitive, check the latest official announcement rather than last year's dates. If you are handling a property purchase or sale around a holiday period, our team can help you sequence viewings, offers and paperwork so nothing stalls."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the working week in Dubai?",
+        "answer": "Dubai follows a Monday-to-Friday working week, with Saturday and Sunday as the weekend, in place across the UAE since January 2022. The public sector works a full day Monday to Thursday and a shorter Friday morning, while most private firms work a normal Monday-to-Friday week."
+      },
+      {
+        "question": "What are typical private-sector working hours?",
+        "answer": "A standard office day usually runs from about 9am to 6pm with an hour for lunch. UAE law caps the week at 48 hours. Retail and hospitality work longer shifts, often until 10pm or later, so exact hours depend on your industry and employer."
+      },
+      {
+        "question": "What are the main public holidays in the UAE?",
+        "answer": "The main holidays are New Year's Day, Eid al-Fitr, Arafat Day and Eid al-Adha, the Islamic New Year, the Prophet Muhammad's Birthday, Commemoration Day and UAE National Day. New Year and National Day have fixed dates; the Islamic holidays move each year."
+      },
+      {
+        "question": "Why do the holiday dates change each year?",
+        "answer": "Most UAE holidays follow the Hijri lunar calendar, which runs about ten to eleven days shorter than the Gregorian year, so the dates shift earlier annually. They are confirmed by the official moon-sighting committee, usually only one or two days beforehand."
+      },
+      {
+        "question": "Are working hours reduced during Ramadan?",
+        "answer": "Yes. Under UAE labour law, working hours are reduced during Ramadan, commonly by around two hours a day. Many offices and shops also adjust their opening times, opening and closing later, and the city is busiest after sunset for iftar."
+      },
+      {
+        "question": "When is UAE National Day?",
+        "answer": "UAE National Day, or Eid al-Etihad, falls on 1 and 2 December and is often observed across 2 and 3 December for a two-day break. It celebrates the founding of the union in 1971 and is one of the most festive periods of the year."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Ramadan in Dubai: what expats should know",
+        "href": "/blog/ramadan-in-dubai-for-expats"
+      },
+      {
+        "label": "How to get a job in Dubai",
+        "href": "/blog/how-to-get-a-job-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "public holidays Dubai 2026",
+      "UAE working week",
+      "Dubai working hours",
+      "Eid al-Fitr 2026",
+      "Eid al-Adha 2026",
+      "UAE National Day",
+      "Ramadan working hours Dubai",
+      "Dubai weekend Saturday Sunday"
+    ]
+  },
+  {
+    "slug": "ramadan-in-dubai-for-expats",
+    "title": "Ramadan in Dubai: What Expats Should Know (2026)",
+    "excerpt": "Ramadan 2026 in Dubai is expected to begin around 18 February. Here is what expats should know about fasting, etiquette, hours and Eid.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Lanterns and a warmly lit evening iftar table during Ramadan in Dubai",
+      "tone": "#141821"
+    },
+    "intro": "Ramadan is the holy month when Muslims fast from dawn to dusk, and in Dubai it shapes daily life for a few weeks each year. Because the Islamic calendar is lunar, the dates move forward by roughly ten days annually; in 2026 Ramadan is expected to begin around 18 to 19 February and end with Eid al-Fitr near 20 March. As an expat you are not expected to fast, but a little awareness goes a long way. Be discreet about eating and drinking in public during daylight, dress modestly, and expect reduced working hours. In return you gain access to one of the warmest, most generous seasons of the year, when evenings come alive with iftar gatherings and a genuine sense of community.",
+    "keyTakeaways": [
+      "Ramadan 2026 in Dubai is expected to run from around 18 February to mid-March, confirmed by the UAE moon-sighting committee.",
+      "Muslims fast from dawn to sunset; non-Muslims are not expected to fast but should be considerate.",
+      "Be discreet about eating, drinking and smoking in public during daylight, though many restaurants now serve throughout the day.",
+      "Working hours are legally reduced by two hours during Ramadan for many employees.",
+      "Iftar, the sunset meal that breaks the fast, is the social highlight and a lovely thing to be invited to.",
+      "The month ends with Eid al-Fitr, a joyful multi-day holiday of feasting, gifts and family visits."
+    ],
+    "sections": [
+      {
+        "heading": "What Ramadan actually is",
+        "body": [
+          "Ramadan is the ninth month of the Islamic calendar and the holiest period of the Muslim year. It marks the time when the Quran is believed to have first been revealed to the Prophet Muhammad, peace be upon him.",
+          "For observant Muslims it is a month of fasting, prayer, reflection and charity. Fasting is one of the five pillars of Islam, so the month carries deep spiritual weight rather than being simply a set of rules.",
+          "In a city as international as Dubai, where the majority of residents are expats, Ramadan is also a shared civic season. You will see it in the decorations, the shorter office days, the special menus and the quieter pace of the daylight hours."
+        ]
+      },
+      {
+        "heading": "Why the dates move every year",
+        "body": [
+          "Ramadan follows the lunar Islamic calendar, which is about eleven days shorter than the Gregorian year most of us plan around. As a result, Ramadan arrives roughly ten to eleven days earlier each year and gradually cycles through all the seasons.",
+          "The exact start is not fixed far in advance because it depends on the sighting of the new crescent moon. The UAE moon-sighting committee makes the official announcement the evening before, so the first day is often confirmed only a day ahead.",
+          "For 2026, astronomers expect Ramadan to begin on or around 18 to 19 February and to last 29 or 30 days, with Eid al-Fitr likely to fall near 20 March. Treat these as strong forecasts rather than certainties, and watch for the official confirmation."
+        ]
+      },
+      {
+        "heading": "Fasting from dawn to dusk",
+        "body": [
+          "During Ramadan, Muslims abstain from food, drink, smoking and other physical needs from dawn until sunset. That is a long stretch, and many people are quietly managing low energy or thirst through the working day.",
+          "The pre-dawn meal is called suhoor and the fast is broken at sunset with iftar. The rhythm of the day shifts accordingly: mornings can be slow, afternoons subdued, and evenings vibrant once the fast is broken.",
+          "Children, the elderly, pregnant or unwell people and travellers are not required to fast, so you should never assume that someone is or is not observing. As a non-Muslim you are under no obligation to fast, but understanding the rhythm helps you show consideration."
+        ]
+      },
+      {
+        "heading": "Etiquette for non-Muslims",
+        "body": [
+          "The single most appreciated courtesy is discretion around eating and drinking in public during daylight. In practice this simply means not eating, drinking or smoking openly on the street, on public transport or in open-plan areas where fasting colleagues can see.",
+          "Rules have relaxed in recent years. Many restaurants and cafes now serve throughout the day rather than screening off their dining areas, and hotels operate largely as normal, so you will not go hungry. The spirit of the guidance is consideration, not deprivation.",
+          "A few small habits make a difference: keep water and snacks out of sight in shared spaces, avoid loud music or boisterous behaviour in public during the day, and wish people a warm Ramadan Kareem or Ramadan Mubarak. These greetings are always welcome, whatever your own faith."
+        ]
+      },
+      {
+        "heading": "Reduced hours and the evening atmosphere",
+        "body": [
+          "Working hours are shortened during Ramadan. UAE labour rules reduce the standard working day by two hours for many employees, and government offices, schools and businesses often adjust their timings, so plan meetings and errands accordingly.",
+          "Traffic patterns change too, peaking sharply in the hour before iftar as people rush home to break their fast. It is worth avoiding the roads in that window if you can.",
+          "As the sun sets the city transforms. Streets and hotels light up, tents and terraces fill for iftar, and later in the evening suhoor gatherings run late into the night. Being invited to an iftar is a real gesture of hospitality, and accepting graciously is one of the nicest ways to experience the season."
+        ]
+      },
+      {
+        "heading": "Iftar, Eid al-Fitr and joining in respectfully",
+        "body": [
+          "Iftar, the sunset meal that breaks the fast, is the social heart of Ramadan. It ranges from simple dates and water shared with colleagues to lavish hotel buffets and community tents open to all. Dressing modestly, with shoulders and knees covered, is the right note for these occasions and for public spaces generally through the month.",
+          "The month closes with Eid al-Fitr, the festival of breaking the fast. It is a joyful multi-day public holiday of family visits, gifts, new clothes and generous feasting, and it brings a long weekend that many residents use to travel or relax.",
+          "You do not need to be Muslim to take part respectfully. Accept invitations warmly, offer Eid Mubarak greetings, and enjoy a season built around generosity, patience and community. For many expats it becomes a favourite time of the Dubai year."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When is Ramadan 2026 in Dubai?",
+        "answer": "Ramadan 2026 is expected to begin around 18 to 19 February and last 29 or 30 days, with Eid al-Fitr likely near 20 March. The exact start depends on the moon sighting and is confirmed officially by the UAE the evening before."
+      },
+      {
+        "question": "Do expats and non-Muslims have to fast during Ramadan?",
+        "answer": "No. Fasting is a religious obligation for observant Muslims, and non-Muslims are not expected to fast. You are simply asked to be considerate, mainly by being discreet about eating and drinking in public during daylight hours."
+      },
+      {
+        "question": "Can I eat and drink in public during Ramadan in Dubai?",
+        "answer": "Rules have relaxed and many restaurants and cafes now serve throughout the day, so you can eat out normally. On the street, on public transport and in open shared spaces, it is respectful to avoid eating, drinking or smoking during daylight."
+      },
+      {
+        "question": "Are working hours shorter during Ramadan?",
+        "answer": "Yes. UAE labour rules reduce the standard working day by two hours during Ramadan for many employees, and government offices, schools and many businesses adjust their timings, so it is worth checking hours before you travel across the city."
+      },
+      {
+        "question": "What is iftar and can I attend one?",
+        "answer": "Iftar is the meal that breaks the daily fast at sunset. It is the social highlight of the month, from shared dates and water to large hotel buffets and community tents. Non-Muslims are very welcome, and an invitation is a warm gesture worth accepting."
+      },
+      {
+        "question": "What happens at the end of Ramadan?",
+        "answer": "Ramadan ends with Eid al-Fitr, a joyful public holiday marking the end of the fast. It brings several days off, family gatherings, gifts, new clothes and generous feasting, and it is one of the most festive times of the year in Dubai."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai culture and etiquette",
+        "href": "/blog/dubai-culture-and-etiquette"
+      },
+      {
+        "label": "Public holidays and working hours in Dubai",
+        "href": "/blog/public-holidays-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Ramadan in Dubai",
+      "Ramadan 2026 Dubai",
+      "Ramadan etiquette for expats",
+      "Dubai fasting hours",
+      "iftar Dubai",
+      "Eid al-Fitr Dubai",
+      "Ramadan working hours UAE",
+      "living in Dubai during Ramadan"
+    ]
+  },
 ];
