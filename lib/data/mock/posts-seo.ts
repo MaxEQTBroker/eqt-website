@@ -17411,4 +17411,800 @@ export const seoPosts: BlogPost[] = [
       "moving to Dubai safety"
     ]
   },
+  {
+    "slug": "dubai-free-zones-explained",
+    "title": "Dubai Free Zones Explained: Which Should You Choose? (2026)",
+    "excerpt": "A free zone is a special economic area with 100% foreign ownership and 0 percent import duties. Here is how to pick the right one for 2026.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai commercial skyline at dusk with office towers, representing the city's business free zones",
+      "tone": "#141821"
+    },
+    "intro": "A Dubai free zone is a special economic area where you can own a company outright, with 100% foreign ownership, no local partner, and 0 percent customs duty on goods inside the zone. Each zone clusters around a sector, so the right choice depends mainly on your activity and budget. For finance, DIFC leads; for trading and commodities, DMCC; for tech and media, Dubai Internet City and Dubai Media City; for logistics, JAFZA; and for cost-conscious general business, IFZA and Meydan. Below we explain what a free zone actually is, the core benefits, the major Dubai zones and their focus, and a simple way to choose. Figures are indicative for 2026 and should be confirmed with the zone before you commit.",
+    "keyTakeaways": [
+      "A free zone gives you 100% foreign ownership, full profit repatriation, and 0 percent import or export duty on goods handled inside the zone.",
+      "Zones are clustered by sector, so your business activity is usually the first filter, and budget the second.",
+      "DIFC suits finance, DMCC trading and commodities, Dubai Internet City and Dubai Media City tech and media, and JAFZA logistics.",
+      "IFZA and Meydan are the popular cost-effective picks for general business, with headline licences from roughly AED 12,500 in 2026.",
+      "Headline licence fees are not the full cost; add establishment cards, visas, office space, and insurance for a realistic first-year figure.",
+      "Free zone status does not automatically exempt you from the UAE's 9 percent corporate tax; qualifying rules apply, so take advice."
+    ],
+    "sections": [
+      {
+        "heading": "What a free zone actually is",
+        "body": [
+          "A free zone is a designated economic area with its own registration authority, its own rules, and its own incentives, set up to attract foreign investment into a particular sector. Dubai has more than 30 of them as of 2026, ranging from vast logistics parks to single business towers.",
+          "The defining feature is that you register your company with the free zone authority rather than with the mainland Department of Economy and Tourism. In return you get 100% foreign ownership without a local sponsor, a streamlined licensing process, and a package of tax and customs benefits.",
+          "The main trade-off is scope. A free zone company is designed to operate within its zone and to trade internationally. Selling directly into the UAE mainland market usually needs a local distributor, agent, or a separate mainland licence, so think about where your customers are before you choose."
+        ]
+      },
+      {
+        "heading": "The core benefits",
+        "body": [
+          "100% foreign ownership. You hold the whole company yourself, with no requirement for an Emirati partner. This was the historic reason free zones existed, and it remains a headline draw even though mainland rules have relaxed for many activities.",
+          "Easy, fast setup. Most zones offer a largely online process and can issue a licence in a few days once documents are in order, typically three to five working days for straightforward activities.",
+          "Sector clusters. Because each zone focuses on an industry, you sit alongside similar businesses, shared infrastructure, and a regulator that understands your sector. That clustering can help with partners, talent, and credibility.",
+          "Customs and duty benefits. Goods moving in and out of a free zone are generally free of import and export duty while they stay within the zone, which matters for trading, re-export, and logistics businesses.",
+          "Repatriation of profits and capital. Free zones allow full repatriation of profits and capital, so you can move earnings out of the UAE without currency restrictions.",
+          "A note of caution on tax. The UAE introduced a 9 percent federal corporate tax from 2023. Free zone companies can access a 0 percent rate only on qualifying income under specific conditions, so free zone status alone does not guarantee a tax exemption. Confirm your position with a qualified adviser."
+        ]
+      },
+      {
+        "heading": "The major Dubai free zones and their focus",
+        "body": [
+          "DMCC (Dubai Multi Commodities Centre). The go-to zone for trading and commodities, including gold, diamonds, tea, and general trade. It is one of the largest and most established zones, with a strong business community, though setup costs sit above the budget options, often around AED 35,000 for a trading package in 2026.",
+          "DIFC (Dubai International Financial Centre). The financial and professional services hub, with its own English common law framework and independent courts. It suits banks, asset managers, funds, fintech, and law and advisory firms. Premium positioning means premium cost, with packages commonly running well into six figures in AED.",
+          "Dubai Internet City and Dubai Media City. Part of the TECOM group of zones, these cluster technology and media businesses respectively. Dubai Internet City hosts software, IT, and tech companies, while Dubai Media City serves broadcasters, agencies, publishers, and content firms.",
+          "JAFZA (Jebel Ali Free Zone). The logistics and industrial heavyweight, built around Jebel Ali Port and close to Al Maktoum International Airport. It is the natural home for manufacturing, warehousing, distribution, and any business that moves physical goods at scale.",
+          "IFZA (International Free Zone Authority) and Meydan Free Zone. The popular cost-effective choices for general business, consultancy, and startups. Both offer flexible multi-activity licences with a mostly online process. In 2026 headline licences start from roughly AED 12,500 to AED 12,900, which makes them common entry points for freelancers and small companies.",
+          "Others worth knowing. DAFZA (Dubai Airport Free Zone) suits aviation-linked and high-value trade near the airport, while zones such as Dubai Design District and Dubai Healthcare City serve their named sectors. Beyond Dubai, RAKEZ and Ajman offer some of the lowest costs in the wider UAE."
+        ]
+      },
+      {
+        "heading": "How to choose by activity and budget",
+        "body": [
+          "Start with your activity. The sector cluster is usually the strongest filter. If you run a fund, DIFC is close to non-negotiable; if you trade commodities, DMCC; if you move goods, JAFZA; if you build software or produce media, the TECOM zones. Picking the zone that matches your work gives you the right licence categories and the right neighbours.",
+          "Then set your budget. If your activity is general business, consultancy, e-commerce, or freelancing, a cost-effective zone like IFZA or Meydan will usually do the job for a fraction of the premium zones. Reserve DIFC and DMCC for cases where the address, the legal framework, or the sector community genuinely adds value.",
+          "Count the real first-year cost, not the headline. A licence advertised at around AED 12,900 can land closer to AED 25,000 to 31,500 once you add the establishment card, one or more residence visas, any office or flexi-desk requirement, and medical insurance. Ask each zone for an all-in quote for your exact visa count.",
+          "Check the visa allocation. Zero-visa packages are cheapest but let you sponsor no one, including yourself for residency. If you need a residence visa, choose a package that includes at least one, and confirm the per-visa cost, often around AED 3,000 to 4,500 each.",
+          "Think about renewals. Annual renewal is typically 70 to 85 percent of the first-year figure, so a slightly cheaper zone compounds in your favour over several years. Factor the ongoing cost, not just the entry price."
+        ]
+      },
+      {
+        "heading": "Free zone, mainland, or freelance permit",
+        "body": [
+          "Free zone company. Best when you want 100% ownership, trade internationally or within your zone, and value a sector cluster. It is the default route for most foreign founders setting up in Dubai.",
+          "Mainland company. Best when you need to sell directly to the UAE domestic market or to hold certain government contracts. Many activities now allow full foreign ownership on the mainland too, so this is no longer only for those needing a local partner.",
+          "Freelance permit. Best for individuals offering a service under their own name, such as consultants, designers, and content creators, without forming a full company. Several free zones issue freelance permits at a lower cost than a standard company licence, and they can support a residence visa.",
+          "If you are unsure between a company and a freelance permit, our guides on how to set up a company in Dubai and how to get a freelance visa walk through each route in detail, and our team can point you to the right starting point."
+        ]
+      },
+      {
+        "heading": "How EQT fits in",
+        "body": [
+          "We are a Dubai real estate advisory, not a company formation agent, so we will not sell you a licence. What we do is help the founders and relocating families who set up here find the right home, whether that is a Palm Jumeirah residence, a villa in a gated community, or an investment property.",
+          "Many of our clients arrive in Dubai to launch or move a business, then look for somewhere to live and invest. We are happy to introduce you to reputable setup specialists for the licensing side, and to guide the property side ourselves once your plans are clear.",
+          "If you are weighing a move to Dubai and want a clear read on the property market alongside your setup decision, speak to our team and we will give you an honest, no-pressure view."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a Dubai free zone in simple terms?",
+        "answer": "It is a designated business area with its own regulator and its own incentives, where a foreign founder can own a company outright, pay no customs duty on goods inside the zone, and repatriate profits freely. Each zone focuses on a particular sector."
+      },
+      {
+        "question": "Which Dubai free zone is cheapest?",
+        "answer": "Among the well-known Dubai zones, IFZA and Meydan are usually the most cost-effective, with headline licences from roughly AED 12,500 to AED 12,900 in 2026. The true first-year cost is higher once cards, visas, office, and insurance are added, so ask for an all-in quote."
+      },
+      {
+        "question": "Which free zone is best for my business?",
+        "answer": "Match the zone to your activity first. DIFC for finance, DMCC for trading and commodities, Dubai Internet City and Dubai Media City for tech and media, JAFZA for logistics, and IFZA or Meydan for cost-effective general business. Then compare all-in cost."
+      },
+      {
+        "question": "Do free zone companies pay tax in Dubai?",
+        "answer": "There is no personal income tax, but the UAE has a 9 percent corporate tax from 2023. Free zone companies can access a 0 percent rate only on qualifying income under specific conditions, so free zone status does not guarantee an exemption. Take professional advice on your case."
+      },
+      {
+        "question": "Can a free zone company sell in the UAE mainland?",
+        "answer": "Not directly, in most cases. A free zone company is set up to operate within its zone and trade internationally. Selling into the mainland market usually needs a local distributor or agent, or a separate mainland licence. Confirm the rules for your activity."
+      },
+      {
+        "question": "Can I get a residence visa through a free zone?",
+        "answer": "Yes, most zones let you sponsor a residence visa through your company, and many offer freelance permits that also support a visa. Zero-visa packages are cheaper but sponsor no one, so choose a package that includes at least one visa if you need residency."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to set up a company in Dubai",
+        "href": "/blog/how-to-set-up-company-in-dubai"
+      },
+      {
+        "label": "How to get a freelance visa in Dubai",
+        "href": "/blog/dubai-freelance-visa"
+      },
+      {
+        "label": "Do you pay tax in Dubai?",
+        "href": "/blog/do-you-pay-tax-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai free zones",
+      "best free zone Dubai 2026",
+      "DMCC vs DIFC",
+      "IFZA free zone cost",
+      "Meydan free zone",
+      "JAFZA logistics",
+      "Dubai company setup",
+      "free zone benefits"
+    ]
+  },
+  {
+    "slug": "dubai-tourist-visa-guide",
+    "title": "Dubai Tourist Visa: 30-Day, 60-Day and Extensions (2026)",
+    "excerpt": "Many enter Dubai visa-free or on arrival; others need a 30 or 60-day tourist visa, or a 5-year multi-entry one. Rules vary by passport, so check.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa rising above the city, a common first view for visitors arriving on a tourist visa",
+      "tone": "#141821"
+    },
+    "intro": "Whether you need a Dubai tourist visa depends entirely on your passport. Citizens of many countries, including EU states, the UK, the US, Canada and Australia, enter visa-free for 30 or 90 days. Some nationalities qualify for a visa on arrival, often when they hold residence or a valid visa from an approved country. Everyone else applies in advance for a 30-day or 60-day tourist visa, available in single or multiple-entry form, and there is also a 5-year multi-entry tourist visa. Fees are modest and indicative, extensions are possible, and applications can be arranged through an airline, hotel, agent or the ICP portal. Crucially, a tourist visa does not grant residence or the right to work. Rules change often, so always check current requirements for your nationality before you travel.",
+    "keyTakeaways": [
+      "Around 70-plus nationalities enter the UAE either visa-free or with a visa on arrival, so many visitors need no advance application at all.",
+      "Paid tourist visas come in 30-day and 60-day options, each available as single-entry or multiple-entry, with indicative fees from roughly AED 350 upward.",
+      "A 5-year multi-entry tourist visa exists, allowing repeat visits with stays capped per entry and no local sponsor required.",
+      "Extensions are generally available, adding around 30 days at a time up to a 90-day total, for an indicative fee per extension.",
+      "A tourist visa is strictly for visiting; it does not grant UAE residence or any right to work.",
+      "Requirements vary by nationality and change frequently, so confirm the latest rules before booking travel."
+    ],
+    "sections": [
+      {
+        "heading": "Visa-free, visa on arrival or apply in advance",
+        "body": [
+          "The first question is not which visa to buy, but whether you need one at all. The UAE splits visitors into three broad groups, and your passport decides which applies to you.",
+          "Visa-free entry: citizens of many countries can enter for tourism without arranging anything in advance. Depending on nationality this is commonly a 30-day or a 90-day stay, and the 90-day allowance is typically counted within a rolling 180-day window. This group includes EU and EEA states, the UK, the US, Canada, Australia, New Zealand and several East Asian nations, among others. GCC nationals move even more freely and can enter using a passport or national ID.",
+          "Visa on arrival: some nationalities who are not visa-free can still get a visa stamped at the airport, often on the condition that they hold a valid visa or residence permit from an approved country such as the US, UK, an EU state, Canada or Japan. The stay granted this way varies.",
+          "Apply in advance: everyone else arranges a tourist visa before travelling. That is the paid tourist visa this guide covers next. Because these lists are updated regularly, treat any nationality summary as indicative and verify your own status before booking."
+        ]
+      },
+      {
+        "heading": "The 30-day and 60-day tourist visas",
+        "body": [
+          "If you do need to apply, the two everyday options are the 30-day and the 60-day tourist visa. Both are genuine visit visas, and both come in single-entry and multiple-entry versions.",
+          "Single-entry means one trip: you enter once, and the visa is used up when you leave. It suits a straightforward holiday or a single business trip.",
+          "Multiple-entry means you can come and go several times while the visa is valid, which helps if you plan to hop to a neighbouring country and return, or visit twice in a short period. Multiple-entry versions cost more than single-entry.",
+          "The 30-day visa is the standard short-stay choice; the 60-day visa doubles the time on the ground and is popular with visitors combining leisure with property viewings or longer family stays. Validity for use after issue and the exact permitted stay are set on the visa itself, so read the dates carefully rather than assuming."
+        ]
+      },
+      {
+        "heading": "The 5-year multi-entry tourist visa",
+        "body": [
+          "For frequent visitors, the UAE offers a 5-year multiple-entry tourist visa. It is aimed at people who return regularly but do not want, or do not qualify for, residence.",
+          "The headline features are that it is self-sponsored, so no local host or guarantor is required, and it stays valid for five years, letting you enter repeatedly across that period.",
+          "There are limits on how long you can stay each time. Reported terms cap a single continuous stay at 90 days, extendable once, with an overall ceiling on days spent in the country within a 12-month window. Applicants have also been asked to show proof of funds, for example a minimum bank balance held over the months before applying.",
+          "The indicative total fee has been reported at around AED 3,713, part of which is a refundable security deposit. Because the precise conditions, fund thresholds and fees are set by the authorities and can change, confirm the current terms directly before applying."
+        ]
+      },
+      {
+        "heading": "How and where to apply",
+        "body": [
+          "There are several legitimate routes to a UAE tourist visa, and the right one often depends on how you are travelling.",
+          "Through your airline: several UAE carriers arrange tourist visas for their passengers as part of the booking, which is one of the simplest options if you are flying with them.",
+          "Through a hotel: some hotels and tour operators can sponsor or arrange a visit visa for guests as part of a package.",
+          "Through a licensed agent: registered visa agents and travel agencies handle the paperwork on your behalf, which many visitors find convenient.",
+          "Through the government portal: applications can be made online via the federal ICP channel, or through the relevant residency directorate. You will generally need a passport valid for at least six months, a passport-style photo, and your travel details. Whichever route you choose, use an official or reputable provider and keep copies of everything."
+        ]
+      },
+      {
+        "heading": "Extending your stay",
+        "body": [
+          "If you want to stay longer than your visa allows, extensions are usually possible without leaving the country, though the specifics depend on the visa you hold.",
+          "As a general pattern, a 30-day tourist visa can often be extended in 30-day steps, and a 60-day visa extended once, with a common overall cap of around 90 days in total before you must exit. Each extension carries its own indicative fee.",
+          "Extensions are requested before your current visa expires. Leaving it late matters, because overstaying now attracts a daily fine that begins as soon as the visa ends, with little or no grace period, so track your dates closely.",
+          "If your plans keep growing, that is often the signal to look at a different status altogether, such as the 5-year multi-entry visa for repeat visits, or a proper residence route if you intend to base yourself in the UAE. The figures here are indicative and can change, so confirm current extension fees and limits before relying on them."
+        ]
+      },
+      {
+        "heading": "What a tourist visa does not do",
+        "body": [
+          "It is worth being clear about the limits of a tourist visa, because the distinction matters for anyone thinking about a longer future in Dubai.",
+          "A tourist visa lets you visit. It does not grant UAE residence, it does not give you the right to work, and it is not a step that automatically converts into either. Working on a visit visa is not permitted.",
+          "If your goal is to live in Dubai, run a business or be employed here, you need a residence visa, which comes through routes such as employment, company ownership, property investment or the various long-term Golden and remote-work options. Those are separate processes with their own criteria.",
+          "For many of our clients, a tourist visa is simply the first look: a trip to view homes and neighbourhoods before deciding whether to invest or relocate. If that is where you are, we are happy to help you plan viewings around your visit, and to explain how a property purchase can connect to longer-term residence options. Always confirm the current rules for your nationality, as this guide is general information and not legal or immigration advice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a tourist visa to visit Dubai?",
+        "answer": "It depends on your passport. Many nationalities, including EU states, the UK, the US, Canada and Australia, enter visa-free for 30 or 90 days. Others get a visa on arrival, often if they hold a valid visa or residence from an approved country. The rest apply in advance. Check your own nationality's current rules before travelling."
+      },
+      {
+        "question": "What is the difference between the 30-day and 60-day tourist visa?",
+        "answer": "Both are visit visas; the difference is how long you can stay, either roughly 30 or 60 days. Each is available as single-entry, for one trip, or multiple-entry, letting you leave and return during the validity period. Multiple-entry versions cost more. The exact permitted stay and validity are printed on the visa."
+      },
+      {
+        "question": "How much does a Dubai tourist visa cost?",
+        "answer": "Fees are indicative and vary by provider and visa type. A 30-day visa commonly starts from around AED 350 upward, with 60-day and multiple-entry versions costing more. The 5-year multi-entry visa has been reported at around AED 3,713 including a refundable deposit. Confirm current pricing before you apply."
+      },
+      {
+        "question": "Can I extend my Dubai tourist visa?",
+        "answer": "Usually yes, and often without leaving the country. A 30-day visa can typically be extended in 30-day steps and a 60-day visa once, with a common overall cap of about 90 days. Each extension has its own indicative fee. Apply before your visa expires, because overstay fines start straight away."
+      },
+      {
+        "question": "What is the 5-year multi-entry tourist visa?",
+        "answer": "It is a self-sponsored visa, needing no local host, that stays valid for five years and allows repeat entries. Each continuous stay is capped, commonly at 90 days extendable once, with an annual limit on total days. Applicants may need to show proof of funds. Confirm the current terms directly before applying."
+      },
+      {
+        "question": "Can I work or live in Dubai on a tourist visa?",
+        "answer": "No. A tourist visa is only for visiting. It does not grant residence and does not give the right to work. To live or work in Dubai you need a residence visa through routes such as employment, business ownership, property investment or long-term Golden and remote-work options, each with its own criteria."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai tourist visa",
+      "UAE 30-day tourist visa",
+      "UAE 60-day tourist visa",
+      "5-year multi-entry visa UAE",
+      "Dubai visa on arrival",
+      "UAE visa-free entry",
+      "Dubai tourist visa extension",
+      "Dubai visa fees 2026"
+    ]
+  },
+  {
+    "slug": "how-to-attest-documents-for-uae",
+    "title": "How to Attest Your Documents for the UAE (Degrees & Certificates)",
+    "excerpt": "Attesting UAE documents means a chain: notarise at home, then your foreign ministry, the UAE embassy, and finally MOFAIC after arrival.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10593631/pexels-photo-10593631.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Official documents and certificates laid out with a pen ready for signing and stamping",
+      "tone": "#141821"
+    },
+    "intro": "To use a foreign degree, marriage certificate or birth certificate in the UAE, you generally have to attest it, meaning a chain of official stamps that proves it is genuine. Based on current guidance, the usual chain is: notarise or verify the document in the issuing country, get it attested by that country's foreign ministry, have the UAE embassy or consulate there legalise it, and then complete the final step with the UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC) after you arrive. Attestation is normally needed for work visas, family sponsorship and school enrolment. Rules, fees and timelines change and vary by country, so always confirm the current requirements with the relevant authorities before you start.",
+    "keyTakeaways": [
+      "Attestation is a chain of stamps proving a foreign document is genuine, not a single step.",
+      "The typical order is home-country notary or authority, then that country's foreign ministry, then the UAE embassy there, then UAE MOFAIC.",
+      "You usually need it for work visas, family sponsorship and enrolling children in school.",
+      "Common documents are degrees, marriage certificates and birth certificates.",
+      "Doing the home-country and embassy steps before you leave is often easier than arranging them from Dubai.",
+      "Fees and timelines vary widely by country and urgency, so confirm current requirements first."
+    ],
+    "sections": [
+      {
+        "heading": "Why attestation is needed",
+        "body": [
+          "Attestation is the process of getting official stamps that confirm a document issued in one country is genuine and can be legally recognised in another. UAE authorities will not simply take a foreign certificate at face value, so they ask for this chain of verification before the document can be used for official purposes.",
+          "In practice, most newcomers meet attestation for three reasons. The first is a work visa or employment permit, where your degree certificate usually has to be attested so your qualification is recognised. The second is family sponsorship, where a marriage certificate is generally needed to sponsor a spouse and birth certificates to sponsor children. The third is school enrolment, where schools often ask for attested birth certificates and previous school records.",
+          "Because the exact list depends on your employer, the relevant government department and your nationality, treat the categories here as a general guide and confirm what applies to your situation."
+        ]
+      },
+      {
+        "heading": "Which documents usually need it",
+        "body": [
+          "The documents that most often need attestation fall into two groups: educational and personal. Educational documents typically include your degree certificate, and sometimes diplomas, transcripts or professional qualifications where a role requires them.",
+          "Personal documents commonly include marriage certificates, used mainly for sponsoring a spouse, and birth certificates, used for sponsoring children and for school enrolment. Depending on your circumstances you may also be asked about other documents, such as police clearance certificates, but requirements differ by case.",
+          "A practical tip is to gather originals early and check whether you need certified copies as well. Some steps in the chain work on the original document, so confirm this before you post anything or hand it over."
+        ]
+      },
+      {
+        "heading": "The attestation chain, step by step",
+        "body": [
+          "The attestation chain generally moves from local to national to international, and each stamp depends on the one before it. Skipping a step usually means the next authority will not accept the document.",
+          "Step one is in the issuing country. Depending on the document and country, this means having it verified or notarised, for example by the issuing university or education authority for a degree, or by a notary or the relevant registry for a marriage or birth certificate.",
+          "Step two is attestation by that country's foreign ministry or equivalent department, which adds a national-level stamp confirming the earlier verification.",
+          "Step three is legalisation by the UAE embassy or consulate located in that country, which is the UAE's own confirmation before the document travels.",
+          "Step four is the final attestation by the UAE Ministry of Foreign Affairs and International Cooperation, known as MOFAIC, which is typically completed once you are in the UAE. Reporting suggests this final stage is now largely handled digitally, so confirm the current online process when you reach it."
+        ]
+      },
+      {
+        "heading": "Before you leave versus after you arrive",
+        "body": [
+          "A common question is how much to do at home and how much to leave until you reach Dubai. As a general rule, the home-country and UAE embassy steps are easier to arrange while you are still in that country, because you have access to the issuing bodies, the foreign ministry and the local UAE mission.",
+          "If you attempt those steps after moving, you often have to post original documents back home or appoint someone there to act for you, which adds time, cost and risk of loss. The final MOFAIC step, by contrast, is designed to be done from within the UAE.",
+          "That said, timing is not always in your control, and some people only learn which documents they need after a job offer arrives. If you are already in Dubai, agencies and courier-based services can still help complete the earlier steps remotely. Plan as early as you can and confirm the sequence for your specific country."
+        ]
+      },
+      {
+        "heading": "Using agencies and typical timelines and costs",
+        "body": [
+          "Many people use a licensed attestation agency to manage the chain, especially the parts that involve posting documents between countries. A good agency can save time and reduce errors, but you are trusting them with original documents, so check reviews, confirm what is included and get the steps and fees in writing.",
+          "Timelines vary widely. Some published guidance suggests the overall process can take roughly one to two weeks or more depending on the country and how busy the authorities are, while the final MOFAIC step is often quoted as a few business days. Express options may be available at higher cost.",
+          "Costs are similarly variable. Reporting indicates a MOFAIC fee in the region of AED 150 per document, with total attestation costs frequently cited anywhere from a few hundred dirhams to well over AED 1,000 once home-country fees, embassy fees and agency charges are added. Treat all of these figures as indicative only, because they change and depend heavily on your country and urgency. Always confirm the current fees before you commit."
+        ]
+      },
+      {
+        "heading": "Confirming current requirements",
+        "body": [
+          "The single most important habit with attestation is to verify the current rules before you start, because processes, fees and even the availability of digital services change over time and differ by nationality and document type.",
+          "Check the official MOFAIC channels for the UAE-side steps, the website of the UAE embassy or consulate in your home country for the legalisation step, and your own country's foreign ministry or education authority for the earlier steps. Your prospective employer or your children's school can often tell you exactly which documents they will accept, which saves attesting things you do not need.",
+          "This guide is general information, not legal or immigration advice, and it is not exhaustive. For anything that affects your visa, sponsorship or enrolment, confirm the details with the relevant authorities or a qualified adviser before acting."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does attesting a document actually mean?",
+        "answer": "It means obtaining a chain of official stamps that proves a document issued in one country is genuine so it can be legally recognised in the UAE. Each stamp in the chain confirms the previous one, and the final step is normally completed with UAE MOFAIC."
+      },
+      {
+        "question": "Which documents do I usually need to attest for the UAE?",
+        "answer": "Most commonly your degree certificate for a work visa, a marriage certificate for sponsoring a spouse, and birth certificates for sponsoring children or enrolling them in school. The exact list depends on your nationality and situation, so confirm what applies to you."
+      },
+      {
+        "question": "What is the usual order of the attestation chain?",
+        "answer": "Generally: verify or notarise the document in the issuing country, then get your home country's foreign ministry to attest it, then have the UAE embassy or consulate there legalise it, and finally complete MOFAIC attestation, usually after you arrive in the UAE. Confirm the current sequence for your country."
+      },
+      {
+        "question": "Should I attest documents before I move or after?",
+        "answer": "Where possible, complete the home-country and UAE embassy steps before you leave, because you have direct access to the issuing bodies and the local UAE mission. The final MOFAIC step is designed to be done from within the UAE. If you are already in Dubai, courier-based services can still help."
+      },
+      {
+        "question": "How much does attestation cost and how long does it take?",
+        "answer": "It varies widely by country and urgency. Reporting suggests a MOFAIC fee around AED 150 per document, with total costs often ranging from a few hundred to over AED 1,000 once all fees are added. Timelines are commonly cited from roughly one to two weeks or more. Treat these as indicative and confirm current figures."
+      },
+      {
+        "question": "Is it worth using an attestation agency?",
+        "answer": "Many people use one to manage posting documents between countries and to reduce errors. It can save time, but you are entrusting original documents to a third party, so check reviews, confirm exactly what is included, and get the steps and fees in writing before you proceed."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Dubai family visa: sponsoring spouse and children",
+        "href": "/blog/dubai-family-visa-sponsor-spouse-children"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "UAE document attestation",
+      "degree certificate attestation UAE",
+      "MOFAIC attestation",
+      "UAE embassy legalisation",
+      "attest marriage certificate UAE",
+      "attest birth certificate UAE",
+      "UAE work visa attestation",
+      "Dubai document attestation chain"
+    ]
+  },
+  {
+    "slug": "how-to-set-up-company-in-dubai",
+    "title": "How to Set Up a Company in Dubai: Mainland vs Free Zone (2026)",
+    "excerpt": "Two routes: a mainland licence from the Department of Economy and Tourism, or a free zone. Both now allow 100% foreign ownership in most cases.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Modern Dubai business district skyline with glass office towers at dusk",
+      "tone": "#141821"
+    },
+    "intro": "There are two main ways to set up a company in Dubai. You can take a mainland licence, issued by Dubai's Department of Economy and Tourism (DET), or you can register inside one of the emirate's free zones. Both routes now allow 100% foreign ownership in most activities, so you rarely need an Emirati partner. The right choice depends on where your customers are. A mainland company can trade freely across the UAE market and bid for government work, while a free zone offers quick, low-cost setup, sector clusters and customs benefits for firms that trade mainly abroad. The core steps are similar: choose your activity and legal form, reserve a name, get initial approvals, pay for the licence, then apply for residence visas. Costs vary widely, so treat every figure here as indicative and confirm current pricing before you commit.",
+    "keyTakeaways": [
+      "Mainland companies are licensed by the Department of Economy and Tourism (DET) and can trade anywhere in the UAE, including selling directly to local consumers and bidding for government contracts.",
+      "Free zones offer faster, cheaper setup, ready sector clusters and customs benefits, but are best suited to firms whose customers are mainly outside the UAE.",
+      "100% foreign ownership is now available across most mainland commercial activities and in every free zone, so a local partner is no longer needed in the vast majority of sectors.",
+      "A small number of strategic activities, such as certain defence, oil and gas, and security services, still carry ownership or approval restrictions.",
+      "Indicative first-year costs commonly run from roughly AED 12,500 to AED 25,000 for a basic package, though premium zones and extra visas push this much higher.",
+      "Your licence underpins investor or partner residence visas, and profits are generally taxed at 9% above AED 375,000 under UAE corporate tax."
+    ],
+    "sections": [
+      {
+        "heading": "The two main routes: mainland and free zone",
+        "body": [
+          "Almost every company setup in Dubai follows one of two paths. A mainland company is licensed directly by the Department of Economy and Tourism, the emirate authority still often referred to by its former name, the Department of Economic Development (DED). A free zone company is registered instead with one of dozens of independent free zone authorities, each running its own registry, rules and licence packages.",
+          "The practical difference is where you are allowed to do business. A mainland licence lets you trade openly across the whole UAE domestic market, take on local clients, open shops or offices anywhere in the country and compete for government tenders. A free zone company is designed mainly for trade with other free zone firms and for business outside the UAE, and it typically cannot sell directly into the local market without appointing a mainland distributor or opening a separate mainland branch.",
+          "Neither route is automatically better. It comes down to your customer base, your budget and whether you value the flexibility of the mainland or the speed and packaged convenience of a free zone."
+        ]
+      },
+      {
+        "heading": "100% foreign ownership: what changed",
+        "body": [
+          "For many years, a mainland company usually required a UAE national to hold 51% of the shares. Reforms that took effect from 2021, following amendments to the Commercial Companies Law, removed that requirement for most activities. Today foreign investors can own 100% of a mainland company across the vast majority of commercial, professional, industrial and consultancy activities, with no local partner needed.",
+          "Free zones have always offered 100% foreign ownership, and that remains the case. So on the ownership question alone, the two routes are now broadly level for most businesses.",
+          "There are still exceptions. A limited set of strategic activities, reported to be around a dozen sectors, keeps ownership or special approval conditions. These typically include areas such as oil and gas exploration, defence and military supply, certain security services, and some banking and telecommunications activities. Because the approved lists are updated over time, you should always confirm that your specific activity qualifies for full foreign ownership before you file."
+        ]
+      },
+      {
+        "heading": "The trade-offs: mainland strengths versus free zone strengths",
+        "body": [
+          "Mainland is the stronger choice if you want to serve the UAE market directly. You can sell to local consumers and businesses without a distributor, open branches across the emirates, and bid for government and semi-government contracts, which are effectively closed to pure free zone entities. Mainland companies usually need a physical office registered on the Ejari tenancy system, which adds cost but also supports larger visa allocations.",
+          "Free zones are built for speed and simplicity. Setup tends to be faster and cheaper, often with bundled packages that include a flexi-desk, a set number of visas and a single point of contact. Many zones are organised as sector clusters, for example technology, media, commodities, healthcare or logistics, which can bring you closer to peers, regulators and customers in your field.",
+          "Free zones also offer customs benefits. Goods can generally be imported into a free zone, stored and re-exported without local customs duty, which suits trading, warehousing and re-export businesses. The trade-off is reach: to sell those goods into the UAE market you normally pay the standard import duty and route through a mainland channel."
+        ]
+      },
+      {
+        "heading": "The steps to set up, in order",
+        "body": [
+          "The process is similar for both routes. First, choose your business activity or activities from the relevant authority's approved list, because this determines your licence type, such as commercial, professional, industrial or tourism.",
+          "Second, choose a legal form. Common options include a limited liability company (LLC) for mainland, or a Free Zone Company (FZC) or Free Zone Establishment (FZE) inside a zone, along with branches of existing companies.",
+          "Third, reserve and register your trade name, following the UAE's naming rules, and obtain initial approval that the authority has no objection to you starting the business.",
+          "Fourth, sort out your premises and documents. This can mean signing an office lease and registering it on Ejari for a mainland company, or selecting a flexi-desk or office package in a free zone, then preparing the memorandum of association and any activity-specific external approvals.",
+          "Fifth, pay the fees and collect your trade licence. Finally, apply for your establishment card and residence visas, which involves medical testing and Emirates ID registration for you and any staff you sponsor. Timelines vary, but a straightforward free zone licence can be issued in a few working days, with visas typically taking a few more weeks."
+        ]
+      },
+      {
+        "heading": "Rough cost bands (indicative only)",
+        "body": [
+          "Costs depend heavily on the activity, the authority, your office needs and how many visas you want, so please treat all figures as indicative and verify current pricing directly. As a rough guide reported for 2026, a budget free zone package with one visa and a flexi-desk often falls somewhere around AED 12,500 to AED 25,000 in the first year, with the most cost-conscious licence packages starting lower still.",
+          "Premium zones and financial centres cost considerably more, running into tens of thousands of dirhams once you add offices and multiple visas. Mainland setup is frequently quoted from around AED 15,000 upward, but the mandatory physical office and Ejari registration can add meaningfully to the total, and larger premises unlock more visa slots.",
+          "Beyond the headline licence fee, budget for recurring items: annual licence renewal, office rent, visa issuance and renewal every few years, an establishment card, medical and Emirates ID fees, and any external regulatory approvals your activity needs. A realistic all-in first-year figure is usually higher than the advertised starting price, so ask each provider for a full written quote."
+        ]
+      },
+      {
+        "heading": "How it links to residence visas and corporate tax",
+        "body": [
+          "Your company licence is what makes you eligible to sponsor UAE residence visas. As an owner you can typically apply for an investor or partner visa, and your licence and office size determine how many staff visas you can issue. This is a common reason entrepreneurs and relocating families set up a company: it provides a route to residence, an Emirates ID and the ability to sponsor family members. A separate 10-year Golden Visa route also exists for qualifying investors and specialists, with its own criteria.",
+          "On tax, the UAE introduced federal corporate tax that applies to financial years starting on or after 1 June 2023. The headline structure is 0% on taxable profits up to AED 375,000 and 9% above that threshold. A temporary Small Business Relief allows eligible resident businesses with revenue at or below AED 3 million to elect to be treated as having no taxable income, but that relief is currently set to apply only to tax periods ending on or before 31 December 2026, so confirm whether it is still available when you file.",
+          "Free zones can offer a 0% rate, but only for a Qualifying Free Zone Person earning Qualifying Income, with adequate economic substance and transfer pricing compliance in place. Income that does not qualify is taxed at 9%. The rules are detailed and change over time, so this is general information, not tax advice. Speak to a licensed tax adviser and business setup specialist before you decide."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I still need a local Emirati partner to set up in Dubai?",
+        "answer": "In most cases, no. Since the 2021 reforms, foreign investors can own 100% of a mainland company across the vast majority of activities, and free zones have always allowed full foreign ownership. Only a small set of strategic activities still carry local ownership or special approval conditions, so check that your specific activity qualifies before you file."
+      },
+      {
+        "question": "What is the main difference between mainland and free zone?",
+        "answer": "A mainland company, licensed by the Department of Economy and Tourism, can trade freely across the entire UAE market and bid for government contracts. A free zone company is designed for business within its zone and outside the UAE, offers faster and often cheaper setup, sector clusters and customs benefits, but usually cannot sell directly into the local market without a mainland channel."
+      },
+      {
+        "question": "How much does it cost to set up a company in Dubai?",
+        "answer": "Costs vary widely by activity, authority, office and visa count, so treat any figure as indicative. As a rough 2026 guide, a basic free zone package with one visa often falls around AED 12,500 to AED 25,000 in the first year, while mainland setup is frequently quoted from around AED 15,000 upward before office and visa costs. Always get a full written quote."
+      },
+      {
+        "question": "What are the steps to register a company?",
+        "answer": "Choose your activity, then your legal form, then reserve a trade name and get initial approval. Next sort out premises and documents, such as an Ejari office lease for mainland or a flexi-desk package in a free zone, plus the memorandum and any external approvals. Then pay the fees to collect your licence, and finally apply for your establishment card and residence visas."
+      },
+      {
+        "question": "Does setting up a company give me a residence visa?",
+        "answer": "Yes, a trade licence makes you eligible to sponsor UAE residence visas. Owners can usually apply for an investor or partner visa, and the licence and office size determine how many staff visas you can issue. Getting the visa involves medical testing and Emirates ID registration, and lets you sponsor family members. A separate Golden Visa route also exists for qualifying investors."
+      },
+      {
+        "question": "How much corporate tax will my Dubai company pay?",
+        "answer": "UAE corporate tax is generally 0% on taxable profits up to AED 375,000 and 9% above that. A temporary Small Business Relief can reduce this to nil for eligible firms with revenue up to AED 3 million, but currently only for periods ending on or before 31 December 2026. Free zones can access a 0% rate on qualifying income if strict conditions are met. Confirm the current rules with a licensed tax adviser."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai free zones explained",
+        "href": "/blog/dubai-free-zones-explained"
+      },
+      {
+        "label": "Do you pay tax in Dubai?",
+        "href": "/blog/do-you-pay-tax-in-dubai"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "set up a company in Dubai",
+      "Dubai mainland vs free zone",
+      "Department of Economy and Tourism licence",
+      "100% foreign ownership UAE",
+      "Dubai free zone company setup 2026",
+      "Dubai business licence cost",
+      "UAE corporate tax 9%",
+      "Dubai investor visa"
+    ]
+  },
+  {
+    "slug": "moving-to-dubai-with-pets",
+    "title": "Moving to Dubai with Pets: Import Rules and Costs (2026)",
+    "excerpt": "To bring a cat or dog to Dubai you need a MOCCAE import permit, an ISO microchip and current rabies shots. Here is the 2026 process and costs.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10486073/pexels-photo-10486073.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A relaxed dog resting at home, ready to relocate to Dubai with its family",
+      "tone": "#141821"
+    },
+    "intro": "Yes, you can move to Dubai with your cat or dog, and quarantine is generally not required if your paperwork is fully in order. Before travel you must obtain an import permit from the Ministry of Climate Change and Environment (MOCCAE), fit your pet with an ISO-standard microchip, and keep its rabies vaccination current. Your pet flies as manifested cargo rather than in the cabin, and is inspected on arrival. Certain dog breeds are banned outright, and pets from higher-risk rabies countries need an extra blood test. Rules and fees change, so treat everything below as an indicative guide and confirm current requirements with MOCCAE before you book anything.",
+    "keyTakeaways": [
+      "A MOCCAE import permit is mandatory, applied for online before travel, and is typically valid for around 30 days.",
+      "Your pet needs a 15-digit ISO microchip and a rabies vaccination given at least 21 days before travel and less than 12 months old.",
+      "Pets from higher-risk rabies countries also need a rabies antibody (titre) blood test; many low-risk countries are exempt.",
+      "Several dog breeds, including pit bull and many mastiff types, are banned; some others such as Rottweilers need a permit.",
+      "Quarantine is generally not required when documentation is complete and accurate.",
+      "Budget roughly AED 8,000 to AED 35,000 all-in, and start the process three to four months ahead."
+    ],
+    "sections": [
+      {
+        "heading": "The MOCCAE import permit",
+        "body": [
+          "The central document for bringing a pet into the UAE is an import permit issued by the Ministry of Climate Change and Environment, known as MOCCAE. You apply online through the MOCCAE services portal before you travel, and the permit is generally valid for a limited window of around 30 days, so timing matters.",
+          "The permit fee itself is modest, commonly cited at around AED 200, though additional charges apply at other stages. As a rule, individuals may import a limited number of animals per year, often described as up to two cats or two dogs, or one of each. If you are moving more animals, or relocating a breeding or working situation, the rules differ and you should ask MOCCAE directly.",
+          "Fees, validity periods and annual limits can change, so verify the current figures on the official MOCCAE portal before you rely on them."
+        ]
+      },
+      {
+        "heading": "Microchip and vaccination requirements",
+        "body": [
+          "Your pet must be fitted with a permanent microchip that meets the ISO 11784/11785 standard, which is the common 15-digit chip readable by standard scanners. The chip number recorded on the health paperwork must match the chip actually implanted in your animal, so ask your vet to check this carefully.",
+          "A current rabies vaccination is the other core requirement. As a general guide, the rabies shot should be given at least 21 days before travel and be no more than 12 months old on arrival. Importantly, the microchip should be in place before, or on the same day as, the rabies vaccination, otherwise that vaccination may not be accepted.",
+          "Alongside rabies, pets are normally expected to be up to date on core vaccinations, and dogs and cats travel with a government-endorsed veterinary health certificate from the country of origin, usually issued within roughly ten days of travel. Exact vaccine lists and certificate timing vary by country, so confirm with MOCCAE and your exporting vet."
+        ]
+      },
+      {
+        "heading": "The rabies titre test and country risk",
+        "body": [
+          "MOCCAE classifies countries by rabies risk. Pets travelling from a country the UAE treats as low risk can often enter without an antibody blood test, while pets from higher-risk countries usually need a rabies antibody titre test, sometimes called RNATT or FAVN.",
+          "This test measures the level of rabies antibodies in the blood, and the result generally needs to meet a minimum threshold of around 0.5 IU/ml. Because the sample has to be drawn, sent to an approved laboratory and returned, and because a waiting period can follow, this step alone can add weeks or months to your timeline.",
+          "Whether your origin country counts as low or high risk is the single biggest factor in how long your relocation takes, so check your country's current classification with MOCCAE early."
+        ]
+      },
+      {
+        "heading": "Restricted and banned breeds",
+        "body": [
+          "The UAE bans several dog breeds outright, and banned dogs cannot be imported or registered. The list commonly includes pit bull types such as the American Pit Bull Terrier and American Staffordshire Terrier, many mastiff types, and breeds such as the Japanese Tosa and the Presa Canario, along with crosses of these breeds.",
+          "A separate group of breeds is restricted rather than banned. Dogs such as Rottweilers, Dobermans and Boxers can usually be imported but may require registration, a permit and stricter handling and muzzling rules once in the country. Rules here are enforced firmly, and an inspector who judges that a dog resembles a banned breed can refuse it even if the paperwork states otherwise.",
+          "Breed lists are updated periodically. If your dog is anywhere near a restricted or banned category, confirm its status with MOCCAE before committing to the move, as a rejected animal at the border is a serious outcome."
+        ]
+      },
+      {
+        "heading": "Using a pet relocation company, transport and arrival",
+        "body": [
+          "You can manage the process yourself, but many families use a specialist pet relocation company. A good agent handles the MOCCAE permit, coordinates vet visits and the titre test where needed, books an IATA-compliant crate and cargo flight, and manages the paperwork and clearance on arrival. This costs more but removes most of the risk of a small error derailing the move.",
+          "In almost all cases, pets travel to the UAE as manifested cargo rather than in the cabin, using an airline-approved crate that meets IATA size and ventilation rules. On arrival, animals are inspected at the entry port, with an inspection fee commonly cited at around AED 500 per dog and AED 250 per cat.",
+          "Provided all documentation is complete and accurate, quarantine is generally not required, and pets are typically released to their owners after inspection. Errors or missing documents, however, can cause delays or refusal, which is the main argument for professional help or extremely careful preparation."
+        ]
+      },
+      {
+        "heading": "Indicative costs and timeline",
+        "body": [
+          "Costs vary widely with your origin country, your pet's size and whether you use an agent. As a rough indication only, total relocation costs often fall somewhere between AED 8,000 and AED 35,000. A documented cat from a low-risk country sits near the bottom, while a large dog from a high-risk country that still needs a titre test sits near the top.",
+          "Within that, vet work and paperwork, covering the permit, vaccinations, any titre test and health certificates, might run around AED 1,000 to AED 2,500. Cargo flights and the crate can range from roughly AED 3,000 to AED 10,000 or more, with larger dogs and longer routes at the higher end. A full door-to-door relocation agent can add somewhere around AED 5,000 to AED 15,000.",
+          "On timing, it is wise to start three to four months before your move, since the rabies vaccination, any titre test and its waiting period cannot be rushed. These are indicative figures for planning only; confirm current fees with MOCCAE, your vet and any relocation company."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need an import permit to bring my pet to Dubai?",
+        "answer": "Yes. You need an import permit issued by the Ministry of Climate Change and Environment (MOCCAE), applied for online before you travel. It is generally valid for a short window of around 30 days, so apply close to your travel date and confirm the current process and fee with MOCCAE."
+      },
+      {
+        "question": "Will my pet have to go into quarantine in the UAE?",
+        "answer": "Generally no. If your microchip, vaccinations, permit and health certificate are all complete and accurate, quarantine is usually not required and pets are released after inspection at the port of entry. Missing or incorrect documents, however, can cause delays or refusal."
+      },
+      {
+        "question": "What microchip and vaccinations does my pet need?",
+        "answer": "Your pet needs a 15-digit ISO 11784/11785 microchip and a current rabies vaccination, typically given at least 21 days before travel and less than 12 months old. The microchip should be in place before or on the same day as the rabies shot. Confirm the full vaccine list with your vet and MOCCAE."
+      },
+      {
+        "question": "Which dog breeds are banned in the UAE?",
+        "answer": "Banned breeds commonly include pit bull types, many mastiff types, the Japanese Tosa and the Presa Canario, plus crosses of these. Others such as Rottweilers, Dobermans and Boxers are restricted rather than banned and may need registration and a permit. Verify your dog's status with MOCCAE before moving."
+      },
+      {
+        "question": "How much does it cost to relocate a pet to Dubai?",
+        "answer": "As an indication only, total costs often range from about AED 8,000 to AED 35,000, depending on your origin country, your pet's size and whether you use a relocation agent. A low-risk-country cat is near the bottom of that range and a large dog needing a titre test is near the top."
+      },
+      {
+        "question": "Should I use a pet relocation company?",
+        "answer": "It is optional but popular. A specialist handles the MOCCAE permit, vet steps, titre test where needed, the IATA crate, cargo flight and arrival clearance, which reduces the risk of costly errors. You can do it yourself, but the paperwork and timing must be exact."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Shipping your belongings to Dubai",
+        "href": "/blog/shipping-belongings-to-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "moving to Dubai with pets",
+      "MOCCAE pet import permit",
+      "bringing a dog to Dubai",
+      "importing pets to UAE",
+      "UAE banned dog breeds",
+      "pet relocation Dubai cost",
+      "Dubai pet import rules 2026",
+      "pet microchip rabies UAE"
+    ]
+  },
+  {
+    "slug": "shipping-belongings-to-dubai",
+    "title": "Shipping Your Belongings to Dubai: Costs and How-To (2026)",
+    "excerpt": "Sea freight is cheapest for a full home but slow; air freight is fast but costly. Costs vary widely, so always get several quotes.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Stacked shipping containers at a port terminal ready for ocean freight to the UAE",
+      "tone": "#141821"
+    },
+    "intro": "For most people moving a full household to Dubai, sea freight is the cheapest option but takes roughly 4 to 16 weeks door to door depending on origin, while air freight arrives in days but costs far more per kilo. Your total bill depends on volume, distance, whether you use a shared or full container, insurance and UAE customs handling. Used personal effects usually enter duty free if you hold a valid UAE residence visa and the goods arrive within about a month of you, though a physical inspection is common. Figures in this guide are indicative only, change with market conditions, and should never replace written quotes. Get several itemised quotes from vetted international movers before you commit.",
+    "keyTakeaways": [
+      "Sea freight suits full households and is the lowest cost per volume; air freight suits small, urgent or high-value loads.",
+      "A shared container (LCL) is cheaper for small volumes; a full container (FCL) is better for a three-bedroom home or larger.",
+      "Used household goods are generally duty free if you hold a valid UAE residence visa and goods arrive within roughly one month of you.",
+      "Core documents: passport copy, UAE residence visa or Emirates ID, detailed packing list, and a bill of lading or air waybill.",
+      "Alcohol, certain media, weapons, and items like paan and gutka are restricted or banned, so check current rules before packing.",
+      "Add transit insurance (often about 1 to 5 percent of declared value) and expect a customs inspection on arrival."
+    ],
+    "sections": [
+      {
+        "heading": "Sea freight vs air freight: cost against speed",
+        "body": [
+          "The first decision is how your belongings travel. Sea freight is the workhorse of international moves because it carries large volumes at the lowest cost per cubic metre, but it is slow. Air freight is the opposite: quick, but priced by weight, so it becomes expensive fast once you are shipping more than a few boxes.",
+          "As a rough guide for 2026, ocean transit alone runs about 12 to 18 days from China, and roughly 25 to 45 days port to port from the United States depending on the coast. Once you add packing, export handling and UAE customs, realistic door to door timelines are around 4 to 6 weeks from the UK and closer to 10 to 16 weeks from the US.",
+          "Air freight, by contrast, typically clears in a matter of days, often 2 to 6 days from major hubs. Indicative air rates have been quoted around 3 to 8 US dollars per kilo depending on route, weight band and service level. That makes air sensible for a suitcase-sized overflow, urgent items or valuables, and sea freight sensible for the bulk of a home. Many people split their move: air for a small essentials box, sea for everything else."
+        ]
+      },
+      {
+        "heading": "Shared container vs full container (LCL vs FCL)",
+        "body": [
+          "Within sea freight you choose between a shared container and a full container. A shared load, known as Less than Container Load or LCL, consolidates your goods with other shipments heading the same way and is charged by volume. A full load, known as Full Container Load or FCL, gives you exclusive use of a 20ft or 40ft container.",
+          "LCL is usually the cheaper choice for smaller volumes, such as a studio or one-bedroom flat, because you only pay for the space you use. Indicative LCL rates have been quoted from around 57 US dollars per cubic metre from China and roughly 60 to 140 US dollars per cubic metre from the US, usually with a minimum charge. The trade-off is a little more handling and slightly longer timelines while the container is consolidated and deconsolidated.",
+          "FCL tends to make sense from around a three-bedroom home upward, or when you would rather your goods were not mixed with others. Indicative full-container rates vary widely by route: for example, quotes from China have ranged roughly 3,300 to 4,100 US dollars for a 20ft and 4,700 to 6,600 US dollars for a 40ft, while US-origin containers have been quoted lower on some lanes. Ask your mover to compare LCL and FCL for your exact volume, because the crossover point shifts with the route."
+        ]
+      },
+      {
+        "heading": "Choosing an international mover",
+        "body": [
+          "The mover you pick matters more than any single line on the quote. A good international removals company handles packing, export paperwork, the ocean or air leg, UAE customs clearance and final delivery, so you are not stitching together separate suppliers.",
+          "Look for membership of recognised industry bodies, verifiable reviews, proper insurance options and a clear, itemised written quote rather than a vague headline price. Ask exactly what is included: export packing, materials, port and terminal charges, destination handling, customs clearance, delivery to your Dubai address, and any stairs or long-carry fees.",
+          "Insist on a home survey, in person or by video, before any firm quote. Beware unusually low prices that later grow with add-ons at destination. Confirm who acts as your customs broker in the UAE and whether they will manage the inspection on your behalf. Getting three comparable quotes is the single best way to sense-check both price and competence."
+        ]
+      },
+      {
+        "heading": "Documents and UAE customs",
+        "body": [
+          "To import used household goods into Dubai you will generally need a copy of your passport, a copy of your UAE residence visa or Emirates ID, and a detailed, itemised packing list of everything in the shipment. For the transport leg you will have a bill of lading for sea freight or an air waybill for air freight, and sometimes a commercial invoice.",
+          "Some shipments also need a No Objection Certificate from your sponsor or employer confirming they do not object to you importing personal goods. Requirements can vary by shipment and change over time, so confirm the current list with your mover and, where needed, the official Dubai Customs guidance.",
+          "On duty, used personal effects and household goods are generally exempt from customs tax provided you hold a valid UAE residence visa, the goods arrive within roughly one month of your own arrival, and the items show reasonable signs of use. Anything judged new or in commercial quantities can attract customs duty, commonly cited at around 5 percent. Most shipments face a physical inspection, and you typically need to be in the country for clearance, so plan your travel dates around your cargo."
+        ]
+      },
+      {
+        "heading": "Prohibited and restricted items",
+        "body": [
+          "The UAE enforces its import rules firmly, so check what you can and cannot bring before you pack. Strictly prohibited items include firearms, ammunition, explosives and weapons or items that could be used as weapons, along with narcotics, where even trace amounts carry severe penalties.",
+          "Certain products common on some routes are fully banned, including paan, betel leaves, naswar, gutka and supari, and these bans are actively enforced with no leniency for personal quantities. Printed and digital media can be restricted where content is deemed offensive or contrary to local standards, so be cautious with books, films and artwork and ask your mover if unsure.",
+          "Alcohol is restricted rather than a normal part of a household shipment. Travellers arriving are allowed a limited duty-free personal allowance, commonly cited as up to 4 litres of alcohol or two cartons of beer, and Muslim travellers may not bring alcohol at all. Do not assume you can freight a wine collection or spirits with your furniture; treat alcohol separately and confirm the current rules first."
+        ]
+      },
+      {
+        "heading": "Timelines, insurance and rough indicative costs",
+        "body": [
+          "Build in more time than the shipping leg alone suggests. Allow for a home survey, booking lead time, packing, the ocean or air transit, and customs clearance at both ends. As a planning rule, think in weeks for sea freight and days for air freight, and remember port congestion or inspections can add delay.",
+          "Insurance is worth taking. Marine or transit cover is typically quoted at around 1 to 5 percent of the declared value of your goods, and a full replacement-value policy is safer than basic limited liability. Declare items honestly and keep receipts or photos of anything valuable to support a claim.",
+          "On overall cost, a full door-to-door move for a standard three-bedroom home from the UK has been quoted in the region of 4,000 to 7,000 pounds, with a wider range of roughly 2,500 to 12,000 pounds depending on volume, access and service level. US and other origins differ again. Treat every figure here as a rough band, not a promise: real prices swing with fuel, exchange rates, shipping capacity and your exact inventory. The only reliable number is a written quote against your own packing list, so gather several and compare like for like."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is it cheaper to ship belongings to Dubai by sea or by air?",
+        "answer": "For a full household, sea freight is almost always cheaper because it is priced by volume rather than weight. Air freight costs far more per kilo but arrives in days rather than weeks, so it suits small, urgent or high-value items. Many people ship the bulk by sea and send a small essentials box by air."
+      },
+      {
+        "question": "Do I pay customs duty on my used household goods?",
+        "answer": "Used personal effects and household goods are generally exempt from UAE customs duty if you hold a valid residence visa, the goods arrive within roughly one month of your own arrival, and the items show reasonable signs of use. Items judged new or in commercial quantities can attract duty, commonly cited at around 5 percent. Rules can change, so confirm current guidance."
+      },
+      {
+        "question": "What documents do I need to import my belongings into Dubai?",
+        "answer": "Typically a passport copy, your UAE residence visa or Emirates ID, and a detailed itemised packing list, plus a bill of lading for sea freight or an air waybill for air freight. A commercial invoice or a No Objection Certificate from your sponsor is sometimes needed. Requirements vary by shipment, so confirm with your mover."
+      },
+      {
+        "question": "What items are banned or restricted when shipping to Dubai?",
+        "answer": "Weapons, ammunition, explosives and narcotics are strictly prohibited, and products such as paan, gutka, naswar and betel leaves are fully banned. Certain printed or digital media can be restricted on content grounds, and alcohol is tightly limited rather than freighted with furniture. Check the current Dubai Customs rules before packing anything you are unsure about."
+      },
+      {
+        "question": "How long does shipping to Dubai take?",
+        "answer": "It depends on origin and method. Air freight often clears in about 2 to 6 days. Sea freight door to door is roughly 4 to 6 weeks from the UK and around 10 to 16 weeks from the US once packing, transit and customs are included. Inspections or port congestion can add time, so build in a buffer."
+      },
+      {
+        "question": "Should I insure my shipment, and how much does it cost?",
+        "answer": "Yes, transit insurance is strongly advised for an international move. It is commonly quoted at around 1 to 5 percent of the declared value of your goods, and full replacement-value cover is safer than basic limited liability. Declare items honestly and keep receipts or photos of anything valuable to support any claim."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "How much does it cost to move to Dubai?",
+        "href": "/blog/how-much-does-it-cost-to-move-to-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "shipping belongings to Dubai",
+      "sea freight to UAE",
+      "air freight to Dubai",
+      "Dubai customs household goods",
+      "international movers Dubai",
+      "shipping cost to Dubai 2026",
+      "prohibited items UAE",
+      "moving to Dubai shipping"
+    ]
+  },
 ];
