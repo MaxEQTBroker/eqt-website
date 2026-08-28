@@ -18993,4 +18993,793 @@ export const seoPosts: BlogPost[] = [
       "avoid overstaying UAE visa"
     ]
   },
+  {
+    "slug": "dubai-corporate-tax-explained",
+    "title": "UAE Corporate Tax Explained: What Business Owners Need to Know (2026)",
+    "excerpt": "UAE corporate tax is 9% on profits above AED 375,000, 0% below, and 0% on qualifying free zone income, effective from 1 June 2023.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai business district skyline at dusk with modern office towers, representing UAE corporate tax for business owners",
+      "tone": "#141821"
+    },
+    "intro": "The UAE introduced federal corporate tax at a headline rate of 9% on business profits, effective for financial years starting on or after 1 June 2023. The first AED 375,000 of taxable profit is taxed at 0%, and only profit above that threshold is taxed at 9%. Qualifying income earned by a genuine free zone business can still be taxed at 0% if strict conditions are met. The tax applies to mainland and free zone companies, and to individuals who run a business above certain revenue limits. Almost every taxable person must register with the Federal Tax Authority and file an annual return, even when no tax is due. This guide explains who pays, how the thresholds work, and how it touches property held through a company.",
+    "keyTakeaways": [
+      "The standard rate is 9% on taxable profit above AED 375,000, and 0% on the first AED 375,000.",
+      "It is effective for financial years beginning on or after 1 June 2023, administered by the Federal Tax Authority through EmaraTax.",
+      "Mainland and free zone companies are in scope, along with individuals whose business turnover passes AED 1 million in a calendar year.",
+      "A Qualifying Free Zone Person can keep a 0% rate on qualifying income, but only if it meets all the conditions.",
+      "Small Business Relief lets eligible resident businesses treat taxable income as zero, but only for tax periods ending on or before 31 December 2026.",
+      "Registration and annual filing are compulsory for most taxable persons, even when the tax payable is zero."
+    ],
+    "sections": [
+      {
+        "heading": "The 9% rate and the AED 375,000 threshold",
+        "body": [
+          "UAE corporate tax works on a two-band structure that is deliberately simple. The first AED 375,000 of taxable profit in a tax period is taxed at 0%. Any taxable profit above AED 375,000 is taxed at the standard rate of 9%.",
+          "This threshold is designed to protect start-ups and small businesses, so a company with a modest profit can still owe nothing. A business with AED 500,000 of taxable profit, for example, pays 0% on the first AED 375,000 and 9% only on the remaining AED 125,000.",
+          "Taxable profit is based on the accounting profit shown in financial statements prepared under accepted standards, then adjusted for specific items the law sets out. It is not the same as revenue or turnover, so careful bookkeeping matters."
+        ]
+      },
+      {
+        "heading": "When it took effect and who administers it",
+        "body": [
+          "Corporate tax was introduced by Federal Decree-Law No. 47 of 2022 and applies to financial years that begin on or after 1 June 2023. A business whose financial year runs from 1 January to 31 December, for example, came into the regime from 1 January 2024.",
+          "The tax is administered by the Federal Tax Authority (FTA) through its online EmaraTax portal. The FTA handles registration, returns, payment, and any queries or audits.",
+          "Because the start date depends on your own financial year, two similar companies can have different first tax periods. Always confirm your specific tax period with the FTA or a qualified adviser."
+        ]
+      },
+      {
+        "heading": "Who it applies to",
+        "body": [
+          "Corporate tax reaches most businesses that operate in or from the UAE. That includes mainland companies and, importantly, free zone companies, which are in scope even where a 0% rate may ultimately apply to some of their income.",
+          "It also applies to individuals, but only where they carry on a business or business activity. A natural person is generally required to register once the combined turnover of their business activities passes AED 1 million in a Gregorian calendar year.",
+          "Certain personal income sits outside the tax entirely. Employment salary, dividends from shares, and income from personal real estate held privately by an individual are not treated as business income for this purpose. Government entities, certain qualifying public benefit bodies, and some other categories may also be exempt, subject to conditions."
+        ]
+      },
+      {
+        "heading": "Free zone qualifying income at 0%",
+        "body": [
+          "The UAE preserved a version of the historic free zone incentive through a category called the Qualifying Free Zone Person (QFZP). A QFZP can be taxed at 0% on its qualifying income and at 9% on its non-qualifying income.",
+          "Reaching and keeping QFZP status is conditional. In broad terms, the business must maintain adequate substance in the UAE, earn qualifying income as defined by the rules, comply with transfer pricing requirements, not have elected out of the regime, and stay within the permitted limits for non-qualifying revenue.",
+          "This is not an automatic exemption just because a company sits in a free zone. If the conditions are not met, or income falls outside the qualifying categories, the standard 9% rate can apply. Given the detail involved, QFZP status is an area where specialist advice is especially valuable."
+        ]
+      },
+      {
+        "heading": "Registration, filing, and small business relief",
+        "body": [
+          "Most taxable persons must register for corporate tax with the FTA and obtain a tax registration number, even if they expect to owe nothing. Registration deadlines depend on your category and, for many businesses, the month your licence was issued.",
+          "Filing is an annual duty. A corporate tax return is normally due within nine months of the end of the tax period, and any tax owed is paid in the same window. A return must still be filed even where no tax is payable.",
+          "Small Business Relief is an elective relief for UAE resident persons with revenue at or below AED 3 million in the relevant tax period. Where it applies, the business is treated as having no taxable income for that period, though it must still register, file, and keep records. This relief is time-limited and, under current rules, is available only for tax periods ending on or before 31 December 2026, so eligible businesses should plan for the standard regime beyond that date."
+        ]
+      },
+      {
+        "heading": "How it interacts with owning property through a company",
+        "body": [
+          "Many buyers in Dubai hold real estate through a company rather than in their own name, for succession, privacy, or portfolio reasons. Corporate tax can change how that structure is treated, so it is worth understanding before you buy.",
+          "Where a company earns income from UAE property, such as rent, that income generally forms part of its taxable profit and can be subject to the 9% rate above the AED 375,000 threshold. By contrast, an individual holding property personally as a private investment, rather than as a business, is generally outside the scope of corporate tax on that property income.",
+          "The right structure depends on your goals, the number and value of properties, financing, and your wider tax position at home. Because the answer varies from one owner to the next, treat this as a prompt to get advice rather than a rule to apply on your own.",
+          "Our private office regularly works alongside clients' tax and legal advisers to make sure a Dubai property purchase fits the ownership structure they need. If you would like an introduction or a discreet conversation about a purchase, we are happy to help.",
+          "Please note: this article is general information, not tax advice, and rules can change. It does not cover every situation. Before you act, confirm your position with the Federal Tax Authority at tax.gov.ae or a qualified tax adviser."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the UAE corporate tax rate in 2026?",
+        "answer": "The standard rate is 9% on taxable profit above AED 375,000. The first AED 375,000 of taxable profit is taxed at 0%. Qualifying income earned by a Qualifying Free Zone Person can be taxed at 0% where all the conditions are met."
+      },
+      {
+        "question": "When did UAE corporate tax come into effect?",
+        "answer": "It applies to financial years starting on or after 1 June 2023, under Federal Decree-Law No. 47 of 2022. Your first tax period depends on when your own financial year begins, so it can differ from another company's."
+      },
+      {
+        "question": "Do free zone companies pay corporate tax?",
+        "answer": "Free zone companies are within the corporate tax regime, but a Qualifying Free Zone Person can be taxed at 0% on qualifying income if it meets all the conditions, such as adequate substance and transfer pricing compliance. Non-qualifying income can be taxed at 9%."
+      },
+      {
+        "question": "Do individuals pay corporate tax in Dubai?",
+        "answer": "Only where they carry on a business. A natural person generally must register once the combined turnover of their business activities passes AED 1 million in a calendar year. Salary, share dividends, and privately held personal real estate income are not treated as business income for this purpose."
+      },
+      {
+        "question": "Is there any relief for small businesses?",
+        "answer": "Yes. Small Business Relief lets eligible UAE resident persons with revenue at or below AED 3 million treat their taxable income as zero for a period. It is elective, still requires registration and filing, and under current rules is available only for tax periods ending on or before 31 December 2026."
+      },
+      {
+        "question": "Is rental income from property taxed under corporate tax?",
+        "answer": "It depends on how the property is held. Rent earned by a company generally forms part of its taxable profit and can be taxed at 9% above the AED 375,000 threshold. An individual holding property personally as a private investment is generally outside the scope of corporate tax on that income. Confirm your position with a qualified adviser."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Do you pay tax in Dubai?",
+        "href": "/blog/do-you-pay-tax-in-dubai"
+      },
+      {
+        "label": "How to set up a company in Dubai",
+        "href": "/blog/how-to-set-up-company-in-dubai"
+      },
+      {
+        "label": "Dubai free zones explained",
+        "href": "/blog/dubai-free-zones-explained"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "UAE corporate tax",
+      "Dubai corporate tax 9 percent",
+      "corporate tax AED 375000 threshold",
+      "free zone qualifying income",
+      "small business relief UAE",
+      "Federal Tax Authority registration",
+      "corporate tax on property company",
+      "UAE business tax 2026"
+    ]
+  },
+  {
+    "slug": "dubai-golden-visa-cost",
+    "title": "How Much Does the Dubai Golden Visa Cost in 2026?",
+    "excerpt": "Indicative 2026 cost: the property-route Golden Visa runs roughly AED 9,700 to AED 10,250 in government fees, the skilled route around AED 3,500.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10486073/pexels-photo-10486073.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa rising above the city, evoking the residency the Golden Visa grants",
+      "tone": "#141821"
+    },
+    "intro": "The short answer: the Dubai Golden Visa itself is not expensive, but the total depends heavily on your route and the channel you use. As an indicative guide for 2026, the government fees on the property-investor route come to roughly AED 9,700 to AED 10,250, while the skilled-professional route is lighter at around AED 3,500. Both figures cover the core building blocks, the application and issuance fee, the medical fitness test, and the ten-year Emirates ID. The property route carries extra Dubai Land Department and valuation costs, which is why it sits higher. Dependants, and any agency or PRO fees if you use one, are added on top. All figures below are indicative and are periodically updated, so confirm current numbers before you budget.",
+    "keyTakeaways": [
+      "Total cost depends on your route and whether you apply directly or through an agent, so treat any single headline number with caution.",
+      "The core fee components are the same everywhere: application and issuance fee, medical fitness test, and the ten-year Emirates ID.",
+      "As an indicative 2026 guide, the property-investor route runs roughly AED 9,700 to AED 10,250 in government fees, versus around AED 3,500 for the skilled-professional route.",
+      "The property route adds Dubai Land Department related charges and a DLD valuation certificate, which is why it sits higher than other routes.",
+      "Each dependant adds their own visa, medical and Emirates ID fees, and optional PRO or agency fees are extra on top.",
+      "UAE government fees are periodically revised, so always confirm the current figures with an official source before budgeting."
+    ],
+    "sections": [
+      {
+        "heading": "Why there is no single price",
+        "body": [
+          "The most honest answer to how much the Dubai Golden Visa costs is that it depends. The visa is a ten-year renewable residency, and the government fees attached to it are modest relative to what most applicants expect. What moves the total is your route, whether you qualify through property, a skilled profession, entrepreneurship or another category, and the channel you choose to apply through.",
+          "Applying directly through the official ICP or GDRFA channels keeps costs to the government fees alone. Using a typing centre, a law firm or a PRO service adds a service charge on top, which can be worth it for the convenience and for getting the paperwork right first time.",
+          "Because of this, we quote ranges rather than a single figure throughout this guide. Every number here is indicative, and UAE fees are periodically updated, so please treat the ranges as a planning tool rather than a quote."
+        ]
+      },
+      {
+        "heading": "The core fee components",
+        "body": [
+          "Whatever your route, most of the total is made up of the same building blocks. Understanding these makes it easy to sanity-check any quote you are given.",
+          "The application and issuance fee is the central government charge for processing and issuing the visa, indicatively in the region of AED 2,000 to AED 2,800 depending on category and whether you are inside or outside the UAE when you apply.",
+          "The medical fitness test is a mandatory health screening, typically around AED 500 to AED 700 for standard processing, with faster VIP options costing more.",
+          "The Emirates ID for the ten-year term is a separate charge, indicatively from around AED 1,000 upward when issued for the full validity period.",
+          "Smaller line items such as visa stamping, and a status-adjustment fee if you are switching from another visa inside the country, add a few hundred dirhams each. Together these components form the base of every Golden Visa cost, and the route you take determines what gets added on top."
+        ]
+      },
+      {
+        "heading": "The property-investor route and its extra costs",
+        "body": [
+          "The property route is the one most of our clients ask about, and it is where EQT can help directly. It requires a Dubai property with an official Dubai Land Department valuation of at least AED 2 million on the day you apply. Following recent changes, mortgaged and off-plan properties can now qualify provided the DLD valuation reaches that threshold.",
+          "On top of the core fee components, the property route carries Dubai Land Department related charges. The most notable is the DLD valuation certificate, the official document that confirms your property meets the AED 2 million mark, which is an added indicative cost in the region of a few thousand dirhams.",
+          "As an indicative all-in figure for 2026, government and DLD related fees on the property route come to roughly AED 9,700 to AED 10,250. This sits above the other routes precisely because of those property-linked charges.",
+          "It is worth being clear that this figure is the cost of processing the visa, and is entirely separate from the property purchase itself and the standard 4 percent DLD transfer fee you pay when you buy. The AED 2 million is an asset you own and keep, not a fee."
+        ]
+      },
+      {
+        "heading": "The skilled-professional route",
+        "body": [
+          "If you qualify through a skilled profession, for example as a specialist, senior manager or holder of an eligible salary and qualification, the cost is noticeably lighter because there is no property-linked charge.",
+          "As an indicative 2026 guide, the skilled-professional route comes to around AED 3,500 in government fees. That typically breaks down into the visa processing and issuance, the medical fitness test, and the Emirates ID, without the additional Dubai Land Department layer.",
+          "The trade-off is eligibility rather than cost. The property route is open to anyone able to hold a qualifying asset, whereas the skilled route depends on meeting specific professional, salary or qualification criteria. Many of our clients choose the property route not only for the residency but because the underlying asset can appreciate and generate rental income, unlike a fee that is simply spent."
+        ]
+      },
+      {
+        "heading": "Dependants, agency and PRO fees",
+        "body": [
+          "The headline route figures cover the main applicant only. Adding family members increases the total, and each dependant broadly incurs their own set of the core components: a visa fee, a medical fitness test and an Emirates ID. As an indicative guide, budget in the region of AED 3,000 to AED 5,000 per dependant, varying with age and processing speed.",
+          "One of the attractions of the Golden Visa is that it lets you sponsor a spouse, children and, under current rules, domestic staff, so for families the per-dependant cost is an important part of the real total.",
+          "If you use an agency, law firm or PRO service to manage the application, their professional fee is an additional and entirely separate cost. This varies widely by provider and by how much of the process you want handled for you, from document preparation to end-to-end management. Applying directly avoids this, but many buyers value the time saved and the reduced risk of rejected paperwork."
+        ]
+      },
+      {
+        "heading": "Confirm current figures, and how EQT helps",
+        "body": [
+          "Every number in this guide is indicative and offered to help you plan. UAE authorities revise fees from time to time, and processing costs can differ slightly between free zones, typing centres and service providers. Before you commit a budget, confirm the current figures against an official ICP or GDRFA source, or ask an adviser to price your specific case.",
+          "As a RERA-registered brokerage focused on Palm Jumeirah and Dubai's prime communities, EQT's role sits at the property end of this journey. We help clients identify and acquire homes that comfortably clear the AED 2 million DLD valuation threshold, so the residency requirement is met cleanly, and we connect you with trusted partners for the visa processing itself.",
+          "If you are weighing the property route, the smartest first step is to look at what your budget buys as a real asset rather than a fee. Speak to our team and we will walk you through suitable properties and the costs involved, indicative figures and all, so there are no surprises."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does the Dubai Golden Visa cost in total in 2026?",
+        "answer": "It depends on your route. As an indicative guide, the property-investor route runs roughly AED 9,700 to AED 10,250 in government and DLD related fees, while the skilled-professional route is around AED 3,500. These figures cover the main applicant only, and are periodically updated, so confirm current numbers before budgeting."
+      },
+      {
+        "question": "Why does the property route cost more than the skilled route?",
+        "answer": "Because it carries Dubai Land Department related charges on top of the core components. The main extra is the DLD valuation certificate that confirms your property meets the AED 2 million threshold, indicatively a few thousand dirhams, which the skilled route does not require."
+      },
+      {
+        "question": "Is the AED 2 million property investment a fee I lose?",
+        "answer": "No. The AED 2 million is an asset you own and keep, not a fee. It is entirely separate from the visa processing costs and from the standard 4 percent DLD transfer fee paid when you buy. The property can also appreciate and earn rental income."
+      },
+      {
+        "question": "What are the main cost components of the Golden Visa?",
+        "answer": "The three core components are the application and issuance fee, the medical fitness test, and the ten-year Emirates ID. Smaller items such as visa stamping and a status-adjustment fee if you are already in the UAE add a few hundred dirhams each. The property route adds DLD related charges on top."
+      },
+      {
+        "question": "How much does it cost to add family members?",
+        "answer": "Each dependant broadly incurs their own visa fee, medical fitness test and Emirates ID. As an indicative guide, budget in the region of AED 3,000 to AED 5,000 per dependant, varying with age and processing speed. This is added on top of the main applicant's total."
+      },
+      {
+        "question": "Do I need to pay agency or PRO fees?",
+        "answer": "Not necessarily. Applying directly through official ICP or GDRFA channels keeps you to the government fees alone. Using an agency, law firm or PRO service adds a separate professional fee, which varies by provider, in exchange for handling the paperwork and saving you time."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "Golden Visa through Dubai property",
+        "href": "/blog/golden-visa-dubai-property-2026-guide"
+      },
+      {
+        "label": "Palm Jumeirah property prices: 2026 guide",
+        "href": "/blog/palm-jumeirah-property-prices-guide"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "dubai golden visa cost",
+      "golden visa fees 2026",
+      "golden visa property route",
+      "dubai golden visa property investment",
+      "golden visa emirates id cost",
+      "dld valuation golden visa",
+      "uae golden visa dependants cost",
+      "golden visa medical fitness test fee"
+    ]
+  },
+  {
+    "slug": "dubai-remote-work-visa",
+    "title": "Dubai Remote Work Visa (Virtual Working Programme) Explained (2026)",
+    "excerpt": "The Dubai remote work visa is a one-year renewable residence permit to live in Dubai while working remotely for a company based outside the UAE.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A remote professional working on a laptop with the Dubai skyline in the background",
+      "tone": "#141821"
+    },
+    "intro": "The Dubai remote work visa, officially the UAE Virtual Working Programme, is a one-year renewable residence permit that lets you live in Dubai while working remotely for an employer or business based outside the UAE. It suits digital nomads, remote employees and freelancers with foreign clients. Applicants generally need proof of employment or business ownership, a minimum monthly income commonly cited around USD 3,500, a valid passport and UAE health insurance. You get residency without a local sponsor and, at present, no personal income tax. You cannot use it to work for a UAE employer. All figures below are indicative and change often, so confirm current rules with an official source before you apply.",
+    "keyTakeaways": [
+      "It is a one-year, renewable residence permit for people who work remotely for a company or clients outside the UAE.",
+      "The commonly cited minimum income is around USD 3,500 per month, evidenced by salary certificates or bank statements.",
+      "You need proof of remote employment or business ownership, a valid passport and UAE health insurance.",
+      "No local sponsor is required, and Dubai currently levies no personal income tax on individuals.",
+      "You cannot use this visa to take a job with a UAE-based employer.",
+      "Rules and thresholds change often, so all figures here are indicative and should be verified officially."
+    ],
+    "sections": [
+      {
+        "heading": "What the Virtual Working Programme is",
+        "body": [
+          "The Dubai remote work visa, marketed as the UAE Virtual Working Programme, is a one-year residence permit that lets foreign nationals live in Dubai legally while continuing to work for an employer, a set of clients, or a business registered outside the UAE.",
+          "It is renewable, so you can extend your stay year to year provided you still meet the criteria. Unlike a standard employment visa, it does not tie you to a UAE company and does not need a local sponsor.",
+          "In practical terms, it gives you a legal base in Dubai, an Emirates ID, and access to everyday services such as banking, long-term rentals and telecoms, while your income continues to come from abroad."
+        ]
+      },
+      {
+        "heading": "Who it suits",
+        "body": [
+          "The programme is aimed at people whose work travels with them. That includes digital nomads, salaried remote employees of overseas companies, and freelancers or business owners serving foreign clients.",
+          "It tends to fit professionals who want the lifestyle, connectivity and safety of Dubai without changing employer, and who can show a stable income from outside the UAE.",
+          "It is less suited to anyone who wants to be employed by a UAE company, since the visa is specifically for remote work with an entity based outside the country."
+        ]
+      },
+      {
+        "heading": "Requirements (indicative)",
+        "body": [
+          "The core requirements are usually described as follows. Remote employees typically need an employment contract valid for at least one year and a minimum monthly income commonly cited around USD 3,500, or the equivalent in another currency.",
+          "Business owners and freelancers are generally asked to prove ownership of a company operating for at least one year, plus personal income at a similar level.",
+          "Supporting documents commonly include a valid passport with sufficient remaining validity, recent bank statements or a salary certificate, and a valid health insurance policy with UAE coverage. Note that in early 2026 the authorities are reported to have extended the bank statement window to six consecutive months, up from three.",
+          "These figures and document rules change regularly, so treat everything here as indicative and confirm the latest requirements through an official UAE government channel before applying."
+        ]
+      },
+      {
+        "heading": "How to apply",
+        "body": [
+          "Applications are made online, and you can typically apply from your home country or after arriving in Dubai on an entry permit.",
+          "The usual steps are: gather your documents (passport, proof of employment or business ownership, income evidence and health insurance), complete the online application, pay the applicable fees, and wait for approval.",
+          "Once approved, the process is completed inside the UAE with medical testing, biometrics and Emirates ID registration, after which the residence permit is issued.",
+          "Because processing details and portals can change, and because individual cases vary, many applicants use a licensed agent or advisor to check documents before submission."
+        ]
+      },
+      {
+        "heading": "Benefits and limits",
+        "body": [
+          "The headline benefits are straightforward. You get a legal one-year residence without a UAE sponsor, the ability to renew, and you can sponsor eligible family members in many cases.",
+          "Dubai currently imposes no personal income tax on individuals, so salary earned abroad is not taxed locally, though your home country may still tax you depending on its own rules and any tax residency tests.",
+          "The main limit is clear: this visa does not permit you to work for a UAE-based employer. It is for remote work with a company or clients outside the UAE only.",
+          "You also need to keep meeting the income and insurance conditions at renewal, so it works best for people with reliable, ongoing remote income."
+        ]
+      },
+      {
+        "heading": "How it compares to the Green Visa",
+        "body": [
+          "The Green Visa is a different, longer route. It is a self-sponsored residence permit, commonly valid for five years, aimed at skilled employees, freelancers and self-employed people, and investors, without needing a UAE employer or sponsor.",
+          "The remote work visa is shorter (one year, renewable) and is built specifically around working remotely for an entity outside the UAE. The Green Visa is broader and longer, but its freelance and skilled-worker categories usually involve UAE-linked criteria such as a local permit, qualifications or minimum salary thresholds.",
+          "In short, choose the remote work visa if your income comes from abroad and you want a simpler one-year base in Dubai; consider the Green Visa if you qualify under its categories and want a longer, five-year residence. Eligibility, costs and conditions differ, so compare both against your own situation and verify current terms officially."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the Dubai remote work visa?",
+        "answer": "It is a one-year, renewable UAE residence permit, marketed as the Virtual Working Programme, that lets you live in Dubai while working remotely for an employer or business based outside the UAE. It does not require a local sponsor."
+      },
+      {
+        "question": "What is the minimum income requirement?",
+        "answer": "The commonly cited minimum is around USD 3,500 per month, or the equivalent in another currency, evidenced by a salary certificate or recent bank statements. This figure is indicative and can change, so confirm it officially before applying."
+      },
+      {
+        "question": "What documents do I need?",
+        "answer": "Typically a valid passport, proof of remote employment or business ownership, income evidence such as bank statements or a salary certificate, and a valid health insurance policy with UAE coverage. In early 2026 the bank statement window was reported to have moved to six months."
+      },
+      {
+        "question": "Can I work for a Dubai company on this visa?",
+        "answer": "No. The remote work visa is only for working remotely with an employer or clients based outside the UAE. If you want to be employed by a UAE company, you would need a standard employment visa instead."
+      },
+      {
+        "question": "Do I pay tax in Dubai on this visa?",
+        "answer": "Dubai currently levies no personal income tax on individuals, so income earned abroad is not taxed locally. However, your home country may still tax you depending on its own rules and tax residency tests, so take personal advice."
+      },
+      {
+        "question": "How is it different from the Green Visa?",
+        "answer": "The remote work visa is one year, renewable, and built around income from outside the UAE. The Green Visa is a self-sponsored permit commonly valid for five years for skilled workers, freelancers and investors, usually with UAE-linked criteria. Terms differ, so verify both officially."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Do you pay tax in Dubai?",
+        "href": "/blog/do-you-pay-tax-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai remote work visa",
+      "UAE Virtual Working Programme",
+      "Dubai digital nomad visa",
+      "remote work visa Dubai requirements",
+      "Dubai remote work visa income",
+      "Dubai remote work visa vs Green Visa",
+      "how to apply Dubai remote work visa",
+      "live in Dubai work remotely"
+    ]
+  },
+  {
+    "slug": "how-to-check-golden-visa-status",
+    "title": "How to Check Your Golden Visa Status Online (2026)",
+    "excerpt": "Check your UAE Golden Visa status free online: use ICP Smart Services nationwide, or GDRFA Dubai if you applied in Dubai. Step-by-step guide.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 6,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A person holding a passport and smartphone, checking a UAE residence visa status online",
+      "tone": "#141821"
+    },
+    "intro": "To check your UAE Golden Visa status online, use one of two official government channels. If you applied anywhere in the UAE, use ICP Smart Services (the website smartservices.icp.gov.ae or the UAEICP app). If you applied specifically in Dubai, use GDRFA Dubai (gdrfad.gov.ae or the GDRFA Dubai app). You will normally need your application or file number, your passport number, and your nationality. Both channels are free and, in most cases, need no login, though signing in with UAE Pass is the fastest and most reliable route in 2026. Below we set out, step by step, how to track an application, confirm a visa that has already been issued, and check the linked Emirates ID. Rules and portal layouts change, so always treat the official channel as the final word.",
+    "keyTakeaways": [
+      "Two official channels exist: ICP Smart Services covers the whole UAE, GDRFA Dubai covers visas issued in Dubai.",
+      "To track an application you generally need the application or request number plus your nationality; to check an issued visa you use the passport or file number.",
+      "Both portals are free to use, and UAE Pass sign-in is the fastest and most dependable method in 2026.",
+      "A Golden Visa and its linked Emirates ID are separate records, so an ID can still be in production after the visa is issued.",
+      "Statuses such as under process, approved, issued and rejected each mean something specific, and rejection reasons are usually fixable.",
+      "If something looks wrong or stalls, contact ICP on 600 522222 or GDRFA Dubai on 800 5111, or ask the typing centre or agent who filed for you."
+    ],
+    "sections": [
+      {
+        "heading": "The two official channels, and which one is yours",
+        "body": [
+          "There are two federal channels for checking UAE residency and Golden Visa status, and picking the right one matters. The first is ICP Smart Services, run by the Federal Authority for Identity, Citizenship, Customs and Port Security. It handles visas issued across the UAE, including Abu Dhabi, Sharjah, Ajman and the other emirates.",
+          "The second is GDRFA, the General Directorate of Residency and Foreigners Affairs in Dubai. If your Golden Visa application was filed in Dubai, GDRFA Dubai is usually the channel that shows the most complete and up to date picture. A useful rule of thumb: applied in Dubai, start with GDRFA; applied anywhere else, start with ICP.",
+          "If you are not sure where your file sits, you can try ICP Smart Services first, since it covers the whole country, and fall back to GDRFA Dubai if the record does not appear. Both are official and both are free. The processing agent, PRO or typing centre who submitted your file can also tell you which authority is handling it."
+        ]
+      },
+      {
+        "heading": "What details you need before you start",
+        "body": [
+          "Have these to hand. First, your application, request or transaction number, which is the reference issued when the file was submitted. This is the main input for tracking an application that is still in progress. Your agent or typing centre will have it if you do not.",
+          "Second, your passport number, and in the case of GDRFA Dubai your residence file number. The file number appears on the visa page inside your passport and is tied to your year of issue. This is what you use to confirm a visa that has already been issued and to read its validity and expiry.",
+          "Third, your nationality, and depending on the service, your first name and date of birth exactly as they appear on your passport. Enter names and dates precisely, because a small mismatch is one of the most common reasons a search returns nothing. You will also usually type a security or captcha code. None of these basic checks charge a fee."
+        ]
+      },
+      {
+        "heading": "Step by step on ICP Smart Services",
+        "body": [
+          "Open smartservices.icp.gov.ae in a browser, or download the UAEICP app from the App Store or Google Play. Signing in with UAE Pass is recommended in 2026 and gives you the fullest view of your records, though the basic status enquiry can often be run without a login.",
+          "To track an application in progress, find the Application or Passport Status enquiry, enter your application or request number, add your nationality, type the security code, and search. The screen will return the current stage of your file.",
+          "To confirm a visa that has already been issued, use the file validity or visa validity service instead, and enter your passport number and nationality. This returns the visa status, validity and expiry date. Because portal menus are updated from time to time, the exact labels may differ from what is described here, so read the on screen options carefully and rely on what the official portal shows."
+        ]
+      },
+      {
+        "heading": "Step by step on GDRFA Dubai",
+        "body": [
+          "For a Golden Visa filed in Dubai, go to gdrfad.gov.ae or use the GDRFA Dubai app. Look for the visa status or track your application service. You do not normally need to create an account to run a status check.",
+          "Choose the enquiry type from the drop down, for example File, then enter your file number together with its year of issue as printed on the visa page of your passport. Add your first name as per your passport, select your nationality, and enter your date of birth in the day, month, year format the form asks for.",
+          "Type the captcha and submit. If every field matches your records, the validity details appear, typically shown in green, including your visa expiry date, name, date of birth, nationality and gender. If nothing shows, re check each field for spelling and format before assuming there is a problem, since a single mismatched character often causes an empty result."
+        ]
+      },
+      {
+        "heading": "Checking visa validity and the linked Emirates ID",
+        "body": [
+          "Once your Golden Visa is issued, the same portals let you confirm it is active and read its expiry date, which is the detail you will most often need for banks, tenancy contracts, schooling and renewals. The Golden Visa is a long residency, commonly ten years for the main categories, but always verify the exact expiry on the official record rather than relying on memory.",
+          "The Emirates ID is a separate record from the visa, even though the two are linked and usually processed together. You can track an Emirates ID through ICP Smart Services, and there is a dedicated ID status enquiry using the application number printed on your registration form or receipt.",
+          "It is normal for the Emirates ID to still be in production for a short period after the visa is issued, so a visa marked issued alongside an ID marked under process is not, by itself, a cause for concern. If the ID status stalls for a long time, that is worth chasing, as delays there are often down to biometrics, a data entry mismatch or a pending medical or security clearance."
+        ]
+      },
+      {
+        "heading": "What the statuses mean, and what to do if there is a delay",
+        "body": [
+          "Common statuses read roughly as follows, though wording varies between the portals. Under process, in process or under review means immigration is still assessing the file and no action is needed from you yet. Approved means the decision is positive and issuance is the next step. Issued means the visa is live and you should be able to see its validity. Rejected means the application was declined. An invalid or not found result usually means the details entered do not match, or the file has not yet been uploaded to the system.",
+          "If a status looks wrong, first re enter your details carefully, since typos and format mismatches are the most frequent cause of a confusing result. If it still does not resolve, contact the authority directly. ICP can be reached on 600 522222, and GDRFA Dubai on the toll free 800 5111 from inside the UAE. The agent, PRO or typing centre that submitted your file is often the quickest route, because they can see the back office record.",
+          "A rejection is not necessarily the end of the road. Reasons are frequently procedural, such as a document that needs re uploading, an eligibility point that needs stronger evidence, or a data discrepancy, and many applicants succeed on a corrected resubmission. For anything material, take formal advice from a licensed immigration or legal specialist. This article is general information for 2026, not immigration or legal advice, and official ICP and GDRFA channels are always the authoritative source."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Where do I check my Golden Visa status if I applied in Dubai?",
+        "answer": "Use GDRFA Dubai at gdrfad.gov.ae or the GDRFA Dubai app, since GDRFA handles visas issued in Dubai. If you applied in another emirate, use ICP Smart Services instead. When unsure, you can try ICP first because it covers the whole UAE, then fall back to GDRFA Dubai."
+      },
+      {
+        "question": "What details do I need to check my status?",
+        "answer": "To track an application still in progress you generally need the application or request number and your nationality. To check a visa that is already issued you use your passport number, or your file number and its year of issue on GDRFA, usually along with your first name, date of birth and a security code."
+      },
+      {
+        "question": "Is checking my Golden Visa status online free?",
+        "answer": "Yes. The status and validity enquiries on both ICP Smart Services and GDRFA Dubai are free, and in most cases you do not need to log in. Signing in with UAE Pass is optional but is the fastest and most reliable method in 2026, and it shows the fullest view of your records."
+      },
+      {
+        "question": "Why does my visa show as issued but my Emirates ID is not ready?",
+        "answer": "The visa and the Emirates ID are separate records that are linked but processed on slightly different timelines. It is normal for the ID to remain in production for a short while after the visa is issued. If the ID status stays stuck for a long period, chase it, as delays are often biometric, data or clearance related."
+      },
+      {
+        "question": "What does under process or under review mean?",
+        "answer": "It means immigration is still assessing your file and a decision has not been made. No action is usually needed from you at that stage. If it stays that way far longer than the expected processing time, contact the relevant authority or the agent who submitted your file to confirm nothing is outstanding."
+      },
+      {
+        "question": "What should I do if my status shows rejected or not found?",
+        "answer": "First re enter your details carefully, because a small mismatch often produces a not found or invalid result. If a genuine rejection is shown, the reason is frequently procedural and fixable on resubmission. Contact ICP on 600 522222 or GDRFA Dubai on 800 5111, and take advice from a licensed immigration specialist for anything material."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "check golden visa status",
+      "UAE golden visa status online",
+      "ICP smart services visa check",
+      "GDRFA Dubai visa status",
+      "golden visa file number check",
+      "check UAE visa validity",
+      "Emirates ID status check",
+      "golden visa application tracking"
+    ]
+  },
+  {
+    "slug": "how-to-renew-dubai-golden-visa",
+    "title": "How to Renew Your Dubai Golden Visa (2026)",
+    "excerpt": "Renew your Dubai Golden Visa near term-end via ICP or GDRFA: you must still meet the original criteria and keep any qualifying property.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 6,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10593631/pexels-photo-10593631.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A UAE passport and residency documents on a desk, representing a Dubai Golden Visa renewal",
+      "tone": "#141821"
+    },
+    "intro": "To renew your Dubai Golden Visa, you file a fresh application through the ICP Smart Services portal or GDRFA (Dubai) as your 5 or 10-year term nears its end, and you must still meet the original qualifying criteria. For the property route, that means you must still own the qualifying property, generally valued at AED 2 million or more on the DLD valuation. The core steps are a new medical fitness test, updated biometrics, an Emirates ID renewal, and payment of the government fees. Most guidance suggests starting around 30 days before expiry. Rules and fees change, so always confirm the current requirements for your category directly with ICP or GDRFA before you begin.",
+    "keyTakeaways": [
+      "Renew as your 5 or 10-year term ends, ideally starting around 30 days before the expiry date on your visa.",
+      "You must still meet the original qualifying criteria; property-route holders must retain the qualifying property (generally AED 2 million or more on DLD valuation).",
+      "Expect a new medical fitness test, fresh biometrics, and an Emirates ID renewal, even though you already held the visa.",
+      "Dependants renew alongside the principal sponsor and each needs their own medical, Emirates ID and stamping.",
+      "Indicative principal-applicant costs often fall in the AED 4,000 to 6,500 range plus roughly AED 1,000 for the 10-year Emirates ID; confirm current figures.",
+      "If your circumstances changed (for example you sold the property), you may need to switch to another qualifying route or risk losing eligibility."
+    ],
+    "sections": [
+      {
+        "heading": "When to renew",
+        "body": [
+          "The Dubai Golden Visa is issued for either 5 or 10 years depending on your category, and renewal becomes relevant as that term reaches its end. You do not need to renew years in advance, but you should not leave it to the last day either.",
+          "Most practitioners suggest beginning the process around 30 days before the expiry date shown on your visa, and some start 30 to 60 days out to allow time for the medical, biometrics and any document gathering.",
+          "There is generally a grace period after expiry during which you remain legal and can renew, but the exact window varies by category and can change. Rather than rely on a number you read online, log in to ICP Smart Services or the GDRFA Dubai app and read the dates shown against your own file."
+        ]
+      },
+      {
+        "heading": "The key condition: you must still qualify",
+        "body": [
+          "A Golden Visa renewal is not automatic. At renewal you re-prove that you still meet one of the qualifying pathways, exactly as you did the first time.",
+          "For property-route holders this is the central point: you must retain the qualifying property. In practice that generally means still owning real estate valued at AED 2 million or more on the Dubai Land Department valuation. Under rules reported in early 2026, mortgaged properties can qualify in some cases, but you should confirm the current position for your situation.",
+          "If you obtained your visa through another route, such as being a specialist, entrepreneur or on the basis of a salary threshold, you must still satisfy that route's conditions at the time of renewal. If you no longer do, see the section below on changed circumstances."
+        ]
+      },
+      {
+        "heading": "The process and documents",
+        "body": [
+          "The renewal is filed digitally, most commonly through the ICP Smart Services portal or, for Dubai, the GDRFA channels. You submit a fresh application under your qualifying category and upload supporting documents.",
+          "Expect to provide your passport, current Emirates ID and visa, and up-to-date proof that you still qualify. For the property route that proof is typically a current title deed and, where required, a DLD valuation showing the property still meets the threshold.",
+          "A new medical fitness test (usually blood test and chest X-ray) and fresh biometrics are required. These are not skipped simply because you already held the visa. Your Emirates ID is renewed as part of the process, normally for a 10-year term to match the visa.",
+          "For the Golden Visa, applicants are generally expected to be physically present in the UAE at the time of renewal. Once approved, the new visa is issued digitally and can usually be downloaded without an in-person immigration visit."
+        ]
+      },
+      {
+        "heading": "Renewing dependants",
+        "body": [
+          "Family members you sponsor, such as a spouse, children and in many cases parents, are tied to the principal Golden Visa. When you renew, their residency is renewed alongside yours rather than on a separate clock.",
+          "Each dependant goes through their own steps: a medical fitness test (age rules can exempt young children from parts of it), biometrics where required, an Emirates ID and visa stamping.",
+          "Budget for each dependant separately. Indicative figures often cited are in the region of AED 4,000 to 5,000 per dependant in processing costs, though the exact total depends on age, medical fees and any typing-centre or service charges. Treat these as estimates and confirm current fees."
+        ]
+      },
+      {
+        "heading": "Timelines and indicative fees",
+        "body": [
+          "Once submitted with complete documents, approval is often reported within roughly 3 to 7 working days, after which the e-visa is issued digitally. Allow extra time for the medical and for gathering a DLD valuation if one is needed.",
+          "As an indication only, principal-applicant renewal costs are frequently quoted in the AED 4,000 to 6,500 range for someone handling it themselves, plus around AED 1,000 for the 10-year Emirates ID and the medical screening fee. Using a typing centre or an agent adds service fees.",
+          "These numbers are indicative and change over time. Government fee schedules are updated periodically, so verify the current fees for your category on the ICP or GDRFA channels, or ask a licensed typing centre, before you rely on any figure."
+        ]
+      },
+      {
+        "heading": "What happens if your circumstances changed",
+        "body": [
+          "If you no longer meet the route you originally qualified under, the renewal is where that surfaces. The clearest example for investors is selling the qualifying property: without qualifying real estate, the property route no longer supports your renewal.",
+          "There can be options. Reporting from 2026 indicates it is possible in some cases to switch pathway at renewal, for example moving from the property route to a talent or skilled route, provided you now meet that route's criteria. Equally, you might re-qualify on property by acquiring another eligible unit before you renew.",
+          "If none of the routes fit any longer, the Golden Visa may not be renewable, and you would need to consider a standard residence route instead. Because this is fact-specific and the rules move, take advice on your own position rather than assuming."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When should I start my Golden Visa renewal?",
+        "answer": "As your 5 or 10-year term nears its end. Many practitioners suggest starting around 30 days before expiry, and some 30 to 60 days out, to allow time for the medical, biometrics and documents. Check your exact dates in ICP Smart Services or the GDRFA Dubai app."
+      },
+      {
+        "question": "Do I have to keep my property to renew a property-route Golden Visa?",
+        "answer": "Yes. Property-route holders must retain the qualifying property to renew, which generally means still owning real estate valued at AED 2 million or more on the DLD valuation. Confirm the current threshold and any mortgage rules with ICP or GDRFA."
+      },
+      {
+        "question": "Is a new medical test required at renewal?",
+        "answer": "Yes. A fresh medical fitness test, usually a blood test and chest X-ray, plus updated biometrics are required at renewal. They are not skipped just because you already held the visa. Your Emirates ID is renewed as part of the process."
+      },
+      {
+        "question": "How much does renewal cost?",
+        "answer": "As an indication only, principal-applicant costs are often quoted in the AED 4,000 to 6,500 range if you handle it yourself, plus around AED 1,000 for the 10-year Emirates ID and the medical fee. Dependants add roughly AED 4,000 to 5,000 each. Verify current fees."
+      },
+      {
+        "question": "Do my dependants renew separately?",
+        "answer": "No. Sponsored dependants are tied to the principal Golden Visa and renew alongside you, not on a separate clock. However, each still needs their own medical, Emirates ID and visa stamping, with fees applied per person."
+      },
+      {
+        "question": "What if I sold my qualifying property?",
+        "answer": "Then the property route no longer supports your renewal. You may be able to re-qualify by buying another eligible property, or in some cases switch to another route such as a talent or skilled route if you meet its criteria. Take advice, as rules change."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "Golden Visa through Dubai property",
+        "href": "/blog/golden-visa-dubai-property-2026-guide"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "renew Dubai Golden Visa",
+      "Golden Visa renewal 2026",
+      "Golden Visa property route renewal",
+      "ICP Smart Services Golden Visa",
+      "GDRFA Golden Visa renewal",
+      "Golden Visa medical fitness test",
+      "renewing dependants Golden Visa",
+      "Golden Visa renewal fees Dubai"
+    ]
+  },
+  {
+    "slug": "how-to-sponsor-parents-dubai-visa",
+    "title": "How to Sponsor Your Parents for a Dubai Residence Visa (2026)",
+    "excerpt": "To sponsor parents in Dubai you usually need a higher salary (often cited near AED 20,000), a refundable deposit, and health cover. Confirm now.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "An older couple walking together outdoors, representing parents relocating to join family on a Dubai residence visa",
+      "tone": "#141821"
+    },
+    "intro": "To sponsor your parents for a Dubai residence visa in 2026, you generally need to be a resident earning above a higher income threshold than the one set for a spouse or children. Guidance commonly cites a minimum salary of around AED 20,000 per month (or roughly AED 19,000 plus suitable accommodation), though the exact figure is set by the authorities and can change. You will usually be asked to sponsor both parents together, place a refundable security deposit for each parent, and hold valid health insurance in each parent's name. You also submit attested proof of relationship and a salary certificate. Because these thresholds and fees are revised periodically, always confirm the current rules with the GDRFA or a licensed typing or Amer centre before you apply.",
+    "keyTakeaways": [
+      "Sponsoring parents needs a higher salary than sponsoring a spouse or children, with figures commonly quoted around AED 20,000 per month (or about AED 19,000 with suitable accommodation).",
+      "You are usually expected to sponsor both parents together, not just one, so the authorities do not leave a dependent unsupported.",
+      "A refundable security deposit is normally required per parent, with amounts that vary by emirate and over time.",
+      "Health insurance in each parent's name is mandatory and must stay active for the visa to be issued or renewed.",
+      "Core documents include attested proof of relationship and a salary certificate or employment contract.",
+      "Parent visas are commonly issued on a one-year renewable basis, with longer options available in some cases, so confirm current terms before applying."
+    ],
+    "sections": [
+      {
+        "heading": "Who can sponsor their parents",
+        "body": [
+          "A resident living and working in Dubai can, in principle, sponsor their parents for a residence visa, provided they meet the income, accommodation, and insurance conditions the authorities set. In practice this route is used by professionals who want to bring their mother and father to live with them in the UAE.",
+          "The key point to understand early is that parent sponsorship is treated as more demanding than sponsoring a spouse or children. The authorities view supporting parents as a larger financial commitment, so both the salary bar and the paperwork are stricter. If you are weighing up a move to Dubai partly so your family can join you, factor this in from the start rather than assuming the same rules apply across all dependents.",
+          "Eligibility can also depend on your own visa type and profession. Because the detailed conditions are periodically reviewed, treat any figure you read, including in this guide, as indicative and confirm your specific eligibility with the GDRFA or a licensed centre."
+        ]
+      },
+      {
+        "heading": "The higher income requirement",
+        "body": [
+          "The most important difference with parent sponsorship is the income threshold. Guidance widely cites a minimum monthly salary of around AED 20,000 to sponsor parents in Dubai, and some sources describe an alternative of roughly AED 19,000 per month combined with suitable accommodation, such as a two-bedroom home. That is noticeably higher than the salary usually required to sponsor a spouse or children.",
+          "Treat these numbers as indicative rather than fixed. The exact threshold is set by the immigration authorities, can differ in how it is applied, and may be updated. There are also references to humanitarian or special routes with different conditions in certain circumstances, which is another reason to verify your own case directly.",
+          "Before you build a plan around a particular salary figure, confirm the current requirement with the GDRFA or an Amer or typing centre. It is far better to check the live threshold than to assume last year's number still holds."
+        ]
+      },
+      {
+        "heading": "The refundable deposit",
+        "body": [
+          "Parent sponsorship typically involves a refundable security deposit, held by the authorities as a financial guarantee. Reported amounts vary: some current guidance points to a figure in the region of a few thousand dirhams per parent, while other sources quote lower per-person amounts. Because these figures differ between sources and can change, the specific number is best confirmed at the point of application.",
+          "The deposit is generally described as refundable. It is usually returned once matters are settled correctly, for example when the visa is cancelled with no outstanding fines. As with the income rules, the amount and the exact refund conditions are determined by the relevant immigration department and are subject to revision.",
+          "Budget for a deposit per parent, and ask the centre handling your application for the precise current amount and the conditions under which it is returned."
+        ]
+      },
+      {
+        "heading": "Sponsoring both parents together",
+        "body": [
+          "A rule that catches many applicants by surprise is that you are usually expected to sponsor both parents together rather than only one. The reasoning is that the authorities do not want to leave one parent behind as an unsupported dependent.",
+          "In practice this means planning for two visas, two sets of documents, two health insurance policies, and a deposit for each parent, rather than half of that. It affects your budget and your paperwork from the outset.",
+          "There can be exceptions, for instance where one parent has passed away or in specific documented circumstances, but these are handled case by case. If you believe your situation is an exception, confirm how it is treated before you begin, so you are not caught out midway through the process."
+        ]
+      },
+      {
+        "heading": "Health insurance and documents",
+        "body": [
+          "Health insurance is mandatory. Each parent must have a valid policy in their own name, and this cover must remain active for the visa to be issued and later renewed. The authorities will generally not process or renew a parent's residence visa without proof of current health insurance, so this is not a step you can defer.",
+          "On documents, you should expect to provide attested proof of your relationship to your parents, such as a birth certificate that has been legally attested and, where required, translated into Arabic. You will also need a salary certificate or employment contract evidencing your income, along with your own valid residence visa and Emirates ID, your tenancy contract or proof of accommodation, passport copies and photographs for your parents, and the health insurance policies.",
+          "Attestation can take time, especially when documents originate abroad, so start gathering and attesting paperwork early. A licensed typing or Amer centre can confirm the exact document list for your case."
+        ]
+      },
+      {
+        "heading": "The process, and one-year versus longer options",
+        "body": [
+          "The broad process runs as follows. First, confirm you meet the current income and accommodation conditions. Next, prepare and attest your documents and arrange health insurance for both parents. Then apply, usually through an Amer or typing centre or the relevant online channel, obtain an entry permit if your parents are outside the country, complete any required medical testing and Emirates ID registration inside the UAE, and finally have the residence visa stamped or issued electronically.",
+          "Parent residence visas are commonly issued on a one-year, renewable basis. Each renewal typically requires fresh proof that you still meet the salary conditions, renewed health insurance for both parents, and a new application. Longer validity options exist for some categories of resident, so it is worth asking whether a longer term is available in your circumstances.",
+          "Because timelines, fees, and validity periods can change, and because parent sponsorship is one of the stricter family routes, we strongly recommend confirming the latest thresholds and steps with the GDRFA or a licensed centre before committing. This article is general information, not immigration or legal advice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much salary do I need to sponsor my parents in Dubai?",
+        "answer": "Guidance commonly cites a minimum of around AED 20,000 per month, with an alternative of roughly AED 19,000 plus suitable accommodation sometimes mentioned. This is higher than the bar for sponsoring a spouse or children. The figure is set by the authorities and can change, so confirm the current threshold with the GDRFA or an Amer centre."
+      },
+      {
+        "question": "Do I have to sponsor both parents together?",
+        "answer": "Usually yes. The authorities generally expect you to sponsor both parents together so that neither is left as an unsupported dependent. There can be documented exceptions, for example where one parent has passed away, but these are assessed case by case, so confirm how your situation is treated before applying."
+      },
+      {
+        "question": "Is there a deposit to sponsor parents, and is it refundable?",
+        "answer": "A refundable security deposit is normally required, typically per parent, and is held as a financial guarantee. Reported amounts vary between sources and can change over time. It is generally returned once the visa is cancelled correctly with no outstanding fines. Confirm the exact current amount and refund conditions at the point of application."
+      },
+      {
+        "question": "Is health insurance mandatory for a parent's visa?",
+        "answer": "Yes. Each parent must hold a valid health insurance policy in their own name, and it must stay active. The authorities generally will not issue or renew a parent's residence visa without proof of current cover, so arrange insurance for both parents before you apply and keep it active for renewals."
+      },
+      {
+        "question": "What documents do I need to sponsor my parents?",
+        "answer": "Expect to provide attested proof of relationship, such as an attested birth certificate, a salary certificate or employment contract, your own residence visa and Emirates ID, your tenancy contract or proof of accommodation, passport copies and photographs for your parents, and their health insurance policies. A licensed centre can confirm the exact list for your case."
+      },
+      {
+        "question": "How long is a parent's residence visa valid?",
+        "answer": "Parent visas are commonly issued on a one-year renewable basis, with each renewal requiring fresh proof of salary, renewed health insurance, and a new application. Longer validity may be available for some categories of resident. Because terms change, confirm the current options with the GDRFA or a licensed centre."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai family visa: sponsoring spouse and children",
+        "href": "/blog/dubai-family-visa-sponsor-spouse-children"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "sponsor parents Dubai visa",
+      "UAE parent residence visa 2026",
+      "Dubai parent visa salary requirement",
+      "sponsoring parents in Dubai",
+      "parent visa deposit UAE",
+      "parent visa health insurance Dubai",
+      "family sponsorship UAE parents",
+      "Dubai residence visa for parents"
+    ]
+  },
 ];
