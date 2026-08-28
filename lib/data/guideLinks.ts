@@ -16,9 +16,14 @@ export const EVERGREEN_GUIDES: GuideLink[] = [
 const AREA_GUIDES: Record<string, GuideLink[]> = {
   "palm-jumeirah": [
     { label: "Palm Jumeirah property prices: 2026 guide", href: "/blog/palm-jumeirah-property-prices-guide" },
-    { label: "How much to buy a villa on Palm Jumeirah", href: "/blog/cost-to-buy-villa-palm-jumeirah" },
+    { label: "Palm Jumeirah fronds explained: a frond-by-frond guide", href: "/blog/palm-jumeirah-fronds-explained" },
+    { label: "Palm Jumeirah homes under AED 10 million", href: "/blog/palm-jumeirah-homes-under-10-million" },
     { label: "Palm Jumeirah rental yields and ROI", href: "/blog/palm-jumeirah-rental-yields-and-roi" },
-    { label: "Emirates Hills vs Palm Jumeirah", href: "/blog/emirates-hills-vs-palm-jumeirah-where-to-buy" },
+    { label: "How much to buy a villa on Palm Jumeirah", href: "/blog/cost-to-buy-villa-palm-jumeirah" },
+  ],
+  "emaar-beachfront": [
+    { label: "Palm Jumeirah vs Emaar Beachfront: which to buy", href: "/blog/palm-jumeirah-vs-emaar-beachfront" },
+    { label: "Best areas to buy an apartment in Dubai", href: "/blog/best-areas-buy-apartment-dubai-2026" },
   ],
   "emirates-hills": [
     { label: "Emirates Hills vs Palm Jumeirah", href: "/blog/emirates-hills-vs-palm-jumeirah-where-to-buy" },
@@ -36,6 +41,7 @@ const AREA_GUIDES: Record<string, GuideLink[]> = {
     { label: "Rental yields in Dubai", href: "/blog/rental-yields-dubai-best-performing-luxury-communities" },
   ],
   "dubai-marina": [
+    { label: "Palm Jumeirah vs Dubai Marina: which should you buy", href: "/blog/palm-jumeirah-vs-dubai-marina" },
     { label: "Best areas to buy an apartment in Dubai", href: "/blog/best-areas-buy-apartment-dubai-2026" },
     { label: "Rental yields in Dubai", href: "/blog/rental-yields-dubai-best-performing-luxury-communities" },
   ],
