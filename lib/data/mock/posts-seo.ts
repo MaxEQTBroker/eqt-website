@@ -13433,4 +13433,799 @@ export const seoPosts: BlogPost[] = [
       "Dubai title deed"
     ]
   },
+  {
+    "slug": "dubai-golden-visa-complete-guide",
+    "title": "Dubai Golden Visa: The Complete 2026 Guide",
+    "excerpt": "Get a UAE Golden Visa by owning Dubai property valued at AED 2M or more, which grants long-term, renewable residency with no local sponsor.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with luxury waterfront residences, illustrating property-based Golden Visa residency",
+      "tone": "#141821"
+    },
+    "intro": "The most direct route to a UAE Golden Visa for property buyers is to own Dubai real estate with a certified value of AED 2M or more, which grants long-term, renewable residency with no local sponsor. As of a federal policy update dated February 2026, eligibility depends on the total certified value of your property, not on how much you have paid, so mortgaged and off-plan homes from approved developers can qualify once the AED 2M threshold is reached. The Golden Visa is a long-term residence permit (issued for 5 or 10 years depending on category) that lets you live, work and study in the UAE, sponsor your family, and stay out of the country for extended periods without losing status. This guide covers every main route, how to apply, cost, timelines, benefits, how to check your status and how to renew, with the property route explained in detail because that is where EQT can help.",
+    "keyTakeaways": [
+      "The property route needs Dubai real estate with a certified value of AED 2M or more; a single home or several combined properties can count.",
+      "Since a federal update dated February 2026, eligibility is based on total certified property value, so mortgaged and off-plan homes from approved developers can qualify.",
+      "The Golden Visa is renewable, needs no local sponsor, and lets you sponsor your spouse, children and household staff.",
+      "Other routes include public investors, entrepreneurs, skilled professionals on roughly AED 30,000 per month, scientists and researchers, and outstanding students.",
+      "Apply through the ICP Smart Services portal or, in Dubai, through the GDRFA and Dubai Land Department; processing is often 1 to 2 weeks once documents are complete.",
+      "The Green and Blue visas are separate long-term options; rules change, so always confirm current figures with official UAE sources before applying."
+    ],
+    "sections": [
+      {
+        "heading": "What the Dubai Golden Visa is",
+        "body": [
+          "The Golden Visa is a long-term UAE residence permit introduced to attract investors, talented professionals and exceptional individuals. Unlike a standard employment visa, it does not tie you to a single employer or require a UAE national or company to act as your sponsor. It is issued for either 5 or 10 years depending on the category you qualify under, and it is renewable as long as you continue to meet the conditions.",
+          "For property buyers, the appeal is simple: a qualifying Dubai home can secure residency for you and your family while you also hold a hard asset in one of the world's most active property markets. The visa also removes the usual six-month rule that cancels ordinary residence permits after a long absence, so Golden Visa holders can spend extended periods abroad without losing their status."
+        ]
+      },
+      {
+        "heading": "The property route: AED 2M explained",
+        "body": [
+          "The real-estate investor route requires you to own Dubai property with an official certified value of at least AED 2M. This can be a single property or several properties whose combined certified value reaches the threshold. As of a federal policy update dated February 2026, the older interpretations that required AED 1M paid in cash upfront or 50% equity on a mortgaged home were retired, so eligibility now rests on the total certified value regardless of any mortgage. In practice, a home worth AED 2M can qualify even if part of the purchase is financed, provided all supporting documents, including bank approvals and any required no-objection certificates, are in order.",
+          "Off-plan property purchased from approved developers can also count towards the AED 2M route in 2026, subject to the developer and escrow conditions in force at the time. Because valuation, documentation and the exact visa term attached to the property route can vary case by case, it is worth confirming the current position with the Dubai Land Department or a licensed advisor before you commit. This is the stage where EQT helps clients choose eligible stock, from Palm Jumeirah villas to branded apartments, and line up the paperwork correctly the first time."
+        ]
+      },
+      {
+        "heading": "Other eligibility routes",
+        "body": [
+          "Beyond property, several routes lead to a Golden Visa. Public or capital investors can qualify by maintaining a substantial UAE investment, commonly cited at AED 2M or more in eligible instruments such as a bank deposit or an established company. Entrepreneurs can qualify through an approved or innovative project, with an economic value often referenced from around AED 500,000, or through a business meeting the authorities' revenue and approval criteria.",
+          "Skilled professionals such as senior managers, engineers, healthcare workers and educators can apply on the basis of employment, typically needing a basic monthly salary of around AED 30,000, a valid employment contract and an attested university degree or professional classification. Scientists and researchers can qualify through accredited scientific bodies, and outstanding students and graduates can qualify on academic merit. Specialised talents in medicine, science, culture, the arts and sport may be nominated under the exceptional-talent category."
+        ]
+      },
+      {
+        "heading": "Green and Blue visas as alternatives",
+        "body": [
+          "If you do not meet the Golden Visa thresholds, two other long-term options may suit you. The Green Visa is a 5-year, renewable, self-sponsored residence permit for freelancers, self-employed people and skilled employees, with a lower salary threshold commonly cited around AED 15,000 per month. It lets you sponsor family members but, unlike the Golden Visa, can lapse if you stay outside the UAE beyond the permitted period.",
+          "The Blue Visa is a 10-year residence permit aimed at people who have made an outstanding contribution to environmental protection and sustainability, whether inside the UAE or internationally. It is awarded largely by nomination rather than open application. Both sit alongside the Golden Visa rather than replacing it, so it is worth checking which category fits your circumstances before applying."
+        ]
+      },
+      {
+        "heading": "How to apply, cost and processing time",
+        "body": [
+          "Applications are made through the ICP Smart Services portal for the federal route, or in Dubai through the GDRFA, often alongside the Dubai Land Department for property investors. The typical flow is: confirm your eligibility, gather documents (passport, photos, title deed or investment proof, salary or business evidence as relevant), submit the application, complete a medical fitness test and biometrics, and then receive approval followed by your Emirates ID and residence visa stamp.",
+          "Government and service fees vary by category and channel and have been reported in 2026 in a broad range, with property-route packages often cited higher than salary or talent routes once medical, Emirates ID and processing charges are added. Treat any single figure as indicative and confirm the current schedule at the time you apply. Processing is frequently completed within roughly 1 to 2 weeks once documents are complete, though categories that need external nomination or endorsement can take longer."
+        ]
+      },
+      {
+        "heading": "Benefits, checking status and renewal",
+        "body": [
+          "The headline benefits are long validity, no local sponsor, and the ability to sponsor your spouse, children and household staff. Golden Visa holders can generally live, work, study and run a business in the UAE, and the visa is not cancelled by long absences abroad in the way ordinary permits are. Family members' visas are usually linked to the main holder's term.",
+          "You can check the status of an application or an existing visa through the ICP or GDRFA channels using your application or file details. Renewal is available when your visa term ends, provided you still meet the original conditions, for example that you still own the qualifying property. Because thresholds, fees and procedures are periodically updated, confirm the current requirements with official UAE government sources or a licensed advisor before you rely on any figure in this guide."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much property do I need to buy in Dubai for a Golden Visa?",
+        "answer": "You need Dubai property with a certified value of at least AED 2M. This can be one property or several properties whose combined certified value reaches AED 2M. As of a federal update dated February 2026, eligibility is based on total certified value, so mortgaged and approved off-plan homes can also qualify."
+      },
+      {
+        "question": "Does a mortgaged property still qualify for the Golden Visa?",
+        "answer": "Yes. Since the February 2026 policy update, the earlier rule requiring AED 1M paid upfront or 50% equity was removed, so a mortgaged home can qualify once its certified value reaches AED 2M. You will need complete documentation, including bank approvals and any required no-objection certificates. Confirm the current position with the Dubai Land Department before you buy."
+      },
+      {
+        "question": "How long is the Dubai Golden Visa valid, and can I renew it?",
+        "answer": "The Golden Visa is issued for either 5 or 10 years depending on the category you qualify under, and it is renewable as long as you still meet the conditions. For the property route, you generally keep the visa while you continue to own the qualifying home. Check the exact term attached to your category when you apply."
+      },
+      {
+        "question": "Can I sponsor my family on a Golden Visa?",
+        "answer": "Yes. A Golden Visa holder can sponsor their spouse and children, and typically household staff as well, without needing a UAE national or employer as sponsor. Family members' residence is usually linked to the main holder's visa term. Dependants follow the standard UAE sponsorship documentation process."
+      },
+      {
+        "question": "How long does the Golden Visa take, and what does it cost?",
+        "answer": "Processing is frequently completed within roughly 1 to 2 weeks once your documents are complete, though nomination-based categories can take longer. Fees vary by category and channel and are periodically updated, with the property route often cited higher than salary or talent routes once medical and Emirates ID charges are added. Confirm the current fee schedule at the time you apply."
+      },
+      {
+        "question": "What is the difference between the Golden, Green and Blue visas?",
+        "answer": "The Golden Visa is a 5 or 10-year residence permit for investors, entrepreneurs, talent and property owners. The Green Visa is a 5-year, self-sponsored permit for freelancers and skilled workers with a lower income threshold. The Blue Visa is a 10-year permit awarded mainly by nomination for outstanding contributions to environmental sustainability."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Golden Visa through Dubai property (2026)",
+        "href": "/blog/golden-visa-dubai-property-2026-guide"
+      },
+      {
+        "label": "Palm Jumeirah property prices: 2026 guide",
+        "href": "/blog/palm-jumeirah-property-prices-guide"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Can foreigners buy property in Dubai?",
+        "href": "/blog/can-foreigners-buy-property-dubai-freehold"
+      },
+      {
+        "label": "Get a free property valuation",
+        "href": "/valuation"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "dubai golden visa",
+      "golden visa requirements 2026",
+      "golden visa through property",
+      "uae golden visa property route",
+      "golden visa aed 2 million",
+      "how to apply for golden visa dubai",
+      "golden visa mortgage rules 2026",
+      "golden visa vs green visa"
+    ]
+  },
+  {
+    "slug": "dubai-visa-types-explained",
+    "title": "Dubai Visa Types Explained: Every UAE Residence Visa in 2026",
+    "excerpt": "The main UAE residence visas are employment, family, Golden, Green, Blue, retirement and student, plus tourist visas. Here is which one suits you.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10486073/pexels-photo-10486073.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa and modern towers, symbolising UAE residence and visa options",
+      "tone": "#141821"
+    },
+    "intro": "The main UAE residence visas in 2026 are the employment (work) visa, the family or dependent visa, the Golden Visa, the Green Visa, the Blue Visa, the retirement visa and the student visa, alongside short-term tourist visas for visitors. The right one depends entirely on your situation: whether you are employed, self-employed, investing, retiring, studying or simply visiting. Some visas need a sponsor (an employer or family member), while others, such as the Golden, Green and Blue visas, let you sponsor yourself. Validity ranges from a few months for tourists to 10 years for the longest residence permits. This guide gives a clean, scannable overview of each type, who it suits, roughly how long it lasts and whether a sponsor is required, so you can work out where you fit before you dig into the detail or speak to a specialist. Rules change, so always confirm the current position with official UAE sources.",
+    "keyTakeaways": [
+      "The UAE offers several residence visas: employment, family, Golden, Green, Blue, retirement and student, plus short-term tourist visas.",
+      "Employer-sponsored work visas and family visas need a sponsor; the Golden, Green and Blue visas are self-sponsored.",
+      "The Golden Visa is the flagship long-term route, usually 10 years, and includes a Dubai property investment pathway.",
+      "The Green Visa is a 5-year self-sponsored option for skilled workers, freelancers and self-employed people.",
+      "The retirement visa suits residents aged 55 and over who meet property, savings or income criteria, valid 5 years.",
+      "Visa rules, thresholds and durations change, so always verify with official UAE government sources before applying."
+    ],
+    "sections": [
+      {
+        "heading": "Employment (work) visa: for those with a UAE job",
+        "body": [
+          "The employment or work visa is the most common route into UAE residence and is sponsored by your employer. Once a company hires you, it arranges your residence visa, medical, Emirates ID and, in most cases, your labour contract through the relevant authority. This visa ties your residence to that job, so if you leave the employer, the visa normally needs to be cancelled and transferred or replaced.",
+          "Work visas are typically issued for around two to three years for private-sector employees, then renewed while you remain employed, though free zones and government roles can differ. It suits salaried professionals who have secured a role in Dubai or elsewhere in the UAE. If your long-term plan is to buy property or gain independence from an employer, you may later look at the Golden or Green visa instead."
+        ]
+      },
+      {
+        "heading": "Family and dependent visa: sponsoring your loved ones",
+        "body": [
+          "Residents can sponsor family members onto a dependent visa, most commonly a spouse and children, and in some cases parents, subject to income and housing conditions. The sponsor is usually the working resident or a Golden Visa holder, and the dependent's visa is linked to and expires with the sponsor's own residence permit unless renewed.",
+          "This route suits anyone relocating with a partner or children. Golden Visa holders benefit from more generous family sponsorship, and can typically sponsor a spouse and children with fewer restrictions than a standard work-visa holder. Always check the current salary threshold and documentation, as these are periodically updated."
+        ]
+      },
+      {
+        "heading": "Golden Visa: long-term residence, no employer needed",
+        "body": [
+          "The Golden Visa is the UAE's flagship long-term residence visa, usually issued for 10 years and renewable, and it does not require a company sponsor. It is aimed at investors, entrepreneurs, highly skilled professionals, scientists, outstanding students and graduates, and other exceptional talent. There is also a widely used property route: buying real estate worth at least AED 2 million can qualify you for the 10-year Golden Visa, which makes it especially relevant to buyers in Dubai.",
+          "Most Golden Visa categories run for 10 years, though some, such as certain entrepreneurs and outstanding students, are issued for five. Because it is self-sponsored, it offers stability, easier family sponsorship and the freedom to live, work or study in the UAE without being tied to an employer. If you are considering the property pathway, our dedicated Golden Visa guides walk through the thresholds and process in detail."
+        ]
+      },
+      {
+        "heading": "Green Visa: self-sponsored residence for skilled workers and freelancers",
+        "body": [
+          "The Green Visa is a 5-year, self-sponsored residence visa that does not need an employer or a 10-year commitment. It is designed for skilled employees, freelancers and self-employed people, and investor partners who do not yet meet the higher Golden Visa thresholds. Because you sponsor yourself, your residence is not tied to a single job.",
+          "Reported requirements include a valid work or freelance permit from the relevant authority, a recognised qualification such as a bachelor's degree, and a minimum income level, with freelancers and self-employed applicants generally needing to show annual income of around AED 360,000 over the prior two years or proof of financial solvency. The Green Visa suits independent professionals building toward the Golden Visa later. Confirm the current criteria before applying, as thresholds can change."
+        ]
+      },
+      {
+        "heading": "Blue Visa: 10-year residence for environmental contributors",
+        "body": [
+          "The Blue Visa is a newer 10-year renewable residence visa for people who have made an exceptional contribution to environmental protection, sustainability, climate action or renewable energy. Launched at the World Government Summit in Dubai, it is administered by the federal identity and citizenship authority in collaboration with the Ministry of Climate Change and Environment, and it does not require a local employer sponsor.",
+          "Eligible profiles include environmental scientists and researchers, sustainability advocates, conservation professionals, and individuals recognised by leading international or UAE environmental organisations, as well as certain financial supporters and investors in ecological projects. The Blue Visa is largely nomination-driven, so it is a specialist route rather than a mainstream option, but it is worth knowing about if your work sits in this field."
+        ]
+      },
+      {
+        "heading": "Retirement and student visas: two more residence routes",
+        "body": [
+          "The UAE offers a retirement visa for residents and applicants aged 55 and over, valid for five years and renewable, provided you meet certain criteria. These typically involve owning property, holding financial savings, or earning an active income above a set monthly threshold, and some routes also consider your years of work history. It is a settled, self-directed option for older applicants who want to base themselves in Dubai without employment.",
+          "The student visa, meanwhile, is for those enrolled at a UAE university or higher-education institution, usually sponsored by the institution and valid for the duration of study, with renewals as courses continue. High-achieving students may also access longer-term options. Both routes have their own documentation and financial conditions, so verify the latest requirements with official sources."
+        ]
+      },
+      {
+        "heading": "Tourist and remote-work visas: short-term ways to stay",
+        "body": [
+          "If you are not yet relocating, tourist visas let you visit the UAE for short periods, commonly for 30, 60 or 90 days depending on the type and your nationality, with some options extendable. Many nationalities also receive visa-on-arrival or visa-free entry. Tourist visas are for visiting only and do not grant residence, Emirates ID or the right to work locally.",
+          "There is also a virtual working (remote work) programme: a one-year residence permit that lets you live in the UAE while working remotely for an employer or business based outside the country. It has income, insurance and documentation requirements, and reported income evidence rules have been tightened recently, so check the current thresholds. It is a useful bridge for professionals who want to test life in Dubai before committing to a longer residence route or a property purchase."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many residence visa types does the UAE offer?",
+        "answer": "There are several main residence routes, including the employment (work) visa, family or dependent visa, Golden Visa, Green Visa, Blue Visa, retirement visa and student visa. Short-term tourist visas and a one-year remote-work programme sit alongside these. The right choice depends on whether you are employed, self-employed, investing, retiring or studying."
+      },
+      {
+        "question": "Which UAE visas do not require a sponsor?",
+        "answer": "The Golden Visa, Green Visa and Blue Visa are self-sponsored, meaning you do not need an employer or a UAE national to sponsor you. Employment visas require an employer sponsor, and family or dependent visas require a resident sponsor such as a spouse or parent. Self-sponsored visas give you more independence and stability."
+      },
+      {
+        "question": "Can buying property in Dubai get me a residence visa?",
+        "answer": "Yes. Buying real estate worth at least AED 2 million can qualify you for the 10-year Golden Visa, subject to the current conditions. This is one of the most popular long-term routes for property buyers in Dubai. Our Golden Visa property guides explain the thresholds and process in detail, and always confirm the latest rules."
+      },
+      {
+        "question": "What is the difference between the Golden Visa and the Green Visa?",
+        "answer": "The Golden Visa is usually a 10-year residence for investors, entrepreneurs and exceptional talent, including a property route. The Green Visa is a 5-year self-sponsored visa for skilled workers, freelancers and self-employed people who do not yet meet the higher Golden Visa thresholds. Both let you sponsor yourself rather than rely on an employer."
+      },
+      {
+        "question": "Is there a UAE visa for retirees?",
+        "answer": "Yes. The retirement visa is available to those aged 55 and over and is valid for five years, renewable if you continue to meet the criteria. Eligibility typically requires owning property, holding sufficient savings, or earning an active income above a set threshold. Check the current property, savings and income requirements with official UAE sources before applying."
+      },
+      {
+        "question": "Do tourist visas let me work or live in the UAE long-term?",
+        "answer": "No. Tourist visas are for short visits, commonly 30, 60 or 90 days, and do not grant residence, an Emirates ID or the right to work locally. If you want to live in the UAE, you need a residence visa such as an employment, family, Golden, Green or retirement visa. The one-year remote-work programme is a separate option for those working for a company based outside the UAE."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "Golden Visa through Dubai property",
+        "href": "/blog/golden-visa-dubai-property-2026-guide"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "dubai visa types",
+      "uae residence visa types",
+      "types of visa in dubai",
+      "uae visa types explained",
+      "dubai residence visa 2026",
+      "green visa uae",
+      "blue visa uae",
+      "golden visa dubai property"
+    ]
+  },
+  {
+    "slug": "how-to-open-bank-account-in-dubai",
+    "title": "How to Open a Bank Account in Dubai (Resident & Non-Resident)",
+    "excerpt": "Residents need a passport, UAE residence visa and Emirates ID to open a current account; non-residents can usually open a savings account only.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Modern bank building and glass towers in Dubai's financial district at dusk",
+      "tone": "#141821"
+    },
+    "intro": "To open a bank account in Dubai as a resident you need a valid passport, a UAE residence visa and an Emirates ID, and usually a local phone number and proof of address; with these you can open a full current account with a debit card and chequebook. If you do not hold a UAE residence visa, you are treated as a non-resident and can normally open a savings account only, not a current account, at a smaller number of banks and often with a higher minimum balance. Digital banks such as Wio and Liv let residents onboard through an app in minutes to a few days, while traditional banks typically take a few days to a few weeks and almost always ask you to visit a branch in person to verify your original documents. Requirements and fees vary by bank and change over time, so confirm the current rules directly with the bank before you apply.",
+    "keyTakeaways": [
+      "Residents open a current account with a passport, UAE residence visa and Emirates ID; a UAE phone number and proof of address are often requested too.",
+      "Non-residents can usually open a savings account only, not a current account, and cannot get a chequebook without a residence visa.",
+      "An Emirates ID is the key that unlocks a current account, a debit card and a chequebook.",
+      "Digital banks (Wio, Liv, Mashreq Neo) can onboard residents in minutes to a few days; traditional banks generally take a few days to a few weeks.",
+      "Most banks require a branch visit to verify original documents, even when the application starts online.",
+      "Minimum balance rules, fall-below fees and eligibility vary by bank and change regularly, so verify current terms before applying."
+    ],
+    "sections": [
+      {
+        "heading": "Resident vs non-resident accounts: what actually differs",
+        "body": [
+          "The single biggest factor is whether you hold a UAE residence visa. Residents, meaning anyone with a valid UAE residence visa and Emirates ID, can open a current account that comes with a debit card, a chequebook and full local banking, and can also open savings and fixed deposit accounts. This is the standard setup for people who live and work in Dubai or who own property and spend meaningful time here.",
+          "Non-residents, meaning people without a UAE residence visa, are generally restricted to a savings or fixed deposit account. You do not get a current account or a chequebook, and the choice of banks that will consider your application is smaller. Non-resident accounts are still useful for holding funds, receiving international transfers and earning interest, but they are not a full transactional account. If you plan to relocate or buy property and settle here, the cleaner long-term route is to secure a residence visa and Emirates ID first, then open a resident current account."
+        ]
+      },
+      {
+        "heading": "Documents you need to open an account",
+        "body": [
+          "For a resident current account, banks typically ask for your original passport, your UAE residence visa, your Emirates ID (or the application slip if the card is still being issued), and usually a UAE mobile number. Many banks also request proof of address such as a tenancy contract (Ejari) or a recent utility bill, and a salary certificate or employment letter for salaried customers. Self-employed applicants and business owners may need trade licence documents and additional financial information.",
+          "For a non-resident savings account, the core documents are a valid passport and proof of your residential address in your home country, and banks commonly ask for several months of bank statements, sometimes a reference letter from your existing bank, and details of your source of funds. Every bank runs Know Your Customer (KYC) and anti-money-laundering checks, so be ready to explain where your money comes from. Exact document lists differ between banks and can change, so ask for the current checklist before you start."
+        ]
+      },
+      {
+        "heading": "Step by step: how the process works",
+        "body": [
+          "A typical journey looks like this. First, choose a bank and account type that match your status, whether that is a resident current account or a non-resident savings account. Second, gather your documents from the checklist above. Third, submit an application, either in the bank's app, on its website or at a branch. Fourth, complete identity verification, which for residents can be an app-based scan of the Emirates ID and a short video call, and for non-residents usually means an in-person branch visit. Fifth, pass the bank's compliance and KYC review. Once approved, you receive your account details, and cards or a chequebook where applicable.",
+          "Even when the application starts online, most banks still require you to visit a branch at least once to present your original documents and sign. Build that step into your timing, especially if you are only in Dubai for a short visit. If you are a non-resident applying on a visit or tourist visa, plan to be in the country for the branch appointment."
+        ]
+      },
+      {
+        "heading": "Digital banks vs traditional banks",
+        "body": [
+          "Digital banks such as Wio, Liv by Emirates NBD and Mashreq Neo are built around app-based onboarding. A resident with a valid Emirates ID can often download the app, scan the ID, and complete verification quickly, with the account becoming active within minutes to a few working days depending on the checks. These accounts are convenient, app-first and frequently come with low or zero minimum balance options for eligible customers, though features and eligibility vary.",
+          "Traditional banks such as Emirates NBD, First Abu Dhabi Bank (FAB), ADCB, Mashreq, RAKBANK and Dubai Islamic Bank offer the full branch network, relationship managers, chequebooks, mortgages and wealth services that matter when you are buying property or managing larger balances. The trade-off is speed: opening a traditional account generally takes a few days to a few weeks, and premium or non-resident applications can take longer while compliance completes. Many buyers keep both, a digital account for day-to-day convenience and a traditional bank for mortgages and larger transactions."
+        ]
+      },
+      {
+        "heading": "Timelines and what to expect",
+        "body": [
+          "For residents, digital banks are the fastest route and can have an account ready in minutes to a few working days after video or in-app verification. Traditional banks usually take several days to a few weeks, with the exact time depending on how quickly you provide documents and how long the compliance review takes. Having your Emirates ID already issued speeds everything up, since it is the anchor document for a current account.",
+          "For non-residents, expect a longer and more document-heavy process, and in nearly all cases a branch visit. Approval depends on the bank's assessment of your profile and source of funds, so timelines are less predictable. As a rule, start early, respond quickly to any request for extra paperwork, and do not assume same-day approval."
+        ]
+      },
+      {
+        "heading": "Current vs savings accounts, plus practical tips",
+        "body": [
+          "A current account is a transactional account for everyday use: it comes with a debit card and, for residents, a chequebook, which still matters in Dubai for rent and some property payments. A savings account is designed to hold funds and earn interest and usually does not include a chequebook. The practical headline is simple: you need an Emirates ID, and therefore resident status, to open a current account. Non-residents are generally limited to savings.",
+          "A few tips to smooth the process. Check the minimum balance before you commit, because many accounts require you to maintain a set balance and charge a monthly fall-below fee if you dip beneath it; these figures vary widely by bank and tier. Get a UAE mobile number early, as banks send verification codes and account alerts to a local number. Keep proof of address ready. And confirm any account's fees, features and eligibility directly with the bank, since terms change and this guide is general information rather than financial advice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can a non-resident open a bank account in Dubai?",
+        "answer": "Yes, but usually only a savings or fixed deposit account, not a current account. A smaller number of banks accept non-resident applications, and they typically ask for your passport, proof of home address, bank statements and source-of-funds details. In almost all cases you must visit a branch in person to verify your documents."
+      },
+      {
+        "question": "Do I need an Emirates ID to open a bank account?",
+        "answer": "You need an Emirates ID, and therefore resident status, to open a current account with a debit card and chequebook. Non-residents can open a savings account without an Emirates ID at select banks. If your Emirates ID card is still being processed, some banks accept the application slip in the meantime."
+      },
+      {
+        "question": "How long does it take to open a bank account in Dubai?",
+        "answer": "For residents using a digital bank such as Wio or Liv, an account can be ready in minutes to a few working days after verification. Traditional banks generally take a few days to a few weeks. Non-resident accounts usually take longer because of extra document checks and an in-person branch visit."
+      },
+      {
+        "question": "What is the difference between a current and a savings account?",
+        "answer": "A current account is a transactional account with a debit card and, for residents, a chequebook, used for everyday spending, salary and rent. A savings account is meant to hold funds and earn interest and normally has no chequebook. Residents can open both; non-residents are generally limited to savings."
+      },
+      {
+        "question": "Which documents do I need to open a resident account?",
+        "answer": "Typically your original passport, UAE residence visa, Emirates ID and a UAE mobile number. Many banks also ask for proof of address, such as a tenancy contract or utility bill, and a salary certificate or employment letter. Self-employed applicants may need trade licence documents. Exact lists vary by bank."
+      },
+      {
+        "question": "Is there a minimum balance for a Dubai bank account?",
+        "answer": "It depends on the bank and account type. Some digital accounts offer low or zero minimum balance options, while non-resident savings accounts often require a higher maintained balance. Many accounts charge a monthly fall-below fee if you drop below the minimum. These figures vary by bank and change, so confirm current terms before you apply."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai mortgages for expats and non-residents",
+        "href": "/blog/dubai-mortgages-expats-non-residents"
+      },
+      {
+        "label": "Browse current Dubai listings",
+        "href": "/listings"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "open bank account dubai",
+      "dubai bank account for expats",
+      "non resident bank account dubai",
+      "how to open a bank account in dubai",
+      "dubai bank account requirements",
+      "emirates id bank account",
+      "digital banks uae",
+      "current vs savings account dubai"
+    ]
+  },
+  {
+    "slug": "how-to-get-uae-driving-licence",
+    "title": "How to Get a UAE Driving Licence in Dubai (2026 Guide)",
+    "excerpt": "Dubai driving licences are issued by the RTA. Exchange-country holders convert without training; everyone else does full lessons and tests.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10593631/pexels-photo-10593631.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A car on a Dubai road at dusk with the city skyline behind, illustrating driving in the UAE",
+      "tone": "#141821"
+    },
+    "intro": "In Dubai, driving licences are issued by the Roads and Transport Authority (RTA), and how you get one depends on your nationality. If you hold a licence from one of the RTA's approved exchange countries, you can usually convert it to a UAE licence without taking lessons, a theory exam or a road test. If your country is not on that list, you go through the full process: open a file with a driving school, pass an eye test, complete theory training and a theory test, take practical lessons, and pass an RTA road test. The minimum driving age is 18, and you generally need a valid UAE residence visa and Emirates ID before you apply. Below we walk through both routes, the tests, rough costs and timelines, and how to renew. Exact fees and the current exchange-country list change over time, so always confirm the latest position directly with the RTA before you start.",
+    "keyTakeaways": [
+      "Dubai licences are issued by the RTA; the minimum driving age is 18 and you normally need a valid UAE residence visa plus Emirates ID.",
+      "Exchange-country nationals can typically convert their existing licence without full training or a road test.",
+      "Non-exchange nationalities open a file with a driving school and complete an eye test, theory test, practical lessons and an RTA road test.",
+      "A first-time licence commonly costs somewhere around AED 4,500 to AED 7,500 all-in, with RTA government fees a smaller part of that.",
+      "The full beginner process typically takes a couple of months if you pass each test first time.",
+      "Fees and the exchange-country list change, so confirm eligibility and current costs with the RTA before applying."
+    ],
+    "sections": [
+      {
+        "heading": "Who needs a UAE driving licence",
+        "body": [
+          "If you are a UAE resident and want to drive here, you need a valid UAE driving licence issued by the RTA in Dubai. Tourists and short-term visitors can often drive on an international driving permit or, in some cases, a home licence when renting a car, but that does not replace a UAE licence once you become a resident. As a rule, you must be at least 18 to hold a standard car licence, and you generally need a valid residence visa and Emirates ID before you apply.",
+          "For people relocating to Dubai to live or invest, sorting out a licence early makes daily life far easier, from school runs to visiting communities you are considering buying in. Your exact route depends on whether your existing licence is from a country the RTA recognises for exchange, which we cover next. If you are unsure of your status, the RTA and licensed driving schools can confirm it for you."
+        ]
+      },
+      {
+        "heading": "Exchange countries: converting your existing licence",
+        "body": [
+          "The RTA recognises a list of countries whose driving licences can be exchanged directly for a UAE licence. As of 2026, reporting has referenced roughly 57 eligible countries, and the RTA periodically adds more through bilateral agreements. If your licence is from an eligible country, you can typically convert it without sitting through the full driving-school programme, theory exam or road test, provided you meet the requirements. Commonly listed countries include the UK, USA, Canada, Australia, GCC states and many EU nations, but you should never assume: the list changes and eligibility can depend on the details of your licence.",
+          "The conversion process is usually straightforward. You apply through RTA channels or at a Customer Happiness Centre, provide your documents, and in most cases complete an eye test. Once approved, you pay the fees and receive your UAE licence. Because the exact list and conditions are updated over time, confirm your country's current status directly with the RTA before you rely on being able to convert."
+        ]
+      },
+      {
+        "heading": "Non-exchange countries: the full training route",
+        "body": [
+          "If your country is not on the exchange list, you obtain a UAE licence through a registered driving school. The typical path is: open a file (registration) with an RTA-approved school, complete a mandatory eye test, take theory training and pass the theory test, complete a set number of practical lessons, and then pass the RTA road test. Driving schools commonly require around 20 hours of lessons for beginners and fewer for those with prior experience, though the exact number of hours varies by school and by how you perform in assessments.",
+          "This route takes longer and costs more than a straight exchange, largely because of the training hours. If you do not pass a test on the first attempt, you generally pay the test fee again and may be asked to take extra lessons before you can retest. Booking lessons consistently and preparing properly for each stage is the best way to keep both time and cost down."
+        ]
+      },
+      {
+        "heading": "The tests: eye, theory and road test",
+        "body": [
+          "Most applicants complete three key checks. The eye test is a quick vision screening at an RTA-approved optical centre and is required for both new licences and renewals. The theory test covers road signs, traffic rules and hazard awareness, and is usually a multiple-choice exam you must pass to move on to practical training. Reports in 2026 describe the theory exam as around 35 questions with a set pass mark, but the format can change, so use your driving school's current materials to prepare.",
+          "The practical road test is taken with an RTA examiner and assesses your control of the vehicle, observation, and adherence to traffic rules in real conditions. Some schools also include a separate parking or manoeuvres assessment before the main road test. Pass marks and exact test structure are set by the RTA and can be updated, so confirm the current requirements with your school or the RTA."
+        ]
+      },
+      {
+        "heading": "Rough costs and timelines",
+        "body": [
+          "For a first-time licence through a driving school, all-in costs are frequently quoted in the region of AED 4,500 to AED 7,500 in 2026, with the driving-school training making up the largest share and RTA government fees a smaller, roughly four-figure portion. On top of the core package you typically pay for the eye test (often around AED 140 to AED 180), the theory test, and road-test fees, plus licence issuance and delivery. Retests and extra lessons add to the total, so passing first time is the single biggest way to control cost. These figures are indicative only and vary by school and category.",
+          "On timing, the full beginner process commonly takes a couple of months, and sometimes more, depending on lesson availability, your schedule and how quickly you pass each stage. An exchange conversion, by contrast, can be completed much faster because there is no training or road test. Always treat quoted numbers as estimates and confirm current fees with the RTA and your chosen driving school."
+        ]
+      },
+      {
+        "heading": "How to check status and renew your licence",
+        "body": [
+          "You can manage most licence matters through RTA channels, including the RTA website and app, kiosks, and Customer Happiness Centres. Expat licences are generally valid for a shorter period than those of nationals, often around five years for residents, after which you renew. Renewal typically requires a valid Emirates ID, a fresh RTA-approved eye test, payment of the renewal fee, and clearance of any outstanding traffic fines. Reporting in 2026 cited a renewal fee in the region of a few hundred dirhams for adults, but confirm the current amount with the RTA.",
+          "If you let a licence lapse, late-renewal fines can accrue monthly up to a capped amount, and a very long lapse may require re-testing, so it pays to renew on time. Because validity periods, fees and penalties can be revised, check the exact rules and current charges on the official RTA service pages before you renew."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who issues driving licences in Dubai?",
+        "answer": "Driving licences in Dubai are issued by the Roads and Transport Authority (RTA). You apply and manage renewals through RTA channels such as its website, app and Customer Happiness Centres. Confirm current requirements on the official RTA service pages."
+      },
+      {
+        "question": "Can I convert my foreign licence to a UAE one?",
+        "answer": "If your licence is from a country on the RTA's exchange list, you can usually convert it without full training, a theory exam or a road test. Roughly 57 countries were reported as eligible in 2026, but the list changes. Always confirm your country's current eligibility directly with the RTA."
+      },
+      {
+        "question": "What is the minimum age to drive in the UAE?",
+        "answer": "The minimum age for a standard car driving licence in the UAE is 18. You also generally need a valid UAE residence visa and Emirates ID before applying. Different vehicle categories can have different age or experience requirements."
+      },
+      {
+        "question": "How much does a Dubai driving licence cost?",
+        "answer": "For a first-time licence through a driving school, all-in costs are commonly quoted around AED 4,500 to AED 7,500 in 2026, with training the largest part and RTA fees a smaller share. Retests and extra lessons add to the total. These are estimates, so confirm current fees with the RTA and your school."
+      },
+      {
+        "question": "How long does it take to get a licence in Dubai?",
+        "answer": "For beginners going through the full driving-school route, the process commonly takes a couple of months, sometimes longer, depending on lesson availability and how quickly you pass each test. An exchange conversion is much faster because there is no training or road test involved."
+      },
+      {
+        "question": "How do I renew my Dubai driving licence?",
+        "answer": "You renew through RTA channels, typically providing a valid Emirates ID, a fresh RTA-approved eye test and payment of the renewal fee, and clearing any outstanding fines. Expat licences are often valid for around five years. Late renewal can add monthly fines, so renew on time and confirm current fees with the RTA."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: the complete relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Dubai communities and area guides",
+        "href": "/areas"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "how to get driving licence dubai",
+      "uae driving license",
+      "rta driving license",
+      "dubai driving licence cost",
+      "exchange foreign driving licence uae",
+      "uae driving licence eligible countries",
+      "convert driving licence dubai",
+      "dubai driving licence renewal"
+    ]
+  },
+  {
+    "slug": "moving-to-dubai-relocation-checklist",
+    "title": "Moving to Dubai: The Complete 2026 Relocation Checklist",
+    "excerpt": "Move to Dubai in the right order: secure a visa, pass the medical, get your Emirates ID, sign a tenancy and Ejari, connect DEWA, then open a bank account.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 10,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with residential towers, representing a new life after relocating to the city",
+      "tone": "#141821"
+    },
+    "intro": "Moving to Dubai works best when you follow the paperwork in the right order, because each step unlocks the next: first secure a residence visa (usually through employment or the Golden Visa), then complete the medical fitness test and biometrics, collect your Emirates ID, sign a tenancy contract and register it on Ejari, connect your DEWA utilities, and finally open a bank account. Skip ahead and you will hit a wall, because you cannot register Ejari or open most accounts without the Emirates ID, and you cannot get the Emirates ID without a visa and medical. Around this spine you also need mandatory health insurance, a local SIM, and eventually a UAE driving licence. This pillar checklist walks through the whole journey in sequence, from planning and budget before you fly to settling in once you land, and links out to our deeper step-by-step guides for each stage.",
+    "keyTakeaways": [
+      "The order matters: visa first, then medical and biometrics, Emirates ID, tenancy plus Ejari, DEWA, and bank account last.",
+      "Your Emirates ID is the master key: banking, Ejari, utilities, and most government services all depend on it.",
+      "Health insurance is mandatory for residence visa holders in Dubai, so budget for it from day one.",
+      "Renting is the fast route to settling in, while buying can also lead to residency through property investment.",
+      "Most employment visas are arranged by your sponsor or employer, while the Golden Visa is self-sponsored for ten years.",
+      "Costs and processes change often, so always confirm the latest fees and rules with official UAE sources before you commit."
+    ],
+    "sections": [
+      {
+        "heading": "Before you fly: planning, budget and documents",
+        "body": [
+          "Start three to six months before your move by pinning down two things: your budget and your route to a visa. Dubai has no income tax, but upfront relocation costs add up quickly, so plan for flights, temporary accommodation, a security deposit and agency fee on a rental, health insurance, school deposits if you have children, and a general buffer for setup costs like utilities, a SIM and furniture. Landlords in Dubai typically expect rent in one to a few cheques per year, so keep enough liquidity for a large first payment.",
+          "Get your paper trail in order early. Gather passports valid for at least six months, passport photos with a white background, attested educational and marriage certificates if you will need them for work or family sponsorship, and clear scans of everything on your phone and in the cloud. Certificate attestation can take weeks and is easier to arrange in your home country before you leave, so treat it as an early task rather than an afterthought."
+        ]
+      },
+      {
+        "heading": "Choose your visa: the foundation of everything",
+        "body": [
+          "Your residence visa is the foundation the whole move is built on, so decide your route first. The most common path is an employment visa, where your employer or a free zone sponsors you and handles most of the paperwork once you accept a job offer. If you are self-employed, investing, or want independence from an employer, look at the Golden Visa, a ten-year self-sponsored residence permit for investors, entrepreneurs, skilled professionals and other qualifying categories. Property investors can also qualify for residence by buying real estate above set value thresholds.",
+          "The right choice shapes everything that follows, including how quickly you can bring family, whether you can sponsor dependants, and how tied you are to a single employer. Read our dedicated guides before committing, and if you are considering property as your route in, our team can walk you through the current investment thresholds and the areas that qualify."
+        ]
+      },
+      {
+        "heading": "The paperwork spine: visa, medical, Emirates ID, tenancy, Ejari, DEWA, bank",
+        "body": [
+          "Once you are in the country on an entry permit, the formal sequence runs in a fixed order and each step depends on the last. First comes the medical fitness test at an approved centre, which includes a blood test and chest X-ray to screen for communicable diseases. Next is biometrics, meaning fingerprints and a photo captured for the federal ID authority. Your residence visa is then stamped or issued digitally, and your Emirates ID is processed and delivered to your registered address. Expect this end-to-end stage to take roughly two to three weeks, though timelines vary.",
+          "With the Emirates ID in hand you can move on to housing. Sign your tenancy contract, then register it on Ejari, the official system that records rental agreements in Dubai. Ejari registration is what lets you connect utilities and is often needed for visas and school enrolment. Next, open a DEWA account for water and electricity using your Ejari and Emirates ID. Only after your Emirates ID exists can you comfortably open a resident bank account, so leave banking until the end of this chain rather than trying to rush it first."
+        ]
+      },
+      {
+        "heading": "Health insurance, SIM and staying connected",
+        "body": [
+          "Health insurance is mandatory for residence visa holders in Dubai, and you usually cannot complete the visa process without a compliant policy in place. If you are on an employment visa, your employer normally provides cover, but always check what is included and whether it extends to your family, because dependants must also be insured. If you are self-sponsored, you will arrange your own compliant plan, so factor the annual premium into your budget from the outset.",
+          "Getting connected is quick and one of the more satisfying early wins. You can buy a prepaid tourist SIM on arrival, then switch to a postpaid plan once you have your Emirates ID. The two main networks are Etisalat, now branded e&, and du. A local number is needed for banking verification, delivery apps, government portals and building access systems, so sort it out in your first few days."
+        ]
+      },
+      {
+        "heading": "Driving in Dubai and getting a licence",
+        "body": [
+          "Driving is the default way to get around Dubai, and whether you can drive straight away depends on your nationality. Residents from a number of countries can exchange their existing licence for a UAE one without sitting the full driving course and tests, while others must train at an approved driving school and pass the local theory and road tests. Rules and eligible-country lists change, so confirm your status with the Roads and Transport Authority before you rely on your home licence.",
+          "Until your UAE licence is issued you can often drive a rental car on your home or international licence as a visitor, but that changes once you become a resident, so do not assume the visitor rules keep applying. If you would rather not drive at first, the Dubai Metro, trams and ride-hailing apps cover most of the city and make it easy to settle in while you sort out your licence."
+        ]
+      },
+      {
+        "heading": "Housing: renting versus buying",
+        "body": [
+          "Most newcomers rent first, and it is the sensible way to learn the city before committing capital. Renting lets you test neighbourhoods, commutes and community feel, and it needs less upfront cash than a purchase. Budget for a security deposit, an agency fee, and rent split across one to a few cheques, and register every lease on Ejari. Popular options range from apartment communities like Dubai Marina and Downtown to family villa districts and waterfront addresses on Palm Jumeirah.",
+          "Buying suits those who are confident they are staying, want to build equity in a tax-friendly market, or are using property as a route to residency. Foreign buyers can own freehold property in designated areas, and purchases above set value thresholds can support a residence or Golden Visa application. If you are weighing renting against buying, our advisers can model both against your timeline and show you what your budget buys across Dubai's prime communities."
+        ]
+      },
+      {
+        "heading": "Schools, family and settling in",
+        "body": [
+          "If you are moving with children, schooling deserves early attention because the best schools have waiting lists and admissions cycles that do not wait for you. Dubai offers a wide choice of international curricula, including British, American, IB and others, all regulated and rated by the local schools authority. Start applications as soon as your move is confirmed, and keep attested school records and your child's passport and visa details ready, since enrolment usually needs proof of residence and a registered tenancy.",
+          "Beyond the paperwork, settling in is about routine. Sign up for a salik tag if you drive on toll roads, explore your neighbourhood's clinics, supermarkets and community groups, and give yourself a few months to adjust. Dubai is a city of newcomers, so support networks are everywhere. Remember that fees, thresholds and procedures across every stage of this checklist change regularly, so treat this guide as a map and confirm the current details with official UAE government sources before you act."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the correct order of steps when moving to Dubai?",
+        "answer": "Secure a residence visa first, then complete the medical fitness test and biometrics, collect your Emirates ID, sign a tenancy contract and register it on Ejari, connect DEWA utilities, and open a bank account last. The order matters because each step unlocks the next, and most services depend on your Emirates ID. Alongside this spine you also arrange mandatory health insurance, a SIM and a driving licence."
+      },
+      {
+        "question": "Do I need a job to move to Dubai?",
+        "answer": "Not necessarily. An employment visa is the most common route and requires a job offer from a sponsoring employer, but it is not the only option. The Golden Visa lets investors, entrepreneurs and skilled professionals self-sponsor for ten years, and buying qualifying property can also lead to residence. Your route determines how the rest of the process works."
+      },
+      {
+        "question": "How long does the visa and Emirates ID process take?",
+        "answer": "Once you are in the country on an entry permit, the medical fitness test, biometrics, visa issuance and Emirates ID typically take around two to three weeks end to end. Timelines vary depending on your free zone or employer, the centres you use, and how quickly your documents are ready. Always confirm current processing times with official sources, as they change."
+      },
+      {
+        "question": "Is health insurance mandatory in Dubai?",
+        "answer": "Yes. Health insurance is mandatory for residence visa holders in Dubai, and you generally cannot complete the visa process without a compliant policy. Employers usually provide cover for staff, but dependants must also be insured. If you are self-sponsored, you arrange your own compliant plan, so budget for the annual premium from the start."
+      },
+      {
+        "question": "Can I open a bank account before I get my Emirates ID?",
+        "answer": "In most cases you should wait, because resident bank accounts generally require your Emirates ID and often proof of address such as an Ejari or DEWA bill. That is why banking sits at the end of the paperwork sequence rather than the start. Some banks offer limited pre-approval, but full account opening is smoother once your Emirates ID is issued."
+      },
+      {
+        "question": "Should I rent or buy when I first move to Dubai?",
+        "answer": "Most newcomers rent first to learn the city, test neighbourhoods and keep upfront costs lower, registering every lease on Ejari. Buying suits those confident they are staying, wanting to build equity in a tax-friendly market, or using property above set value thresholds as a route to residency. Our team can model renting against buying for your specific timeline and budget."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "How to open a bank account in Dubai",
+        "href": "/blog/how-to-open-bank-account-in-dubai"
+      },
+      {
+        "label": "How to get a UAE driving licence",
+        "href": "/blog/how-to-get-uae-driving-licence"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Browse current listings",
+        "href": "/listings"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "moving to dubai",
+      "relocating to dubai",
+      "moving to dubai checklist",
+      "dubai relocation guide",
+      "moving to dubai 2026",
+      "dubai residence visa",
+      "emirates id process",
+      "expat guide dubai"
+    ]
+  },
+  {
+    "slug": "do-you-pay-tax-in-dubai",
+    "title": "Do You Pay Tax in Dubai? Income, Property, VAT & Corporate Explained",
+    "excerpt": "No, Dubai has no personal income tax on salaries. But 9% corporate tax, 5% VAT and a 4% property transfer fee can still apply.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa rising above the city, illustrating the emirate's tax-free lifestyle for residents and property investors",
+      "tone": "#141821"
+    },
+    "intro": "No, you do not pay personal income tax in Dubai. There is no tax on salaries, wages or personal earnings for residents, expats or UAE nationals, which is one of the main reasons Dubai attracts global talent and property investors. That said, Dubai is not entirely tax-free. Businesses pay 9% UAE Corporate Tax on annual profits above AED 375,000 (0% below that), a 5% VAT applies to most goods and services, and buying a home carries a one-off Dubai Land Department transfer fee commonly set at 4% of the purchase price. There is no annual property tax and no capital gains tax on personal property, though tenants pay a municipality housing fee. Below we explain each charge in plain terms and what it means if you are investing in Dubai real estate.",
+    "keyTakeaways": [
+      "Dubai and the wider UAE levy no personal income tax on salaries, wages, freelance earnings or investment returns.",
+      "UAE Corporate Tax is 9% on business profits above AED 375,000 and 0% below that threshold, effective for financial years from June 2023.",
+      "VAT is 5% on most goods and services; residential property sales and long-term residential rent are generally exempt.",
+      "There is no annual property tax in Dubai, but buyers pay a one-off Dubai Land Department transfer fee usually cited at 4% of the price.",
+      "Rental income for individuals is not subject to personal income tax, though tenants pay a 5% municipality housing fee via DEWA.",
+      "Dubai has no capital gains tax on personal property, but your home country may still tax your worldwide income and gains."
+    ],
+    "sections": [
+      {
+        "heading": "Is there personal income tax in Dubai?",
+        "body": [
+          "No. Dubai, like the rest of the UAE, has no personal income tax. Salaries, wages, freelance fees, bonuses and personal investment returns are not taxed at the individual level, and there is no individual tax return to file for employment income. This applies equally to UAE nationals, resident expats and foreign employees.",
+          "This zero income-tax position is a deliberate part of the UAE's economic model and is confirmed by the Federal Tax Authority, which notes there is currently no personal income tax and therefore no individual registration or reporting obligation for it. For high earners and entrepreneurs, keeping 100% of gross salary is a significant advantage over most other financial centres."
+        ]
+      },
+      {
+        "heading": "Corporate tax: 9% on business profits over AED 375,000",
+        "body": [
+          "The UAE introduced a federal Corporate Tax that applies to financial years starting on or after 1 June 2023. The rate is 0% on taxable profits up to AED 375,000 and 9% on profits above that threshold. The tiered design is intended to protect small businesses and startups while keeping the headline rate low by global standards.",
+          "Corporate Tax is a business tax, not a personal one, so it does not touch your salary. It can, however, reach individuals who run a sole establishment or a licensed business, and freelancers or sole traders may need to register once turnover crosses AED 1,000,000. Free zone companies that meet substance and qualifying-income conditions can still access a 0% rate on qualifying income. If you buy property through a company, speak to a tax adviser about how Corporate Tax applies to that structure."
+        ]
+      },
+      {
+        "heading": "VAT: 5% on most goods and services",
+        "body": [
+          "Value Added Tax in the UAE is charged at a standard rate of 5%, which is low compared with most countries. It applies to the majority of goods and services you buy day to day, from electronics and dining to professional fees, and is collected by VAT-registered businesses on behalf of the Federal Tax Authority.",
+          "For property, the treatment matters. The sale of completed residential property and long-term residential rent are generally exempt from VAT, and the first supply of new residential property within three years of completion is typically zero-rated. Commercial property sales and leases, by contrast, usually carry 5% VAT. This is one reason it pays to confirm the VAT position of any specific deal with your broker and adviser before you sign."
+        ]
+      },
+      {
+        "heading": "Property charges: no annual property tax, but a 4% DLD transfer fee",
+        "body": [
+          "Dubai has no annual property tax. You do not receive a yearly council-style tax bill for owning a home, which is a major contrast with markets like the UK, US or much of Europe. What you do pay is a one-off Dubai Land Department (DLD) transfer fee when ownership changes hands, commonly cited at 4% of the purchase price.",
+          "In principle the 4% is split between buyer and seller, but market practice in Dubai is that the buyer usually covers the full amount. On top of that there are smaller fixed costs at registration, such as a property registration fee (around AED 4,000 plus 5% VAT for properties valued at AED 500,000 or more) and a title deed issuance fee. Budget these one-off transaction costs into your purchase, then enjoy ownership with no recurring property tax."
+        ]
+      },
+      {
+        "heading": "Rental income, the housing fee and capital gains",
+        "body": [
+          "Rental income earned by an individual landlord in Dubai is not subject to personal income tax, so the rent you collect on an investment property is not taxed at the personal level. Residential long-term rent is also generally exempt from VAT. This is a core reason Dubai's rental yields look attractive on a net basis compared with many high-tax markets.",
+          "Tenants and residents do pay a municipality housing fee in Dubai, typically 5% of the annual rental value, collected in monthly instalments through the DEWA utility bill. Separately, there is no capital gains tax on personal property in the UAE, so an individual selling a home is not taxed by the UAE on the gain. The main transaction cost on exit is usually the agency commission plus any DLD transfer or NOC charges, not a tax on profit."
+        ]
+      },
+      {
+        "heading": "Your home country may still tax you: residency matters",
+        "body": [
+          "Dubai being tax-free does not automatically make you tax-free. Many countries tax their residents, and sometimes their citizens, on worldwide income and capital gains regardless of where the money is earned. US citizens, for example, generally remain liable to file and potentially pay US tax wherever they live, and other nationalities may stay taxable at home until they properly break tax residency there.",
+          "Whether you owe tax elsewhere usually turns on where you are tax-resident, how many days you spend in each country, and any double-tax treaty between the UAE and your home country. Before you move funds or buy property, take advice on your personal residency position so you understand your global obligations. Used correctly, Dubai's zero income tax can materially improve your net returns, but the planning has to be done properly.",
+          "Please note: this article is general information only and is not tax advice. Tax rules can change and depend on your circumstances, so you should confirm the current position with the UAE Federal Tax Authority (tax.gov.ae) or a qualified tax adviser, and check your own home-country tax obligations before acting."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do you really pay no income tax in Dubai?",
+        "answer": "Correct, there is no personal income tax in Dubai or the wider UAE. Salaries, freelance earnings and personal investment income are not taxed at the individual level, and there is no income tax return to file. Other charges such as VAT, corporate tax and property fees can still apply, and your home country may tax you separately."
+      },
+      {
+        "question": "Is there property tax in Dubai?",
+        "answer": "There is no annual property tax in Dubai, so you do not get a recurring yearly tax bill for owning a home. Buyers do pay a one-off Dubai Land Department transfer fee, commonly cited at 4% of the purchase price, plus smaller fixed registration and title costs. After purchase there is no ongoing property tax on the asset."
+      },
+      {
+        "question": "Do landlords pay tax on rental income in Dubai?",
+        "answer": "No, rental income earned by individual landlords in Dubai is not subject to personal income tax, and long-term residential rent is generally exempt from VAT. Tenants do pay a municipality housing fee of around 5% of annual rent through their DEWA bill. This helps Dubai rental yields look strong on a net basis."
+      },
+      {
+        "question": "Is there capital gains tax when selling property in Dubai?",
+        "answer": "There is no capital gains tax on personal property for individuals in the UAE, so the UAE does not tax the profit when you sell your home. The usual costs on exit are agency commission and any Dubai Land Department transfer or NOC fees. Note that your home country may still tax the gain depending on your tax residency."
+      },
+      {
+        "question": "Who pays the 9% UAE corporate tax?",
+        "answer": "UAE Corporate Tax applies to businesses at 9% on annual taxable profits above AED 375,000, with 0% below that, for financial years starting on or after 1 June 2023. It is a business tax, so it does not affect employee salaries. Freelancers and sole traders may need to register once turnover exceeds AED 1,000,000."
+      },
+      {
+        "question": "If I live in Dubai tax-free, could I still owe tax back home?",
+        "answer": "Possibly yes. Some countries tax residents or citizens on worldwide income and gains regardless of where they live, so you may owe tax at home until you properly establish non-residence there. It depends on your days spent, residency status and any double-tax treaty. Always confirm your position with a qualified tax adviser before moving funds or buying."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Is Dubai property a good investment in 2026?",
+        "href": "/blog/is-dubai-property-a-good-investment-in-2026"
+      },
+      {
+        "label": "Palm Jumeirah rental yields and ROI",
+        "href": "/blog/palm-jumeirah-rental-yields-and-roi"
+      },
+      {
+        "label": "Property tax in Dubai explained",
+        "href": "/blog/property-tax-in-dubai"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "do you pay tax in dubai",
+      "dubai income tax",
+      "tax in dubai for expats",
+      "dubai property tax",
+      "is there tax in dubai",
+      "dubai corporate tax",
+      "dubai vat",
+      "dld transfer fee"
+    ]
+  },
 ];
