@@ -23,7 +23,6 @@ export function SoldCard({ record }: { record: SoldRecord }) {
             alt={record.image.alt}
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
-            unoptimized
             className="object-cover transition-transform duration-700 group-hover:scale-105"
           />
         ) : (

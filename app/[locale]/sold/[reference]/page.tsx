@@ -104,8 +104,9 @@ export default async function SoldDetailPage({
                       fill
                       priority={i === 0}
                       sizes={i === 0 ? "(min-width: 1024px) 800px, 100vw" : "(min-width: 1024px) 400px, 50vw"}
-                      // Supabase transform already converts CMYK→sRGB + resizes.
-                      unoptimized
+                      // crmPhoto already serves an sRGB, web-sized source; Vercel then
+                      // optimizes it to AVIF/WebP and serves from its CDN, so Supabase
+                      // gets ~one fetch per image per 30 days instead of one per visitor.
                       className="object-cover"
                     />
                     <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-medium uppercase tracking-wider text-ink shadow-sm">
