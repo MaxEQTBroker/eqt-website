@@ -14228,4 +14228,807 @@ export const seoPosts: BlogPost[] = [
       "dld transfer fee"
     ]
   },
+  {
+    "slug": "cost-of-living-in-dubai",
+    "title": "Cost of Living in Dubai 2026: A Complete Breakdown",
+    "excerpt": "A single person can live comfortably in Dubai from roughly AED 8,000 to 15,000 a month in 2026, with rent the biggest variable. Indicative ranges below.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/13398520/pexels-photo-13398520.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with residential towers and the coastline, illustrating the range of neighbourhoods that shape the cost of living",
+      "tone": "#141821"
+    },
+    "intro": "In 2026 a single professional can live comfortably in Dubai from roughly AED 8,000 to 15,000 a month, a couple from about AED 12,000 to 22,000, and a family with school-age children from around AED 25,000 to 45,000 or more. Housing is by far the biggest cost and the widest variable, so where you choose to live drives most of the difference. Dubai has no personal income tax, which lifts take-home pay, but rent, cooling, schooling and healthcare add up quickly. All the figures in this guide are indicative ranges in AED for 2026, not precise averages, and real prices vary by area, building, season and lifestyle. Costs also change over time, so treat everything below as a planning guide rather than a quote.",
+    "keyTakeaways": [
+      "Rent is the single largest expense and ranges enormously by area, from affordable communities to prime addresses like Palm Jumeirah.",
+      "Utilities and air-conditioning swing with the seasons, with DEWA bills typically far higher across the summer months.",
+      "There is no personal income tax in Dubai, which meaningfully raises disposable income compared with many other cities.",
+      "International school fees are often a family's second-biggest cost after rent and vary widely by curriculum and tier.",
+      "Health insurance is mandatory for residents, so budget for cover if your employer does not provide it.",
+      "All figures here are indicative 2026 ranges in AED and change over time, so use them for planning rather than as fixed quotes."
+    ],
+    "sections": [
+      {
+        "heading": "Housing and rent: your single biggest cost",
+        "body": [
+          "Rent is where most of your budget goes and where the range is widest. As an indicative guide for 2026, more affordable communities such as Jumeirah Village Circle sit at the lower end, with studios roughly from AED 38,000 to 55,000 a year and one-bedroom apartments broadly around AED 55,000 to 75,000 a year. These figures vary a lot by building, floor and finish.",
+          "Mid to upper-tier areas cost more. In Dubai Marina, median apartment rents were reported around AED 110,000 a year in mid-2026, while Downtown Dubai one-bedrooms often ran roughly AED 90,000 to 120,000 and two-bedrooms higher again. Actual asking prices move with demand and season.",
+          "At the prime end, Palm Jumeirah commands a clear premium. Indicative 2026 apartment rents ranged broadly from around AED 140,000 for a one-bedroom to several hundred thousand dirhams for larger units, with signature villas well beyond that. Buying rather than renting changes the maths entirely, and this is where EQT focuses, advising on Palm Jumeirah, Palm Jebel Ali, Al Barari and other prime communities. If you are weighing rent against ownership, our team can model both for your situation.",
+          "Remember that most Dubai landlords still expect rent in one to four cheques, so plan cash flow around larger upfront payments, plus a typical five per cent agency fee and a refundable security deposit."
+        ]
+      },
+      {
+        "heading": "Utilities and cooling",
+        "body": [
+          "Electricity and water come from DEWA (Dubai Electricity and Water Authority), and bills swing sharply with the seasons because of air-conditioning. As an indicative range for 2026, a studio or one-bedroom apartment might see DEWA bills of roughly AED 400 to 700 a month, while a two-bedroom can run around AED 700 to 1,200. Larger villas cost considerably more.",
+          "Summer is the key driver. Cooling costs push bills toward the top of the range, with peak summer months for bigger homes running well above AED 1,000, while winter bills can drop to around AED 300 to 400. Some communities also charge separate district cooling (chiller) fees, so check whether cooling is included in your DEWA bill or billed on top.",
+          "Add home internet at roughly AED 100 to 300 a month and mobile plans at around AED 100 to 250. Altogether, a typical household often budgets somewhere in the region of AED 600 to 1,350 a month for utilities and connectivity combined, more for larger homes in summer."
+        ]
+      },
+      {
+        "heading": "Groceries and dining",
+        "body": [
+          "Grocery spending depends heavily on brands and whether you buy imported goods. As an indicative guide, many individuals spend roughly AED 1,000 to 2,000 a month, while couples and small families typically spend more. Sample 2026 spot prices include a litre of milk at around AED 5 to 8, a dozen eggs at roughly AED 8 to 14, a kilo of chicken breast at about AED 20 to 35 and a loaf of bread at around AED 4 to 8.",
+          "Dining out spans a very wide range. A casual meal might cost from around AED 30 to 60 per person, a mid-range restaurant meal for two can run well over AED 200, and fine dining climbs far higher. Coffee-shop and delivery habits add up quickly, so build in a realistic allowance rather than an optimistic one.",
+          "Shopping at local markets and mainstream supermarkets rather than premium grocers is one of the easiest ways to keep monthly food costs down."
+        ]
+      },
+      {
+        "heading": "Transport: car versus metro, Salik and fuel",
+        "body": [
+          "Dubai gives you a genuine choice between public transport and driving. The Metro, trams and buses use the Nol card. Indicative 2026 single fares on a standard Silver Nol card were roughly AED 3 for one zone, around AED 5 for two zones and about AED 7.50 across three or more zones, with a daily cap that keeps regular commuting affordable. For many single professionals living near a Metro line, a car is optional.",
+          "If you drive, fuel is relatively cheap by global standards. Petrol prices are set nationally and updated monthly, and in August 2026 sat at roughly AED 3.40 to 3.60 per litre depending on grade. Prices change every month, so treat this as a snapshot.",
+          "Factor in Salik road tolls, which since 2025 use dynamic pricing that varies by time of day, up to around AED 6 per gate crossing at peak times and free overnight. Add car finance or a lease, insurance, parking and servicing, and a car can add a meaningful sum to your monthly budget. Taxis and ride-hailing are widely available if you prefer to skip ownership altogether."
+        ]
+      },
+      {
+        "heading": "Schooling and childcare",
+        "body": [
+          "For families, international school fees are often the second-biggest cost after rent, and the range is very wide. As an indicative 2026 guide, annual tuition can run from roughly AED 25,000 to 60,000 for early years, around AED 35,000 to 75,000 for primary, and higher still through secondary and sixth form, where top-tier schools can reach AED 90,000 to 130,000 per child per year.",
+          "Tuition is not the whole picture. Registration and seat-securing deposits, term-one fees, capital or development charges, transport, uniforms and exam fees all add up. A realistic all-in budget for a premium school can sit well above the headline tuition figure per child.",
+          "Nursery and childcare for younger children is a separate cost and also varies widely by provider and hours. Because fees differ so much by curriculum, tier and location, families often let school choice influence which neighbourhood they rent or buy in."
+        ]
+      },
+      {
+        "heading": "Healthcare, insurance and leisure",
+        "body": [
+          "Health insurance is mandatory for residents in Dubai, and many employers provide cover for staff. If yours does not, or if you want to insure family members, budget for private cover. Premiums vary widely with age, coverage level and any pre-existing conditions, so get a tailored quote rather than relying on an average. Out-of-pocket costs for dental and some specialist care can also add up even with insurance.",
+          "Leisure is where lifestyle choices show up most. Gym memberships, beach clubs, brunches, cinema, activities for children and weekend trips can range from modest to very high depending on how you live. Many residents budget a discretionary allowance of a few thousand dirhams a month, but this is entirely personal.",
+          "Domestic help, common in Dubai, is another optional cost some households choose to add. As with everything in this guide, these are indicative ranges that change over time, so revisit your budget periodically."
+        ]
+      },
+      {
+        "heading": "Example monthly budgets (indicative, 2026)",
+        "body": [
+          "Single professional: roughly AED 8,000 to 15,000 a month. A typical mix might be rent in a mid-range apartment, utilities and connectivity, groceries, transport (Metro or a modest car) and a leisure allowance. Living further from the centre or sharing brings this down; a prime-area apartment pushes it well up.",
+          "Couple: roughly AED 12,000 to 22,000 a month. This assumes a one or two-bedroom apartment, higher grocery and dining spend, and often one car. Dual incomes with no income tax mean many couples save a healthy share of earnings.",
+          "Family with school-age children: roughly AED 25,000 to 45,000 or more a month. School fees are the swing factor here and can dominate the budget, alongside a larger home, higher utilities and a family car. Prime-area villas and top-tier schools can lift this considerably.",
+          "These totals are planning ranges, not quotes, and real spending varies with area, lifestyle and season. If you are relocating and want to understand how buying in an area like Palm Jumeirah compares with renting, EQT can build a personalised picture for you."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to live in Dubai per month in 2026?",
+        "answer": "As an indicative guide for 2026, a single professional can live comfortably from roughly AED 8,000 to 15,000 a month, a couple from about AED 12,000 to 22,000, and a family with school-age children from around AED 25,000 to 45,000 or more. Rent is the biggest variable and these ranges change over time, so use them for planning rather than as fixed quotes."
+      },
+      {
+        "question": "What is the biggest cost of living in Dubai?",
+        "answer": "Housing is by far the biggest cost for most residents. Rent ranges enormously by area, from more affordable communities such as Jumeirah Village Circle to prime addresses like Palm Jumeirah, so where you live drives most of the difference in your total budget. For families, international school fees are often the second-biggest cost."
+      },
+      {
+        "question": "How much are utility and DEWA bills in Dubai?",
+        "answer": "DEWA (electricity and water) bills swing with the seasons because of air-conditioning. As an indicative 2026 range, a studio or one-bedroom apartment might see roughly AED 400 to 700 a month and a two-bedroom around AED 700 to 1,200, with summer bills higher and winter bills lower. Some communities add separate district cooling fees, and larger villas cost considerably more."
+      },
+      {
+        "question": "Do you pay income tax in Dubai?",
+        "answer": "There is no personal income tax in Dubai, which meaningfully raises take-home pay compared with many other cities and helps offset costs such as rent and schooling. Other charges and fees can apply in different contexts, so it is worth reading a dedicated guide on the subject before you plan around it."
+      },
+      {
+        "question": "How much do international schools cost in Dubai?",
+        "answer": "International school fees vary widely by curriculum and tier. As an indicative 2026 guide, annual tuition can run from roughly AED 25,000 to 60,000 for early years up to around AED 90,000 to 130,000 per child for top-tier secondary and sixth form. Registration, deposits, transport and other extras add to the headline tuition, so budget for the all-in cost."
+      },
+      {
+        "question": "Is it cheaper to rent or buy in Dubai?",
+        "answer": "It depends on how long you plan to stay, the area and the property. Renting in a prime area like Palm Jumeirah involves large annual outlays, while buying changes the maths entirely and can build equity over time. Because the answer is so personal, EQT can model both renting and buying for your specific situation before you decide."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Do you pay tax in Dubai?",
+        "href": "/blog/do-you-pay-tax-in-dubai"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Browse current listings",
+        "href": "/listings"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "cost of living in Dubai",
+      "Dubai cost of living 2026",
+      "Dubai rent prices by area",
+      "DEWA utility bills Dubai",
+      "Dubai international school fees",
+      "moving to Dubai budget",
+      "living expenses Dubai expats",
+      "Palm Jumeirah rent"
+    ]
+  },
+  {
+    "slug": "dubai-family-visa-sponsor-spouse-children",
+    "title": "Dubai Family Visa: How to Sponsor Your Spouse and Children (2026)",
+    "excerpt": "A UAE resident earning around AED 4,000 a month (or AED 3,000 plus housing) can generally sponsor a spouse and children, subject to GDRFA and ICP rules.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/12558848/pexels-photo-12558848.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A family walking together along a Dubai waterfront promenade at dusk with the skyline behind them",
+      "tone": "#141821"
+    },
+    "intro": "If you hold a valid UAE residence visa and Emirates ID, you can usually sponsor your spouse and children to live with you in Dubai. As an indicative guide, a resident sponsor generally needs a minimum salary, commonly cited at around AED 4,000 per month, or roughly AED 3,000 plus employer-provided accommodation. You then apply through the General Directorate of Residency and Foreigners Affairs (GDRFA) or the Federal Authority for Identity and Citizenship (ICP), submitting attested marriage and birth certificates, proof of income and a tenancy contract (Ejari). Rules and figures change, and female sponsors and certain jobs can face different conditions, so treat the numbers below as indicative and confirm the current requirements with GDRFA or ICP before you apply.",
+    "keyTakeaways": [
+      "A resident with a valid visa and Emirates ID can generally sponsor a spouse and children, subject to income and housing conditions.",
+      "The minimum salary is indicative and commonly cited at around AED 4,000 per month, or about AED 3,000 plus employer-provided accommodation.",
+      "Unmarried daughters can usually be sponsored with no fixed upper age limit; sons are typically sponsored while young, with study often extending the age for older sons.",
+      "You will normally need attested marriage and birth certificates, a salary certificate or contract, a tenancy contract (Ejari) and medical fitness tests for adults.",
+      "Sponsoring parents is possible but subject to a notably higher income threshold and extra conditions.",
+      "A Golden Visa holder generally enjoys more generous, longer-term family sponsorship, often without the standard minimum salary condition."
+    ],
+    "sections": [
+      {
+        "heading": "Who can sponsor family members in Dubai?",
+        "body": [
+          "In broad terms, an expatriate who holds a valid UAE residence visa and Emirates ID can sponsor immediate family members to join them. According to the UAE Government portal (u.ae), employees can generally sponsor their family regardless of job title once they meet the income condition, though some professions and circumstances are treated differently in practice.",
+          "The sponsored family's residence permits are linked to the sponsor's own visa. If your residence permit is cancelled, your dependents' visas usually have to be cancelled too, so it is worth keeping your own status valid and up to date.",
+          "Female sponsors can sponsor family, but the conditions and income thresholds are often different and can be higher. If you are a wife sponsoring a husband and children, confirm the specific requirements with GDRFA or ICP, as they differ from the general figures quoted for a male sponsor."
+        ]
+      },
+      {
+        "heading": "Income and housing conditions",
+        "body": [
+          "The headline requirement is a minimum income. As an indicative figure, a resident sponsor is commonly cited as needing around AED 4,000 per month, or roughly AED 3,000 per month plus employer-provided accommodation. Please treat these as guideline numbers rather than fixed guarantees, because the authorities can and do update them.",
+          "Where the lower salary plus accommodation route is used, the housing element usually needs to be documented. A simple allowance may not be enough on its own unless your employer formally certifies that accommodation is provided, so check exactly what evidence your case requires.",
+          "You will also typically need to show suitable housing through a registered tenancy contract (Ejari) or proof of property ownership. The authorities want to see that the family has an appropriate place to live, alongside proof of steady income such as a salary certificate or labour contract."
+        ]
+      },
+      {
+        "heading": "Sponsoring your spouse",
+        "body": [
+          "To sponsor a wife or husband, you generally have to prove a valid, existing marriage. The UAE Government portal notes that a resident sponsoring a spouse must submit an authenticated marriage certificate in Arabic, or an official Arabic translation certified by an approved translator.",
+          "If your marriage certificate was issued abroad, it usually needs to be attested so that it is recognised in the UAE. This attestation chain commonly runs through the relevant authorities in the country of issue and the UAE Ministry of Foreign Affairs, followed by legal translation into Arabic where needed.",
+          "Adults being sponsored normally have to pass a medical fitness test at an approved health centre in the UAE as part of the process. Timelines vary, so it is sensible to prepare the marriage certificate and attestations well before you plan to apply."
+        ]
+      },
+      {
+        "heading": "Sponsoring your children",
+        "body": [
+          "Parents can generally sponsor their children, subject to age and status rules. Unmarried daughters can usually be sponsored without a fixed upper age limit, and children with special needs are typically covered without the standard age cap.",
+          "For sons, sponsorship has historically been available while they are young, with study extending the eligible age for older sons. Some 2026 sources indicate sons can be sponsored up to around age 25 where they are enrolled in accredited study, while official guidance has in the past referred to lower ages with a study extension. Because this detail has changed over time, confirm the current son age limit directly with GDRFA or ICP for your situation.",
+          "You will normally need each child's birth certificate, attested and translated into Arabic where required, showing the parental relationship. Older children may also need to complete medical fitness tests in line with the rules for adults."
+        ]
+      },
+      {
+        "heading": "Sponsoring parents and the Golden Visa advantage",
+        "body": [
+          "Sponsoring parents is possible but comes with stricter conditions. In particular, the income threshold to sponsor parents is significantly higher than for a spouse and children, and additional requirements such as medical insurance and a deposit may apply. If sponsoring parents matters to you, verify the exact current threshold and conditions with GDRFA before committing.",
+          "A UAE Golden Visa can make family sponsorship considerably more generous. Golden Visa holders generally do not have to meet the standard minimum salary condition to sponsor family, and can often sponsor a spouse and children on longer-term residency aligned with their own visa.",
+          "Golden Visa holders are also commonly able to sponsor domestic workers and, in some cases, extend sponsorship more flexibly to family members. For many property investors and professionals, this long-term stability for the whole household is a key reason to consider a Golden Visa route, which we are happy to discuss alongside your real estate plans."
+        ]
+      },
+      {
+        "heading": "Documents, step-by-step and indicative costs",
+        "body": [
+          "Typical documents include your passport and residence visa, Emirates ID, a recent salary certificate or labour contract, bank statements, a registered tenancy contract (Ejari) or title deed, attested marriage certificate for a spouse, attested birth certificates for children, passport photos and, in most cases, valid medical insurance.",
+          "A common sequence is: confirm you meet the income and housing conditions; gather and attest the required certificates; apply for an entry permit if the family member is outside the UAE; complete the medical fitness test for adults inside the UAE; apply for the Emirates ID; and finally have the residence visa stamped or issued. Applications are generally made through GDRFA in Dubai or the ICP smart channels.",
+          "Costs vary by emirate, visa length and service used, and typically bundle several items such as the entry permit, status change where relevant, medical test, Emirates ID and visa stamping, plus any deposit and insurance. As a rough indication, budget for several hundred to a few thousand dirhams per family member, and check the live official fees before you start. This article is general information, not legal or immigration advice, so please confirm all current rules, figures and fees with official UAE sources such as GDRFA and ICP."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum salary to sponsor family in Dubai?",
+        "answer": "As an indicative guide, a resident sponsor is commonly cited as needing around AED 4,000 per month, or roughly AED 3,000 plus employer-provided accommodation. These figures can change and may differ for female sponsors or certain jobs, so confirm the current requirement with GDRFA or ICP."
+      },
+      {
+        "question": "Can I sponsor my wife or husband on a normal residence visa?",
+        "answer": "Yes, a resident with a valid visa and Emirates ID who meets the income condition can generally sponsor a spouse. You usually have to prove an existing marriage with an authenticated marriage certificate in Arabic, or an official certified Arabic translation, and the adult being sponsored typically completes a medical fitness test."
+      },
+      {
+        "question": "Up to what age can I sponsor my son?",
+        "answer": "Sons are generally sponsored while young, with study extending the eligible age for older sons. Some 2026 sources cite an upper age of around 25 for sons in accredited study, while past official guidance referred to lower ages with a study extension. Confirm the current son age limit with GDRFA or ICP."
+      },
+      {
+        "question": "Is there an age limit for sponsoring my daughter?",
+        "answer": "Unmarried daughters can usually be sponsored without a fixed upper age limit. If a daughter marries, her sponsorship status typically changes. Always check the latest rules with GDRFA or ICP, as conditions can be updated."
+      },
+      {
+        "question": "Can I sponsor my parents in Dubai?",
+        "answer": "Yes, but sponsoring parents is subject to a significantly higher income threshold and extra conditions, which may include medical insurance and a deposit. Because these requirements are stricter and can change, verify the exact current figures with GDRFA before applying."
+      },
+      {
+        "question": "Does a Golden Visa make family sponsorship easier?",
+        "answer": "Generally yes. Golden Visa holders usually do not have to meet the standard minimum salary condition to sponsor family, can often sponsor a spouse and children on longer-term residency aligned with their own visa, and are commonly able to sponsor domestic workers. Confirm the current terms with the relevant authority."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai family visa",
+      "sponsor spouse Dubai",
+      "sponsor children Dubai",
+      "UAE family sponsorship salary",
+      "GDRFA family visa",
+      "Golden Visa family sponsorship",
+      "Ejari family visa",
+      "Dubai dependent visa"
+    ]
+  },
+  {
+    "slug": "dubai-freelance-visa",
+    "title": "How to Get a Freelance Visa in Dubai (2026 Guide)",
+    "excerpt": "To freelance in Dubai you need a freelance permit plus a residence visa, via a free zone or the self-sponsored Green Visa. Here is how, as of 2026.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A freelancer working on a laptop with the Dubai skyline in the background",
+      "tone": "#141821"
+    },
+    "intro": "To work legally as a freelancer in Dubai you need two things: a freelance permit that licenses your activity, and a residence visa that lets you live in the UAE. Most people get both by applying through a free zone that runs a freelance package, such as GoFreelance (DDA), DMCC or one of the Northern Emirates zones. A separate route is the self-sponsored Green Visa, a five-year residence visa for qualifying self-employed people that does not tie you to an employer. Costs vary widely, but a first-year freelance package is often quoted at roughly AED 7,500 to AED 20,000 as of 2026, depending on the zone, visa length and insurance. Rules and fees change often, so always confirm the current position with official UAE sources before you commit.",
+    "keyTakeaways": [
+      "A freelance permit is the licence to work independently; the residence visa is a separate document that lets you live in the UAE. Most freelancers need both.",
+      "Free zones such as GoFreelance (DDA), DMCC and Northern Emirates zones bundle the permit, establishment card and residence visa into one package.",
+      "First-year costs are commonly quoted at around AED 7,500 to AED 20,000 as of 2026, depending on zone, visa duration and insurance; treat all figures as indicative.",
+      "The Green Visa is a five-year, self-sponsored residence route for qualifying self-employed people, governed by Cabinet Resolution No. 65 of 2022.",
+      "Widely cited Green Visa criteria include a freelance/self-employment permit, a recognised degree or diploma, and annual income around AED 360,000 (or proof of financial solvency); verify current thresholds.",
+      "Freelance visa holders can usually sponsor a spouse and children, subject to minimum income, health insurance and proof of accommodation."
+    ],
+    "sections": [
+      {
+        "heading": "What a Dubai freelance visa actually is",
+        "body": [
+          "A freelance visa is not a single document. It is a combination of a freelance permit, which is a trade licence that authorises you to offer services under your own name rather than under an employer, and a residence visa, which is the stamp and Emirates ID that let you live in the UAE. When people say freelance visa they usually mean the whole package that a free zone issues together.",
+          "The permit sets out which activities you are allowed to bill for, for example media, technology, design, consultancy or education, so it matters that your intended work matches an approved activity code. The residence visa is what gives you the right to stay, open a bank account, rent a home and sponsor family. Both are needed to work compliantly, and it is illegal to work in the UAE without a valid work permit."
+        ]
+      },
+      {
+        "heading": "Who a freelance visa suits",
+        "body": [
+          "The freelance route suits independent professionals who invoice several clients rather than working for one employer: consultants, designers, developers, writers, marketers, coaches, photographers and similar service providers. It is popular with remote workers and self-employed people who want UAE residency without setting up a full company with staff.",
+          "It is less suitable if you plan to hire employees, need a large physical office, or want to trade goods, since those usually call for a standard company licence. If your income is high and stable, the Green Visa or Golden Visa may be a stronger long-term fit than an annually renewed freelance package, so it is worth comparing routes before you apply."
+        ]
+      },
+      {
+        "heading": "The main free-zone routes",
+        "body": [
+          "Free zones run the most common freelance packages. GoFreelance, operated by Dubai Development Authority (DDA/TECOM), covers media, technology, design and education activities and typically asks for a CV and portfolio. DMCC offers a well-known freelance permit aimed at professionals in and around the commodities and services sectors. Northern Emirates zones such as SHAMS (Sharjah), RAKEZ (Ras Al Khaimah), IFZA and Ajman are often chosen for lower headline costs.",
+          "Packages usually bundle the freelance permit, an establishment card and one residence visa, with medical insurance added on top. Availability and visa issuance rules differ between zones and can change, so confirm directly with the zone which activities are permitted and whether a residence visa is currently issued with the permit before you pay any fees."
+        ]
+      },
+      {
+        "heading": "The Green Visa: the self-sponsored option",
+        "body": [
+          "The Green Visa is a renewable five-year residence visa that lets qualifying self-employed people sponsor themselves, so you are not tied to an employer or a specific free zone sponsor. It is set out in Cabinet Resolution No. 65 of 2022 and sits alongside the ten-year Golden Visa as a longer-term alternative to an annually renewed freelance package.",
+          "Widely reported eligibility criteria for the self-employed category, as of 2026, include holding a freelance or self-employment permit from MOHRE or a free zone, holding a bachelor's degree or specialised diploma, and showing annual income of around AED 360,000 from self-employment for the previous two years, or proving financial solvency through bank statements. These thresholds can change, so confirm the current requirements with GDRFA or ICP before relying on them."
+        ]
+      },
+      {
+        "heading": "Documents, costs and steps",
+        "body": [
+          "Typical documents include a passport with at least six months validity, passport-size photographs, a CV and, for creative or technical work, a portfolio or samples. For the residence visa you will complete a medical fitness test and biometrics for the Emirates ID, and you will usually need health insurance. Green Visa applicants also provide degree certificates and financial evidence such as bank statements.",
+          "As a rough guide only, first-year free-zone freelance packages are commonly quoted at around AED 7,500 to AED 20,000 as of 2026, driven by the zone chosen, the visa length (one or two years), insurance and whether you apply from inside or outside the UAE. A common sequence is: choose a zone and activity, get initial approval, pay for the permit and establishment card, apply for the entry permit or status change, complete the medical and Emirates ID, then receive the stamped residence visa. Expect roughly a few weeks end to end. All figures are indicative; confirm live pricing with the issuing authority."
+        ]
+      },
+      {
+        "heading": "Sponsoring your family",
+        "body": [
+          "Once your own residence visa is issued, a freelance visa generally lets you sponsor immediate family, typically a spouse and children, so they can live in the UAE on residence visas linked to yours. Sponsorship is conditional: you usually need to show a minimum income, valid health insurance for each dependant, and proof of accommodation such as a tenancy contract.",
+          "You will normally need attested and translated documents, for example a marriage certificate to sponsor a spouse and birth certificates for children. Income requirements and age limits for children can change and are assessed case by case, so check the current rules with GDRFA or ICP, and budget for each dependant's visa, medical and Emirates ID fees on top of your own."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need both a freelance permit and a residence visa?",
+        "answer": "In most cases yes. The freelance permit licenses your activity, while the residence visa is what lets you live in the UAE, open a bank account and sponsor family. Free zones typically issue both together as one package. Confirm the current arrangement with your chosen zone, as issuance rules can change."
+      },
+      {
+        "question": "How much does a Dubai freelance visa cost in 2026?",
+        "answer": "As an indicative guide, first-year free-zone packages are commonly quoted at around AED 7,500 to AED 20,000, depending on the zone, visa length, insurance and whether you apply from inside or outside the UAE. Treat all figures as approximate and confirm live pricing directly with the issuing authority."
+      },
+      {
+        "question": "What is the difference between a freelance visa and the Green Visa?",
+        "answer": "A free-zone freelance visa is usually renewed every one or two years and is tied to a zone sponsor. The Green Visa is a five-year, self-sponsored residence visa for qualifying self-employed people under Cabinet Resolution No. 65 of 2022, so you sponsor yourself rather than relying on an employer or zone."
+      },
+      {
+        "question": "What are the Green Visa income requirements?",
+        "answer": "Widely reported criteria, as of 2026, include holding a freelance or self-employment permit, a recognised degree or diploma, and annual income of around AED 360,000 for the previous two years, or proof of financial solvency. Thresholds can change, so verify the current position with GDRFA or ICP before applying."
+      },
+      {
+        "question": "Can I sponsor my family on a freelance visa?",
+        "answer": "Generally yes, once your own residence visa is issued you can usually sponsor a spouse and children, subject to a minimum income, health insurance and proof of accommodation such as a tenancy contract. You will also need attested marriage and birth certificates. Rules are assessed case by case, so check current requirements."
+      },
+      {
+        "question": "How long does the process take?",
+        "answer": "As a rough guide, the freelance permit can be approved within a couple of weeks, with residence visa stamping, the medical and Emirates ID adding further time, so the full process often takes a few weeks. Timelines vary by zone and workload, so confirm with your provider."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "dubai freelance visa",
+      "freelance visa dubai cost",
+      "gofreelance dubai",
+      "dmcc freelance permit",
+      "uae green visa freelancer",
+      "self sponsored visa dubai",
+      "freelance permit uae",
+      "dubai freelance visa requirements"
+    ]
+  },
+  {
+    "slug": "dubai-green-visa-explained",
+    "title": "Dubai Green Visa Explained: Self-Sponsored 5-Year Residence",
+    "excerpt": "The UAE Green Visa is a renewable 5-year residence you sponsor yourself, with no employer, for skilled workers, freelancers and investors.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/12462486/pexels-photo-12462486.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with residential towers, representing long-term self-sponsored residence in the UAE",
+      "tone": "#141821"
+    },
+    "intro": "The UAE Green Visa is a renewable five-year residence permit that you sponsor yourself, with no employer or national sponsor required. According to the UAE Government's official portal, it is open to three groups: skilled workers, freelancers and the self-employed, and investors or business partners. Because you hold the sponsorship, you can change jobs, pause work or run a business without losing your status, and you can sponsor family members including a spouse and children. It sits between a standard employer-tied work visa and the longer ten-year Golden Visa. This guide explains what the Green Visa is, who qualifies, the income criteria commonly cited, how family sponsorship works, how it differs from the Golden Visa, and how to apply. Always confirm current thresholds and documents with official UAE sources before acting.",
+    "keyTakeaways": [
+      "The Green Visa is a renewable five-year residence you sponsor yourself, with no employer or national sponsor, per the UAE Government portal (u.ae).",
+      "Three groups can apply: skilled workers, freelancers and self-employed people, and investors or business partners.",
+      "Reported criteria include a skilled-employee salary commonly cited around AED 15,000 per month and freelance or self-employed income around AED 360,000 over two years, but these figures should be verified officially.",
+      "Green Visa holders can sponsor family members, including spouse and children, and first-degree relatives.",
+      "It differs from the Golden Visa, which is typically issued for ten years and aimed at investors, exceptional talent and similar categories.",
+      "A grace period after expiry or cancellation, often reported as up to six months, gives more breathing room than a standard work visa; confirm the exact period officially."
+    ],
+    "sections": [
+      {
+        "heading": "What the Green Visa is",
+        "body": [
+          "The Green Visa is a long-term UAE residence visa that lets foreign talent live, work or run a business in the country while sponsoring themselves. The UAE Government's official portal describes it as a renewable residence visa valid for five years, and highlights the privilege of not needing a separate sponsor.",
+          "This self-sponsorship is the defining feature. On a traditional work visa your residence is tied to your employer, so changing or leaving a job can put your status at risk. On a Green Visa the residence belongs to you, which gives more flexibility to switch employers, take a career break, freelance or start a company without immediately losing your right to remain.",
+          "The visa also allows the holder to sponsor family members. It is designed to attract and retain skilled professionals and independent workers who want stability without depending on a single employer."
+        ]
+      },
+      {
+        "heading": "Who qualifies",
+        "body": [
+          "The official portal lists three eligible groups for the Green Visa: skilled workers, freelancers and the self-employed, and investors or business partners.",
+          "Skilled workers are typically employees in qualifying occupations who meet minimum salary, education and job-classification conditions. Freelancers and the self-employed are independent professionals who work without a single employer and can show sufficient, stable income. Investors and business partners qualify through ownership or a stake in a commercial activity in the UAE.",
+          "Each group has its own document and eligibility checklist. Because the categories and their conditions can be updated, the safest approach is to check your specific situation against the current rules published by the UAE authorities or to take professional advice before applying."
+        ]
+      },
+      {
+        "heading": "Income and qualification criteria",
+        "body": [
+          "For skilled employees, a monthly salary threshold is commonly cited at around AED 15,000, usually alongside a valid employment contract, a job classified in the first, second or third occupational skill level under the Ministry of Human Resources and Emiratisation (MOHRE), and a bachelor's degree or an equivalent qualification. Treat the exact salary figure as indicative and verify it officially, because thresholds can change.",
+          "For freelancers and the self-employed, widely reported criteria include a MOHRE freelance or self-employment permit, a relevant bachelor's degree or specialised diploma, and evidence of annual self-employment income of not less than roughly AED 360,000 over the previous two years, or proof of financial solvency for the duration of your stay. Again, treat these numbers as commonly cited rather than guaranteed, and confirm the current requirement.",
+          "Investors and business partners qualify on the basis of their investment or ownership in a licensed UAE business, subject to the conditions set by the authorities. We have deliberately avoided inventing any figure that we could not corroborate; where a threshold is uncertain we have said so."
+        ]
+      },
+      {
+        "heading": "Family sponsorship",
+        "body": [
+          "A key advantage of the Green Visa is that the holder can sponsor family members. The UAE Government portal states that Green Visa holders can sponsor family members including spouses and children, and are also entitled to sponsor first-degree relatives.",
+          "Reported terms for dependants often include the ability to sponsor sons up to a higher age than on some standard visas and unmarried daughters, subject to the current rules. Because the precise ages, conditions and required documents can vary and are periodically revised, confirm the exact dependant terms with the relevant authority before relying on them.",
+          "Dependants' residence is generally linked to the sponsor's visa, so the validity and any grace period for family members tend to track the principal holder's status."
+        ]
+      },
+      {
+        "heading": "How it differs from the Golden Visa",
+        "body": [
+          "The Green Visa and the Golden Visa are both self-sponsored, long-term residence options, but they target different profiles and run for different lengths. The Green Visa is a five-year, renewable residence aimed at skilled workers, freelancers, the self-employed and certain investors or partners.",
+          "The Golden Visa is a longer-term residence, typically issued for ten years, and is aimed at categories such as investors, entrepreneurs, exceptional talent, scientists, outstanding students and similar groups, usually against higher thresholds or specific nominations. It generally offers a longer horizon and broader family sponsorship terms.",
+          "In short, the Green Visa suits professionals and independent workers who want flexibility and self-sponsorship for a five-year term, while the Golden Visa suits those who meet the higher bars for a decade of residence. Which fits you depends on your income, profession, investment and long-term plans. For a fuller breakdown, see our dedicated Golden Visa guide."
+        ]
+      },
+      {
+        "heading": "How to apply, benefits and grace period",
+        "body": [
+          "Applications are generally made through the Federal Authority for Identity, Citizenship, Customs and Port Security (ICP) channels, including the ICP website and app, or through approved centres; some steps may also involve MOHRE for permits and job classification. A typical process involves confirming your category, gathering documents such as your passport, photo, qualifications, contract or permit and proof of income, submitting the application, paying the fees and completing medical and Emirates ID steps.",
+          "The headline benefits are self-sponsorship, a five-year renewable term, the freedom to change or leave a job without immediately losing residence, and the ability to sponsor family. Many summaries also note a grace period after the visa expires or is cancelled, commonly reported as up to six months, which is longer than the grace period on many standard work visas. Confirm the exact grace period, as it can differ by visa type and can change.",
+          "Disclaimer: this article is general information, not immigration or legal advice, and figures such as salary and income thresholds and grace periods are indicative and were commonly cited at the time of writing. Rules, fees and documents change. Always confirm the current requirements with official UAE sources, including the UAE Government portal (u.ae), ICP and MOHRE, or take licensed professional advice before you apply."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the UAE Green Visa?",
+        "answer": "It is a renewable five-year UAE residence visa that you sponsor yourself, without an employer or national sponsor. The UAE Government portal describes it as valid for five years and open to skilled workers, freelancers and self-employed people, and investors or business partners."
+      },
+      {
+        "question": "Who can apply for the Green Visa?",
+        "answer": "Three groups: skilled workers, freelancers and the self-employed, and investors or business partners. Each group has its own eligibility and document conditions, so check your specific situation against the current official rules before applying."
+      },
+      {
+        "question": "What income do I need for the Green Visa?",
+        "answer": "For skilled employees a monthly salary of around AED 15,000 is commonly cited, and for freelancers or the self-employed annual income of about AED 360,000 over two years, or proof of solvency. Treat these figures as indicative and confirm the current thresholds with official UAE sources."
+      },
+      {
+        "question": "Can I sponsor my family on a Green Visa?",
+        "answer": "Yes. The UAE Government portal states that Green Visa holders can sponsor family members, including spouses and children, and first-degree relatives. Confirm the exact dependant ages, conditions and documents with the relevant authority, as they can be revised."
+      },
+      {
+        "question": "How is the Green Visa different from the Golden Visa?",
+        "answer": "The Green Visa is a five-year, renewable, self-sponsored residence for skilled workers, freelancers, the self-employed and some investors. The Golden Visa is typically a ten-year residence aimed at investors, entrepreneurs, exceptional talent and similar categories, usually against higher thresholds."
+      },
+      {
+        "question": "Is there a grace period on the Green Visa?",
+        "answer": "Many summaries report a grace period after the visa expires or is cancelled, commonly cited as up to six months, which is longer than on many standard work visas. Because grace periods vary by visa type and can change, confirm the exact period with official UAE sources."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai Green Visa",
+      "UAE Green Visa",
+      "self-sponsored residence visa UAE",
+      "Green Visa eligibility",
+      "Green Visa salary requirements",
+      "Green Visa vs Golden Visa",
+      "freelancer visa UAE",
+      "5-year residence visa Dubai"
+    ]
+  },
+  {
+    "slug": "health-insurance-in-dubai",
+    "title": "Health Insurance in Dubai: Why It's Mandatory and How to Get It",
+    "excerpt": "Health insurance is mandatory for every Dubai residence visa holder. Employers cover staff, sponsors cover dependants, no policy means no visa.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/13802298/pexels-photo-13802298.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A modern Dubai hospital reception and waiting area, representing the city's private healthcare system",
+      "tone": "#141821"
+    },
+    "intro": "Health insurance is mandatory for everyone who holds a Dubai residence visa. Under Dubai Law No. 11 of 2013, employers must provide compliant cover for their employees, and visa sponsors must arrange cover for their dependants such as a spouse, children or sponsored parents. Since the requirement is now checked electronically, you cannot issue or renew a residence visa or Emirates ID without a valid policy on file. The minimum standard is the Dubai Health Authority Essential Benefits Plan, which carries an annual limit of AED 150,000. Many residents choose broader private plans for wider hospital networks and richer benefits. This guide explains what is required, how public and private care compare, how to choose a plan, and how the whole thing fits into the visa process. Always confirm the current rules and prices with the DHA and a licensed insurer before you commit.",
+    "keyTakeaways": [
+      "Health insurance is legally mandatory for all Dubai residence visa holders under Dubai Law No. 11 of 2013.",
+      "Employers must insure their employees; visa sponsors must separately insure their dependants.",
+      "The minimum standard is the DHA Essential Benefits Plan, with an annual limit of AED 150,000.",
+      "A valid policy is now cross-checked electronically, so no insurance means no visa or Emirates ID.",
+      "Non-compliance can lead to fines reported at around AED 500 per uninsured person per month.",
+      "Premiums vary widely by age, cover and provider, so always get a current quote from a licensed insurer."
+    ],
+    "sections": [
+      {
+        "heading": "Why health insurance is mandatory in Dubai",
+        "body": [
+          "Health insurance in Dubai is not optional. It is governed by Dubai Law No. 11 of 2013, which requires every resident holding a Dubai-issued residence visa to have a compliant health insurance policy. This includes employees, self-sponsored residents such as freelancers and business owners, and dependants sponsored on a family visa.",
+          "The system is now enforced electronically. When you apply for or renew a residence visa or Emirates ID, the authorities cross-check whether a valid policy is on record. If none is found, the application is typically blocked until compliant cover is in place. In practice this means you simply cannot complete the residency process without insurance.",
+          "Reported penalties for non-compliance have been cited at around AED 500 per uninsured person per month. Figures and enforcement details can change, so treat this as indicative and confirm the current position with official sources.",
+          "It is worth noting that the wider UAE has moved in the same direction. Abu Dhabi has required health insurance since 2007, and a federal decision extended mandatory employee cover across the northern emirates. Dubai, however, has run its own DHA framework for years."
+        ]
+      },
+      {
+        "heading": "Who pays: employers, sponsors and the self-employed",
+        "body": [
+          "The responsibility for arranging cover depends on your situation. If you are employed, your employer is legally required to provide you with a compliant health insurance policy. This is part of the cost of hiring you, and you should not be asked to pay for your own basic mandated cover as an employee.",
+          "Employers are generally not required to insure their employees' dependants. That responsibility falls on the visa sponsor. So if you sponsor a spouse, children or parents on a family visa, you must arrange a compliant policy for each of them before their visas can be issued or renewed.",
+          "If you are self-sponsored, for example a freelancer, sole proprietor or investor on your own visa, you are responsible for buying your own compliant policy and cover for anyone you sponsor.",
+          "For property buyers who obtain residency through a real estate investor or Golden Visa route, the same logic applies: you and each dependant you sponsor need valid, compliant cover. If you are relocating and buying a home in Dubai, factor these premiums into your annual budget alongside service charges and other living costs."
+        ]
+      },
+      {
+        "heading": "The minimum mandated cover: the Essential Benefits Plan",
+        "body": [
+          "The Dubai Health Authority sets a minimum standard known as the Essential Benefits Plan, or EBP. It is designed as an affordable baseline, historically aimed at lower-income residents, and it is the floor that any compliant Dubai policy must at least match.",
+          "The EBP carries an annual aggregate benefit limit of AED 150,000 per insured person. Within that, it is designed to cover core needs such as emergency treatment, inpatient and outpatient care, basic diagnostics, prescribed medication and maternity services, subject to the plan's terms.",
+          "Basic plans typically include co-payments, meaning you pay a share of certain costs. Public guidance has described standardised co-payments on the EBP such as a percentage of inpatient and outpatient costs up to a capped amount per visit. The exact figures and caps are set by the regulator and insurers, so check the current schedule before relying on any number.",
+          "The EBP is a genuine safety net rather than a premium product. Many residents, especially families and those who want access to a wider range of private hospitals, choose to buy up to a more comprehensive plan. The key point is that whatever you buy must meet or exceed the DHA minimum."
+        ]
+      },
+      {
+        "heading": "Public versus private healthcare in Dubai",
+        "body": [
+          "Dubai has both public and private healthcare, and most expatriates rely primarily on the private sector. Public hospitals and clinics run by the health authorities offer subsidised care, but access and pricing for expatriates differ from that of Emirati nationals, and holding a valid insurance policy remains the practical route to care.",
+          "The private sector is large and modern, with a wide choice of hospitals, clinics and specialists, many staffed by internationally trained doctors. This is one reason health insurance matters so much: your policy's network determines which of these facilities you can use without paying large out-of-pocket sums.",
+          "Basic mandated plans tend to route you to a narrower list of clinics and hospitals. More comprehensive plans open up a broader network, including some of the well-known private hospital groups, and may add direct billing so you are not out of pocket at the point of care.",
+          "For families used to a particular standard of care, the difference between a basic and a mid-tier plan is often about network access and convenience rather than whether you are covered at all. Decide how much choice of provider matters to you before selecting a tier."
+        ]
+      },
+      {
+        "heading": "How to choose the right plan",
+        "body": [
+          "Start by confirming what is already provided. If you are employed, check the policy your employer gives you and what it covers. If you are self-sponsored or arranging cover for dependants, you are choosing from the market yourself, ideally with help from a licensed broker or insurer.",
+          "Check the network first. Look at exactly which hospitals and clinics are included and confirm that the ones you would actually use are on the list. A cheaper plan with a narrow network can prove frustrating if your preferred hospital is excluded.",
+          "Review the annual coverage limit and any sub-limits. The mandated minimum is AED 150,000, but higher tiers offer larger limits, which matters for serious or long-term treatment. Look closely at co-payments, deductibles and any caps per visit, as these determine your real out-of-pocket costs.",
+          "Pay attention to specific benefits that matter to your household, such as maternity, chronic condition management, dental, optical, and outpatient cover. Maternity in particular often has waiting periods, so if you are planning a family, ask exactly how the waiting period works before you buy.",
+          "Finally, consider whether you want international cover. Some residents, especially frequent travellers, add worldwide or region-wide cover. Always compare quotes from more than one licensed provider and read the policy wording rather than relying on a summary."
+        ]
+      },
+      {
+        "heading": "How insurance fits into the visa process and rough costs",
+        "body": [
+          "Health insurance is a gating step in the residency process rather than an afterthought. A compliant policy must be in place for the visa and Emirates ID to be issued or renewed, because the records are now checked electronically. In practice, arranging insurance should sit near the top of your relocation checklist, alongside your medical test and Emirates ID application.",
+          "For each dependant you sponsor, plan to have their policies ready at the same time as their visa applications, since a missing policy can hold up the whole process.",
+          "On cost, premiums vary widely and any figure here is indicative only. Basic mandated plans such as the EBP have historically been quoted in the region of a few hundred dirhams per year per person, while comprehensive family plans with wide networks and rich benefits can run to several thousand dirhams per person annually. Age, medical history, chosen network and benefit level all move the price significantly.",
+          "Because premiums and rules change and depend on your personal circumstances, do not rely on ballpark figures. Get a current, written quote from a licensed insurer or broker, and confirm the mandatory requirements against official DHA and UAE Government sources before you commit."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is health insurance really mandatory in Dubai?",
+        "answer": "Yes. Under Dubai Law No. 11 of 2013, every Dubai residence visa holder must have a compliant health insurance policy. The requirement is checked electronically, so you cannot issue or renew a residence visa or Emirates ID without valid cover on file."
+      },
+      {
+        "question": "Does my employer have to pay for my health insurance?",
+        "answer": "If you are employed, your employer is legally required to provide you with a compliant policy for yourself. Employers are generally not required to cover your dependants, so if you sponsor family members you usually have to arrange and pay for their cover separately."
+      },
+      {
+        "question": "What is the minimum health insurance cover in Dubai?",
+        "answer": "The minimum standard is the Dubai Health Authority Essential Benefits Plan, which carries an annual benefit limit of AED 150,000 per person and covers core needs such as emergency, inpatient, outpatient, basic diagnostics, medication and maternity, subject to the plan's terms and co-payments."
+      },
+      {
+        "question": "How much does health insurance cost in Dubai?",
+        "answer": "Costs vary widely by age, health history, network and benefit level, so treat any figure as indicative. Basic mandated plans have historically been quoted at a few hundred dirhams per year, while comprehensive family plans can run into several thousand dirhams per person annually. Always get a current quote from a licensed insurer."
+      },
+      {
+        "question": "What should I check before buying a plan?",
+        "answer": "Confirm the hospital and clinic network so your preferred providers are included, check the annual coverage limit and any sub-limits, and review co-payments and deductibles. Look closely at maternity, dental, optical and chronic care, and ask about any waiting periods before benefits apply."
+      },
+      {
+        "question": "Do I need insurance in place before my visa is issued?",
+        "answer": "In practice, yes. A compliant policy must be on record for the residence visa and Emirates ID to be issued or renewed, and a missing policy can hold up the process. Arrange cover early, and have each sponsored dependant's policy ready at the same time as their visa application."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "health insurance in Dubai",
+      "mandatory health insurance Dubai",
+      "Dubai residence visa insurance",
+      "DHA Essential Benefits Plan",
+      "Dubai health insurance cost",
+      "expat health insurance UAE",
+      "visa sponsor dependants insurance",
+      "how to get health insurance Dubai"
+    ]
+  },
+  {
+    "slug": "how-to-get-a-job-in-dubai",
+    "title": "How to Get a Job in Dubai: The 2026 Guide",
+    "excerpt": "You do not strictly need a job before moving, but most people arrive on a visit or job-seeker visa, then let an employer sponsor a work visa.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/12951130/pexels-photo-12951130.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai business district skyline at dusk, symbolising the city's job market",
+      "tone": "#141821"
+    },
+    "intro": "You do not legally need a job offer in hand before you move to Dubai, but in practice most successful arrivals get one quickly, because a UAE employer must sponsor your work visa. The common route is to enter on a tourist visit visa or a dedicated job seeker visa, interview in person, accept an offer, and then let the hiring company process your work permit, medical test and Emirates ID. Dubai charges no personal income tax, hiring is active across technology, finance, healthcare, hospitality, real estate and construction, and the main tools are LinkedIn plus regional portals like Bayt and Naukrigulf. This guide walks through visas, sectors, job sites, CV changes and the offer to visa timeline.",
+    "keyTakeaways": [
+      "You do not need a job before moving, but you almost always need an employer to sponsor the actual work visa.",
+      "The standard route is offer first, then the employer applies for your work permit through MOHRE, followed by a medical test and Emirates ID.",
+      "A job seeker visa lets you enter for roughly 60 to 120 days to interview in person without an employer sponsor.",
+      "Technology, finance, healthcare, engineering, hospitality, real estate and sales are among the more active hiring sectors.",
+      "LinkedIn, Bayt, Naukrigulf, GulfTalent and Indeed are the core job sites, backed by specialist recruitment agencies.",
+      "Being physically in Dubai and networking hard usually beats applying from abroad, because many hires prefer local interviews."
+    ],
+    "sections": [
+      {
+        "heading": "Do you need a job before you move to Dubai?",
+        "body": [
+          "No, you do not need a signed job before you move, but it helps to understand how the system works. Almost every private sector role for a foreign national is tied to an employer sponsored work visa, so you cannot simply arrive and start working. What you can do is arrive, search, interview and then convert once you have an offer.",
+          "There are two common approaches. Some people line up a role remotely from their home country, then fly in on an employment entry permit arranged by the employer. Others prefer to come first, because many Dubai employers like to meet candidates in person and can be slow to hire someone they have never met face to face.",
+          "If you come first, you enter on either a standard tourist or visit visa, or on a dedicated job seeker visa. Both let you attend interviews. The difference is duration and intent, which we cover below. Whichever you choose, the job itself is what unlocks the long term visa, so treat the search as the priority once you land."
+        ]
+      },
+      {
+        "heading": "How employer sponsored work visas actually work",
+        "body": [
+          "In the standard route, the process starts only after you accept a written offer. Your employer, not you, drives the paperwork. The company applies for a work permit and entry permit through the Ministry of Human Resources and Emiratisation, usually referred to as MOHRE, and for free zone roles through the relevant free zone authority.",
+          "Once the entry permit is issued, you complete a medical fitness test at an approved UAE health centre, apply for your Emirates ID, and have your residence visa stamped. The employer typically covers or coordinates these steps, and by law should not pass core visa costs to you, though practices vary in reality.",
+          "You will generally need a passport valid for at least six months, passport photos, attested educational certificates for many roles, and a clean record that meets UAE security checks. Your job title and salary are logged with the authorities, so the offer you sign is the one that shapes your visa. Because the employer is the sponsor, changing jobs later means transferring or cancelling and reissuing the visa, which is routine but worth planning for."
+        ]
+      },
+      {
+        "heading": "The strongest hiring sectors right now",
+        "body": [
+          "Dubai hires across a broad mix of industries, and demand shifts year to year, so treat any list as a guide rather than a guarantee. That said, several sectors have been consistently active for skilled foreign professionals.",
+          "Technology and digital roles, from software and data to cybersecurity and product, remain in demand as the city pushes its tech ambitions. Finance, banking and accounting hire steadily, as do healthcare and medical roles, which often require licensing with the relevant health authority. Engineering and construction stay busy given the pace of development.",
+          "Hospitality, tourism and aviation are perennial employers thanks to Dubai's visitor economy, and they hire at scale across many levels. Real estate, sales and business development roles are common too, reflecting the property market. Education, logistics and professional services round out the picture. If your skills sit in one of these areas, your odds improve, but strong candidates land roles across the board, so do not rule yourself out."
+        ]
+      },
+      {
+        "heading": "The main job sites and recruiters",
+        "body": [
+          "LinkedIn is the single most important platform for professional and senior roles in Dubai. Recruiters search it constantly, so a complete, keyword rich profile that clearly states you are open to Dubai roles does a lot of quiet work for you. Set your location and job preferences accordingly and engage with UAE industry content.",
+          "Regional job boards matter too. Bayt is a long established Middle East portal with high volume across many levels. Naukrigulf is strong for Gulf roles and popular with expat candidates, and offers CV and career services. GulfTalent tends to feature mid to senior commercial, finance and technical positions. Indeed also carries a wide range of UAE listings.",
+          "Beyond the boards, recruitment agencies are a serious channel in Dubai. Firms such as global names like Michael Page, Hays and Robert Half, along with many regional specialists, place candidates across sectors. Register with a few that focus on your field, keep your CV current with them, and stay in touch, because they often hear about roles before they are posted publicly."
+        ]
+      },
+      {
+        "heading": "Adapting your CV and building a network",
+        "body": [
+          "Gulf CV conventions differ from those in the UK or US, so adapt before you apply. A two page CV is widely accepted, and many employers still expect a professional photo, your nationality and your visa status, which is unusual by Western standards but normal here. State clearly whether you are already in the UAE, since local availability is a real advantage.",
+          "Tailor each application with keywords from the job advert, because recruiters and applicant tracking systems filter heavily. Lead with measurable achievements rather than duties, and keep formatting clean and simple so it parses well. If your qualifications need attestation for your field, start that process early, as it can take weeks.",
+          "Networking is not optional in Dubai, it is central. A large share of roles are filled through referrals and personal introductions. Attend industry events and meetups, join sector and alumni groups, and reach out to people already working in your field for a short conversation rather than a hard ask. Being in the city, active and visible, tends to convert far better than sending applications from abroad."
+        ]
+      },
+      {
+        "heading": "Job seeker visas and the offer to visa timeline",
+        "body": [
+          "If you want to search on the ground, the UAE job seeker visa, sometimes called a job exploration visa, lets skilled professionals stay for a set window, commonly offered in options around 60, 90 or 120 days, without needing an employer sponsor. Eligibility typically hinges on qualifications or graduating from a highly ranked university, and fees vary by duration, so check the current official ICP or GDRFA portals before applying rather than relying on quoted figures.",
+          "A simpler alternative is to come on an ordinary tourist or visit visa and interview during that window. Many people do exactly this. The trade off is that visit visas are shorter and not explicitly designed for job hunting, so plan your search timeline realistically.",
+          "Once you accept an offer, expect the conversion from offer to residence visa to take, very roughly, a few weeks, depending on the employer, the free zone or mainland route, and how quickly documents clear. The sequence is offer, then employer applies for the work and entry permit, then medical test, then Emirates ID and visa stamping. Keep your documents attested and ready so you are not the bottleneck."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I move to Dubai without a job and find one there?",
+        "answer": "Yes. Many people arrive on a tourist visit visa or a dedicated job seeker visa, interview in person, and then let the hiring employer sponsor their work visa once they accept an offer. Being on the ground often helps, because a lot of employers prefer local, face to face interviews."
+      },
+      {
+        "question": "Who sponsors my work visa in Dubai?",
+        "answer": "Your employer does. For private sector roles, a UAE based company must sponsor your employment visa and processes it through MOHRE or the relevant free zone authority. Self sponsored options like the Golden or freelance visas exist separately, but the standard job route relies on the employer as sponsor."
+      },
+      {
+        "question": "What is a UAE job seeker visa?",
+        "answer": "It is a short term visa that lets eligible skilled professionals enter the UAE to look for work without an employer sponsor, commonly available in windows of roughly 60 to 120 days. Eligibility usually depends on qualifications or your university. If you land a role, you can convert to a standard employment visa."
+      },
+      {
+        "question": "Which job sites work best for Dubai?",
+        "answer": "LinkedIn is essential for professional and senior roles. Regional boards like Bayt, Naukrigulf and GulfTalent, plus Indeed, cover a wide range of listings. Recruitment agencies, both global names and regional specialists, are also a strong channel, so register with a few in your field."
+      },
+      {
+        "question": "How should I change my CV for Dubai?",
+        "answer": "Use a clean one to two page CV, and be aware that many local employers expect a photo, your nationality and your visa status, which differs from Western norms. Tailor keywords to each advert, lead with measurable achievements, and state whether you are already in the UAE, as local availability helps."
+      },
+      {
+        "question": "How long does it take to get a work visa after an offer?",
+        "answer": "Very roughly a few weeks, though it varies by employer and by whether the role is mainland or free zone. The sequence is offer, then the employer applies for the work and entry permit, then a medical fitness test, then Emirates ID and visa stamping. Having attested documents ready speeds things up."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Do you pay tax in Dubai?",
+        "href": "/blog/do-you-pay-tax-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "how to get a job in Dubai",
+      "Dubai work visa sponsorship",
+      "UAE job seeker visa",
+      "Dubai job portals",
+      "moving to Dubai for work",
+      "Dubai hiring sectors 2026",
+      "Dubai CV tips",
+      "employer sponsored visa UAE"
+    ]
+  },
 ];
