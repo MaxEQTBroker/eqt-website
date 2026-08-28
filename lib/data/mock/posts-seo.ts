@@ -15031,4 +15031,792 @@ export const seoPosts: BlogPost[] = [
       "employer sponsored visa UAE"
     ]
   },
+  {
+    "slug": "average-salaries-in-dubai",
+    "title": "Average Salaries in Dubai by Industry (2026)",
+    "excerpt": "Dubai salaries are tax-free. Indicative 2026 monthly ranges span roughly AED 5,000 to AED 90,000, varying widely by sector, seniority and experience.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/19664340/pexels-photo-19664340.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with office towers, reflecting the city's diverse professional job market",
+      "tone": "#141821"
+    },
+    "intro": "Salaries in Dubai are paid tax-free, so your gross pay lands very close to your take-home, which is a big part of the appeal. As a broad and indicative guide for 2026, monthly pay across major sectors ranges from roughly AED 5,000 at entry level in fields like hospitality to AED 90,000 or more for senior specialists in finance, technology and medicine. These are wide ballpark figures, not fixed rates, and actual offers vary a great deal by sector, seniority, experience, employer and how you negotiate. Total packages often add housing and schooling allowances on top, which can lift real value well above the headline number. Treat everything below as a starting reference to benchmark against, then verify current figures for your specific role.",
+    "keyTakeaways": [
+      "Dubai levies no personal income tax, so gross salary is close to net pay, unlike many home countries.",
+      "All figures here are indicative ranges only and change over time; real offers vary widely by employer and candidate.",
+      "Pay is driven mainly by sector, seniority, years of experience, qualifications and the size and prestige of the employer.",
+      "Technology, finance and specialist healthcare tend to sit at the higher end; hospitality and junior real estate at the lower end.",
+      "The full package matters more than the basic figure, as housing, schooling and transport allowances can add substantial value.",
+      "Always benchmark against several current sources and negotiate the total package, not just the headline monthly number."
+    ],
+    "sections": [
+      {
+        "heading": "Salaries are tax-free, so gross is close to net",
+        "body": [
+          "The single biggest thing to understand about Dubai pay is that there is no personal income tax on salaries. Whatever your contract states as gross is broadly what reaches your account, which is very different from most home countries where income tax and social contributions take a sizeable slice.",
+          "This means a Dubai figure is not directly comparable to a gross salary elsewhere. A headline number that looks similar to home can be worth meaningfully more in practice once tax is out of the picture. For a fuller explanation of what is and is not taxed, see our guide on whether you pay tax in Dubai.",
+          "A few caveats worth keeping in mind. There is no income tax, but there are other costs of living to plan for, and figures quoted by employers are sometimes basic salary only rather than the full package. Always confirm whether a quoted number is basic pay or total compensation before comparing offers."
+        ]
+      },
+      {
+        "heading": "What actually drives pay in Dubai",
+        "body": [
+          "Pay in Dubai is shaped by the same broad forces you would expect anywhere, but the spread between roles can be unusually wide, which is why any single average is only a rough guide.",
+          "Sector is the largest factor. Technology, finance and specialist medicine typically sit near the top, while hospitality, retail and junior administrative roles tend to sit lower. Seniority is the next big driver, as the gap between an entry-level analyst and a director in the same field can be several times over.",
+          "Experience and qualifications also count heavily, particularly recognised professional credentials, international experience and in-demand technical skills. Finally, the employer matters: large multinationals, regulated financial institutions in zones like the DIFC, and prestigious groups often pay a premium over smaller local firms. Because all of these interact, treat any figure below as an indicative midpoint that can move a long way in either direction."
+        ]
+      },
+      {
+        "heading": "Indicative monthly ranges across major sectors",
+        "body": [
+          "The figures below are rough 2026 monthly ranges in AED, gathered from public salary guides and job-market sources. They are indicative only, they blend junior to senior roles, and they change over time, so please verify current data for your specific role before relying on them.",
+          "Finance and banking: broadly around AED 8,000 to 12,000 for entry-level analysts, AED 20,000 to 35,000 for mid-level managers, and AED 45,000 upwards for senior and director-level roles, with regulated financial-centre positions often paying a premium.",
+          "Technology and IT: frequently among the higher-paying fields, with a wide span from roughly AED 12,000 for junior roles to AED 40,000 or more for senior engineers and specialists, and leadership roles higher still.",
+          "Real estate: highly variable and often commission-led, so figures range from modest base pay around AED 4,000 to 8,000 for new agents up to AED 30,000 to 50,000 or well beyond for established senior performers.",
+          "Construction and engineering: broadly around AED 10,000 to 25,000 for many civil, mechanical and electrical roles, with senior project and specialist positions higher.",
+          "Healthcare: a very broad field, with nursing roles often around AED 14,000 to 16,000 and experienced consultants and surgeons reaching AED 50,000 to 90,000 or more.",
+          "Education: teaching salaries vary widely by school and curriculum, commonly in the region of AED 8,000 to 20,000, with senior and leadership posts higher.",
+          "Hospitality: typically one of the lower-paying sectors on base pay, broadly AED 5,000 to 15,000 depending on role and seniority, though service charges and tips can supplement this.",
+          "Marketing and communications: broadly around AED 12,000 to 30,000 across the mid-range of roles, with senior and digital specialists at the upper end.",
+          "Legal: junior associates often start around AED 15,000 to 25,000, with senior lawyers and in-house counsel commonly at AED 30,000 to 60,000 or more."
+        ]
+      },
+      {
+        "heading": "Why the package matters more than the basic figure",
+        "body": [
+          "In Dubai the headline salary is only part of the story. Many roles come with a package that includes allowances on top of basic pay, and these can add substantial real value that is easy to overlook when comparing offers.",
+          "Common elements include a housing or accommodation allowance, a transport allowance, annual flights home, health insurance and, for those with children, a schooling allowance. Schooling in particular can be significant given international-school fees, so a role that covers it can be worth far more than a slightly higher basic that does not.",
+          "As a rough rule of thumb often cited in salary guides, total compensation including allowances can run meaningfully above basic salary, sometimes by a third or more. When you weigh up an offer, add the cash value of every allowance and benefit to compare packages properly, rather than judging on basic pay alone. Our cost of living guide can help you translate a package into what it actually supports day to day."
+        ]
+      },
+      {
+        "heading": "How to benchmark your salary properly",
+        "body": [
+          "Because the ranges are so wide, benchmarking against several sources is more reliable than trusting one number. No single average captures your specific combination of role, sector, experience and employer.",
+          "Cross-check current salary guides published by recruitment firms, look at live job postings for comparable roles, and where possible speak to people working in your field in Dubai. Pay attention to whether each figure is basic pay or total package, and to the seniority band it refers to, since mixing these up is the most common benchmarking error.",
+          "Also factor in your own leverage: scarce technical skills, recognised qualifications, strong international experience and a track record of results all push you towards the upper part of a range. Be honest about where you genuinely sit so your target is realistic and defensible."
+        ]
+      },
+      {
+        "heading": "How to negotiate the total package",
+        "body": [
+          "Negotiation in Dubai is normal and expected, and the tax-free structure means the whole conversation is about the package rather than take-home after deductions. Go in with a benchmarked range, not a single figure, so you have room to move.",
+          "Negotiate the total package, not only the basic. If an employer is firm on basic pay, there may be flexibility on housing allowance, schooling support, flights, bonus structure or the notice and probation terms, all of which affect real value. For commission-led fields like real estate, focus as much on the commission structure and split as on any base.",
+          "Get every element in writing in the offer and employment contract, including allowances and any bonus terms, so there is no ambiguity later. And remember that all of this sits in an indicative, moving market: figures shift over time, so treat published numbers as a guide and confirm what is current for your role. If you are planning a move built around a specific role or investment, our team is happy to talk through the practicalities."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the average salary in Dubai in 2026?",
+        "answer": "As a broad and indicative guide, the average monthly salary in Dubai in 2026 is often cited somewhere in the region of AED 12,000 to 18,000 gross, but this is only a rough midpoint. Pay varies enormously by sector, seniority and experience, so treat any single average with caution and benchmark for your specific role."
+      },
+      {
+        "question": "Are salaries in Dubai really tax-free?",
+        "answer": "Yes, there is no personal income tax on salaries in Dubai, so your gross pay is close to your take-home. That makes a Dubai figure worth more in practice than a comparable gross salary in a country that taxes income. See our guide on whether you pay tax in Dubai for the full picture and any caveats."
+      },
+      {
+        "question": "Which industries pay the most in Dubai?",
+        "answer": "Technology, finance and specialist healthcare tend to sit at the higher end of the range, with senior specialists in these fields sometimes reaching AED 50,000 to 90,000 or more per month. This is indicative only, and top pay depends heavily on seniority, qualifications and employer rather than sector alone."
+      },
+      {
+        "question": "Do Dubai salaries include allowances?",
+        "answer": "Often, yes. Many roles offer a package that adds housing, transport and sometimes schooling allowances on top of basic pay, plus benefits like health insurance and annual flights. These can add substantial value, so always compare the total package rather than the basic figure alone."
+      },
+      {
+        "question": "How much do I need to earn to live comfortably in Dubai?",
+        "answer": "It depends heavily on your lifestyle, family size and where you live, so there is no single figure. Housing and schooling are usually the largest costs. Our cost of living guide breaks down typical expenses so you can work out what a given salary or package would realistically support for your situation."
+      },
+      {
+        "question": "How do I negotiate a salary in Dubai?",
+        "answer": "Go in with a benchmarked range from several current sources, and negotiate the total package rather than only the basic. If basic pay is fixed, there may be room on allowances, bonus, flights or schooling support. Get every element in writing, and remember figures move over time, so confirm what is current for your role."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to get a job in Dubai",
+        "href": "/blog/how-to-get-a-job-in-dubai"
+      },
+      {
+        "label": "Cost of living in Dubai 2026",
+        "href": "/blog/cost-of-living-in-dubai"
+      },
+      {
+        "label": "Do you pay tax in Dubai?",
+        "href": "/blog/do-you-pay-tax-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "average salary in Dubai",
+      "Dubai salaries by industry 2026",
+      "Dubai monthly salary AED",
+      "tax-free salary Dubai",
+      "Dubai salary guide",
+      "Dubai pay by sector",
+      "salary negotiation Dubai",
+      "Dubai expat package allowances"
+    ]
+  },
+  {
+    "slug": "do-you-need-job-offer-to-move-to-dubai",
+    "title": "Do You Need a Job Offer Before Moving to Dubai?",
+    "excerpt": "No, not strictly. A jobseeker visa, Golden or Green Visa, freelance permit, family sponsorship or buying property can all get residence without one.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/1381722/pexels-photo-1381722.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with the Burj Khalifa rising above the city, symbolising the many routes into the UAE",
+      "tone": "#141821"
+    },
+    "intro": "No, you do not strictly need a job offer to move to Dubai. An employer-sponsored work visa is the most common route, but it is far from the only one. The UAE now offers a jobseeker visit visa that lets you come and look for work without any sponsor, plus several self-sponsored residence options: the 10-year Golden Visa, the 5-year Green Visa, and freelance permits. You can also gain residence through family sponsorship or by buying qualifying property. So the honest answer is that a job offer helps and makes the move simpler, but plenty of people arrive without one and secure residence another way. This guide walks through each option so you can choose the path that fits your situation, budget and timeline.",
+    "keyTakeaways": [
+      "A job offer is the most common route to Dubai residence, but it is not the only one, and it is not legally required.",
+      "The UAE jobseeker visit visa lets skilled professionals stay 60, 90 or 120 days to look for work with no employer or sponsor.",
+      "Self-sponsored routes include the 10-year Golden Visa, the 5-year Green Visa, and freelance or self-employment permits.",
+      "Buying qualifying, completed property in Dubai can grant a 2-year investor visa, and AED 2 million or more can qualify you for the 10-year Golden Visa.",
+      "Once you hold residence and meet the income threshold, you can usually sponsor a spouse and children.",
+      "Arriving with an offer is lower-risk and cheaper up front; arriving without one gives more freedom but needs more savings and planning."
+    ],
+    "sections": [
+      {
+        "heading": "The short answer: an offer helps, but it is not required",
+        "body": [
+          "Moving to Dubai does not legally depend on holding a job offer. An employer-sponsored work permit remains the route most newcomers use, because the company handles the visa, medical and Emirates ID paperwork and covers much of the cost. If you already have an offer, that is the simplest path in.",
+          "But the UAE has spent recent years widening the ways people can live there without an employer behind them. Self-sponsored residence, freelance permits, family sponsorship and property-linked visas all exist precisely so that skilled people, investors and remote workers can settle without being tied to a single job.",
+          "So think of a job offer as one door among several, not a locked gate. The right choice depends on your skills, savings, whether you want to be employed or self-employed, and how much certainty you need before you fly."
+        ]
+      },
+      {
+        "heading": "The jobseeker visa: come and look, no sponsor needed",
+        "body": [
+          "If you want to be in Dubai while you interview, the UAE offers a jobseeker visit visa (sometimes called a job exploration visa). According to the UAE Government platform, it lets you enter and search for work without needing a host, employer or sponsor inside the country.",
+          "You choose the length when you apply: 60, 90 or 120 days. Eligibility generally requires that you fall within the first, second or third MOHRE skill levels, or that you graduated from one of the world's top 500 universities within roughly the last two years. You will also usually need a bachelor's degree, proof of financial means and valid health insurance.",
+          "Two honest caveats. First, this visa does not let you work; it only lets you look, so you must convert to a proper work or residence visa once you land a role. Second, family sponsorship is not permitted on it, so it suits a single mover scouting the market rather than a family relocating together. Always confirm the current rules and fees on u.ae before applying, as thresholds and processing details change."
+        ]
+      },
+      {
+        "heading": "Self-sponsored residence: Golden and Green Visas",
+        "body": [
+          "The UAE's long-term residence visas let qualifying people sponsor themselves, with no employer required at all.",
+          "The Golden Visa is a 10-year renewable residence aimed at investors, entrepreneurs, and specialised talent such as scientists, doctors, engineers, senior professionals and outstanding students. Reported qualifying routes include a property investment of AED 2 million or more, or a high monthly salary in an eligible profession, though exact criteria vary by category, so verify your specific route.",
+          "The Green Visa is a 5-year self-sponsored residence for skilled workers and the self-employed. Widely reported thresholds include a minimum salary of around AED 15,000 per month plus a bachelor's degree for skilled workers, and for freelancers a valid permit plus annual income of roughly AED 360,000. Both figures should be checked against current official guidance before you rely on them.",
+          "The appeal of these routes is independence: your residence is not switched off the day a job ends. The trade-off is that you must meet the qualifying bar in income, investment or recognised talent."
+        ]
+      },
+      {
+        "heading": "Freelance permits and remote-work routes",
+        "body": [
+          "If you earn your living independently, a freelance or self-employment permit can be the bridge to residence without a conventional employer. Permits are issued by MOHRE and by many of the UAE's free zones, and holding one can support a self-sponsored residence application, including the freelancer track of the Green Visa.",
+          "This route suits designers, developers, consultants, writers, marketers and other knowledge workers who can show a track record of income. You typically register your freelance activity, obtain the permit, then apply for residence on the back of it.",
+          "Separately, the UAE has offered remote-work and virtual-working residence schemes for people employed by a company outside the country. If you can bring your existing job with you, this can be a clean way to relocate without needing a local offer. As always, confirm the live requirements, income proof and fees before committing, since these programmes are periodically updated."
+        ]
+      },
+      {
+        "heading": "Family sponsorship and the property route",
+        "body": [
+          "You do not always need to sponsor yourself. If a spouse, parent or adult child already holds UAE residence and meets the income threshold, they can usually sponsor you as a dependent. Once you hold your own residence and salary, you can in turn sponsor your immediate family, so a household often moves in stages.",
+          "Buying property is another well-established path. As of 2026, Dubai has reportedly relaxed the rules so that a sole owner of a completed, registered residential property can apply for a 2-year investor residence visa, with the previous minimum value removed for individual owners (jointly owned homes may need each owner to hold a qualifying share). A larger investment, commonly cited at AED 2 million or more, can qualify you for the 10-year Golden Visa.",
+          "The key conditions are that the property is completed and registered in your name with a title deed; off-plan units under construction generally do not qualify until handover. This is where we can help directly: as a RERA-registered brokerage, we guide buyers toward homes that both suit their life and meet residence-visa criteria. Because rules and thresholds change, treat the figures here as a starting point and verify the current position before you buy."
+        ]
+      },
+      {
+        "heading": "Arriving with an offer vs without one: the honest trade-offs",
+        "body": [
+          "Coming with a job offer is the lower-risk, lower-cost start. Your employer sponsors the visa, absorbs much of the paperwork and fees, and you have income from day one. The downside is dependence: your residence is tied to that role, and changing jobs means changing sponsors.",
+          "Arriving without an offer buys freedom and flexibility. You can explore the market on a jobseeker visa, or self-sponsor through a Golden Visa, Green Visa, freelance permit or property purchase, and your residence does not vanish if an employer relationship ends. The cost is that you carry more of the burden yourself: higher up-front spend, more savings needed to cover the search or investment, and more admin to manage alone.",
+          "A practical middle path many people take is to secure a self-sponsored or property-linked visa for stability, then pursue work from a position of strength rather than urgency. Whichever way you lean, budget a financial cushion, line up health insurance, and confirm every threshold on official sources before you move."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I legally need a job offer to move to Dubai?",
+        "answer": "No. A job offer is the most common route and it simplifies the process, but it is not a legal requirement. You can also come on a jobseeker visa, self-sponsor through a Golden or Green Visa or freelance permit, be sponsored by a family member, or gain residence by buying qualifying property."
+      },
+      {
+        "question": "What is the UAE jobseeker visa?",
+        "answer": "It is a visit visa that lets eligible skilled professionals enter the UAE for 60, 90 or 120 days to look for work with no employer or sponsor. It does not permit you to work, so you must convert to a work or residence visa once you secure a role. Check current eligibility and fees on u.ae."
+      },
+      {
+        "question": "Can I get UAE residence without any employer at all?",
+        "answer": "Yes. The Golden Visa (10 years) and Green Visa (5 years) are self-sponsored, and freelance or self-employment permits can support residence without a conventional employer. Buying qualifying property can also grant an investor visa. Each route has its own qualifying criteria, so verify which one fits your situation."
+      },
+      {
+        "question": "How much property must I buy to get a residence visa?",
+        "answer": "As of 2026, Dubai has reportedly removed the minimum value for a sole owner of a completed, registered home to obtain a 2-year investor visa, while an investment of around AED 2 million or more can qualify for the 10-year Golden Visa. The property must be completed and titled in your name. Confirm the live thresholds before buying."
+      },
+      {
+        "question": "Can I bring my family if I move without a job offer?",
+        "answer": "Once you hold your own residence visa and meet the income threshold, you can generally sponsor your spouse and children. Note that the jobseeker visit visa itself does not allow family sponsorship, so families often move once the main applicant has secured longer-term residence."
+      },
+      {
+        "question": "Is it better to arrive in Dubai with or without a job offer?",
+        "answer": "With an offer is lower-cost and lower-risk because your employer sponsors you and you earn from day one, though your residence is tied to that job. Without an offer you gain freedom and independence through self-sponsored or property routes, but you need more savings and handle more of the admin yourself."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to get a job in Dubai",
+        "href": "/blog/how-to-get-a-job-in-dubai"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "do you need a job offer to move to Dubai",
+      "jobseeker visa UAE",
+      "self-sponsored residence Dubai",
+      "Golden Visa Dubai",
+      "Green Visa UAE",
+      "freelance visa Dubai",
+      "property residence visa Dubai",
+      "moving to Dubai without a job"
+    ]
+  },
+  {
+    "slug": "how-to-get-emirates-id",
+    "title": "How to Get an Emirates ID: Step-by-Step Guide (2026)",
+    "excerpt": "Apply through the ICP with your residence visa, pass the medical test, give biometrics, then collect the card. Here is the full 2026 process.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/14011664/pexels-photo-14011664.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Modern Dubai skyline at dusk, representing settling into life in the UAE with an Emirates ID",
+      "tone": "#141821"
+    },
+    "intro": "To get an Emirates ID in 2026 you apply through the ICP (the Federal Authority for Identity, Citizenship, Customs and Port Security), normally alongside your residence visa. The standard route is: secure your entry permit or residence visa, complete a medical fitness test, submit your Emirates ID application via the ICP website, app or an accredited typing centre, give your biometrics (fingerprints and signature) at an ICP centre, then collect the card or receive it by post. The card is mandatory for every UAE citizen and resident, and its validity is tied to your residence visa. Fees are broadly AED 100 per year of validity plus service charges, though you should confirm current figures on the ICP portal before you pay.",
+    "keyTakeaways": [
+      "The Emirates ID is mandatory for all UAE citizens and residents and you are expected to carry it at all times.",
+      "For expatriates it is issued as part of the residence visa process, so its validity is tied to your visa (commonly 2, 3 or 10 years).",
+      "The typical steps are: residence visa, medical fitness test, ICP application, biometrics, then card collection or delivery.",
+      "Fees are broadly AED 100 per year of validity plus typing and service charges; confirm exact amounts on the ICP website.",
+      "Renew up to six months before expiry to avoid the late fine of AED 20 per day, capped at AED 1,000.",
+      "Your Emirates ID unlocks banking, Ejari, DEWA and almost every other government and private service in Dubai."
+    ],
+    "sections": [
+      {
+        "heading": "What the Emirates ID is and why it matters",
+        "body": [
+          "The Emirates ID is the official identity card issued by the ICP to every UAE citizen and resident. It carries your personal data, a photograph, a fingerprint biometric and a chip, and it acts as your single proof of identity across the country. According to the UAE government, holding the card is mandatory and you are expected to carry it with you at all times.",
+          "For anyone moving to Dubai, the card is the key that unlocks daily life. You need it to open a bank account, register a tenancy contract through Ejari, connect DEWA utilities, obtain a driving licence, access healthcare and use most government services. Without it, even routine tasks stall, which is why sorting your Emirates ID early is one of the first priorities after your visa is approved."
+        ]
+      },
+      {
+        "heading": "Who needs one and when you apply",
+        "body": [
+          "Every UAE citizen, GCC national resident in the country and expatriate resident must hold an Emirates ID. This includes dependants such as a spouse and children, and children under 15 receive a card too, although they are generally exempt from the fingerprint and signature steps. In short, if you hold or are applying for a UAE residence visa, you also need an Emirates ID.",
+          "For expatriates the two are linked. The Emirates ID is issued as part of the residence visa process, so you normally apply once your entry permit or residence visa is in progress. If you are sponsored by an employer or a free zone, the company or its PRO often handles the application on your behalf, but the underlying steps are the same."
+        ]
+      },
+      {
+        "heading": "The step-by-step process",
+        "body": [
+          "The usual sequence runs as follows. First, your residence visa or entry permit is initiated by your sponsor. Second, you complete a medical fitness test at a government-approved centre; for most residence categories this involves a blood test and a chest X-ray, with results uploaded electronically. Third, you or your typing centre submit the Emirates ID application through the ICP website, the ICP app or an accredited typing centre.",
+          "Fourth, you attend an ICP service centre to provide biometrics, meaning your fingerprints, a photograph and signature, if you are 15 or older. Finally, once the residence visa is stamped and the card is printed, you collect it or receive it by post. Standard processing is typically within a few working days of the visa being completed, and an urgent (Fawri) service is available at some centres for an extra fee. Timelines vary, so treat these as indicative rather than guaranteed."
+        ]
+      },
+      {
+        "heading": "Documents, fees and validity",
+        "body": [
+          "The documents you will generally need are your original passport, a copy of your entry permit or residence visa, a passport-style photograph where requested and, for renewals, your existing Emirates ID. Your sponsor or typing centre will confirm the exact list for your visa category.",
+          "On fees, the ICP broadly charges around AED 100 per year of card validity, plus a typing charge and a service or smart-application fee that together usually add a modest amount. A two-year visa therefore tends to generate roughly AED 200 in ID fees before service charges, and urgent processing costs more. Validity is tied to your residence visa, so a standard visa produces a two or three year card while a Golden Visa can give a ten year card. Because published fees change, always confirm the current schedule on the ICP portal before paying."
+        ]
+      },
+      {
+        "heading": "Collection, renewal and replacement",
+        "body": [
+          "When the card is ready, the ICP notifies you by SMS and you either collect it from a designated Emirates Post outlet or have it delivered. It is worth keeping the SMS and your application number to hand in case you need to track the card. If a card is lost or stolen, you should report it to the ICP promptly (official guidance references reporting within seven days) and apply for a replacement, which carries its own fee, indicatively from around AED 300 plus service charges.",
+          "Renewal is tied to your visa. You can renew from up to six months before the card expires, and expatriates usually renew the residence visa first or at the same time. If you let it lapse, a late fine of AED 20 per day applies, capped at AED 1,000, so it pays to act early. You can start most renewal and replacement requests online through the ICP app or website."
+        ]
+      },
+      {
+        "heading": "How your Emirates ID unlocks banking, Ejari and DEWA",
+        "body": [
+          "Once you hold the card, the practical doors open. UAE banks require an Emirates ID to open a personal account, so it is effectively the first thing you present when arranging your finances. From there you can set up salary transfers, cards and, later, mortgage discussions if you plan to buy property.",
+          "The card is equally central to your home. Registering your tenancy contract through Ejari and connecting DEWA (Dubai Electricity and Water Authority) both require your Emirates ID, with Ejari or a title deed used as proof of your address. That chain, Emirates ID, then Ejari, then DEWA, then a bank account, is the backbone of settling in Dubai, and it is why we encourage clients relocating or buying with us to prioritise the ID from day one."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long does it take to get an Emirates ID?",
+        "answer": "Once your residence visa is completed and biometrics are done, the card is typically printed within a few working days. An urgent (Fawri) service is offered at some ICP centres for an additional fee. Overall timing depends on how quickly your visa and medical test are finalised, so treat any estimate as indicative."
+      },
+      {
+        "question": "How much does an Emirates ID cost in 2026?",
+        "answer": "Fees are broadly AED 100 per year of card validity, plus a typing charge and a service or smart-application fee. A two-year visa therefore tends to cost around AED 200 in ID fees before add-ons, and urgent processing costs more. Confirm the current figures on the ICP website, as published fees can change."
+      },
+      {
+        "question": "Do I need a medical test for my Emirates ID?",
+        "answer": "For most residence visa categories you complete a medical fitness test at a government-approved centre, usually a blood test and chest X-ray, as part of getting your visa. The Emirates ID application then runs alongside that process. Requirements can vary by visa type, so check your specific category with your sponsor or the ICP."
+      },
+      {
+        "question": "Is the Emirates ID linked to my visa?",
+        "answer": "Yes. For expatriates the card is issued through the residence visa process and its validity matches your visa, commonly two, three or ten years. Official guidance notes that cancellation of the Emirates ID is linked to cancellation of the residence visa."
+      },
+      {
+        "question": "What happens if my Emirates ID expires?",
+        "answer": "You can renew from up to six months before expiry. If it lapses, a late fine of AED 20 per day applies, capped at AED 1,000, and an expired ID can block banking and other services. Renewing on time, usually with your visa renewal, is the simplest way to avoid problems."
+      },
+      {
+        "question": "Can I open a bank account or connect DEWA without an Emirates ID?",
+        "answer": "Generally no. UAE banks require an Emirates ID to open a personal account, and DEWA needs your Emirates ID together with an Ejari contract or title deed to connect utilities. Because the card sits at the centre of these services, it is best arranged as early as possible after your visa is approved."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "How to open a bank account in Dubai",
+        "href": "/blog/how-to-open-bank-account-in-dubai"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "how to get Emirates ID",
+      "Emirates ID application",
+      "Emirates ID process 2026",
+      "ICP Emirates ID",
+      "Emirates ID fees",
+      "Emirates ID renewal",
+      "Emirates ID Dubai",
+      "UAE residence visa Emirates ID"
+    ]
+  },
+  {
+    "slug": "how-to-get-sim-card-dubai",
+    "title": "How to Get a SIM Card and Mobile Plan in Dubai",
+    "excerpt": "Tourists can buy a prepaid SIM or eSIM with just a passport, activated in minutes at the airport or via an app; postpaid plans need an Emirates ID.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/1488515/pexels-photo-1488515.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Person holding a smartphone against the Dubai skyline at dusk",
+      "tone": "#141821"
+    },
+    "intro": "Getting connected in Dubai is quick. If you are a visitor, you can buy a prepaid tourist SIM or an eSIM using only your passport, and it is usually activated within a few minutes at Dubai International Airport, in a mall, or through an app before you even land. If you are a new resident and want a postpaid plan on a monthly contract, you will need your Emirates ID first, so most newcomers start on prepaid and switch later. The two main networks are e& (formerly Etisalat) and du, with newer app-based options such as Virgin Mobile. A local UAE number matters for more than calls: banks, government services and delivery apps all send verification codes to it, so sorting this out early makes settling in far smoother.",
+    "keyTakeaways": [
+      "There are two main mobile networks in the UAE: e& (formerly Etisalat) and du; newer app-based providers such as Virgin Mobile run on these same networks.",
+      "Tourists can buy a prepaid SIM or eSIM with a passport only, typically activated within minutes.",
+      "Postpaid monthly plans require an Emirates ID, so most new residents begin on prepaid until their residency is confirmed.",
+      "You can buy at the airport on arrival, in malls and telecom shops, or set up an eSIM through a provider app before you travel.",
+      "eSIM is widely supported and lets you connect the moment you land, without a physical SIM swap.",
+      "A local UAE number is often needed for banking, government apps and everyday services, as many send one-time verification codes."
+    ],
+    "sections": [
+      {
+        "heading": "The two main networks: e& (Etisalat) and du",
+        "body": [
+          "The UAE has two main mobile network operators. The first is e&, formerly known as Etisalat, which is the country's original operator. The second is du. Both offer strong nationwide coverage including 5G in Dubai.",
+          "As a rough guide, e& is often described as having a marginal edge in more remote and rural areas because it is the older network, while du reports coverage across the large majority of populated areas. In and around Dubai, most users find the day-to-day experience on either network very similar, so the choice often comes down to the specific plan, price and any bundle offers rather than raw coverage.",
+          "Both operators sell prepaid SIMs, postpaid plans and eSIMs, and both run retail outlets, kiosks and airport counters across the UAE."
+        ]
+      },
+      {
+        "heading": "Newer app-based options such as Virgin Mobile",
+        "body": [
+          "Alongside e& and du, there are newer digital-first providers. The best known is Virgin Mobile UAE, which is operated by EITC (the parent company behind the du brand) and runs on du's network. In practice this means Virgin Mobile coverage matches du's, but the sign-up and management experience is designed to be fully app-based.",
+          "With an app-based provider you can typically pick a plan, activate an eSIM in minutes, or arrange delivery of a physical SIM, all from your phone. Some also offer digital identity verification through UAE PASS, the government identity app, which can simplify onboarding for residents.",
+          "These options can be convenient if you prefer to avoid visiting a store, and they often lean toward flexible monthly plans or discounted longer commitments. Always check the current terms in the provider's own app, as promotions change frequently."
+        ]
+      },
+      {
+        "heading": "Prepaid tourist SIM vs postpaid plan",
+        "body": [
+          "The key decision is prepaid versus postpaid. A prepaid SIM or tourist SIM is the fastest route: you pay upfront, top up as needed, and can buy it with just a passport. This is the standard choice for visitors and for new residents who do not yet hold an Emirates ID.",
+          "A postpaid plan is a monthly contract, usually billed in arrears, and is aimed at residents. To take out a postpaid plan you generally need a valid Emirates ID, and the account is linked to your registered UAE details. Because the Emirates ID is issued only after your residency is processed, most people who have just arrived start on prepaid and move to postpaid once their ID is ready.",
+          "If you are relocating, a practical approach is to buy a prepaid SIM on arrival, use it while your visa and Emirates ID are being finalised, then decide whether a postpaid plan offers better value for your usage."
+        ]
+      },
+      {
+        "heading": "Where to buy: airport, malls and apps",
+        "body": [
+          "You have three main options. First, at the airport on arrival: both e& and du operate counters and kiosks in the arrivals area at Dubai International Airport (DXB), and you can also set up an eSIM there. This is the most convenient choice if you want to be connected immediately.",
+          "Second, in the city: telecom stores and kiosks for e& and du are found in most large malls and shopping centres across Dubai, and staff can register and activate a SIM on the spot.",
+          "Third, through an app before or after you arrive: provider apps and eSIM services let you choose a plan and activate remotely. For a physical SIM, some providers offer fast delivery, in some cases within around an hour in parts of the UAE. Buying in advance can be handy so you land already connected."
+        ]
+      },
+      {
+        "heading": "Documents you need and eSIM setup",
+        "body": [
+          "For a prepaid tourist SIM, a passport is normally all you need, and registration takes just a few minutes because SIM registration is mandatory under UAE rules. For a postpaid plan, you will typically need your Emirates ID, and the account is tied to your resident details.",
+          "An eSIM is a digital SIM that you install by scanning a QR code or activating through an app, with no physical card. It is widely supported on recent iPhone and Android devices; check your handset is eSIM-compatible and unlocked before buying. The main advantage is that you can install it before your trip and connect the moment you land.",
+          "Whether you choose a physical SIM or an eSIM, keep your passport and, if you are a resident, your Emirates ID to hand during setup, as identity verification is required."
+        ]
+      },
+      {
+        "heading": "Rough price bands and why a local number matters",
+        "body": [
+          "Prices change often, so treat these as indicative only and confirm current rates with the provider. Tourist and prepaid data bundles for around a month commonly fall in a band from roughly AED 100 to AED 500 depending on how much data, local minutes and international minutes are included, with larger bundles costing more. Standalone eSIM data packs are often cheaper than full tourist SIMs because they focus on data rather than calls. Always compare the exact allowances before you buy.",
+          "Beyond calls and data, a local UAE number quickly becomes essential. Banks send one-time passcodes to your number to approve logins and payments, government platforms and identity apps use it for verification, and everyday services such as ride-hailing and food delivery rely on it for account setup and confirmations.",
+          "Because so many services are tied to your mobile number, it is worth choosing a number you intend to keep. New residents in particular benefit from getting a stable local number early, ideally before opening a bank account or registering for key apps."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I get a SIM card in Dubai with just my passport?",
+        "answer": "Yes. For a prepaid or tourist SIM, a passport is normally all you need, and it is usually registered and activated within a few minutes. A postpaid monthly plan is different and generally requires an Emirates ID."
+      },
+      {
+        "question": "What is the difference between e& and Etisalat?",
+        "answer": "They are the same operator. Etisalat rebranded to e&, so any reference to Etisalat and e& points to the same network, which is the UAE's original mobile operator."
+      },
+      {
+        "question": "Do I need an Emirates ID to buy a SIM card?",
+        "answer": "Not for prepaid. Visitors and new arrivals can buy a prepaid SIM with a passport. You do need a valid Emirates ID to take out a postpaid monthly plan, which is why most newcomers start on prepaid until their residency is confirmed."
+      },
+      {
+        "question": "Is an eSIM available in Dubai?",
+        "answer": "Yes. e&, du and app-based providers such as Virgin Mobile offer eSIMs, and you can now also set one up at Dubai International Airport. If your phone supports eSIM and is unlocked, you can often install it before you travel and connect as soon as you land."
+      },
+      {
+        "question": "Where is the best place to buy a SIM when I arrive?",
+        "answer": "The airport is the most convenient for immediate connection, with e& and du counters in arrivals. Otherwise you can buy at telecom shops and kiosks in malls, or set up an eSIM through a provider app before or after arrival."
+      },
+      {
+        "question": "Why do I need a local UAE number for banking and apps?",
+        "answer": "Many banks, government platforms and everyday apps send one-time verification codes to your mobile number to confirm your identity and approve actions. A local UAE number lets you receive these reliably, so it is worth arranging early when you settle in."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai SIM card",
+      "how to get a SIM card in Dubai",
+      "Dubai eSIM",
+      "e& Etisalat",
+      "du UAE",
+      "prepaid tourist SIM Dubai",
+      "UAE mobile plan Emirates ID",
+      "Virgin Mobile UAE"
+    ]
+  },
+  {
+    "slug": "how-to-send-money-abroad-from-dubai",
+    "title": "How to Send Money Abroad from Dubai (Remittances)",
+    "excerpt": "Send money abroad from Dubai via exchange houses, a bank transfer, or apps like Wise. Compare rate plus fees, bring your Emirates ID; no UAE tax.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/36813102/pexels-photo-36813102.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A person using a smartphone banking app to send an international money transfer",
+      "tone": "#141821"
+    },
+    "intro": "To send money abroad from Dubai you have three main routes: an exchange house such as Al Ansari, LuLu or UAE Exchange, a bank transfer from your own account, or an app-based service like Wise or Instarem where the corridor is supported. Each needs a valid Emirates ID. To pick the cheapest option, do not look at the advertised fee alone; compare the total cost, which is the flat fee plus the margin built into the exchange rate. The UAE charges no personal income tax and no tax on remittances, so residents can send money out without a domestic tax charge. Fees and rates vary by provider and corridor and change often, so always confirm the live numbers before you send.",
+    "keyTakeaways": [
+      "The three main routes are exchange houses, bank transfers, and app-based services such as Wise or Instarem, each requiring a valid Emirates ID.",
+      "Judge cost on the total, which combines the flat fee and the exchange-rate margin, not on the headline fee alone.",
+      "The UAE levies no personal income tax and no tax on outbound remittances for residents.",
+      "Apps and exchange houses are usually cheapest and fastest for common corridors; banks suit very large transfers with source-of-funds documentation.",
+      "Cross-border transfers at or above AED 3,500 must carry sender details, and you will be asked the purpose of the transfer for anti-money-laundering checks.",
+      "Fees, rates, and provider availability change often, so confirm the live figures and the exact amount your recipient will receive before you send."
+    ],
+    "sections": [
+      {
+        "heading": "The main ways to send money abroad from Dubai",
+        "body": [
+          "There are three main channels, and the best one depends on where the money is going, how fast it needs to arrive, and how much you are sending.",
+          "Exchange houses such as Al Ansari, LuLu Exchange, UAE Exchange, Al Fardan and GCC Exchange run hundreds of branches across the UAE and also offer their own apps. They are strong on popular corridors like India, Pakistan, the Philippines, Bangladesh and Egypt, and often support cash pick-up as well as bank deposit.",
+          "Bank transfers, usually sent by SWIFT from your UAE current account through online or mobile banking, reach almost any country. Banks are convenient if you already hold the account, but they often charge higher fees and a wider exchange-rate margin than specialist providers.",
+          "App-based services such as Wise and Instarem let you send from your phone without visiting a branch. Wise is available to UAE residents and typically uses the mid-market exchange rate with a transparent percentage fee. Availability and supported corridors differ by provider, so check that your destination currency is covered before relying on an app."
+        ]
+      },
+      {
+        "heading": "How to compare on exchange rate plus fees",
+        "body": [
+          "The single most important habit is to compare the total cost, not the advertised fee. A transfer can look cheap because the flat fee is low while the provider quietly widens the exchange rate.",
+          "There are two cost components. The first is the flat transfer fee, which at exchange houses is often a modest amount for common corridors. The second is the exchange-rate margin, which is the gap between the rate you are offered and the mid-market rate you would see on a neutral source. That margin is where banks and some exchange houses make most of their money, and it is commonly around 1 to 3 per cent above the mid-market rate.",
+          "The cleanest way to compare is to ignore the marketing and ask one question: exactly how much will my recipient receive, in their currency, for the amount I am sending today? Whichever provider delivers the most for the same outlay is the cheapest, whatever the fee label says.",
+          "UAE comparison sites that track live AED rates across licensed providers can help you shortlist, but treat their numbers as a guide only. Rates move continuously, so confirm the final figure with the provider at the moment you send."
+        ]
+      },
+      {
+        "heading": "Documents you need, including your Emirates ID",
+        "body": [
+          "A valid Emirates ID is the core requirement for sending money abroad from the UAE, whether you use a branch, a bank or an app. Providers use it to verify your identity under know-your-customer rules.",
+          "For a first transfer you will usually also register a mobile number, and app-based services typically confirm your identity with a one-time password and your Emirates ID details. You will need the recipient's full name as it appears on their account, their bank account number or IBAN, and for many corridors the bank name and a SWIFT or routing code.",
+          "You will be asked the purpose of the transfer, for example family support, savings or a property payment. Answer accurately. A vague or blank purpose can trigger a manual review and delay the payment.",
+          "For larger amounts, keep proof of where the money came from, such as a salary certificate, a sale contract or bank statements. Providers may request source-of-funds evidence before releasing a big transfer."
+        ]
+      },
+      {
+        "heading": "Speed, limits and choosing the right channel by amount",
+        "body": [
+          "Speed depends on the channel and the corridor. Transfers through exchange houses and apps to popular destinations can arrive within minutes to a few hours for cash pick-up, and often the same or next business day for bank deposits. Bank SWIFT transfers to major economies typically take one to three business days.",
+          "For everyday amounts and common corridors, an exchange house or a well-priced app is usually the fastest and cheapest choice. For very large sums, a bank SWIFT transfer is generally the most appropriate channel.",
+          "The UAE does not impose a general cap on outbound personal remittances for residents, and there is no hard regulatory ceiling on a bank transfer; you can move large amounts in a single transaction provided your bank is satisfied with the documentation. In practice, individual apps and exchange houses set their own per-transaction and daily limits, so confirm those before you send.",
+          "Compliance checks apply to everyone. Cross-border transfers at or above AED 3,500 must carry the required sender information, and all licensed providers verify identity, record the purpose, and screen against sanctions lists. Clear paperwork keeps larger transfers moving smoothly."
+        ]
+      },
+      {
+        "heading": "No UAE tax on remittances",
+        "body": [
+          "The UAE levies no personal income tax on individuals. Salaries, most investment income and personal savings are received without a domestic personal income tax charge, and there is no tax on sending money out of the country. Residents can therefore remit funds abroad without a UAE tax deduction on the transfer itself.",
+          "This is separate from the fees and exchange-rate margin your provider charges, which are commercial costs, not taxes.",
+          "It is also separate from any tax rules in the country receiving the money. Some countries tax or require reporting of incoming funds or the income behind them, depending on your status there and the amount. If you are sending significant sums, or funds tied to a property sale, take professional tax advice in the destination country before you send. Nothing here is tax advice."
+        ]
+      },
+      {
+        "heading": "Tips to get the best rate",
+        "body": [
+          "Compare on the amount received, not the fee. Line up two or three providers and pick the one that delivers the most in the recipient's currency for the same outlay today.",
+          "Check the margin against the mid-market rate. Look up the neutral mid-market rate for your currency pair, then measure how far each provider's quote sits above it. A tighter margin often beats a headline zero-fee offer.",
+          "Watch the timing. Rates move constantly, so a quote can change between comparison and confirmation. Lock in and send once you are happy with the live figure rather than an estimate.",
+          "Match the channel to the amount. Apps and exchange houses tend to win on cost for routine transfers; banks earn their place on very large, well-documented sums.",
+          "Consider larger, less frequent transfers to spread a flat fee over more money, keep your Emirates ID and recipient details ready to avoid delays, and state a clear, accurate purpose every time. Fees, rates and provider availability change, so re-check before each send."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the cheapest way to send money abroad from Dubai?",
+        "answer": "There is no single cheapest provider for everyone; it depends on the corridor and the day. The reliable method is to compare the total cost, which is the flat fee plus the exchange-rate margin, and pick whichever provider delivers the most in your recipient's currency for the same amount. For common corridors, app-based services like Wise and competitive exchange houses often work out cheaper than a standard bank transfer. Confirm live figures before sending, as rates change."
+      },
+      {
+        "question": "Do I need my Emirates ID to send money abroad?",
+        "answer": "Yes. A valid Emirates ID is the core identity requirement for sending money from the UAE, whether through a branch, a bank or an app, because providers must verify your identity under know-your-customer rules. You will also need the recipient's account details, such as their IBAN or account number and the bank's SWIFT or routing code, plus a stated purpose for the transfer."
+      },
+      {
+        "question": "Is there any UAE tax on money I send abroad?",
+        "answer": "No. The UAE has no personal income tax and no tax on outbound remittances, so residents can send money abroad without a UAE tax charge on the transfer. The fees and exchange-rate margin you pay are commercial costs, not taxes. Bear in mind the country receiving the money may have its own tax or reporting rules, so take local advice for large sums. This is general information, not tax advice."
+      },
+      {
+        "question": "How long does an international transfer from the UAE take?",
+        "answer": "It depends on the channel and destination. Transfers through exchange houses and apps to popular corridors can arrive within minutes to a few hours for cash pick-up, and often the same or next business day for bank deposits. Bank SWIFT transfers to major economies usually take one to three business days. Providing a clear purpose and complete recipient details helps avoid delays."
+      },
+      {
+        "question": "Is there a limit on how much I can send out of the UAE?",
+        "answer": "The UAE does not impose a general cap on outbound personal remittances for residents, and there is no hard regulatory ceiling on a bank transfer, so large amounts can move in a single transaction if your bank is satisfied with the source-of-funds documentation. However, individual apps and exchange houses set their own per-transaction and daily limits, and transfers at or above AED 3,500 must carry required sender information for compliance. Confirm limits with your provider."
+      },
+      {
+        "question": "Can I use Wise or Instarem to send money from Dubai?",
+        "answer": "App-based services can be used by UAE residents, and Wise is available for sending AED to many destination currencies, typically using the mid-market rate with a transparent percentage fee. Instarem and similar apps also offer competitive pricing on supported corridors. Availability and the list of supported currencies differ by provider and can change, so check that your destination is covered and confirm the live rate before you send."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to open a bank account in Dubai",
+        "href": "/blog/how-to-open-bank-account-in-dubai"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "send money abroad from Dubai",
+      "UAE remittances",
+      "exchange houses UAE",
+      "Al Ansari money transfer",
+      "Wise UAE",
+      "international bank transfer UAE",
+      "Emirates ID money transfer",
+      "no UAE tax on remittances"
+    ]
+  },
+  {
+    "slug": "how-to-set-up-dewa-dubai",
+    "title": "How to Set Up DEWA (Water & Electricity) in Dubai",
+    "excerpt": "Set up DEWA after your tenancy: submit your Ejari, Emirates ID and a deposit online, and power and water are usually connected within a day.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/14528599/pexels-photo-14528599.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Modern Dubai residential interior at dusk with lights on, illustrating an activated water and electricity connection",
+      "tone": "#141821"
+    },
+    "intro": "DEWA is the Dubai Electricity and Water Authority, the government utility that supplies power and water to almost every home in the emirate. To set up DEWA, you first need a registered Ejari (your official tenancy record), then you activate the connection online at dewa.gov.ae or through the DEWA smart app using your Emirates ID, tenancy contract and passport copy. You pay a refundable security deposit, which is typically higher for a villa than an apartment, plus small one-off activation fees. Once paid, existing meters are often switched on within hours. Your monthly bill then bundles in the Dubai housing fee, calculated at about 5% of your annual rent. This guide walks through each step, with indicative costs you should always confirm on the official DEWA channels.",
+    "keyTakeaways": [
+      "DEWA (Dubai Electricity and Water Authority) is the government supplier of electricity and water for Dubai homes.",
+      "Set up DEWA after your Ejari and tenancy are registered, using the website or the DEWA smart app.",
+      "You will need your Ejari, Emirates ID, tenancy contract and passport copy to activate the connection.",
+      "The security deposit is refundable and is generally higher for villas than apartments; small activation and admin fees also apply.",
+      "Your monthly bill includes a housing fee of about 5% of annual rent, collected by DEWA for Dubai Municipality.",
+      "When you move out, close or transfer the account so your deposit can be refunded after final settlement."
+    ],
+    "sections": [
+      {
+        "heading": "What is DEWA and why you need it",
+        "body": [
+          "DEWA, the Dubai Electricity and Water Authority, is the government-owned utility responsible for supplying electricity and water across Dubai. In practice, almost every residential property in the emirate is connected through DEWA, so activating an account is one of the first things you do after signing a tenancy or completing a purchase.",
+          "Without an active DEWA account there is no power or running water at the property, and many building managers and community developers ask to see an active connection as part of your move-in clearance. For owners and long-stay residents alike, the DEWA account also becomes the record against which the Dubai housing fee is billed each month.",
+          "DEWA services are managed almost entirely online. You rarely need to visit an office; most people complete setup, payments, bill viewing and account closure through the website or the DEWA smart app."
+        ]
+      },
+      {
+        "heading": "When to set up DEWA: after Ejari and tenancy",
+        "body": [
+          "The right moment to set up DEWA is once your tenancy is in place and your Ejari is registered. Ejari is the official Dubai system that records your rental contract, and DEWA move-in activation is designed to run off it. Since mid-2017, DEWA has generally required a registered Ejari rather than a paper tenancy contract for move-in.",
+          "If you are renting, the usual order is: sign the tenancy contract, register Ejari (often handled by your agent or a typing centre for a fee), then activate DEWA. If you are an owner moving into a property you have bought, you activate DEWA in your own name using your title deed and ownership documents instead of a tenancy.",
+          "Setting up in the correct order matters because the Ejari carries the DEWA premise number and the registered annual rent, both of which feed directly into your activation and your monthly housing fee. Trying to activate before Ejari is registered usually means the request cannot be completed."
+        ]
+      },
+      {
+        "heading": "Documents you need to activate",
+        "body": [
+          "Have the following ready before you start, as digital copies or clear photos, so the online form goes through in one sitting:",
+          "Registered Ejari certificate, which also shows your DEWA premise number.",
+          "Valid Emirates ID (front and back). If your Emirates ID is still being processed, some applications can proceed with your residence visa or entry permit, but confirm current requirements on DEWA channels.",
+          "Tenancy contract, or the title deed if you own the property.",
+          "Passport copy, and for tenants a copy of the landlord's details as recorded on the Ejari.",
+          "Owners activating a brand-new home from the developer may also need a handover or completion document. If anything is missing, DEWA or your building management can tell you which specific paper applies to your community."
+        ]
+      },
+      {
+        "heading": "The activation process, step by step",
+        "body": [
+          "You can activate a move-in connection online at dewa.gov.ae or through the DEWA smart app, available for iOS and Android. The flow is broadly the same on both.",
+          "First, create or log in to a DEWA account and select the move-in or activation service. Enter your DEWA premise number from the Ejari, then upload your Emirates ID, tenancy or title deed and passport copy.",
+          "Next, review the charges, which combine the refundable security deposit with small one-off activation and admin fees, and pay online by card. Keep the payment receipt and your new DEWA account number.",
+          "Once payment clears, DEWA activates the supply. Where a meter already exists and was previously connected, activation is often completed within a few hours. Brand-new properties can take longer because the meter and connection may need to be verified first. If your supply is not switched on within the window DEWA states after payment, contact DEWA customer care to follow up. Timelines and steps can change, so always follow the instructions shown during your own application."
+        ]
+      },
+      {
+        "heading": "Deposits, activation fees and the housing fee",
+        "body": [
+          "The security deposit is refundable and is returned when you close the account, after any final bill is settled. It is commonly indicated at around AED 2,000 for an apartment and around AED 4,000 for a villa, reflecting the higher expected load of a house. Treat these as indicative figures and confirm the exact amount shown for your property at the point of activation.",
+          "On top of the deposit, DEWA applies small one-off activation and administrative charges, typically a connection or activation fee plus minor knowledge and innovation fees, which together usually add up to a modest amount rather than a major cost. The precise fees are displayed before you pay.",
+          "Separately, your monthly DEWA bill includes the Dubai housing fee, charged at about 5% of your annual rent as registered on the Ejari. DEWA collects this on behalf of Dubai Municipality; it is generally spread across twelve monthly instalments and shown as a municipality or housing charge on the bill. UAE nationals are typically exempt. Because it is tied to your registered rent, the amount varies from home to home."
+        ]
+      },
+      {
+        "heading": "Reading your bill, moving out and transfers",
+        "body": [
+          "Your monthly DEWA bill separates electricity consumption, water consumption, sewerage and the housing fee, along with any regulatory charges. You can view and download bills, track usage and pay through the website or the smart app, and you can set up direct debit or auto-pay so nothing lapses.",
+          "When you move out, do not simply stop paying. Submit a move-out or account closure request through DEWA, settle the final bill, and provide the account you want your refund paid into. Once the final reading and settlement are done, DEWA refunds the security deposit, usually by bank transfer within a stated processing period.",
+          "If you are moving to another property in Dubai, you can often transfer or open a fresh connection at the new address in the same session, carrying over your customer record. Either way, closing the old account cleanly is what releases your deposit and prevents charges continuing against your name."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is DEWA?",
+        "answer": "DEWA is the Dubai Electricity and Water Authority, the government utility that supplies electricity and water to homes and businesses across Dubai. You need an active DEWA account for power and running water at your property."
+      },
+      {
+        "question": "Do I need Ejari before setting up DEWA?",
+        "answer": "Yes, in most cases. DEWA move-in activation for tenants is built around a registered Ejari, which carries your DEWA premise number and registered rent. Register Ejari first, then activate DEWA. Owners use their title deed instead of a tenancy."
+      },
+      {
+        "question": "How much is the DEWA security deposit?",
+        "answer": "The deposit is refundable and is commonly indicated at around AED 2,000 for an apartment and around AED 4,000 for a villa. These figures are indicative only; confirm the exact amount shown for your property when you activate."
+      },
+      {
+        "question": "What is the DEWA housing fee?",
+        "answer": "The housing fee is a Dubai Municipality charge collected through your DEWA bill, calculated at about 5% of your annual rent as registered on Ejari and usually split across twelve monthly instalments. UAE nationals are typically exempt."
+      },
+      {
+        "question": "How long does DEWA activation take?",
+        "answer": "Where a meter already exists and was previously connected, activation is often completed within a few hours of payment. Brand-new properties can take longer because the connection may need verifying. Follow the timeline DEWA shows during your application."
+      },
+      {
+        "question": "How do I get my DEWA deposit back when I leave?",
+        "answer": "Submit a move-out or account closure request, settle the final bill, and give DEWA the bank account for your refund. After the final reading and settlement, DEWA refunds the deposit, usually by transfer within a stated processing period."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Browse current listings",
+        "href": "/listings"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "how to set up DEWA",
+      "DEWA activation Dubai",
+      "DEWA security deposit",
+      "DEWA housing fee",
+      "DEWA move-in",
+      "Ejari DEWA",
+      "Dubai water and electricity",
+      "DEWA connection fees"
+    ]
+  },
 ];
