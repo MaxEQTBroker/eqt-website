@@ -16626,4 +16626,789 @@ export const seoPosts: BlogPost[] = [
       "DEWA deposit"
     ]
   },
+  {
+    "slug": "best-schools-in-dubai-and-costs",
+    "title": "Best Schools in Dubai and How Much They Cost (2026)",
+    "excerpt": "Dubai schools span British, American, IB and Indian curricula, with indicative fees from roughly AED 3,000 to over AED 100,000 a year.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10486073/pexels-photo-10486073.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Pupils in uniform walking together through a bright school corridor in Dubai",
+      "tone": "#141821"
+    },
+    "intro": "Dubai has around 220 to 230 private schools teaching roughly 17 curricula, so nearly every relocating family can find a familiar system. The main choices are British, American, International Baccalaureate (IB) and Indian (CBSE or ICSE), alongside French, German and other national streams. Every school is regulated and rated by KHDA, the Knowledge and Human Development Authority. As an indicative guide, annual fees stretch from about AED 3,000 at budget schools to well over AED 100,000 at premium ones, with many good family options landing somewhere in between. Fees quoted here are indicative only and vary by school, year group and academic year, so always confirm current figures directly with the school before you commit.",
+    "keyTakeaways": [
+      "Dubai offers British, American, IB, Indian and several other curricula, so most families can keep their child in a familiar system.",
+      "KHDA regulates every private school and rates it Outstanding, Very Good, Good, Acceptable or Weak after inspection.",
+      "Indicative annual fees run from roughly AED 3,000 at budget schools to more than AED 100,000 at premium ones; these figures vary widely.",
+      "Curriculum, KHDA rating, facilities and year group are the main drivers of fees, with senior and IB years costing the most.",
+      "Budget for extras beyond tuition: registration, seat deposit, uniform, books, transport and activities.",
+      "Popular schools and year groups carry waiting lists, so apply early, ideally 6 to 12 months ahead."
+    ],
+    "sections": [
+      {
+        "heading": "The range of curricula in Dubai",
+        "body": [
+          "Dubai is unusually diverse in what it teaches. The four largest systems are the British (National Curriculum for England, leading to IGCSE and A-Levels), the American (usually a US high school diploma with AP options), the International Baccalaureate (PYP, MYP and the Diploma Programme) and the Indian curricula (CBSE and ICSE). Together these cover the majority of pupils.",
+          "Beyond the big four, families can choose French (leading to the Baccalaureat), German, and other national systems, as well as the UAE Ministry of Education (MOE) curriculum. This breadth means a family moving from London, New York, Mumbai, Paris or elsewhere can often keep their child on the same academic track, which makes a later move or university application smoother.",
+          "Choosing a curriculum is partly about continuity and partly about destination. If your child is likely to sit UK university entry, a British or IB route is natural; for US colleges, the American diploma with AP or the IB works well. It is worth thinking a few years ahead rather than only about the next school year."
+        ]
+      },
+      {
+        "heading": "How KHDA regulates and rates schools",
+        "body": [
+          "KHDA is Dubai's education regulator. It licenses private schools, oversees fee frameworks and, through its inspection arm, publishes a quality rating for each school. The overall judgements are Outstanding, Very Good, Good, Acceptable and Weak.",
+          "Inspections look across several areas, including pupils' achievement and progress, personal development, teaching and assessment, the curriculum, safeguarding and wellbeing, and leadership and management. The resulting report is public, so parents can read the detail behind a headline rating rather than relying on reputation alone.",
+          "A practical note for 2026: KHDA has at times paused or adjusted its full inspection cycle, so some published ratings may date from an earlier inspection year. Treat the rating as one useful input, then visit in person, talk to current parents and read the latest available report. A high rating does not automatically mean a school is the right fit for your particular child."
+        ]
+      },
+      {
+        "heading": "Indicative annual fee bands",
+        "body": [
+          "Fees vary enormously, so the bands below are broad and indicative only. As a rough guide for 2026, budget schools (often Indian or other national curricula) can start from around AED 3,000 to AED 20,000 a year. Mid-market schools, typically Good to Very Good British, American or IB options, commonly sit in the region of AED 20,000 to AED 60,000. Premium and Outstanding-rated schools frequently run from about AED 60,000 to more than AED 100,000, and a small number sit higher still.",
+          "By curriculum, and again only as an indication: Indian CBSE and ICSE schools are usually the most affordable, often in the region of AED 7,000 to AED 25,000. British schools span a very wide range, roughly AED 20,000 to AED 110,000 depending on the school and year. American schools often fall somewhere in between, and IB, especially the senior Diploma years, tends to sit at the upper end.",
+          "Two things push a family's actual bill around: the specific school you choose and the year group. Senior and examination years almost always cost more than early years. Because these numbers move each academic year, please use them for orientation and confirm the exact, current fee schedule with each school."
+        ]
+      },
+      {
+        "heading": "What drives the fees",
+        "body": [
+          "The biggest single driver is the curriculum and the school's positioning. A well-established British or IB school with a strong track record and heavy demand will sit well above a value-focused school teaching the same broad curriculum.",
+          "KHDA rating and reputation matter too: Outstanding and Very Good schools can command higher fees, though a strong rating is not a guarantee of the highest price, and some excellent schools remain reasonably priced. Facilities are a major factor, so purpose-built campuses with pools, theatres, science labs and large sports grounds cost more to run and therefore to attend.",
+          "Other drivers include the year group (fees rise as children move up the school), teacher-to-pupil ratios, and location within Dubai. Newer schools sometimes offer introductory pricing to build enrolment, which can be a genuine opportunity if the school is a good fit."
+        ]
+      },
+      {
+        "heading": "Extra costs beyond tuition",
+        "body": [
+          "Tuition is only part of the picture, so build a realistic total budget. Expect a one-off application or registration fee, often in the region of AED 500 to a few thousand dirhams, and in many cases a seat-acceptance deposit that can be equivalent to a portion of a term's fees. Deposits may be non-refundable or offset against later tuition, so check the terms.",
+          "Recurring extras usually include uniform (indicatively around AED 1,500 to AED 3,000), books and devices, and school transport, which commonly runs from roughly AED 5,000 to AED 12,000 a year depending on distance. Some schools charge separately for lunches, trips, exam entry fees and after-school activities.",
+          "There are also small administrative costs when transferring a child into Dubai, such as attesting and processing previous school records. None of these is huge on its own, but together they add up, so it is sensible to add a buffer on top of the headline tuition figure."
+        ]
+      },
+      {
+        "heading": "Waiting lists, admissions timing and choosing by area",
+        "body": [
+          "The most in-demand schools and year groups (often reception, the start of primary, and Year 7 or its equivalent) carry waiting lists. Where possible, apply early, ideally 6 to 12 months before your intended start. Most schools accept overseas applications, so you can join a waitlist before you arrive in Dubai rather than waiting until you land.",
+          "The main academic year typically starts in late August or early September, with a second common entry point in the new calendar year, so plan your move around those windows. Admissions usually involve an application, assessment or age-appropriate entry check, and payment of the registration fee and deposit to secure the place.",
+          "Location matters for daily life. A shorter commute is worth a great deal in Dubai traffic, so many families choose their home and school together. Family-friendly communities such as Arabian Ranches, Dubai Hills Estate, Jumeirah, Mirdif and the areas around Dubai Silicon Oasis are popular partly because good schools sit close by. Our team can help you match a neighbourhood to your preferred curriculum and commute; see our area guides or speak to us directly."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much do schools in Dubai cost per year?",
+        "answer": "As an indicative guide for 2026, annual fees range from roughly AED 3,000 at budget schools to more than AED 100,000 at premium ones. Many good family options sit somewhere between about AED 20,000 and AED 60,000. Actual fees vary by school, curriculum and year group, so confirm current figures with each school."
+      },
+      {
+        "question": "Which curricula are available in Dubai?",
+        "answer": "Dubai offers around 17 curricula. The largest are British, American, International Baccalaureate (IB) and Indian (CBSE and ICSE), alongside French, German, other national systems and the UAE Ministry of Education curriculum. Most relocating families can keep their child in a familiar system."
+      },
+      {
+        "question": "What is KHDA and what do its ratings mean?",
+        "answer": "KHDA, the Knowledge and Human Development Authority, is Dubai's education regulator. It licenses and inspects private schools and rates them Outstanding, Very Good, Good, Acceptable or Weak, based on areas such as achievement, teaching, curriculum, wellbeing and leadership. Reports are public, so read the detail, not just the headline."
+      },
+      {
+        "question": "Which curriculum is the most affordable?",
+        "answer": "Indian curriculum schools (CBSE and ICSE) are generally the most affordable, often indicatively in the region of AED 7,000 to AED 25,000 a year. British, American and especially senior IB years tend to cost more. All figures vary by school and should be confirmed directly."
+      },
+      {
+        "question": "What extra costs should I budget for beyond tuition?",
+        "answer": "Beyond tuition, plan for a registration or application fee, a seat-acceptance deposit, uniform (indicatively around AED 1,500 to AED 3,000), books and devices, transport (commonly around AED 5,000 to AED 12,000 a year), and possibly lunches, trips, exam fees and activities. Add a buffer to the headline fee."
+      },
+      {
+        "question": "When should I apply, and are there waiting lists?",
+        "answer": "Popular schools and year groups carry waiting lists, so apply early, ideally 6 to 12 months before your intended start. Most schools accept overseas applications, so you can join a waitlist before arriving. The main academic year usually begins in late August or early September, with a second common entry point in the new year."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Best neighbourhoods in Dubai for families",
+        "href": "/blog/best-neighbourhoods-in-dubai-for-families"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Dubai communities and area guides",
+        "href": "/areas"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "best schools in Dubai",
+      "Dubai school fees 2026",
+      "KHDA ratings",
+      "British curriculum Dubai",
+      "IB schools Dubai",
+      "Indian schools Dubai",
+      "Dubai school admissions",
+      "international schools Dubai"
+    ]
+  },
+  {
+    "slug": "getting-around-dubai-transport-guide",
+    "title": "Getting Around Dubai: Metro, Taxis and Driving (2026)",
+    "excerpt": "Dubai moves via a driverless Metro, cheap metered taxis, ride-hailing apps and easy driving. Here are the modes, indicative fares and best fits.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A Dubai Metro train crossing an elevated track above a busy city highway at dusk",
+      "tone": "#141821"
+    },
+    "intro": "Getting around Dubai is straightforward once you know the options. The driverless Metro and connecting Tram run on a single tap-in nol card, buses and water transport fill the gaps, and metered taxis plus ride-hailing apps (Careem, Uber, Hala) are cheap by global standards and available almost everywhere. Many residents also drive, which brings Salik road tolls, low fuel costs and paid street parking to factor in. Cycling and e-scooters cover the last mile in newer districts. The right mix depends on where you live and work: a Metro-line address rewards public transport, while villa communities lean on a car. All fares below are indicative and change, so confirm current rates before you travel.",
+    "keyTakeaways": [
+      "One nol card pays for the Metro, Tram, buses and most water transport; a single tap covers transfers made within 30 minutes.",
+      "Indicative Metro fares on a Silver nol card are roughly AED 3 for one zone, AED 5 for two zones and AED 7.50 for three or more.",
+      "Street taxis are metered and cheap; ride-hailing via Careem, Uber or Hala adds a booking fee but brings the car to your door.",
+      "Driving means Salik tolls (indicatively AED 4 to AED 6 per gate pass with peak and off-peak pricing), low fuel costs and paid parking in busy zones.",
+      "Cycling and e-scooters are growing for short trips, with permits and speed limits set by the RTA.",
+      "Your ideal mix depends on your area: Metro-line apartments suit public transport, while villa communities usually need a car."
+    ],
+    "sections": [
+      {
+        "heading": "The Dubai Metro and Tram",
+        "body": [
+          "The Dubai Metro is the backbone of the city's public transport: two driverless lines, the Red Line running the length of Sheikh Zayed Road from the north of the city down past the airport, marina and Expo district, and the Green Line looping through older, denser neighbourhoods around the Creek. Trains are clean, air-conditioned and frequent, with dedicated Gold Class and women-and-children carriages. Because the network is elevated for most of its length, it also happens to be one of the best-value city tours in Dubai.",
+          "You pay with a nol card, a rechargeable smart card you tap in at the start of a journey and tap out at the end. Fares are worked out by zones: the more zones your trip crosses, the more you pay. On a standard Silver nol card, indicative fares are around AED 3 within a single zone, AED 5 across two adjacent zones and AED 7.50 for three or more zones. A red paper ticket costs a little more per trip and suits occasional visitors, while daily and monthly caps and passes reward regular commuters.",
+          "The Dubai Tram connects the Metro Red Line to the Marina, Jumeirah Beach Residence and Al Sufouh, and runs on the same nol card. Crucially, transfers are integrated: if you switch between Metro, Tram or bus within 30 minutes, it counts as one journey rather than two separate fares. That single-tap simplicity is why a home near a Metro or Tram stop can quietly cut your monthly transport bill."
+        ]
+      },
+      {
+        "heading": "Buses and water transport",
+        "body": [
+          "Dubai's public bus network reaches the many areas the Metro does not, including inland communities, business parks and beach districts. Buses are air-conditioned, use the same nol card and feed passengers to and from Metro stations, so they are most useful as the first or last leg of a longer trip rather than a standalone way to cross the city. Feeder routes around major stations are designed exactly for this.",
+          "Water transport is part practical, part pleasure. The RTA runs water taxis, water buses and ferries across Dubai Marina, the Creek and the Dubai Water Canal, most of which accept the nol card. The traditional abra, a small wooden boat crossing the Creek, remains one of the cheapest and most characterful rides in the city: motorised abras are indicatively around AED 2 by nol card, while the classic rowed Creek crossings still take a small cash fare of about AED 1.",
+          "For most residents, water transport is a scenic add-on rather than a daily commute, but if you live along the Marina or Creek it can be a genuinely useful and pleasant alternative to sitting in traffic."
+        ]
+      },
+      {
+        "heading": "Taxis and ride-hailing",
+        "body": [
+          "Metered taxis are plentiful, safe and inexpensive by international standards. You can hail a cream-coloured RTA taxi on the street, join a rank outside malls and hotels, or book one to your door. Street-hailed cabs start from a low base fare and then charge an indicative per-kilometre rate of a little over AED 2, with modest surcharges at night and from the airport. There is no need to negotiate, as the meter does the work.",
+          "Ride-hailing apps are equally established. Careem and Uber both operate widely, and Hala, a joint venture between Careem and the RTA, puts official metered taxis directly inside the Careem app. Booking through an app adds a booking fee and a higher minimum fare, indicatively in the region of AED 12 to AED 13 to start, but you gain cashless payment, a named driver, a tracked route and the convenience of the car coming to you. Because Hala fares are meter-based, they avoid the surge pricing that can push private ride-hailing prices up at busy times.",
+          "As a rule of thumb, street taxis tend to be cheapest for short spontaneous trips, Hala is a reliable cashless middle ground, and fixed-fare private ride-hailing can occasionally win on longer journeys in heavy traffic. Comparing the two apps before you confirm a booking is worthwhile."
+        ]
+      },
+      {
+        "heading": "Driving and car ownership",
+        "body": [
+          "Many residents choose to drive, and Dubai's wide, well-maintained roads make it easy. To drive your own car you need a UAE driving licence, which some nationalities can transfer directly and others obtain through local training and tests. Once you are on the road, running costs are among the lowest in the developed world: fuel is inexpensive, with Super 98 petrol indicatively around AED 3.60 per litre in mid-2026, and prices are reset monthly.",
+          "The main variable cost is Salik, Dubai's automatic road toll. There are no booths; overhead gates read a tag on your windscreen and deduct the fare automatically. In 2026 Salik moved to time-based pricing, with an indicative charge of around AED 6 per gate pass at peak times and about AED 4 off-peak, plus VAT, and free passage in the small hours of the night. Depending on your route, crossing two or three gates each way can add up over a month, so it is worth planning where you live relative to the gates.",
+          "Parking is the other consideration. Much of the city uses RTA paid street parking during the day, indicatively from around AED 2 up to AED 6 per hour in premium zones at peak times, typically free late at night and on some rest days. Apartment and villa communities usually include private parking, but plan for paid parking whenever you drive into busy commercial or beachfront districts."
+        ]
+      },
+      {
+        "heading": "Cycling and e-scooters",
+        "body": [
+          "For short, local trips, cycling and e-scooters are increasingly practical, especially in newer, walkable districts with dedicated paths. Dubai has invested in cycle tracks along the Marina, Downtown, the Dubai Water Canal and long recreational routes, and shared e-scooter schemes operate in several communities.",
+          "E-scooters are regulated by the RTA. Riders generally need to complete a free permit, stick to designated areas and cycle lanes rather than main roads, and observe speed limits of around 20 km/h. Payment for shared schemes can be linked to a nol card, and foldable e-scooters without a seat are allowed on the Metro and Tram, which makes them a neat solution for bridging the gap between a station and your front door.",
+          "Because Dubai summers are hot, cycling and scooting are most comfortable in the cooler months and the early morning or evening. Treated as a last-mile tool rather than an all-weather commute, they fit neatly alongside the Metro."
+        ]
+      },
+      {
+        "heading": "Which modes suit which lifestyles and areas",
+        "body": [
+          "The best transport strategy depends heavily on where you choose to live. If your home and workplace both sit near the Metro Red Line, for example along Sheikh Zayed Road, in the Marina or around Downtown and Business Bay, public transport plus the occasional taxi can cover almost everything, and you may not need a car at all. A nol card and a ride-hailing app in your pocket will get you far.",
+          "If you settle in a villa community or a quieter inland neighbourhood away from the rail lines, a car quickly becomes the practical default for school runs, groceries and getting to the Metro in the first place. Here the calculation shifts to fuel, Salik and parking rather than fares, and proximity to toll gates and main roads matters when you pick an address.",
+          "Many households land somewhere in between: one car for family and out-of-town trips, plus the Metro, Tram and ride-hailing for daily commutes and nights out where parking and traffic are a hassle. When we advise buyers and tenants on where to live, transport is a core part of the conversation, because the right location can save both money and hours every week. If you would like tailored guidance, our team is happy to help."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a nol card and do I need one?",
+        "answer": "A nol card is Dubai's rechargeable travel card. You tap in and out to pay for the Metro, Tram, public buses and most water transport, and a single tap covers transfers made within 30 minutes. If you plan to use public transport at all, a Silver nol card is the simple default; occasional visitors can buy a red paper ticket instead. Fares and card types are indicative and change, so top up and check current rates as you go."
+      },
+      {
+        "question": "How much does the Dubai Metro cost?",
+        "answer": "Fares are based on how many zones your journey crosses. On a Silver nol card the indicative fares are around AED 3 within one zone, AED 5 across two adjacent zones and AED 7.50 for three or more zones, with daily caps and passes for regular commuters. These figures are indicative and set by the RTA, so confirm the latest fares before travelling."
+      },
+      {
+        "question": "Are taxis or ride-hailing apps cheaper in Dubai?",
+        "answer": "Street-hailed metered taxis are usually cheapest for short trips, starting from a low base fare plus an indicative rate of just over AED 2 per kilometre. Booking through Careem, Uber or Hala adds a booking fee and a higher minimum fare, indicatively around AED 12 to AED 13, in exchange for cashless payment and door-to-door pickup. For longer trips in traffic, a fixed ride-hailing fare can sometimes work out better, so it is worth comparing before you book."
+      },
+      {
+        "question": "What is Salik and how much does it cost?",
+        "answer": "Salik is Dubai's automatic road toll. Overhead gates read a tag on your windscreen and charge you automatically, with no booths to stop at. In 2026 pricing became time-based, with an indicative charge of around AED 6 per gate pass at peak hours and about AED 4 off-peak, plus VAT, and free passage overnight. Your monthly total depends on how many gates your regular routes cross, so these amounts are indicative only."
+      },
+      {
+        "question": "Do I need a car to live in Dubai?",
+        "answer": "It depends on where you live. Near the Metro Red Line, in areas such as the Marina, Downtown or Business Bay, many residents manage well with public transport and ride-hailing alone. In villa communities and inland neighbourhoods away from the rail network, a car is usually the practical choice for school runs, shopping and reaching a station. Transport access is one of the factors worth weighing when you choose an area."
+      },
+      {
+        "question": "Can I use e-scooters and bicycles to get around?",
+        "answer": "Yes, for short local trips. Dubai has dedicated cycle tracks and shared e-scooter schemes in many newer districts. E-scooters need a free RTA permit, must stay in designated areas and cycle lanes, and are limited to around 20 km/h. Foldable e-scooters without a seat are allowed on the Metro and Tram, making them a handy last-mile option. Rules and limits are set by the RTA and can change, so check before you ride."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to get a UAE driving licence",
+        "href": "/blog/how-to-get-uae-driving-licence"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Dubai communities and area guides",
+        "href": "/areas"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "getting around Dubai",
+      "Dubai Metro fares",
+      "nol card",
+      "Dubai taxis",
+      "Careem Uber Hala",
+      "Salik tolls",
+      "driving in Dubai",
+      "Dubai public transport"
+    ]
+  },
+  {
+    "slug": "healthcare-in-dubai-public-vs-private",
+    "title": "Healthcare in Dubai: Public vs Private Explained (2026)",
+    "excerpt": "Dubai runs a dual public-private system regulated by the DHA. Health insurance is mandatory for residents and decides where you can be treated.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10593631/pexels-photo-10593631.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Modern hospital corridor with clean lighting, representing Dubai's healthcare facilities",
+      "tone": "#141821"
+    },
+    "intro": "Dubai runs a dual healthcare system: public hospitals and clinics run largely by the Dubai Health Authority (DHA), alongside a large private sector of hospitals and clinics. Both are regulated by the DHA, which handles licensing and quality standards. For residents the most important rule is simple: health insurance is mandatory, and your visa cannot be renewed without it. Your policy also decides which hospitals and clinics you can use, because insurers reimburse care only within their network of approved providers. Public facilities tend to cost less and are heavily subsidised for Emiratis, while private facilities offer shorter waits and international-standard comfort at higher prices. This guide explains how the system fits together and how to choose. Please confirm current details with the DHA and your insurer.",
+    "keyTakeaways": [
+      "Dubai has both public (mostly DHA-run) and private healthcare, all regulated by the Dubai Health Authority.",
+      "Health insurance is mandatory for every Dubai resident, and your residency visa cannot be renewed without an active policy.",
+      "Minimum DHA-compliant cover is generally around AED 150,000 in annual benefits, though plans vary widely in scope.",
+      "Your insurance network decides where you can be treated: check the hospital, clinic and pharmacy list before you buy.",
+      "Emergency care must be given regardless of insurance or ability to pay; dial 998 for an ambulance or 999 for police and ambulance.",
+      "Verify current rules, minimum benefits and network coverage directly with the DHA and your chosen insurer before deciding."
+    ],
+    "sections": [
+      {
+        "heading": "How Dubai's healthcare system is organised",
+        "body": [
+          "Dubai operates a dual public-private model. Public hospitals and clinics are run largely by the Dubai Health Authority (DHA), while a large and growing private sector runs its own hospitals, clinics and pharmacies. Both sides are regulated by the DHA, which was established in 2007 and handles licensing, quality standards and health policy across the emirate.",
+          "You may also see two other bodies mentioned. The federal Ministry of Health and Prevention (MOHAP) works at national level, and Dubai Healthcare City has its own free-zone health authority for facilities inside that district. For most residents day to day, the DHA is the body that matters.",
+          "The practical takeaway is that quality is regulated whether you go public or private. The main differences you will feel are cost, waiting times and comfort, plus whether a given facility is inside your insurance network. Rules and structures can change, so treat this as an overview and confirm specifics with the DHA."
+        ]
+      },
+      {
+        "heading": "Public vs private: quality, access and waiting times",
+        "body": [
+          "Public hospitals run by the DHA include well-known names such as Rashid, Dubai Hospital, Latifa and Hatta. They cover everything from routine care to specialist and emergency treatment, and they are heavily subsidised for UAE nationals. Reporting suggests the DHA has invested heavily in recent years to raise standards and narrow the gap with private care.",
+          "Private hospitals and clinics are known for shorter waiting times, more choice of doctor and a more international, hotel-like experience. Familiar private names in Dubai include American Hospital, Mediclinic, Aster and Cleveland Clinic, among many others. The trade-off is cost: without insurance, private care is significantly more expensive than the public system.",
+          "For most working residents the choice is shaped less by preference than by insurance. Your employer-provided or personal policy will point you toward specific facilities in its network, and using those keeps your out-of-pocket costs low. We cannot rank individual hospitals, and standards vary by department, so it is worth researching the specific facility for your needs."
+        ]
+      },
+      {
+        "heading": "Why health insurance is mandatory",
+        "body": [
+          "Health insurance is mandatory for every resident of Dubai. The requirement traces back to Dubai's health insurance law of 2013, which was rolled out in phases and now applies to residents regardless of nationality, salary or employer size. Employers are generally required to provide cover for their employees, and sponsors are typically responsible for arranging cover for dependants.",
+          "The rule has teeth at the visa stage. Reporting indicates that a residency visa cannot be issued or renewed without an active, compliant health policy, and immigration checks for valid cover at renewal. In other words, insurance is not just about medical bills; it is tied to your legal right to live in the emirate.",
+          "Minimum DHA-compliant plans are commonly described as providing around AED 150,000 in annual benefits, with essential lower-cost plans aimed at lower-income workers. From 2026 onward, reporting suggests DHA-compliant plans must also include a minimum level of mental health cover. Minimum benefits and rules change, so confirm the current standard with the DHA and your insurer."
+        ]
+      },
+      {
+        "heading": "How insurance decides where you can be treated",
+        "body": [
+          "In Dubai, your policy does more than pay bills; it defines where you can go. Insurers reimburse care within a network of approved hospitals, clinics, pharmacies and dentists. Major insurers advertise networks running into the thousands of providers, but no single plan covers every facility, and premium hospitals are often excluded from cheaper tiers.",
+          "Plans are generally sold in tiers. A basic tier may limit you to a smaller list of clinics and mid-range hospitals, while higher tiers unlock the premium private hospitals and, sometimes, treatment abroad. If a specific hospital or specialist matters to you, check that it is in-network before you commit to a plan.",
+          "Common insurer names in Dubai include Daman, Sukoon, AXA, Cigna, Bupa, MetLife and Allianz, among others. Each publishes a network list you can check against your preferred facilities. Because networks and tiers are updated regularly, always verify the current provider list directly with the insurer rather than relying on older guides."
+        ]
+      },
+      {
+        "heading": "Costs without insurance, emergency care and pharmacies",
+        "body": [
+          "If you pay out of pocket, private care adds up quickly. Widely cited figures put a basic private GP consultation in the region of AED 300 to 500, with specialist visits reaching around AED 1,200, and emergency visits often starting near AED 500 and rising with tests. Treat these as rough guides only; actual prices vary by facility and are best confirmed in advance.",
+          "Emergency care is treated differently. Facilities are required to provide emergency treatment regardless of insurance status or ability to pay, so you are stabilised first and billed afterwards. For an ambulance, dial 998, or 999 for situations needing both police and ambulance. Non-emergency ambulance transfers and private ambulances can carry their own charges.",
+          "Pharmacies are widespread, with large chains such as Aster, Life, Boots and BinSina found across the city, many open long hours. Some medicines sold over the counter elsewhere require a prescription in the UAE, and certain drugs are controlled or restricted, so check the rules before travelling with medication. Whether a pharmacy is in your insurance network affects how much you pay for prescriptions."
+        ]
+      },
+      {
+        "heading": "Choosing providers and settling in as a new resident",
+        "body": [
+          "When you arrive, start by understanding your policy: its tier, its network list and its annual limit. If your employer provides cover, ask for the network directory and check that it includes convenient clinics and, ideally, a hospital you would be comfortable using. If you are buying your own plan, compare tiers on network breadth and not just price.",
+          "Location matters more than people expect. Choosing a home near an in-network clinic or hospital, and knowing your nearest 24-hour pharmacy and emergency department, makes daily life easier, especially with children or elderly family members. Many residents keep a short list of a family clinic, a preferred hospital and a nearby pharmacy.",
+          "Healthcare is one of several practical factors that shape where people choose to live in Dubai. As a RERA-registered brokerage focused on the prime market, we can point you toward neighbourhoods with strong access to reputable clinics and hospitals, then connect you with independent insurance and medical advisers for the details. For anything clinical or regulatory, always rely on the DHA and licensed professionals."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is health insurance really mandatory in Dubai?",
+        "answer": "Yes. Health insurance is mandatory for every Dubai resident under the emirate's health insurance law. Employers usually provide it for staff, and residency visas generally cannot be issued or renewed without active, compliant cover. Confirm the current rules with the DHA."
+      },
+      {
+        "question": "What is the difference between public and private healthcare in Dubai?",
+        "answer": "Public hospitals and clinics are run largely by the DHA, cost less and are heavily subsidised for Emiratis. Private facilities offer shorter waits and a more international experience at higher prices. Both are DHA-regulated, so quality is overseen either way."
+      },
+      {
+        "question": "Does my insurance limit which hospitals I can use?",
+        "answer": "Generally yes. Insurers reimburse care within a network of approved providers, and cheaper tiers often exclude premium hospitals. Check the insurer's network list for your preferred hospitals, clinics and pharmacies before you buy a plan."
+      },
+      {
+        "question": "What does healthcare cost without insurance in Dubai?",
+        "answer": "Private care can be expensive out of pocket. Commonly cited figures put a private GP visit around AED 300 to 500 and specialists higher, with emergency visits often starting near AED 500. These are rough guides; confirm prices with the facility."
+      },
+      {
+        "question": "What number do I call for an emergency or ambulance?",
+        "answer": "Dial 998 for an ambulance, or 999 for situations needing both police and ambulance. Facilities must provide emergency treatment regardless of insurance or ability to pay, so patients are stabilised first and billed afterwards."
+      },
+      {
+        "question": "Can I get my usual medicines at Dubai pharmacies?",
+        "answer": "Often yes, but rules differ. Some medicines sold over the counter elsewhere need a prescription in the UAE, and certain drugs are controlled or restricted. Check UAE rules before travelling with medication, and confirm pharmacy cover with your insurer."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Health insurance in Dubai",
+        "href": "/blog/health-insurance-in-dubai"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "healthcare in Dubai",
+      "public vs private healthcare Dubai",
+      "Dubai Health Authority",
+      "mandatory health insurance Dubai",
+      "Dubai hospitals for expats",
+      "Dubai health insurance network",
+      "emergency care Dubai",
+      "moving to Dubai healthcare"
+    ]
+  },
+  {
+    "slug": "how-much-does-it-cost-to-move-to-dubai",
+    "title": "How Much Does It Cost to Move to Dubai?",
+    "excerpt": "One-off setup costs to move to Dubai run roughly AED 45k-70k for a single person, AED 90k-160k a couple and AED 200k+ a family.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with residential towers, illustrating the cost of relocating to the city",
+      "tone": "#141821"
+    },
+    "intro": "As an indicative guide, the one-off cost of moving to Dubai is roughly AED 45,000 to 70,000 for a single person, AED 90,000 to 160,000 for a couple and AED 200,000 or more for a family. These are setup costs only, spent in the first month or two: flights, shipping, temporary accommodation, the large upfront lump sum landlords ask for, utility and visa deposits, health insurance, transport and furniture, plus a sensible buffer. Your real figure depends heavily on the home you choose, whether an employer covers any of it, how much you ship versus buy locally and how many children you have. Treat every number below as a starting point, not a quote, and always keep a cash cushion.",
+    "keyTakeaways": [
+      "Budget indicatively for AED 45,000-70,000 (single), AED 90,000-160,000 (couple) and AED 200,000+ (family) in one-off setup costs.",
+      "The biggest line item is usually the rental upfront: a 5% deposit, roughly 5% agency fee and one to four post-dated cheques, so plan for 15-20% of the annual rent on day one.",
+      "Smaller but unavoidable deposits stack up fast: DEWA (AED 2,000 apartment, AED 4,000 villa), Ejari, and possibly a chiller deposit.",
+      "Visa, medical and Emirates ID for a residence permit run around AED 3,500-5,000 per person, with mandatory health insurance on top.",
+      "Shipping a household is often the swing factor: an air or sea container can cost AED 11,000+, so many movers buy furniture locally instead.",
+      "Every figure here is indicative and varies with your area, family size and employer package; keep a buffer of at least one to two months of expenses."
+    ],
+    "sections": [
+      {
+        "heading": "Flights, shipping and freight",
+        "body": [
+          "Your first outlay is simply getting yourself and your belongings here. One-way flights vary enormously by season and origin, so treat them as a few hundred to a couple of thousand dirhams per person and book early. For a family, this alone can reach AED 8,000 to 15,000.",
+          "Shipping is the line that swings the total most. Sending the contents of a one-bedroom home by sea typically starts around AED 11,000, and a full family container can run far higher once insurance, customs handling and door delivery are added. Air freight is faster but markedly more expensive per kilogram.",
+          "Because furniture is widely available locally, many people ship only sentimental items, clothes and essentials, then furnish here. If you are relocating pets, budget separately: pet relocation can run anywhere from roughly AED 4,000 to 27,000 depending on species, size and route. All of these figures are indicative and depend on distance and volume."
+        ]
+      },
+      {
+        "heading": "Temporary accommodation and the rental upfront",
+        "body": [
+          "Very few people sign a lease before they arrive, so plan on a few weeks in a hotel or serviced apartment while you view homes. At an indicative AED 300 to 800 a night, a two to four week stay can add AED 6,000 to 20,000, more for a family needing space.",
+          "The single largest cost of moving to Dubai is the rental upfront. Landlords expect a security deposit of about 5% of the annual rent (roughly 10% if the home is furnished), an agency commission of around 5% (minimum about AED 5,000), and the year's rent split into one to four post-dated cheques. Paying in a single cheque secures the best price; splitting into 12 cheques can add 6-10% to the annual rent.",
+          "As a rule of thumb, budget 15-20% of the annual rent as move-in cost before you have even paid the rent itself. On a home renting at AED 120,000 a year, that is roughly AED 18,000 to 24,000 in deposit and fees, plus your first cheque. See our guide on how much deposit you need to rent in Dubai for the detail."
+        ]
+      },
+      {
+        "heading": "Utility, registration and building deposits",
+        "body": [
+          "Once you have keys, a series of smaller deposits appear. DEWA, the water and electricity provider, asks for a refundable deposit of about AED 2,000 for an apartment or AED 4,000 for a villa, plus a modest connection and activation fee. This is returned when you leave, provided bills are settled.",
+          "Your tenancy contract must be registered through Ejari, which costs roughly AED 220 plus typing-centre fees. Some communities are cooled by a district system, so you may also face a chiller deposit and separate cooling account, which can add several thousand dirhams.",
+          "Home internet and TV typically need an installation fee and sometimes a deposit, so allow a few hundred dirhams there too. Individually these are small, but together the first-month deposits and registrations commonly total AED 3,000 to 8,000. All amounts are indicative and vary by provider and building."
+        ]
+      },
+      {
+        "heading": "Visa, medical, Emirates ID and health insurance",
+        "body": [
+          "To live in Dubai you need a residence visa, and the process bundles several fees. A standard two-year residence visa is commonly around AED 3,500 to 4,200 per person, a medical fitness test runs about AED 250 to 550 depending on how quickly you need results, and the Emirates ID adds a few hundred dirhams. All in, budget roughly AED 3,500 to 5,000 per person.",
+          "Health insurance is mandatory for every resident and is usually separate from the visa cost. Basic annual plans start near AED 1,100, while more comprehensive family-grade cover is commonly AED 2,500 to 3,500 or more per person, rising with age and the level of cover.",
+          "If your employer sponsors you, they may absorb the visa and insurance for you, and sometimes for dependants, so confirm exactly what your package includes. If you are self-sponsoring or setting up a company, expect the totals to be higher, and treat all of these as indicative starting figures."
+        ]
+      },
+      {
+        "heading": "Getting around, furniture and children's schooling",
+        "body": [
+          "Dubai is spread out, so transport matters. Public transport is inexpensive and a Nol travel card costs very little to start, but many residents buy or lease a car. A used car deposit or the first cost of a lease, plus registration and insurance, can easily reach AED 5,000 to 15,000 upfront, more for a new purchase.",
+          "If you did not ship furniture, budget realistically to fit out a home. A modest one-bedroom setup, covering a bed, sofa, dining set, curtains, kitchen basics and small appliances, commonly totals AED 10,000 to 25,000, and a family villa considerably more depending on taste.",
+          "Families relocating with children face the largest single variable: school fees. Many schools require a non-refundable registration or assessment fee and a term deposit, which together can run from a few thousand dirhams to well over AED 10,000 per child before tuition even begins. Plan this early, as good schools have waiting lists."
+        ]
+      },
+      {
+        "heading": "Indicative total budgets and why they vary",
+        "body": [
+          "Adding the pieces together gives a realistic picture. For a single professional, one-off setup costs indicatively land around AED 45,000 to 70,000. For a couple, roughly AED 90,000 to 160,000. For a family, AED 200,000 or more is a sensible planning figure once schooling, a larger home and more furniture are included.",
+          "These ranges move for clear reasons. The area and size of home you rent drives the deposit and cheques. Whether an employer covers flights, shipping, visas or schooling can cut your out-of-pocket total sharply. How much you ship versus buy locally, the number of children, and whether you need a car all shift the number.",
+          "Whatever your situation, keep a buffer of at least one to two months of living expenses on top of the setup costs, because the first month in Dubai is the most expensive by far. Every figure in this guide is indicative and will vary; use it to plan, then get precise quotes for your own move."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much money do I need to move to Dubai?",
+        "answer": "As an indicative guide, plan for roughly AED 45,000 to 70,000 in one-off setup costs for a single person, AED 90,000 to 160,000 for a couple and AED 200,000 or more for a family. Keep an additional buffer of one to two months of living expenses, as the first month is the most expensive. These figures vary with your home, family size and employer package."
+      },
+      {
+        "question": "What is the biggest cost when moving to Dubai?",
+        "answer": "For most people it is the rental upfront. Landlords typically ask for a security deposit of about 5% of the annual rent, an agency fee of around 5%, and the year's rent in one to four post-dated cheques. Budgeting 15-20% of the annual rent for move-in costs, before the rent itself, is a sensible indicative rule."
+      },
+      {
+        "question": "How much is the visa and medical to move to Dubai?",
+        "answer": "A two-year residence visa is commonly around AED 3,500 to 4,200 per person, a medical fitness test about AED 250 to 550, and the Emirates ID a few hundred dirhams, so budget roughly AED 3,500 to 5,000 per person all in. Mandatory health insurance is separate, indicatively AED 1,100 to 3,500 or more a year. Employers often cover these."
+      },
+      {
+        "question": "Should I ship my furniture or buy it in Dubai?",
+        "answer": "It depends on volume and sentiment. Shipping a one-bedroom home by sea starts around AED 11,000 and a family container costs much more, while furnishing a modest one-bedroom locally commonly runs AED 10,000 to 25,000. Many movers ship only essentials and sentimental items, then buy furniture here. Both figures are indicative and vary widely."
+      },
+      {
+        "question": "How much are the utility deposits in Dubai?",
+        "answer": "The refundable DEWA water and electricity deposit is about AED 2,000 for an apartment or AED 4,000 for a villa, plus a small connection fee. Ejari tenancy registration costs roughly AED 220 plus typing fees, and some buildings add a chiller deposit for district cooling. Together, first-month deposits and registrations often total AED 3,000 to 8,000."
+      },
+      {
+        "question": "Is it more expensive to move to Dubai with a family?",
+        "answer": "Yes, considerably. Families need a larger home with a bigger deposit, more flights and furniture, and often a car. The largest variable is schooling: registration and term deposits can run from a few thousand dirhams to over AED 10,000 per child before tuition. A family setup budget of AED 200,000 or more is a realistic indicative planning figure."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Cost of living in Dubai 2026",
+        "href": "/blog/cost-of-living-in-dubai"
+      },
+      {
+        "label": "How much deposit do you need to rent in Dubai?",
+        "href": "/blog/how-much-deposit-to-rent-in-dubai"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "cost to move to Dubai",
+      "moving to Dubai budget",
+      "Dubai relocation costs",
+      "Dubai rental upfront costs",
+      "DEWA deposit",
+      "Dubai residence visa cost",
+      "Dubai setup costs",
+      "relocating to Dubai 2026"
+    ]
+  },
+  {
+    "slug": "how-to-enrol-child-in-dubai-school",
+    "title": "How to Enrol Your Child in a Dubai School (2026)",
+    "excerpt": "Shortlist by curriculum and KHDA rating, apply, sit the assessment, accept the offer and deposit, then submit an attested transfer certificate.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Pupils in uniform walking into a bright Dubai school building on a sunny morning",
+      "tone": "#141821"
+    },
+    "intro": "To enrol your child in a Dubai private school, first shortlist schools by curriculum, area and budget, then check each one's KHDA inspection rating. Apply online, have your child sit an age-appropriate assessment or interview, accept the offer, pay the deposit and complete registration. You will need a passport, residence visa or Emirates ID, birth certificate, an attested transfer certificate for Grade 1 and above, recent school reports and up-to-date vaccination records. Popular Outstanding-rated schools keep waiting lists, so apply early and consider a few options. The steps below, drawn from KHDA guidance, walk you through the process, the paperwork, timing and mid-year transfers. Always confirm current requirements with the school and KHDA before you commit.",
+    "keyTakeaways": [
+      "Shortlist schools by curriculum, location and fees, then compare their latest KHDA inspection ratings before applying.",
+      "Core documents are the passport, residence visa or Emirates ID, birth certificate, recent reports and vaccination records.",
+      "A transfer certificate is generally required for Grade 1 and above, and often needs attestation for many countries of origin.",
+      "Apply early: the most oversubscribed year groups at top-rated schools can have waiting lists running months or longer.",
+      "Mid-year transfers are possible but harder, so line up your paperwork and start the attestation process well ahead.",
+      "Requirements change, so always verify current rules directly with the school and KHDA before making decisions."
+    ],
+    "sections": [
+      {
+        "heading": "Step by step: from shortlist to registration",
+        "body": [
+          "Start by shortlisting schools against three practical filters: curriculum, area and budget. Dubai offers British, American, IB, Indian, French and other curricula, so choose the one that matches your child's background and your longer-term plans. Then narrow by location, as a short commute matters a great deal in Dubai traffic, and by the annual fee your family can sustain across all school-age children.",
+          "Next, check each shortlisted school's KHDA rating. KHDA, the Knowledge and Human Development Authority, inspects Dubai private schools and publishes ratings from Acceptable up to Outstanding. Reading the latest inspection report tells you far more than the headline rating alone, so look at the detail on teaching, wellbeing and progress.",
+          "Once you have a shortlist, apply online through each school's admissions portal and pay any application fee. Most schools then assess the child, through an age-appropriate entry assessment for younger pupils or a test and interview for older ones. If a place is offered, you accept the offer, pay the deposit to secure it, and complete registration by submitting the full document set. Note that policies vary between schools, so confirm each school's exact sequence and fees directly."
+        ]
+      },
+      {
+        "heading": "The documents you will need",
+        "body": [
+          "Schools in Dubai typically ask for a consistent set of documents at registration. Preparing these early tends to be the single biggest time-saver in the whole process.",
+          "Commonly requested items include: the child's passport copy with a valid UAE residence visa or entry permit; the child's Emirates ID once issued; the child's birth certificate; a transfer certificate from the previous school (generally required for Grade 1 and above); the most recent school reports, often the last two years; and an up-to-date vaccination record matching UAE health requirements.",
+          "Schools also usually request the parents' passport and visa copies, a recent passport-style photograph of the child, and, where relevant, any educational psychology or learning-support reports. Exact lists differ by school, so ask admissions for their current checklist rather than assuming, and keep both originals and clear copies to hand."
+        ]
+      },
+      {
+        "heading": "Understanding the transfer certificate and attestation",
+        "body": [
+          "The transfer certificate, often called the TC, is the formal record from your child's previous school confirming the grade completed and that fees are settled. KHDA guidance indicates it is generally required from Grade 1 and above, and it becomes the main placement reference for the new school.",
+          "For transfers within the UAE, the previous school issues the TC once any outstanding fees are cleared, and it is typically attested by the relevant education authority such as KHDA. For a child arriving from abroad, the picture is more involved: for many countries the TC needs to be authenticated in the country of origin, attested by the UAE embassy there, and then attested by the UAE Ministry of Foreign Affairs.",
+          "Reporting suggests attestation may not be required for certificates from some countries, with several sources citing the US, Canada, Europe, Australia and New Zealand, while certificates from many other countries do need the full chain. Rules and exemptions change, so confirm the current attestation requirement for your specific country with the school and the relevant UAE authority before you begin. Where attestation is needed, allow several weeks, as some sources cite roughly six to eight weeks end to end."
+        ]
+      },
+      {
+        "heading": "Timing, waiting lists and how places are ranked",
+        "body": [
+          "Dubai's main intake aligns with the academic year starting in August or September, and popular schools open applications many months ahead. The earlier you apply, the better your position, because places at sought-after schools fill quickly.",
+          "Highly rated schools frequently operate waiting lists for their most in-demand year groups. Reporting suggests the busiest entry points, such as the earliest primary years and the first year of secondary, can carry the longest waits at the most oversubscribed Outstanding-rated schools. Schools generally rank waiting lists by the date the application was completed and the registration fee paid, with sibling priority often applied first.",
+          "One more timing point worth noting: from the 2026-27 academic year, reporting indicates the age cut-off for admissions is moving, with children needing to reach the required age by 31 December of the admission year for schools starting in August or September. Because such rules are periodically updated, check the current age policy directly with KHDA and your chosen school."
+        ]
+      },
+      {
+        "heading": "Mid-year transfers and moving between schools",
+        "body": [
+          "Families often arrive in Dubai partway through the year, and mid-year transfers are possible, though generally harder than joining at the start of the year because availability is tighter. If you are moving your child between Dubai schools, the current school issues the transfer certificate once fees are cleared, and the new school will want the same core document set.",
+          "If your child is coming from a school abroad mid-year, start the transfer certificate and any attestation early, as processing time is the most common cause of delay. Some sources suggest beginning attestation for a January start by around October, though timelines vary by country and provider.",
+          "It is also worth checking the fee position when you move. Schools have their own policies on deposits and refunds, and KHDA provides a framework for disputes between parents and schools. Confirm the refund and notice terms in writing before you commit, so there are no surprises when you switch."
+        ]
+      },
+      {
+        "heading": "Practical tips to make enrolment smoother",
+        "body": [
+          "Apply to more than one school. Even strong candidates can hit a full year group, and holding a couple of offers gives you room to choose rather than settle.",
+          "Get the paperwork moving early, especially the transfer certificate and any attestation, because these steps sit outside the school's control and take the longest. Scan everything so you can email copies quickly when admissions ask.",
+          "Visit in person where you can. A tour tells you about atmosphere, facilities and the commute in a way a website cannot, and it is a good moment to ask about class sizes, support provision and the real fee total including transport, uniform and trips.",
+          "Finally, think about location before you sign a tenancy. Choosing a home within a sensible drive of your preferred school can make daily life far easier, and it is one of the areas where our team is glad to help families relocating to Dubai."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What documents do I need to enrol my child in a Dubai school?",
+        "answer": "Schools typically ask for the child's passport with UAE residence visa or Emirates ID, birth certificate, a transfer certificate for Grade 1 and above, the most recent school reports and an up-to-date vaccination record, plus the parents' passport and visa copies and a photo. Lists vary, so confirm the current checklist with the school."
+      },
+      {
+        "question": "What is a transfer certificate and do I need one?",
+        "answer": "A transfer certificate is the formal record from the previous school confirming the grade completed and that fees are settled. KHDA guidance indicates it is generally required from Grade 1 and above. For children arriving from abroad it may also need attestation, so check the requirement for your country with the school and the relevant UAE authority."
+      },
+      {
+        "question": "Does the transfer certificate need to be attested?",
+        "answer": "It depends on the country of origin. Reporting suggests certificates from some countries, often cited as the US, Canada, Europe, Australia and New Zealand, may not need attestation, while many others require authentication in the home country, UAE embassy attestation and UAE Ministry of Foreign Affairs attestation. Rules change, so verify your specific case before starting."
+      },
+      {
+        "question": "How early should I apply for a Dubai school place?",
+        "answer": "As early as you can. The main intake aligns with the August or September academic year, and popular schools open applications many months ahead. Highly rated schools often keep waiting lists for their busiest year groups, so early application and a few backup options improve your chances."
+      },
+      {
+        "question": "Can I transfer my child mid-year?",
+        "answer": "Yes, mid-year transfers are possible, though generally harder than joining at the start of the year because places are tighter. Start the transfer certificate and any attestation early, since processing time is the most common cause of delay, and confirm the new school's document list and any fee or refund terms in writing."
+      },
+      {
+        "question": "What are KHDA ratings and why do they matter?",
+        "answer": "KHDA, the Knowledge and Human Development Authority, inspects Dubai private schools and publishes ratings up to Outstanding. The rating and the full inspection report help you compare teaching, wellbeing and pupil progress. Reading the latest report gives a fuller picture than the headline rating alone."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Best schools in Dubai and how much they cost",
+        "href": "/blog/best-schools-in-dubai-and-costs"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "enrol child Dubai school",
+      "Dubai school admissions 2026",
+      "KHDA ratings",
+      "transfer certificate attestation Dubai",
+      "Dubai school required documents",
+      "mid-year school transfer Dubai",
+      "Dubai school waiting list",
+      "moving to Dubai schools"
+    ]
+  },
+  {
+    "slug": "is-dubai-safe-newcomer-guide",
+    "title": "Is Dubai Safe? A Newcomer's Guide (2026)",
+    "excerpt": "Yes. Dubai is widely regarded as one of the safest major cities, with very low violent crime. Here is an honest newcomer's guide for 2026.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Dubai skyline at dusk with quiet, well-lit streets and pedestrians walking safely",
+      "tone": "#141821"
+    },
+    "intro": "Yes, Dubai is widely regarded as one of the safest major cities in the world. Independent perception indices such as Numbeo consistently place it among the top handful of large cities globally, and violent crime is very rare. More than nine in ten residents say they feel safe walking at night. That said, safety here is not only about crime rates. Dubai enforces its laws firmly, and a few rules around public conduct, alcohol and online fraud catch newcomers off guard. This guide gives you an honest, balanced picture: what makes Dubai so safe, where the real risks actually are, and the practical do's and don'ts that keep you and your family out of trouble.",
+    "keyTakeaways": [
+      "Dubai ranks among the world's safest large cities on perception indices like Numbeo, with very low violent and petty crime.",
+      "It is generally very safe for women, solo travellers and families, including walking at night.",
+      "Roads are heavily monitored; speeding and jaywalking carry real fines, so cross only at designated crossings.",
+      "Local laws on alcohol, drugs and public conduct are enforced strictly, so a little cultural awareness goes a long way.",
+      "The main day-to-day risk is online and financial fraud, especially fake rental and job offers on WhatsApp and Instagram.",
+      "Save the emergency numbers: 999 police, 998 ambulance, 997 fire, and report scams via 901 or ecrime.ae."
+    ],
+    "sections": [
+      {
+        "heading": "How safe is Dubai, really?",
+        "body": [
+          "By the numbers, Dubai is genuinely one of the safest big cities you can live in. The UAE has repeatedly ranked at or near the top of global safety indices, and Dubai itself sits inside the top handful of major cities on Numbeo's crowd-sourced safety ranking, ahead of many well-known European and North American capitals. Crime index scores are low, and violent crime against residents or visitors is rare.",
+          "What this feels like day to day is simple: people leave phones on cafe tables, walk home late without a second thought, and let older children travel on the Metro alone. Over 90 per cent of residents report feeling safe walking at night. Petty theft exists, as it does anywhere, but it is uncommon and heavily deterred by widespread CCTV and a visible, responsive police presence.",
+          "A balanced word of caution: indices measure perception as well as recorded crime, and no city is risk-free. Pickpocketing can happen in very crowded tourist spots, and the bigger exposure for newcomers is financial fraud rather than street crime. Treat Dubai as very safe, not magically immune, and normal common sense still applies."
+        ]
+      },
+      {
+        "heading": "Safety for women, families and solo newcomers",
+        "body": [
+          "Dubai is widely considered one of the best cities in the world for solo female travellers and for families. Going out alone, using public transport late, or walking between venues in the evening is common and normal for women here. Street harassment is uncommon and taken seriously by authorities when reported.",
+          "There are also practical touches that many newcomers appreciate. The Metro and tram have women-and-children-only carriages, which are handy at rush hour, and you can book pink taxis driven exclusively by female drivers. Malls, parks and residential communities are family-oriented, well lit and closely monitored.",
+          "For families, the combination of low crime, clean public spaces and good healthcare makes settling in straightforward. Children are genuinely welcome almost everywhere. The main adjustments are practical rather than safety-related: summer heat means planning outdoor time for early mornings or evenings, and swimming pools and beaches should always be supervised as anywhere else."
+        ]
+      },
+      {
+        "heading": "Road safety and getting around",
+        "body": [
+          "Dubai has invested heavily in road safety, and it shows. The road fatality rate has fallen dramatically over the past decade and continues to drop, helped by more than ten thousand smart cameras and AI radars across the city. These monitor not just speeding but tailgating, lane discipline and aggressive driving.",
+          "For drivers, the message is simple: stick to posted limits and drive calmly. Speeding fines commonly start around AED 300 and rise sharply for serious offences, and there is genuinely zero tolerance for drink-driving, which carries heavy fines, black points, possible jail and deportation for expats. Some roads are fast and multi-lane, so give yourself time to learn them.",
+          "As a pedestrian, always cross at marked crossings and obey the signals. Jaywalking is an offence, typically fined around AED 400 and far more in dangerous or prohibited spots, and Dubai Police issue tens of thousands of these fines a year. Public transport is excellent, affordable and safe, so many newcomers happily rely on the Metro, trams and licensed taxis or ride-hailing apps."
+        ]
+      },
+      {
+        "heading": "Cultural and legal do's and don'ts",
+        "body": [
+          "Most of the trouble newcomers run into is avoidable with a little cultural awareness. The UAE is a Muslim country and, while Dubai is cosmopolitan and relaxed by regional standards, its laws are enforced firmly. Getting the basics right keeps your record clean and your residency secure.",
+          "Do dress modestly in everyday public places like malls, government buildings and traditional neighbourhoods, covering shoulders and knees; beachwear stays at the beach and pool. Do keep public behaviour considerate: loud arguments, rude gestures and public displays of aggression can all lead to complaints and fines. During Ramadan, be discreet about eating, drinking and smoking in public during daylight, and expect a quieter tone in public spaces.",
+          "On alcohol: it is legal for non-Muslims aged 21 and over in licensed venues such as hotels, bars and restaurants, and at home, but being drunk in public is an offence. Don't ever touch recreational drugs; the UAE has strict zero-tolerance drug laws with severe penalties. A reassuring recent change is that unmarried couples can legally live together and share hotel rooms, so that older worry no longer applies. When in doubt, err on the side of discretion and respect."
+        ]
+      },
+      {
+        "heading": "Online and financial scams to watch for",
+        "body": [
+          "If you are going to be caught out in Dubai, statistically it is far more likely to be by a scam than by a mugging. Dubai Police report that overall fraud and cybercrime actually fell in the first half of 2026, but online scams remain the most common risk for new arrivals, precisely because newcomers are unfamiliar with local processes.",
+          "The classics to watch for: fake rental listings on Instagram and WhatsApp that ask for a deposit before you have seen a real, verifiable property; fake job and visa offers that demand an up-front payment; phishing messages and calls pretending to be your bank and asking for a one-time password; and unlicensed money changers. Investment, crypto and fast-residency cons also circulate.",
+          "Protect yourself with a few habits. Never pay a deposit for a property until you have verified the listing and the broker; in Dubai, legitimate agents are RERA-registered and tenancy contracts are formalised through Ejari, so ask for that paperwork. Never share OTPs or banking passwords, no matter how official the caller sounds. Use licensed exchange houses. If something feels rushed or too good to be true, pause. If you are defrauded, call your bank's fraud line immediately, then report it to Dubai Police on 901 or via the eCrime platform at ecrime.ae."
+        ]
+      },
+      {
+        "heading": "Emergency numbers and quick reference",
+        "body": [
+          "Save these before you need them. The core UAE emergency numbers are 999 for police, 998 for ambulance and 997 for fire and civil defence. They are toll-free, work around the clock, are answered in multiple languages, and can be dialled from any phone, even one without a SIM card.",
+          "A few more are worth storing. Dial 901 for the non-emergency police helpline and to report scams, 996 for the coast guard and 991 for DEWA utility emergencies such as power or water faults. To report online fraud, use the eCrime platform at ecrime.ae. Many of these services also have well-run apps in English and Arabic.",
+          "A closing, honest note: this guide reflects widely reported conditions and laws as of 2026, but rules, fines and procedures do change, and enforcement can vary. Always check the current, official guidance on the UAE government portal (u.ae) or with Dubai Police before you rely on any specific detail. If you would like grounded, practical help settling in, our team is happy to point you in the right direction, no sales pitch required."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Dubai safe for tourists and new residents?",
+        "answer": "Yes. Dubai is consistently ranked among the safest major cities in the world, with very low violent and petty crime and a visible, responsive police presence. Most residents feel comfortable walking at night. The main practical risk for newcomers is online and financial fraud rather than street crime, so normal common sense still applies."
+      },
+      {
+        "question": "Is Dubai safe for women and solo female travellers?",
+        "answer": "Generally, yes. Dubai is widely regarded as one of the best big cities for women and solo travellers, with low harassment and safe public transport. There are women-and-children-only Metro carriages and pink taxis driven by female drivers. As anywhere, staying aware of your surroundings and using licensed taxis or ride-hailing apps at night is sensible."
+      },
+      {
+        "question": "What laws should newcomers to Dubai know about?",
+        "answer": "Key ones: alcohol is legal for non-Muslims over 21 in licensed venues and at home, but public drunkenness is an offence; recreational drugs carry severe zero-tolerance penalties; dress modestly in everyday public places; and be discreet during Ramadan. Jaywalking and speeding are fined. Laws are enforced firmly, so a little cultural awareness matters. Always check current official guidance, as rules can change."
+      },
+      {
+        "question": "What are the most common scams in Dubai?",
+        "answer": "Fake rental listings on WhatsApp and Instagram that demand a deposit before a real viewing, fake job and visa offers requiring up-front payment, bank and OTP phishing, unlicensed money changers, and investment or crypto cons. Never pay a property deposit before verifying the listing and a RERA-registered broker, and never share one-time passwords."
+      },
+      {
+        "question": "What are the emergency numbers in Dubai?",
+        "answer": "Call 999 for police, 998 for ambulance and 997 for fire and civil defence. These are toll-free, work 24/7 in multiple languages, and function from any phone, even without a SIM card. For non-emergencies and to report scams, dial 901 or use the eCrime platform at ecrime.ae. For utility faults, call DEWA on 991."
+      },
+      {
+        "question": "Is it safe to walk around Dubai at night?",
+        "answer": "For most people, yes. Streets, malls and residential communities are well lit, closely monitored by CCTV and generally very safe after dark, and walking home late is common. As in any city, stay aware in very crowded tourist areas where occasional pickpocketing can occur, and use licensed taxis or ride-hailing apps for longer journeys."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Best areas to live in Dubai for expats",
+        "href": "/blog/best-areas-to-live-in-dubai-for-expats"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "is Dubai safe",
+      "Dubai safety 2026",
+      "Dubai crime rate",
+      "Dubai safety for women",
+      "Dubai laws for expats",
+      "Dubai scams to avoid",
+      "Dubai emergency numbers",
+      "moving to Dubai safety"
+    ]
+  },
 ];
