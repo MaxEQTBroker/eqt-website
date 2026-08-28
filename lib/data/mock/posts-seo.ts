@@ -18207,4 +18207,790 @@ export const seoPosts: BlogPost[] = [
       "moving to Dubai shipping"
     ]
   },
+  {
+    "slug": "dubai-retirement-visa-guide",
+    "title": "Dubai Retirement Visa: The Complete Guide for Over-55s (2026)",
+    "excerpt": "The Dubai retirement visa is a 5-year renewable residence permit for people aged 55 and over who meet a property, savings or income threshold.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A calm waterfront terrace at dusk in Dubai, evoking a relaxed retirement lifestyle in the city",
+      "tone": "#141821"
+    },
+    "intro": "The Dubai retirement visa, marketed as the Retire in Dubai programme, is a five-year renewable residence permit for people aged 55 and over. To qualify you generally need to satisfy one of three financial routes: owning Dubai property of a certain value, holding a set amount in UAE savings, or earning a minimum monthly income, and hold valid UAE health insurance. It is self-sponsored, so no employer or local guarantor is needed, and it lets you sponsor your spouse and children. Below we set out the widely reported thresholds as indicative figures, explain how the retirement visa differs from the Golden Visa, and walk through documents and how to apply. Always confirm current criteria with the GDRFA before you commit, as figures can change.",
+    "keyTakeaways": [
+      "The Dubai retirement visa is a five-year renewable residence permit for applicants aged 55 and over, administered under the Retire in Dubai programme.",
+      "You typically qualify through one of three routes: Dubai property, UAE savings, or a minimum monthly income, plus valid UAE health insurance.",
+      "Widely reported thresholds are around AED 1 million in property, roughly AED 1 million in savings, or about AED 15,000 to 20,000 per month in income. Treat these as indicative and confirm the current figures.",
+      "It is self-sponsored, needs no employer, and lets you sponsor your spouse and dependent children.",
+      "It differs from the 10-year Golden Visa, which has no upper focus on age 55 and uses different, usually higher, investment criteria.",
+      "The property route can tie directly to a Dubai home purchase, which is where EQT can help."
+    ],
+    "sections": [
+      {
+        "heading": "What the Dubai retirement visa is",
+        "body": [
+          "The Dubai retirement visa is a five-year, renewable residence permit created for people who want to spend their retirement in the city. It is often called the Retire in Dubai programme and is aimed at applicants aged 55 and over. Because it is renewable, holders can keep living in Dubai for as long as they continue to meet the qualifying criteria.",
+          "A key feature is that the visa is self-sponsored. You do not need a UAE employer or a local guarantor to hold it. That makes it well suited to people who have stopped working but want the stability of long-term residence, a UAE bank account, and access to local healthcare.",
+          "Some sources also mention a minimum length of prior work history as part of eligibility. As with the financial thresholds, this is the kind of detail that can vary, so it is worth confirming directly with the authorities before applying."
+        ]
+      },
+      {
+        "heading": "The qualifying criteria and reported thresholds",
+        "body": [
+          "Eligibility usually rests on meeting one of three financial routes. The figures below are the ones most widely reported for 2026, and you should treat them as indicative rather than guaranteed. Confirm the current numbers with the GDRFA or a licensed agent before you rely on them.",
+          "Property route: owning Dubai property with a value commonly cited at around AED 1 million. This is typically based on the purchase value on the title deed. Completed properties with a title deed are generally accepted, while off-plan units usually are not. Where a property is mortgaged, the amount already paid normally needs to reach the threshold, supported by a letter from your bank.",
+          "Savings route: holding a fixed deposit in a UAE bank, often reported at around AED 1 million, typically locked for a set period such as three years.",
+          "Income route: a stable monthly income from a pension or investments. Reported figures range from roughly AED 15,000 to AED 20,000 per month, and applications processed through Dubai's GDRFA are often said to sit at the higher end. Because this range varies between sources, confirm the exact figure that applies to you.",
+          "In addition to one of these routes, applicants generally need valid UAE health insurance in place before submitting the application."
+        ]
+      },
+      {
+        "heading": "How it differs from the Golden Visa",
+        "body": [
+          "The retirement visa and the Golden Visa are separate routes and are easy to confuse. The retirement visa runs for five years, is renewable, and is designed around the over-55 retiree profile with the property, savings or income thresholds described above.",
+          "The Golden Visa, by contrast, is typically a ten-year residence permit and is not built around retirement or a specific age band. It targets investors, entrepreneurs, and people with specialised skills or talent, and its property investment threshold is usually higher than the retirement visa's.",
+          "For many retirees, the five-year retirement visa is the more accessible starting point. If your Dubai property holding is larger, you may find you also qualify for the longer Golden Visa, so it is worth checking both against your circumstances."
+        ]
+      },
+      {
+        "heading": "Family sponsorship",
+        "body": [
+          "One of the practical benefits of the retirement visa is that it lets the holder sponsor immediate family. In most cases this means your spouse and dependent children can live in Dubai on residence permits linked to yours.",
+          "Sponsoring dependants usually comes with its own supporting requirements, such as proof of relationship, health insurance for each family member, and meeting any income or accommodation conditions that apply at the time.",
+          "As with the main visa, the details of family sponsorship can change, so confirm the current rules for dependants when you prepare your own application."
+        ]
+      },
+      {
+        "heading": "How to apply, and the documents you need",
+        "body": [
+          "Applications are handled under the Retire in Dubai programme, with the General Directorate of Residency and Foreigners Affairs (GDRFA) in Dubai as the main authority. Where the qualifying asset is property, the Dubai Land Department (DLD) is also involved in verifying ownership.",
+          "The typical documents include a valid passport, proof that you meet your chosen financial route, valid UAE health insurance, and passport photographs. For the property route you would generally provide the title deed. For the savings route, a bank statement or fixed-deposit confirmation. For the income route, evidence of your pension or investment income.",
+          "In broad terms the process is: confirm which route you qualify for, gather the supporting documents, arrange health insurance, submit the application through the relevant Dubai channel, and pay the government fees. Processing is often completed within a couple of weeks once documents are in order, though timelines vary.",
+          "Because requirements and fees are updated from time to time, we recommend confirming the current process directly with the GDRFA or a licensed agent before you begin."
+        ]
+      },
+      {
+        "heading": "The appeal of retiring in a tax-free city",
+        "body": [
+          "A large part of Dubai's draw for retirees is its tax position. The UAE levies no personal income tax and no tax on pensions, which means retirement income and investment returns are generally not taxed at the personal level in the emirate. You should still take advice on how your home country taxes your worldwide income and any double-taxation treaties that apply.",
+          "Beyond tax, retirees are drawn to the year-round sunshine, the safety and cleanliness of the city, world-class healthcare, and excellent international connectivity. Dubai's waterfront communities and villa neighbourhoods offer a comfortable, low-maintenance lifestyle that suits long-term residence.",
+          "The property route to the visa also links neatly to buying a home you actually want to live in. Choosing the right completed property can both satisfy the visa's investment criterion and give you the retirement base you are looking for. This is where our team can help, from selecting the right community to handling the purchase and title deed."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who is eligible for the Dubai retirement visa?",
+        "answer": "The visa is aimed at people aged 55 and over who meet one of the financial routes: owning qualifying Dubai property, holding a set amount in UAE savings, or receiving a minimum monthly income. Applicants also generally need valid UAE health insurance. Confirm the current criteria with the GDRFA before applying."
+      },
+      {
+        "question": "How long does the retirement visa last?",
+        "answer": "It is a five-year residence permit and is renewable, so you can keep living in Dubai for as long as you continue to meet the qualifying criteria at each renewal."
+      },
+      {
+        "question": "What are the financial thresholds?",
+        "answer": "The most widely reported 2026 figures are around AED 1 million in Dubai property, roughly AED 1 million in UAE savings, or about AED 15,000 to 20,000 per month in income. These are indicative and can change, so verify the exact figures with the authorities or a licensed agent."
+      },
+      {
+        "question": "How is it different from the Golden Visa?",
+        "answer": "The retirement visa runs for five years and is built around over-55 retirees with property, savings or income thresholds. The Golden Visa is usually a ten-year permit for investors, entrepreneurs and talent, with different and often higher investment criteria, and it is not tied to retirement age."
+      },
+      {
+        "question": "Can I sponsor my family?",
+        "answer": "Yes. The visa holder can generally sponsor a spouse and dependent children, subject to supporting requirements such as health insurance and proof of relationship. Confirm the current dependant rules when you apply."
+      },
+      {
+        "question": "Does buying property help me qualify?",
+        "answer": "Yes, the property route lets you qualify by owning a completed Dubai home at or above the reported threshold, usually based on the title deed value. Off-plan units typically do not count. Choosing the right completed property can meet the criterion and give you a home to retire in, which is where our team can assist."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Dubai Golden Visa: the complete 2026 guide",
+        "href": "/blog/dubai-golden-visa-complete-guide"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai retirement visa",
+      "Retire in Dubai",
+      "retirement visa over 55",
+      "5-year residence visa Dubai",
+      "Dubai retirement visa requirements 2026",
+      "retirement visa vs Golden Visa",
+      "retire in Dubai property",
+      "GDRFA retirement visa"
+    ]
+  },
+  {
+    "slug": "dubai-student-visa-guide",
+    "title": "Dubai Student Visa: How to Study and Stay (2026)",
+    "excerpt": "A Dubai student visa is sponsored by your university, valid for the study period and renewable each year. Here is how to apply and stay on after.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Graduate holding a diploma against a bright Dubai backdrop, symbolising study and residency in the UAE",
+      "tone": "#141821"
+    },
+    "intro": "A Dubai student visa lets you live in the UAE while you study, and it is sponsored by your university or college rather than an employer. Based on current guidance, it is typically issued for 12 months and renewed each year for the length of your course, provided you stay enrolled. To qualify you generally need an offer from an accredited institution, proof you can cover fees and living costs, a medical test and, for younger applicants, a parent or guarantor. Students can also work part-time with the right permit, top graduates may qualify for a long-term visa, and after finishing you can move on to a job, Green or Golden visa. Rules change often, so confirm the latest details before you apply.",
+    "keyTakeaways": [
+      "The student visa is sponsored by your accredited university or college, not by an employer.",
+      "It is usually valid for around 12 months and renewable each year for the duration of your programme.",
+      "Core requirements include an admission letter, financial proof, a medical test and health insurance; younger students may need a parent or guarantor.",
+      "Students can generally work part-time (commonly up to 20 hours a week in term time) with a university No Objection Certificate and a MoHRE permit.",
+      "Outstanding students may qualify for a long-term Golden Visa (typically 5 or 10 years), subject to GPA and university criteria.",
+      "Graduates can move to a job-seeker visa, a self-sponsored Green Visa or a Golden Visa to stay and work."
+    ],
+    "sections": [
+      {
+        "heading": "What the Dubai student visa is",
+        "body": [
+          "A student visa is a residence permit that allows an international student to live in the UAE while studying at an accredited institution. The key feature is the sponsor: instead of a company, your university or college sponsors the visa. This is different from a tourist visa and lets you open a bank account, get an Emirates ID and settle into life in Dubai.",
+          "Based on current guidance, the standard student visa is issued for about 12 months and is renewable annually for as long as you remain enrolled and in good standing. So a three or four year degree usually means renewing the visa each year rather than receiving one long permit up front.",
+          "The visa is processed through your institution together with the General Directorate of Residency and Foreigners Affairs (GDRFA) in Dubai. Because your university handles much of the paperwork, the process is often smoother than arranging residency on your own. Fees vary, but reported costs commonly fall in the region of a few thousand dirhams; confirm the current figure with your institution."
+        ]
+      },
+      {
+        "heading": "Who can apply and the requirements",
+        "body": [
+          "The student visa is aimed at people who hold, or are about to receive, a place on a full-time programme at an accredited UAE institution. This includes undergraduate and postgraduate students, and in some cases students at approved schools and colleges. The essential condition is a genuine offer of admission.",
+          "Typical requirements include: a valid passport with sufficient remaining validity; passport photographs; an official admission or acceptance letter; proof that tuition has been paid or arranged; and financial proof, often in the form of bank statements, showing you can cover fees and living costs.",
+          "You will also need to pass a medical fitness test in the UAE and hold valid health insurance. Younger applicants, or those below a certain age, may need a parent, relative or other guarantor to support the application. Requirements differ by institution and can change, so treat this as a general checklist and verify the exact list with your university before you start."
+        ]
+      },
+      {
+        "heading": "The process and documents step by step",
+        "body": [
+          "Step one is to secure your place. Apply to an accredited institution and accept the offer, since the admission letter is the foundation of the whole visa file.",
+          "Step two is to gather and submit your documents to the university, which usually applies on your behalf. This bundle generally includes your passport, photos, the acceptance letter, evidence of paid or arranged tuition, and financial proof such as bank statements.",
+          "Step three is the entry permit. The institution and GDRFA arrange an entry permit that lets you enter or remain in the UAE while the residence visa is finalised. After arrival you complete biometrics and the medical fitness test.",
+          "Step four is the residence visa and Emirates ID. Once the medical and checks clear, the student residence visa is stamped or issued electronically and your Emirates ID is processed. Keep copies of everything, and note the expiry date so you can start the renewal in good time each year."
+        ]
+      },
+      {
+        "heading": "Working part-time while you study",
+        "body": [
+          "Students in the UAE can generally take part-time work, but only with the correct permissions. Current guidance indicates students may work up to around 20 hours per week during term time, with a higher limit, reported at up to 40 hours a week, during official holidays. These figures can change, so confirm them before relying on them.",
+          "The paperwork matters. You typically need a No Objection Certificate (NOC) from your sponsoring university, and your employer must obtain a work permit from the Ministry of Human Resources and Emiratisation (MoHRE). Many universities also expect you to maintain a minimum grade point average to keep permission to work.",
+          "Working for cash without a permit is a breach of UAE labour law and can carry penalties for both the employer and the student, including fines and visa problems. Always arrange the permit first, then take the role."
+        ]
+      },
+      {
+        "heading": "The long-term visa for outstanding students",
+        "body": [
+          "The UAE offers a long-term Golden Visa route for high-achieving students, giving several years of residency, commonly cited as 5 or 10 years, without the usual annual renewal cycle. This is designed to keep talented graduates in the country.",
+          "Eligibility is based on academic performance and the standing of your institution. Reported criteria include graduates of UAE-accredited universities who reach a high GPA (a figure of 3.5 or above is commonly cited, with thresholds varying by the university's classification), and international graduates from highly ranked global universities who meet the GPA bar. Strong secondary-school students who achieve top marks and hold a recommendation from the relevant education authority may also qualify.",
+          "Exact GPA thresholds, university rankings and time limits after graduation apply and are periodically updated, so check the official Golden Visa criteria or take advice before assuming you qualify."
+        ]
+      },
+      {
+        "heading": "From student to worker: Green and Golden visas",
+        "body": [
+          "Finishing your studies does not mean you have to leave. Graduates have several ways to stay on. A job-seeker visa lets eligible graduates remain in the UAE for a set period, reported in options such as 60, 90 or 120 days, to attend interviews and look for work without a local sponsor. It generally does not permit paid work during that window.",
+          "The Green Visa is a self-sponsored residence route, commonly described as a 5-year permit for skilled workers, freelancers and some graduates, letting you live and work without being tied to a single employer. Qualifying graduates may apply within a defined window after finishing their course.",
+          "The Golden Visa remains the longest-term option for those who meet its criteria, including outstanding students. In practice, many graduates move from a student visa to employment on a standard work visa, then later to a Green or Golden Visa as their career grows. Because thresholds and timeframes change, confirm current eligibility before you plan around any single route.",
+          "As you move from studying to settling in Dubai, housing becomes a priority. Our team can help you understand renting and buying options as your residency status matures; this article is general information, not legal or immigration advice, so always verify the latest rules with official UAE sources."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who sponsors a Dubai student visa?",
+        "answer": "Your accredited university or college sponsors it, not an employer. The institution applies through GDRFA in Dubai on your behalf, which is why an admission letter is the starting point of the whole process."
+      },
+      {
+        "question": "How long is a student visa valid?",
+        "answer": "Based on current guidance it is typically issued for around 12 months and renewed each year for the length of your programme, as long as you remain enrolled and in good standing. Confirm the current terms with your institution."
+      },
+      {
+        "question": "What documents do I need to apply?",
+        "answer": "Usually a valid passport, photographs, an official admission letter, proof that tuition is paid or arranged, and financial proof such as bank statements. You will also complete a medical test and hold health insurance; younger applicants may need a parent or guarantor."
+      },
+      {
+        "question": "Can students work part-time in Dubai?",
+        "answer": "Yes, with the right permissions. Guidance indicates up to around 20 hours a week in term time and more during holidays, but you need a No Objection Certificate from your university and a MoHRE work permit for the employer. Working without a permit breaks UAE labour law."
+      },
+      {
+        "question": "What is the long-term visa for outstanding students?",
+        "answer": "It is a Golden Visa route, commonly cited as 5 or 10 years, for high-achieving students. Eligibility depends on your GPA and the standing of your university, with specific thresholds that are updated periodically, so check the official criteria."
+      },
+      {
+        "question": "How can graduates stay after finishing their studies?",
+        "answer": "Options include a short job-seeker visa to look for work, a self-sponsored Green Visa (commonly 5 years) for skilled graduates, moving onto a standard employment visa, or a Golden Visa for those who qualify. Timeframes and criteria change, so verify before you plan."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Dubai student visa",
+      "UAE student visa 2026",
+      "university sponsored visa Dubai",
+      "student visa requirements UAE",
+      "part-time work student visa Dubai",
+      "Golden Visa outstanding students",
+      "Green Visa graduates UAE",
+      "study and stay in Dubai"
+    ]
+  },
+  {
+    "slug": "how-to-cancel-uae-residence-visa",
+    "title": "How to Cancel a UAE Residence Visa (2026)",
+    "excerpt": "To cancel a UAE residence visa in 2026, the sponsor files it via GDRFA or ICP, dependants first, then you clear liabilities and leave or switch.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10593631/pexels-photo-10593631.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Passport, documents and a pen on a desk representing a UAE residence visa cancellation",
+      "tone": "#141821"
+    },
+    "intro": "To cancel a UAE residence visa in 2026, the sponsor files the cancellation through the relevant immigration authority: GDRFA for visas issued in Dubai, or ICP Smart Services for the other emirates. For a work visa, the employer usually cancels the MOHRE labour contract and work permit first, then the residence visa and linked Emirates ID. If you sponsor family, their dependant visas must be cancelled before your own. Once cancelled, you receive an official cancellation document showing the date and the start of your grace period. You then settle any liabilities and either leave the country or switch to a new visa within that window. Processes and figures change, so always confirm the current requirements with GDRFA, ICP or a licensed typing centre before you act.",
+    "keyTakeaways": [
+      "The sponsor cancels the visa: your employer for a work visa, you for a self-sponsored or family visa.",
+      "Cancellations run through GDRFA (Dubai) or ICP Smart Services (other emirates).",
+      "For work visas, the MOHRE work permit is usually cancelled before the residence visa and Emirates ID.",
+      "Any dependants you sponsor must have their visas cancelled before yours.",
+      "A grace period follows cancellation, commonly cited around 30 to 60 days but varying by visa type; confirm the exact figure on your cancellation document.",
+      "Clear liabilities such as tenancy, DEWA, bank and telecom accounts before you leave."
+    ],
+    "sections": [
+      {
+        "heading": "When you need to cancel a UAE residence visa",
+        "body": [
+          "You cancel a residence visa whenever the reason it was issued comes to an end. The most common triggers are leaving the country for good, changing employer, or ending a sponsorship arrangement.",
+          "If you are moving to a new job, your existing visa normally has to be cancelled before the new employer can complete your fresh residence visa. Changing sponsor, for example moving from an employer visa to your own investor or property visa, follows the same logic.",
+          "Family sponsors also cancel when a spouse or child leaves the UAE permanently, or when the sponsor's own status changes. Leaving a cancelled or lapsed visa in place can lead to overstay fines and complications with future applications, so it is worth handling promptly and confirming the current rules first."
+        ]
+      },
+      {
+        "heading": "Who initiates the cancellation",
+        "body": [
+          "The party that sponsors the visa is the party that cancels it. For a standard work visa, that is your employer, who initiates the cancellation of the labour contract and work permit through MOHRE and then the residence visa and Emirates ID.",
+          "For a self-sponsored visa, such as an investor, property owner or Golden Visa, you are effectively your own sponsor and you initiate the cancellation yourself, usually through a licensed typing centre or the GDRFA and ICP channels.",
+          "For a family visa, the primary visa holder who sponsors the dependants files the cancellation for each dependant. In practice most people use an approved typing centre, an Amer service centre in Dubai, or the official online portals to submit the request."
+        ]
+      },
+      {
+        "heading": "The process and documents",
+        "body": [
+          "The exact steps depend on the visa type and emirate, but the shape is consistent. For a work visa the employer typically cancels the MOHRE work permit first, then submits the residence visa cancellation to GDRFA (Dubai) or ICP (other emirates). The immigration system generally expects the labour cancellation before the residence cancellation, so doing it out of order can cause a rejection.",
+          "Documents commonly requested include the original passport or a clear copy, the residence visa page, the Emirates ID, and the sponsor's passport and Emirates ID copies. Signed cancellation or labour paperwork may also be required for employment visas.",
+          "Once approved, the authority issues an official cancellation document, often by email, confirming the date, the visa category and the start of your grace period. Keep this document safe, as it is your proof that the visa was formally cancelled.",
+          "Fees, exact forms and timelines change from year to year and differ between emirates, so treat any figure you read online as indicative and confirm the current cost and paperwork directly with GDRFA, ICP or your typing centre."
+        ]
+      },
+      {
+        "heading": "Cancel dependants first",
+        "body": [
+          "If you sponsor family members, their visas normally have to be cancelled before your own can be processed. Immigration will generally not finalise the main sponsor's cancellation while active dependant visas remain linked to it.",
+          "For each dependant you typically submit the dependant's passport copy, visa copy and Emirates ID, along with the sponsor's passport and Emirates ID. If a dependant is inside the UAE their passport may be stamped with a cancellation note; if they are outside the country the request can often be completed online.",
+          "Overlooking a dependant visa is a common and costly mistake. It can leave a family member accruing overstay fines or holding a blocked Emirates ID, and it can hold up your own cancellation, so plan the order carefully."
+        ]
+      },
+      {
+        "heading": "The grace period after cancellation",
+        "body": [
+          "A cancelled residence visa does not force you to leave the same day. UAE rules provide a grace period during which you must either exit the country or move onto a new legal status.",
+          "The length of that window depends on your visa type. Standard employment and family visas are commonly cited as carrying a grace period of around 30 days, while some categories such as Golden and Green visas are reported to allow considerably longer, up to 180 days. Figures in the 30 to 60 day range are frequently quoted for ordinary visas, but you should treat these as guidance only.",
+          "Grace periods are counted in calendar days, including weekends and public holidays, and the precise number that applies to you is printed on your cancellation record. Overstaying beyond it triggers daily fines, so use the exact date on your own document rather than a general figure, and confirm the current rule with the authorities."
+        ]
+      },
+      {
+        "heading": "Clearing liabilities and confirming cancellation",
+        "body": [
+          "Before you leave or switch status, close out the commitments tied to your residency. That typically means settling and ending your tenancy contract, closing DEWA or other utility accounts, clearing and if needed closing bank accounts and credit cards, and cancelling telecom and other subscriptions. Outstanding debts and unpaid fines can create serious problems at the airport or on any future return.",
+          "Your Emirates ID is cancelled as part of the visa cancellation, and any dependant Emirates IDs should be handled the same way. Keep copies of everything.",
+          "Finally, verify that the visa is genuinely cancelled rather than assuming it went through. You can check the cancellation status online via the ICP or GDRFA channels, and you should retain the official cancellation document as evidence. Because processes, portals and fees are updated regularly, always confirm the current procedure with GDRFA, ICP or a licensed advisor before relying on any single step described here."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who cancels my UAE residence visa?",
+        "answer": "The sponsor cancels it. For a work visa that is your employer; for a self-sponsored visa such as an investor or property visa you cancel it yourself; and for a family visa the primary holder cancels the dependants. Confirm the current channel with GDRFA or ICP."
+      },
+      {
+        "question": "Do I use GDRFA or ICP to cancel?",
+        "answer": "It depends on where the visa was issued. Visas issued in Dubai are generally cancelled through GDRFA, while visas from the other emirates go through ICP Smart Services. Many people use a licensed typing or Amer centre to submit the request."
+      },
+      {
+        "question": "How long is the grace period after cancellation?",
+        "answer": "It varies by visa type. Ordinary employment and family visas are commonly cited at around 30 days, and some categories such as Golden and Green visas reportedly allow much longer. Rely on the exact date printed on your cancellation document and confirm the current rule."
+      },
+      {
+        "question": "Do I have to cancel my family's visas first?",
+        "answer": "Yes. Dependant visas you sponsor normally have to be cancelled before your own cancellation can be completed, since the system will not finalise the sponsor's visa while linked dependant visas are still active."
+      },
+      {
+        "question": "What happens to my Emirates ID?",
+        "answer": "Your Emirates ID is cancelled as part of the residence visa cancellation, and any dependant Emirates IDs should be cancelled too. Keep copies of the cancellation paperwork for your records and future applications."
+      },
+      {
+        "question": "How do I check the visa was properly cancelled?",
+        "answer": "You can verify the cancellation status online through the ICP or GDRFA channels and keep the official cancellation document as proof. Because portals and processes change, confirm the current method before relying on it."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "cancel UAE residence visa",
+      "UAE visa cancellation 2026",
+      "GDRFA visa cancellation",
+      "ICP visa cancellation",
+      "grace period after visa cancellation",
+      "Dubai residence visa cancellation",
+      "cancel Emirates ID",
+      "cancel dependant visa UAE"
+    ]
+  },
+  {
+    "slug": "uae-visa-medical-test",
+    "title": "UAE Visa Medical Test: What to Expect (2026)",
+    "excerpt": "The UAE residence visa medical test is a quick blood test and chest X-ray that screens for a few communicable diseases. Here is what to expect.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A calm, modern medical clinic reception where residence visa applicants complete their fitness test",
+      "tone": "#141821"
+    },
+    "intro": "The UAE residence visa medical test is a mandatory health screening for almost every adult applying for or renewing a residence visa. In practice it is short and routine: a blood sample and a chest X-ray, taken at an approved government-linked centre, usually finished in well under an hour. The blood test screens for a small set of communicable diseases, and the chest X-ray checks mainly for tuberculosis. Most applicants receive a fit result and never think about it again. Results are sent digitally and pushed into the immigration system, so the test slots neatly into the wider visa and Emirates ID sequence. Below we set out, in a factual and non-alarming way, why it is required, what it involves, where to do it, the documents you need, indicative fees, and what the outcome means. Please treat figures as indicative and confirm current rules with the authority or your PRO.",
+    "keyTakeaways": [
+      "The medical fitness test is a legal requirement for new and renewal residence visas; residents under 18 are generally exempt.",
+      "It involves a blood test and a chest X-ray, screening for a limited set of communicable diseases such as HIV and tuberculosis.",
+      "In Dubai the test is managed by the Dubai Health Authority (DHA) and its approved centres, including fast-track and VIP options.",
+      "Bring your passport, entry permit or visa reference, and passport-size photos; confirm the exact list with your centre or PRO.",
+      "Indicative fees range from roughly AED 250 for standard service to around AED 700 or more for VIP, with faster turnaround at higher tiers.",
+      "A fit result feeds automatically into your visa stamping and Emirates ID steps; an unfit result can affect visa eligibility."
+    ],
+    "sections": [
+      {
+        "heading": "Why the medical fitness test is required",
+        "body": [
+          "The UAE requires a medical fitness test as part of the residence visa process to protect public health. The screening focuses on a short list of communicable diseases that could affect the wider community, rather than being a general health MOT of your overall wellbeing.",
+          "According to the official UAE government platform, the test applies to foreign nationals applying for a new residence visa or renewing an existing one. Residents under the age of 18 are generally exempt, though you should confirm this for your own situation as rules can vary by visa type.",
+          "It helps to see the test as a standard administrative box to tick, not a judgement on you personally. The overwhelming majority of applicants pass without any issue, and the process is designed to be quick and discreet."
+        ]
+      },
+      {
+        "heading": "What the test involves: blood test and chest X-ray",
+        "body": [
+          "There are two core parts. First, a blood sample is drawn from your arm for laboratory screening. Second, a chest X-ray is taken, which primarily checks for pulmonary tuberculosis. Some centres also carry out a brief physical check.",
+          "The blood test screens for a limited set of communicable diseases. Public sources indicate this typically includes HIV, hepatitis B and hepatitis C, and syphilis, with the exact panel depending on your visa category and occupation.",
+          "For certain occupations, such as food handlers, domestic workers, nursery staff and salon professionals, additional screening may be required in line with DHA regulations. The physical process itself is short: many approved centres complete the sample and X-ray within about 10 to 30 minutes."
+        ]
+      },
+      {
+        "heading": "The communicable diseases screened for",
+        "body": [
+          "The screening is targeted rather than broad. Based on official and widely published guidance, the blood work generally looks for HIV, hepatitis B surface antigen, hepatitis C antibodies and syphilis, while the chest X-ray is used mainly to detect tuberculosis.",
+          "Some of these conditions, tuberculosis in particular, are treated as notifiable and can affect residence eligibility under UAE immigration rules. Others may lead to conditional outcomes rather than an outright refusal, depending on the condition and current policy.",
+          "Because policy can be updated, treat any specific list here as indicative. If you have a known health condition and are concerned about how it may be assessed, it is sensible to take confidential medical and legal advice before you apply."
+        ]
+      },
+      {
+        "heading": "Where to do it: approved centres and VIP options",
+        "body": [
+          "In Dubai the medical fitness test is managed by the Dubai Health Authority and carried out at DHA-approved centres. There are government fitness centres as well as authorised providers, some of which offer streamlined, appointment-based service.",
+          "Service tiers usually differ by speed rather than by the test itself. Standard service returns results in roughly 24 to 48 hours, express service in a matter of hours, and VIP or fast-track service can return a certificate on the same visit, sometimes within about 30 minutes of testing.",
+          "Other emirates have their own approved centres and health authorities, so the exact centre and branding will depend on where you are applying. Your employer, PRO or typing centre can usually point you to the most convenient approved location."
+        ]
+      },
+      {
+        "heading": "Documents, fees and turnaround",
+        "body": [
+          "Bring your original passport, your entry permit or existing visa reference, and passport-size photographs. Requirements can vary slightly by centre and visa type, so confirm the exact list before you attend to avoid a second trip.",
+          "Fees are indicative and tied to service speed. Standard service is commonly cited at around AED 250 to 350, express at roughly AED 450 to 700, and VIP at approximately AED 700 to 1,200. One DHA-approved provider lists standard service at AED 250 and VIP at AED 700.",
+          "Turnaround mirrors the fee tier, from about 24 to 48 hours for standard down to around 30 minutes for VIP. Certificates are typically valid for 90 days from issue for standard residence visas, with a shorter validity often cited for Golden Visa applicants. Please verify current fees and validity directly, as these figures can change."
+        ]
+      },
+      {
+        "heading": "Results, fit or unfit, and the visa sequence",
+        "body": [
+          "Results are usually delivered digitally, through the relevant health app, e-services portal, or by SMS and email, and are pushed automatically into the immigration system. That means you often do not need to hand-carry a paper certificate to the next step.",
+          "A fit result clears this stage and lets your visa stamping and Emirates ID application proceed. The medical test typically sits after your entry permit and alongside the Emirates ID biometrics, feeding into the final residence visa stamping.",
+          "An unfit result can affect visa eligibility, and the consequences depend on the specific condition and current policy. Some conditions may be treated as deportable, while others may allow a conditional or managed outcome. If you receive an unfit result, seek prompt, confidential advice on your options rather than acting on assumptions."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the medical test required for every UAE residence visa?",
+        "answer": "It is required for new and renewal residence visas for adults. Residents under 18 are generally exempt, but you should confirm this for your specific visa type, as rules can vary."
+      },
+      {
+        "question": "What does the test actually involve?",
+        "answer": "Two main parts: a blood sample and a chest X-ray. The blood test screens for a small set of communicable diseases, and the chest X-ray checks mainly for tuberculosis. It is usually finished within about 10 to 30 minutes."
+      },
+      {
+        "question": "Which diseases are screened for?",
+        "answer": "Published guidance indicates the blood test typically covers HIV, hepatitis B, hepatitis C and syphilis, while the chest X-ray screens for tuberculosis. The exact panel can depend on your visa category and occupation, so treat this as indicative."
+      },
+      {
+        "question": "How much does it cost and how long does it take?",
+        "answer": "Fees are indicative and tied to speed: roughly AED 250 to 350 for standard, higher for express, and around AED 700 or more for VIP. Turnaround ranges from about 24 to 48 hours down to roughly 30 minutes for VIP. Confirm current figures with the centre."
+      },
+      {
+        "question": "What documents should I bring?",
+        "answer": "Typically your original passport, your entry permit or visa reference, and passport-size photos. Requirements can vary by centre and visa type, so check the exact list in advance to avoid needing a second visit."
+      },
+      {
+        "question": "What happens if the result is unfit?",
+        "answer": "An unfit result can affect visa eligibility, and the outcome depends on the specific condition and current policy. Some conditions may be deportable while others may be managed. If this happens, seek prompt, confidential medical and legal advice on your options."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "How to get an Emirates ID",
+        "href": "/blog/how-to-get-emirates-id"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "UAE visa medical test",
+      "DHA medical fitness test",
+      "Dubai residence visa medical",
+      "medical fitness test Dubai cost",
+      "chest X-ray visa Dubai",
+      "communicable diseases screening UAE",
+      "residence visa Emirates ID sequence",
+      "medical fitness certificate Dubai"
+    ]
+  },
+  {
+    "slug": "uae-visa-on-arrival-nationalities",
+    "title": "UAE Visa on Arrival: Which Nationalities Qualify? (2026)",
+    "excerpt": "GCC nationals enter the UAE visa-free; many Western and European passport holders get a visa on arrival. Always confirm rules with the ICP.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10486073/pexels-photo-10486073.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Traveller walking through a modern UAE airport arrivals hall with passport in hand",
+      "tone": "#141821"
+    },
+    "intro": "Whether you need a visa for the UAE depends almost entirely on your nationality, and travellers usually fall into three broad groups. GCC citizens enter freely with no visa at all. A large number of Western, European and some Asian passport holders receive a free visa on arrival, typically valid for 30 or 90 days depending on their nationality. Everyone else generally needs a visa arranged in advance before they fly, though some passport holders now qualify on arrival if they hold residence in a country such as the US, UK, EU, Canada or Australia. The eligible lists change often, so the golden rule is simple: confirm your exact status with the UAE Federal Authority for Identity, Citizenship, Customs and Ports Security (ICP) and your airline before booking.",
+    "keyTakeaways": [
+      "GCC nationals (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia) enter the UAE visa-free with no time limit.",
+      "Many Western and European nationals get a free visa on arrival, commonly 30 or 90 days depending on passport.",
+      "Nationals not on the eligible lists usually need a visa arranged in advance before travelling.",
+      "Some passport holders now qualify on arrival if they hold residence in the US, UK, EU, Canada, Australia and similar countries.",
+      "Passports should generally be valid for at least six months from your date of entry.",
+      "Lists change frequently, so always verify with the ICP and your airline before you fly."
+    ],
+    "sections": [
+      {
+        "heading": "The three broad categories of UAE entry",
+        "body": [
+          "Almost every traveller to the UAE falls into one of three groups, and knowing which one applies to you is the fastest way to plan a trip.",
+          "The first group is visa-free entry. This covers GCC citizens, who face no visa requirement and no fixed stay limit, and a wide range of other nationalities who can enter simply by presenting their passport at immigration.",
+          "The second group is visa on arrival. Here you do not apply in advance, but immigration issues a short-stay entry permit or stamp when you land, usually free of charge for eligible nationalities.",
+          "The third group is pre-arranged visa required. If your nationality is not on the visa-free or visa-on-arrival lists, you generally need a visit or tourist visa sponsored and arranged before you travel, often through an airline, hotel, tour operator or UAE-based host.",
+          "These categories, and the countries inside them, are set by the UAE authorities and can be revised at any time, so treat the guidance below as a starting point rather than a fixed rulebook."
+        ]
+      },
+      {
+        "heading": "Who typically enters visa-free",
+        "body": [
+          "GCC nationals sit at the top of this group. Citizens of Bahrain, Kuwait, Oman, Qatar and Saudi Arabia can enter the UAE without any visa and are not held to a standard tourist time limit, using a valid passport or national ID.",
+          "Beyond the GCC, citizens of many European countries typically receive visa-free entry for up to 90 days. This commonly includes EU member states along with nationals of countries such as the United Kingdom, and travellers usually just present their passport at the border with no fee and no advance application.",
+          "The exact stay length attached to visa-free entry varies by nationality and can be counted within a rolling period, for example a set number of days within any 180-day window.",
+          "Because the visa-free list is reviewed periodically, a nationality that qualifies today may see its terms adjusted, so confirm the current position for your passport before you rely on it."
+        ]
+      },
+      {
+        "heading": "Who typically gets a visa on arrival",
+        "body": [
+          "A broad range of nationalities can collect a visa on arrival rather than applying beforehand. This has historically included many Western passport holders, for example nationals of countries such as the United States, Canada, Australia, New Zealand and Japan, alongside various European and some Asian nationalities.",
+          "Durations differ. Some travellers receive a 30-day permit, while others receive a longer stay such as 90 days, depending on nationality and the specific rules in force at the time.",
+          "In practice the line between visa-free and visa on arrival can blur, because both mean you do not arrange anything in advance. What matters for planning is that eligible travellers can turn up, clear immigration and receive their entry stamp on the day.",
+          "The UAE has also expanded on-arrival access in stages. In 2026, for example, nationals of several additional countries became eligible to obtain a visa on arrival, in some cases on condition that they also hold valid residence in a country such as the US, UK, an EU member state, Canada, Australia, New Zealand, Japan, Singapore or South Korea. This is exactly the kind of detail that shifts, so verify it directly."
+        ]
+      },
+      {
+        "heading": "Visa on arrival based on your residence or existing visa",
+        "body": [
+          "Even if your nationality alone does not qualify, you may still be able to get a visa on arrival if you hold the right supporting document. Travellers from parts of South Asia, Southeast Asia, Africa and elsewhere can sometimes obtain a short-stay visa on arrival when they carry a valid, unexpired visa or residence permit from a country such as the United States, the United Kingdom, an EU member state, Australia, Canada, New Zealand, Japan or Singapore.",
+          "The permit granted this way is often 30 days, and the qualifying document usually needs to be genuinely valid rather than close to expiry.",
+          "This route changes frequently and the accepted countries and conditions are specific, so anyone planning to rely on it should confirm the exact requirements with the ICP and their airline, and carry printed proof of the qualifying residence or visa.",
+          "If you do not hold a qualifying document and your nationality is not on the on-arrival list, plan on the pre-arranged visa route instead."
+        ]
+      },
+      {
+        "heading": "How visa on arrival works at the airport",
+        "body": [
+          "If you are eligible, the process is straightforward. You board your flight without any UAE visa, land at a UAE airport, and proceed to immigration where officers issue your entry permit or stamp, usually without a fee for visa-on-arrival nationalities.",
+          "Come prepared. Your passport should generally be valid for at least six months from your date of entry, and it helps to have onward or return travel details and proof of where you are staying.",
+          "Expect modern border controls. UAE airports commonly use biometric checks, including photographs and iris or facial scanning, and many travellers now pass through smart gates.",
+          "It is also worth pre-filling any arrival information your airline or the UAE authorities request, and keeping printed copies of key documents in case they are asked for.",
+          "Finally, remember that a visa on arrival is a short-stay permit. If you plan to stay longer, look into extensions or a different visa category rather than overstaying, which can lead to fines."
+        ]
+      },
+      {
+        "heading": "Why you must verify before you fly",
+        "body": [
+          "The single most important point in this guide is that visa lists change, and they change more often than most travellers expect. Nationalities are added, conditions are attached, and stay durations are adjusted as UAE policy evolves.",
+          "For that reason, do not treat any published country list, including the examples in this article, as a definitive or permanent record. Use it to understand the categories, then check the live position for your specific passport.",
+          "The authoritative source is the UAE Federal Authority for Identity, Citizenship, Customs and Ports Security (ICP) and official UAE government information at u.ae. Your airline is also a practical checkpoint, because carriers verify documents before boarding and will not let you fly without the correct entry status.",
+          "If your plans involve property, relocation or longer stays in Dubai, the entry rules are only the first step. Our team can help you think through the bigger picture, from short visits to residence options, so you arrive with the right paperwork in place."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the three main UAE entry categories?",
+        "answer": "Visa-free entry, visa on arrival, and a pre-arranged visa arranged before travel. GCC nationals enter visa-free, many Western and European nationals get a visa on arrival, and everyone else usually needs a visa sorted in advance. Confirm your own status with the ICP."
+      },
+      {
+        "question": "Do GCC nationals need a UAE visa?",
+        "answer": "No. Citizens of Bahrain, Kuwait, Oman, Qatar and Saudi Arabia enter the UAE visa-free with a valid passport or national ID and are not held to a standard tourist time limit. This is the most stable category, but always check current rules before travelling."
+      },
+      {
+        "question": "How long is a UAE visa on arrival valid?",
+        "answer": "It depends on your nationality. Some travellers receive 30 days and others receive a longer stay such as 90 days. Because durations vary and can change, verify the exact stay length for your passport with the ICP or your airline before you book."
+      },
+      {
+        "question": "Can I get a visa on arrival based on my residence in another country?",
+        "answer": "Sometimes. Certain nationalities can obtain a visa on arrival if they hold a valid visa or residence permit from a country such as the US, UK, an EU member state, Canada, Australia, New Zealand, Japan or Singapore. Carry printed proof and confirm the current conditions with the ICP first."
+      },
+      {
+        "question": "How does visa on arrival work at the airport?",
+        "answer": "You fly without a UAE visa, land, and immigration issues your entry permit or stamp, usually free for eligible nationalities. Expect biometric checks such as photos and iris scans, keep your passport valid for at least six months, and have accommodation and return details ready."
+      },
+      {
+        "question": "Where should I check the official, up-to-date list?",
+        "answer": "Use the UAE Federal Authority for Identity, Citizenship, Customs and Ports Security (ICP) and official information at u.ae, and confirm with your airline before flying. Lists change frequently, so never rely on a fixed published list, including this one, as definitive."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai tourist visa: 30-day, 60-day and extensions",
+        "href": "/blog/dubai-tourist-visa-guide"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "UAE visa on arrival",
+      "UAE visa on arrival nationalities",
+      "UAE visa-free countries",
+      "Dubai visa on arrival 2026",
+      "GCC nationals UAE entry",
+      "UAE visa requirements by nationality",
+      "ICP UAE visa",
+      "Dubai entry requirements"
+    ]
+  },
+  {
+    "slug": "uae-visa-overstay-fines",
+    "title": "What Happens If You Overstay Your Visa in the UAE? (Fines Explained)",
+    "excerpt": "Overstay your UAE visa and a daily fine accrues (commonly cited around AED 50 per day in 2026). Confirm the current amount with the ICP or GDRFA.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Passport, boarding pass and travel documents laid out before a UAE departure",
+      "tone": "#141821"
+    },
+    "intro": "If you overstay your visa in the UAE, a daily fine begins to accrue once your visa or entry permit expires (and after any applicable grace period ends). In 2026 the overstay penalty is commonly cited at around AED 50 per day, applied fairly uniformly across visa types, but you should always confirm the current amount with official sources before you travel. The fine adds up each day, is normally settled at the airport or online before you leave, and in serious or prolonged cases can lead to further complications such as a travel ban. The good news: overstaying is easy to avoid if you track your dates and renew, exit and return, or change your status in time. Here is how it works and what to check.",
+    "keyTakeaways": [
+      "A daily overstay fine accrues once your visa or entry permit expires and any grace period ends; in 2026 it is commonly cited at around AED 50 per day, but confirm the current figure with the ICP or GDRFA.",
+      "Grace periods vary by visa type, so do not assume you have extra days; always check the rule that applies to your specific visa.",
+      "Fines accumulate every day you overstay and are usually paid at the airport before departure or online in advance via the ICP or GDRFA channels.",
+      "Prolonged or repeated overstays can carry more serious consequences, including a possible travel ban in some cases.",
+      "You can usually avoid overstaying by renewing, doing an exit and return (visa run), or changing your immigration status before expiry.",
+      "Check your visa status and any fines directly through official ICP and GDRFA platforms rather than relying on third-party estimates."
+    ],
+    "sections": [
+      {
+        "heading": "The grace period after your visa or entry permit expires",
+        "body": [
+          "A grace period is a short window after your visa or entry permit expires during which you can remain in the UAE, or arrange to depart, without a fine accruing. Whether you get one, and how long it lasts, depends entirely on the type of visa you hold.",
+          "Historically, some tourist and visit visas carried a short grace period, while residence visas typically allowed a longer window to renew, exit or change status. These rules have been reviewed and adjusted in recent years, and in 2026 several long-standing grace periods were tightened or removed for certain visa categories.",
+          "Because the position genuinely varies by visa type and can change, do not rely on what applied on a previous trip or on general advice from friends. Confirm the exact grace period for your specific visa with the ICP or GDRFA before you plan your departure, and treat the expiry date on your visa as the date the clock could start ticking."
+        ]
+      },
+      {
+        "heading": "The daily overstay fine and how much it is",
+        "body": [
+          "If you stay beyond your permitted period (and past any grace window), the UAE applies a fixed daily overstay fine. In 2026 this is commonly cited at around AED 50 per day, following moves to standardise the penalty more consistently across visa types and emirates.",
+          "That figure is a guide, not a guarantee. Fine amounts have changed over the years, and the rate, along with any additional service or exit charges, can be updated by the authorities. The only reliable number is the one shown against your own record on the official system at the time you travel.",
+          "For this reason, treat any amount you read online (including this article) as indicative. Before you fly, confirm the current daily fine and your total balance directly with the ICP or GDRFA so there are no surprises at the airport."
+        ]
+      },
+      {
+        "heading": "How fines accumulate and how you pay them",
+        "body": [
+          "Overstay fines are cumulative. A fixed amount is added for each day you remain in the country beyond your permitted stay, so a short overstay is inexpensive but a long one can grow into a significant sum. The total keeps rising until the day you either regularise your status or leave.",
+          "Payment is usually straightforward. Many travellers settle the fine at the airport immigration counter on the day of departure, but you can often also check and pay in advance online through official UAE government channels, typically using your passport or visa details, and in many cases via UAE Pass on the ICP or GDRFA apps.",
+          "Paying ahead of time is sensible if you want to avoid queues or uncertainty on travel day. Either way, keep proof of payment. If you are unsure whether a fine has been recorded against your record, check it on the official platform rather than assuming you are clear."
+        ]
+      },
+      {
+        "heading": "The consequences of overstaying",
+        "body": [
+          "For a short, accidental overstay, the practical consequence is usually just the accumulated daily fine, which you pay before leaving. Many people who miscount their days simply settle up at the airport and travel as normal.",
+          "The picture changes with longer or repeated overstays. Beyond the growing financial cost, a serious or prolonged overstay can, in some cases, lead to more significant immigration consequences, including the risk of a travel ban or complications with future entry or visa applications.",
+          "The exact thresholds and outcomes are at the discretion of the authorities and depend on the circumstances. If you have overstayed by a long period, or you are worried about a possible ban, it is worth seeking proper guidance and confirming your position with the ICP or GDRFA rather than guessing."
+        ]
+      },
+      {
+        "heading": "How to avoid overstaying in the first place",
+        "body": [
+          "The simplest protection is to know your exact expiry date and act before it, not on the day. Set a reminder several days ahead so you have time to arrange whatever comes next.",
+          "You generally have a few legitimate options. You can renew or extend your visa where that is permitted for your visa type. You can do an exit and return, sometimes called a visa run, leaving the country and re-entering on a fresh entry permit. Or, if your situation has changed, for example moving from a visit visa to a residence or employment visa, you can apply for a status change from inside the country where the rules allow it.",
+          "Which routes are available to you depends on your nationality, your current visa and your plans. If you intend to stay in the UAE long term, whether for work, business or buying property, it is worth mapping out your visa pathway early so your status never lapses by accident."
+        ]
+      },
+      {
+        "heading": "Where to check your status and confirm the current rules",
+        "body": [
+          "For anything official, go to the source. Residency and entry matters in the UAE are handled by the Federal Authority for Identity, Citizenship, Customs and Port Security (ICP) and, in Dubai, the General Directorate of Residency and Foreigners Affairs (GDRFA). Their websites and apps are the correct place to check your visa validity, see any overstay fines and confirm the current rates.",
+          "These platforms typically let you look up your status using your passport or visa details, and often let you pay fines directly. Because rules and amounts can be updated, always verify the current position there rather than relying solely on older articles or informal advice.",
+          "If your reason for staying in the UAE is a property purchase or an investor route, it makes sense to align your visa planning with that decision from the start. Our team can point you towards the right advisers and help you avoid last-minute status problems as part of a wider relocation."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much is the daily overstay fine in the UAE in 2026?",
+        "answer": "It is commonly cited at around AED 50 per day in 2026, following efforts to standardise the penalty across visa types. Treat that as indicative only and confirm the current amount and your exact balance with the ICP or GDRFA before you travel."
+      },
+      {
+        "question": "Is there still a grace period after my visa expires?",
+        "answer": "It depends on your visa type. Some categories carry a grace period and others do not, and these rules have been tightened for certain visas in recent years. Do not assume you have extra days; check the specific rule for your visa with the ICP or GDRFA."
+      },
+      {
+        "question": "How do I pay a UAE overstay fine?",
+        "answer": "You can usually pay at the airport immigration counter before departure, or check and pay in advance online through official UAE government channels using your passport or visa details, in many cases via UAE Pass on the ICP or GDRFA apps. Keep proof of payment."
+      },
+      {
+        "question": "Can overstaying lead to a travel ban?",
+        "answer": "A short, accidental overstay is normally just the accumulated daily fine. However, serious or prolonged overstays can, in some cases, lead to more significant consequences including the risk of a travel ban. If you have overstayed heavily, seek guidance and confirm your position officially."
+      },
+      {
+        "question": "How can I avoid overstaying my visa?",
+        "answer": "Track your expiry date and act before it. Depending on your visa you can renew or extend, do an exit and return (visa run), or apply for a status change such as moving from a visit visa to residence. Which options apply depends on your nationality and current visa."
+      },
+      {
+        "question": "Where can I check my visa status and any fines?",
+        "answer": "Use the official ICP platforms and, in Dubai, GDRFA. Their websites and apps let you verify your visa validity, see any overstay fines and often pay them, usually using your passport or visa details. Always confirm current rules and amounts there rather than relying on third-party estimates."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai tourist visa: 30-day, 60-day and extensions",
+        "href": "/blog/dubai-tourist-visa-guide"
+      },
+      {
+        "label": "Dubai visa types explained",
+        "href": "/blog/dubai-visa-types-explained"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "UAE visa overstay fine",
+      "UAE overstay fine 2026",
+      "Dubai visa overstay penalty",
+      "UAE visa grace period",
+      "how to pay overstay fine UAE",
+      "UAE overstay travel ban",
+      "ICP GDRFA visa status",
+      "avoid overstaying UAE visa"
+    ]
+  },
 ];
