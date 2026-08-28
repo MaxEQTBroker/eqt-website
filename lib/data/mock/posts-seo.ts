@@ -15819,4 +15819,811 @@ export const seoPosts: BlogPost[] = [
       "DEWA connection fees"
     ]
   },
+  {
+    "slug": "best-areas-in-dubai-for-young-professionals",
+    "title": "Best Areas in Dubai for Young Professionals in 2026",
+    "excerpt": "Answer-first: Dubai Marina, JBR and Business Bay lead for young professionals; JVC and JLT offer value; Downtown and Dubai Hills suit balance.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 8,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Evening skyline of Dubai Marina towers reflected in the water, a popular district for young professionals",
+      "tone": "#141821"
+    },
+    "intro": "If you are a young professional moving to Dubai in 2026, the best all-round area is Dubai Marina or the neighbouring JBR: walkable, metro-linked, and packed with cafes, gyms and nightlife. For central offices, Business Bay and Downtown put you minutes from work, while JLT offers a similar lakeside lifestyle for less. On a tighter budget, JVC gives you space and low rents in exchange for a longer commute, and Dubai Hills Estate suits those who want green, quieter surroundings with strong amenities. The right choice depends on your budget, where you work and whether nightlife or calm matters more. Rents below are indicative and move with the market, tower and view.",
+    "keyTakeaways": [
+      "Dubai Marina and JBR are the top pick for walkability, social scene and metro access, at a premium price.",
+      "Business Bay and Downtown are ideal if your office is in the central business district and you value a short commute.",
+      "JLT delivers a Marina-style lakeside lifestyle with metro access for noticeably lower rents.",
+      "JVC is the leading value option: more space for your money, but a car helps as metro access is limited.",
+      "Dubai Hills Estate suits professionals wanting green, quieter surroundings with a mall and parks.",
+      "All rent figures are indicative for 2026 and vary widely by tower, floor, view and furnishing."
+    ],
+    "sections": [
+      {
+        "heading": "Dubai Marina and JBR: the social all-rounder",
+        "body": [
+          "Dubai Marina is the default choice for many young professionals, and it is easy to see why. A dense cluster of high-rise towers wraps around a man-made canal, with the Marina Walk promenade lined with restaurants, cafes and gyms. Neighbouring Jumeirah Beach Residence (JBR) adds a beachfront strip, The Beach retail and a genuinely walkable seafront.",
+          "Practical points matter here. The area is served by two Dubai Metro stations (DMCC and Sobha Realty, on the Red Line) plus the Dubai Tram, which loops through the Marina and JBR, so living car-free is realistic. Walkability is among the best in the city, though the Marina can get busy and traffic at peak times is heavy.",
+          "Indicative rents reflect the demand. Studios commonly sit in the region of AED 75,000 and up per year, with well-positioned or high-floor units running higher, and one-bedrooms often from around AED 100,000. You pay a premium for lifestyle and location, so this suits professionals who prioritise social life and the beach over maximising space."
+        ]
+      },
+      {
+        "heading": "Business Bay: central, modern and commute-friendly",
+        "body": [
+          "Business Bay is a high-rise business and residential district straddling the Dubai Water Canal, immediately south of Downtown. If your office is in or near the central business district, it is one of the most commute-efficient places to live, and the canal promenade has grown into a pleasant walking and dining route.",
+          "It is on the Red Line via Business Bay Metro station, and it is a short hop to Downtown and Sheikh Zayed Road. The vibe is more corporate and newer-build than the Marina, with a strong cafe and casual-dining scene rather than a beach culture. Walkability is decent near the canal but patchier on the office-tower side.",
+          "Indicative studio rents often fall in the region of AED 55,000 to AED 80,000 per year, making it a mid-range option that buys you a central location. It is a strong match for professionals who want to minimise their commute and like a modern, urban setting."
+        ]
+      },
+      {
+        "heading": "Downtown Dubai: prestige address, premium price",
+        "body": [
+          "Downtown Dubai is the city's landmark core, home to the Burj Khalifa, The Dubai Mall and Dubai Opera. Living here means world-class retail, dining and culture on your doorstep, and a genuinely walkable, pedestrian-friendly centre by Dubai standards.",
+          "It is well connected: Burj Khalifa/Dubai Mall Metro station sits on the Red Line, and the area links quickly to Business Bay and Sheikh Zayed Road. The trade-off is cost. Downtown carries some of the highest apartment rents in the city, so budgets stretch further in Business Bay or JLT for a similar central lifestyle.",
+          "For young professionals, Downtown works best if the prestige address and cultural buzz justify the premium, or if you are sharing to offset the higher rent. Expect one-bedroom rents to sit well above the citywide average."
+        ]
+      },
+      {
+        "heading": "JLT: Marina lifestyle for less",
+        "body": [
+          "Jumeirah Lake Towers (JLT) sits directly across Sheikh Zayed Road from Dubai Marina and offers a similar lakeside, high-rise lifestyle at a lower price point. Clusters of towers ring landscaped lakes, and the area has a strong independent cafe, restaurant and coworking scene.",
+          "Crucially for commuters, JLT has its own Red Line Metro station (DMCC), and you can reach the Marina, Downtown and the airport corridor easily. It feels a little more low-key and community-driven than the Marina, which many residents prefer.",
+          "Indicative studio rents often land around AED 50,000 to AED 70,000 per year, with one-bedrooms spanning a wide range depending on the cluster and view. JLT is one of the best value-for-lifestyle picks for professionals who want walkability and metro access without Marina prices."
+        ]
+      },
+      {
+        "heading": "JVC and Dubai Hills: value and green living",
+        "body": [
+          "Jumeirah Village Circle (JVC) is the go-to value area. This mid-rise, master-planned community offers noticeably more space for your money, with studios often in the region of AED 25,000 to AED 45,000 and one-bedrooms roughly AED 38,000 to AED 68,000 per year. The catch is connectivity: JVC has no metro station, so a car (or reliance on ride-hailing) makes life much easier, and the commute to central offices can be long at peak times. It is popular with professionals prioritising budget and space over nightlife.",
+          "Dubai Hills Estate offers a different trade-off: a greener, calmer, family-friendly master community built around a large park and Dubai Hills Mall. It is more suburban in feel, with quieter streets and strong amenities, and it is well placed between Downtown and the Marina by road. Like JVC, it is car-oriented rather than metro-served.",
+          "Both suit professionals who value space, quiet or green surroundings, and are happy to drive. If nightlife and a walk-everywhere lifestyle top your list, the Marina, JLT or Downtown will fit better."
+        ]
+      },
+      {
+        "heading": "How to match an area to your budget and lifestyle",
+        "body": [
+          "Start with your office location. If you work in or near Business Bay or Downtown, living centrally (Business Bay, Downtown, or nearby) can save you an hour a day. If your work is more flexible or coastal, the Marina, JBR and JLT open up.",
+          "Then weigh lifestyle against budget. For a maximal social and beach scene, prioritise the Marina and JBR and accept the premium. For similar energy at a lower cost, choose JLT. For a central, modern base with a short commute, pick Business Bay. For the most space per dirham, choose JVC and plan to drive. For calm and greenery, look at Dubai Hills.",
+          "Finally, treat every rent figure as indicative. Actual prices swing with the specific tower, floor, view, furnishing and how the wider market is moving in 2026, and single-cheque versus multiple-cheque payment terms also affect what you pay. Viewing several options and comparing on a like-for-like basis is the only reliable way to gauge value. Our team can shortlist buildings that fit your budget, commute and lifestyle."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which Dubai area is best for young professionals overall?",
+        "answer": "Dubai Marina and neighbouring JBR are the most popular all-round choice thanks to walkability, a strong social and beach scene, and two metro stations plus the tram. If you want the same lifestyle for less, JLT is the value alternative, and Business Bay is best for a short central commute."
+      },
+      {
+        "question": "What is the cheapest good area for young professionals in Dubai?",
+        "answer": "Jumeirah Village Circle (JVC) is the leading value area, with indicative studio rents often around AED 25,000 to AED 45,000 per year and more space for your money. The trade-off is limited public transport, so a car helps and the commute to central offices can be long."
+      },
+      {
+        "question": "Which areas have the best metro access?",
+        "answer": "Dubai Marina (two Red Line stations plus the tram), JLT, Business Bay and Downtown all sit on the Dubai Metro Red Line, making car-free living realistic. JVC and Dubai Hills Estate are not served by the metro and are more car-oriented."
+      },
+      {
+        "question": "Where is the best nightlife and social scene?",
+        "answer": "Dubai Marina and JBR lead for nightlife, beach clubs, bars and restaurants, with Downtown close behind for upscale dining and culture. JLT and Business Bay have lively cafe and casual-dining scenes, while JVC and Dubai Hills are quieter and more residential."
+      },
+      {
+        "question": "How much rent should a young professional budget in Dubai?",
+        "answer": "As an indicative guide for 2026, budget-friendly studios in JVC can start around AED 25,000 to AED 45,000 per year, mid-range areas like JLT and Business Bay often run roughly AED 50,000 to AED 80,000, and premium Marina or Downtown studios typically start higher. Actual rents vary by tower, floor and view."
+      },
+      {
+        "question": "Is Downtown Dubai worth it for young professionals?",
+        "answer": "Downtown offers a prestige address, world-class retail and culture, and excellent walkability, but it carries some of the highest rents in the city. It is worth it if the location and lifestyle justify the premium; otherwise Business Bay or JLT deliver a similar central lifestyle for less."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai Marina apartments for sale",
+        "href": "/areas/dubai-marina"
+      },
+      {
+        "label": "Business Bay apartments for sale",
+        "href": "/areas/business-bay"
+      },
+      {
+        "label": "Downtown Dubai luxury apartments",
+        "href": "/areas/downtown-dubai"
+      },
+      {
+        "label": "Dubai communities and area guides",
+        "href": "/areas"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "best areas in Dubai for young professionals",
+      "where to live in Dubai young professionals",
+      "Dubai Marina rent 2026",
+      "JVC Dubai rent",
+      "Business Bay apartments",
+      "JLT vs Dubai Marina",
+      "Dubai metro apartments",
+      "affordable areas Dubai"
+    ]
+  },
+  {
+    "slug": "best-areas-to-live-in-dubai-for-expats",
+    "title": "Best Areas to Live in Dubai for Expats in 2026",
+    "excerpt": "The best Dubai area for expats depends on priorities: Marina and JBR for buzz, Palm Jumeirah for prestige, Dubai Hills for families, JVC for value.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Aerial view of Dubai waterfront towers and marina at dusk, a popular residential district for expats",
+      "tone": "#141821"
+    },
+    "intro": "There is no single best area to live in Dubai for expats, because the right choice depends on what you value most. If you want a walkable waterfront with restaurants and nightlife, Dubai Marina and JBR lead. For beachfront prestige and privacy, Palm Jumeirah is unmatched. Families who want gardens, schools and quiet streets gravitate to Arabian Ranches, Dubai Hills Estate or The Springs and Meadows. If you want a central, urban base near the icons, Downtown and Business Bay work well. And if value matters most, Jumeirah Village Circle offers some of the lowest entry points in the city. This guide breaks each community down by lifestyle so you can match an area to your priorities rather than chase a label.",
+    "keyTakeaways": [
+      "Choose by lifestyle first: waterfront buzz, beachfront prestige, central urban, family villas, or value.",
+      "Dubai Marina and JBR suit renters who want walkability, dining and an active social scene.",
+      "Palm Jumeirah sits at the prime end of the market for beachfront villas and branded apartments.",
+      "Dubai Hills Estate, Arabian Ranches and The Springs and Meadows are established family villa communities.",
+      "Jumeirah Village Circle (JVC) is one of the most affordable central options for apartments.",
+      "All prices here are indicative only and move with unit size, view, building and market timing."
+    ],
+    "sections": [
+      {
+        "heading": "How to choose the right area in Dubai",
+        "body": [
+          "Start with how you actually want to live day to day, not with a postcode. The most common expat priorities are commute time, whether you want an apartment or a villa, proximity to schools, access to the beach, and monthly budget. Ranking those honestly narrows the map quickly.",
+          "Dubai is spread out, so location relative to your workplace matters. Someone commuting to DIFC or Downtown will value Business Bay or Downtown itself, while a family working flexibly may happily trade a longer drive for a garden in Dubai Hills or Arabian Ranches.",
+          "It also helps to separate rent from purchase. Many expats rent first in a vibrant area like the Marina to get a feel for the city, then buy in a quieter family community once they know they are staying. There is no wrong order, but knowing which phase you are in changes the shortlist."
+        ]
+      },
+      {
+        "heading": "Waterfront and vibrant: Dubai Marina and JBR",
+        "body": [
+          "Dubai Marina is one of the city's most recognisable districts, built around a man-made canal lined with high-rise towers. It is dense, walkable and social, with a marina promenade, cafes, gyms and easy access to the tram and metro. It suits young professionals, couples and anyone who wants life on the doorstep rather than a drive away.",
+          "Jumeirah Beach Residence (JBR) sits right next door on the beachfront, with The Walk and The Beach retail strips and direct sand access. It has a resort feel and is popular with both renters and holiday-home owners.",
+          "Both areas are almost entirely apartments, from studios to large penthouses. Rents here sit in the mid to upper range for Dubai apartments and rise sharply for full marina or sea views. The trade-off is buzz and convenience against traffic and tourist footfall in peak season."
+        ]
+      },
+      {
+        "heading": "Beachfront prestige: Palm Jumeirah",
+        "body": [
+          "Palm Jumeirah is Dubai's landmark man-made island, shaped like a palm tree and known worldwide. It offers a rare combination in the city: private beach access, low-rise frond villas and a collection of branded and luxury apartment buildings along the trunk and crescent.",
+          "This is a prime-end address. Beachfront villas on the fronds and larger penthouses command some of the highest prices in Dubai, while apartments on the trunk offer a more accessible way into the postcode. Residents value the privacy, the sea views and the resort lifestyle anchored by hotels, beach clubs and the Nakheel Mall.",
+          "Palm Jumeirah tends to appeal to established families, executives and international buyers who want a trophy home or a strong long-term asset. If beachfront living and prestige are near the top of your list, it is the natural first stop."
+        ]
+      },
+      {
+        "heading": "Central and urban: Downtown Dubai and Business Bay",
+        "body": [
+          "Downtown Dubai is the heart of the city, home to the Burj Khalifa, The Dubai Mall and the Dubai Fountain. Living here means high-rise apartments in the middle of the action, with world-class retail and dining within walking distance. It carries a premium for the central location and the icon views.",
+          "Business Bay sits just south across the water and functions as Dubai's central business and mixed-use district. It offers a large supply of modern apartments, a canal promenade and quick access to Sheikh Zayed Road, usually at somewhat gentler prices than Downtown for comparable units.",
+          "Both areas suit professionals who want to be close to work and city life, and investors who like consistent rental demand. They are apartment-dominated and less oriented to family villa living, so buyers wanting gardens and schools nearby usually look elsewhere."
+        ]
+      },
+      {
+        "heading": "Family villas: Dubai Hills, Arabian Ranches, Springs and Meadows",
+        "body": [
+          "For families set on a villa or townhouse, Dubai has several established communities built around greenery, schools and quiet streets. Dubai Hills Estate is one of the newer flagships, centred on a golf course and Dubai Hills Mall, with a mix of apartments, townhouses and larger villas plus in-community schools and parks.",
+          "Arabian Ranches is a long-standing villa community with a suburban, low-rise feel, community pools, retail centres and its own golf course. It has matured over the years and remains a favourite with families who want space and calm away from the towers.",
+          "The Springs and The Meadows, within the wider Emirates Living area, are among Dubai's earliest master-planned villa neighbourhoods. The Springs offers more affordable townhouse-style villas around lakes, while The Meadows provides larger detached homes. Prices across these communities range from the mid market into prime, depending on plot size, upgrades and location within the neighbourhood."
+        ]
+      },
+      {
+        "heading": "Best value: Jumeirah Village Circle (JVC) and matching area to budget",
+        "body": [
+          "Jumeirah Village Circle (JVC) is a large, centrally located community that has become the go-to for value. It offers a wide spread of apartments and some townhouses and villas, with entry prices among the lowest of any established central district. Its position near Al Khail Road gives reasonable access across the city, and the area has filled in with shops, gyms and schools as it has grown.",
+          "JVC suits first-time renters, young families and investors chasing yield rather than prestige. The trade-off is a still-maturing infrastructure and ongoing construction in parts of the community.",
+          "As a rough guide to positioning: JVC sits at the affordable end, the Marina, JBR, Downtown and Business Bay occupy the mid to upper-mid range, and Palm Jumeirah and the larger villas in Dubai Hills and Emirates Living sit at the prime end. Treat these as indicative bands only, because the exact figure always depends on unit size, view, building quality and when you transact."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which area of Dubai is best for expat families?",
+        "answer": "Family-focused villa communities like Dubai Hills Estate, Arabian Ranches and The Springs and Meadows are popular because they combine gardens, quiet streets, community pools and schools nearby. The best fit depends on your budget and how much space you need."
+      },
+      {
+        "question": "Where should young professionals live in Dubai?",
+        "answer": "Dubai Marina and JBR are the classic choices for young professionals who want walkability, dining and an active social scene. Business Bay and Downtown also work well for those who want to be close to central offices and city life."
+      },
+      {
+        "question": "What is the most affordable good area in Dubai for expats?",
+        "answer": "Jumeirah Village Circle (JVC) is one of the most affordable central communities, with entry-level apartment prices well below waterfront and Downtown areas, while still offering reasonable access across the city. Prices are indicative and vary by unit."
+      },
+      {
+        "question": "Is Palm Jumeirah a good place to live?",
+        "answer": "Palm Jumeirah is a prime beachfront address offering private beach access, frond villas and luxury apartments. It suits families, executives and international buyers who prioritise privacy, sea views and a resort lifestyle, and it sits at the higher end of the market."
+      },
+      {
+        "question": "Should I rent or buy first when moving to Dubai?",
+        "answer": "Many expats rent first in a vibrant area to learn the city, then buy in a quieter community once they know they are staying. There is no single right order, but knowing which phase you are in helps you shortlist the right areas."
+      },
+      {
+        "question": "How much does it cost to live in these Dubai communities?",
+        "answer": "Positioning ranges from affordable in JVC, through the mid to upper-mid range in the Marina, JBR, Downtown and Business Bay, up to prime on Palm Jumeirah and in larger villas. All figures are indicative and depend on size, view, building and market timing."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Dubai communities and area guides",
+        "href": "/areas"
+      },
+      {
+        "label": "Dubai Marina apartments for sale",
+        "href": "/areas/dubai-marina"
+      },
+      {
+        "label": "Palm Jumeirah luxury villas for sale",
+        "href": "/areas/palm-jumeirah"
+      },
+      {
+        "label": "Browse current listings",
+        "href": "/listings"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "best areas to live in Dubai for expats",
+      "where to live in Dubai",
+      "Dubai Marina living",
+      "Palm Jumeirah residential",
+      "Dubai Hills Estate family community",
+      "JVC affordable Dubai",
+      "expat communities Dubai 2026",
+      "Downtown Dubai vs Business Bay"
+    ]
+  },
+  {
+    "slug": "best-neighbourhoods-in-dubai-for-families",
+    "title": "Best Neighbourhoods in Dubai for Families in 2026",
+    "excerpt": "For families renting or living in Dubai, Arabian Ranches, Dubai Hills Estate and The Springs lead for schools, parks and safe villa living.",
+    "category": "Community Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Green, tree-lined villa community in Dubai with landscaped parks and family homes",
+      "tone": "#141821"
+    },
+    "intro": "For families living in Dubai, the strongest neighbourhoods are Arabian Ranches, Dubai Hills Estate, The Springs and Meadows, Jumeirah Park, and Mudon and Damac Hills, with Palm Jumeirah standing out for families who want beachfront villa life. These communities are chosen for the same reasons again and again: gated, low-traffic streets, generous parks and pools, nurseries and schools within a short drive, and a real sense of neighbourly community. Rents and lifestyle differ a lot between them, so the right choice depends on your school run, your budget, and whether you want desert calm or the beach on your doorstep. This guide compares the leading family areas honestly so you can shortlist the right place to rent or settle.",
+    "keyTakeaways": [
+      "Arabian Ranches and Dubai Hills Estate are the two most popular villa communities for families, both built around schools, parks and safe streets.",
+      "The Springs and Meadows offer some of Dubai's best value family villas with lakes, walking loops and an established community feel.",
+      "Jumeirah Park and Mudon suit families wanting larger plots or newer homes with strong shared amenities.",
+      "Palm Jumeirah is the pick for families who prioritise private beach access, though it is a premium price point.",
+      "School proximity is the single biggest driver of where Dubai families choose to live, so map your preferred schools before you sign a lease.",
+      "Every community here is gated or managed, quiet and pedestrian-friendly, which is why they consistently attract families."
+    ],
+    "sections": [
+      {
+        "heading": "How families should choose a Dubai neighbourhood",
+        "body": [
+          "The families who settle happily in Dubai tend to weigh the same five things: how close good schools and nurseries are, whether there are real parks and pools rather than just a marketing render, how safe and quiet the streets feel, whether villas offer the space they need, and whether the community has genuine warmth rather than being a dormitory.",
+          "Dubai is a car-dependent city, so a short school run matters more than almost anything else. A community that looks perfect can still mean 40 minutes each way twice a day if your school of choice sits on the other side of town. Because of this, most experienced parents pick the school first and then choose a neighbourhood around it.",
+          "Rents also vary widely. Established communities like The Springs can be noticeably cheaper than newer or beachfront areas, while Palm Jumeirah and parts of Dubai Hills sit at the premium end. The good news is that every neighbourhood below is gated or professionally managed, generally quiet, and built with families in mind, so the choice is about fit and budget rather than compromise on safety."
+        ]
+      },
+      {
+        "heading": "Arabian Ranches: the established family benchmark",
+        "body": [
+          "Arabian Ranches is often the first name recommended to relocating families, and for good reason. It is a mature, low-rise villa community with wide streets, mature landscaping, community pools and a genuine village feel that newer areas take years to develop.",
+          "Schools are a core draw. Jumeirah English Speaking School (JESS) sits within the community, and several other well-regarded schools are a short drive away, which keeps the school run manageable. Families also value the retail and dining at Arabian Ranches shopping centres, the community parks, and the equestrian and golf facilities nearby.",
+          "The trade-off is location: it is inland, so beach trips are a drive rather than a stroll, and the original phases are older, which some families love for the greenery and others find dated. For those who want a settled, tried-and-tested villa community with everything for children close by, it remains a benchmark. See our Arabian Ranches property guide for a fuller picture."
+        ]
+      },
+      {
+        "heading": "Dubai Hills Estate: modern villas near a mall and parks",
+        "body": [
+          "Dubai Hills Estate is the modern counterpart to Arabian Ranches and has become one of the most sought-after family addresses in the city. It combines newer villas and townhouses with a large central park, a championship golf course, and Dubai Hills Mall, so daily life and weekend activities sit close together.",
+          "For families, the appeal is convenience plus space. There are dedicated parks, cycling and jogging tracks, and a growing cluster of nurseries and schools including GEMS-operated options within or beside the community. Its position between Downtown and the Marina corridors also makes commuting more central than the deeper-desert communities.",
+          "Because it is newer and centrally located, rents and prices sit above older villa areas, and some sub-communities are still maturing. For families who want contemporary homes, strong amenities and a short hop to a major mall, it is hard to beat. Our Dubai Hills Estate property guide covers the sub-communities in detail."
+        ]
+      },
+      {
+        "heading": "The Springs, Meadows and Jumeirah Park: value and community",
+        "body": [
+          "If value and an established feel matter most, The Springs and Meadows are among the best family bets in Dubai. Built around lakes and green walkways, they offer townhouses and villas at generally friendlier rents than the newest communities, with a strong, long-standing resident community and easy access to Sheikh Zayed Road.",
+          "The Springs is known for its lakeside walking loops, community pools and the nearby Springs Souk for everyday shopping. Meadows offers larger, more private villas in the same managed setting. Both sit close to popular schools such as those in the Emirates Hills and Al Barsha corridors, keeping the school run short.",
+          "Jumeirah Park is the step up in plot size within this cluster, with generous gardens and a family-focused layout, popular with those who want more outdoor space without moving far. Together, this trio suits families who prioritise established greenery, community and value over brand-new finishes."
+        ]
+      },
+      {
+        "heading": "Mudon and Damac Hills: newer homes with big shared amenities",
+        "body": [
+          "Mudon and Damac Hills represent the newer wave of family communities further along the city's southern growth corridor. They tend to offer more contemporary villas and townhouses, often at competitive rents, with amenities designed around active family life.",
+          "Mudon is built around a central park and features cycling and running tracks, community pools and open green space, giving children room to play safely. Damac Hills combines villas with extensive leisure facilities including parks, sports pitches and a golf course, plus its own retail and dining, so much of daily life stays inside the community.",
+          "The main consideration is distance. These areas sit further from the coast and central business districts, so commutes and beach trips are longer, though road links continue to improve. For families who want newer homes, generous shared amenities and better value per square foot, they are well worth shortlisting, provided the school run works from there."
+        ]
+      },
+      {
+        "heading": "Palm Jumeirah: beachfront living for families",
+        "body": [
+          "For families whose top priority is the beach, Palm Jumeirah is the standout choice. The villas on the fronds offer private beach access, gardens and a resort-style setting that few other family communities can match, all within a gated, well-managed island.",
+          "Family life on the Palm blends beach days with the dining, hotels and leisure of the wider island, and it is well connected to the Marina and Media City school corridors, so the school run to popular schools remains realistic. Some families choose spacious apartments here too, though for a family lifestyle the frond villas are the classic pick.",
+          "The honest caveat is price. Palm Jumeirah sits firmly at the premium end for both rent and purchase, and the island can be busy during peak tourist periods. But for families who want to wake up to the sea and treat the beach as an everyday amenity, nothing else in Dubai quite replicates it. It is also one of the strongest long-term addresses if you later decide to buy."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which Dubai neighbourhood is best for families overall?",
+        "answer": "There is no single winner, but Arabian Ranches and Dubai Hills Estate are the two most consistently recommended for families because both are built around schools, parks and safe villa streets. Arabian Ranches suits those wanting an established village feel, while Dubai Hills offers newer homes near a major mall and central location."
+      },
+      {
+        "question": "Where can families find the best value villas in Dubai?",
+        "answer": "The Springs and Meadows generally offer the strongest value among established family communities, with lakeside townhouses and villas at friendlier rents than the newest areas. Mudon and Damac Hills further south can also offer competitive rents on newer homes, though with longer commutes."
+      },
+      {
+        "question": "Which family communities are closest to good schools?",
+        "answer": "Arabian Ranches has JESS within the community, Dubai Hills Estate has GEMS-operated schools nearby, and The Springs and Meadows sit close to schools in the Emirates Hills and Al Barsha corridors. Because Dubai is car-dependent, most families choose their school first and then pick a neighbourhood around it to keep the school run short."
+      },
+      {
+        "question": "Is Palm Jumeirah suitable for families?",
+        "answer": "Yes, particularly for families who prioritise beach access. The frond villas offer private beaches, gardens and a gated setting, with realistic school runs to the Marina and Media City corridors. The main trade-off is a premium price point and busier periods during peak tourist season."
+      },
+      {
+        "question": "Should families rent or buy when moving to Dubai?",
+        "answer": "Many families rent first to test a community, the school run and daily commute before committing to a purchase. Once you know the area fits, buying can make sense given Dubai's tax-friendly ownership. Our team can advise on both, and our communities-for-families buying guide is a good next read."
+      },
+      {
+        "question": "Are Dubai family neighbourhoods safe?",
+        "answer": "The communities in this guide are gated or professionally managed, with quiet, low-traffic and pedestrian-friendly streets, which is a large part of why they attract families. Dubai overall has a strong safety record, and these managed villa communities are among the calmest environments in the city for children."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Best Dubai communities for families",
+        "href": "/blog/best-dubai-communities-for-families-2026"
+      },
+      {
+        "label": "Arabian Ranches property guide",
+        "href": "/areas/arabian-ranches"
+      },
+      {
+        "label": "Dubai Hills Estate property guide",
+        "href": "/areas/dubai-hills-estate"
+      },
+      {
+        "label": "Dubai communities and area guides",
+        "href": "/areas"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "best neighbourhoods in Dubai for families",
+      "family communities Dubai",
+      "Arabian Ranches family living",
+      "Dubai Hills Estate families",
+      "The Springs Dubai",
+      "Palm Jumeirah family villas",
+      "Dubai villas near schools",
+      "where to live in Dubai with kids"
+    ]
+  },
+  {
+    "slug": "ejari-explained-dubai",
+    "title": "Ejari Explained: How to Register Your Tenancy in Dubai",
+    "excerpt": "Ejari is Dubai's official tenancy registration system. Register via Dubai REST or a trustee centre to unlock DEWA, visas and legal protection.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Keys and a signed tenancy contract on a desk, representing Ejari tenancy registration in Dubai",
+      "tone": "#141821"
+    },
+    "intro": "Ejari is Dubai's official tenancy registration system, run by the Dubai Land Department (DLD) under its regulatory arm, RERA. When you sign a lease in Dubai, registering it with Ejari turns a private agreement into a government-recognised record. That record is what unlocks almost everything else: connecting your DEWA electricity and water account, sponsoring a family visa, licensing a business at the address, and filing or defending a rental dispute. You can register in minutes through the Dubai REST app, at an authorised trustee (typing) centre, or via the Ejari service on the DLD website. This guide explains what Ejari is, why it matters, who is responsible, the documents you need, the indicative fee, and how to fix the problems tenants most often hit. Figures below are indicative and change, so confirm current costs before you pay.",
+    "keyTakeaways": [
+      "Ejari is the official tenancy registration system operated by the Dubai Land Department under RERA; registering a lease has been standard practice in the emirate since 2007.",
+      "A valid Ejari certificate is generally required to activate DEWA, sponsor a family visa, licence a business at the address, and access the Rental Disputes Centre.",
+      "By law the landlord is responsible for registration, but that duty is commonly assigned to the agent, property manager, or tenant, so agree who does it in writing.",
+      "You can register online through the Dubai REST app or the DLD website, or in person at an authorised Real Estate Services Trustee Centre.",
+      "Core documents are the signed tenancy contract, the tenant's Emirates ID, a copy of the title deed, and the DEWA premises number.",
+      "Indicative online registration is around AED 177 to AED 180; a trustee centre is typically a little higher; always confirm the current fee before paying."
+    ],
+    "sections": [
+      {
+        "heading": "What Ejari actually is",
+        "body": [
+          "Ejari, which means \"my rent\" in Arabic, is the electronic system that records residential and commercial tenancy contracts in Dubai. It is operated by the Dubai Land Department (DLD) and sits under the Real Estate Regulatory Agency (RERA), the body that regulates the emirate's rental market.",
+          "The purpose is simple: to create a single, transparent register of every lease so that landlords, tenants and government bodies all work from the same official record. Registering a tenancy has been a core part of renting in Dubai since the system was introduced in 2007.",
+          "When registration is complete, the system issues an Ejari certificate carrying a unique Ejari number and a contract reference. That certificate, not the private lease alone, is what most government and utility services ask to see."
+        ]
+      },
+      {
+        "heading": "Why Ejari matters",
+        "body": [
+          "The clearest reason to register is DEWA. An Ejari certificate is generally required to open or transfer your Dubai Electricity and Water Authority account, and the Ejari number is used to verify the tenancy. Without it, getting power and water switched on in your name is difficult.",
+          "Ejari also underpins your residency and family life. It is commonly required when you sponsor a family visa, because the authorities want proof of suitable, registered accommodation at a specific address.",
+          "It matters for business and for protection too. If you want to licence a business at a leased address, an Ejari record of that tenancy is typically needed. And if a dispute arises with your landlord, a registered Ejari contract is usually a precondition for filing a case at the Rental Disputes Centre (RDC). In short, Ejari is the document that gives your tenancy legal standing across Dubai's systems."
+        ]
+      },
+      {
+        "heading": "Who is responsible for registering it",
+        "body": [
+          "Under RERA's tenancy framework, the legal responsibility for registering the contract rests with the landlord. In practice, however, the rules allow that duty to be assigned to a managing agent, a property management company, or the tenant.",
+          "Because of this flexibility, arrangements vary widely. In many deals the tenant ends up handling the paperwork and paying the Ejari fee, particularly for individually owned units. In professionally managed buildings, the landlord's agent or management company often registers it for you.",
+          "The practical takeaway is to agree, in writing, who will register Ejari and who pays the fee before you sign. It avoids the common situation where a tenant assumes the landlord has done it, only to be blocked at the DEWA counter weeks later."
+        ]
+      },
+      {
+        "heading": "How to register, step by step",
+        "body": [
+          "There are three main routes. The most convenient is online through the Dubai REST app, DLD's official smartphone app. You log in, select the Ejari rental contract registration service, enter the tenancy details, upload the required documents, and pay by card. The Ejari certificate is issued electronically once the details are validated.",
+          "You can also register through the Ejari service on the Dubai Land Department website, which follows the same broad flow on desktop.",
+          "The third route is in person at an authorised Real Estate Services Trustee Centre, sometimes still called a typing centre. Staff there enter the contract into the system and issue the certificate on your behalf, which suits people who prefer help with the paperwork or do not have all documents in digital form.",
+          "Whichever route you use, keep the issued Ejari certificate saved as a PDF; you will be asked for the Ejari number repeatedly when setting up other services."
+        ]
+      },
+      {
+        "heading": "Documents and the indicative fee",
+        "body": [
+          "The core documents are consistent across routes: the signed tenancy contract, the tenant's Emirates ID (or passport and visa if the ID is still being processed), a copy of the property's title deed, and the DEWA premises number for the unit. Landlords are also typically identified via their documentation on the contract.",
+          "On cost, indicative figures for online registration through Dubai REST are around AED 177 to AED 180, which bundles the registration charge with small knowledge, innovation and service fees plus VAT. Registering at a trustee centre is usually a little higher, and using a property manager or third party to do it for you can cost more again.",
+          "Treat these numbers as a guide only. Government fees and service charges are updated from time to time, so confirm the current amount on the official channel before you pay. For authoritative details, check the Dubai Land Department and the UAE Government portal at u.ae."
+        ]
+      },
+      {
+        "heading": "Renewal and troubleshooting",
+        "body": [
+          "Ejari is tied to the tenancy period, so when you renew your lease you generally renew or re-register the Ejari record too, using the renewed contract. Keeping it current matters, because an out-of-date Ejari can hold up visa renewals and other services that check the register.",
+          "The most common problem is a mismatch: the DEWA premises number, the plot or unit details, or a name is entered incorrectly, and the certificate will not issue. Double-check these against your title deed and DEWA paperwork before submitting.",
+          "Another frequent issue is a landlord who has not registered, or an agent who says it is done but cannot produce the certificate. Ask for the Ejari number and the PDF certificate directly; if it genuinely exists you should be able to verify it. If registration is being refused or delayed unfairly, the Rental Disputes Centre is the formal channel.",
+          "If you are relocating and want this handled cleanly alongside DEWA, movers and the wider setup, our team can point you to the right steps. This article is general information, not legal advice; confirm current rules, fees and requirements through official Dubai Land Department channels before acting."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Ejari in simple terms?",
+        "answer": "Ejari is Dubai's official system for registering tenancy contracts. Run by the Dubai Land Department under RERA, it turns your private lease into a government-recognised record and issues an Ejari certificate with a unique number that other services rely on."
+      },
+      {
+        "question": "Do I really need Ejari?",
+        "answer": "For most tenants, yes. A valid Ejari certificate is generally required to activate your DEWA electricity and water account, sponsor a family visa, licence a business at the address, and file a case at the Rental Disputes Centre, so it is hard to function without one."
+      },
+      {
+        "question": "Who pays for Ejari, the landlord or the tenant?",
+        "answer": "By law the landlord is responsible for registering the contract, but the duty and the fee are commonly passed to the agent, property manager, or tenant. It varies by deal, so agree in writing who registers and who pays before you sign."
+      },
+      {
+        "question": "How do I register Ejari online?",
+        "answer": "Use the Dubai REST app or the Dubai Land Department website. Select the Ejari rental contract registration service, enter the tenancy details, upload your documents, and pay by card. The certificate is issued electronically once the details are validated."
+      },
+      {
+        "question": "What documents do I need for Ejari?",
+        "answer": "Typically the signed tenancy contract, the tenant's Emirates ID (or passport and visa if the ID is pending), a copy of the property's title deed, and the DEWA premises number for the unit. Requirements can change, so confirm before you start."
+      },
+      {
+        "question": "How much does Ejari cost?",
+        "answer": "As an indicative guide, online registration through Dubai REST is around AED 177 to AED 180, and a trustee centre is usually a little higher. Fees are updated from time to time, so confirm the current amount on the official channel before paying."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Renting in Dubai: the complete tenant's guide",
+        "href": "/blog/renting-in-dubai-tenant-guide"
+      },
+      {
+        "label": "How to set up DEWA in Dubai",
+        "href": "/blog/how-to-set-up-dewa-dubai"
+      },
+      {
+        "label": "Moving to Dubai: relocation checklist",
+        "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "Ejari",
+      "Ejari registration Dubai",
+      "how to register Ejari",
+      "Dubai REST app",
+      "tenancy contract Dubai",
+      "Ejari fee",
+      "DEWA Ejari",
+      "RERA tenancy registration"
+    ]
+  },
+  {
+    "slug": "how-much-deposit-to-rent-in-dubai",
+    "title": "How Much Deposit Do You Need to Rent in Dubai?",
+    "excerpt": "Budget a refundable security deposit of about 5% of annual rent for unfurnished homes (often 10% furnished), plus commission and setup fees.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 7,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10593631/pexels-photo-10593631.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Keys resting on a signed tenancy contract beside a calculator on a bright desk in a Dubai apartment",
+      "tone": "#141821"
+    },
+    "intro": "To rent in Dubai you typically pay a refundable security deposit of about 5% of the annual rent for an unfurnished home, and often around 10% for a furnished one. That deposit is not the only upfront cash, though. On top of it you usually budget a one-off agency commission of about 5% plus VAT, your first rent cheque, a refundable DEWA utility deposit, and a small Ejari registration fee. Landlords in Dubai are paid the full year in advance, split across 1 to 4 cheques, so the first cheque is often the largest single line. All the figures below are market conventions and indicative rather than fixed by a single law, so confirm the exact numbers in your tenancy contract before you sign.",
+    "keyTakeaways": [
+      "The security deposit is usually about 5% of annual rent for unfurnished homes and often around 10% for furnished ones.",
+      "The deposit is refundable at the end of the tenancy, subject to the property being returned in good condition allowing for fair wear and tear.",
+      "Agency commission is typically about 5% of the annual rent plus 5% VAT, paid once.",
+      "Annual rent is paid in advance, usually via 1 to 4 cheques; fewer cheques often means a lower headline rent.",
+      "You also budget a refundable DEWA utility deposit (around AED 2,000 for an apartment) and an Ejari registration fee of roughly AED 220.",
+      "All figures here are indicative market conventions, so always confirm the exact amounts in writing before signing."
+    ],
+    "sections": [
+      {
+        "heading": "The security deposit: about 5% unfurnished, often 10% furnished",
+        "body": [
+          "The security deposit is the number most tenants mean when they ask how much deposit they need. In Dubai the widely used convention is about 5% of the annual rent for an unfurnished property, and often around 10% for a furnished one, because a furnished home carries more items that can be damaged.",
+          "So on an unfurnished apartment renting at AED 120,000 a year, a 5% deposit is AED 6,000. On a furnished home at the same rent, a 10% deposit would be AED 12,000.",
+          "This deposit is held by the landlord or agent for the duration of your tenancy. It is not an extra fee and it is not the same as rent. It is security against damage or unpaid obligations, and it is meant to come back to you."
+        ]
+      },
+      {
+        "heading": "Is the deposit refundable? Yes, subject to condition",
+        "body": [
+          "The security deposit is refundable at the end of the tenancy, provided you return the property in the condition you received it, allowing for fair wear and tear. Landlords commonly aim to return it within about 30 days of the lease ending, once the property has been checked and final utility bills settled.",
+          "Deductions can be made for genuine damage beyond normal use, unpaid rent, or outstanding bills. To protect yourself, photograph the property at move-in, keep the inventory or condition report, and get any agreed deductions itemised in writing.",
+          "Because the deposit is returnable, it is best thought of as cash you get back rather than money you spend, but you still need it available on day one."
+        ]
+      },
+      {
+        "heading": "Agency commission and VAT",
+        "body": [
+          "Most Dubai lettings involve an agent, and the standard commission is typically about 5% of the annual rent, plus 5% VAT on that commission. It is a one-off cost paid when you sign, not an annual charge.",
+          "On an annual rent of AED 120,000, a 5% commission is AED 6,000, and adding 5% VAT brings it to about AED 6,300.",
+          "The 5% figure is a market convention rather than a rate fixed in law, so it can sometimes be negotiated, particularly on higher-value or longer leases. Always confirm the commission and whether VAT is included before you commit."
+        ]
+      },
+      {
+        "heading": "Rent cheques: paying the year in advance",
+        "body": [
+          "Dubai landlords are paid the full annual rent up front, spread across a number of post-dated cheques, usually between 1 and 4. One cheque means paying the whole year at once; four cheques splits it into quarterly payments.",
+          "Fewer cheques give the landlord more certainty, so single-cheque deals often come with a lower headline rent, while four-cheque terms cost a little more but ease cash flow.",
+          "Whatever the split, the first cheque is due at signing and is often your single largest upfront line. On AED 120,000 a year, that is the full AED 120,000 on a single cheque, or AED 30,000 as the first of four."
+        ]
+      },
+      {
+        "heading": "DEWA deposit and the Ejari fee",
+        "body": [
+          "Before you can switch on power and water you register with DEWA, the Dubai utility provider. This involves a refundable deposit, commonly around AED 2,000 for an apartment and about AED 4,000 for a villa, plus a small activation fee (roughly AED 130) and VAT. The deposit comes back when you close the account.",
+          "You also register the tenancy through Ejari, the official system that records your contract with the Dubai Land Department. Filing yourself online is inexpensive, often in the region of AED 180 to AED 220; a trustee centre costs a little more.",
+          "Practices on who pays the Ejari fee vary, so confirm it with your agent. Separately, note the 5% housing fee tied to your rent, which is billed gradually through your monthly DEWA account rather than paid upfront."
+        ]
+      },
+      {
+        "heading": "A worked example: total upfront cash",
+        "body": [
+          "Take an unfurnished apartment at an annual rent of AED 120,000, rented through an agent. Here is an indicative view of the cash you would need at the start.",
+          "One-off and refundable extras: security deposit at 5% is AED 6,000 (refundable); agency commission at 5% plus VAT is about AED 6,300; DEWA deposit is about AED 2,000 (refundable) plus roughly AED 130 activation; Ejari registration is about AED 220. That subtotal is around AED 14,650.",
+          "Add the first rent cheque. On a single-cheque deal you pay the full AED 120,000, giving a total of about AED 134,650 on day one. On a four-cheque deal your first cheque is AED 30,000, so the total upfront is about AED 44,650, with the remaining cheques post-dated across the year.",
+          "These numbers are illustrative. Your actual costs depend on the rent, whether the home is furnished, the cheque split, and what your contract specifies, so treat this as a planning guide and confirm every figure in writing."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much is the security deposit to rent in Dubai?",
+        "answer": "It is typically about 5% of the annual rent for an unfurnished property and often around 10% for a furnished one. On an unfurnished home at AED 120,000 a year, that is roughly AED 6,000. These are market conventions, so confirm the exact figure in your contract."
+      },
+      {
+        "question": "Is the rental deposit refundable?",
+        "answer": "Yes. The security deposit is refundable at the end of the tenancy, provided you return the property in good condition allowing for fair wear and tear, with rent and bills settled. Landlords typically aim to return it within about 30 days of the lease ending."
+      },
+      {
+        "question": "What other upfront costs are there besides the deposit?",
+        "answer": "Budget for agency commission of about 5% plus VAT, your first rent cheque (the annual rent is paid in advance via 1 to 4 cheques), a refundable DEWA utility deposit of around AED 2,000 for an apartment, and an Ejari registration fee of roughly AED 220."
+      },
+      {
+        "question": "How much is agency commission when renting?",
+        "answer": "The standard commission is typically about 5% of the annual rent, plus 5% VAT, paid once at signing. On AED 120,000 a year that is about AED 6,300. The 5% rate is a convention rather than a fixed legal rate, so it can sometimes be negotiated."
+      },
+      {
+        "question": "What is the DEWA deposit for a rental?",
+        "answer": "DEWA requires a refundable deposit to activate water and electricity, commonly around AED 2,000 for an apartment and about AED 4,000 for a villa, plus a small activation fee and VAT. The deposit is returned when you close the account at the end of the tenancy."
+      },
+      {
+        "question": "How much total cash do I need to rent an apartment in Dubai?",
+        "answer": "As an indicative example, on an AED 120,000 unfurnished apartment expect around AED 14,650 in deposits and fees plus your first rent cheque. That is roughly AED 44,650 upfront on a four-cheque plan, or about AED 134,650 if you pay the full year in one cheque."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Renting in Dubai: the complete tenant's guide",
+        "href": "/blog/renting-in-dubai-tenant-guide"
+      },
+      {
+        "label": "Cost of living in Dubai 2026",
+        "href": "/blog/cost-of-living-in-dubai"
+      },
+      {
+        "label": "Browse current listings",
+        "href": "/listings"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "how much deposit to rent in Dubai",
+      "Dubai rental security deposit",
+      "renting in Dubai upfront costs",
+      "Dubai agency commission rent",
+      "DEWA deposit Dubai",
+      "Ejari registration fee",
+      "Dubai rent cheques",
+      "cost to rent apartment Dubai"
+    ]
+  },
+  {
+    "slug": "renting-in-dubai-tenant-guide",
+    "title": "Renting in Dubai: The Complete Tenant's Guide (2026)",
+    "excerpt": "Renting in Dubai means a RERA tenancy contract, an Ejari registration, a deposit of about 5%, and rent paid in 1 to 4 cheques.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-08-28",
+    "updatedAt": "2026-08-28",
+    "readingMinutes": 9,
+    "heroImage": {
+      "url": "https://images.pexels.com/photos/10486073/pexels-photo-10486073.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "A bright, furnished Dubai apartment living room with floor-to-ceiling windows overlooking the city skyline",
+      "tone": "#141821"
+    },
+    "intro": "Renting in Dubai works through a written RERA tenancy contract that you register on Ejari, the government's official lease system. You find a home through property portals or a RERA-registered agent, sign the contract, and pay upfront costs: a refundable security deposit of roughly 5% of the annual rent for unfurnished homes (around 10% for furnished), an agency fee of about 5% plus VAT, and the rent itself, usually split across 1 to 4 post-dated cheques. Utilities are set up separately with DEWA, which takes its own refundable deposit. Rent increases at renewal are capped by law and tied to the RERA Smart Rental Index, and tenants are protected by clear notice rules and the Rental Dispute Centre. Figures below are indicative and vary by community, building, and landlord.",
+    "keyTakeaways": [
+      "Every Dubai tenancy should be a written RERA contract registered on Ejari; renewals should be registered too.",
+      "Budget upfront for a deposit of about 5% of annual rent (roughly 10% if furnished), an agency fee near 5% plus VAT, and rent in 1 to 4 cheques.",
+      "Rent increases at renewal are capped under Decree 43 of 2013 and benchmarked against the RERA Smart Rental Index.",
+      "A landlord who wants to raise the rent must give written notice at least 90 days before renewal.",
+      "Eviction to sell or move in generally needs 12 months' notice by notary or registered mail.",
+      "The Rental Dispute Centre (RDC) is a low-cost, fast route to resolve landlord-tenant disagreements."
+    ],
+    "sections": [
+      {
+        "heading": "How renting in Dubai works",
+        "body": [
+          "Dubai's rental market is largely annual. You typically sign a one-year tenancy contract, pay the year's rent in a small number of post-dated cheques, and register the lease on Ejari so it is officially recognised. This structure is normal across apartments, villas, and townhouses, whether you rent in a freehold community or a leasehold area.",
+          "The rules governing tenancies come from Dubai's rental laws (notably Law No. 26 of 2007 and its amendments) and are administered by RERA, part of the Dubai Land Department. These laws set out how contracts work, when and by how much rent can rise, and how disputes are settled. As a tenant you have real, enforceable protections, so it is worth understanding them before you sign.",
+          "Almost everything is now digital. Ejari registration, DEWA connections, and many landlord communications happen online or through apps, and government services are increasingly consolidated. Always keep copies of your signed contract, Ejari certificate, receipts, and cheque records."
+        ]
+      },
+      {
+        "heading": "Finding a property: portals and agents",
+        "body": [
+          "Most tenants start on the major property portals, where listings show rent, bedroom count, community, and whether the home is furnished or unfurnished. Listings can be duplicated or slightly out of date, so treat the advertised rent as a starting point and always view in person before committing.",
+          "Working with a RERA-registered agent can save time, especially if you are new to the city or targeting a specific community. A good agent shortlists suitable homes, arranges viewings, and helps with the paperwork. Ask to see the agent's RERA card and confirm the agency fee in writing before you proceed.",
+          "When you view, check the practical details: air-conditioning type and who pays for cooling, parking, community or service charges (usually the landlord's responsibility for tenants, but confirm), maintenance arrangements, and the condition of appliances. Photograph anything already damaged so it is documented from day one."
+        ]
+      },
+      {
+        "heading": "The tenancy contract and Ejari",
+        "body": [
+          "Once you agree terms, you sign a tenancy contract that sets out the rent, the term, the payment schedule, and each party's responsibilities. Read it carefully. Pay attention to clauses on maintenance, early termination, renewal, and any penalties, and make sure the details match what you agreed verbally.",
+          "The contract should then be registered on Ejari, Dubai's official system for logging tenancy contracts. Ejari registration makes your tenancy legally recognised and is required for practical steps such as connecting utilities, sponsoring family visas, and filing any case at the Rental Dispute Centre. Renewals should be registered as well, not just the first year.",
+          "Registration is usually straightforward and low-cost, and can be completed through approved channels or online. Responsibility for registering is often placed on the landlord or agent, but as the tenant you have the strongest interest in making sure it is done, so ask for the Ejari certificate and keep it safe."
+        ]
+      },
+      {
+        "heading": "Upfront costs to budget for",
+        "body": [
+          "Plan for several payments at the start of a tenancy. A refundable security deposit is standard, indicatively around 5% of the annual rent for an unfurnished home and often about 10% for a furnished one. It is returned at the end of the tenancy, less the cost of any damage beyond fair wear and tear, so document the property's condition when you move in.",
+          "An agency fee is common where an agent is involved, typically in the region of 5% of the annual rent plus VAT, though the exact amount can vary and is sometimes capped on individual deals. Confirm the figure in writing before you sign.",
+          "The rent itself is usually paid by post-dated cheques, commonly split into 1 to 4 cheques for the year. Fewer cheques can strengthen your negotiating position on the headline rent, while more cheques ease cash flow but may come with a slightly higher rent. You will also need a DEWA deposit for utilities (see below). All figures here are indicative and depend on the community, the building, and the individual landlord."
+        ]
+      },
+      {
+        "heading": "Rent increases, the RERA index, and notice periods",
+        "body": [
+          "Landlords cannot raise the rent freely at renewal. Increases are capped under Decree No. 43 of 2013 and benchmarked against the RERA rental index, which in recent years has moved to the Smart Rental Index, a more granular system that assesses individual buildings rather than broad averages. The principle is that the further your current rent sits below the market benchmark, the larger the permitted increase.",
+          "As a widely cited guide to the ladder: if your rent is no more than 10% below the index, no increase is allowed; between 11% and 20% below, up to 5%; between 21% and 30% below, up to 10%; between 31% and 40% below, up to 15%; and more than 40% below, up to 20%. Treat these bands as indicative and always check the current official calculator, as the methodology and figures are periodically updated.",
+          "Crucially, a landlord who intends to change any term, including raising the rent, must give written notice at least 90 days before the renewal date, unless you both agree otherwise. If that notice is not given, the previous terms generally continue. You can use the Dubai Land Department's online calculator to check whether a proposed increase is permitted before you accept it."
+        ]
+      },
+      {
+        "heading": "Tenant rights, utilities, and moving in and out",
+        "body": [
+          "Your tenancy gives you security beyond the rent cap. To end a tenancy in order to sell the property or move in a close family member, a landlord generally must give 12 months' written notice served through a notary public or registered mail; an email or a message is not sufficient. If you and your landlord disagree, either party can take the matter to the Rental Dispute Centre (RDC), a specialist body designed to resolve rental disputes quickly and at relatively low cost.",
+          "For utilities, you set up your own account with DEWA (Dubai Electricity and Water Authority), which supplies power and water and charges a refundable deposit, indicatively around AED 2,000 for an apartment and AED 4,000 for a villa, plus small connection and housing fees. Some communities also use district cooling providers billed separately, so ask how cooling is charged before you sign.",
+          "When you move in, complete a condition check and photograph any existing damage. Keep the property well maintained and report faults promptly. When you move out, give the notice your contract requires, settle final DEWA and cooling bills, clear the property, and provide clearance so your security deposit can be returned, less any legitimate deductions. Good records at both ends make the deposit return far smoother."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to register my tenancy on Ejari?",
+        "answer": "Yes. Registering your tenancy contract on Ejari is how the lease becomes officially recognised, and it is needed for practical steps such as connecting utilities, sponsoring family visas, and filing any case at the Rental Dispute Centre. Renewals should be registered too. Keep the Ejari certificate with your other documents."
+      },
+      {
+        "question": "How much deposit do I need to rent in Dubai?",
+        "answer": "Indicatively, the security deposit is around 5% of the annual rent for an unfurnished home and often about 10% for a furnished one. It is refundable at the end of the tenancy, less the cost of any damage beyond fair wear and tear. Document the property's condition when you move in to protect your deposit."
+      },
+      {
+        "question": "How is the rent usually paid?",
+        "answer": "Rent is typically paid by post-dated cheques, commonly split into 1 to 4 cheques for the year. Fewer cheques can help you negotiate a lower headline rent, while more cheques ease cash flow but sometimes come with a slightly higher rent. Confirm the exact schedule in the tenancy contract."
+      },
+      {
+        "question": "Can my landlord increase the rent every year?",
+        "answer": "Only within limits. Increases are capped under Decree 43 of 2013 and tied to the RERA rental index: the further your rent sits below the benchmark, the larger the permitted rise, up to a maximum. If your rent is close to the index, no increase may be allowed. Check the current official calculator to confirm what is permitted."
+      },
+      {
+        "question": "How much notice does a landlord need to raise the rent?",
+        "answer": "A landlord who wants to change any term, including raising the rent, must give written notice at least 90 days before the renewal date, unless you both agree otherwise. If that notice is not given, the existing terms generally continue into the next term."
+      },
+      {
+        "question": "What can I do if I have a dispute with my landlord?",
+        "answer": "You can refer the matter to the Rental Dispute Centre (RDC), a specialist body that handles landlord-tenant disputes relatively quickly and at low cost. It is worth keeping your contract, Ejari certificate, receipts, and written communications so you have clear evidence if a disagreement arises."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Ejari explained: registering your tenancy",
+        "href": "/blog/ejari-explained-dubai"
+      },
+      {
+        "label": "How much deposit do you need to rent in Dubai?",
+        "href": "/blog/how-much-deposit-to-rent-in-dubai"
+      },
+      {
+        "label": "Dubai communities and area guides",
+        "href": "/areas"
+      },
+      {
+        "label": "Speak to our team",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "renting in Dubai",
+      "Dubai tenancy contract",
+      "Ejari registration",
+      "RERA rental index",
+      "Dubai rent increase rules",
+      "Dubai security deposit",
+      "tenant rights Dubai",
+      "DEWA deposit"
+    ]
+  },
 ];
