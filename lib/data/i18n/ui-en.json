@@ -1141,5 +1141,30 @@
     "byTypeHeading": "Average price by property type",
     "colType": "Type",
     "colCount": "Sales"
+  },
+  "marketIndex": {
+    "eyebrow": "The EQT Dubai Market Index",
+    "heading": "The Dubai prime market, in real numbers",
+    "intro": "Research-grade statistics for Dubai's prime property market, compiled from Dubai Land Department transaction data. Price per square foot, year-on-year change, transaction volume and rental yield, city-wide and by community.",
+    "updated": "Updated {date}",
+    "source": "Source: {source}",
+    "statPricePerSqft": "Avg price",
+    "statYoy": "Year on year",
+    "statTransactions": "Transactions",
+    "statVolume": "Total transacted",
+    "statYield": "Avg gross yield",
+    "statDaysOnMarket": "Avg days on market",
+    "statApartmentSqft": "Apartments",
+    "statVillaSqft": "Villas",
+    "byAreaHeading": "By prime community",
+    "colCommunity": "Community",
+    "colPricePerSqft": "Price / sq ft",
+    "colYoy": "YoY",
+    "colYield": "Gross yield",
+    "colDays": "Days on market",
+    "colTransactions": "Sales",
+    "perSqft": "/ sq ft",
+    "days": "days",
+    "disclaimer": "Figures compiled by EQT from Dubai Land Department transaction data and are indicative, not a valuation. Last updated {date}."
   }
 }

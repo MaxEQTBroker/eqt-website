@@ -11,6 +11,8 @@ import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { formatAed } from "@/lib/format";
 import { site, whatsappLink } from "@/lib/site";
 import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
+import { DUBAI_MARKET } from "@/lib/data/dubaiMarketStats";
+import { MarketIndex, type MarketIndexCopy } from "@/components/market/MarketIndex";
 
 type MarketCopy = {
   metaTitle: string; metaDescription: string; breadcrumb: string; eyebrow: string; h1: string;
@@ -144,6 +146,16 @@ export default async function MarketPage({
         </div>
         <p className="mt-4 text-xs text-faint">{c.disclaimer}</p>
       </section>
+
+      {/* EQT Dubai Market Index: research-grade stats (renders only when the
+          dxbinteract-sourced data in dubaiMarketStats.ts is populated). */}
+      {DUBAI_MARKET && (
+        <MarketIndex
+          data={DUBAI_MARKET}
+          copy={uiContent<MarketIndexCopy>("marketIndex", locale)}
+          path={locale === "en" ? "/market" : `/${locale}/market`}
+        />
+      )}
 
       {/* Community table */}
       {rows.length > 0 && (
