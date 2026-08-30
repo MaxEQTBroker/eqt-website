@@ -9,6 +9,7 @@ import { uiContent } from "@/lib/data/i18n/ui";
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { ShareButtons, type ShareCopy } from "@/components/blog/ShareButtons";
+import { DubaiResilienceCharts } from "@/components/blog/DubaiResilienceCharts";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
@@ -172,6 +173,9 @@ export default async function BlogPostPage({
               </ul>
             </div>
           )}
+
+          {/* Custom data charts for the resilience article (visual proof, high up). */}
+          {slug === "dubai-real-estate-covid-vs-gulf-crisis-resilience" && <DubaiResilienceCharts />}
 
           {/* Table of contents (longer guides only) */}
           {post.sections.length >= 4 && (
