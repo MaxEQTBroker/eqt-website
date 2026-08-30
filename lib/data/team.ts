@@ -55,11 +55,11 @@ export const team: TeamMember[] = [
   {
     slug: "alexandra-shukhovtseva",
     name: "Alexandra Shukhovtseva",
-    role: "Broker",
+    role: "Broker / Off-Plan Specialist",
     photo: "/team/alexandra-shukhovtseva.jpg",
     languages: "English, Russian",
-    areas: "Business Bay, Jumeirah Lake Towers",
-    bio: "Alexandra Shukhovtseva is a licensed broker with more than seven years in Dubai real estate sales and leasing. Working in English and Russian, Alexandra specialises in Business Bay and Jumeirah Lake Towers, and is known for a smooth, transparent process, treating each property decision as part of a client's wider lifestyle and long-term financial goals.",
+    areas: "Off-plan and new developments across Dubai",
+    bio: "Alexandra Shukhovtseva is EQT's off-plan specialist, with more than seven years in Dubai real estate. Working in English and Russian, Alexandra guides buyers and investors through Dubai's new developments and launches, from choosing the right project and payment plan to a smooth handover. She is known for a patient, transparent process, treating each off-plan purchase as part of a client's wider lifestyle and long-term financial goals.",
   },
   {
     slug: "turgun-massenova",
@@ -73,10 +73,20 @@ export const team: TeamMember[] = [
   {
     slug: "asra-baig",
     name: "Asra Baig",
-    role: "Broker",
+    role: "Senior Broker",
     photo: "/team/asra-baig.jpg",
     languages: "English, Hindi, Urdu",
     areas: "Downtown Dubai, Business Bay",
     bio: "Asra Baig is a RERA-licensed broker with over five years in Dubai real estate. Speaking English, Hindi and Urdu among other languages, Asra focuses on Downtown Dubai and Business Bay, and is known for transparent communication and seamless transactions from the first viewing to final handover.",
+  },
+  {
+    slug: "carlos-abou-rjeily",
+    name: "Carlos Abou Rjeily",
+    role: "Senior Broker",
+    photo: "/team/carlos-abou-rjeily.jpg",
+    brn: "49189",
+    languages: "English, Arabic",
+    areas: "Palm Jumeirah",
+    bio: "Carlos Abou Rjeily is a RERA-licensed broker (BRN 49189) with over 13 years in Dubai real estate. Speaking English and Arabic, Carlos specialises in luxury villas on Palm Jumeirah, combining deep local market knowledge with a client-first approach that builds lasting relationships and referrals.",
   },
 ];
