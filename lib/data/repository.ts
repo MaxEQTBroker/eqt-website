@@ -200,6 +200,35 @@ export async function getAllListingSlugs(): Promise<string[]> {
 /** Sold records whose first photo is a blank/marble placeholder to be dropped. */
 const SOLD_DROP_FIRST_PHOTO = new Set<string>(["EQT-3096", "EQT-3122"]);
 
+/** Sold references to hide entirely from the site (list, detail, sitemap). */
+const SOLD_EXCLUDE = new Set<string>(["EQT-3096"]);
+
+/** Manual field corrections for specific sold records (override CRM values). */
+const SOLD_OVERRIDES: Record<string, Partial<SoldRecord>> = {
+  "EQT-3092": { bedrooms: 4 },
+};
+
+/** Drop hidden records and apply manual field overrides to a sold source list. */
+function applySoldOverrides(records: SoldRecord[]): SoldRecord[] {
+  return records
+    .filter((s) => !SOLD_EXCLUDE.has(s.reference))
+    .map((s) => {
+      const ov = SOLD_OVERRIDES[s.reference];
+      if (!ov) return s;
+      const next = { ...s, ...ov };
+      // Keep the title's bedroom count in sync with an overridden bedrooms value.
+      if (ov.bedrooms != null && next.title) {
+        next.title = next.title.replace(/\b\d+\s*-?\s*(bed(?:room)?s?)\b/i, `${ov.bedrooms} $1`);
+      }
+      return next;
+    });
+}
+
+/** Sold records (CRM when configured, mock otherwise) with overrides applied. */
+async function soldSource(): Promise<SoldRecord[]> {
+  return applySoldOverrides((await fetchSoldFromCRM()) ?? mockSold);
+}
+
 async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
   const url = process.env.CRM_SOLD_URL;
   if (!url) return null;
@@ -261,7 +290,7 @@ async function fetchSoldFromCRM(): Promise<SoldRecord[] | null> {
 
 export async function getSoldRecords(query: SoldQuery = {}): Promise<SoldRecord[]> {
   // Real CRM data when configured; mock data otherwise (for demo/preview).
-  const source = (await fetchSoldFromCRM()) ?? mockSold;
+  const source = await soldSource();
   return source
     .filter((s) => (!query.area || s.area === query.area))
     .filter((s) =>
@@ -281,13 +310,13 @@ export async function getSoldTeaser(limit = 3): Promise<SoldRecord[]> {
 export async function getSoldByReference(
   reference: string,
 ): Promise<SoldRecord | null> {
-  const all = (await fetchSoldFromCRM()) ?? mockSold;
+  const all = await soldSource();
   return all.find((s) => s.reference === reference) ?? null;
 }
 
 /** All sold references that can back a detail page (non-empty). */
 export async function getAllSoldReferences(): Promise<string[]> {
-  const all = (await fetchSoldFromCRM()) ?? mockSold;
+  const all = await soldSource();
   return all.map((s) => s.reference).filter(Boolean);
 }
 

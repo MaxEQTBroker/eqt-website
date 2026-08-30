@@ -113,9 +113,12 @@ export function Header() {
               href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[0.72rem] font-medium uppercase tracking-[0.24em] transition-opacity hover:opacity-60"
-              style={{ color: barColor }}
+              aria-label={`${tc("inquire")} on WhatsApp`}
+              className="inline-flex items-center gap-1.5 rounded-full bg-[#25D366] px-3 py-1 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-white shadow-sm transition-colors hover:bg-[#1ebe5b]"
             >
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
+                <path d="M12 0a11.9 11.9 0 0 0-10.2 18l-1.8 6 6.2-1.6A11.9 11.9 0 1 0 12 0zm0 21.8c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 1 1 12 21.8zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.6-2c-.2-.3 0-.4.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.1 4.6 2.5 1 3 .8 3.6.8.5 0 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.4z" />
+              </svg>
               {tc("inquire")}
             </a>
           )}
