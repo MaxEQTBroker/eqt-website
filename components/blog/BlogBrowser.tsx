@@ -66,11 +66,11 @@ export function BlogBrowser({ posts, copy }: { posts: BlogCard[]; copy: BrowserC
   return (
     <div>
       {/* Toolbar: search + section chips */}
-      <div className="sticky top-20 z-30 border-y border-line bg-base">
-        <div className="container-lux flex flex-col gap-4 py-4">
-          <div className="relative w-full sm:max-w-md">
+      <div className="sticky top-20 z-30 border-y border-line bg-base/95 backdrop-blur">
+        <div className="container-lux flex flex-col gap-2 py-2.5">
+          <div className="relative w-full sm:max-w-xs">
             <svg
-              className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-faint"
+              className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-faint"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"
             >
               <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
@@ -81,10 +81,10 @@ export function BlogBrowser({ posts, copy }: { posts: BlogCard[]; copy: BrowserC
               onChange={(e) => reset(() => setQ(e.target.value))}
               placeholder={copy.searchPlaceholder}
               aria-label={copy.searchPlaceholder}
-              className="w-full rounded-full border border-line bg-elevated py-2.5 pl-11 pr-4 text-sm text-ink outline-none transition-colors placeholder:text-faint focus:border-accent-500"
+              className="w-full rounded-full border border-line bg-elevated py-1.5 pl-9 pr-3 text-[13px] text-ink outline-none transition-colors placeholder:text-faint focus:border-accent-500"
             />
           </div>
-          <div className="flex flex-wrap gap-2" role="tablist" aria-label={copy.searchPlaceholder}>
+          <div className="flex flex-wrap gap-1.5" role="tablist" aria-label={copy.searchPlaceholder}>
             <Chip active={section === "all"} onClick={() => reset(() => setSection("all"))} label={copy.all} count={posts.length} />
             {copy.sections.map((s) => {
               const count = sectionCounts.get(s.key) ?? 0;
@@ -152,7 +152,7 @@ function Chip({ active, onClick, label, count }: { active: boolean; onClick: () 
       role="tab"
       aria-selected={active}
       onClick={onClick}
-      className={`whitespace-nowrap rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+      className={`whitespace-nowrap rounded-full border px-3 py-1 text-[13px] font-medium leading-5 transition-colors ${
         active
           ? "border-accent-500 bg-accent-500 text-on-accent"
           : "border-line bg-elevated text-ink hover:border-accent-500 hover:text-accent-600"
