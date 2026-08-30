@@ -89,4 +89,18 @@ export const team: TeamMember[] = [
     areas: "Palm Jumeirah",
     bio: "Carlos Abou Rjeily is a RERA-licensed broker (BRN 49189) with over 13 years in Dubai real estate. Speaking English and Arabic, Carlos specialises in luxury villas on Palm Jumeirah, combining deep local market knowledge with a client-first approach that builds lasting relationships and referrals.",
   },
+  {
+    slug: "nazim-abidov",
+    name: "Nazim Abidov",
+    role: "Senior Broker",
+    photo: "/team/nazim-abidov.jpg",
+    bio: "Nazim Abidov is a broker at EQT Real Estate, advising buyers, sellers and investors across Dubai's property market. Nazim pairs a client-first, consultative approach with close attention to detail, guiding clients discreetly and personally from the first viewing through to a smooth handover.",
+  },
+  {
+    slug: "glenda-doblada",
+    name: "Glenda Doblada",
+    role: "Office Administrator",
+    photo: "/team/glenda-doblada.jpg",
+    bio: "Glenda Aviles Doblada is the office administrator at EQT Real Estate. Glenda keeps the brokerage running smoothly, supporting the team and clients with day to day administration, coordination and client onboarding. Warm, organised and detail focused, she makes sure every enquiry is handled promptly and every visitor to EQT feels well looked after.",
+  },
 ];
