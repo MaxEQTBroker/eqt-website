@@ -61,7 +61,7 @@ export function Header() {
         borderBottom: !open && scrolled ? "1px solid var(--line)" : "1px solid transparent",
       }}
     >
-      <div className="container-lux relative z-50 flex h-14 items-center justify-between">
+      <div className="container-lux relative z-50 flex h-11 items-center justify-between">
         {/* Left, Menu toggle */}
         <button
           type="button"
@@ -95,8 +95,8 @@ export function Header() {
           aria-label={`${site.name} home`}
           onClick={() => setOpen(false)}
         >
-          <Image src="/brand/logo-mark.png" alt="EQT logo" width={24} height={24} priority className="h-6 w-6" />
-          <span className="font-display text-xl leading-none tracking-[0.32em]" style={{ color: barColor }}>
+          <Image src="/brand/logo-mark.png" alt="EQT logo" width={20} height={20} priority className="h-5 w-5" />
+          <span className="font-display text-lg leading-none tracking-[0.3em]" style={{ color: barColor }}>
             {site.name}
           </span>
         </Link>
