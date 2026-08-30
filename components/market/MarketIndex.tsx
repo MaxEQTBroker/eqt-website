@@ -1,3 +1,4 @@
+import { Link } from "@/i18n/navigation";
 import type { DubaiMarketIndex } from "@/lib/data/dubaiMarketStats";
 import { site } from "@/lib/site";
 
@@ -8,6 +9,7 @@ export type MarketIndexCopy = {
   updated: string; // "Updated {date}"
   source: string; // "Source: {source}"
   statPricePerSqft: string;
+  statMedianPrice: string;
   statYoy: string;
   statTransactions: string;
   statVolume: string;
@@ -60,14 +62,15 @@ export function MarketIndex({ data, copy, path }: { data: DubaiMarketIndex; copy
   };
 
   const tiles = [
-    { label: copy.statPricePerSqft, value: aed(city.avgPricePerSqftAed), sub: copy.perSqft },
+    { label: copy.statPricePerSqft, value: aed(city.avgPricePerSqftAed) },
+    ...(city.medianPriceAed != null ? [{ label: copy.statMedianPrice, value: aed(city.medianPriceAed) }] : []),
     ...(city.yoyPriceChangePct != null ? [{ label: copy.statYoy, value: pct(city.yoyPriceChangePct) }] : []),
     { label: copy.statTransactions, value: city.transactions.toLocaleString("en-AE") },
-    { label: copy.statVolume, value: aed(city.totalVolumeAed) },
     ...(city.avgRentalYieldPct != null ? [{ label: copy.statYield, value: `${city.avgRentalYieldPct}%` }] : []),
+    ...(city.totalVolumeAed != null ? [{ label: copy.statVolume, value: aed(city.totalVolumeAed) }] : []),
     ...(city.avgDaysOnMarket != null ? [{ label: copy.statDaysOnMarket, value: `${city.avgDaysOnMarket} ${copy.days}` }] : []),
-    ...(city.apartmentPricePerSqftAed != null ? [{ label: copy.statApartmentSqft, value: aed(city.apartmentPricePerSqftAed), sub: copy.perSqft }] : []),
-    ...(city.villaPricePerSqftAed != null ? [{ label: copy.statVillaSqft, value: aed(city.villaPricePerSqftAed), sub: copy.perSqft }] : []),
+    ...(city.apartmentPricePerSqftAed != null ? [{ label: copy.statApartmentSqft, value: aed(city.apartmentPricePerSqftAed) }] : []),
+    ...(city.villaPricePerSqftAed != null ? [{ label: copy.statVillaSqft, value: aed(city.villaPricePerSqftAed) }] : []),
   ];
 
   const dataset = {
@@ -81,10 +84,11 @@ export function MarketIndex({ data, copy, path }: { data: DubaiMarketIndex; copy
     dateModified: data.updated,
     temporalCoverage: city.period,
     variableMeasured: [
-      { "@type": "PropertyValue", name: "Average price per sq ft (AED)", value: city.avgPricePerSqftAed, unitText: "AED per sq ft" },
+      { "@type": "PropertyValue", name: "Median price per sq ft (AED)", value: city.avgPricePerSqftAed, unitText: "AED per sq ft" },
+      ...(city.medianPriceAed != null ? [{ "@type": "PropertyValue", name: "Median sale price (AED)", value: city.medianPriceAed, unitText: "AED" }] : []),
       { "@type": "PropertyValue", name: "Transactions", value: city.transactions },
-      { "@type": "PropertyValue", name: "Total transacted (AED)", value: city.totalVolumeAed, unitText: "AED" },
-      ...(city.yoyPriceChangePct != null ? [{ "@type": "PropertyValue", name: "Year-on-year price change (%)", value: city.yoyPriceChangePct, unitText: "PERCENT" }] : []),
+      ...(city.totalVolumeAed != null ? [{ "@type": "PropertyValue", name: "Total transacted (AED)", value: city.totalVolumeAed, unitText: "AED" }] : []),
+      ...(city.yoyPriceChangePct != null ? [{ "@type": "PropertyValue", name: "Year-on-year change in price per sq ft (%)", value: city.yoyPriceChangePct, unitText: "PERCENT" }] : []),
       ...(city.avgRentalYieldPct != null ? [{ "@type": "PropertyValue", name: "Average gross rental yield (%)", value: city.avgRentalYieldPct, unitText: "PERCENT" }] : []),
     ],
   };
@@ -101,11 +105,11 @@ export function MarketIndex({ data, copy, path }: { data: DubaiMarketIndex; copy
         </p>
 
         {/* City stat tiles */}
-        <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-3 lg:grid-cols-5">
           {tiles.map((t) => (
             <div key={t.label} className="bg-base p-6">
               <p className="font-display text-2xl text-ink lg:text-[1.75rem]">{t.value}</p>
-              <p className="mt-2 text-sm text-faint">{t.label}{t.sub ? ` ${t.sub}` : ""}</p>
+              <p className="mt-2 text-sm text-faint">{t.label}</p>
             </div>
           ))}
         </div>
@@ -129,7 +133,11 @@ export function MarketIndex({ data, copy, path }: { data: DubaiMarketIndex; copy
                 <tbody>
                   {areas.map((a) => (
                     <tr key={a.label} className="border-b border-line last:border-0">
-                      <td className="px-5 py-3 text-ink">{a.label}</td>
+                      <td className="px-5 py-3 text-ink">
+                        {a.slug ? (
+                          <Link href={`/areas/${a.slug}`} className="transition-colors hover:text-accent-600">{a.label}</Link>
+                        ) : a.label}
+                      </td>
                       <td className="px-5 py-3 text-ink">{aed(a.avgPricePerSqftAed)}</td>
                       {has.yoy && <td className={`px-5 py-3 ${a.yoyChangePct != null && a.yoyChangePct < 0 ? "text-muted" : "text-muted"}`}>{pct(a.yoyChangePct)}</td>}
                       {has.yield && <td className="px-5 py-3 text-muted">{a.rentalYieldPct != null ? `${a.rentalYieldPct}%` : "-"}</td>}
