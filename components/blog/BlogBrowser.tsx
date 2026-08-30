@@ -66,7 +66,7 @@ export function BlogBrowser({ posts, copy }: { posts: BlogCard[]; copy: BrowserC
   return (
     <div>
       {/* Toolbar: search + section chips */}
-      <div className="sticky top-20 z-30 border-y border-line bg-base/95 backdrop-blur">
+      <div className="sticky top-14 z-30 border-y border-line bg-base/95 backdrop-blur">
         <div className="container-lux flex flex-col gap-2 py-2.5">
           <div className="relative w-full sm:max-w-xs">
             <svg
