@@ -106,7 +106,7 @@ export function Header() {
           {/* Language switcher: desktop always; on mobile it appears when the
               menu is open (so it's the single switcher, none duplicated below). */}
           <div className={open ? "flex" : "hidden sm:flex"}>
-            <LanguageSwitcher color={barColor} />
+            <LanguageSwitcher color={barColor} onSelect={() => setOpen(false)} />
           </div>
           {!open && (
             <a
@@ -160,6 +160,11 @@ export function Header() {
               transition: `opacity 0.6s ${0.12 + NAV.length * 0.06}s var(--ease-lux)`,
             }}
           >
+            {/* Language switcher inside the overlay: the reliable mobile control,
+                large tap targets, and it closes the menu after switching. */}
+            <div className="mb-2 w-fit" style={{ color: "#e8ecf4" }}>
+              <LanguageSwitcher size="lg" onSelect={() => setOpen(false)} />
+            </div>
             <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
               {site.contact.phone} · WhatsApp
             </a>
