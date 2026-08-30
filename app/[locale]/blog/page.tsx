@@ -7,6 +7,8 @@ import { RevealText } from "@/components/motion/RevealText";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site } from "@/lib/site";
 import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
+import { BLOG_SECTIONS, sectionKeyFor } from "@/lib/data/blogSections";
+import { BlogBrowser, type BlogCard, type BrowserCopy } from "@/components/blog/BlogBrowser";
 
 type BlogIndexCopy = {
   metaTitle: string;
@@ -20,9 +22,8 @@ type BlogIndexCopy = {
   readGuide: string;
   browse: string;
   categories: { name: string; label: string; blurb: string }[];
+  browser?: Partial<BrowserCopy> & { sections?: Record<string, string> };
 };
-
-const catId = (name: string) => name.toLowerCase().replace(/[^a-z]+/g, "-");
 
 export async function generateMetadata({
   params,
@@ -57,6 +58,31 @@ export default async function BlogIndexPage({
   const posts = await getAllPosts(locale);
   const [lead, ...rest] = posts;
   const catLabel = (name: string) => c.categories.find((x) => x.name === name)?.label ?? name;
+
+  // Card data for the interactive browser (search string precomputed server-side
+  // so filtering is instant and the payload stays lean).
+  const cards: BlogCard[] = rest.map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    excerpt: p.excerpt,
+    section: sectionKeyFor(p),
+    catLabel: catLabel(p.category),
+    readingMinutes: p.readingMinutes,
+    img: { url: p.heroImage.url, tone: p.heroImage.tone ?? "#141821", alt: p.heroImage.alt },
+    search: [p.title, p.excerpt, ...(p.keywords ?? [])].join(" ").toLowerCase(),
+  }));
+  const b = c.browser ?? {};
+  const browserCopy: BrowserCopy = {
+    searchPlaceholder: b.searchPlaceholder ?? "Search guides",
+    all: b.all ?? "All",
+    showing: b.showing ?? "Showing {n} of {total}",
+    noResults: b.noResults ?? "No guides match your search.",
+    clear: b.clear ?? "Clear filters",
+    prev: b.prev ?? "Prev",
+    next: b.next ?? "Next",
+    minRead: c.minRead,
+    sections: BLOG_SECTIONS.map((s) => ({ key: s.key, label: b.sections?.[s.key] ?? s.label })),
+  };
 
   return (
     <>
@@ -110,64 +136,8 @@ export default async function BlogIndexPage({
         </section>
       )}
 
-      {/* Category jump nav */}
-      <section className="sticky top-20 z-30 border-y border-line bg-base">
-        <nav className="container-lux flex flex-wrap gap-x-6 gap-y-2 py-4 text-xs uppercase tracking-[0.18em]" aria-label={c.browse}>
-          <span className="text-faint">{c.browse}</span>
-          {c.categories.map((cat) => {
-            const count = posts.filter((p) => p.category === cat.name).length;
-            if (!count) return null;
-            return (
-              <a key={cat.name} href={`#${catId(cat.name)}`} className="text-accent-600 transition-opacity hover:opacity-60">
-                {cat.label} <span className="text-faint">({count})</span>
-              </a>
-            );
-          })}
-        </nav>
-      </section>
-
-      {/* Grouped by category */}
-      {c.categories.map((cat) => {
-        const items = rest.filter((p) => p.category === cat.name);
-        if (items.length === 0) return null;
-        return (
-          <section key={cat.name} id={catId(cat.name)} className="scroll-mt-32 border-t border-line first:border-t-0">
-            <div className="container-lux py-[var(--section-py)]">
-              <div className="mb-12 max-w-2xl">
-                <h2 className="font-display text-[clamp(1.75rem,3.4vw,2.75rem)] leading-tight text-ink">{cat.label}</h2>
-                <p className="mt-3 text-muted">{cat.blurb}</p>
-              </div>
-              <div className="grid gap-x-8 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
-                {items.map((post, i) => (
-                  <Reveal key={post.slug} delay={(i % 3) * 80}>
-                    <Link href={`/blog/${post.slug}`} className="group block">
-                      <div
-                        className="relative mb-6 aspect-[3/2] overflow-hidden rounded-lg"
-                        style={{ backgroundColor: post.heroImage.tone }}
-                      >
-                        <Image
-                          src={post.heroImage.url}
-                          alt={post.heroImage.alt}
-                          fill
-                          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                          className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
-                        />
-                      </div>
-                      <p className="eyebrow mb-3">
-                        {catLabel(post.category)} · {post.readingMinutes} {c.minRead}
-                      </p>
-                      <h3 className="font-display text-2xl leading-snug text-ink transition-opacity group-hover:opacity-70">
-                        {post.title}
-                      </h3>
-                      <p className="mt-3 text-sm text-muted">{post.excerpt}</p>
-                    </Link>
-                  </Reveal>
-                ))}
-              </div>
-            </div>
-          </section>
-        );
-      })}
+      {/* Interactive browser: instant search + topic filters + pagination */}
+      <BlogBrowser posts={cards} copy={browserCopy} />
     </>
   );
 }

@@ -604,7 +604,30 @@
         "label": "Community Guides",
         "blurb": "Where to live and what your money buys, area by area."
       }
-    ]
+    ],
+    "browser": {
+      "searchPlaceholder": "Search guides...",
+      "all": "All",
+      "showing": "Showing {n} of {total} guides",
+      "noResults": "No guides match your search.",
+      "clear": "Clear filters",
+      "prev": "Prev",
+      "next": "Next",
+      "sections": {
+        "visas": "Visas & Residency",
+        "moving": "Moving & Relocation",
+        "work": "Working & Business",
+        "buying": "Buying a Home",
+        "selling": "Selling",
+        "investment": "Investment",
+        "areas": "Areas & Communities",
+        "renting": "Renting",
+        "money": "Money, Tax & Fees",
+        "lifestyle": "Family & Lifestyle",
+        "market": "Market & Trends",
+        "advice": "Guides & Advice"
+      }
+    }
   },
   "legalCommon": {
     "eyebrow": "Legal",
@@ -650,7 +673,16 @@
     "advisorEyebrow": "Speak with a private advisor",
     "advisorBody": "Have a question about this? Send your brief and we'll reply personally, or message us on WhatsApp.",
     "advisorWhatsapp": "Message us on WhatsApp",
-    "youMightLike": "You might also like"
+    "youMightLike": "You might also like",
+    "share": {
+      "share": "Share",
+      "facebook": "Share on Facebook",
+      "linkedin": "Share on LinkedIn",
+      "instagram": "Share to Instagram",
+      "whatsapp": "Share on WhatsApp",
+      "copyLink": "Copy link",
+      "copied": "Link copied"
+    }
   },
   "market": {
     "metaTitle": "Dubai Luxury Property Market Insights & Prices",

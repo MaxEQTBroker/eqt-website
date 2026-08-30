@@ -696,6 +696,7 @@ export const mockPosts: BlogPost[] = [
 
 // ── Repository (the seam) ────────────────────────────────────────────────
 import { heroImages } from "./mock/heroImages";
+import { blogThumbnails } from "./mock/blogThumbnails";
 import { generatedPosts } from "./mock/posts-generated";
 import { seoPosts } from "./mock/posts-seo";
 import { localizePost } from "./i18n/postTranslations";
@@ -704,9 +705,15 @@ import { aeoIntros } from "./i18n/aeoIntros";
 /** Hand-written posts plus the long-form generated set, one combined library. */
 const allPosts: BlogPost[] = [...mockPosts, ...generatedPosts, ...seoPosts];
 
-/** Overlay the central Pexels hero image if one exists for this post's slug. */
+/**
+ * Resolve a post's hero/thumbnail image. Precedence:
+ *   1. blogThumbnails[slug] - auto-generated unique-image overrides that break
+ *      thumbnail collisions so every blog card is visually distinct.
+ *   2. heroImages[slug]     - curated area/topic imagery.
+ *   3. the post's own inline heroImage.
+ */
 function withHero(post: BlogPost): BlogPost {
-  const hero = heroImages[post.slug];
+  const hero = blogThumbnails[post.slug] ?? heroImages[post.slug];
   return hero ? { ...post, heroImage: hero } : post;
 }
 

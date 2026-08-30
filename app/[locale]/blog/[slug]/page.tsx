@@ -8,6 +8,7 @@ import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
 import { uiContent } from "@/lib/data/i18n/ui";
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { LeadForm } from "@/components/lead/LeadForm";
+import { ShareButtons, type ShareCopy } from "@/components/blog/ShareButtons";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
@@ -92,7 +93,9 @@ export default async function BlogPostPage({
     breadcrumbResources: string; minRead: string; publishedLabel: string; updatedLabel: string;
     keyTakeaways: string; inThisGuide: string; frequentlyAsked: string; exploreNext: string;
     advisorEyebrow: string; advisorBody: string; advisorWhatsapp: string; youMightLike: string;
+    share: ShareCopy;
   }>("post", locale);
+  const shareUrl = `${site.url}${locale === "en" ? "" : `/${locale}`}/blog/${post.slug}`;
   // Editorial photos woven between sections to break up the text.
   const bodyImages = bodyImagesFor(post.slug, 2);
 
@@ -130,6 +133,7 @@ export default async function BlogPostPage({
             {formatDate(post.publishedAt)}
             {post.updatedAt !== post.publishedAt ? ` · ${t.updatedLabel} ${formatDate(post.updatedAt)}` : ""}
           </p>
+          <ShareButtons url={shareUrl} title={post.title} copy={t.share} />
         </div>
 
         {/* Hero image */}
