@@ -37,7 +37,7 @@ export const team: TeamMember[] = [
   {
     slug: "max-karnaukh",
     name: "Max Karnaukh",
-    role: "Property Advisor",
+    role: "CTO",
     photo: "/team/max-karnaukh.jpg",
     languages: "English, Ukrainian, Russian",
     bio: "Max Karnaukh advises buyers, sellers and investors across Dubai's prime communities. Before Dubai, Max worked as a real estate agent in Greater Vancouver, Canada, where he ranked in the top 10 percent of agents for three consecutive years. He combines a client-first approach with sharp local market knowledge, guiding clients discreetly and personally through every stage, from the first viewing to a smooth handover.",
