@@ -24548,8 +24548,8 @@ export const seoPosts: BlogPost[] = [
   },
   {
     "slug": "dubai-real-estate-covid-vs-gulf-crisis-resilience",
-    "title": "A Pandemic Cut Dubai's Home Sales by Two-Thirds. A Gulf War Didn't.",
-    "excerpt": "When COVID hit, Dubai's monthly home sales crashed 67%. When a Gulf war erupted in 2026, they dipped just 23% from a record, and prices hit new highs.",
+    "title": "A Pandemic Cut Dubai's Home Sales by Two-Thirds. A Gulf Conflict Didn't.",
+    "excerpt": "When COVID hit, Dubai's monthly home sales crashed 67%. When a Gulf conflict erupted in 2026, they dipped just 23% from a record, and prices hit new highs.",
     "category": "Market & Data",
     "author": {
       "name": "The EQT Private Office",
@@ -24564,7 +24564,7 @@ export const seoPosts: BlogPost[] = [
       "alt": "Dubai skyline at dusk, symbolising a property market that has weathered repeated shocks",
       "tone": "#141821"
     },
-    "intro": "Dubai's property market has just passed a stress test that would have broken most cities, and the numbers tell a striking story. When COVID arrived in early 2020, the city's monthly home sales collapsed by 67% at their lowest point, from 3,900 deals in February to just 1,294 in May. When a Gulf war erupted over the summer of 2026, with missiles crossing the region and the Strait of Hormuz in crisis, monthly sales dipped only about 23% from an all-time record, never fell below roughly ten times the COVID low, and prices actually climbed to new highs. In other words: a pandemic bent Dubai's market. A war in its own backyard barely touched it. This is what the Dubai Land Department transaction data, month by month from 2019 to 2026, actually shows, and why it matters for anyone weighing the city as a safe place to put their money.",
+    "intro": "Dubai's property market has just passed a stress test that would have broken most cities, and the numbers tell a striking story. When COVID arrived in early 2020, the city's monthly home sales collapsed by 67% at their lowest point, from 3,900 deals in February to just 1,294 in May. When a Gulf conflict erupted over the summer of 2026, with missiles crossing the region and the Strait of Hormuz in crisis, monthly sales dipped only about 23% from an all-time record, never fell below roughly ten times the COVID low, and prices actually climbed to new highs. In other words: a pandemic bent Dubai's market. A conflict in its own backyard barely touched it. This is what the Dubai Land Department transaction data, month by month from 2019 to 2026, actually shows, and why it matters for anyone weighing the city as a safe place to put their money.",
     "keyTakeaways": [
       "At the COVID low (May 2020), Dubai's monthly home sales had fallen 67% from February's level; the market did not fully recover until 2021.",
       "During the 2026 Gulf crisis, monthly sales eased only about 23% from the 2025 record and stayed roughly 10 times higher than the COVID trough.",
@@ -24589,17 +24589,17 @@ export const seoPosts: BlogPost[] = [
         ]
       },
       {
-        "heading": "2026: the war that wasn't a crash",
+        "heading": "2026: the conflict that wasn't a crash",
         "body": [
           "Now set the 2026 Gulf crisis against that benchmark. As the conflict unfolded through the spring and summer, Dubai's monthly home sales did soften, from about 16,000 in January to a low of roughly 9,800 in May, before recovering to over 13,000 by July. That is a dip of about 23% from the peak. It sounds meaningful until you place it next to COVID.",
-          "The COVID crash bottomed at 1,294 sales in a month. Through the entire 2026 conflict, Dubai never recorded a month below roughly 9,800, and averaged around 13,000 sales a month. In other words, the single worst month of the 2026 war still saw about seven and a half times more homes change hands than the worst month of the pandemic, and the average conflict month was roughly ten times busier than the COVID low. Even the softening that did occur looks less like fear and more like a natural cooling from an extraordinary high: 2025 had just been Dubai's busiest year in history, with 204,950 home sales. A market coming off a record does not stay at a record forever, war or no war."
+          "The COVID crash bottomed at 1,294 sales in a month. Through the entire 2026 conflict, Dubai never recorded a month below roughly 9,800, and averaged around 13,000 sales a month. In other words, the single worst month of the 2026 conflict still saw about seven and a half times more homes change hands than the worst month of the pandemic, and the average conflict month was roughly ten times busier than the COVID low. Even the softening that did occur looks less like fear and more like a natural cooling from an extraordinary high: 2025 had just been Dubai's busiest year in history, with 204,950 home sales. A market coming off a record does not stay at a record forever, conflict or no conflict."
         ]
       },
       {
         "heading": "The price story is the real headline",
         "body": [
-          "Transactions measure confidence. Prices measure value, and this is where the contrast becomes impossible to ignore. In 2020, COVID pushed prices sideways to down. In 2026, through an active regional war, Dubai prices did not correct at all. They held at, or pushed to, record highs.",
-          "The clearest example is ready villas, the homes buyers reach for when they want something tangible and safe. Their median price per square foot was around 754 AED in 2019 and slipped to about 719 in COVID-hit 2020. Through the 2026 conflict, it stood at roughly 1,551, actually rising over the course of the crisis, and more than double its COVID level. Ready apartments told the same story, climbing from around 880 AED per square foot in 2020 to about 1,424 in 2026. Off-plan apartment values sat near their all-time high at around 1,800 AED per square foot. Rental yields, meanwhile, stayed steady at roughly 6 to 7% throughout. A market genuinely frightened by a war does not set price records during it."
+          "Transactions measure confidence. Prices measure value, and this is where the contrast becomes impossible to ignore. In 2020, COVID pushed prices sideways to down. In 2026, through an active regional conflict, Dubai prices did not correct at all. They held at, or pushed to, record highs.",
+          "The clearest example is ready villas, the homes buyers reach for when they want something tangible and safe. Their median price per square foot was around 754 AED in 2019 and slipped to about 719 in COVID-hit 2020. Through the 2026 conflict, it stood at roughly 1,551, actually rising over the course of the crisis, and more than double its COVID level. Ready apartments told the same story, climbing from around 880 AED per square foot in 2020 to about 1,424 in 2026. Off-plan apartment values sat near their all-time high at around 1,800 AED per square foot. Rental yields, meanwhile, stayed steady at roughly 6 to 7% throughout. A market genuinely frightened by a conflict does not set price records during it."
         ]
       },
       {
@@ -24613,14 +24613,14 @@ export const seoPosts: BlogPost[] = [
         "heading": "A pattern, not a one-off: how Dubai keeps bouncing back",
         "body": [
           "Zoom out and 2026 looks less like a surprise and more like the latest proof of a trend. Dubai has now weathered a series of major shocks, and each one has left a smaller and shorter mark than the last. The 2008 to 2009 global financial crisis was brutal: widely reported estimates put the fall in Dubai property values at roughly 50%, and the recovery took years. The 2014 to 2016 oil-price slump cooled the market into a long, soft plateau. COVID in 2020 caused a sharp but shorter shock, with volumes recovering within about a year. The 2026 Gulf conflict, the most severe security event of the four, produced the mildest market reaction of all.",
-          "That is the arc worth sitting with. A city whose property market once halved in a financial crisis now sets price records during a regional war. The direction of travel is unmistakable: with every cycle, Dubai has become more resilient, not less."
+          "That is the arc worth sitting with. A city whose property market once halved in a financial crisis now sets price records during a regional conflict. The direction of travel is unmistakable: with every cycle, Dubai has become more resilient, not less."
         ]
       },
       {
         "heading": "What it means for buyers and investors",
         "body": [
           "For anyone deciding whether to own property in Dubai, the 2026 stress test carries a simple message. This is a market that has repeatedly proven it can absorb the kind of events that send other markets into freefall, and that increasingly behaves as a safe haven precisely when the wider region does not. That does not make it immune. Volumes will rise and fall, individual communities will outperform or lag, and no market moves in a straight line. Past resilience is not a guarantee of future performance.",
-          "But the evidence base is now hard to argue with. Through a pandemic and a war, Dubai's prime property held its value and its liquidity. At EQT, our own verified transaction record in Dubai's prime communities, published as the EQT Palm Index, mirrors exactly what the city-wide data shows: prime demand stayed firm and prices held through the turbulence. If you want to understand where the market is heading, the honest answer is that it has already shown you how it behaves when the world gets frightening. It stays open, it stays liquid, and it keeps setting records."
+          "But the evidence base is now hard to argue with. Through a pandemic and a conflict, Dubai's prime property held its value and its liquidity. At EQT, our own verified transaction record in Dubai's prime communities, published as the EQT Palm Index, mirrors exactly what the city-wide data shows: prime demand stayed firm and prices held through the turbulence. If you want to understand where the market is heading, the honest answer is that it has already shown you how it behaves when the world gets frightening. It stays open, it stays liquid, and it keeps setting records."
         ]
       }
     ],
@@ -24634,7 +24634,7 @@ export const seoPosts: BlogPost[] = [
         "answer": "Far worse. At the COVID low in May 2020, monthly home sales had fallen 67% from February and prices were soft to falling, with recovery taking until 2021. During the 2026 conflict, sales dipped only about 23% from a record high, stayed roughly 10 times higher than the COVID trough, and prices rose to new records. COVID was a genuine crash; the conflict was closer to a pause."
       },
       {
-        "question": "Were Dubai property prices still rising during the 2026 war?",
+        "question": "Were Dubai property prices still rising during the 2026 conflict?",
         "answer": "Yes. Through the conflict, median prices per square foot held at or near record highs across segments. Ready villa prices actually rose over the course of the crisis to around 1,551 AED per square foot, more than double their COVID-era level, while off-plan apartment values sat near their all-time high. Rental yields stayed steady at about 6 to 7%."
       },
       {
@@ -24643,7 +24643,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "Is Dubai real estate a safe haven?",
-        "answer": "The evidence increasingly points that way. Dubai has weathered the 2008 financial crisis, the 2014 to 2016 oil slump, COVID and now a regional war, with each shock leaving a smaller mark than the last. A market that once halved in a financial crisis set price records during the 2026 conflict. That is not a guarantee of future performance, but it is a strong track record of resilience."
+        "answer": "The evidence increasingly points that way. Dubai has weathered the 2008 financial crisis, the 2014 to 2016 oil slump, COVID and now a regional conflict, with each shock leaving a smaller mark than the last. A market that once halved in a financial crisis set price records during the 2026 conflict. That is not a guarantee of future performance, but it is a strong track record of resilience."
       },
       {
         "question": "Where does this data come from?",

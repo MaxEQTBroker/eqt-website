@@ -117,7 +117,7 @@ function PriceLine() {
       <text x={xFor(1)} y={yFor(719) + 22} textAnchor="middle" fontSize="12" fontWeight="600" fill={SHOCK} style={{ fontVariantNumeric: "tabular-nums" }}>719</text>
       <text x={xFor(1)} y={yFor(719) + 37} textAnchor="middle" fontSize="10.5" fill={SHOCK}>COVID: prices fell</text>
       <text x={xFor(7)} y={yFor(1551) - 14} textAnchor="end" fontSize="12.5" fontWeight="700" fill={INK} style={{ fontVariantNumeric: "tabular-nums" }}>AED 1,551</text>
-      <text x={xFor(7)} y={yFor(1551) - 29} textAnchor="end" fontSize="10.5" fill={FAINT}>record, through the war</text>
+      <text x={xFor(7)} y={yFor(1551) - 29} textAnchor="end" fontSize="10.5" fill={FAINT}>record, through the conflict</text>
       {years.map((yr, i) => (
         <text key={yr} x={xFor(i)} y={base + 20} textAnchor="middle" fontSize="12" fill={FAINT}>{yr}</text>
       ))}
