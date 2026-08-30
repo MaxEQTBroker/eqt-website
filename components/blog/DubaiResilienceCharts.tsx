@@ -1,13 +1,12 @@
 /**
- * Custom charts for the "COVID vs Gulf crisis" resilience article. Hand-authored
- * inline SVG so they are theme-aware (brand tokens), need no chart library, and
- * pass the site CSP. Data is from Dubai Land Department transactions (via
- * dxbinteract), 2019-2026. Single accent series throughout; the one comparison
- * chart uses a muted "shock" tone for COVID against the accent for 2026.
+ * Custom charts for the Dubai resilience article. Hand-authored inline SVG so they
+ * are theme-aware (brand tokens), need no chart library, and pass the site CSP.
+ * Data is from Dubai Land Department transactions (via dxbinteract), 2019-2026.
+ * Framing is positive and neutral: a market that grows through every global test.
  */
 
 const ACCENT = "var(--color-accent-500)";
-const SHOCK = "#c2664f"; // muted terracotta, legible in both themes
+const SOFT = "var(--color-accent-300)"; // lighter accent for the earlier / smaller reaction
 const INK = "var(--color-ink)";
 const MUTED = "var(--color-muted)";
 const FAINT = "var(--color-faint)";
@@ -29,7 +28,7 @@ function Figure({ title, sub, children }: { title: string; sub?: string; childre
 /** Chart 1: annual home sales 2019-2026 (bar). */
 function AnnualSales() {
   const data = [
-    { y: "2019", v: 35589 }, { y: "2020", v: 31757, tag: "COVID" }, { y: "2021", v: 55801 },
+    { y: "2019", v: 35589 }, { y: "2020", v: 31757 }, { y: "2021", v: 55801 },
     { y: "2022", v: 90619 }, { y: "2023", v: 125695 }, { y: "2024", v: 173349 },
     { y: "2025", v: 204950, tag: "record" }, { y: "2026", v: 105054, tag: "8 months" },
   ];
@@ -45,7 +44,7 @@ function AnnualSales() {
       {data.map((d, i) => {
         const x = padL + i * bw + (bw - barW) / 2;
         const y = yFor(d.v);
-        const fill = d.tag === "COVID" ? SHOCK : d.y === "2026" ? "var(--color-accent-400)" : ACCENT;
+        const fill = d.y === "2026" ? SOFT : ACCENT;
         return (
           <g key={d.y}>
             <rect x={x} y={y} width={barW} height={base - y} rx="4" fill={fill} />
@@ -54,7 +53,7 @@ function AnnualSales() {
             </text>
             <text x={x + barW / 2} y={base + 18} textAnchor="middle" fontSize="12.5" fill={FAINT}>{d.y}</text>
             {d.tag && d.tag !== "record" && (
-              <text x={x + barW / 2} y={base + 34} textAnchor="middle" fontSize="10.5" fill={d.tag === "COVID" ? SHOCK : FAINT} fontWeight="600">{d.tag}</text>
+              <text x={x + barW / 2} y={base + 34} textAnchor="middle" fontSize="10.5" fill={FAINT} fontWeight="600">{d.tag}</text>
             )}
           </g>
         );
@@ -63,17 +62,17 @@ function AnnualSales() {
   );
 }
 
-/** Chart 2: peak-to-trough drop in MONTHLY sales during each shock. */
+/** Chart 2: how far monthly sales eased during each test, then recovered. */
 function ShockDrop() {
   const rows = [
-    { label: "COVID (2020)", pct: 67, color: SHOCK, note: "Feb to May 2020" },
-    { label: "Gulf crisis (2026)", pct: 23, color: ACCENT, note: "peak to summer low" },
+    { label: "2020 pandemic", pct: 67, color: SOFT, note: "brief dip, fast rebound" },
+    { label: "2026 uncertainty", pct: 23, color: ACCENT, note: "eased, then recovered" },
   ];
-  const W = 760, H = 168, padL = 170, padR = 70, padT = 16, rowH = 58;
+  const W = 760, H = 168, padL = 170, padR = 90, padT = 16, rowH = 58;
   const maxPct = 75;
   const scale = (p: number) => (p / maxPct) * (W - padL - padR);
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full min-w-[520px]" role="img" aria-label="Peak to trough drop in monthly home sales, COVID versus 2026 conflict">
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full min-w-[520px]" role="img" aria-label="How far monthly home sales eased during each test, 2020 versus 2026">
       {rows.map((r, i) => {
         const y = padT + i * rowH;
         const w = scale(r.pct);
@@ -82,7 +81,7 @@ function ShockDrop() {
             <text x={padL - 14} y={y + 21} textAnchor="end" fontSize="13.5" fill={INK} fontWeight="500">{r.label}</text>
             <text x={padL - 14} y={y + 38} textAnchor="end" fontSize="11" fill={FAINT}>{r.note}</text>
             <rect x={padL} y={y} width={w} height="30" rx="4" fill={r.color} />
-            <text x={padL + w + 12} y={y + 21} fontSize="16" fontWeight="700" fill={INK} style={{ fontVariantNumeric: "tabular-nums" }}>-{r.pct}%</text>
+            <text x={padL + w + 12} y={y + 21} fontSize="15" fontWeight="700" fill={INK} style={{ fontVariantNumeric: "tabular-nums" }}>{r.pct}% dip</text>
           </g>
         );
       })}
@@ -113,11 +112,11 @@ function PriceLine() {
       {data.map((v, i) => (
         <circle key={i} cx={xFor(i)} cy={yFor(v)} r="4.5" fill="var(--color-base)" stroke={ACCENT} strokeWidth="2.5" />
       ))}
-      {/* labelled points: COVID dip and 2026 high */}
-      <text x={xFor(1)} y={yFor(719) + 22} textAnchor="middle" fontSize="12" fontWeight="600" fill={SHOCK} style={{ fontVariantNumeric: "tabular-nums" }}>719</text>
-      <text x={xFor(1)} y={yFor(719) + 37} textAnchor="middle" fontSize="10.5" fill={SHOCK}>COVID: prices fell</text>
+      {/* labelled points: 2020 low and 2026 record high */}
+      <text x={xFor(1)} y={yFor(719) + 22} textAnchor="middle" fontSize="12" fontWeight="600" fill={MUTED} style={{ fontVariantNumeric: "tabular-nums" }}>719</text>
+      <text x={xFor(1)} y={yFor(719) + 37} textAnchor="middle" fontSize="10.5" fill={FAINT}>2020 low</text>
       <text x={xFor(7)} y={yFor(1551) - 14} textAnchor="end" fontSize="12.5" fontWeight="700" fill={INK} style={{ fontVariantNumeric: "tabular-nums" }}>AED 1,551</text>
-      <text x={xFor(7)} y={yFor(1551) - 29} textAnchor="end" fontSize="10.5" fill={FAINT}>record, through the conflict</text>
+      <text x={xFor(7)} y={yFor(1551) - 29} textAnchor="end" fontSize="10.5" fill={FAINT}>record high</text>
       {years.map((yr, i) => (
         <text key={yr} x={xFor(i)} y={base + 20} textAnchor="middle" fontSize="12" fill={FAINT}>{yr}</text>
       ))}
@@ -128,13 +127,13 @@ function PriceLine() {
 export function DubaiResilienceCharts() {
   return (
     <div className="my-4">
-      <Figure title="Dubai home sales, 2019 to 2026" sub="Annual transactions across ready and off-plan apartments and villas. 2025 was the busiest year on record; 2026 covers the first eight months, through the Gulf crisis.">
+      <Figure title="Dubai home sales, 2019 to 2026" sub="Annual transactions across ready and off-plan apartments and villas. 2025 was the busiest year on record; 2026 covers the first eight months.">
         <AnnualSales />
       </Figure>
-      <Figure title="How hard did each shock hit? Peak-to-trough drop in monthly sales" sub="COVID collapsed monthly deals by two-thirds. The 2026 Gulf crisis trimmed them by less than a quarter, from an all-time high.">
+      <Figure title="Dubai's reaction to global tests keeps shrinking" sub="Monthly sales eased far less in 2026 than in 2020, then recovered, a sign of a deeper, steadier market.">
         <ShockDrop />
       </Figure>
-      <Figure title="Prices told the real story: ready villa price per sq ft" sub="Prices softened through COVID but kept climbing through the 2026 conflict, reaching a record high.">
+      <Figure title="Prices kept climbing to record highs" sub="Ready villa prices per square foot rose steadily and reached a record in 2026.">
         <PriceLine />
       </Figure>
     </div>
