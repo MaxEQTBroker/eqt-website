@@ -322,7 +322,7 @@ export default async function BlogPostPage({
         </section>
       )}
 
-      <MobileLeadBar source={`blog:${post.slug}`} title={t.advisorEyebrow} cta={t.stickyCta} />
+      <MobileLeadBar source={`blog:${post.slug}`} />
     </>
   );
 }

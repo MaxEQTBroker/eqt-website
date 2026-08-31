@@ -17,8 +17,8 @@ import { uiContent } from "@/lib/data/i18n/ui";
  * is down or not yet configured.
  */
 
-type Intent = "Buy" | "Sell" | "Invest" | "Relocate";
-const INTENTS: Intent[] = ["Buy", "Sell", "Invest", "Relocate"];
+export type Intent = "Buy" | "Sell" | "Invest" | "Relocate";
+export const INTENTS: Intent[] = ["Buy", "Sell", "Invest", "Relocate"];
 const QUICK_COMMUNITIES = ["Palm Jumeirah", "Dubai Marina", "Downtown Dubai"];
 
 type LeadCopy = {
@@ -44,7 +44,8 @@ type StepKey = "goal" | "community" | "budget" | "timeframe" | "contact";
 export function LeadForm({
   defaultArea,
   source,
-}: { defaultArea?: string; source?: string } = {}) {
+  initialIntent,
+}: { defaultArea?: string; source?: string; initialIntent?: Intent } = {}) {
   const reduce = useReducedMotion();
   const locale = useLocale();
   const c = uiContent<LeadCopy>("leadForm", locale);
@@ -53,8 +54,8 @@ export function LeadForm({
   };
   const BUDGETS = [c.budgetUnder10, c.budget10to30, c.budget30to75, c.budget75plus];
   const TIMEFRAMES = [c.timeUnder3, c.time3to6, c.time6plus];
-  const [step, setStep] = useState(0);
-  const [intent, setIntent] = useState<Intent | null>(null);
+  const [step, setStep] = useState(initialIntent ? 1 : 0);
+  const [intent, setIntent] = useState<Intent | null>(initialIntent ?? null);
   const [area, setArea] = useState<string | null>(defaultArea ?? null);
   const [budget, setBudget] = useState<string | null>(null);
   const [timeframe, setTimeframe] = useState<string | null>(null);
