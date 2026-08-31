@@ -27,7 +27,7 @@ export const team: TeamMember[] = [
   {
     slug: "masoud-raeissi",
     name: "Masoud Raeissi",
-    role: "Senior Broker",
+    role: "Partner",
     photo: "/team/masoud-raeissi.jpg",
     brn: "87122",
     languages: "English, Arabic, Farsi",
