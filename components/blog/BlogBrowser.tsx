@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 
@@ -33,6 +33,17 @@ export function BlogBrowser({ posts, copy }: { posts: BlogCard[]; copy: BrowserC
   const [q, setQ] = useState("");
   const [section, setSection] = useState("all");
   const [page, setPage] = useState(1);
+  // On phones the wrapped chip toolbar takes up half the screen, so once the
+  // reader scrolls into the list it collapses to a thin bar with a toggle.
+  const [stuck, setStuck] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setStuck(window.scrollY > 260);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   // Section chips: only those with at least one post, with live counts.
   const sectionCounts = useMemo(() => {
@@ -63,36 +74,68 @@ export function BlogBrowser({ posts, copy }: { posts: BlogCard[]; copy: BrowserC
     .replace("{n}", String(filtered.length))
     .replace("{total}", String(posts.length));
 
+  const activeLabel =
+    section === "all"
+      ? copy.all
+      : copy.sections.find((s) => s.key === section)?.label ?? copy.all;
+  const collapsed = stuck && !filtersOpen; // phone-only collapsed state
+  const pickSection = (key: string) => {
+    reset(() => setSection(key));
+    setFiltersOpen(false); // collapse back so results are visible
+  };
+
   return (
     <div>
-      {/* Toolbar: search + section chips */}
+      {/* Toolbar: search + section chips (collapses on phones after scroll) */}
       <div className="sticky top-11 z-30 border-y border-line bg-base/95 backdrop-blur">
-        <div className="container-lux flex flex-col gap-2 py-2.5">
-          <div className="relative w-full sm:max-w-xs">
-            <svg
-              className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-faint"
-              viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"
-            >
-              <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
+        <div className="container-lux py-2.5">
+          {/* Collapsed toggle: phones only, once scrolled into the list */}
+          <button
+            type="button"
+            onClick={() => setFiltersOpen((o) => !o)}
+            aria-expanded={filtersOpen}
+            className={`${stuck ? "flex" : "hidden"} w-full items-center justify-between gap-3 text-left sm:!hidden`}
+          >
+            <span className="flex min-w-0 items-center gap-2">
+              <svg viewBox="0 0 24 24" className="h-4 w-4 shrink-0 text-accent-600" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <path d="M3 6h18M6 12h12M10 18h4" />
+              </svg>
+              <span className="truncate text-sm font-medium text-ink">{activeLabel}</span>
+              <span className="shrink-0 text-xs tabular-nums text-faint">{filtered.length}</span>
+            </span>
+            <svg viewBox="0 0 24 24" className={`h-4 w-4 shrink-0 text-faint transition-transform ${filtersOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <path d="m6 9 6 6 6-6" />
             </svg>
-            <input
-              type="search"
-              value={q}
-              onChange={(e) => reset(() => setQ(e.target.value))}
-              placeholder={copy.searchPlaceholder}
-              aria-label={copy.searchPlaceholder}
-              className="w-full rounded-full border border-line bg-elevated py-1.5 pl-9 pr-3 text-[13px] text-ink outline-none transition-colors placeholder:text-faint focus:border-accent-500"
-            />
-          </div>
-          <div className="flex flex-wrap gap-1.5" role="tablist" aria-label={copy.searchPlaceholder}>
-            <Chip active={section === "all"} onClick={() => reset(() => setSection("all"))} label={copy.all} count={posts.length} />
-            {copy.sections.map((s) => {
-              const count = sectionCounts.get(s.key) ?? 0;
-              if (!count) return null;
-              return (
-                <Chip key={s.key} active={section === s.key} onClick={() => reset(() => setSection(s.key))} label={s.label} count={count} />
-              );
-            })}
+          </button>
+
+          {/* Panel: search + chips. Hidden on phones once collapsed. */}
+          <div className={`${collapsed ? "hidden sm:flex" : "flex"} flex-col gap-2 ${stuck ? "pt-2.5 sm:pt-0" : ""}`}>
+            <div className="relative w-full sm:max-w-xs">
+              <svg
+                className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-faint"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
+              </svg>
+              <input
+                type="search"
+                value={q}
+                onChange={(e) => reset(() => setQ(e.target.value))}
+                placeholder={copy.searchPlaceholder}
+                aria-label={copy.searchPlaceholder}
+                className="w-full rounded-full border border-line bg-elevated py-1.5 pl-9 pr-3 text-[13px] text-ink outline-none transition-colors placeholder:text-faint focus:border-accent-500"
+              />
+            </div>
+            <div className="flex flex-wrap gap-1.5" role="tablist" aria-label={copy.searchPlaceholder}>
+              <Chip active={section === "all"} onClick={() => pickSection("all")} label={copy.all} count={posts.length} />
+              {copy.sections.map((s) => {
+                const count = sectionCounts.get(s.key) ?? 0;
+                if (!count) return null;
+                return (
+                  <Chip key={s.key} active={section === s.key} onClick={() => pickSection(s.key)} label={s.label} count={count} />
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

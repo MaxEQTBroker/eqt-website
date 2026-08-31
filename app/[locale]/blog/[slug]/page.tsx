@@ -8,6 +8,7 @@ import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
 import { uiContent } from "@/lib/data/i18n/ui";
 import { bodyImagesFor } from "@/lib/data/mock/blogBodyImages";
 import { LeadForm } from "@/components/lead/LeadForm";
+import { MobileLeadBar } from "@/components/lead/MobileLeadBar";
 import { ShareButtons, type ShareCopy } from "@/components/blog/ShareButtons";
 import { DubaiResilienceCharts } from "@/components/blog/DubaiResilienceCharts";
 import { Reveal } from "@/components/motion/Reveal";
@@ -94,6 +95,7 @@ export default async function BlogPostPage({
     breadcrumbResources: string; minRead: string; publishedLabel: string; updatedLabel: string;
     keyTakeaways: string; inThisGuide: string; frequentlyAsked: string; exploreNext: string;
     advisorEyebrow: string; advisorBody: string; advisorWhatsapp: string; youMightLike: string;
+    stickyCta: string;
     share: ShareCopy;
   }>("post", locale);
   const shareUrl = `${site.url}${locale === "en" ? "" : `/${locale}`}/blog/${post.slug}`;
@@ -319,6 +321,8 @@ export default async function BlogPostPage({
           </div>
         </section>
       )}
+
+      <MobileLeadBar source={`blog:${post.slug}`} title={t.advisorEyebrow} cta={t.stickyCta} />
     </>
   );
 }

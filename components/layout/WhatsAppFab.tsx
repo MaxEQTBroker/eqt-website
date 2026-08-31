@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "@/i18n/navigation";
 import { site, whatsappLink } from "@/lib/site";
 
 /**
@@ -9,6 +10,7 @@ import { site, whatsappLink } from "@/lib/site";
  */
 export function WhatsAppFab() {
   const [visible, setVisible] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 600);
@@ -16,6 +18,10 @@ export function WhatsAppFab() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // On blog post pages a dedicated sticky lead bar handles WhatsApp + Enquire,
+  // so the floating button is hidden there to avoid two overlapping controls.
+  if (pathname.startsWith("/blog/")) return null;
 
   return (
     <a
