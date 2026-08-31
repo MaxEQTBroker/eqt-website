@@ -27,12 +27,12 @@ export const team: TeamMember[] = [
   {
     slug: "masoud-raeissi",
     name: "Masoud Raeissi",
-    role: "Partner",
+    role: "Partner / Luxury Properties Specialist",
     photo: "/team/masoud-raeissi.jpg",
     brn: "87122",
     languages: "English, Arabic, Farsi",
-    areas: "Palm Jumeirah, Business Bay, Dubai Creek Harbour, Jumeirah Islands",
-    bio: "Masoud Raeissi is a RERA-licensed broker (BRN 87122) with more than six years advising buyers and investors across Dubai. Multilingual in English, Arabic and Farsi among other languages, Masoud specialises in Palm Jumeirah, Business Bay, Dubai Creek Harbour and Jumeirah Islands, across both luxury and off-plan homes, building long-term relationships on trust, transparency and genuine market insight.",
+    areas: "Palm Jumeirah, Emirates Hills, Jumeirah Bay Island, District One",
+    bio: "Masoud Raeissi is a Partner at EQT and a RERA-licensed broker (BRN 87122) specialising in Dubai's luxury property market. Multilingual in English, Arabic and Farsi among other languages, Masoud focuses on the emirate's most prestigious communities, including Palm Jumeirah, Emirates Hills, Jumeirah Bay Island and District One, guiding buyers and investors through prime and trophy homes with discretion, deep market insight and long-term relationships built on trust.",
   },
   {
     slug: "max-karnaukh",
