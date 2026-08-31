@@ -101,6 +101,6 @@ export const team: TeamMember[] = [
     name: "Glenda Doblada",
     role: "Office Administrator",
     photo: "/team/glenda-doblada.jpg",
-    bio: "Glenda Aviles Doblada is the office administrator at EQT Real Estate. Glenda keeps the brokerage running smoothly, supporting the team and clients with day to day administration, coordination and client onboarding. Warm, organised and detail focused, she makes sure every enquiry is handled promptly and every visitor to EQT feels well looked after.",
+    bio: "Glenda is a Real Estate Administrative with over 12 years of experience in Dubai's real estate industry. She specializes in property management, sales and leasing support, and DLD, RERA, Ejari and DEWA procedures. Known for her professionalism, attention to detail and client-focused approach, she provides efficient and reliable support throughout every real estate transaction.",
   },
 ];
