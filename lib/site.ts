@@ -54,6 +54,7 @@ export const primaryNav: NavItem[] = [
   { label: "Property Types", href: "/property" },
   { label: "Market Insights", href: "/market" },
   { label: "Free Valuation", href: "/valuation" },
+  { label: "Mortgage Calculator", href: "/mortgage-calculator" },
   { label: "Resources", href: "/blog" },
 ];
 

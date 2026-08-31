@@ -9,7 +9,13 @@
     "propertyTypes": "Property Types",
     "market": "Market Insights",
     "valuation": "Free Valuation",
-    "resources": "Resources"
+    "resources": "Resources",
+    "sell": "Sell",
+    "mortgageCalculator": "Mortgage Calculator",
+    "groupExplore": "Explore",
+    "groupTools": "Tools",
+    "groupLearn": "Insights",
+    "guides": "Guides"
   },
   "common": {
     "messageWhatsapp": "Message us on WhatsApp",

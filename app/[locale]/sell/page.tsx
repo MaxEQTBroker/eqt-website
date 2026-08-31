@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
+import { getTrustSignals, getAreas } from "@/lib/data/repository";
 import { site, whatsappLink } from "@/lib/site";
 import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
@@ -19,6 +21,11 @@ type SellCopy = {
   ctaWhatsapp: string;
   breadcrumbHome: string;
   breadcrumbSell: string;
+  whyHeading: string;
+  whySub: string;
+  proofHeading: string;
+  proofBody: string;
+  proofCta: string;
 };
 
 export async function generateMetadata({
@@ -51,6 +58,23 @@ export default async function SellPage({
   const regulated = c.regulated
     .replace("{authority}", site.regulatory.authority)
     .replace("{orn}", site.regulatory.reraOrn);
+
+  // Real, firm-confirmed track-record figures; reuse the home page's localized
+  // labels so we don't duplicate translations.
+  const signals = await getTrustSignals();
+  const homeMetrics = uiContent<{ metrics?: { label: string; detail: string }[] }>("home", locale).metrics;
+  const stats = signals.map((s, i) => ({
+    value: s.value,
+    label: homeMetrics?.[i]?.label ?? s.label,
+    detail: homeMetrics?.[i]?.detail ?? s.detail,
+  }));
+
+  // A few prime-community images as proof of the calibre we handle.
+  const areas = await getAreas(locale);
+  const showcaseSlugs = ["palm-jumeirah", "emirates-hills", "downtown-dubai"];
+  const showcase = showcaseSlugs
+    .map((slug) => areas.find((a) => a.slug === slug))
+    .filter((a): a is NonNullable<typeof a> => Boolean(a));
 
   return (
     <>
@@ -85,6 +109,65 @@ export default async function SellPage({
           </div>
 
           <p className="mt-12 text-sm text-faint">{regulated}</p>
+        </div>
+
+        {/* Why sell with EQT — track record + proof */}
+        <div className="mt-24 border-t border-line pt-16">
+          <Reveal>
+            <p className="eyebrow mb-4">{c.whyHeading}</p>
+            <h2 className="display-h2 max-w-[20ch] text-ink">{c.whySub}</h2>
+          </Reveal>
+
+          <dl className="mt-12 grid gap-8 sm:grid-cols-3">
+            {stats.map((s) => (
+              <Reveal key={s.label}>
+                <div className="border-t border-accent-500 pt-5">
+                  <dd className="font-display text-[clamp(2.25rem,5vw,3.5rem)] leading-none text-accent-500">
+                    {s.value}
+                  </dd>
+                  <dt className="mt-3 text-ink">{s.label}</dt>
+                  <p className="mt-1 text-sm text-muted">{s.detail}</p>
+                </div>
+              </Reveal>
+            ))}
+          </dl>
+
+          {/* Prime-community imagery */}
+          {showcase.length > 0 && (
+            <div className="mt-14 grid gap-4 sm:grid-cols-3">
+              {showcase.map((a) => (
+                <Reveal key={a.slug}>
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-lg" style={{ backgroundColor: a.heroImage.tone }}>
+                    <Image
+                      src={a.heroImage.url}
+                      alt={a.heroImage.alt}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 33vw"
+                      className="object-cover"
+                    />
+                    <div className="absolute inset-x-0 bottom-0 p-3">
+                      <span className="rounded-md px-3 py-1.5 text-sm font-medium text-ink backdrop-blur-sm" style={{ backgroundColor: "rgba(227,231,240,0.9)" }}>
+                        {a.label}
+                      </span>
+                    </div>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          )}
+
+          {/* Sold-portfolio proof */}
+          <Reveal>
+            <div className="mt-14 flex flex-col items-start gap-5 rounded-lg border border-line bg-elevated p-8 sm:flex-row sm:items-center sm:justify-between sm:p-10">
+              <div className="max-w-xl">
+                <h3 className="font-display text-2xl text-ink">{c.proofHeading}</h3>
+                <p className="mt-2 text-muted">{c.proofBody}</p>
+              </div>
+              <Link href="/sold" className="btn btn-ghost shrink-0">
+                {c.proofCta}
+              </Link>
+            </div>
+          </Reveal>
         </div>
 
         {/* FAQ */}

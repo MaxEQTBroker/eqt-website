@@ -77,13 +77,22 @@ export default async function AreasIndexPage({
                   sizes="(max-width: 640px) 100vw, 25vw"
                   className="object-cover opacity-85 transition-all duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105 group-hover:opacity-100"
                 />
-                <div className="absolute inset-x-0 bottom-0 h-1/2" style={{ backgroundColor: "rgba(227,231,240,0.82)" }} />
-                <div className="absolute inset-x-0 bottom-0 p-6">
-                  <h2 className="font-display text-2xl text-ink">{area.label}</h2>
-                  <p className="mt-2 line-clamp-2 text-sm text-muted">{area.headline}</p>
-                  <p className="mt-3 text-sm text-accent-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                    {c.cardLink} →
-                  </p>
+                <div className="absolute inset-x-0 bottom-0 p-3">
+                  <div
+                    className="rounded-md px-3.5 py-2.5 backdrop-blur-sm"
+                    style={{ backgroundColor: "rgba(227,231,240,0.9)" }}
+                  >
+                    <div className="flex items-baseline justify-between gap-2">
+                      <h2 className="font-display text-lg leading-tight text-ink">{area.label}</h2>
+                      <span
+                        className="shrink-0 text-sm text-accent-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                        aria-label={c.cardLink}
+                      >
+                        →
+                      </span>
+                    </div>
+                    <p className="mt-0.5 line-clamp-1 text-xs text-muted">{area.headline}</p>
+                  </div>
                 </div>
               </Link>
             </Reveal>

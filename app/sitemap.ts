@@ -25,7 +25,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       getAllSoldReferences(),
     ]);
 
-  const staticRoutes = ["", "/about", "/team", "/areas", "/developers", "/property", "/market", "/market-report", "/sold", "/listings", "/valuation", "/sell", "/guides/buying-property-in-dubai", "/blog", "/site-map", "/contact", "/privacy-policy", "/terms", "/cookies"].map(
+  const staticRoutes = ["", "/about", "/team", "/areas", "/developers", "/property", "/market", "/market-report", "/sold", "/listings", "/valuation", "/mortgage-calculator", "/sell", "/guides/buying-property-in-dubai", "/blog", "/site-map", "/contact", "/privacy-policy", "/terms", "/cookies"].map(
     (path) => ({
       url: `${site.url}${path}`,
       lastModified: new Date(),

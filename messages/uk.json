@@ -9,7 +9,13 @@
     "propertyTypes": "Типи нерухомості",
     "market": "Огляд ринку",
     "valuation": "Безкоштовна оцінка",
-    "resources": "Ресурси"
+    "resources": "Ресурси",
+    "sell": "Продати",
+    "mortgageCalculator": "Іпотечний калькулятор",
+    "groupExplore": "Огляд",
+    "groupTools": "Інструменти",
+    "groupLearn": "Аналітика",
+    "guides": "Путівники"
   },
   "common": {
     "messageWhatsapp": "Напишіть нам у WhatsApp",

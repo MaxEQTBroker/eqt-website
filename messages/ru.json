@@ -9,7 +9,13 @@
     "propertyTypes": "Типы недвижимости",
     "market": "Обзор рынка",
     "valuation": "Бесплатная оценка",
-    "resources": "Ресурсы"
+    "resources": "Ресурсы",
+    "sell": "Продать",
+    "mortgageCalculator": "Ипотечный калькулятор",
+    "groupExplore": "Обзор",
+    "groupTools": "Инструменты",
+    "groupLearn": "Аналитика",
+    "guides": "Руководства"
   },
   "common": {
     "messageWhatsapp": "Напишите нам в WhatsApp",

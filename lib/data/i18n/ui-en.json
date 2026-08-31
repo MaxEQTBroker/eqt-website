@@ -46,7 +46,12 @@
     "ctaValuation": "Request a free valuation",
     "ctaWhatsapp": "Message us on WhatsApp",
     "breadcrumbHome": "Home",
-    "breadcrumbSell": "Sell"
+    "breadcrumbSell": "Sell",
+    "whyHeading": "Why sell with EQT",
+    "whySub": "A boutique, RERA-licensed team with a serious track record in Dubai’s prime market.",
+    "proofHeading": "See what we have sold",
+    "proofBody": "From Palm Jumeirah villas to Downtown penthouses, browse a selection of homes we have recently sold across Dubai’s most sought-after communities.",
+    "proofCta": "View sold properties"
   },
   "marketReport": {
     "metaTitle": "Dubai Prime Property Price Guide 2026",
@@ -1167,5 +1172,72 @@
     "days": "days",
     "disclaimer": "Figures compiled by EQT from Dubai Land Department transaction data and are indicative, not a valuation. Last updated {date}.",
     "statMedianPrice": "Median sale price"
+  },
+  "mortgageCalcPage": {
+    "metaTitle": "Dubai Mortgage Calculator | Monthly Payments & Upfront Costs",
+    "metaDescription": "Estimate your Dubai mortgage: the minimum down payment, your monthly repayment and the total cash you need up front, based on current UAE Central Bank rules.",
+    "breadcrumb": "Mortgage Calculator",
+    "eyebrow": "Mortgage calculator",
+    "h1": "What will your Dubai mortgage cost?",
+    "answer": "Here is the cash you need to buy your first home in Dubai as an expat:",
+    "intro": "Enter a price and your salary to see your monthly repayment, the minimum deposit for your situation, and the full cash you'll need on day one. Figures are estimates; your bank sets the final rate and approval.",
+    "faqs": [
+      {
+        "question": "How much deposit do I need to buy in Dubai?",
+        "answer": "Expats need a minimum 20% down payment on a first home priced under AED 5M, 30% above AED 5M, and about 40% on a second property. Off-plan purchases usually require around 50%. UAE nationals can borrow roughly 5% more than expats."
+      },
+      {
+        "question": "What are the extra costs beyond the down payment?",
+        "answer": "Budget about 4% of the price for the DLD transfer fee, 2% agency commission, a 0.25% mortgage-registration fee on the loan, plus valuation and trustee/admin costs of a few thousand dirhams. Together these add roughly 6 to 7% of the price on top of your deposit."
+      },
+      {
+        "question": "How much can I borrow on my salary?",
+        "answer": "UAE banks cap your total monthly debt repayments (the Debt Burden Ratio) at 50% of your monthly income. So the higher your income and the lower your other debts, the larger the mortgage you'll qualify for."
+      },
+      {
+        "question": "Can I add the fees or down payment to my mortgage?",
+        "answer": "No. Central Bank rules require the down payment to come from your own funds, so you can't borrow it. The DLD and agency fees are also normally paid in cash, though some banks now finance part of them."
+      }
+    ],
+    "answerPoints": [
+      "Deposit: at least 20% under AED 5M, 30% above AED 5M, and about 50% for off-plan.",
+      "Fees on top: roughly 6 to 7% of the price (4% DLD transfer, 2% agency, plus mortgage and admin costs).",
+      "Total cash to complete: around 27 to 28% of the price for most buyers."
+    ]
+  },
+  "mortgageCalculator": {
+    "eyebrow": "Your details",
+    "price": "Property price",
+    "priceHint": "The purchase price in AED",
+    "buyerType": "Buyer",
+    "expat": "Expat resident",
+    "national": "UAE national",
+    "purchaseType": "Purchase",
+    "firstReady": "First home (ready)",
+    "secondProp": "Second property",
+    "offPlan": "Off-plan",
+    "downPayment": "Down payment",
+    "minNote": "Minimum {pct}% for this purchase. Drag higher if you wish.",
+    "rate": "Interest rate %",
+    "term": "Term",
+    "years": "years",
+    "income": "Monthly income",
+    "incomeOptional": "optional, for affordability",
+    "resultsHeading": "Your estimate",
+    "downPaymentLabel": "Down payment",
+    "loanAmount": "Loan amount",
+    "monthlyPayment": "Monthly payment",
+    "upfrontHeading": "Cash needed up front",
+    "upfrontNote": "Deposit plus the usual one-off purchase costs.",
+    "dldFee": "DLD transfer fee (4%)",
+    "agencyFee": "Agency fee (2%)",
+    "mortgageReg": "Mortgage registration (0.25%)",
+    "otherFees": "Valuation, trustee & admin",
+    "totalCash": "Total cash up front",
+    "affordHeading": "Affordability",
+    "affordOk": "This payment is {pct}% of your income, within the 50% limit UAE banks allow.",
+    "affordOver": "This payment is {pct}% of your income, above the 50% limit UAE banks allow. You may need a larger deposit or a longer term.",
+    "ctaText": "Get pre-approved on WhatsApp",
+    "disclaimer": "Estimates only, for guidance. Actual rates, fees and eligibility are set by your bank and the DLD, and rules can change."
   }
 }

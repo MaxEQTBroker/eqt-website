@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { ValuationForm } from "@/components/lead/ValuationForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { getAreas } from "@/lib/data/repository";
 import { site } from "@/lib/site";
 import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
@@ -46,6 +48,14 @@ export default async function ValuationPage({
     .replace("{authority}", site.regulatory.authority)
     .replace("{orn}", site.regulatory.reraOrn);
 
+  // A prime-community image to sit beside the form.
+  const areas = await getAreas(locale);
+  const heroArea =
+    areas.find((a) => a.slug === "palm-jumeirah") ??
+    areas.find((a) => a.slug === "emirates-hills") ??
+    areas[0];
+  const heroImage = heroArea?.heroImage;
+
   return (
     <>
       <BreadcrumbJsonLd
@@ -80,10 +90,28 @@ export default async function ValuationPage({
           <p className="mt-12 text-sm text-faint">{regulated}</p>
         </div>
 
-        {/* The form, after all the text, with room to breathe */}
-        <Reveal delay={120} className="mt-16 block max-w-2xl border-t border-line pt-16">
-          <ValuationForm source="valuation" />
-        </Reveal>
+        {/* The form, after all the text, with a prime-community image alongside */}
+        <div className="mt-16 grid gap-10 border-t border-line pt-16 lg:grid-cols-2 lg:items-start lg:gap-14">
+          <Reveal delay={120} className="block">
+            <ValuationForm source="valuation" />
+          </Reveal>
+          {heroImage && (
+            <Reveal delay={180} className="hidden lg:block lg:sticky lg:top-28">
+              <div
+                className="relative aspect-[4/5] overflow-hidden rounded-lg"
+                style={{ backgroundColor: heroImage.tone }}
+              >
+                <Image
+                  src={heroImage.url}
+                  alt={heroImage.alt}
+                  fill
+                  sizes="(max-width: 1024px) 0px, 45vw"
+                  className="object-cover"
+                />
+              </div>
+            </Reveal>
+          )}
+        </div>
       </section>
     </>
   );

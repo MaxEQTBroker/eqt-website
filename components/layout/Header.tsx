@@ -7,18 +7,26 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { site, whatsappLink } from "@/lib/site";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
-/** Nav items map to translation keys (labels come from messages/<locale>.json). */
-const NAV: { href: string; key: string }[] = [
-  { href: "/", key: "home" },
+/**
+ * Nav labels come from messages/<locale>.json. The overlay shows a few primary
+ * "money" paths (large) and everything else grouped under one Resources block,
+ * so the menu reads cleanly instead of a flat list of ten.
+ */
+const PRIMARY: { href: string; key: string }[] = [
+  { href: "/listings", key: "active" },
+  { href: "/sell", key: "sell" },
+  { href: "/sold", key: "sold" },
   { href: "/team", key: "team" },
+];
+
+const RESOURCES: { href: string; key: string }[] = [
   { href: "/areas", key: "neighborhoods" },
   { href: "/developers", key: "developers" },
-  { href: "/sold", key: "sold" },
-  { href: "/listings", key: "active" },
   { href: "/property", key: "propertyTypes" },
   { href: "/market", key: "market" },
   { href: "/valuation", key: "valuation" },
-  { href: "/blog", key: "resources" },
+  { href: "/mortgage-calculator", key: "mortgageCalculator" },
+  { href: "/blog", key: "guides" },
 ];
 
 /**
@@ -48,6 +56,34 @@ export function Header() {
       document.body.style.overflow = "";
     };
   }, [open]);
+
+  // Switching language navigates the page, which can remount the header. If the
+  // menu was open, reopen it after that navigation so the user stays in place.
+  useEffect(() => {
+    try {
+      if (sessionStorage.getItem("eqt-menu-open") === "1") {
+        sessionStorage.removeItem("eqt-menu-open");
+        setOpen(true);
+      }
+    } catch {}
+  }, []);
+
+  // Never leave a stale reopen flag once the menu is closed.
+  useEffect(() => {
+    if (!open) {
+      try {
+        sessionStorage.removeItem("eqt-menu-open");
+      } catch {}
+    }
+  }, [open]);
+
+  // Remember an open menu across a language switch (see effect above).
+  const rememberMenu = () => {
+    if (!open) return;
+    try {
+      sessionStorage.setItem("eqt-menu-open", "1");
+    } catch {}
+  };
 
   // Navy by default (readable on the light pearl pages); white only at the top
   // of the home page over its dark hero; pearl while the dark menu overlay is open.
@@ -106,7 +142,7 @@ export function Header() {
           {/* Language switcher: desktop always; on mobile it appears when the
               menu is open (so it's the single switcher, none duplicated below). */}
           <div className={open ? "flex" : "hidden sm:flex"}>
-            <LanguageSwitcher color={barColor} onSelect={() => setOpen(false)} />
+            <LanguageSwitcher color={barColor} onSelect={rememberMenu} />
           </div>
           {!open && (
             <a
@@ -137,7 +173,7 @@ export function Header() {
       >
         <div className="relative flex min-h-full flex-col px-0 py-24">
           <nav aria-label="Primary" className="container-lux my-auto flex flex-col items-start">
-            {NAV.map((item, i) => (
+            {PRIMARY.map((item, i) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -153,25 +189,55 @@ export function Header() {
                 {t(item.key)}
               </Link>
             ))}
+
+            {/* Everything else under one Resources block. */}
+            <div
+              className="mt-12 w-full max-w-2xl"
+              style={{
+                opacity: open ? 1 : 0,
+                transform: open ? "translateY(0)" : "translateY(24px)",
+                transition: `opacity 0.6s ${0.12 + PRIMARY.length * 0.06}s var(--ease-lux), transform 0.6s ${0.12 + PRIMARY.length * 0.06}s var(--ease-lux)`,
+              }}
+            >
+              <p className="mb-4 text-[0.68rem] font-medium uppercase tracking-[0.24em]" style={{ color: "#6b7a96" }}>
+                {t("resources")}
+              </p>
+              <ul className="grid grid-cols-2 gap-x-8 gap-y-3">
+                {RESOURCES.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      onClick={() => setOpen(false)}
+                      className="block w-fit font-display text-lg leading-tight transition-colors hover:text-[color:var(--accent-400)]"
+                      style={{ color: "#cfd8e8" }}
+                    >
+                      {t(item.key)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </nav>
 
+          {/* pointer-events-none so this full-width bar doesn't sit over and
+              block the nav links behind it; children re-enable their own. */}
           <div
-            className="container-lux absolute inset-x-0 bottom-12 flex flex-col items-end gap-3 text-right text-sm"
+            className="container-lux pointer-events-none absolute inset-x-0 bottom-12 flex flex-col items-end gap-3 text-right text-sm"
             style={{
               color: "#93a0b8",
               opacity: open ? 1 : 0,
-              transition: `opacity 0.6s ${0.12 + NAV.length * 0.06}s var(--ease-lux)`,
+              transition: `opacity 0.6s ${0.12 + (PRIMARY.length + 1) * 0.06}s var(--ease-lux)`,
             }}
           >
-            {/* Language switcher inside the overlay: the reliable mobile control,
-                large tap targets, and it closes the menu after switching. */}
-            <div className="mb-2 w-fit" style={{ color: "#e8ecf4" }}>
-              <LanguageSwitcher size="lg" onSelect={() => setOpen(false)} />
+            {/* Language switcher inside the overlay: switching locale keeps the
+                menu open (no setOpen(false)). */}
+            <div className="pointer-events-auto mb-2 w-fit" style={{ color: "#e8ecf4" }}>
+              <LanguageSwitcher size="lg" onSelect={rememberMenu} />
             </div>
-            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
+            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="pointer-events-auto w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
               {site.contact.phone} · WhatsApp
             </a>
-            <a href={`mailto:${site.contact.email}`} className="w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
+            <a href={`mailto:${site.contact.email}`} className="pointer-events-auto w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
               {site.contact.email}
             </a>
           </div>
