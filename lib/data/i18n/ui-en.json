@@ -1,7 +1,7 @@
 {
   "sell": {
     "metaTitle": "Sell Your Property in Dubai",
-    "metaDescription": "Sell your Dubai property with EQT, a RERA-licensed prime brokerage. Discreet, off-market reach, evidence-based pricing from real DLD comparables, and a full-service transfer.",
+    "metaDescription": "Sell your Dubai property with EQT, a RERA-licensed prime brokerage: discreet off-market reach and evidence-based pricing from DLD comparables.",
     "eyebrow": "Sell with EQT",
     "h1": "Sell your Dubai property",
     "intro": "EQT sells prime and off-market homes across Dubai's most sought-after communities. We price on real evidence, market with discretion, and manage every step to a clean, timely sale, whether you list publicly or sell privately.",
@@ -55,7 +55,7 @@
   },
   "marketReport": {
     "metaTitle": "Dubai Prime Property Price Guide 2026",
-    "metaDescription": "Indicative 2026 price ranges for Dubai's prime communities, plus the key market facts (fees, tax, yields) for buyers and sellers. Compiled by EQT from public DLD data and market experience.",
+    "metaDescription": "Indicative 2026 price ranges for Dubai's prime communities, plus key facts on fees, tax and yields. Compiled by EQT from DLD data.",
     "eyebrow": "Market data",
     "h1": "Dubai prime property price guide, 2026",
     "intro": "Indicative 2026 price ranges for Dubai's prime and super-prime communities, alongside the key facts that shape the cost of buying, owning and selling. Compiled by EQT from public Dubai Land Department data and our own market experience. These are starting points for orientation, not valuations.",
@@ -153,7 +153,7 @@
   },
   "about": {
     "metaTitle": "About EQT, Dubai Luxury Real Estate Brokerage",
-    "metaDescription": "EQT is a RERA-licensed Dubai brokerage specialising in prime and super-prime residential property, Palm Jumeirah, Emirates Hills, Al Barari, Downtown and Business Bay. Our credentials, approach and contacts.",
+    "metaDescription": "EQT is a RERA-licensed Dubai brokerage for prime and super-prime homes across Palm Jumeirah, Emirates Hills, Al Barari and Downtown.",
     "breadcrumb": "About",
     "eyebrow": "About EQT",
     "h1": "A private office for Dubai's prime market",
@@ -190,7 +190,7 @@
   },
   "areasIndex": {
     "metaTitle": "Dubai Communities, Area Guides & Property for Sale",
-    "metaDescription": "In-depth guides to Dubai's most sought-after communities, from Palm Jumeirah and Emirates Hills to Dubai Marina, Business Bay and beyond. Track records, available homes and local insight.",
+    "metaDescription": "In-depth guides to Dubai's top communities, from Palm Jumeirah and Emirates Hills to Dubai Marina and Business Bay. Track records and local insight.",
     "breadcrumb": "Communities",
     "eyebrow": "Where we operate",
     "h1": "Dubai's most sought-after communities",
@@ -203,11 +203,33 @@
     "breadcrumb": "Property types",
     "eyebrow": "Any property type, anywhere in Dubai",
     "h1": "Find your kind of home",
-    "intro": "Whether it's a family villa, a trophy mansion, a skyline penthouse or an off-plan investment, explore the guide, the pricing and the best communities for each."
+    "intro": "Whether it's a family villa, a trophy mansion, a skyline penthouse or an off-plan investment, explore the guide, the pricing and the best communities for each.",
+    "seoTitle": "Choosing the right property type in Dubai",
+    "seoBody": "The right home depends on how you'll use it. Families gravitate to villas and townhouses in gated communities; investors often prefer apartments and off-plan for yield and a lower entry price; buyers after a trophy asset look to mansions, penthouses and branded residences. Foreign nationals can own any of these outright in Dubai's freehold areas. Explore each type above, then speak with an EQT advisor to match a property to your budget, timeline and goals.",
+    "faqEyebrow": "Property types FAQ",
+    "faqTitle": "Buying by property type",
+    "faqs": [
+      {
+        "question": "What types of property can I buy in Dubai?",
+        "answer": "Villas, mansions, penthouses, apartments, townhouses and off-plan homes. In freehold areas, foreign buyers can own any of them outright."
+      },
+      {
+        "question": "What is off-plan property?",
+        "answer": "Off-plan means buying from the developer before or during construction, usually on a staged payment plan. It can offer a lower entry price but carries delivery-timing risk."
+      },
+      {
+        "question": "Which property type holds its value best?",
+        "answer": "Prime villas and branded residences in established communities such as Palm Jumeirah and Emirates Hills have historically shown resilient pricing, though returns vary by location and timing."
+      },
+      {
+        "question": "Can foreigners own any property type in Dubai?",
+        "answer": "Yes. In designated freehold areas, foreign nationals can own villas, apartments, townhouses and off-plan units on a full-ownership basis."
+      }
+    ]
   },
   "developersIndex": {
     "metaTitle": "Dubai Property Developers, Guides & Off-Plan for Sale",
-    "metaDescription": "Guides to Dubai's leading developers, Emaar, Nakheel, Sobha, DAMAC, Meraas, OMNIYAT, Ellington and Majid Al Futtaim. EQT advises on primary (off-plan) and resale across every developer.",
+    "metaDescription": "Guides to Dubai's leading developers: Emaar, Nakheel, Sobha, DAMAC, Meraas, OMNIYAT and Ellington. EQT advises on off-plan and resale.",
     "breadcrumb": "Developers",
     "eyebrow": "Primary & resale, every developer",
     "h1": "Dubai's leading developers",
@@ -216,7 +238,7 @@
   },
   "valuation": {
     "metaTitle": "Free Dubai Property Valuation",
-    "metaDescription": "Find out what your Dubai property is worth. Get a free, no-obligation valuation from EQT's RERA-licensed advisors, based on real transaction data across Palm Jumeirah, Dubai Marina, Downtown and beyond.",
+    "metaDescription": "Find out what your Dubai property is worth. Get a free, no-obligation valuation from EQT's RERA-licensed advisors, based on real sales data.",
     "breadcrumb": "Valuation",
     "eyebrow": "Thinking of selling?",
     "h1": "What is your Dubai property worth?",
@@ -304,11 +326,35 @@
     "channelPhone": "Phone",
     "officeLabel": "Office",
     "regulatedLine": "Regulated by the {authority}.",
-    "reraLine": "RERA ORN {orn} · DED License {ded}"
+    "reraLine": "RERA ORN {orn} · DED License {ded}",
+    "faqEyebrow": "Good to know",
+    "faqTitle": "Questions before you reach out",
+    "faqs": [
+      {
+        "question": "How quickly will EQT respond to my enquiry?",
+        "answer": "We reply personally, usually within an hour during business hours and the same day otherwise. WhatsApp is the fastest way to reach an advisor."
+      },
+      {
+        "question": "What are your office hours?",
+        "answer": "Our Business Bay office is open Monday to Saturday, 9am to 7pm Gulf Standard Time. Viewings outside these hours can be arranged by appointment."
+      },
+      {
+        "question": "Do I need to be in Dubai to buy or sell with EQT?",
+        "answer": "No. We work with international clients every day and can handle viewings, paperwork and the Dubai Land Department transfer remotely, including by power of attorney where needed."
+      },
+      {
+        "question": "Is EQT a licensed brokerage?",
+        "answer": "Yes. EQT Real Estate Brokerage LLC is regulated by the Dubai Land Department and RERA, under ORN 33039 and DED licence 1123882."
+      },
+      {
+        "question": "Which languages does your team speak?",
+        "answer": "Our advisors speak English, Russian and Ukrainian, so you can be advised in your own language from first contact to completion."
+      }
+    ]
   },
   "team": {
     "metaTitle": "Our Team, Dubai Real Estate Advisors",
-    "metaDescription": "Meet the EQT team, a handpicked group of multilingual, RERA-licensed Dubai real estate advisors led by founder Vladyslav Franchuk, covering Palm Jumeirah, Dubai Marina, Downtown and beyond.",
+    "metaDescription": "Meet the EQT team: multilingual, RERA-licensed Dubai advisors led by founder Vladyslav Franchuk, across Palm Jumeirah, Dubai Marina and Downtown.",
     "breadcrumb": "Team",
     "eyebrow": "The people behind EQT",
     "h1": "Meet the team",
@@ -390,7 +436,7 @@
   },
   "guidesBuying": {
     "metaTitle": "Buying Property in Dubai: The Complete Guide (2026)",
-    "metaDescription": "The complete guide to buying property in Dubai, freehold ownership, costs and fees, the Golden Visa, where to buy, investing, and selling. EQT's full library, in one place.",
+    "metaDescription": "The complete guide to buying property in Dubai: freehold ownership, costs and fees, the Golden Visa, where to buy and investing, from EQT.",
     "breadcrumb": "Buying Property in Dubai",
     "breadcrumbShort": "Buying guide",
     "eyebrow": "The complete guide",
@@ -546,7 +592,8 @@
     "advisoryHeadingDefault": "Tell us what you're looking for",
     "advisoryHeadingArea": "Looking in {area}?",
     "advisoryBody": "Many of our best homes never get advertised. Share your brief and we'll send a private shortlist, usually within the hour.",
-    "advisoryWhatsapp": "Message us on WhatsApp"
+    "advisoryWhatsapp": "Message us on WhatsApp",
+    "resultsHeading": "Active listings"
   },
   "sold": {
     "metaTitle": "Sold Portfolio",
@@ -570,11 +617,12 @@
     "emptyCta": "Ask on WhatsApp",
     "ctaEyebrow": "Thinking of selling?",
     "ctaHeading": "Your home deserves the same result",
-    "ctaValuation": "Request a free valuation"
+    "ctaValuation": "Request a free valuation",
+    "resultsHeading": "Sold properties"
   },
   "blogIndex": {
     "metaTitle": "Resources, Dubai Property Guides & Market Insight",
-    "metaDescription": "Answer-first guides to buying, selling and investing in Dubai's finest communities, freehold ownership, the Golden Visa, Palm Jumeirah villa prices and more, from EQT's private office.",
+    "metaDescription": "Answer-first guides to buying, selling and investing in Dubai's finest communities: freehold, the Golden Visa, Palm Jumeirah prices and more.",
     "ogDescription": "Dubai luxury property guides, community insight and market data.",
     "breadcrumb": "Resources",
     "eyebrow": "EQT Resources",
@@ -691,7 +739,7 @@
   },
   "market": {
     "metaTitle": "Dubai Luxury Property Market Insights & Prices",
-    "metaDescription": "A live snapshot of Dubai's prime property market from EQT's own inventory and verified sales: entry prices, active listings and transaction counts by community (Palm Jumeirah, Downtown, Business Bay and more).",
+    "metaDescription": "A live snapshot of Dubai's prime property market from EQT's own sales: entry prices, active listings and transaction counts by community.",
     "breadcrumb": "Market Insights",
     "eyebrow": "Market insights",
     "h1": "Dubai's prime market, in real numbers",
@@ -805,7 +853,7 @@
   },
   "privacy": {
     "metaTitle": "Privacy Policy",
-    "metaDescription": "How EQT Real Estate Brokerage LLC collects, uses and protects your personal data when you use eqt.ae or make an enquiry, and your rights under UAE data protection law.",
+    "metaDescription": "How EQT Real Estate Brokerage LLC collects, uses and protects your personal data on eqt.ae, and your rights under UAE data protection law.",
     "title": "Privacy Policy",
     "intro": "This policy explains how {legalName} (\"EQT\", \"we\", \"us\") collects, uses and safeguards your personal data when you use {domain} or contact us.",
     "cookieLinkText": "Cookie Policy",
@@ -1174,7 +1222,7 @@
     "statMedianPrice": "Median sale price"
   },
   "mortgageCalcPage": {
-    "metaTitle": "Dubai Mortgage Calculator | Monthly Payments & Upfront Costs",
+    "metaTitle": "Dubai Mortgage Calculator | Payments & Upfront Cash",
     "metaDescription": "Estimate your Dubai mortgage: the minimum down payment, your monthly repayment and the total cash you need up front, based on current UAE Central Bank rules.",
     "breadcrumb": "Mortgage Calculator",
     "eyebrow": "Mortgage calculator",

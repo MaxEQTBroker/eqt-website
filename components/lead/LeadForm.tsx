@@ -310,7 +310,7 @@ export function LeadForm({
 
           {current === "contact" && (
             <div className="space-y-5">
-              <legend className="mb-1 font-display text-xl text-ink">{c.legendContact}</legend>
+              <p className="mb-1 font-display text-xl text-ink">{c.legendContact}</p>
               <Field label={c.fullName}>
                 <input
                   className="lux-input"
@@ -441,6 +441,7 @@ export function LeadForm({
             <div className="border-b border-line p-3">
               <input
                 autoFocus
+                aria-label={c.searchPlaceholder}
                 value={communityQuery}
                 onChange={(e) => setCommunityQuery(e.target.value)}
                 placeholder={c.searchPlaceholder}

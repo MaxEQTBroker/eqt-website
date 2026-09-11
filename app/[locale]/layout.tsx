@@ -119,6 +119,12 @@ export default async function RootLayout({
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <a
+            href="#main"
+            className="sr-only rounded-md bg-accent-500 px-4 py-2 text-white focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100]"
+          >
+            {({ en: "Skip to content", uk: "Перейти до вмісту", ru: "Перейти к содержимому" } as Record<string, string>)[locale] ?? "Skip to content"}
+          </a>
           <Analytics />
           <OrganizationJsonLd />
           <WebsiteJsonLd />

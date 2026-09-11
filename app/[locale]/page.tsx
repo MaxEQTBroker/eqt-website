@@ -8,6 +8,7 @@ import { Approach } from "@/components/home/Approach";
 import { Voice } from "@/components/home/Voice";
 import { Interlude } from "@/components/home/Interlude";
 import { Partners } from "@/components/home/Partners";
+import { Testimonials } from "@/components/home/Testimonials";
 import { Enquire } from "@/components/home/Enquire";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site } from "@/lib/site";
@@ -25,7 +26,10 @@ export async function generateMetadata({
   if (hasUiTranslation("home", "ru")) languages.ru = "/ru";
   return {
     title: `${site.name}, Dubai Luxury Real Estate`,
-    description: site.description,
+    // Kept under ~160 chars for the search snippet; site.description (longer) still
+    // powers the OG/Twitter tags and Organization schema.
+    description:
+      "EQT is a RERA-licensed Dubai luxury brokerage for Palm Jumeirah, Al Barari and Jumeirah Islands. Private sales, curated portfolios, a proven record.",
     alternates: { canonical, languages },
     robots: hasUiTranslation("home", locale) ? { index: true, follow: true } : { index: false, follow: true },
   };
@@ -44,6 +48,7 @@ export default function HomePage() {
       <Voice />
       <Interlude />
       <Partners />
+      <Testimonials />
       <Enquire />
     </>
   );

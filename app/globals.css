@@ -24,7 +24,7 @@
   /* Text — deep midnight navy (the "blue" that anchors the whole page) */
   --text-primary: #16223b;
   --text-secondary: #3d4c67;
-  --text-tertiary: #6c7891;
+  --text-tertiary: #575f75;  /* darkened to meet WCAG 4.5:1 for body-size faint text */
   --text-on-accent: #ffffff;  /* white on sapphire — clean, high-contrast */
 
   /* Semantic */

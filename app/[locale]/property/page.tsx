@@ -3,7 +3,8 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { getPropertyGuides } from "@/lib/data/repository";
 import { Reveal } from "@/components/motion/Reveal";
-import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { FaqBlock } from "@/components/ui/FaqBlock";
+import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
 type PropertyIndexCopy = {
@@ -13,6 +14,11 @@ type PropertyIndexCopy = {
   eyebrow: string;
   h1: string;
   intro: string;
+  seoTitle: string;
+  seoBody: string;
+  faqEyebrow: string;
+  faqTitle: string;
+  faqs: { question: string; answer: string }[];
 };
 
 export async function generateMetadata({
@@ -86,6 +92,27 @@ export default async function PropertyIndexPage({
           ))}
         </div>
       </section>
+
+      {(c.seoBody || c.faqs?.length > 0) && (
+        <section className="container-lux pb-[var(--section-py)]">
+          {c.faqs?.length > 0 && <FaqJsonLd faqs={c.faqs} />}
+          {c.seoBody && (
+            <Reveal>
+              <div className="max-w-3xl">
+                <h2 className="display-h2 max-w-[20ch] text-ink">{c.seoTitle}</h2>
+                <p className="mt-6 text-lg leading-relaxed text-muted">{c.seoBody}</p>
+              </div>
+            </Reveal>
+          )}
+          {c.faqs?.length > 0 && (
+            <Reveal>
+              <div className="mt-16">
+                <FaqBlock eyebrow={c.faqEyebrow} title={c.faqTitle} faqs={c.faqs} />
+              </div>
+            </Reveal>
+          )}
+        </section>
+      )}
     </>
   );
 }

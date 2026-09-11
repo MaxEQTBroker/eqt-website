@@ -21,6 +21,7 @@ type ListingsCopy = {
   eyebrowDefault: string; h1Default: string; h1Area: string; introDefault: string;
   introAreaLead: string; viewAllCommunities: string; residenceSingular: string;
   residencePlural: string; pageOf: string; prev: string; next: string;
+  resultsHeading: string;
   emptyHeading: string; emptyBody: string; emptyCta: string; advisoryEyebrow: string;
   advisoryHeadingDefault: string; advisoryHeadingArea: string; advisoryBody: string; advisoryWhatsapp: string;
 };
@@ -169,6 +170,7 @@ export default async function ListingsPage({
       </section>
 
       <section className="container-lux py-16">
+        <h2 className="sr-only">{c.resultsHeading}</h2>
         {listings.length > 0 ? (
           <>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -15,6 +15,7 @@ type SoldCopy = {
   h1: string; intro: string; communityLabel: string; allCommunities: string;
   apply: string; reset: string; resultSingular: string; resultPlural: string;
   inArea: string; pageOf: string; prev: string; next: string; emptyHeading: string;
+  resultsHeading: string;
   emptyBody: string; emptyCta: string; ctaEyebrow: string; ctaHeading: string; ctaValuation: string;
 };
 
@@ -136,6 +137,7 @@ export default async function SoldPage({
 
       {/* Results */}
       <section className="container-lux py-16">
+        <h2 className="sr-only">{c.resultsHeading}</h2>
         {records.length > 0 ? (
           <>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

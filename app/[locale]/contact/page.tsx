@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { LeadForm } from "@/components/lead/LeadForm";
 import { Reveal } from "@/components/motion/Reveal";
-import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { FaqBlock } from "@/components/ui/FaqBlock";
+import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
 import { site, whatsappLink } from "@/lib/site";
 import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
@@ -19,6 +20,9 @@ type ContactCopy = {
   officeLabel: string;
   regulatedLine: string;
   reraLine: string;
+  faqEyebrow: string;
+  faqTitle: string;
+  faqs: { question: string; answer: string }[];
 };
 
 export async function generateMetadata({
@@ -132,6 +136,15 @@ export default async function ContactPage({
           <LeadForm source="contact" />
         </Reveal>
       </section>
+
+      {c.faqs?.length > 0 && (
+        <section className="container-lux pb-[var(--section-py)]">
+          <FaqJsonLd faqs={c.faqs} />
+          <Reveal>
+            <FaqBlock eyebrow={c.faqEyebrow} title={c.faqTitle} faqs={c.faqs} />
+          </Reveal>
+        </section>
+      )}
     </>
   );
 }
