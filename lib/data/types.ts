@@ -125,6 +125,8 @@ export interface Area {
   slug: AreaSlug;
   label: string;
   headline: string;
+  /** One-sentence answer-first lead (AEO): directly answers "what is X / should I buy in X". */
+  aeoAnswer?: string;
   /** Rich, indexable guide copy. */
   intro: string;
   /** Q&A blocks power AEO / featured-snippet extraction. */
@@ -147,6 +149,8 @@ export interface Developer {
   tagline: string;
   /** Logo path in /public/brand/developers. Omit to render a text wordmark. */
   logo?: string;
+  /** One-sentence answer-first lead (AEO). */
+  aeoAnswer?: string;
   /** Rich, indexable guide copy. */
   intro: string;
   keyFacts: { label: string; value: string }[];
@@ -168,6 +172,8 @@ export interface PropertyGuide {
   /** H1 / meta title. */
   title: string;
   headline: string;
+  /** One-sentence answer-first lead (AEO). */
+  aeoAnswer?: string;
   intro: string;
   /** When set, the page lists available listings of this type. */
   listingType?: PropertyType;

@@ -5828,7 +5828,7 @@ export const seoPosts: BlogPost[] = [
       "credential": "RERA-registered brokerage"
     },
     "publishedAt": "2026-08-19",
-    "updatedAt": "2026-08-19",
+    "updatedAt": "2026-09-12",
     "readingMinutes": 8,
     "intro": "Yes, real estate agents in Dubai are legally required to be licensed. An individual agent must hold a RERA Broker Registration Number, known as a BRN, and must operate under an agency that holds an Office Registration Number, or ORN. Practising real estate brokerage without a licence is illegal in Dubai. The reassuring part is that verification is quick and public: you can confirm any agent's credentials in a few minutes through the Dubai REST app or the DLD Brokers register. This guide explains what the licence means and exactly how to check it.",
     "keyTakeaways": [
@@ -5950,6 +5950,10 @@ export const seoPosts: BlogPost[] = [
       {
         "label": "How to choose a real estate agent in Dubai",
         "href": "/blog/how-to-choose-a-real-estate-agent-in-dubai"
+      },
+      {
+        "label": "Real estate broker vs property advisor in Dubai",
+        "href": "/blog/real-estate-broker-vs-property-advisor-dubai"
       },
       {
         "label": "Guide to buying property in Dubai",
@@ -7459,7 +7463,7 @@ export const seoPosts: BlogPost[] = [
       "credential": "RERA-registered brokerage"
     },
     "publishedAt": "2026-08-24",
-    "updatedAt": "2026-08-24",
+    "updatedAt": "2026-09-12",
     "readingMinutes": 9,
     "intro": "Living on Palm Jumeirah means waking up to the sea on Dubai's most recognisable address, an island where beachfront villas and apartments sit minutes from beach clubs, fine dining and family attractions. The Palm is arranged as a trunk, a crescent and a series of fronds, each frond a quiet residential street ending at private sand. Residents value the combination of resort atmosphere and everyday practicality, with schools, clinics and supermarkets close at hand. It suits families, professionals and those who simply want the water as a permanent backdrop. This guide walks through what daily life is actually like for people who call the island home.",
     "keyTakeaways": [
@@ -7515,6 +7519,13 @@ export const seoPosts: BlogPost[] = [
         "body": [
           "Palm Jumeirah suits people who want the sea at the centre of daily life without giving up city access. Families are drawn to the private beaches, space and nearby schools, while professionals value the quick link to Marina, Media City and Downtown.",
           "It also appeals to buyers who want a home that doubles as a lifestyle base, close to weekend leisure yet quiet enough to live in year round."
+        ]
+      },
+      {
+        "heading": "Speak with an EQT Palm Jumeirah specialist",
+        "body": [
+          "Palm Jumeirah rewards local knowledge, and the right advice pays for itself on an island where two similar homes can trade very differently. EQT is a RERA-registered Dubai brokerage (ORN 33039) with multilingual advisors working in English, Russian and Ukrainian, and quiet access to private and off-market Palm Jumeirah homes that never reach the public portals.",
+          "Speak with an EQT Palm Jumeirah specialist to walk through daily life on each frond, review current comparable sales, and find the right home for your brief, whether you plan to rent first or buy."
         ]
       }
     ],
@@ -22997,8 +23008,8 @@ export const seoPosts: BlogPost[] = [
       "credential": "RERA-registered brokerage"
     },
     "publishedAt": "2026-08-28",
-    "updatedAt": "2026-08-28",
-    "readingMinutes": 8,
+    "updatedAt": "2026-09-12",
+    "readingMinutes": 9,
     "heroImage": {
       "url": "https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg?auto=compress&cs=tinysrgb&w=1920",
       "alt": "Dubai skyline at dusk with modern towers, seen by a French family relocating to the city",
@@ -23063,9 +23074,33 @@ export const seoPosts: BlogPost[] = [
           "Fees vary by year group and school. For a recent academic year, Georges Pompidou's fees were reported to range from roughly AED 39,800 in the youngest years to more than AED 64,000 at lycee level. Budget separately for registration, deposits, uniforms, transport and extras.",
           "Beyond the French system, Dubai offers a very wide choice of British, IB and American curriculum schools, plus bilingual French-English options, which gives families flexibility if they want their children to transition towards an international pathway. Places at the most sought-after schools can be limited, so apply early and factor school location into your choice of neighbourhood."
         ]
+      },
+      {
+        "heading": "Buying property in Dubai as a French national",
+        "body": [
+          "French nationals can buy and fully own property in Dubai's designated freehold areas, with title registered at the Dubai Land Department and no requirement for a local partner. There is no nationality restriction, and buying counts equally toward the Golden Visa: a property valued at AED 2 million or more can support a 10-year renewable residence.",
+          "Budget roughly 6 to 8 percent of the price in one-off costs, led by the 4 percent DLD transfer fee, plus around 2 percent agency commission and registration fees. There is no annual property tax and no tax on rental income in Dubai, though French residents should confirm how any Dubai rental income and gains are treated under the France-UAE treaty and French rules. Whether you buy or rent first, choosing the right area and building matters more than timing, so it is worth grounding decisions in real comparable sales."
+        ],
+        "bullets": [
+          "French nationals can own freehold with full DLD title, no local partner needed.",
+          "Budget about 6 to 8 percent in one-off fees, led by the 4 percent DLD transfer fee.",
+          "A property from AED 2 million can support a 10-year Golden Visa.",
+          "No annual property tax and no tax on rental income in Dubai; check your French position separately."
+        ]
+      },
+      {
+        "heading": "How EQT helps French buyers and renters",
+        "body": [
+          "Moving from France is smoother with an advisor who works in your language and knows the buildings, not just the brochures. EQT is a RERA-registered Dubai brokerage (ORN 33039) with multilingual advisors working in English, Russian and Ukrainian, and quiet access to private and off-market homes that never reach the public portals.",
+          "Speak with an EQT advisor to shortlist areas around your priorities, whether that is proximity to a French school, a walkable waterfront lifestyle or a villa community, and to review current comparable sales before you commit to buying or renting."
+        ]
       }
     ],
     "faqs": [
+      {
+        "question": "Can French nationals buy property in Dubai?",
+        "answer": "Yes. French nationals can buy and fully own property in Dubai's designated freehold areas, with title registered at the Dubai Land Department and no local partner required. A property valued at AED 2 million or more can also support a 10-year Golden Visa."
+      },
       {
         "question": "How many French people live in Dubai?",
         "answer": "Estimates generally range from around 25,000 to 30,000 French residents in Dubai, with the wider UAE figure often cited above 30,000. Exact numbers vary because unregistered residents are hard to count."
@@ -23103,6 +23138,18 @@ export const seoPosts: BlogPost[] = [
       {
         "label": "Moving to Dubai: relocation checklist",
         "href": "/blog/moving-to-dubai-relocation-checklist"
+      },
+      {
+        "label": "How to buy property in Dubai as a foreigner",
+        "href": "/blog/how-to-buy-property-in-dubai-as-a-foreigner"
+      },
+      {
+        "label": "How to invest in Dubai real estate",
+        "href": "/blog/how-to-invest-in-dubai-real-estate"
+      },
+      {
+        "label": "Browse Dubai property",
+        "href": "/property"
       },
       {
         "label": "Speak to our team",
@@ -25053,6 +25100,13 @@ export const seoPosts: BlogPost[] = [
           "Renting first is a smart way to test life on the Palm before buying, letting you experience the commute, the amenities and a specific frond or building. It suits anyone who wants beachfront living without a long-term commitment, or who is deciding between areas.",
           "If you love the island after renting, buying on the Palm is a natural next step, and a specialist can guide you from a lease into ownership when you are ready."
         ]
+      },
+      {
+        "heading": "Speak with an EQT Palm Jumeirah specialist",
+        "body": [
+          "Palm Jumeirah rewards local knowledge, and the right advice pays for itself on an island where two similar homes can rent very differently. EQT is a RERA-registered Dubai brokerage (ORN 33039) with multilingual advisors working in English, Russian and Ukrainian, and quiet access to private and off-market Palm Jumeirah homes that never reach the public portals.",
+          "Speak with an EQT Palm Jumeirah specialist to line up the right frond, building or layout, whether you are renting first or planning to buy on the island."
+        ]
       }
     ],
     "faqs": [
@@ -25093,6 +25147,10 @@ export const seoPosts: BlogPost[] = [
       {
         "label": "Signature Villas vs Garden Homes on the Palm",
         "href": "/blog/palm-jumeirah-signature-villas-vs-garden-homes"
+      },
+      {
+        "label": "Speak with an EQT Palm Jumeirah specialist",
+        "href": "/contact"
       }
     ],
     "keywords": [
@@ -25174,6 +25232,13 @@ export const seoPosts: BlogPost[] = [
           "If your priority is a villa, a private beach or the widest luxury choice, Palm Jumeirah is the natural pick. If you want a modern apartment in a compact, walkable waterfront community and value liveliness over space, Bluewaters is compelling.",
           "Many buyers ultimately decide on budget and property type first, then let the island follow. A specialist can line up specific homes on both islands so you can compare like for like before deciding."
         ]
+      },
+      {
+        "heading": "Speak with an EQT Palm Jumeirah specialist",
+        "body": [
+          "Comparing two waterfront islands is easier with someone who tracks both. EQT is a RERA-registered Dubai brokerage (ORN 33039) with multilingual advisors working in English, Russian and Ukrainian, and quiet access to private and off-market Palm Jumeirah homes that never reach the public portals.",
+          "Speak with an EQT Palm Jumeirah specialist to review current comparable sales on the Palm and weigh it against Bluewaters, so you can choose the right home for your brief."
+        ]
       }
     ],
     "faqs": [
@@ -25214,6 +25279,10 @@ export const seoPosts: BlogPost[] = [
       {
         "label": "Dubai luxury apartments",
         "href": "/property/apartments"
+      },
+      {
+        "label": "Speak with an EQT Palm Jumeirah specialist",
+        "href": "/contact"
       }
     ],
     "keywords": [
@@ -25300,6 +25369,13 @@ export const seoPosts: BlogPost[] = [
           "Decide up front whether income or capital growth leads your strategy.",
           "Use real comparable sales to judge price and avoid overpaying."
         ]
+      },
+      {
+        "heading": "Speak with an EQT Palm Jumeirah specialist",
+        "body": [
+          "On the Palm the specific asset matters more than the headline, so the right advice pays for itself. EQT is a RERA-registered Dubai brokerage (ORN 33039) with multilingual advisors working in English, Russian and Ukrainian, and quiet access to private and off-market Palm Jumeirah homes that never reach the public portals.",
+          "Speak with an EQT Palm Jumeirah specialist to review current comparable sales and identify the fronds, buildings and layouts with the strongest combination of yield and long-term growth for your brief."
+        ]
       }
     ],
     "faqs": [
@@ -25340,6 +25416,10 @@ export const seoPosts: BlogPost[] = [
       {
         "label": "Dubai luxury villas",
         "href": "/property/villas"
+      },
+      {
+        "label": "Book a Palm Jumeirah valuation with EQT",
+        "href": "/valuation"
       }
     ],
     "keywords": [
@@ -25349,6 +25429,160 @@ export const seoPosts: BlogPost[] = [
       "invest Palm Jumeirah",
       "Palm Jumeirah capital growth",
       "Palm Jumeirah off-plan"
+    ]
+  },
+  {
+    "slug": "real-estate-broker-vs-property-advisor-dubai",
+    "title": "Real Estate Broker vs Property Advisor in Dubai: What Is the Difference?",
+    "excerpt": "In Dubai a real estate broker and a property advisor do overlapping work, but only a licensed broker with a RERA BRN can legally arrange your transaction. Here is how the roles differ and which you need.",
+    "category": "Buyer Guides",
+    "author": {
+      "name": "The EQT Private Office",
+      "role": "Dubai luxury real estate advisors",
+      "credential": "RERA-registered brokerage"
+    },
+    "publishedAt": "2026-09-12",
+    "updatedAt": "2026-09-12",
+    "readingMinutes": 8,
+    "heroImage": blogBodyPool[16],
+    "intro": "In Dubai, a real estate broker and a property advisor often describe the same person, but there is one legal distinction that matters: only a licensed broker holding a RERA Broker Registration Number (BRN) can legally arrange, negotiate and register a property transaction for you. \"Property advisor\" and \"property consultant\" are job titles and marketing labels, not a separate licence, so a genuine advisor who handles deals must still be a RERA-licensed broker. In short, the title tells you how the person frames their service, while the BRN tells you whether they can lawfully act for you. This guide explains what each role means in practice, where they overlap, and which you actually need.",
+    "keyTakeaways": [
+      "Only a RERA-licensed broker with a BRN can legally broker a Dubai transaction; \"property advisor\" is a title, not a separate licence.",
+      "A broker is transaction-focused: they list, negotiate, complete and register deals through the DLD.",
+      "A property advisor (or consultant) usually frames a longer, relationship-led service around strategy, portfolio and off-market access, but must still be licensed to close a deal.",
+      "In practice the strongest people are both: a licensed broker who advises, not just transacts.",
+      "Whatever the title, verify the BRN and the agency's ORN before you view, sign or pay.",
+      "EQT is a RERA-registered brokerage (ORN 33039) whose advisors are licensed brokers."
+    ],
+    "sections": [
+      {
+        "heading": "The short answer",
+        "body": [
+          "There is no separate \"property advisor\" licence in Dubai. Real estate brokerage is regulated by the Real Estate Regulatory Agency (RERA), which sits under the Dubai Land Department (DLD), and anyone who arranges, negotiates or registers a property deal for a client must hold a Broker Registration Number (BRN) and work under an agency with an Office Registration Number (ORN).",
+          "So when you compare a \"broker\" with a \"property advisor\" in Dubai, you are usually comparing two ways of describing the same regulated role. The difference is one of emphasis and service style, not legal status. The one thing you should never compromise on is the licence: title aside, the person acting for you must be a licensed broker."
+        ],
+        "bullets": [
+          "Broker: the regulated, licensed term. Requires a RERA BRN.",
+          "Property advisor or consultant: a job title or marketing label, not a separate licence.",
+          "Either way, the person completing your deal must hold a valid BRN under a licensed agency."
+        ]
+      },
+      {
+        "heading": "What a real estate broker is in Dubai",
+        "body": [
+          "A real estate broker is the licensed professional who represents you in a transaction. They market and list property, source buyers or tenants, negotiate price and terms, prepare the official RERA forms, and steer the deal through the DLD or a registration trustee to completion.",
+          "The role is defined by regulation. A broker must hold a BRN, operate under an agency with an ORN, and use the official forms, such as Form A when taking a listing and Form F for a sale agreement. That framework is what gives you accountability and a route to the regulator if something goes wrong."
+        ],
+        "bullets": [
+          "Transaction-focused: list, match, negotiate, complete, register.",
+          "Legally required to hold a RERA BRN under a licensed agency (ORN).",
+          "Uses official RERA forms and proper DLD or trustee payment channels.",
+          "Accountable to RERA, so there is recourse if a deal is mishandled."
+        ]
+      },
+      {
+        "heading": "What a property advisor means in Dubai",
+        "body": [
+          "\"Property advisor\" and \"property consultant\" are titles many professionals use to signal a broader, more consultative service. The framing is usually about the relationship: understanding your goals, advising on strategy, area and timing, building a portfolio over years, and surfacing off-market opportunities, rather than pushing a single listing.",
+          "This is a genuine and valuable way to work, and it is the approach a private office tends to take with serious buyers. But it is important to be clear: the title itself confers no legal authority. If a \"property advisor\" is going to negotiate and complete a deal for you, they must still be a RERA-licensed broker with a BRN. The advisory label describes the style of service, not a separate qualification."
+        ],
+        "bullets": [
+          "Relationship-led: strategy, area and timing advice, portfolio building.",
+          "Often emphasises discretion and private or off-market access.",
+          "Not a separate licence: a deal-handling advisor must still hold a BRN.",
+          "Best understood as how a broker chooses to serve clients, not a different profession."
+        ]
+      },
+      {
+        "heading": "Broker vs property advisor: the real difference",
+        "body": [
+          "Because the licence is the same, the meaningful differences come down to emphasis, time horizon and how the person is paid and motivated. The comparison below sets out how the two framings typically differ in practice, while remembering that many good professionals combine both."
+        ],
+        "bullets": [
+          "Focus: a broker centres on completing transactions; an advisor centres on your longer-term objectives.",
+          "Time horizon: brokerage is often deal-by-deal; advisory is relationship-led and ongoing.",
+          "Scope: a broker executes; an advisor also guides strategy, area choice and timing.",
+          "Access: advisors often lean on private and off-market inventory rather than portal listings.",
+          "Licence: identical requirement. Both must hold a RERA BRN to act on a transaction."
+        ]
+      },
+      {
+        "heading": "When you need each",
+        "body": [
+          "Match the person to the task. If you have already decided exactly what you want and simply need it executed cleanly, a capable transaction broker is enough. If you are weighing areas, building a portfolio, buying at the prime end, or want discreet access to homes that never reach the portals, an advisor-led relationship usually serves you better.",
+          "For most high-value or first-time buyers in Dubai, the ideal is a licensed broker who works in an advisory way: someone who will tell you when a property is overpriced or the wrong fit, price against real comparable sales, and stay useful long after the deal closes."
+        ],
+        "bullets": [
+          "Choose a transaction broker when the decision is made and you just need clean execution.",
+          "Choose an advisor-led relationship for strategy, portfolio building or prime and off-market buying.",
+          "Ideal for most buyers: a licensed broker who advises rather than only transacts."
+        ]
+      },
+      {
+        "heading": "How to check either is licensed",
+        "body": [
+          "Whatever title a person uses, the due diligence is the same and takes only a few minutes. Ask for the individual's BRN and the agency's ORN, then verify both against the DLD's official records before you view, sign or pay anything. For reference, EQT's ORN is 33039.",
+          "A professional welcomes this check rather than resisting it. If someone presenting as a broker or advisor cannot produce a valid BRN, treat it as a firm stop and work with someone who can."
+        ],
+        "bullets": [
+          "Ask for the BRN (individual) and ORN (agency) regardless of job title.",
+          "Verify both in the Dubai REST app or the DLD and RERA public Brokers register.",
+          "Confirm the name matches and the registration is current before proceeding.",
+          "No valid BRN means do not view, sign or transfer money."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is a property advisor the same as a real estate broker in Dubai?",
+        "answer": "In practice, usually yes. \"Property advisor\" and \"property consultant\" are job titles that describe a more consultative service, but there is no separate advisor licence in Dubai. Anyone who negotiates or completes a transaction for you must be a RERA-licensed broker holding a BRN."
+      },
+      {
+        "question": "Do property advisors in Dubai need a licence?",
+        "answer": "If they arrange, negotiate or register a property deal, yes. That activity is real estate brokerage, which is regulated by RERA and requires a Broker Registration Number under an agency with an Office Registration Number. The \"advisor\" title alone grants no legal authority to act."
+      },
+      {
+        "question": "What is the difference between a broker and an advisor in practice?",
+        "answer": "A broker tends to be transaction-focused, listing, matching, negotiating and completing deals, while an advisor frames a longer, relationship-led service around strategy, portfolio and off-market access. The licence requirement is identical, and the strongest professionals are both."
+      },
+      {
+        "question": "Which do I need to buy property in Dubai?",
+        "answer": "If your decision is made and you just need clean execution, a capable transaction broker is enough. If you are weighing areas, buying at the prime end, or want discreet off-market access, an advisor-led relationship usually serves you better. In all cases, confirm they are licensed."
+      },
+      {
+        "question": "How do I verify a Dubai broker or advisor's licence?",
+        "answer": "Ask for the individual's BRN and the agency's ORN, then check both in the Dubai REST app or the DLD and RERA public Brokers register. Confirm the name matches and the registration is current before you view, sign or pay. EQT's ORN is 33039."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Do Dubai real estate agents need a licence? How to check",
+        "href": "/blog/do-real-estate-agents-in-dubai-need-a-license"
+      },
+      {
+        "label": "How to choose a real estate agent in Dubai",
+        "href": "/blog/how-to-choose-a-real-estate-agent-in-dubai"
+      },
+      {
+        "label": "Questions to ask a real estate agent in Dubai",
+        "href": "/blog/questions-to-ask-a-real-estate-agent-in-dubai"
+      },
+      {
+        "label": "Meet the EQT team",
+        "href": "/team"
+      },
+      {
+        "label": "Speak with an EQT advisor",
+        "href": "/contact"
+      }
+    ],
+    "keywords": [
+      "real estate broker vs property advisor dubai",
+      "property advisor vs broker dubai",
+      "difference between broker and property advisor dubai",
+      "what is a property advisor dubai",
+      "do property advisors need a license dubai",
+      "dubai property consultant vs broker"
     ]
   },
 ];

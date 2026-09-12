@@ -7,6 +7,7 @@ import { postLead } from "@/lib/leads/submit";
 import { trackLead } from "@/lib/analytics";
 import { COMMUNITY_LABELS } from "@/lib/data/communityLabels";
 import { uiContent } from "@/lib/data/i18n/ui";
+import { estimateFromBenchmark, formatAed, type BenchmarkMap } from "@/lib/data/valuationEstimate";
 
 /**
  * Seller-focused valuation lead magnet. Captures the property details plus
@@ -21,9 +22,13 @@ type ValCopy = {
   fullName: string; namePlaceholder: string; contactLabel: string; contactPlaceholder: string;
   sending: string; submit: string; disclaimer: string; thankYou: string;
   successHeading: string; successBody: string; continueWhatsapp: string;
+  estimateHeading: string; estimateBasis: string; estimateNote: string;
 };
 
-export function ValuationForm({ source = "valuation" }: { source?: string } = {}) {
+export function ValuationForm({
+  source = "valuation",
+  benchmarks,
+}: { source?: string; benchmarks?: BenchmarkMap } = {}) {
   const locale = useLocale();
   const c = uiContent<ValCopy>("valuationForm", locale);
   // Value/label pairs: the value is stored/sent to the CRM, the label is shown.
@@ -57,9 +62,19 @@ export function ValuationForm({ source = "valuation" }: { source?: string } = {}
     .filter(Boolean)
     .join(", ");
 
+  // Indicative range from EQT's own comparable sales (only shows where enough exist).
+  const sizeNum = Number(size.replace(/,/g, "")) || 0;
+  const estimate = benchmarks
+    ? estimateFromBenchmark(benchmarks, community, ptype, sizeNum)
+    : null;
+  const estimateText = estimate
+    ? `${formatAed(estimate.low)} to ${formatAed(estimate.high)}`
+    : null;
+
   const message =
     `Hello ${site.name}, I'd like a valuation.\n\n` +
     `• Property: ${details}\n` +
+    (estimateText ? `• Indicative range: ${estimateText}\n` : "") +
     `• Name: ${name}\n` +
     `• Contact: ${contact}`;
 
@@ -74,7 +89,7 @@ export function ValuationForm({ source = "valuation" }: { source?: string } = {}
       intent: "Sell",
       area: community || undefined,
       source,
-      message: `Valuation request: ${details}`,
+      message: `Valuation request: ${details}${estimateText ? ` | Indicative range shown: ${estimateText}` : ""}`,
       honeypot,
       pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
     });
@@ -149,6 +164,22 @@ export function ValuationForm({ source = "valuation" }: { source?: string } = {}
             inputMode="numeric"
           />
         </label>
+
+        {estimate && (
+          <div
+            className="rounded-lg border border-accent-500 bg-base p-5"
+            aria-live="polite"
+          >
+            <p className="eyebrow mb-2">{c.estimateHeading}</p>
+            <p className="font-display text-2xl text-ink sm:text-3xl">{estimateText}</p>
+            <p className="mt-2 text-xs text-faint">
+              {c.estimateBasis
+                .replace("{count}", String(estimate.count))
+                .replace("{community}", community)}
+              . {c.estimateNote}
+            </p>
+          </div>
+        )}
 
         <div className="grid gap-5 sm:grid-cols-2">
           <label className="block">

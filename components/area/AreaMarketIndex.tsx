@@ -4,8 +4,11 @@ import { uiContent } from "@/lib/data/i18n/ui";
 
 type IndexCopy = {
   eyebrow: string; heading: string; intro: string;
-  statSales: string; statVolume: string; statAvg: string; statPerSqft: string; statRange: string;
+  statSales: string; statVolume: string; statAvg: string; statMedian: string;
+  statPerSqft: string; statRange: string; statYoy: string;
   byTypeHeading: string; colType: string; colCount: string;
+  byBedroomHeading: string; colBeds: string;
+  byYearHeading: string; colYear: string; colMedian: string;
   recentHeading: string; colDate: string; colHome: string; colSize: string; colPrice: string;
   methodology: string; bedShort: string;
 };
@@ -52,8 +55,12 @@ export function AreaMarketIndex({
     { label: c.statSales, value: `${index.count}+` },
     { label: c.statVolume, value: aed(index.totalVolumeAed) },
     { label: c.statAvg, value: aed(index.avgPriceAed) },
+    { label: c.statMedian, value: aed(index.medianPriceAed) },
     ...(index.avgPerSqft ? [{ label: c.statPerSqft, value: aed(index.avgPerSqft) }] : []),
     { label: c.statRange, value: `${aed(index.minPriceAed)} - ${aed(index.maxPriceAed)}` },
+    ...(index.yoy
+      ? [{ label: `${c.statYoy} (${index.yoy.fromYear}-${index.yoy.toYear})`, value: `${index.yoy.changePct >= 0 ? "+" : ""}${index.yoy.changePct}%` }]
+      : []),
   ];
 
   return (
@@ -92,6 +99,64 @@ export function AreaMarketIndex({
                     <td className="px-5 py-3 text-ink">{t.type}</td>
                     <td className="px-5 py-3 text-muted">{t.count}</td>
                     <td className="px-5 py-3 text-ink">{aed(t.avgPriceAed)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {/* Price by bedroom count, shown only when bedrooms are recorded and there
+          are at least two bedroom groups to compare (computeAreaIndex enforces this). */}
+      {index.byBedroom.length > 0 && (
+        <div className="mt-12">
+          <p className="eyebrow mb-5">{c.byBedroomHeading}</p>
+          <div className="overflow-x-auto rounded-lg border border-line">
+            <table className="w-full min-w-[480px] text-left text-sm">
+              <thead>
+                <tr className="border-b border-line bg-elevated text-xs uppercase tracking-[0.14em] text-faint">
+                  <th className="px-5 py-3 font-medium">{c.colBeds}</th>
+                  <th className="px-5 py-3 font-medium">{c.colCount}</th>
+                  <th className="px-5 py-3 font-medium">{c.statAvg}</th>
+                  <th className="px-5 py-3 font-medium">{c.statRange}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {index.byBedroom.map((b) => (
+                  <tr key={b.bedrooms} className="border-b border-line last:border-0">
+                    <td className="px-5 py-3 text-ink">{b.bedrooms} {c.bedShort}</td>
+                    <td className="px-5 py-3 text-muted">{b.count}</td>
+                    <td className="px-5 py-3 text-ink">{aed(b.avgPriceAed)}</td>
+                    <td className="px-5 py-3 text-muted">{aed(b.minPriceAed)} - {aed(b.maxPriceAed)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {/* Sales by year, shown only when more than one year is represented, so the
+          table reflects a genuine trend rather than a single period. */}
+      {index.byYear.length > 1 && (
+        <div className="mt-12">
+          <p className="eyebrow mb-5">{c.byYearHeading}</p>
+          <div className="overflow-x-auto rounded-lg border border-line">
+            <table className="w-full min-w-[420px] text-left text-sm">
+              <thead>
+                <tr className="border-b border-line bg-elevated text-xs uppercase tracking-[0.14em] text-faint">
+                  <th className="px-5 py-3 font-medium">{c.colYear}</th>
+                  <th className="px-5 py-3 font-medium">{c.colCount}</th>
+                  <th className="px-5 py-3 font-medium">{c.colMedian}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {index.byYear.map((y) => (
+                  <tr key={y.year} className="border-b border-line last:border-0">
+                    <td className="px-5 py-3 text-ink">{y.year}</td>
+                    <td className="px-5 py-3 text-muted">{y.count}</td>
+                    <td className="px-5 py-3 text-ink">{aed(y.medianPriceAed)}</td>
                   </tr>
                 ))}
               </tbody>

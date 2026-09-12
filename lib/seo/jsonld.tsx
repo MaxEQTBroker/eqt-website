@@ -390,6 +390,9 @@ export function AreaIndexJsonLd({
           measure("Lowest sale (AED)", index.minPriceAed, "AED"),
           measure("Highest sale (AED)", index.maxPriceAed, "AED"),
           ...(index.avgPerSqft ? [measure("Average price per sq ft (AED)", index.avgPerSqft, "AED per sq ft")] : []),
+          ...(index.yoy
+            ? [measure(`Year-on-year median price change ${index.yoy.fromYear} to ${index.yoy.toYear} (%)`, index.yoy.changePct, "percent")]
+            : []),
         ],
       }}
     />

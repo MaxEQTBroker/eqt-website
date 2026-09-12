@@ -12,6 +12,8 @@ export const mockPropertyTypes: PropertyGuide[] = [
     label: "Villas",
     title: "Villas for Sale in Dubai",
     headline: "Freehold family villas across Dubai's finest communities",
+    aeoAnswer:
+      "Villas in Dubai are standalone freehold homes that foreign buyers can own outright, available across communities from Arabian Ranches to Palm Jumeirah.",
     intro:
       "Dubai offers freehold villas across a wide spectrum, from gated family communities like Arabian Ranches and Dubai Hills Estate to ultra-prime addresses such as Emirates Hills and Palm Jumeirah. Buyers can own villas outright, with title registered at the Dubai Land Department, and choose between ready homes and off-plan launches.",
     listingType: "Villa",
@@ -58,6 +60,8 @@ export const mockPropertyTypes: PropertyGuide[] = [
     label: "Mansions",
     title: "Luxury Mansions for Sale in Dubai",
     headline: "Trophy estates in Dubai's most exclusive addresses",
+    aeoAnswer:
+      "Mansions in Dubai are large, often bespoke estates in ultra-prime communities such as Emirates Hills, Palm Jumeirah and Jumeirah Bay Island.",
     intro:
       "Dubai's mansion market is concentrated in a handful of ultra-prime communities, Emirates Hills, Palm Jumeirah, Jumeirah Bay Island, District One and Al Barari. These are large, often bespoke homes on generous plots, many with private beaches, golf frontage or lagoon views, and represent the top of the emirate's residential market.",
     listingType: "Mansion",
@@ -98,6 +102,8 @@ export const mockPropertyTypes: PropertyGuide[] = [
     label: "Penthouses",
     title: "Penthouses for Sale in Dubai",
     headline: "Sky-high living with skyline and sea views",
+    aeoAnswer:
+      "A penthouse in Dubai is a top-floor luxury residence with expansive space and skyline or sea views, found in landmark towers in Downtown, the Marina and on Palm Jumeirah.",
     intro:
       "Dubai's penthouses crown its most prestigious towers, in Downtown Dubai, Dubai Marina, Palm Jumeirah, Emaar Beachfront and Business Bay. Expect expansive floor plates, private terraces and pools, branded interiors and panoramic views of the skyline, sea or Burj Khalifa.",
     listingType: "Penthouse",
@@ -138,6 +144,8 @@ export const mockPropertyTypes: PropertyGuide[] = [
     label: "Apartments",
     title: "Apartments for Sale in Dubai",
     headline: "From investment studios to branded residences",
+    aeoAnswer:
+      "Apartments are the most liquid segment of Dubai's property market, offering strong rental yields from investment districts to branded beachfront residences.",
     intro:
       "Apartments are the most liquid segment of Dubai's market, spanning value-driven investment districts like Jumeirah Village Circle to branded residences in Downtown Dubai and beachfront homes at Emaar Beachfront. Strong rental yields and a deep resale market make apartments a popular entry point for investors and end-users alike.",
     listingType: "Apartment",
@@ -179,6 +187,8 @@ export const mockPropertyTypes: PropertyGuide[] = [
     label: "Townhouses",
     title: "Townhouses for Sale in Dubai",
     headline: "The family-friendly step between apartment and villa",
+    aeoAnswer:
+      "A townhouse in Dubai is a multi-storey home that shares walls with its neighbours, offering family living with a garden at a lower price than a standalone villa.",
     intro:
       "Townhouses offer Dubai families private, multi-storey living with gardens and community amenities at a more accessible price than standalone villas. They are concentrated in master communities such as Dubai Hills Estate, DAMAC Hills, Tilal Al Ghaf and Arabian Ranches, close to schools, parks and retail.",
     listingType: "Townhouse",
@@ -219,8 +229,25 @@ export const mockPropertyTypes: PropertyGuide[] = [
     label: "Off-Plan",
     title: "Off-Plan Property in Dubai",
     headline: "Buy early, from Dubai's leading developers",
+    aeoAnswer:
+      "Off-plan property in Dubai is a home bought from the developer before completion, usually on a staged payment plan and protected by RERA-regulated escrow.",
     intro:
       "Off-plan property is bought directly from a developer before or during construction, often with attractive payment plans and entry prices. In Dubai, off-plan purchases are protected by escrow accounts regulated by RERA, and buyers can access the newest communities from Emaar, Nakheel, Sobha, DAMAC and others. EQT advises on allocations, payment plans and resale exit.",
+    sections: [
+      {
+        heading: "Ready vs off-plan at a glance",
+        body: [
+          "Both routes are common in Dubai, and the right one depends on your budget, timeline and goals. Here is how a ready (completed) home compares with an off-plan purchase.",
+        ],
+        bullets: [
+          "Entry price: off-plan usually starts lower and spreads payments across construction, while a ready home needs full funds or a mortgage now.",
+          "Handover: off-plan completes in the future and carries a build timeline, while a ready home is available to move into or rent immediately.",
+          "Payment: off-plan follows a staged plan tied to construction milestones, while a ready purchase is settled in full at transfer.",
+          "Rental income: a ready home can earn from day one, while off-plan income begins only after completion.",
+          "Risk and upside: off-plan offers potential capital growth before completion under RERA escrow protection, while a ready home carries less build risk and a known, finished product.",
+        ],
+      },
+    ],
     keyFacts: [
       { label: "Payment", value: "Staged plans during construction" },
       { label: "Protection", value: "RERA-regulated escrow accounts" },

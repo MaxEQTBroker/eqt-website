@@ -200,6 +200,11 @@ export default async function AreaPage({
             {/* Intro + popular searches + key facts */}
             <div>
               <Reveal>
+                {area.aeoAnswer && (
+                  <p className="mb-6 text-2xl font-medium leading-snug text-ink">
+                    {area.aeoAnswer}
+                  </p>
+                )}
                 <p className="text-lg leading-relaxed text-muted">{area.intro}</p>
                 {area.keywords && area.keywords.length > 0 && (
                   <div className="mt-8">

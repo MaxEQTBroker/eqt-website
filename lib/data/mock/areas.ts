@@ -15,6 +15,8 @@ export const mockAreas: Area[] = [
     slug: "palm-jumeirah",
     label: "Palm Jumeirah",
     headline: "Life on the world's most iconic island",
+    aeoAnswer:
+      "Palm Jumeirah is Dubai's landmark man-made island, home to beachfront frond villas and branded apartments, and one of the emirate's most prestigious addresses for luxury buyers and investors.",
     intro:
       "Palm Jumeirah is Dubai's landmark man-made archipelago, home to beachfront villas on the fronds, the Signature Villas, and a growing collection of ultra-prime penthouses along the crescent. Residents enjoy private beach access, five-star hospitality on their doorstep, and some of the strongest capital appreciation in the emirate.",
     keyFacts: [
@@ -52,6 +54,8 @@ export const mockAreas: Area[] = [
     slug: "al-barari",
     label: "Al Barari",
     headline: "Where Dubai exhales",
+    aeoAnswer:
+      "Al Barari is Dubai's greenest luxury community, a low-density enclave of custom villas and mansions set among landscaped gardens and lakes, ideal for buyers who want privacy and a nature-led lifestyle close to the city.",
     intro:
       "There is nowhere else in Dubai quite like Al Barari. In a city defined by ambition and density, this is the deliberate exception, more than 60% of the land surrendered to nature. Gardens, lakes and mature trees frame a small collection of custom villas and mansions, each opening onto green. The air is cooler, quieter, unhurried, and yet it is minutes from everything Dubai offers.",
     keyFacts: [
@@ -89,6 +93,8 @@ export const mockAreas: Area[] = [
     slug: "jumeirah-islands",
     label: "Jumeirah Islands",
     headline: "Villa living, wrapped in water",
+    aeoAnswer:
+      "Jumeirah Islands is a gated community of waterfront villas set around landscaped lakes near Dubai Marina, suited to families who want established, low-rise villa living by the water.",
     intro:
       "Jumeirah Islands is a gated community of villa clusters set among landscaped, man-made lakes. Mature planting, waterfront plots and a genuine sense of community make it one of Dubai's most liveable villa addresses, architecturally varied, family-oriented, and moments from Dubai Marina and the beaches of JBR.",
     keyFacts: [
@@ -125,6 +131,8 @@ export const mockAreas: Area[] = [
     slug: "emirates-hills",
     label: "Emirates Hills",
     headline: "The Beverly Hills of Dubai",
+    aeoAnswer:
+      "Emirates Hills is Dubai's most established gated mansion community, built around the Montgomerie golf course, and the address of choice for prominent families seeking large bespoke homes and absolute privacy.",
     intro:
       "Emirates Hills is Dubai's most established gated villa community, built around the Montgomerie golf course. Large freehold plots, fully bespoke mansions and absolute privacy make it the address of choice for the emirate's most prominent families. Supply of prime mansions is scarce, which keeps values among the highest in the city.",
     keyFacts: [
@@ -161,6 +169,8 @@ export const mockAreas: Area[] = [
     slug: "downtown-dubai",
     label: "Downtown Dubai",
     headline: "At the centre of it all",
+    aeoAnswer:
+      "Downtown Dubai is the city's central district around the Burj Khalifa and The Dubai Mall, offering branded and luxury apartments prized by investors and buyers who want walkability and enduring liquidity.",
     intro:
       "Downtown Dubai is the beating heart of the city, home to the Burj Khalifa, The Dubai Mall and the Opera District. Branded residences and high-floor apartments here command premium rents and enduring liquidity, making it one of the most resilient investment locations in Dubai.",
     keyFacts: [
@@ -192,6 +202,8 @@ export const mockAreas: Area[] = [
     slug: "dubai-hills-estate",
     label: "Dubai Hills Estate",
     headline: "Green, connected, family-first",
+    aeoAnswer:
+      "Dubai Hills Estate is a master-planned golf-and-parks community of villas, townhouses and apartments, designed for families and end-users who want green, connected living between Downtown and Dubai Marina.",
     intro:
       "Dubai Hills Estate is a master-planned community wrapped around an 18-hole championship golf course and a central park. It balances contemporary villas, townhouses and apartments with schools, healthcare and retail, and offers easy access to both Downtown and Dubai Marina.",
     keyFacts: [
@@ -223,6 +235,8 @@ export const mockAreas: Area[] = [
     slug: "jumeirah-bay-island",
     label: "Jumeirah Bay Island",
     headline: "Dubai's most exclusive seahorse",
+    aeoAnswer:
+      "Jumeirah Bay Island is an ultra-prime, seahorse-shaped island reached by a private bridge, home to the Bulgari Residences and a handful of beachfront mansions for buyers seeking trophy waterfront assets.",
     intro:
       "Shaped like a seahorse and connected to the mainland by a private bridge, Jumeirah Bay Island is one of Dubai's rarest ultra-prime addresses, home to the Bulgari Resort & Residences and a small collection of custom beachfront mansions. Scarcity and prestige place it at the very top of the market.",
     keyFacts: [
@@ -254,6 +268,8 @@ export const mockAreas: Area[] = [
     slug: "emaar-beachfront",
     label: "Emaar Beachfront",
     headline: "Private beachfront living, by the Marina",
+    aeoAnswer:
+      "Emaar Beachfront is a gated island community of contemporary towers between Dubai Marina and Palm Jumeirah, offering private-beach apartments and penthouses for waterfront lifestyle buyers and investors.",
     intro:
       "Emaar Beachfront is a gated island community of contemporary towers set between Dubai Marina and Palm Jumeirah, with private beach access and skyline-and-sea views. It has become one of the most sought-after addresses for waterfront apartments and penthouses.",
     keyFacts: [
@@ -285,6 +301,8 @@ export const mockAreas: Area[] = [
     slug: "dubai-marina",
     label: "Dubai Marina",
     headline: "The city on the water",
+    aeoAnswer:
+      "Dubai Marina is a vibrant high-rise waterfront district built around a canal, offering a deep, liquid market of apartments and penthouses favoured by investors and lifestyle buyers seeking strong rental yields.",
     intro:
       "Dubai Marina is a vibrant, high-rise waterfront district built around a man-made canal, lined with restaurants, a promenade and yacht berths. It offers a deep, liquid market of apartments and penthouses with strong rental yields and round-the-clock energy.",
     keyFacts: [
@@ -316,6 +334,8 @@ export const mockAreas: Area[] = [
     slug: "district-one",
     label: "District One",
     headline: "Mansions on a crystal lagoon",
+    aeoAnswer:
+      "District One, in Mohammed Bin Rashid City, is a gated, low-density community built around a crystal lagoon, offering contemporary mansions and villas minutes from Downtown Dubai.",
     intro:
       "District One, at the heart of Mohammed Bin Rashid City, is built around one of the world's largest man-made crystal lagoons. Gated and low-density, it offers contemporary mansions and villas with lagoon or skyline views, just minutes from Downtown Dubai and Meydan.",
     keyFacts: [
@@ -347,6 +367,8 @@ export const mockAreas: Area[] = [
     slug: "dubai-creek-harbour",
     label: "Dubai Creek Harbour",
     headline: "A new waterfront skyline",
+    aeoAnswer:
+      "Dubai Creek Harbour is a large Emaar waterfront district on the historic Creek, offering contemporary apartments and penthouses popular with off-plan investors seeking capital growth and skyline views.",
     intro:
       "Dubai Creek Harbour is a large master-planned waterfront destination on the historic Creek, offering contemporary apartments and penthouses with views of the skyline, the marina and the wildlife sanctuary. It is one of Emaar's flagship growth districts and a favourite for off-plan investors.",
     keyFacts: [
@@ -378,6 +400,8 @@ export const mockAreas: Area[] = [
     slug: "business-bay",
     label: "Business Bay",
     headline: "Canal-side city living",
+    aeoAnswer:
+      "Business Bay is Dubai's central business and lifestyle district along the Dubai Water Canal, offering a liquid market of apartments and branded residences favoured by professionals and yield-focused investors.",
     intro:
       "Business Bay is Dubai's central business and lifestyle district, wrapped around the Dubai Water Canal and moments from Downtown. A dense mix of branded residences, offices and apartments makes it one of the most liquid rental markets in the city, popular with professionals and investors alike.",
     keyFacts: [
@@ -409,6 +433,8 @@ export const mockAreas: Area[] = [
     slug: "bluewaters-island",
     label: "Bluewaters Island",
     headline: "Beachfront, beside Ain Dubai",
+    aeoAnswer:
+      "Bluewaters Island is a low-rise waterfront community anchored by Ain Dubai, offering private-beach apartments, penthouses and townhouses for buyers who want a walkable beachfront lifestyle near JBR.",
     intro:
       "Bluewaters Island is a stylish, low-rise waterfront community anchored by Ain Dubai, the world's largest observation wheel. Its residences and penthouses offer private beach access, marina views and a walkable lifestyle of dining and retail, just off the JBR coastline.",
     keyFacts: [
@@ -440,6 +466,8 @@ export const mockAreas: Area[] = [
     slug: "city-walk",
     label: "City Walk",
     headline: "European-style urban living",
+    aeoAnswer:
+      "City Walk is a low-rise, pedestrian-friendly community in central Jumeirah that blends contemporary apartments with boutique retail and dining, ideal for end-users who value walkability close to the beach and Downtown.",
     intro:
       "City Walk is a low-rise, pedestrian-friendly community in the heart of Jumeirah, blending contemporary apartments with boutique retail, dining and green boulevards. Its central location and lifestyle appeal make it a favourite for owner-occupiers who want walkability close to the beach and Downtown.",
     keyFacts: [
@@ -471,6 +499,8 @@ export const mockAreas: Area[] = [
     slug: "jumeirah-golf-estates",
     label: "Jumeirah Golf Estates",
     headline: "Championship golf living",
+    aeoAnswer:
+      "Jumeirah Golf Estates is a gated, resort-style community set around two championship golf courses, offering villas and mansions for families and buyers who want a tranquil golf lifestyle.",
     intro:
       "Jumeirah Golf Estates is a gated, resort-style community set around two championship courses, including the DP World Tour Championship venue. Villas and mansions here look over fairways and lakes, offering a tranquil, green lifestyle with strong family appeal.",
     keyFacts: [
@@ -502,6 +532,8 @@ export const mockAreas: Area[] = [
     slug: "arabian-ranches",
     label: "Arabian Ranches",
     headline: "The established family villa community",
+    aeoAnswer:
+      "Arabian Ranches is one of Dubai's most established family villa communities, a low-rise master plan of villas and townhouses around a golf course, schools and parks, prized for suburban family living.",
     intro:
       "Arabian Ranches is one of Dubai's most loved family villa communities, a low-rise, desert-inspired master plan of villas and townhouses around a golf course, schools and parks. Its maturity, greenery and community feel make it a benchmark for suburban family living.",
     keyFacts: [
@@ -533,6 +565,8 @@ export const mockAreas: Area[] = [
     slug: "tilal-al-ghaf",
     label: "Tilal Al Ghaf",
     headline: "Resort living around a crystal lagoon",
+    aeoAnswer:
+      "Tilal Al Ghaf is a contemporary master community built around a swimmable lagoon and beaches, offering in-demand villas, mansions and townhouses for buyers who want a modern, resort-style lifestyle.",
     intro:
       "Tilal Al Ghaf is a contemporary master community built around a swimmable recreational lagoon and white-sand beaches. Its signature Lanai and Alaya mansions have become some of the most in-demand new villas in Dubai, blending resort amenities with modern architecture.",
     keyFacts: [
@@ -564,6 +598,8 @@ export const mockAreas: Area[] = [
     slug: "damac-hills",
     label: "DAMAC Hills",
     headline: "Golf-course living with resort amenities",
+    aeoAnswer:
+      "DAMAC Hills is a large master community around the Trump International Golf Club, offering villas, townhouses and apartments with resort amenities for families and investors seeking space and value.",
     intro:
       "DAMAC Hills is a large master community centred on the Trump International Golf Club Dubai, offering villas, townhouses and apartments alongside parks, sports facilities and retail. It appeals to families and investors looking for space and amenities at accessible prices.",
     keyFacts: [
@@ -595,6 +631,8 @@ export const mockAreas: Area[] = [
     slug: "jumeirah-park",
     label: "Jumeirah Park",
     headline: "Green, spacious family villas",
+    aeoAnswer:
+      "Jumeirah Park is a landscaped, family-focused villa community of generous plots near Dubai Marina and JLT, suited to families upgrading from apartments who want space and greenery.",
     intro:
       "Jumeirah Park is a landscaped, family-focused villa community of generous plots and mature greenery, centrally located near Dubai Marina, JLT and the Metro. Its large gardens and range of villa styles make it a perennial favourite with families upgrading from apartments.",
     keyFacts: [
@@ -626,6 +664,8 @@ export const mockAreas: Area[] = [
     slug: "the-meadows",
     label: "The Meadows",
     headline: "Lakeside villas in a mature community",
+    aeoAnswer:
+      "The Meadows is an established, gated villa community of tree-lined streets and lakes within Emirates Living, offering spacious independent villas for families who want mature, upscale suburban living.",
     intro:
       "The Meadows is an established, gated villa community of tree-lined streets and lakes within Emirates Living. Spacious independent villas, mature landscaping and proximity to schools and Dubai Marina keep it consistently in demand among families.",
     keyFacts: [
@@ -657,6 +697,8 @@ export const mockAreas: Area[] = [
     slug: "the-springs",
     label: "The Springs",
     headline: "Dubai's favourite starter villa community",
+    aeoAnswer:
+      "The Springs is a gated, lakeside townhouse-and-villa community within Emirates Living, whose accessible entry prices make it one of Dubai's most popular first villa purchases for young families.",
     intro:
       "The Springs is a gated townhouse-and-villa community within Emirates Living, arranged around lakes and green walkways. Affordable entry points, a strong community feel and proximity to Dubai Marina make it one of the most popular first villa purchases in the city.",
     keyFacts: [
@@ -688,6 +730,8 @@ export const mockAreas: Area[] = [
     slug: "the-lakes",
     label: "The Lakes",
     headline: "Quiet, green and centrally connected",
+    aeoAnswer:
+      "The Lakes is a low-density, gated villa community within Emirates Living, known for calm, leafy streets and larger plots, suited to families who want space and privacy close to the city.",
     intro:
       "The Lakes is a low-density, gated villa community within Emirates Living, known for its calm, leafy streets and shimmering lakes. Larger plots and a peaceful setting beside Emirates Hills make it a discreet choice for families who want space close to the city.",
     keyFacts: [
@@ -719,6 +763,8 @@ export const mockAreas: Area[] = [
     slug: "palm-jebel-ali",
     label: "Palm Jebel Ali",
     headline: "The next generation of Palm living",
+    aeoAnswer:
+      "Palm Jebel Ali is Dubai's second, larger palm-shaped island, now under development with off-plan beachfront villas and mansions for early buyers seeking ground-floor entry to a landmark waterfront destination.",
     intro:
       "Palm Jebel Ali is Dubai's second, larger palm-shaped island, now under active development with a new collection of beachfront villas and mansions. Early buyers gain ground-floor access to a landmark waterfront destination set to rival Palm Jumeirah in scale and prestige.",
     keyFacts: [
@@ -750,6 +796,8 @@ export const mockAreas: Area[] = [
     slug: "pearl-jumeirah",
     label: "Pearl Jumeirah",
     headline: "Beachfront plots in old Jumeirah",
+    aeoAnswer:
+      "Pearl Jumeirah is an exclusive man-made island off the historic Jumeirah coast, offering rare beachfront plots, mansions and residences for buyers who want bespoke, low-density waterfront living near the city.",
     intro:
       "Pearl Jumeirah is an exclusive man-made island off the historic Jumeirah coast, offering rare beachfront plots and custom mansions alongside the Nikki Beach Residences. Its central location and low density make it a discreet home for bespoke waterfront living.",
     keyFacts: [
@@ -781,6 +829,8 @@ export const mockAreas: Area[] = [
     slug: "jumeirah-village-circle",
     label: "Jumeirah Village Circle",
     headline: "Dubai's value-driven investment hub",
+    aeoAnswer:
+      "Jumeirah Village Circle (JVC) is a fast-growing, centrally located community of apartments, townhouses and villas, popular with investors and first-time buyers for its accessible prices and strong rental yields.",
     intro:
       "Jumeirah Village Circle (JVC) is a fast-growing, centrally located community of apartments, townhouses and villas. Competitive prices and some of the strongest rental yields in Dubai have made it one of the most active investment districts in the city.",
     keyFacts: [
@@ -812,6 +862,8 @@ export const mockAreas: Area[] = [
     slug: "port-de-la-mer",
     label: "Port de La Mer",
     headline: "Mediterranean marina living",
+    aeoAnswer:
+      "Port de La Mer is a Mediterranean-inspired marina community on the La Mer peninsula in Jumeirah, offering low-rise sea-view apartments and penthouses for buyers who want a beachfront lifestyle near Downtown.",
     intro:
       "Port de La Mer is a Mediterranean-inspired marina community on the La Mer peninsula in Jumeirah, offering low-rise apartments and penthouses with sea views, a yacht marina and private beach access, minutes from Downtown and the city's best beaches.",
     keyFacts: [
@@ -843,6 +895,8 @@ export const mockAreas: Area[] = [
     slug: "dubai-silicon-oasis",
     label: "Dubai Silicon Oasis",
     headline: "Mid-market living in a tech-driven free zone",
+    aeoAnswer:
+      "Dubai Silicon Oasis is a mixed-use technology free zone in south-east Dubai, offering affordable apartments plus some villas and townhouses, suited to value buyers, families and buy-to-let investors.",
     intro:
       "Dubai Silicon Oasis is a mixed-use technology free zone in south-east Dubai that pairs affordable apartments with a smaller selection of villas and townhouses, making it a practical, value-focused address for families, professionals and buy-to-let investors. Home to a large business park, schools and everyday retail, the community is largely self-contained and well connected to Academic City and the wider road network. Its accessible entry prices and steady tenant demand have made it a popular choice for first-time buyers and yield-focused investors.",
     keyFacts: [
@@ -894,6 +948,8 @@ export const mockAreas: Area[] = [
     slug: "al-furjan",
     label: "Al Furjan",
     headline: "Connected mid-market villas, townhouses and apartments",
+    aeoAnswer:
+      "Al Furjan is a connected, mid-market community in south-west Dubai offering villas, townhouses and apartments served by its own metro stations, suited to families, commuters and mid-market investors.",
     intro:
       "Al Furjan is a popular mid-market community in south-west Dubai offering a mix of villas, townhouses and apartments within easy reach of Discovery Gardens, Dubai Marina and Ibn Battuta. Served by its own metro stations and framed by parks and low-rise streets, it appeals to families and commuters who want space and connectivity at accessible prices. Ongoing development and strong rental demand have kept it a steady choice for both end-users and investors.",
     keyFacts: [
@@ -945,6 +1001,8 @@ export const mockAreas: Area[] = [
     slug: "discovery-gardens",
     label: "Discovery Gardens",
     headline: "Affordable, rental-focused apartment living",
+    aeoAnswer:
+      "Discovery Gardens is an established, affordable apartment community in south-west Dubai arranged around themed gardens, popular with renters, newcomers and first-time buy-to-let investors.",
     intro:
       "Discovery Gardens is an established, affordable apartment community in south-west Dubai, arranged around themed gardens and low-rise buildings that make it one of the city's most popular addresses for renters and first-time buyers. Its accessible prices, green landscaping and metro connectivity draw a steady stream of professionals and newcomers relocating to Dubai. High occupancy and dependable tenant demand give it a resilient buy-to-let profile.",
     keyFacts: [
@@ -996,6 +1054,8 @@ export const mockAreas: Area[] = [
     slug: "damac-hills-2",
     label: "DAMAC Hills 2",
     headline: "Value family villas by DAMAC",
+    aeoAnswer:
+      "DAMAC Hills 2, formerly Akoya, is a large, value-focused family villa community by DAMAC on the city's outskirts, offering affordable villas and townhouses around water and sports amenities for families and investors.",
     intro:
       "DAMAC Hills 2, formerly known as Akoya, is a large, value-focused family villa community by DAMAC on the outskirts of Dubai, offering affordable villas and townhouses around water attractions, sports amenities and green open space. It is a distinct and more budget-friendly community to the established DAMAC Hills, aimed at families and investors seeking space and amenities at accessible price points. Its self-contained lifestyle, with retail, schools and leisure planned within the master plan, has made it a popular entry point into villa ownership.",
     keyFacts: [
@@ -1053,6 +1113,8 @@ export const mockAreas: Area[] = [
     slug: "damac-lagoons",
     label: "DAMAC Lagoons",
     headline: "Mediterranean-themed lagoon living by DAMAC",
+    aeoAnswer:
+      "DAMAC Lagoons is a Mediterranean-themed, largely off-plan villa and townhouse community by DAMAC built around swimmable lagoons, suited to families and off-plan investors seeking a resort-style waterfront lifestyle.",
     intro:
       "DAMAC Lagoons is an off-plan, Mediterranean-inspired villa and townhouse community by DAMAC, arranged around swimmable lagoons, sandy shores and water-based amenities. Its clusters are themed after destinations such as Santorini, Venice and Portofino, offering families and investors modern homes with a resort-style waterfront lifestyle. As a largely off-plan development, it appeals to buyers seeking staged payment plans and capital growth potential as the master plan completes.",
     keyFacts: [

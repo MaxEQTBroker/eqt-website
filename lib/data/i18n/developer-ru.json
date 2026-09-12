@@ -94,7 +94,8 @@
       "Emaar на этапе строительства Дубай",
       "апартаменты Emaar Beachfront",
       "вилла Dubai Hills Emaar"
-    ]
+    ],
+    "aeoAnswer": "Emaar - крупнейший мастер-девелопер Дубая, известный по Downtown Dubai, Dubai Marina и Dubai Hills Estate."
   },
   "nakheel": {
     "tagline": "Создатель Palm Jumeirah",
@@ -191,7 +192,8 @@
       "Palm Jebel Ali Nakheel",
       "виллы Nakheel Дубай",
       "Palm Jumeirah Nakheel"
-    ]
+    ],
+    "aeoAnswer": "Nakheel - дубайский мастер-девелопер, создавший Palm Jumeirah, Palm Jebel Ali и The World Islands."
   },
   "sobha-realty": {
     "tagline": "Вертикально интегрированные строители, одержимые деталями",
@@ -283,7 +285,8 @@
       "апартаменты Sobha Hartland",
       "Sobha на этапе строительства Дубай",
       "Sobha SeaHaven"
-    ]
+    ],
+    "aeoAnswer": "Sobha Realty - премиальный дубайский застройщик, известный собственным вертикально интегрированным качеством строительства во главе с Sobha Hartland."
   },
   "damac": {
     "tagline": "Брендированные мастер-сообщества, насыщенные удобствами",
@@ -375,7 +378,8 @@
       "вилла DAMAC Hills",
       "таунхаус DAMAC Lagoons",
       "DAMAC на этапе строительства в Дубае"
-    ]
+    ],
+    "aeoAnswer": "DAMAC - крупный частный застройщик Дубая, известный брендированными резиденциями и мастер-сообществами с развитой инфраструктурой, такими как DAMAC Hills и DAMAC Lagoons."
   },
   "meraas": {
     "tagline": "Городские направления, ориентированные на образ жизни",
@@ -467,7 +471,8 @@
       "квартира City Walk Meraas",
       "Bluewaters Island Meraas",
       "Meraas на этапе строительства в Дубае"
-    ]
+    ],
+    "aeoAnswer": "Meraas - дубайский застройщик, известный дизайнерскими lifestyle-дестинациями, такими как City Walk, Bluewaters Island и Jumeirah Bay Island."
   },
   "omniyat": {
     "tagline": "Ультрароскошная архитектура, вдохновленная искусством",
@@ -559,7 +564,8 @@
       "One at Palm Jumeirah",
       "The Lana Residences Дубай",
       "ультрароскошный застройщик Дубая"
-    ]
+    ],
+    "aeoAnswer": "OMNIYAT - бутиковый дубайский застройщик ультрароскошных, ориентированных на искусство резиденций, таких как One at Palm Jumeirah и The Lana."
   },
   "ellington": {
     "tagline": "Бутиковые резиденции с приоритетом дизайна",
@@ -650,7 +656,8 @@
       "Ellington Beach House Palm",
       "Апартаменты Ellington JVC",
       "Ellington на этапе строительства Дубай"
-    ]
+    ],
+    "aeoAnswer": "Ellington Properties - бутиковый дубайский застройщик, ориентированный на дизайн, известный тщательно проработанными квартирами и виллами на Palm Jumeirah, в JVC и MBR City."
   },
   "majid-al-futtaim": {
     "tagline": "Мастер-сообщества, построенные вокруг образа жизни",
@@ -741,7 +748,8 @@
       "Вилла Tilal Al Ghaf",
       "Особняк Alaya Tilal Al Ghaf",
       "Сообщества MAF Дубай"
-    ]
+    ],
+    "aeoAnswer": "Majid Al Futtaim - ведущий региональный застройщик, чье флагманское дубайское сообщество - Tilal Al Ghaf, при поддержке группы, стоящей за Mall of the Emirates."
   },
   "select-group": {
     "tagline": "Башни на первой линии моря в Dubai Marina",
@@ -833,7 +841,8 @@
       "Апартаменты Marina Gate",
       "Six Senses Residences Дубай",
       "Peninsula Business Bay"
-    ]
+    ],
+    "aeoAnswer": "Select Group - частный дубайский застройщик, наиболее известный прибрежными башнями в Dubai Marina, включая Marina Gate."
   },
   "binghatti": {
     "tagline": "Смелый дизайн и башни с сильным брендингом",
@@ -948,7 +957,8 @@
       "Binghatti на этапе строительства",
       "Апартаменты Binghatti в JVC",
       "брендовые резиденции Binghatti"
-    ]
+    ],
+    "aeoAnswer": "Binghatti - дубайский застройщик, известный фасадным дизайном, быстрой сдачей и брендированными резиденциями с партнерами, такими как Bugatti и Mercedes-Benz."
   },
   "dubai-properties": {
     "tagline": "Мастер-сообщества по всему городу",
@@ -1040,7 +1050,8 @@
       "Апартаменты в JBR",
       "Таунхаус в Villanova",
       "Девелопер Dubai Holding"
-    ]
+    ],
+    "aeoAnswer": "Dubai Properties, часть Dubai Holding, - застройщик Jumeirah Beach Residence (JBR), районов Business Bay и сообществ вроде Villanova."
   },
   "aldar": {
     "tagline": "Ведущий девелопер Абу-Даби, теперь и в Дубае",
@@ -1131,7 +1142,8 @@
       "Aldar Palm Jumeirah",
       "Haven by Aldar",
       "Aldar на этапе строительства"
-    ]
+    ],
+    "aeoAnswer": "Aldar Properties - крупнейший застройщик Абу-Даби, теперь расширяющийся в Дубае премиальными запусками, включая проекты на Palm Jumeirah."
   },
   "deyaar": {
     "tagline": "Устоявшийся, публично торгуемый застройщик Дубая",
@@ -1193,6 +1205,7 @@
       "Mont Rose Al Barsha",
       "Deyaar Business Bay",
       "Deyaar Development Дубай"
-    ]
+    ],
+    "aeoAnswer": "Deyaar Development - устоявшийся публичный застройщик Дубая, аффилированный с Dubai Islamic Bank, известный проектами Midtown и Mont Rose."
   }
 }

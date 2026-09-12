@@ -432,7 +432,10 @@
     "thankYou": "Thank you",
     "successHeading": "Your valuation is on its way",
     "successBody": "An advisor will prepare a valuation for your property in {community} and be in touch shortly. For the fastest response, continue on WhatsApp.",
-    "continueWhatsapp": "Continue on WhatsApp"
+    "continueWhatsapp": "Continue on WhatsApp",
+    "estimateHeading": "Indicative range",
+    "estimateBasis": "Based on {count} recent EQT sales in {community}",
+    "estimateNote": "An indicative guide from comparable sales. A precise figure needs a viewing: floor, view, condition and tenancy."
   },
   "guidesBuying": {
     "metaTitle": "Buying Property in Dubai: The Complete Guide (2026)",
@@ -1193,7 +1196,14 @@
     "bedShort": "bed",
     "byTypeHeading": "Average price by property type",
     "colType": "Type",
-    "colCount": "Sales"
+    "colCount": "Sales",
+    "statMedian": "Median price",
+    "statYoy": "Year on year",
+    "byBedroomHeading": "Price by bedrooms",
+    "colBeds": "Bedrooms",
+    "byYearHeading": "Sales by year",
+    "colYear": "Year",
+    "colMedian": "Median price"
   },
   "marketIndex": {
     "eyebrow": "The EQT Dubai Market Index",

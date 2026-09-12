@@ -57,7 +57,7 @@ export const mockPosts: BlogPost[] = [
     category: "Community Guides",
     author: EQT_TEAM,
     publishedAt: "2026-07-28",
-    updatedAt: "2026-08-03",
+    updatedAt: "2026-09-12",
     readingMinutes: 7,
     heroImage: {
       url: "/images/palm-jumeirah/1.jpg",
@@ -112,6 +112,13 @@ export const mockPosts: BlogPost[] = [
           "For long-term buyers and end-users, that scarcity and liquidity make the Palm one of the most resilient prime markets in the emirate, though the right villa and renovation still matter more than timing.",
         ],
       },
+      {
+        heading: "Speak with an EQT Palm Jumeirah specialist",
+        body: [
+          "Pricing a Palm villa well comes down to real comparable sales, frond position and renovation quality, not asking prices. EQT is a RERA-registered Dubai brokerage (ORN 33039) with multilingual advisors working in English, Russian and Ukrainian, and quiet access to private and off-market Palm Jumeirah villas that never reach the public portals.",
+          "Speak with an EQT Palm Jumeirah specialist to review current comparable sales and find the right frond, plot and villa for your budget and brief.",
+        ],
+      },
     ],
     faqs: [
       {
@@ -142,6 +149,7 @@ export const mockPosts: BlogPost[] = [
       { label: "Luxury property in Dubai: a price guide", href: "/blog/luxury-property-in-dubai-price-guide" },
       { label: "Waterfront property in Dubai: best areas", href: "/blog/waterfront-property-in-dubai-best-areas" },
       { label: "How to invest in Dubai real estate", href: "/blog/how-to-invest-in-dubai-real-estate" },
+      { label: "Speak with an EQT Palm Jumeirah specialist", href: "/contact" },
     ],
     keywords: [
       "Palm Jumeirah villa prices",
@@ -286,7 +294,7 @@ export const mockPosts: BlogPost[] = [
     category: "Buyer Guides",
     author: EQT_TEAM,
     publishedAt: "2026-06-28",
-    updatedAt: "2026-08-03",
+    updatedAt: "2026-09-12",
     readingMinutes: 7,
     heroImage: {
       url: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80",
@@ -373,6 +381,7 @@ export const mockPosts: BlogPost[] = [
     ],
     relatedLinks: [
       { label: "How to verify a Dubai agent's licence", href: "/blog/do-real-estate-agents-in-dubai-need-a-license" },
+      { label: "Real estate broker vs property advisor in Dubai", href: "/blog/real-estate-broker-vs-property-advisor-dubai" },
       { label: "How much does it cost to buy property in Dubai?", href: "/blog/how-much-does-it-cost-to-buy-property-in-dubai" },
       { label: "How to buy property in Dubai as a foreigner", href: "/blog/how-to-buy-property-in-dubai-as-a-foreigner" },
       { label: "How to invest in Dubai real estate", href: "/blog/how-to-invest-in-dubai-real-estate" },

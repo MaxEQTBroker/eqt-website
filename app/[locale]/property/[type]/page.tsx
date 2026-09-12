@@ -137,6 +137,11 @@ export default async function PropertyTypePage({
             {/* Intro + popular searches + key facts */}
             <div>
               <Reveal>
+                {guide.aeoAnswer && (
+                  <p className="mb-6 border-l-2 border-accent-500 pl-5 text-xl leading-relaxed text-ink">
+                    {guide.aeoAnswer}
+                  </p>
+                )}
                 <p className="text-lg leading-relaxed text-muted">{guide.intro}</p>
                 {guide.keywords && guide.keywords.length > 0 && (
                   <div className="mt-8">
@@ -168,6 +173,31 @@ export default async function PropertyTypePage({
                 </div>
               </Reveal>
             </div>
+
+            {/* Extended editorial + at-a-glance comparison (AEO). */}
+            {guide.sections && guide.sections.length > 0 && (
+              <div className="space-y-12 border-t border-line pt-16">
+                {guide.sections.map((s) => (
+                  <Reveal key={s.heading}>
+                    <div>
+                      <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">{s.heading}</h2>
+                      <div className="mt-4 space-y-4">
+                        {s.body.map((p, i) => (
+                          <p key={i} className="text-lg leading-relaxed text-muted">{p}</p>
+                        ))}
+                      </div>
+                      {s.bullets && s.bullets.length > 0 && (
+                        <ul className="mt-6 divide-y divide-line rounded-lg border border-line bg-elevated">
+                          {s.bullets.map((b, i) => (
+                            <li key={i} className="px-5 py-4 text-lg leading-relaxed text-ink">{b}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            )}
 
             {/* Available listings of this type */}
             {listings.length > 0 && (

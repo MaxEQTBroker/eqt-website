@@ -432,7 +432,10 @@
     "thankYou": "Дякуємо",
     "successHeading": "Ваша оцінка вже в дорозі",
     "successBody": "Радник підготує оцінку вашої нерухомості в районі {community} та невдовзі зв'яжеться з вами. Для найшвидшої відповіді продовжте у WhatsApp.",
-    "continueWhatsapp": "Продовжити у WhatsApp"
+    "continueWhatsapp": "Продовжити у WhatsApp",
+    "estimateHeading": "Орієнтовний діапазон",
+    "estimateBasis": "На основі {count} нещодавніх продажів EQT у {community}",
+    "estimateNote": "Орієнтовний показник на основі порівнянних продажів. Точна цифра потребує перегляду: поверх, вид, стан і наявність орендаря."
   },
   "guidesBuying": {
     "metaTitle": "Купівля нерухомості в Дубаї: Повний посібник (2026)",
@@ -1193,7 +1196,14 @@
     "bedShort": "сп.",
     "byTypeHeading": "Середня ціна за типом нерухомості",
     "colType": "Тип",
-    "colCount": "Продажі"
+    "colCount": "Продажі",
+    "statMedian": "Медіанна ціна",
+    "statYoy": "Рік до року",
+    "byBedroomHeading": "Ціна за кількістю спалень",
+    "colBeds": "Спальні",
+    "byYearHeading": "Продажі за роками",
+    "colYear": "Рік",
+    "colMedian": "Медіанна ціна"
   },
   "marketIndex": {
     "eyebrow": "Індекс ринку Dubai від EQT",

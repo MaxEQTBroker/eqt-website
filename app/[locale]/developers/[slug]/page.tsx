@@ -153,6 +153,11 @@ export default async function DeveloperPage({
             {/* Intro + popular searches + key facts */}
             <div>
               <Reveal>
+                {dev.aeoAnswer && (
+                  <p className="mb-6 border-l-2 border-accent-500 pl-5 text-xl leading-relaxed text-ink">
+                    {dev.aeoAnswer}
+                  </p>
+                )}
                 <p className="text-lg leading-relaxed text-muted">{dev.intro}</p>
                 {dev.keywords && dev.keywords.length > 0 && (
                   <div className="mt-8">

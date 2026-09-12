@@ -11,6 +11,8 @@ export const mockDevelopers: Developer[] = [
     slug: "emaar",
     name: "Emaar Properties",
     tagline: "The developer behind Downtown Dubai",
+    aeoAnswer:
+      "Emaar is Dubai's largest master developer, known for Downtown Dubai, Dubai Marina and Dubai Hills Estate.",
     logo: "/brand/developers/Emaar-Properties-Logo-1.png",
     intro:
       "Emaar Properties is Dubai's largest and most established master developer, responsible for landmark destinations including Downtown Dubai, the Burj Khalifa, Dubai Marina, Dubai Hills Estate, Emaar Beachfront and Dubai Creek Harbour. Its developments are known for quality construction, reliable handovers and strong resale liquidity, which makes Emaar stock a default choice for both end-users and investors.",
@@ -63,6 +65,8 @@ export const mockDevelopers: Developer[] = [
     slug: "nakheel",
     name: "Nakheel",
     tagline: "The creator of Palm Jumeirah",
+    aeoAnswer:
+      "Nakheel is the Dubai master developer behind Palm Jumeirah, Palm Jebel Ali and The World Islands.",
     logo: "/brand/developers/nakheel-1.webp",
     intro:
       "Nakheel is the master developer behind Dubai's most iconic waterfront landmarks, including Palm Jumeirah, Palm Jebel Ali, The World Islands, Jumeirah Islands and Jumeirah Park. Its projects have defined Dubai's coastline and continue to command premium values thanks to their scarcity and landmark status.",
@@ -108,6 +112,8 @@ export const mockDevelopers: Developer[] = [
     slug: "sobha-realty",
     name: "Sobha Realty",
     tagline: "Backward-integrated, detail-obsessed builders",
+    aeoAnswer:
+      "Sobha Realty is a premium Dubai developer known for its in-house, backward-integrated build quality, led by Sobha Hartland.",
     logo: "/brand/developers/sobha-realty-logo.webp",
     intro:
       "Sobha Realty is a premium developer known for its backward-integrated model, controlling design and construction in-house to deliver exceptional finish quality. Its flagship master community, Sobha Hartland in MBR City, and the newer Sobha Hartland II have made it a favourite for buyers who prioritise build quality and waterfront living.",
@@ -147,6 +153,8 @@ export const mockDevelopers: Developer[] = [
     slug: "damac",
     name: "DAMAC Properties",
     tagline: "Branded, amenity-rich master communities",
+    aeoAnswer:
+      "DAMAC is a major private Dubai developer known for branded residences and amenity-rich master communities like DAMAC Hills and DAMAC Lagoons.",
     logo: "/brand/developers/Damac_logo.svg.webp",
     intro:
       "DAMAC Properties is one of Dubai's largest private developers, known for branded residences in partnership with names such as Cavalli and de GRISOGONO, and for large master communities including DAMAC Hills and DAMAC Lagoons. Its projects combine accessible entry prices with resort-style amenities, appealing strongly to investors.",
@@ -186,6 +194,8 @@ export const mockDevelopers: Developer[] = [
     slug: "meraas",
     name: "Meraas",
     tagline: "Lifestyle-led urban destinations",
+    aeoAnswer:
+      "Meraas is a Dubai developer known for design-led lifestyle destinations such as City Walk, Bluewaters Island and Jumeirah Bay Island.",
     logo: "/brand/developers/Meraas-logo.svg.webp",
     intro:
       "Meraas is a Dubai developer behind some of the city's most design-led lifestyle destinations, including City Walk, Bluewaters Island, La Mer, Port de La Mer and Jumeirah Bay Island. Its projects are known for architectural character, walkability and prime beachfront and urban locations.",
@@ -225,6 +235,8 @@ export const mockDevelopers: Developer[] = [
     slug: "omniyat",
     name: "OMNIYAT",
     tagline: "Ultra-luxury, art-led architecture",
+    aeoAnswer:
+      "OMNIYAT is a boutique Dubai developer of ultra-luxury, art-led residences such as One at Palm Jumeirah and The Lana.",
     logo: "/brand/developers/omniyat-logo.webp",
     intro:
       "OMNIYAT is a boutique developer of ultra-luxury, architecturally significant projects, including The Lana and One at Palm Jumeirah, home to some of the highest per-square-foot values in Dubai. Working with world-class architects and hospitality brands such as Dorchester Collection, OMNIYAT sits firmly at the top of the market.",
@@ -264,6 +276,8 @@ export const mockDevelopers: Developer[] = [
     slug: "ellington",
     name: "Ellington Properties",
     tagline: "Design-first boutique residences",
+    aeoAnswer:
+      "Ellington Properties is a design-led boutique Dubai developer known for well-detailed apartments and villas across Palm Jumeirah, JVC and MBR City.",
     logo: "/brand/developers/Ellington-properties-Logo-1024x408.webp",
     intro:
       "Ellington Properties is a design-led boutique developer known for beautifully detailed apartments and villas across communities such as Palm Jumeirah, Jumeirah Village Circle, MBR City and Emaar Beachfront. Its focus on architecture, amenities and finish has built a loyal following among end-users and investors alike.",
@@ -302,6 +316,8 @@ export const mockDevelopers: Developer[] = [
     slug: "majid-al-futtaim",
     name: "Majid Al Futtaim",
     tagline: "Master communities anchored by lifestyle",
+    aeoAnswer:
+      "Majid Al Futtaim is a leading regional developer whose flagship Dubai community is Tilal Al Ghaf, backed by the group behind Mall of the Emirates.",
     logo: "/brand/developers/MAF-crop.png",
     intro:
       "Majid Al Futtaim is a leading regional developer whose communities, most notably Tilal Al Ghaf, pair contemporary homes with world-class retail and leisure. Backed by the group behind Mall of the Emirates and City Centre malls, its master communities are built around amenities, lagoons and long-term placemaking.",
@@ -340,6 +356,8 @@ export const mockDevelopers: Developer[] = [
     slug: "select-group",
     name: "Select Group",
     tagline: "Waterfront towers in Dubai Marina",
+    aeoAnswer:
+      "Select Group is a private Dubai developer best known for waterfront towers in Dubai Marina, including Marina Gate.",
     logo: "/brand/developers/Select-Group-Logo-Black.png",
     intro:
       "Select Group is a leading private developer best known for its waterfront residential towers in Dubai Marina, including the landmark Marina Gate and Jumeirah Living Marina Gate. Its focus on prime, well-connected waterfront locations and hospitality-grade amenities has made it a trusted name for apartments and penthouses.",
@@ -379,6 +397,8 @@ export const mockDevelopers: Developer[] = [
     slug: "binghatti",
     name: "Binghatti",
     tagline: "Bold design and hyper-branded towers",
+    aeoAnswer:
+      "Binghatti is a Dubai developer known for facade-led design, fast delivery and branded residences with partners such as Bugatti and Mercedes-Benz.",
     logo: "/brand/developers/Binghatti-logo-dark.webp",
     intro:
       "Binghatti is a Dubai-based developer best known for facade-led architecture, fast delivery and a growing line of branded residences. It built its name on distinctive, sculptural towers and a high volume of apartment projects across Business Bay, Jumeirah Village Circle (JVC) and Al Jaddaf, then moved up-market with headline branded partnerships including Bugatti, Mercedes-Benz and Jacob & Co. Today the brand spans everything from accessible investor apartments to ultra-luxury branded towers, which makes it one of the most visible and active names in Dubai's off-plan market.",
@@ -438,6 +458,8 @@ export const mockDevelopers: Developer[] = [
     slug: "dubai-properties",
     name: "Dubai Properties",
     tagline: "Master communities across the city",
+    aeoAnswer:
+      "Dubai Properties, part of Dubai Holding, is the developer behind Jumeirah Beach Residence (JBR), Business Bay districts and communities like Villanova.",
     logo: "/brand/developers/dubai-properties-logo.webp",
     intro:
       "Dubai Properties, part of Dubai Holding, has shaped some of the city's best-known destinations, including Jumeirah Beach Residence (JBR), Business Bay, Dubailand and Villanova. Its large-scale master communities span waterfront apartments to family villas, offering breadth across price points and lifestyles.",
@@ -477,6 +499,8 @@ export const mockDevelopers: Developer[] = [
     slug: "aldar",
     name: "Aldar Properties",
     tagline: "Abu Dhabi's leading developer, now in Dubai",
+    aeoAnswer:
+      "Aldar Properties is Abu Dhabi's largest developer, now expanding into Dubai with prime launches including projects on Palm Jumeirah.",
     logo: "/brand/developers/Aldar-Properties-Logo-2-scaled.webp",
     intro:
       "Aldar Properties is the largest developer in Abu Dhabi and an increasingly significant player in Dubai, with landmark acquisitions and launches on Palm Jumeirah and beyond. Known for institutional-grade delivery and design partnerships, Aldar brings a blue-chip profile to Dubai's prime market.",
@@ -515,6 +539,8 @@ export const mockDevelopers: Developer[] = [
     slug: "deyaar",
     name: "Deyaar Development",
     tagline: "An established, listed Dubai developer",
+    aeoAnswer:
+      "Deyaar Development is an established, listed Dubai developer affiliated with Dubai Islamic Bank, known for projects like Midtown and Mont Rose.",
     intro:
       "Deyaar Development PJSC is one of Dubai's established developers, listed on the Dubai Financial Market and affiliated with Dubai Islamic Bank. Active since the early 2000s, it has delivered residential and commercial projects across districts such as Business Bay, Al Barsha South and Dubai Production City, and has more recently expanded into branded and off-plan residences. Deyaar also runs a property management arm, giving it a presence across both development and ongoing asset management.",
     keyFacts: [

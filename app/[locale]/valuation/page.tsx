@@ -4,6 +4,7 @@ import { ValuationForm } from "@/components/lead/ValuationForm";
 import { Reveal } from "@/components/motion/Reveal";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { getAreas } from "@/lib/data/repository";
+import { buildValuationBenchmarks } from "@/lib/data/valuationEstimate";
 import { site } from "@/lib/site";
 import { uiContent, hasUiTranslation } from "@/lib/data/i18n/ui";
 
@@ -56,6 +57,9 @@ export default async function ValuationPage({
     areas[0];
   const heroImage = heroArea?.heroImage;
 
+  // Indicative price-per-sqft bands from EQT's own sold records (see valuationEstimate).
+  const benchmarks = await buildValuationBenchmarks();
+
   return (
     <>
       <BreadcrumbJsonLd
@@ -93,7 +97,7 @@ export default async function ValuationPage({
         {/* The form, after all the text, with a prime-community image alongside */}
         <div className="mt-16 grid gap-10 border-t border-line pt-16 lg:grid-cols-2 lg:items-start lg:gap-14">
           <Reveal delay={120} className="block">
-            <ValuationForm source="valuation" />
+            <ValuationForm source="valuation" benchmarks={benchmarks} />
           </Reveal>
           {heroImage && (
             <Reveal delay={180} className="hidden lg:block lg:sticky lg:top-28">
