@@ -39,25 +39,25 @@ Legend: 🔴 needs Max (accounts / outreach / spend / decision / login) · 🟢 
 
 ## 🟢 Claude (on-site)
 
-- [ ] Binghatti dev-page refresh + "Binghatti projects 2026" post *(in progress)*
-- [ ] Dubailand explainer/hub post *(in progress)*
-- [ ] AEO rollout — answer-line + FAQ + comparison table on all area/property/developer money pages
-- [ ] Palm cluster — per-frond deep-dives, single-building guides, Palm vs Bluewaters/Jumeirah Bay, investment 2026, renting on Palm, quarterly updates *(started)*
-- [ ] Richer Palm/Market Index — price bands, per-bedroom, year-on-year
-- [ ] Ranking-cluster GSC posts beyond the top 10 (agent-licence, visa/relocation depth + internal links)
-- [ ] CTAs + trust signals on top Palm posts (inline + exit-intent)
-- [ ] Hyper-specific landing pages (per frond / budget band / building)
-- [ ] DAMAC Hills 2 / Lagoons real hyperlinks (Area type + area-page render) *(in progress)*
-- [ ] Image sitemap + Video sitemap *(in progress)*
-- [ ] Monthly post refresh (fresh `dateModified` on 5-10 posts)
-- [ ] Deferred a11y — form-field border >=3:1 *(in progress)*
+- [x] Binghatti dev-page refresh + "Binghatti projects 2026" post
+- [x] Dubailand explainer/hub post
+- [x] AEO rollout — answer-line on all area/property/developer pages; FAQs present; ready-vs-off-plan comparison
+- [x] Palm cluster — renting-on-palm, Palm vs Bluewaters, investment 2026 (more per-frond deep-dives still possible)
+- [x] Richer Palm/Market Index — median tile, price-by-bedroom, sales-by-year + YoY
+- [x] Ranking-cluster GSC posts (broker-vs-advisor #30 gap; deepened France relocation)
+- [x] CTAs + trust signals on top Palm posts
+- [ ] Hyper-specific landing pages (per frond / budget band / building) — NEXT, pending scope choice
+- [x] DAMAC Hills 2 / Lagoons real hyperlinks (Area.relatedLinks)
+- [x] Image sitemap + Video sitemap (/video-sitemap.xml)
+- [x] Monthly post refresh (updatedAt bumped on 9 edited posts)
+- [x] Deferred a11y — form-field border >=3:1 (--field-border)
 - [x] Save this list as a live TODO.md tracker
 
 ---
 
 ## 🟡 Claude builds once Max provides one input
 
-- [ ] **Valuation tool** (submit -> price *range*) — source: **DLD open data** (confirmed by Max). Build queued.
+- [x] **Valuation tool** (submit -> price *range*) — BUILT on EQT's own sold comps (perSqft p25/median/p75 x size, >=4 comps). DLD open data can enrich later once Max supplies a Dubai Pulse OAuth key (or CSV).
 - [ ] Quarterly Palm/Prime Market Report PDF (needs sign-off on numbers)
 - [ ] Off-plan project pages (~300 to start) — confirm data feed
 - [ ] "EQT Dubai Prime Index" recurring proprietary data
