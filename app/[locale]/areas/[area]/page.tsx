@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Link as LocaleLink } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import {
   getAllAreaSlugs,
@@ -360,6 +361,28 @@ export default async function AreaPage({
                         <span>{g.label}</span>
                         <span className="text-accent-500 transition-transform group-hover:translate-x-0.5">→</span>
                       </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Curated related communities / developer (locale-aware internal links). */}
+            {area.relatedLinks && area.relatedLinks.length > 0 && (
+              <div className="border-t border-line pt-16">
+                <p className="eyebrow mb-5">
+                  {({ en: "Explore next", uk: "Дивіться далі", ru: "Читайте далее" } as Record<string, string>)[locale] ?? "Explore next"}
+                </p>
+                <ul className="divide-y divide-line border-y border-line">
+                  {area.relatedLinks.map((l) => (
+                    <li key={l.href}>
+                      <LocaleLink
+                        href={l.href}
+                        className="group flex items-center justify-between gap-4 py-4 text-lg text-ink transition-colors hover:text-accent-500"
+                      >
+                        <span>{l.label}</span>
+                        <span className="text-accent-500 transition-transform group-hover:translate-x-0.5">→</span>
+                      </LocaleLink>
                     </li>
                   ))}
                 </ul>

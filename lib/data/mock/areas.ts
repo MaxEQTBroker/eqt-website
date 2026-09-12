@@ -1036,6 +1036,11 @@ export const mockAreas: Area[] = [
       "DAMAC family community",
       "DAMAC Hills 2 investment",
     ],
+    relatedLinks: [
+      { label: "DAMAC Hills", href: "/areas/damac-hills" },
+      { label: "DAMAC Lagoons", href: "/areas/damac-lagoons" },
+      { label: "DAMAC Properties (developer)", href: "/developers/damac" },
+    ],
     heroImage: {
       url: "https://images.pexels.com/photos/33977060/pexels-photo-33977060.jpeg?auto=compress&cs=tinysrgb&w=1920",
       alt: "Mediterranean-style family villas with tile roofs and palm trees in Dubai",
@@ -1087,6 +1092,11 @@ export const mockAreas: Area[] = [
       "Mediterranean community Dubai",
       "DAMAC Lagoons Santorini",
       "lagoon community Dubai",
+    ],
+    relatedLinks: [
+      { label: "DAMAC Properties (developer)", href: "/developers/damac" },
+      { label: "DAMAC Hills 2", href: "/areas/damac-hills-2" },
+      { label: "DAMAC Hills", href: "/areas/damac-hills" },
     ],
     heroImage: {
       url: "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",

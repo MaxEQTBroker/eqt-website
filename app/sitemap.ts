@@ -1,27 +1,33 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import {
-  getAllAreaSlugs,
+  getAreas,
   getAllListingSlugs,
-  getAllDeveloperSlugs,
-  getAllPropertyTypeSlugs,
+  getDevelopers,
+  getPropertyGuides,
   getAllSoldReferences,
 } from "@/lib/data/repository";
-import { getAllPostSlugs } from "@/lib/data/blog";
+import { getAllPosts } from "@/lib/data/blog";
 import { hasPostTranslation } from "@/lib/data/i18n/postTranslations";
 import { hasAreaTranslation } from "@/lib/data/i18n/areaTranslations";
 import { hasPropertyTranslation } from "@/lib/data/i18n/propertyTranslations";
 import { hasDeveloperTranslation } from "@/lib/data/i18n/developerTranslations";
 import { team } from "@/lib/data/team";
 
+/** Make a hero URL absolute (image sitemaps require full URLs; local heroes are relative). */
+function absImage(url?: string): string[] {
+  if (!url) return [];
+  return [url.startsWith("http") ? url : `${site.url}${url}`];
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [areaSlugs, listingSlugs, developerSlugs, propertyTypeSlugs, postSlugs, soldRefs] =
+  const [areas, listingSlugs, developers, propertyGuides, posts, soldRefs] =
     await Promise.all([
-      getAllAreaSlugs(),
+      getAreas(),
       getAllListingSlugs(),
-      getAllDeveloperSlugs(),
-      getAllPropertyTypeSlugs(),
-      getAllPostSlugs(),
+      getDevelopers(),
+      getPropertyGuides(),
+      getAllPosts(),
       getAllSoldReferences(),
     ]);
 
@@ -31,10 +37,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: path === "" ? 1 : 0.8,
+      // Homepage carries the branded social image.
+      ...(path === "" ? { images: [`${site.url}/images/palm-jumeirah/1.jpg`] } : {}),
     }),
   );
 
-  const areaRoutes = areaSlugs.map((slug) => {
+  const areaRoutes = areas.map((area) => {
+    const slug = area.slug;
     const languages: Record<string, string> = { en: `${site.url}/areas/${slug}` };
     if (hasAreaTranslation(slug, "uk")) languages.uk = `${site.url}/uk/areas/${slug}`;
     if (hasAreaTranslation(slug, "ru")) languages.ru = `${site.url}/ru/areas/${slug}`;
@@ -43,6 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.7,
+      images: absImage(area.heroImage?.url),
       ...(Object.keys(languages).length > 1 ? { alternates: { languages } } : {}),
     };
   });
@@ -54,7 +64,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  const developerRoutes = developerSlugs.map((slug) => {
+  const developerRoutes = developers.map((dev) => {
+    const slug = dev.slug;
     const languages: Record<string, string> = { en: `${site.url}/developers/${slug}` };
     if (hasDeveloperTranslation(slug, "uk")) languages.uk = `${site.url}/uk/developers/${slug}`;
     if (hasDeveloperTranslation(slug, "ru")) languages.ru = `${site.url}/ru/developers/${slug}`;
@@ -63,11 +74,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.7,
+      images: absImage(dev.heroImage?.url),
       ...(Object.keys(languages).length > 1 ? { alternates: { languages } } : {}),
     };
   });
 
-  const propertyTypeRoutes = propertyTypeSlugs.map((slug) => {
+  const propertyTypeRoutes = propertyGuides.map((guide) => {
+    const slug = guide.slug;
     const languages: Record<string, string> = { en: `${site.url}/property/${slug}` };
     if (hasPropertyTranslation(slug, "uk")) languages.uk = `${site.url}/uk/property/${slug}`;
     if (hasPropertyTranslation(slug, "ru")) languages.ru = `${site.url}/ru/property/${slug}`;
@@ -76,20 +89,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.7,
+      images: absImage(guide.heroImage?.url),
       ...(Object.keys(languages).length > 1 ? { alternates: { languages } } : {}),
     };
   });
 
-  const postRoutes = postSlugs.map((slug) => {
+  const postRoutes = posts.map((post) => {
+    const slug = post.slug;
     // Advertise a localized alternate only where a real translation exists.
     const languages: Record<string, string> = { en: `${site.url}/blog/${slug}` };
     if (hasPostTranslation(slug, "uk")) languages.uk = `${site.url}/uk/blog/${slug}`;
     if (hasPostTranslation(slug, "ru")) languages.ru = `${site.url}/ru/blog/${slug}`;
     return {
       url: `${site.url}/blog/${slug}`,
-      lastModified: new Date(),
+      lastModified: post.updatedAt ? new Date(post.updatedAt) : new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.6,
+      images: absImage(post.heroImage?.url),
       ...(Object.keys(languages).length > 1 ? { alternates: { languages } } : {}),
     };
   });

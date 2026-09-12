@@ -253,7 +253,7 @@ export function MortgageCalculator() {
         .lux-input {
           width: 100%;
           background: var(--bg-inset);
-          border: 1px solid var(--line);
+          border: 1px solid var(--field-border);
           border-radius: var(--radius-md);
           padding: 0.9rem 1rem;
           color: var(--text-primary);

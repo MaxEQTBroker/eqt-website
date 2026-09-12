@@ -134,6 +134,8 @@ export interface Area {
   keywords?: string[];
   /** Extended descriptive sections (overlaid from areaContent). */
   sections?: GuideSection[];
+  /** Curated internal links (related communities / developer), rendered as an "Explore next" block. */
+  relatedLinks?: { label: string; href: string }[];
   heroImage: MediaImage;
 }
 

@@ -381,32 +381,52 @@ export const mockDevelopers: Developer[] = [
     tagline: "Bold design and hyper-branded towers",
     logo: "/brand/developers/Binghatti-logo-dark.webp",
     intro:
-      "Binghatti is a fast-growing Dubai developer known for its distinctive architecture and a wave of high-profile branded partnerships, including Bugatti, Mercedes-Benz and Jacob & Co. With a large pipeline across JVC, Business Bay and Downtown, it has become one of the most active names in the off-plan market.",
+      "Binghatti is a Dubai-based developer best known for facade-led architecture, fast delivery and a growing line of branded residences. It built its name on distinctive, sculptural towers and a high volume of apartment projects across Business Bay, Jumeirah Village Circle (JVC) and Al Jaddaf, then moved up-market with headline branded partnerships including Bugatti, Mercedes-Benz and Jacob & Co. Today the brand spans everything from accessible investor apartments to ultra-luxury branded towers, which makes it one of the most visible and active names in Dubai's off-plan market.",
     keyFacts: [
-      { label: "Known for", value: "Distinctive design, branded towers" },
+      { label: "Base", value: "Dubai" },
+      { label: "Known for", value: "Facade-led design, fast delivery" },
+      { label: "Signature", value: "Branded residences" },
+      { label: "Focus areas", value: "Business Bay, JVC, Al Jaddaf" },
       { label: "Partners", value: "Bugatti, Mercedes-Benz, Jacob & Co" },
-      { label: "Segments", value: "Apartments, branded residences" },
-      { label: "Best for", value: "Off-plan & branded investment" },
+      { label: "Segments", value: "Mid-market to ultra-luxury branded" },
     ],
     signature: [
       "Bugatti Residences, Business Bay",
-      "Mercedes-Benz Places",
-      "Binghatti Hills",
+      "Mercedes-Benz Places, Downtown Dubai",
       "Jacob & Co Residences",
+      "Binghatti Hills",
+      "Binghatti apartment communities across JVC and Al Jaddaf",
     ],
     relatedAreas: ["business-bay", "jumeirah-village-circle", "downtown-dubai"],
     faqs: [
       {
-        question: "Is Binghatti a good developer to invest with?",
+        question: "Is Binghatti a good developer to buy from?",
         answer:
-          "Binghatti is one of Dubai's most active developers, known for eye-catching architecture and branded residences with partners like Bugatti and Mercedes-Benz, offering a broad off-plan pipeline aimed at investors.",
+          "Binghatti is one of Dubai's most active developers and a reasonable option for many buyers, particularly investors. It is known for distinctive facade-led design, fast delivery and a broad off-plan pipeline that runs from accessible apartments to ultra-luxury branded towers. As with any developer, review the specific project, its handover timeline and service charges, since specification and positioning vary widely across its range.",
+      },
+      {
+        question: "Where does Binghatti build in Dubai?",
+        answer:
+          "Binghatti concentrates on popular investment districts, with a strong presence in Business Bay, Jumeirah Village Circle (JVC) and Al Jaddaf, alongside prominent branded towers in and around Downtown Dubai. JVC and Al Jaddaf anchor its high-volume apartment portfolio, while Business Bay and Downtown host its headline branded and luxury projects.",
+      },
+      {
+        question: "Does Binghatti do off-plan?",
+        answer:
+          "Yes. Binghatti is predominantly an off-plan developer, so most purchases involve buying during construction under RERA regulation, with payments held in escrow and released against build milestones. Accessible payment plans are a core part of the proposition, and foreign buyers take freehold title at the Dubai Land Department.",
+      },
+      {
+        question: "Are Binghatti branded residences worth it?",
+        answer:
+          "Binghatti's branded residences with partners such as Bugatti, Mercedes-Benz and Jacob & Co target the luxury end and trade on strong design and brand association, which can support scarcity value in a thinner market. Whether they are worth the premium depends on the specific tower, its specification, location and your objectives. Compare against other prime options and review service charges before deciding.",
       },
     ],
     keywords: [
       "Binghatti properties for sale",
+      "Binghatti developer Dubai",
       "Bugatti Residences Dubai",
       "Binghatti off-plan",
       "Binghatti JVC apartment",
+      "Binghatti branded residences",
     ],
     heroImage: {
       url: "https://images.unsplash.com/photo-1512699355324-f07e3106dae5?w=1920&q=80",
