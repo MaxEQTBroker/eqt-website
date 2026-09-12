@@ -1297,5 +1297,198 @@
     "affordOver": "This payment is {pct}% of your income, above the 50% limit UAE banks allow. You may need a larger deposit or a longer term.",
     "ctaText": "Get pre-approved on WhatsApp",
     "disclaimer": "Estimates only, for guidance. Actual rates, fees and eligibility are set by your bank and the DLD, and rules can change."
+  },
+  "buyByBudget": {
+    "breadcrumb": "Buy by budget",
+    "eyebrow": "Buy by budget",
+    "leadFormEyebrow": "Buying in this budget?",
+    "leadFormBody": "Share your brief and we will send a private shortlist matched to your budget and preferred communities, usually within the hour.",
+    "whatsapp": "Message us on WhatsApp",
+    "liveListingsEyebrow": "Available now",
+    "liveListingsHeading": "In this budget, available now",
+    "liveListingsCta": "All listings",
+    "emptyLiveNote": "We do not have a public listing in this exact range at the moment. Stock in this budget moves quickly and much of it is placed privately, so tell us your brief and we will match you off-market.",
+    "soldEyebrow": "Proven",
+    "soldHeading": "Recently sold in this range",
+    "soldCta": "Full track record",
+    "communitiesEyebrow": "Where to look",
+    "communitiesHeading": "Communities that fit this budget",
+    "faqEyebrow": "Good to know",
+    "faqHeading": "Buying in this budget, answered",
+    "costs": {
+      "heading": "What it costs to buy, at any budget",
+      "body": [
+        "Beyond the price, budget roughly 6 to 8 percent of the property value in one-off costs. This is led by the 4 percent Dubai Land Department transfer fee, plus agency commission (typically 2 percent plus 5 percent VAT) and registration and conveyancing charges.",
+        "Dubai has no annual property tax and no capital gains tax on a sale. In the emirate's designated freehold areas, foreign nationals can own apartments, townhouses and villas outright, with no residency requirement. A property valued at AED 2M or more can also support a 10-year Golden Visa application."
+      ]
+    },
+    "ctaEyebrow": "Next step",
+    "ctaHeading": "Let us match your budget to the right home",
+    "ctaBody": "Tell us your budget and how you will use the property, and a RERA-licensed EQT advisor will prepare a shortlist from live and off-market stock, priced against real comparable sales.",
+    "valuationLabel": "Get a free valuation",
+    "listingsLabel": "Browse all listings",
+    "relatedEyebrow": "Explore other budgets",
+    "bands": {
+      "under-5m": {
+        "title": "Buy property in Dubai under AED 5M",
+        "metaTitle": "Dubai Property Under AED 5M | Buy by Budget",
+        "metaDescription": "What you can buy in Dubai under AED 5M: well-located apartments and entry townhouses in JVC, Business Bay, Dubai Silicon Oasis, Al Furjan and Discovery Gardens.",
+        "lead": "Under AED 5M in Dubai you can buy well-located apartments and some townhouses in established communities such as Jumeirah Village Circle, Business Bay, Dubai Silicon Oasis, Al Furjan and Discovery Gardens. This is the deepest, most liquid part of the market, running from studios and one-bedroom apartments through to larger family apartments and entry-level townhouses.",
+        "sections": [
+          {
+            "heading": "What you can realistically buy under AED 5M",
+            "body": [
+              "This budget covers the widest choice in Dubai. At the lower end you will find studios and one-bedroom apartments in commuter-friendly districts; toward AED 5M you move into spacious two and three-bedroom apartments, and in some communities an entry-level townhouse.",
+              "It is the natural starting point for first-time buyers, buy-to-let investors and anyone wanting a Dubai base without stepping into the prime market. Freehold ownership means foreign buyers can own any of these homes outright."
+            ]
+          },
+          {
+            "heading": "Which communities and property types fit",
+            "body": [
+              "For apartments, Jumeirah Village Circle, Business Bay, Discovery Gardens and Dubai Silicon Oasis offer strong choice and steady rental demand. For townhouses and larger homes toward the top of this budget, Al Furjan and the outer master communities are the natural place to look.",
+              "Investors often favour this band for yield: entry prices are lower and tenant demand is consistent across these districts, which supports both rental income and resale liquidity."
+            ]
+          }
+        ],
+        "faqs": [
+          {
+            "question": "What can I buy in Dubai for under AED 5M?",
+            "answer": "Under AED 5M you can buy studios and one, two and three-bedroom apartments, and some entry townhouses, in communities such as Jumeirah Village Circle, Business Bay, Al Furjan, Dubai Silicon Oasis and Discovery Gardens."
+          },
+          {
+            "question": "Is AED 5M enough to buy a villa in Dubai?",
+            "answer": "It can stretch to a townhouse or a compact villa in outer communities such as Al Furjan, but most freestanding villas in prime districts start higher. Larger and better-located villas usually begin above AED 5M."
+          },
+          {
+            "question": "Can foreigners buy property under AED 5M in Dubai?",
+            "answer": "Yes. In Dubai's designated freehold areas, foreign nationals can own apartments, townhouses and villas outright, with no residency requirement, at any budget including under AED 5M."
+          },
+          {
+            "question": "Does a property under AED 5M qualify for a Golden Visa?",
+            "answer": "Yes. A property valued at AED 2M or more can support a 10-year Golden Visa application, so many homes in this budget qualify. Confirm current rules with your advisor, as thresholds can change."
+          }
+        ]
+      },
+      "5m-to-15m": {
+        "title": "Buy property in Dubai from AED 5M to 15M",
+        "metaTitle": "Dubai Property AED 5M to 15M | Buy by Budget",
+        "metaDescription": "What you can buy in Dubai from AED 5M to 15M: family villas and townhouses and premium apartments in Dubai Hills Estate, Dubai Marina, Arabian Ranches and Jumeirah Park.",
+        "lead": "Between AED 5M and 15M in Dubai you move into larger family villas and townhouses and premium apartments, in sought-after communities such as Dubai Hills Estate, Dubai Marina, Arabian Ranches, Jumeirah Park and Business Bay. This is the heart of the family and upgrader market.",
+        "sections": [
+          {
+            "heading": "What you can buy from AED 5M to 15M",
+            "body": [
+              "This budget shifts the choice from apartments toward houses. You can buy three and four-bedroom townhouses and villas in established gated communities, larger duplexes and penthouses, and high-floor apartments in the best waterfront towers.",
+              "It suits growing families upgrading from an apartment, and investors who want a blend of lifestyle and capital growth in proven, well-serviced districts."
+            ]
+          },
+          {
+            "heading": "Which communities and property types fit",
+            "body": [
+              "For family villas and townhouses, Dubai Hills Estate, Arabian Ranches and Jumeirah Park offer schools, parks and mature landscaping. For apartment living, Dubai Marina and Business Bay give you waterfront and skyline homes with strong rental demand.",
+              "Toward the top of this band you begin to reach entry-level villas in premium communities and larger branded apartments, which sets up the step into the upper-prime market."
+            ]
+          }
+        ],
+        "faqs": [
+          {
+            "question": "What can I buy in Dubai for AED 5M to 15M?",
+            "answer": "From AED 5M to 15M you can buy three and four-bedroom townhouses and villas, larger penthouses and duplexes, and premium apartments in communities such as Dubai Hills Estate, Dubai Marina, Arabian Ranches, Jumeirah Park and Business Bay."
+          },
+          {
+            "question": "Can I buy a villa in Dubai for AED 10M?",
+            "answer": "Yes. Around AED 10M you can buy a spacious family villa or townhouse in communities like Dubai Hills Estate, Arabian Ranches or Jumeirah Park, with the exact size and plot depending on the community."
+          },
+          {
+            "question": "Is AED 5M to 15M a good budget for investment?",
+            "answer": "It is a strong band for a blend of lifestyle and growth. Family villas and premium waterfront apartments in these communities have consistent buyer and tenant demand, which supports both rental income and resale."
+          },
+          {
+            "question": "Do homes from AED 5M to 15M qualify for a Golden Visa?",
+            "answer": "Yes. Any property valued at AED 2M or more can support a 10-year Golden Visa application, so every home in this budget comfortably clears the threshold. Confirm current rules with your advisor."
+          }
+        ]
+      },
+      "15m-to-30m": {
+        "title": "Buy property in Dubai from AED 15M to 30M",
+        "metaTitle": "Dubai Property AED 15M to 30M | Buy by Budget",
+        "metaDescription": "What you can buy in Dubai from AED 15M to 30M: waterfront and golf villas, branded and beachfront apartments in Palm Jumeirah, Dubai Hills, Jumeirah Islands and Emaar Beachfront.",
+        "lead": "From AED 15M to 30M you enter Dubai's upper-prime market: waterfront and golf-course villas, branded and beachfront apartments, and larger family homes in communities such as Palm Jumeirah, Dubai Hills Estate, Jumeirah Islands, Tilal Al Ghaf and Emaar Beachfront.",
+        "sections": [
+          {
+            "heading": "What you can buy from AED 15M to 30M",
+            "body": [
+              "This is the entry to prime Dubai. Your options include established villas on Palm Jumeirah, larger custom and golf-course villas in Dubai Hills Estate and Jumeirah Golf Estates, waterfront villas in Jumeirah Islands, and high-floor branded and beachfront apartments.",
+              "Buyers here are typically trading up to a trophy lifestyle asset or placing significant capital into a scarce, well-located home. Quality of address, view and finish matter as much as size."
+            ]
+          },
+          {
+            "heading": "Which communities and property types fit",
+            "body": [
+              "For beachfront living, Palm Jumeirah and Emaar Beachfront lead the choice. For golf and family villas, Dubai Hills Estate, Jumeirah Islands and Tilal Al Ghaf offer space, security and mature communities.",
+              "Toward AED 30M you reach the better fronds and plots on the Palm and larger custom villas, which sets up the step into the trophy tier above AED 30M."
+            ]
+          }
+        ],
+        "faqs": [
+          {
+            "question": "What can I buy in Dubai for AED 15M to 30M?",
+            "answer": "From AED 15M to 30M you can buy established villas on Palm Jumeirah, larger golf and custom villas in Dubai Hills Estate and Jumeirah Islands, and branded or beachfront apartments in communities such as Emaar Beachfront."
+          },
+          {
+            "question": "Can I buy a Palm Jumeirah villa for under AED 30M?",
+            "answer": "Yes. Many established Palm Jumeirah villas, including Garden Homes and some Signature Villas, transact within this range, with price driven by the frond, plot, view and level of upgrade."
+          },
+          {
+            "question": "Is AED 15M to 30M enough for a beachfront home?",
+            "answer": "Yes. This budget covers beachfront apartments and some beachfront villas in communities like Palm Jumeirah and Emaar Beachfront, where position and direct sea access set the price."
+          },
+          {
+            "question": "What are the costs on a purchase in this range?",
+            "answer": "The same structure applies as at any budget: around 6 to 8 percent of the price in one-off costs, led by the 4 percent Dubai Land Department transfer fee, plus agency commission and registration. There is no annual property tax or capital gains tax."
+          }
+        ]
+      },
+      "30m-plus": {
+        "title": "Buy property in Dubai over AED 30M",
+        "metaTitle": "Dubai Property Over AED 30M | Buy by Budget",
+        "metaDescription": "What you can buy in Dubai above AED 30M: signature villas and mansions on Palm Jumeirah, Emirates Hills, Al Barari, District One and Jumeirah Bay Island, often sold privately.",
+        "lead": "Above AED 30M you are in Dubai's trophy tier: signature villas and mansions on Palm Jumeirah, custom estates in Emirates Hills and Al Barari, and waterfront mansions in District One and Jumeirah Bay Island. These are the emirate's most exclusive addresses, and many change hands privately.",
+        "sections": [
+          {
+            "heading": "What you can buy above AED 30M",
+            "body": [
+              "At this level you are buying scarcity: signature and custom villas on the best fronds of Palm Jumeirah, bespoke mansions in Emirates Hills, contemporary estates in Al Barari, and waterfront mansions in District One and on Jumeirah Bay Island.",
+              "These homes are defined by land, position, architecture and privacy rather than size alone. Many of the finest never appear on a portal and are introduced discreetly to qualified buyers."
+            ]
+          },
+          {
+            "heading": "Which communities and property types fit",
+            "body": [
+              "Palm Jumeirah offers signature villas and branded residences with direct beach frontage. Emirates Hills is Dubai's address for custom mansions on large plots, while Al Barari is known for green, low-density estates. District One and Jumeirah Bay Island provide crystal-lagoon and island-front mansions close to the centre.",
+              "Because supply is limited and demand global, discretion and access matter. Working with a brokerage that transacts at this level is often the only way to see the best homes."
+            ]
+          }
+        ],
+        "faqs": [
+          {
+            "question": "What can I buy in Dubai for over AED 30M?",
+            "answer": "Above AED 30M you can buy signature villas and branded residences on Palm Jumeirah, custom mansions in Emirates Hills, estates in Al Barari, and waterfront mansions in District One and Jumeirah Bay Island."
+          },
+          {
+            "question": "Where are Dubai's most expensive homes?",
+            "answer": "Dubai's trophy homes cluster on Palm Jumeirah, in Emirates Hills, Al Barari, District One and on Jumeirah Bay Island. Value is driven by land, position, view, architecture and privacy."
+          },
+          {
+            "question": "Are luxury homes over AED 30M sold publicly?",
+            "answer": "Often not. Many of the finest homes at this level are placed privately and introduced discreetly to qualified buyers, so a brokerage that transacts in the trophy tier is usually the best way to access them."
+          },
+          {
+            "question": "Can foreigners buy trophy homes in Dubai?",
+            "answer": "Yes. These communities sit in designated freehold areas, so foreign nationals can own outright. A purchase at this level comfortably exceeds the AED 2M Golden Visa threshold for 10-year residency."
+          }
+        ]
+      }
+    }
   }
 }

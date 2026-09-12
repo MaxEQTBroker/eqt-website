@@ -13,6 +13,7 @@ import { hasAreaTranslation } from "@/lib/data/i18n/areaTranslations";
 import { hasPropertyTranslation } from "@/lib/data/i18n/propertyTranslations";
 import { hasDeveloperTranslation } from "@/lib/data/i18n/developerTranslations";
 import { team } from "@/lib/data/team";
+import { getAllBudgetBandSlugs } from "@/lib/data/budgetBands";
 
 /** Make a hero URL absolute (image sitemaps require full URLs; local heroes are relative). */
 function absImage(url?: string): string[] {
@@ -117,6 +118,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
+  // Dubai-wide "buy by budget" landing pages. Fully translated, so each carries
+  // uk/ru hreflang alternates.
+  const budgetRoutes = getAllBudgetBandSlugs().map((slug) => ({
+    url: `${site.url}/buy/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+    alternates: {
+      languages: {
+        en: `${site.url}/buy/${slug}`,
+        uk: `${site.url}/uk/buy/${slug}`,
+        ru: `${site.url}/ru/buy/${slug}`,
+      },
+    },
+  }));
+
   const teamRoutes = team.map((m) => ({
     url: `${site.url}/team/${m.slug}`,
     lastModified: new Date(),
@@ -132,6 +149,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...listingRoutes,
     ...postRoutes,
     ...soldRoutes,
+    ...budgetRoutes,
     ...teamRoutes,
   ];
 }
