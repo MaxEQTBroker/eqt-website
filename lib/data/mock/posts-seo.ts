@@ -3172,7 +3172,7 @@ export const seoPosts: BlogPost[] = [
   },
   {
     "slug": "best-time-to-sell-property-in-dubai",
-    "title": "Best Time to Sell Property in Dubai",
+    "title": "Is Now a Good Time to Sell Property in Dubai? (2026)",
     "excerpt": "The strongest selling window in Dubai runs from October to April, when cooler weather brings the highest volume of active buyers.",
     "category": "Seller Guides",
     "author": {
@@ -3183,7 +3183,7 @@ export const seoPosts: BlogPost[] = [
     "publishedAt": "2026-08-19",
     "updatedAt": "2026-08-19",
     "readingMinutes": 8,
-    "intro": "The best time to sell property in Dubai is during the cooler months from October to April, when buyer activity is at its seasonal peak. This is when relocating families, returning residents, and international buyers are most active, so demand and viewing volumes are highest. Listings that launch in the first half of that window, ideally October or November, tend to sell faster and closer to the asking price. The quieter summer months of June to August still produce sales, but with fewer buyers and more price sensitivity. Beyond the calendar, the price cycle in your specific community and your own personal timing matter just as much.",
+    "intro": "Is now a good time to sell property in Dubai? For a well-priced home the market stays active through the year, and the strongest seasonal window runs from October to April, when buyer activity is at its peak. This is when relocating families, returning residents, and international buyers are most active, so demand and viewing volumes are highest. Listings that launch in the first half of that window, ideally October or November, tend to sell faster and closer to the asking price. The quieter summer months of June to August still produce sales, but with fewer buyers and more price sensitivity. Beyond the calendar, the price cycle in your specific community and your own personal timing matter just as much.",
     "keyTakeaways": [
       "October to April is the busiest buying season, driven by cooler weather and returning residents.",
       "Launching a listing in October or November captures the fullest buyer pool.",
@@ -3418,7 +3418,7 @@ export const seoPosts: BlogPost[] = [
   },
   {
     "slug": "documents-needed-to-sell-property-in-dubai",
-    "title": "Documents You Need to Sell Property in Dubai",
+    "title": "Documents Needed to Sell Property in Dubai (Full Checklist)",
     "excerpt": "To sell in Dubai you need the title deed, your passport and Emirates ID, a signed Form A listing agreement, the developer NOC, and, if applicable, a.",
     "category": "Seller Guides",
     "author": {
@@ -3438,6 +3438,21 @@ export const seoPosts: BlogPost[] = [
       "Preparing documents early keeps a cash sale on a two to four week timeline."
     ],
     "sections": [
+      {
+        "heading": "The document checklist at a glance",
+        "body": [
+          "Here is the full checklist of documents you need to sell a property in Dubai. Gather these before you list so the sale can move straight to transfer once you have a buyer."
+        ],
+        "bullets": [
+          "Original title deed, or the Oqood for an off-plan unit.",
+          "Your passport and Emirates ID (all registered owners).",
+          "A signed RERA Form A listing agreement with your broker.",
+          "A developer No Objection Certificate (NOC).",
+          "Proof that service charges are cleared.",
+          "A mortgage liability letter from your bank, if the property is mortgaged.",
+          "A notarised power of attorney, if you cannot attend the transfer in person."
+        ]
+      },
       {
         "heading": "Title deed or Oqood",
         "body": [
@@ -3686,7 +3701,7 @@ export const seoPosts: BlogPost[] = [
   },
   {
     "slug": "how-to-sell-a-tenanted-property-in-dubai",
-    "title": "How to Sell a Tenanted Property in Dubai",
+    "title": "Selling a Tenanted Property in Dubai: Rules and Notice Periods",
     "excerpt": "You can sell a tenanted property in Dubai at any time, but the buyer inherits the existing lease and the tenant can stay until it ends; to sell with.",
     "category": "Seller Guides",
     "author": {
@@ -5348,7 +5363,7 @@ export const seoPosts: BlogPost[] = [
   },
   {
     "slug": "how-to-negotiate-property-prices-in-dubai",
-    "title": "How to Negotiate Property Prices in Dubai",
+    "title": "How to Negotiate Property Prices in Dubai (Buyer Tactics)",
     "excerpt": "You negotiate a Dubai property with evidence, not instinct: genuine DLD comparable sales set a defensible number, seller motivation sets your leverage.",
     "category": "Buyer Guides",
     "author": {
@@ -5368,6 +5383,20 @@ export const seoPosts: BlogPost[] = [
       "Set realistic expectations: modest single-digit discounts are common, larger reductions appear mainly with motivated sellers or soft markets."
     ],
     "sections": [
+      {
+        "heading": "Negotiation tactics at a glance",
+        "body": [
+          "Before the detail, here are the core tactics that move a Dubai property price. Each one is expanded in the sections below."
+        ],
+        "bullets": [
+          "Anchor your offer to genuine DLD comparable sales, not the asking price.",
+          "Read the seller's motivation and time on market to gauge leverage.",
+          "Use cash to remove financing risk and speed completion.",
+          "Treat ready resale and off-plan as different negotiations.",
+          "Negotiate fees and terms, not only the headline price.",
+          "Work through a licensed agent and keep discount expectations realistic."
+        ]
+      },
       {
         "heading": "Lead with genuine DLD comparable sales",
         "body": [
@@ -5790,7 +5819,7 @@ export const seoPosts: BlogPost[] = [
   },
   {
     "slug": "do-real-estate-agents-in-dubai-need-a-license",
-    "title": "Do Real Estate Agents in Dubai Need a License?",
+    "title": "Do Dubai Real Estate Agents Need a Licence? How to Check (2026)",
     "excerpt": "Yes. Every real estate agent in Dubai must be licensed: the individual holds a RERA Broker Registration Number and works under an agency with an Office.",
     "category": "Buyer Guides",
     "author": {
@@ -5832,6 +5861,18 @@ export const seoPosts: BlogPost[] = [
           "BRN identifies the individual agent.",
           "ORN identifies the licensed agency they work under.",
           "Expect the BRN on the card, the listing and the RERA forms."
+        ]
+      },
+      {
+        "heading": "How to verify a Dubai agent online",
+        "body": [
+          "You can verify any Dubai agent yourself in a few minutes, for free, before you view a property or sign anything. The check confirms the person is really registered, that the number belongs to them, and that the agency behind them is licensed. Follow these steps in order."
+        ],
+        "bullets": [
+          "1. Ask the agent for their BRN (Broker Registration Number) and the agency's ORN (Office Registration Number).",
+          "2. Open the Dubai REST app, the DLD's official app, and use its broker validation service to check the BRN against the department's records.",
+          "3. Prefer a browser? Use the DLD and RERA public Brokers register online to look up the BRN and confirm the linked agency.",
+          "4. Confirm the agent's name matches, the registration is current, and the agency's ORN also checks out before you view, sign or pay."
         ]
       },
       {
@@ -5906,6 +5947,10 @@ export const seoPosts: BlogPost[] = [
       }
     ],
     "relatedLinks": [
+      {
+        "label": "How to choose a real estate agent in Dubai",
+        "href": "/blog/how-to-choose-a-real-estate-agent-in-dubai"
+      },
       {
         "label": "Guide to buying property in Dubai",
         "href": "/guides/buying-property-in-dubai"

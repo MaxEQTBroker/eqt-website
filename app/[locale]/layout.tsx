@@ -61,10 +61,10 @@ export async function generateMetadata({
       description: site.description,
       images: [
         {
-          url: "https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
-          width: 1200,
-          height: 630,
-          alt: "EQT, Dubai luxury real estate",
+          url: "/images/palm-jumeirah/1.jpg",
+          width: 2048,
+          height: 1366,
+          alt: "EQT, Dubai luxury real estate on Palm Jumeirah",
         },
       ],
     },
@@ -72,7 +72,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: `${site.name}, Dubai Luxury Real Estate`,
       description: site.description,
-      images: ["https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+      images: ["/images/palm-jumeirah/1.jpg"],
     },
     // English pages index normally. Localized (uk/ru) pages that still render the
     // English base copy are noindexed here to avoid duplicate content; translated

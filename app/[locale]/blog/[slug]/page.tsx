@@ -269,6 +269,28 @@ export default async function BlogPostPage({
             </div>
           )}
 
+          {/* Curated internal links (editorially chosen; complements the algorithmic Related grid). */}
+          {post.relatedLinks && post.relatedLinks.length > 0 && (
+            <div className="mt-16 border-t border-line pt-12">
+              <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">
+                {t.exploreNext}
+              </h2>
+              <ul className="mt-8 divide-y divide-line border-y border-line">
+                {post.relatedLinks.map((l) => (
+                  <li key={l.href}>
+                    <Link
+                      href={l.href}
+                      className="flex items-center justify-between gap-6 py-4 text-lg text-ink transition-colors hover:text-accent-500"
+                    >
+                      {l.label}
+                      <span className="text-accent-500">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           </div>
 
           <aside className="lg:order-1 lg:sticky lg:top-24 lg:self-start">

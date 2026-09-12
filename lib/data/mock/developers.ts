@@ -491,4 +491,61 @@ export const mockDevelopers: Developer[] = [
       tone: "#dcdad3",
     },
   },
+  {
+    slug: "deyaar",
+    name: "Deyaar Development",
+    tagline: "An established, listed Dubai developer",
+    intro:
+      "Deyaar Development PJSC is one of Dubai's established developers, listed on the Dubai Financial Market and affiliated with Dubai Islamic Bank. Active since the early 2000s, it has delivered residential and commercial projects across districts such as Business Bay, Al Barsha South and Dubai Production City, and has more recently expanded into branded and off-plan residences. Deyaar also runs a property management arm, giving it a presence across both development and ongoing asset management.",
+    keyFacts: [
+      { label: "Listed", value: "Dubai Financial Market" },
+      { label: "Affiliated", value: "Dubai Islamic Bank" },
+      { label: "Active since", value: "Early 2000s" },
+      { label: "Focus", value: "Residential and commercial" },
+      { label: "Also", value: "Property management arm" },
+      { label: "Best for", value: "Established mid-market Dubai stock" },
+    ],
+    signature: [
+      "Midtown, Dubai Production City",
+      "Mont Rose, Al Barsha South",
+      "Business Bay towers",
+      "Branded and off-plan residences",
+    ],
+    relatedAreas: ["business-bay"],
+    faqs: [
+      {
+        question: "Is Deyaar a well-established Dubai developer?",
+        answer:
+          "Yes. Deyaar Development PJSC is one of Dubai's established developers, listed on the Dubai Financial Market and affiliated with Dubai Islamic Bank. It has been active since the early 2000s, delivering residential and commercial projects across the city.",
+      },
+      {
+        question: "Where does Deyaar build in Dubai?",
+        answer:
+          "Deyaar has been active in districts including Business Bay, Al Barsha South and Dubai Production City, with well-known projects such as Midtown and Mont Rose. It develops both residential and commercial buildings and has more recently launched branded and off-plan residences.",
+      },
+      {
+        question: "What is Deyaar known for?",
+        answer:
+          "Deyaar is known as an established, publicly listed Dubai developer of residential and commercial property, and for running a property management arm alongside its development business. Well-known projects include Midtown in Dubai Production City and Mont Rose in the Al Barsha South area.",
+      },
+      {
+        question: "Does Deyaar sell off-plan property?",
+        answer:
+          "Yes. Deyaar offers off-plan residences alongside completed stock. As with all Dubai off-plan, purchases are RERA-regulated with buyer payments held in escrow, and foreign buyers take freehold title at the Dubai Land Department in designated areas.",
+      },
+    ],
+    keywords: [
+      "Deyaar properties for sale",
+      "Deyaar off-plan Dubai",
+      "Midtown Dubai Production City",
+      "Mont Rose Al Barsha",
+      "Deyaar Business Bay",
+      "Deyaar Development Dubai",
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1512699355324-f07e3106dae5?w=1920&q=80",
+      alt: "Striking illuminated residential tower at dusk",
+      tone: "#161822",
+    },
+  },
 ];

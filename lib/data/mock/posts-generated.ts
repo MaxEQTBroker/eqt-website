@@ -829,7 +829,7 @@ export const generatedPosts: BlogPost[] = [
   },
   {
     "slug": "title-deed-and-oqood-in-dubai-explained",
-    "title": "Title deed and Oqood in Dubai explained",
+    "title": "What Is Oqood in Dubai? Title Deed vs Oqood Explained",
     "excerpt": "A Dubai title deed is your final proof of ownership from the DLD, while an Oqood is the interim registration for off-plan property before handover.",
     "category": "Buyer Guides",
     "author": {
@@ -845,7 +845,7 @@ export const generatedPosts: BlogPost[] = [
       "alt": "Close-up of a hand signing a legal document with a fountain pen, symbolizing signature and agreement.",
       "tone": "#d8d4cc"
     },
-    "intro": "A title deed is the Dubai Land Department document that proves you legally own a completed property, while an Oqood is the interim registration that records your interest in an off-plan unit before it is built. In short, off-plan buyers start with an Oqood certificate and receive a full title deed once the project is finished and handed over. Both are issued by the DLD and both matter for a secure purchase. Confusing the two is one of the most common mistakes new buyers make, so it is worth understanding exactly what each document does and when it appears.",
+    "intro": "An Oqood is the interim registration certificate that records your ownership interest in an off-plan Dubai property before it is built, entered on the Dubai Land Department system by the developer. A title deed, by contrast, is the Dubai Land Department document that proves you legally own a completed property. In short, off-plan buyers start with an Oqood certificate and receive a full title deed once the project is finished and handed over. Both are issued by the DLD and both matter for a secure purchase. Confusing the two is one of the most common mistakes new buyers make, so it is worth understanding exactly what each document does and when it appears.",
     "keyTakeaways": [
       "A title deed is the DLD's final proof of ownership for a completed property.",
       "An Oqood is the interim registration for off-plan units before handover.",
@@ -1106,7 +1106,7 @@ export const generatedPosts: BlogPost[] = [
   },
   {
     "slug": "buying-property-in-dubai-through-a-company",
-    "title": "Buying property in Dubai through a company",
+    "title": "Buying and Selling Dubai Property Through a Company (Corporate Guide)",
     "excerpt": "You can buy Dubai property through a company for privacy, estate planning and easier co-ownership, though it adds setup costs and compliance obligations.",
     "category": "Buyer Guides",
     "author": {
@@ -1122,7 +1122,7 @@ export const generatedPosts: BlogPost[] = [
       "alt": "Close-up of two businessmen shaking hands, symbolizing agreement and partnership.",
       "tone": "#d8d4cc"
     },
-    "intro": "Yes, you can buy property in Dubai through a company rather than in your personal name, and many investors do so for privacy, easier co-ownership and estate planning. The property is registered at the Dubai Land Department in the company's name, and the structure can be a local, free zone or approved offshore company. This route adds setup and running costs, so it suits larger or long term holdings more than a single small purchase. The right answer depends on your goals, your budget and how many properties you intend to hold.",
+    "intro": "Yes, you can buy property in Dubai through a company rather than in your personal name, and many investors do so for privacy, easier co-ownership and estate planning. The property is registered at the Dubai Land Department in the company's name, and the structure can be a local, free zone or approved offshore company. This route adds setup and running costs, so it suits larger or long term holdings more than a single small purchase. It also shapes how you sell later, since a company-owned property can be sold either by transferring the asset at the DLD or by selling the company's shares. The right answer depends on your goals, your budget and how many properties you intend to hold.",
     "keyTakeaways": [
       "Dubai property can be owned by a company, with the title registered in the company name at the DLD.",
       "Common reasons include privacy, estate planning and simpler shared ownership.",
@@ -1193,6 +1193,19 @@ export const generatedPosts: BlogPost[] = [
           "Agree terms and sign the sale and purchase agreement in the company name.",
           "Prepare corporate documents required for DLD registration.",
           "Pay the transfer fee and register the title in the company's name."
+        ]
+      },
+      {
+        "heading": "Selling company-owned property",
+        "body": [
+          "When the time comes to sell, a company-owned property can be exited in one of two ways. The first is a conventional asset sale: the company sells the property to a buyer and the title transfers at the DLD, exactly as it would for an individual seller, with the company represented by its authorised signatory. The second is a share sale, where the buyer acquires the company that owns the property rather than the property itself, so the asset stays in the same entity and only the ownership of that entity changes.",
+          "Each route has trade-offs around cost, due diligence and approvals, and a share transfer must respect the rules of the relevant free zone or offshore jurisdiction. A board resolution authorising the sale and up-to-date corporate documents are needed either way. As with the purchase, take professional advice so the disposal is structured cleanly and the correct approvals are in place before you commit."
+        ],
+        "bullets": [
+          "Asset sale: the company sells the property and the title transfers at the DLD.",
+          "Share sale: the buyer takes over the company that holds the property.",
+          "A board resolution and current corporate documents are required to sell.",
+          "Costs, due diligence and approvals differ between the two routes."
         ]
       }
     ],
@@ -3719,6 +3732,18 @@ export const generatedPosts: BlogPost[] = [
         ]
       },
       {
+        "heading": "Branded residences on Palm Jumeirah",
+        "body": [
+          "Palm Jumeirah is one of Dubai's most concentrated clusters of branded residences. The island's beachfront setting, private sand and sea views make it a natural home for hotel and design-led schemes, and buyers are drawn by the combination of a globally recognised address and resort-style service on the doorstep.",
+          "For anyone specifically searching for branded residences in Palm Jumeirah, the appeal is straightforward: the brand assures design and service quality, while the location adds scarcity and strong resale demand. If you are weighing the Palm against other districts, our Palm Jumeirah area guide sets out the communities, price context and lifestyle in detail."
+        ],
+        "bullets": [
+          "Beachfront position, private sand and sea views underpin the premium.",
+          "Hotel and design brands cluster along the crescent and trunk.",
+          "Global-name address plus scarcity supports resale demand."
+        ]
+      },
+      {
         "heading": "Why buyers pay a premium",
         "body": [
           "Branded residences typically trade at a 20-30% premium to comparable non-branded homes, and buyers accept it for tangible reasons. The brand assures design quality and service, the address carries prestige, and professional management protects the asset and the resident experience over time.",
@@ -3784,6 +3809,10 @@ export const generatedPosts: BlogPost[] = [
       }
     ],
     "relatedLinks": [
+      {
+        "label": "Explore Palm Jumeirah",
+        "href": "/areas/palm-jumeirah"
+      },
       {
         "label": "Luxury property in Dubai: a price guide",
         "href": "/blog/luxury-property-in-dubai-price-guide"
@@ -7526,6 +7555,19 @@ export const generatedPosts: BlogPost[] = [
           "A safe, cosmopolitan city with year-round sunshine and world-class schools and healthcare.",
           "A large Russian-speaking community and agents who work in Russian.",
           "Direct residency through property via the Golden Visa programme."
+        ]
+      },
+      {
+        "heading": "Investing in Dubai property from Russia",
+        "body": [
+          "Investing in Dubai from Russia works much like any cross-border property investment, with two practical questions to settle up front: how you move the money and what you buy. Because the dirham is pegged to the US dollar, your capital sits in a stable currency rather than being exposed to rouble swings, which is one of the main reasons Russian investors favour Dubai as a store of value as well as a yield play.",
+          "On payment routes, funds are typically sent by international bank transfer, and some investors use money already held outside Russia or route payments through third countries; a growing number pay through regulated channels including cryptocurrency converted to dirhams. Rules on outbound transfers from Russia change over time, so confirm the current position with your bank and adviser first. On strategy, off-plan units offer staged payment plans and lower entry prices, while ready apartments in areas like Dubai Marina and Downtown produce immediate rental income. A purchase from AED 2 million also secures a 10-year Golden Visa, combining the investment with residency."
+        ],
+        "bullets": [
+          "The dirham's US dollar peg protects value against rouble volatility.",
+          "Fund purchases by international transfer, funds held abroad, or compliant crypto-to-dirham channels.",
+          "Off-plan offers payment plans and lower entry points; ready units give immediate yield.",
+          "A purchase from AED 2 million qualifies for a 10-year Golden Visa."
         ]
       },
       {

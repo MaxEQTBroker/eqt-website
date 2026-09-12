@@ -51,7 +51,7 @@ const EQT_TEAM: Author = {
 export const mockPosts: BlogPost[] = [
   {
     slug: "palm-jumeirah-villa-prices-2026",
-    title: "Palm Jumeirah villa prices in 2026: what to expect",
+    title: "Palm Jumeirah Villa Prices in 2026: AED 12M to 100M+",
     excerpt:
       "Frond villas on Palm Jumeirah typically trade from around AED 12 million for a Garden Home, rising beyond AED 100 million for renovated Signature Villas. Here's the current picture.",
     category: "Community Guides",
@@ -280,7 +280,7 @@ export const mockPosts: BlogPost[] = [
   },
   {
     slug: "how-to-choose-a-real-estate-agent-in-dubai",
-    title: "How to choose a real estate agent in Dubai (and what commission to expect)",
+    title: "How to Choose a Real Estate Agent in Dubai (2026 Checklist)",
     excerpt:
       "Choose a RERA-registered Dubai agent with a verified track record, deep knowledge of your target community, and transparent fees, typically a 2% commission. Here's how to pick well and what to ask.",
     category: "Buyer Guides",
@@ -294,7 +294,7 @@ export const mockPosts: BlogPost[] = [
       tone: "#ddd9d1",
     },
     intro:
-      "To choose a real estate agent in Dubai, look for a RERA-registered broker with a verified track record, genuine expertise in your target community, and transparent fees, the standard agency commission is around 2% of the purchase price. The right agent protects your interests, prices honestly, and often has access to off-market opportunities. Here is how to pick well, what to ask, and what to watch out for.",
+      "To choose a real estate agent in Dubai, verify their RERA licence and BRN, check a verified track record of recent sales in your target community, and confirm transparent fees, the standard agency commission is around 2% of the purchase price. The right agent protects your interests, prices honestly, and often has access to off-market opportunities. Here is how to pick well, what to ask, and what to watch out for.",
     keyTakeaways: [
       "Use a RERA-registered broker working for a licensed, DED-registered brokerage, always verify the broker card.",
       "The standard buyer's agency commission in Dubai is about 2% of the price, plus VAT.",
@@ -372,6 +372,7 @@ export const mockPosts: BlogPost[] = [
       },
     ],
     relatedLinks: [
+      { label: "How to verify a Dubai agent's licence", href: "/blog/do-real-estate-agents-in-dubai-need-a-license" },
       { label: "How much does it cost to buy property in Dubai?", href: "/blog/how-much-does-it-cost-to-buy-property-in-dubai" },
       { label: "How to buy property in Dubai as a foreigner", href: "/blog/how-to-buy-property-in-dubai-as-a-foreigner" },
       { label: "How to invest in Dubai real estate", href: "/blog/how-to-invest-in-dubai-real-estate" },

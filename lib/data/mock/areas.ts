@@ -839,4 +839,261 @@ export const mockAreas: Area[] = [
       tone: "#d9d6cf",
     },
   },
+  {
+    slug: "dubai-silicon-oasis",
+    label: "Dubai Silicon Oasis",
+    headline: "Mid-market living in a tech-driven free zone",
+    intro:
+      "Dubai Silicon Oasis is a mixed-use technology free zone in south-east Dubai that pairs affordable apartments with a smaller selection of villas and townhouses, making it a practical, value-focused address for families, professionals and buy-to-let investors. Home to a large business park, schools and everyday retail, the community is largely self-contained and well connected to Academic City and the wider road network. Its accessible entry prices and steady tenant demand have made it a popular choice for first-time buyers and yield-focused investors.",
+    keyFacts: [
+      { label: "Property types", value: "Apartments, villas, townhouses" },
+      { label: "Setting", value: "Mixed-use technology free zone" },
+      { label: "Best for", value: "Value buyers, families, buy-to-let investors" },
+      { label: "Ownership", value: "Freehold, open to foreign buyers" },
+      { label: "Connectivity", value: "Close to Academic City and major highways" },
+    ],
+    faqs: [
+      {
+        question: "Is Dubai Silicon Oasis a good area for investors?",
+        answer:
+          "Dubai Silicon Oasis appeals to investors thanks to accessible entry prices, steady tenant demand and a deep pool of professionals and families drawn by its schools, business park and everyday amenities. This combination supports reliable occupancy and makes it a popular choice for buy-to-let and first-time investors.",
+      },
+      {
+        question: "What types of property are available in Dubai Silicon Oasis?",
+        answer:
+          "The community is mostly apartment-led, from studios to larger family units, alongside villa and townhouse sub-communities such as Cedre Villas. This mix lets buyers enter at a range of price points, from compact rental apartments to family homes with private gardens.",
+      },
+      {
+        question: "Can foreigners buy property in Dubai Silicon Oasis?",
+        answer:
+          "Yes. Dubai Silicon Oasis is a freehold area, so non-UAE nationals can buy, own and sell apartments and villas outright, with title registered at the Dubai Land Department.",
+      },
+      {
+        question: "Is Dubai Silicon Oasis good for families?",
+        answer:
+          "Dubai Silicon Oasis is well suited to families, offering schools, parks, clinics and everyday retail within a largely self-contained community. Its quiet residential streets, green spaces and value pricing make it a practical base for households wanting space without a central-Dubai premium.",
+      },
+    ],
+    keywords: [
+      "Dubai Silicon Oasis apartments for sale",
+      "Dubai Silicon Oasis villas",
+      "affordable property Dubai",
+      "Cedre Villas Dubai Silicon Oasis",
+      "DSO investment property",
+      "family community Dubai Silicon Oasis",
+    ],
+    heroImage: {
+      url: "https://images.pexels.com/photos/10569403/pexels-photo-10569403.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      alt: "Aerial view of a Dubai residential community with towers and greenery",
+      tone: "#d8d4cc",
+      credit: "Abid  Ali",
+      creditUrl: "https://www.pexels.com/@abid-ali-150086727",
+    },
+  },
+  {
+    slug: "al-furjan",
+    label: "Al Furjan",
+    headline: "Connected mid-market villas, townhouses and apartments",
+    intro:
+      "Al Furjan is a popular mid-market community in south-west Dubai offering a mix of villas, townhouses and apartments within easy reach of Discovery Gardens, Dubai Marina and Ibn Battuta. Served by its own metro stations and framed by parks and low-rise streets, it appeals to families and commuters who want space and connectivity at accessible prices. Ongoing development and strong rental demand have kept it a steady choice for both end-users and investors.",
+    keyFacts: [
+      { label: "Property types", value: "Villas, townhouses, apartments" },
+      { label: "Setting", value: "Low-rise family community" },
+      { label: "Connectivity", value: "Metro stations, near Sheikh Zayed Road" },
+      { label: "Best for", value: "Families, commuters, mid-market investors" },
+      { label: "Ownership", value: "Freehold, open to foreign buyers" },
+    ],
+    faqs: [
+      {
+        question: "Where is Al Furjan located?",
+        answer:
+          "Al Furjan sits in south-west Dubai, next to Discovery Gardens and close to Jebel Ali, Dubai Marina and Ibn Battuta. It has direct metro access and quick links to Sheikh Zayed Road, giving residents an easy commute to the coast and the wider city.",
+      },
+      {
+        question: "What types of property does Al Furjan offer?",
+        answer:
+          "Al Furjan offers a broad mix of villas, townhouses and apartments across several sub-communities. This range lets buyers choose between family villas with gardens, more affordable townhouses and apartment homes, all within one connected master plan.",
+      },
+      {
+        question: "Is Al Furjan connected to the metro?",
+        answer:
+          "Yes. Al Furjan is served by metro stations on the Route 2020 line, which links the community towards Dubai Marina, Expo City and the wider network. This connectivity is a key reason the area is popular with commuters and tenants.",
+      },
+      {
+        question: "Is Al Furjan a good area for families?",
+        answer:
+          "Al Furjan is well suited to families, with parks, community retail, mosques and nearby schools set among quiet, low-rise streets. The mix of villas and townhouses provides space and gardens, while accessible pricing and metro access add everyday convenience.",
+      },
+    ],
+    keywords: [
+      "Al Furjan villas for sale",
+      "Al Furjan townhouse",
+      "Al Furjan apartments",
+      "property near Discovery Gardens",
+      "Al Furjan metro community",
+      "mid-market villa Dubai",
+    ],
+    heroImage: {
+      url: "https://images.pexels.com/photos/10628470/pexels-photo-10628470.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      alt: "Row of modern townhouses in a Dubai residential community",
+      tone: "#d8d4cc",
+      credit: "Curtis Adams",
+      creditUrl: "https://www.pexels.com/@curtis-adams-1694007",
+    },
+  },
+  {
+    slug: "discovery-gardens",
+    label: "Discovery Gardens",
+    headline: "Affordable, rental-focused apartment living",
+    intro:
+      "Discovery Gardens is an established, affordable apartment community in south-west Dubai, arranged around themed gardens and low-rise buildings that make it one of the city's most popular addresses for renters and first-time buyers. Its accessible prices, green landscaping and metro connectivity draw a steady stream of professionals and newcomers relocating to Dubai. High occupancy and dependable tenant demand give it a resilient buy-to-let profile.",
+    keyFacts: [
+      { label: "Property types", value: "Studio and apartment homes" },
+      { label: "Setting", value: "Landscaped, low-rise garden clusters" },
+      { label: "Connectivity", value: "Metro station, near Ibn Battuta" },
+      { label: "Best for", value: "Renters, relocation, first-time investors" },
+      { label: "Ownership", value: "Freehold, open to foreign buyers" },
+    ],
+    faqs: [
+      {
+        question: "Is Discovery Gardens a good place to rent or invest?",
+        answer:
+          "Discovery Gardens is one of Dubai's most popular affordable apartment communities, with strong tenant demand, high occupancy and accessible prices. That depth of rental demand makes it a dependable option for buy-to-let investors and a practical, budget-friendly choice for renters.",
+      },
+      {
+        question: "What types of property are in Discovery Gardens?",
+        answer:
+          "The community is made up almost entirely of studios and one and two-bedroom apartments set in low-rise buildings around landscaped, themed gardens. This focus on compact, affordable homes is central to its appeal for tenants and first-time buyers.",
+      },
+      {
+        question: "Is Discovery Gardens connected to the metro?",
+        answer:
+          "Yes. Discovery Gardens has its own metro station on the Route 2020 line, close to Ibn Battuta Mall and with quick access to Sheikh Zayed Road. This connectivity is a major reason the community remains popular with commuters and newcomers.",
+      },
+      {
+        question: "Who typically lives in Discovery Gardens?",
+        answer:
+          "Discovery Gardens is popular with professionals, young families and newcomers relocating to Dubai, thanks to its affordability, greenery and transport links. It is often chosen as an easy first move into the city before residents buy or upgrade elsewhere.",
+      },
+    ],
+    keywords: [
+      "Discovery Gardens apartments for sale",
+      "Discovery Gardens studio",
+      "affordable apartment Dubai",
+      "Discovery Gardens rental",
+      "property near Ibn Battuta",
+      "relocation apartment Dubai",
+    ],
+    heroImage: {
+      url: "https://images.pexels.com/photos/12558848/pexels-photo-12558848.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      alt: "Modern low-rise residential building with palm trees in Dubai",
+      tone: "#d8d4cc",
+      credit: "Christopher Moon",
+      creditUrl: "https://www.pexels.com/@cmoon",
+    },
+  },
+  {
+    slug: "damac-hills-2",
+    label: "DAMAC Hills 2",
+    headline: "Value family villas by DAMAC",
+    intro:
+      "DAMAC Hills 2, formerly known as Akoya, is a large, value-focused family villa community by DAMAC on the outskirts of Dubai, offering affordable villas and townhouses around water attractions, sports amenities and green open space. It is a distinct and more budget-friendly community to the established DAMAC Hills, aimed at families and investors seeking space and amenities at accessible price points. Its self-contained lifestyle, with retail, schools and leisure planned within the master plan, has made it a popular entry point into villa ownership.",
+    keyFacts: [
+      { label: "Property types", value: "Villas, townhouses, apartments" },
+      { label: "Developer", value: "DAMAC Properties" },
+      { label: "Formerly", value: "Akoya by DAMAC" },
+      { label: "Setting", value: "Self-contained community with water and sports amenities" },
+      { label: "Best for", value: "Value family living, first villa purchase" },
+      { label: "Ownership", value: "Freehold, open to foreign buyers" },
+    ],
+    faqs: [
+      {
+        question: "What is the difference between DAMAC Hills 2 and DAMAC Hills?",
+        answer:
+          "DAMAC Hills 2, formerly Akoya, is a separate and generally more affordable master community set further from the city, while the original DAMAC Hills is built around the Trump International Golf Club closer in. Both are developed by DAMAC, but DAMAC Hills 2 is positioned as the value-focused, family villa option.",
+      },
+      {
+        question: "Who develops DAMAC Hills 2?",
+        answer:
+          "DAMAC Hills 2 is developed by DAMAC Properties, one of Dubai's largest private developers, which also delivered the original DAMAC Hills. The community was launched under the Akoya name before being rebranded as DAMAC Hills 2.",
+      },
+      {
+        question: "What types of property are in DAMAC Hills 2?",
+        answer:
+          "The community is led by villas and townhouses, with some apartment options, spanning a range of sizes and price points. This makes it one of the more accessible ways to buy a villa or townhouse in Dubai while still enjoying community amenities.",
+      },
+      {
+        question: "Is DAMAC Hills 2 good for families and investors?",
+        answer:
+          "DAMAC Hills 2 suits families and investors looking for value, offering affordable villas and townhouses alongside water features, sports facilities, parks and planned schools and retail. Its accessible pricing and self-contained lifestyle support both owner-occupier demand and rental interest.",
+      },
+    ],
+    keywords: [
+      "DAMAC Hills 2 villas for sale",
+      "DAMAC Hills 2 townhouse",
+      "Akoya Dubai property",
+      "affordable villa Dubai",
+      "DAMAC family community",
+      "DAMAC Hills 2 investment",
+    ],
+    heroImage: {
+      url: "https://images.pexels.com/photos/33977060/pexels-photo-33977060.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      alt: "Mediterranean-style family villas with tile roofs and palm trees in Dubai",
+      tone: "#d8d4cc",
+      credit: "Ayrat",
+      creditUrl: "https://www.pexels.com/@ayrat-244411276",
+    },
+  },
+  {
+    slug: "damac-lagoons",
+    label: "DAMAC Lagoons",
+    headline: "Mediterranean-themed lagoon living by DAMAC",
+    intro:
+      "DAMAC Lagoons is an off-plan, Mediterranean-inspired villa and townhouse community by DAMAC, arranged around swimmable lagoons, sandy shores and water-based amenities. Its clusters are themed after destinations such as Santorini, Venice and Portofino, offering families and investors modern homes with a resort-style waterfront lifestyle. As a largely off-plan development, it appeals to buyers seeking staged payment plans and capital growth potential as the master plan completes.",
+    keyFacts: [
+      { label: "Property types", value: "Villas & townhouses (largely off-plan)" },
+      { label: "Developer", value: "DAMAC Properties" },
+      { label: "Theme", value: "Mediterranean-inspired lagoon clusters" },
+      { label: "Setting", value: "Swimmable lagoons and waterfront amenities" },
+      { label: "Best for", value: "Off-plan buyers, families, waterfront lifestyle" },
+      { label: "Ownership", value: "Freehold, open to foreign buyers" },
+    ],
+    faqs: [
+      {
+        question: "What is DAMAC Lagoons known for?",
+        answer:
+          "DAMAC Lagoons is known for its Mediterranean theming, with clusters inspired by destinations such as Santorini, Venice and Portofino arranged around swimmable lagoons, beaches and water-based amenities. It offers villas and townhouses in a resort-style waterfront setting.",
+      },
+      {
+        question: "Who is the developer of DAMAC Lagoons?",
+        answer:
+          "DAMAC Lagoons is developed by DAMAC Properties, one of Dubai's largest private developers, which also built communities such as DAMAC Hills. The project sits alongside the wider DAMAC portfolio of master-planned lifestyle communities.",
+      },
+      {
+        question: "What types of property does DAMAC Lagoons offer?",
+        answer:
+          "The community is built around villas and townhouses, released mostly off-plan across its themed clusters. Layouts and sizes vary between clusters, giving buyers a choice of family homes centred on the lagoons and their amenities.",
+      },
+      {
+        question: "Is DAMAC Lagoons a good off-plan investment?",
+        answer:
+          "DAMAC Lagoons draws off-plan buyers with staged payment plans, distinctive theming and lagoon-led amenities in a growing area of Dubai. As with any off-plan purchase, returns depend on completion and market conditions, but its lifestyle positioning and DAMAC backing underpin its appeal for both end-users and investors.",
+      },
+    ],
+    keywords: [
+      "DAMAC Lagoons villas for sale",
+      "DAMAC Lagoons townhouse",
+      "off-plan villa Dubai",
+      "Mediterranean community Dubai",
+      "DAMAC Lagoons Santorini",
+      "lagoon community Dubai",
+    ],
+    heroImage: {
+      url: "https://images.pexels.com/photos/10647349/pexels-photo-10647349.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      alt: "Modern villa with swimming pool in a lagoon-themed Dubai community",
+      tone: "#d8d4cc",
+      credit: "Abid  Ali",
+      creditUrl: "https://www.pexels.com/@abid-ali-150086727",
+    },
+  },
 ];
