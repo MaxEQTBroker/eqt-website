@@ -51,6 +51,238 @@ export const mockAreas: Area[] = [
     },
   },
   {
+    slug: "palm-jumeirah-signature-villas",
+    label: "Palm Jumeirah Signature Villas",
+    headline: "The trophy tier of Palm Jumeirah villas",
+    aeoAnswer:
+      "Palm Jumeirah Signature Villas are the largest and most exclusive beachfront villas on the island's fronds, built on wider plots with grander proportions and direct private beach frontage, making them the island's trophy villa tier.",
+    intro:
+      "Signature Villas sit at the very top of the Palm Jumeirah villa market. Positioned along the tips and outer edges of the fronds, they occupy noticeably larger plots than the more numerous Garden Homes, with wider frontages, higher ceilings and enough land for private pools, gardens and generous entertaining space. Many have been comprehensively rebuilt into bespoke contemporary mansions, and it is here that Palm Jumeirah's headline sales tend to be set. For buyers who want a landmark address with true scale and privacy, this is the rarest and most sought-after tier on the island.",
+    keyFacts: [
+      { label: "Property type", value: "Large custom beachfront villas" },
+      { label: "Position", value: "Frond tips and outer edges" },
+      { label: "Plots", value: "Wider plots, grander proportions than Garden Homes" },
+      { label: "Beach", value: "Direct private beach frontage" },
+      { label: "Best for", value: "Trophy assets, end-users and collectors" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "What is a Palm Jumeirah Signature Villa?",
+        answer:
+          "A Signature Villa is the largest villa type on Palm Jumeirah's fronds. Compared with the more common Garden Homes, Signature Villas sit on wider plots with grander proportions and direct private beach frontage, and many have been rebuilt into bespoke mansions, which places them at the top of the island's villa market.",
+      },
+      {
+        question: "How are Signature Villas different from Garden Homes?",
+        answer:
+          "Both are beachfront frond villas with private beach access, but Signature Villas occupy larger plots with more generous internal space, while Garden Homes are the more numerous, standard-plan villas built to Nakheel's original designs. Signature Villas are rarer and typically command a meaningful premium per property.",
+      },
+      {
+        question: "Can foreigners buy a Signature Villa on Palm Jumeirah?",
+        answer:
+          "Yes. Palm Jumeirah is a designated freehold area, so non-UAE nationals can buy, own and sell Signature Villas with full title registered at the Dubai Land Department. Purchases carry the standard one-off DLD transfer fee, and there is no annual property tax on the home.",
+      },
+      {
+        question: "Are Signature Villas a good investment?",
+        answer:
+          "Signature Villas are scarce trophy assets on one of Dubai's most recognised addresses, which historically supports resilient demand and strong resale interest among international buyers. They tend to suit end-users and long-term holders rather than yield-focused investors, since the largest villas are held more often than rented.",
+      },
+    ],
+    keywords: [
+      "Palm Jumeirah Signature Villa for sale",
+      "Signature Villa Palm Jumeirah",
+      "Palm Jumeirah beachfront mansion",
+      "custom villa Palm Jumeirah",
+      "trophy villa Dubai",
+      "luxury Palm Jumeirah villa",
+    ],
+    relatedLinks: [
+      { label: "Palm Jumeirah", href: "/areas/palm-jumeirah" },
+      { label: "Palm Jumeirah Garden Homes", href: "/areas/palm-jumeirah-garden-homes" },
+      { label: "Palm Jumeirah Fronds", href: "/areas/palm-jumeirah-fronds" },
+      { label: "Signature Villas vs Garden Homes", href: "/blog/palm-jumeirah-signature-villas-vs-garden-homes" },
+    ],
+    heroImage: {
+      url: "/images/palm-jumeirah/1.jpg",
+      alt: "Large contemporary Palm Jumeirah beachfront villa with pool and sea views",
+      tone: "#e7e6e2",
+    },
+  },
+  {
+    slug: "palm-jumeirah-garden-homes",
+    label: "Palm Jumeirah Garden Homes",
+    headline: "Beachfront family villas along the fronds",
+    aeoAnswer:
+      "Palm Jumeirah Garden Homes are the more numerous beachfront frond villas, smaller than the Signature Villas but offering private beach access, family-friendly layouts and several architectural styles and orientations.",
+    intro:
+      "Garden Homes are the backbone of villa living on Palm Jumeirah. Built to Nakheel's original designs, they are far more numerous than the Signature Villas and line the fronds in a range of styles, from Mediterranean and Arabic to more contemporary interpretations, each with its own beach frontage. Typically offered with four or five bedrooms, they are sized for family living rather than sheer scale, and the choice of frond position and orientation shapes both the view and the pattern of light through the day. For many buyers, a Garden Home is the most attainable route to a private beachfront address on the island.",
+    keyFacts: [
+      { label: "Property type", value: "Standard-plan beachfront frond villas" },
+      { label: "Layouts", value: "Commonly four and five bedrooms" },
+      { label: "Styles", value: "Mediterranean, Arabic and contemporary designs" },
+      { label: "Beach", value: "Private beach access on the fronds" },
+      { label: "Best for", value: "Families seeking beachfront living" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "What are Garden Homes on Palm Jumeirah?",
+        answer:
+          "Garden Homes are the most common villa type on Palm Jumeirah's fronds, built to Nakheel's original designs. They are typically four or five bedroom beachfront villas with private beach access, offered in several architectural styles, and are smaller than the island's Signature Villas.",
+      },
+      {
+        question: "How many styles of Garden Home are there?",
+        answer:
+          "Garden Homes come in a range of facade styles across the fronds, including Mediterranean, Arabic and more contemporary designs, along with different orientations. The style and frond position influence the outlook and how sunlight moves through the villa across the day.",
+      },
+      {
+        question: "Are Garden Homes cheaper than Signature Villas?",
+        answer:
+          "Generally yes. Garden Homes sit on standard plots and are the more numerous, more attainable villa tier, while Signature Villas occupy larger plots and command a premium. Actual pricing depends on frond, orientation, condition and whether the villa has been upgraded or extended.",
+      },
+      {
+        question: "Do Garden Homes have private beach access?",
+        answer:
+          "Yes. Garden Homes line the fronds of Palm Jumeirah with direct access to a private stretch of beach, which is one of the main reasons buyers choose villa living on the island over apartments on the trunk or crescent.",
+      },
+    ],
+    keywords: [
+      "Palm Jumeirah Garden Homes for sale",
+      "Garden Home Palm Jumeirah",
+      "Palm Jumeirah frond villa",
+      "beachfront family villa Dubai",
+      "4 bedroom villa Palm Jumeirah",
+      "Nakheel Garden Homes",
+    ],
+    relatedLinks: [
+      { label: "Palm Jumeirah", href: "/areas/palm-jumeirah" },
+      { label: "Palm Jumeirah Signature Villas", href: "/areas/palm-jumeirah-signature-villas" },
+      { label: "Palm Jumeirah Fronds", href: "/areas/palm-jumeirah-fronds" },
+      { label: "Signature Villas vs Garden Homes", href: "/blog/palm-jumeirah-signature-villas-vs-garden-homes" },
+    ],
+    heroImage: {
+      url: "/images/palm-jumeirah/2.jpg",
+      alt: "Palm Jumeirah Garden Home villa with garden and private beach frontage",
+      tone: "#e7e6e2",
+    },
+  },
+  {
+    slug: "palm-jumeirah-fronds",
+    label: "Palm Jumeirah Fronds",
+    headline: "How frond living works on Palm Jumeirah",
+    aeoAnswer:
+      "The fronds of Palm Jumeirah are the residential branches where beachfront villas line each side, giving every home private beach access, with the frond's east or west orientation shaping its sunrise or sunset outlook.",
+    intro:
+      "The fronds are what make villa living on Palm Jumeirah distinctive. Branching off the island's central trunk, each frond is lined on both sides with villas, and every home opens onto its own stretch of private beach. Which side of a frond a villa sits on matters: an easterly aspect tends to favour sunrise and calmer inner-island views, while a westerly aspect leans towards sunset and more open water. Both Garden Homes and the larger Signature Villas sit along the fronds, so the frond you choose shapes the light, the outlook and the sense of privacy far more than any single specification. This overview is about frond living in general rather than claims about any individual lettered frond.",
+    keyFacts: [
+      { label: "What they are", value: "Residential branches lined with villas" },
+      { label: "Beach", value: "Private beach access on both sides" },
+      { label: "Orientation", value: "East favours sunrise, west favours sunset" },
+      { label: "Villa types", value: "Garden Homes and Signature Villas" },
+      { label: "Best for", value: "Private beachfront villa living" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "How do the fronds on Palm Jumeirah work?",
+        answer:
+          "The fronds are the residential branches of Palm Jumeirah that extend from the central trunk. Villas line both sides of each frond, and every villa has direct access to a private stretch of beach, which is the defining feature of frond living on the island.",
+      },
+      {
+        question: "Is it better to be on the east or west side of a frond?",
+        answer:
+          "It depends on what you value. An east-facing villa generally favours sunrise and calmer inner-island views, while a west-facing villa leans towards sunset and more open water. Neither is objectively better; the right choice comes down to your preferred light, outlook and privacy.",
+      },
+      {
+        question: "What kind of villas are on the fronds?",
+        answer:
+          "The fronds hold both Garden Homes, the more numerous standard-plan villas, and the larger, rarer Signature Villas. All are beachfront homes with private beach access, differing mainly in plot size, scale and how extensively they have been upgraded.",
+      },
+      {
+        question: "Who does frond living suit?",
+        answer:
+          "Frond living suits buyers who want a private, beachfront villa lifestyle rather than lock-up-and-leave apartment living. It appeals to families and end-users who value space, privacy and direct beach access over the more social energy of the trunk and crescent.",
+      },
+    ],
+    keywords: [
+      "Palm Jumeirah fronds",
+      "Palm Jumeirah frond villa",
+      "frond orientation Palm Jumeirah",
+      "beachfront villa Palm Jumeirah",
+      "east vs west frond Palm Jumeirah",
+      "Palm Jumeirah villa living",
+    ],
+    relatedLinks: [
+      { label: "Palm Jumeirah", href: "/areas/palm-jumeirah" },
+      { label: "Palm Jumeirah Garden Homes", href: "/areas/palm-jumeirah-garden-homes" },
+      { label: "Palm Jumeirah Signature Villas", href: "/areas/palm-jumeirah-signature-villas" },
+      { label: "Living on Palm Jumeirah", href: "/blog/living-on-palm-jumeirah" },
+    ],
+    heroImage: {
+      url: "/images/palm-jumeirah/3.jpg",
+      alt: "Aerial-style view of Palm Jumeirah frond villas lining a private beach",
+      tone: "#e7e6e2",
+    },
+  },
+  {
+    slug: "palm-jumeirah-apartments",
+    label: "Palm Jumeirah Apartments",
+    headline: "Beach-access apartments on the island",
+    aeoAnswer:
+      "Palm Jumeirah apartments are the Shoreline and trunk residences plus branded apartments along the crescent, offering beach access and a lock-up-and-leave lifestyle for buyers who prefer apartment living to a villa.",
+    intro:
+      "Not everyone on Palm Jumeirah wants a villa, and the island's apartments answer that demand. The Shoreline and other residences along the trunk sit close to the island's retail and dining, while the crescent is home to a growing collection of branded residences attached to five-star hotels and resorts. These homes suit buyers who want beach access and a Palm address without the upkeep of a villa and garden, whether as a lock-up-and-leave second home, a full-time residence or an income-producing asset. Apartments generally rent more actively than the larger villas, which is part of their appeal to investors.",
+    keyFacts: [
+      { label: "Property type", value: "Trunk and Shoreline apartments, branded residences" },
+      { label: "Location", value: "Trunk and crescent of the island" },
+      { label: "Lifestyle", value: "Lock-up-and-leave with beach access" },
+      { label: "Amenities", value: "Resort facilities, retail and dining nearby" },
+      { label: "Best for", value: "Second homes, end-users and investors" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "What apartments are available on Palm Jumeirah?",
+        answer:
+          "Palm Jumeirah offers apartments in the Shoreline and other residences along the trunk, plus branded residences along the crescent that are attached to five-star hotels and resorts. Options range from more attainable apartments to ultra-prime branded and penthouse homes.",
+      },
+      {
+        question: "Do Palm Jumeirah apartments have beach access?",
+        answer:
+          "Many do. Apartment communities on the island typically provide residents with beach access alongside pools and resort-style amenities, which is a key reason buyers choose a Palm apartment over other Dubai waterfront locations.",
+      },
+      {
+        question: "Are apartments a good alternative to a Palm villa?",
+        answer:
+          "For many buyers, yes. Apartments offer a Palm Jumeirah address and beach access with far less maintenance than a villa and garden, making them well suited to lock-up-and-leave second homes. They also tend to rent more actively than the larger villas, which appeals to investors.",
+      },
+      {
+        question: "Can foreigners buy an apartment on Palm Jumeirah?",
+        answer:
+          "Yes. Palm Jumeirah is a designated freehold area, so non-UAE nationals can buy, own and sell apartments with full title registered at the Dubai Land Department. Purchases carry the standard one-off DLD transfer fee, and there is no annual property tax on the home.",
+      },
+    ],
+    keywords: [
+      "Palm Jumeirah apartments for sale",
+      "Shoreline apartments Palm Jumeirah",
+      "Palm Jumeirah branded residences",
+      "beach access apartment Dubai",
+      "Palm Jumeirah penthouse",
+      "lock up and leave Palm Jumeirah",
+    ],
+    relatedLinks: [
+      { label: "Palm Jumeirah", href: "/areas/palm-jumeirah" },
+      { label: "Palm Jumeirah Fronds", href: "/areas/palm-jumeirah-fronds" },
+      { label: "Palm Jumeirah Garden Homes", href: "/areas/palm-jumeirah-garden-homes" },
+      { label: "Palm Jumeirah property investment", href: "/blog/palm-jumeirah-property-investment-2026" },
+    ],
+    heroImage: {
+      url: "/images/palm-jumeirah/6.jpg",
+      alt: "Palm Jumeirah apartment terrace with sea view and resort amenities",
+      tone: "#e7e6e2",
+    },
+  },
+  {
     slug: "al-barari",
     label: "Al Barari",
     headline: "Where Dubai exhales",
