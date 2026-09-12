@@ -46,7 +46,7 @@ Legend: 🔴 needs Max (accounts / outreach / spend / decision / login) · 🟢 
 - [x] Richer Palm/Market Index — median tile, price-by-bedroom, sales-by-year + YoY
 - [x] Ranking-cluster GSC posts (broker-vs-advisor #30 gap; deepened France relocation)
 - [x] CTAs + trust signals on top Palm posts
-- [ ] Hyper-specific landing pages (per frond / budget band / building) — NEXT, pending scope choice
+- [~] Hyper-specific landing pages: DONE Palm sub-community set (Signature Villas, Garden Homes, Fronds, Apartments). NEXT: budget-band pages powered by real valuation benchmarks. DEFERRED: per-building (needs building-level data/photos — avoids thin/doorway pages)
 - [x] DAMAC Hills 2 / Lagoons real hyperlinks (Area.relatedLinks)
 - [x] Image sitemap + Video sitemap (/video-sitemap.xml)
 - [x] Monthly post refresh (updatedAt bumped on 9 edited posts)
