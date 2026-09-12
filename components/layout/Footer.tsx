@@ -93,7 +93,7 @@ export async function Footer() {
             </li>
             <li><a href={`mailto:${site.contact.email}`} className="transition-colors hover:text-ink">{c.email}</a></li>
             <li>
-              <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">WhatsApp</a>
+              <a href={whatsappLink(`Hey ${site.name}, I'm interested and would love to know more.`)} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">WhatsApp</a>
             </li>
             <li><a href={site.social.google} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">Google</a></li>
             <li><a href={site.social.linkedin} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-ink">LinkedIn</a></li>

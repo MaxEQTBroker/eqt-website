@@ -138,7 +138,7 @@ export default async function DeveloperPage({
               allocations to the best resale. Prefer to talk now?
             </p>
             <a
-              href={whatsappLink(`Hello ${site.name}, I'd like to enquire about ${dev.name}.`)}
+              href={whatsappLink(`Hey ${site.name}, I'm interested in ${dev.name}.`)}
               className="link-whatsapp mb-5 inline-block text-sm"
               target="_blank"
               rel="noopener noreferrer"

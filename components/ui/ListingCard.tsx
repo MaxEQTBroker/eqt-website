@@ -12,7 +12,7 @@ export function ListingCard({ listing }: { listing: Listing }) {
   const cover = listing.images[0];
   const agent = agentForListing(listing);
   const wa = whatsappLink(
-    `Hello ${site.name}, I'm interested in ${listing.title} (Ref ${listing.reference}). Could ${agent.name.split(" ")[0]} help me?`,
+    `Hey ${site.name}, I'm interested in ${listing.title} (Ref ${listing.reference}). Could ${agent.name.split(" ")[0]} help me?`,
   );
 
   return (

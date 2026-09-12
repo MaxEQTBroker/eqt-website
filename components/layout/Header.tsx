@@ -146,7 +146,7 @@ export function Header() {
           </div>
           {!open && (
             <a
-              href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
+              href={whatsappLink(`Hey ${site.name}, I'm interested and would love to know more.`)}
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`${tc("inquire")} on WhatsApp`}
@@ -234,7 +234,7 @@ export function Header() {
             <div className="pointer-events-auto mb-2 w-fit" style={{ color: "#e8ecf4" }}>
               <LanguageSwitcher size="lg" onSelect={rememberMenu} />
             </div>
-            <a href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)} target="_blank" rel="noopener noreferrer" className="pointer-events-auto w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
+            <a href={whatsappLink(`Hey ${site.name}, I'm interested and would love to know more.`)} target="_blank" rel="noopener noreferrer" className="pointer-events-auto w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">
               {site.contact.phone} · WhatsApp
             </a>
             <a href={`mailto:${site.contact.email}`} className="pointer-events-auto w-fit whitespace-nowrap transition-colors hover:text-[#e8ecf4]">

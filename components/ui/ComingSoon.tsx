@@ -23,7 +23,7 @@ export function ComingSoon({
       <p className="mt-8 max-w-xl text-lg text-muted">{body}</p>
       <div className="mt-10 flex flex-col gap-3 sm:flex-row">
         <a
-          href={whatsappLink(`Hello ${site.name}, I'd like to enquire.`)}
+          href={whatsappLink(`Hey ${site.name}, I'm interested and would love to know more.`)}
           className="btn btn-accent"
           target="_blank"
           rel="noopener noreferrer"

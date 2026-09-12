@@ -16,7 +16,9 @@ export const site = {
   locale: "en_AE",
 
   contact: {
-    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971506308888",
+    // EQT Real Estate Bot — the WhatsApp Cloud API number. Every WhatsApp CTA
+    // funnels here so leads enter the qualification flow (handled in the CRM).
+    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971559487348",
     email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "sales@eqt.ae",
     phone: process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "+971 50 630 8888",
     address: {

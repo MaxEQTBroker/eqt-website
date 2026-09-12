@@ -12,7 +12,7 @@ import { site, whatsappLink } from "@/lib/site";
 export function EditorialListingCard({ listing }: { listing: Listing }) {
   const cover = listing.images[0];
   const wa = whatsappLink(
-    `Hello ${site.name}, I'd like to enquire about ${listing.title} (Ref ${listing.reference}).`,
+    `Hey ${site.name}, I'm interested in ${listing.title} (Ref ${listing.reference}).`,
   );
 
   return (

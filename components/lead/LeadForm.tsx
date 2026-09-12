@@ -147,7 +147,7 @@ export function LeadForm({
 
   const message = useMemo(
     () =>
-      `Hello ${site.name}, I'd like to enquire.\n\n` +
+      `Hey ${site.name}, I'm interested and would love to know more.\n\n` +
       `• Looking to: ${intent ?? ""}\n` +
       (area ? `• Community: ${area}\n` : "") +
       (relocating ? `• Relocation timeframe: ${timeframe ?? ""}\n` : `• Budget: ${budget ?? ""}\n`) +

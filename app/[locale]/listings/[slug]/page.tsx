@@ -59,7 +59,7 @@ export default async function ListingDetailPage({
   const agent = agentForListing(listing);
   const telHref = `tel:${site.contact.phone.replace(/\s+/g, "")}`;
   const enquiry = whatsappLink(
-    `Hello ${site.name}, I'd like to enquire about ${listing.title} (Ref ${listing.reference}). Could ${agent.name.split(" ")[0]} help me?`,
+    `Hey ${site.name}, I'm interested in ${listing.title} (Ref ${listing.reference}). Could ${agent.name.split(" ")[0]} help me?`,
   );
 
   const specs = [

@@ -55,7 +55,7 @@ export default async function ContactPage({
     {
       label: c.channelWhatsapp,
       value: c.channelWhatsappValue,
-      href: whatsappLink(`Hello ${site.name}, I'd like to enquire.`),
+      href: whatsappLink(`Hey ${site.name}, I'm interested and would love to know more.`),
       primary: true,
     },
     { label: c.channelEmail, value: site.contact.email, href: `mailto:${site.contact.email}` },
