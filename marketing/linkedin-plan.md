@@ -52,15 +52,29 @@ Post #1 of batch 1 is live; batch-1 posts #2-10 were scheduled then ADJUSTED (ad
 | 9 | Sep 23, 10:00 | Branded residences in Dubai explained | /blog/branded-residences-in-dubai-explained | [ ] |
 | 10 | Sep 23, 17:00 | How to negotiate property prices in Dubai | /blog/how-to-negotiate-property-prices-in-dubai | [ ] |
 
-## Batch 3 (next, not yet written)
-- What is Dubailand (communities guide) → /blog/what-is-dubailand-communities-guide
-- Binghatti projects 2026 → /blog/binghatti-projects-2026
-- Documents needed to sell property in Dubai → /blog/documents-needed-to-sell-property-in-dubai
-- What is Oqood / title deed vs Oqood → /blog/title-deed-and-oqood-in-dubai-explained
-- Cheapest freehold areas to buy in Dubai → /blog/cheapest-freehold-areas-to-buy-in-dubai
-- Best gated communities in Dubai → /blog/best-gated-communities-in-dubai
-- Selling a tenanted property in Dubai → /blog/how-to-sell-a-tenanted-property-in-dubai
-- (continue through the corpus; keep this tracker current so we never repeat a post)
+## Batches 3-5 (30 posts, scheduled Sep 24 -> Oct 8, 10:00 + 17:00 GST) — STATUS TRACKER
+New format on all: keyword-first hook, engagement question, `Read more at eqt.ae -> URL` CTA, NO sign-off (contextual ORN line only on licence/legal/trust posts — none in this set).
+
+| Date | 10:00 GST | 17:00 GST |
+|---|---|---|
+| Sep 24 | palm-jumeirah-rental-yields-and-roi | cash-vs-mortgage-buying-property-in-dubai |
+| Sep 25 | cost-to-buy-villa-palm-jumeirah | dubai-off-plan-payment-plans-explained |
+| Sep 26 | palm-jumeirah-penthouses-buyers-guide | off-plan-vs-ready-property-dubai |
+| Sep 27 | palm-jumeirah-apartments-buyers-guide | can-foreigners-buy-property-dubai-freehold |
+| Sep 28 | how-to-buy-a-palm-jumeirah-villa-from-overseas | dubai-golden-visa-cost |
+| Sep 29 | palm-jumeirah-vs-emaar-beachfront | townhouse-vs-villa-dubai-which-to-buy |
+| Sep 30 | palm-jumeirah-vs-dubai-marina | renting-vs-buying-in-dubai-which-makes-sense |
+| Oct 1 | palm-jumeirah-service-charges-explained | dubai-property-service-charges-hidden-costs-explained |
+| Oct 2 | best-fronds-on-palm-jumeirah-to-buy | how-to-check-golden-visa-status |
+| Oct 3 | palm-jumeirah-short-term-rental-income | dubai-off-plan-escrow-accounts-explained |
+| Oct 4 | is-palm-jumeirah-a-good-investment-2026 | best-areas-to-invest-in-dubai-for-rental-yield |
+| Oct 5 | why-is-palm-jumeirah-so-expensive | downtown-dubai-vs-business-bay-which-should-you-buy |
+| Oct 6 | rental-yields-dubai-best-performing-luxury-communities | emaar-vs-nakheel-vs-meraas-dubai-developers-compared |
+| Oct 7 | how-to-renew-dubai-golden-visa | dubai-vs-london-for-property-investment-which-is-better |
+| Oct 8 | best-areas-buy-apartment-dubai-2026 | dubai-vs-abu-dhabi-property-investment |
+
+## Batch 6 pool (next, not yet written)
+what-is-dubailand-communities-guide, binghatti-projects-2026, documents-needed-to-sell-property-in-dubai, title-deed-and-oqood-in-dubai-explained, cheapest-freehold-areas-to-buy-in-dubai, best-gated-communities-in-dubai, how-to-sell-a-tenanted-property-in-dubai, palm-jumeirah-vs-downtown-dubai, palm-jumeirah-vs-palm-jebel-ali, palm-jumeirah-branded-residences-guide, palm-jumeirah-beachfront-villas-guide, palm-jumeirah-homes-under-10-million, is-palm-jumeirah-worth-it, do-billionaires-live-on-palm-jumeirah, living-on-palm-jumeirah-with-a-family, villa-vs-apartment-living-in-dubai, dubai-penthouse-prices-what-you-get-and-where-to-buy, how-to-sell-off-plan-property-in-dubai-before-handover, selling-property-in-dubai-with-a-mortgage, best-areas-to-buy-apartments-in-dubai (~215 unused posts remain; keep this tracker current so we never repeat).
 
 ## From batch 2 on (and the batch-1 adjustments): every post gets ONE engagement question line before the CTA; the CTA is `Read more at eqt.ae -> [blog URL]`; NO RERA/company sign-off line. Reply to comments in the first hour (biggest reach lever).
 
