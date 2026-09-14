@@ -51,9 +51,9 @@ const EQT_TEAM: Author = {
 export const mockPosts: BlogPost[] = [
   {
     slug: "palm-jumeirah-villa-prices-2026",
-    title: "Palm Jumeirah Villa Prices in 2026: AED 12M to 100M+",
+    title: "Palm Jumeirah Villa Prices in 2026: AED 12M to 120M+",
     excerpt:
-      "Frond villas on Palm Jumeirah typically trade from around AED 12 million for a Garden Home, rising beyond AED 100 million for renovated Signature Villas. Here's the current picture.",
+      "Frond villas on Palm Jumeirah typically trade from around AED 12 million for a Garden Home, rising beyond AED 120 million for renovated Signature Villas. Here's the current picture.",
     category: "Community Guides",
     author: EQT_TEAM,
     publishedAt: "2026-07-28",
@@ -65,10 +65,10 @@ export const mockPosts: BlogPost[] = [
       tone: "#dfe3e6",
     },
     intro:
-      "In 2026, villa prices on Palm Jumeirah generally start from around AED 12 million for a Garden Home and rise well beyond AED 100 million for renovated Signature Villas and custom mansions with private beach frontage. The Palm remains one of Dubai's most liquid and sought-after villa markets. Here is what sets the price, and how to buy well.",
+      "In 2026, villa prices on Palm Jumeirah generally start from around AED 12 million for a Garden Home and rise well beyond AED 120 million for renovated Signature Villas and custom mansions with private beach frontage. The Palm remains one of Dubai's most liquid and sought-after villa markets. Here is what sets the price, and how to buy well.",
     keyTakeaways: [
-      "Garden Homes (the frond villas) typically trade from roughly AED 12-40 million.",
-      "Signature Villas, at the frond tips with the largest plots and beaches, trade well above AED 100 million.",
+      "Garden Homes (the frond villas) typically trade from roughly AED 12-30 million.",
+      "Signature Villas, at the frond tips with the largest plots and beaches, start around AED 55 million and rise past AED 120 million.",
       "Renovation quality is the single biggest price driver on the Palm.",
       "Frond position, plot and beach width, and sea versus skyline views all move value.",
       "Palm Jumeirah is a designated freehold area, so foreigners can buy with full title at the DLD.",
@@ -81,7 +81,7 @@ export const mockPosts: BlogPost[] = [
           "The gap between them is significant, driven by plot size, beach frontage and scarcity. Within each tier, condition and renovation quality then set where a specific villa lands.",
         ],
         bullets: [
-          "Garden Homes: typically AED 12-40 million depending on frond, condition and view.",
+          "Garden Homes: typically AED 12-30 million depending on frond, condition and view.",
           "Signature Villas: a large premium, with renovated examples well above AED 100 million.",
           "Custom mansions and fully rebuilt homes: trade at the very top of the range.",
         ],
@@ -124,7 +124,7 @@ export const mockPosts: BlogPost[] = [
       {
         question: "How much does a villa on Palm Jumeirah cost?",
         answer:
-          "Frond villas on Palm Jumeirah typically start from around AED 12 million for a Garden Home and rise beyond AED 100 million for renovated Signature Villas and custom mansions with private beach frontage.",
+          "Frond villas on Palm Jumeirah typically start from around AED 12 million for a Garden Home and rise beyond AED 120 million for renovated Signature Villas and custom mansions with private beach frontage.",
       },
       {
         question: "What is the difference between Garden Homes and Signature Villas?",

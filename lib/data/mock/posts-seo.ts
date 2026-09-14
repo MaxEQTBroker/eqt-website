@@ -16,7 +16,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "cost-to-buy-villa-palm-jumeirah",
     "title": "How Much to Buy a Villa on Palm Jumeirah? 2026 Costs",
-    "excerpt": "Villas on Palm Jumeirah start around AED 12M for a Garden Home and exceed AED 100M for Signature Villas. Here is the full cost breakdown.",
+    "excerpt": "Villas on Palm Jumeirah start around AED 12M for a Garden Home and reach AED 120M+ for Signature Villas. Here is the full cost breakdown.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -27,7 +27,7 @@ export const seoPosts: BlogPost[] = [
     "updatedAt": "2026-08-04",
     "readingMinutes": 10,
     "heroImage": blogBodyPool[12],
-    "intro": "A villa on Palm Jumeirah typically costs between AED 12 million and AED 100 million-plus, depending on villa type, location on the fronds, and condition. Entry-level Garden Homes begin at roughly AED 12-20 million, mid-tier Canal Cove and Garden Home renovations sit around AED 18-30 million, and beachfront Signature Villas command AED 55 million to well over AED 120 million. On top of the purchase price, buyers should budget approximately 6-8% in one-off transaction costs, including the 4% Dubai Land Department transfer fee. This guide breaks down every villa category, the associated fees, and the ongoing costs of ownership on Dubai's most prestigious address.",
+    "intro": "A villa on Palm Jumeirah typically costs between AED 12 million and AED 120 million-plus, depending on villa type, location on the fronds, and condition. Entry-level Garden Homes begin at roughly AED 12-20 million, mid-tier Canal Cove and Garden Home renovations sit around AED 18-30 million, and beachfront Signature Villas command AED 55 million to well over AED 120 million. On top of the purchase price, buyers should budget approximately 6-8% in one-off transaction costs, including the 4% Dubai Land Department transfer fee. This guide breaks down every villa category, the associated fees, and the ongoing costs of ownership on Dubai's most prestigious address.",
     "keyTakeaways": [
       "Garden Homes (the entry point) start around AED 12M and rise to AED 25M+ when fully renovated",
       "Signature Villas on the beachfront range from AED 55M to AED 120M+",
@@ -2907,9 +2907,9 @@ export const seoPosts: BlogPost[] = [
     "updatedAt": "2026-08-04",
     "readingMinutes": 9,
     "heroImage": blogBodyPool[9],
-    "intro": "Prime Dubai property prices in 2026 start from roughly AED 1.5 million for a well-located apartment and around AED 12 million for a beachfront villa on Palm Jumeirah, rising beyond AED 100 million for the finest homes. On top of the purchase price, buyers should budget about 7 to 8 percent in one-off transaction costs, led by the 4 percent Dubai Land Department transfer fee. There is no annual property tax and no capital gains tax on resale, and foreign nationals can own freehold outright in designated areas. This guide sets out current prices community by community, the full cost of buying, and what actually drives the numbers.",
+    "intro": "Prime Dubai property prices in 2026 start from roughly AED 1.5 million for a well-located apartment and around AED 12 million for a beachfront villa on Palm Jumeirah, rising beyond AED 120 million for the finest homes. On top of the purchase price, buyers should budget about 7 to 8 percent in one-off transaction costs, led by the 4 percent Dubai Land Department transfer fee. There is no annual property tax and no capital gains tax on resale, and foreign nationals can own freehold outright in designated areas. This guide sets out current prices community by community, the full cost of buying, and what actually drives the numbers.",
     "keyTakeaways": [
-      "Prime apartments start from around AED 1.5M; Palm Jumeirah villas from around AED 12M, exceeding AED 100M for the finest homes.",
+      "Prime apartments start from around AED 1.5M; Palm Jumeirah villas from around AED 12M, exceeding AED 120M for the finest homes.",
       "Budget roughly 7 to 8 percent in one-off buying costs, led by the 4 percent DLD transfer fee.",
       "No annual property tax and no capital gains tax on residential resale.",
       "Foreigners can own freehold in designated areas; a purchase of AED 2M+ can support a 10-year Golden Visa.",
@@ -2919,7 +2919,7 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "How much does property cost in Dubai?",
         "body": [
-          "Dubai spans an unusually wide price range, from accessible apartments in newer communities to trophy villas among the most expensive homes in the world. At the prime end, where EQT focuses, well-located apartments begin at roughly AED 1.5 million, while beachfront villas on Palm Jumeirah start at around AED 12 million and the largest signature homes exceed AED 100 million.",
+          "Dubai spans an unusually wide price range, from accessible apartments in newer communities to trophy villas among the most expensive homes in the world. At the prime end, where EQT focuses, well-located apartments begin at roughly AED 1.5 million, while beachfront villas on Palm Jumeirah start at around AED 12 million and the largest signature homes exceed AED 120 million.",
           "The figure you pay is driven far more by location, land, view and condition than by floor area alone. Two similar homes in the same community can differ by millions depending on position, orientation and how recently they were renovated. The ranges below are orientation rather than a valuation."
         ]
       },
@@ -2988,7 +2988,7 @@ export const seoPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does it cost to buy property in Dubai?",
-        "answer": "Prime apartments start from around AED 1.5 million and beachfront villas from around AED 12 million, exceeding AED 100 million for the finest homes. Add roughly 7 to 8 percent in one-off costs, led by the 4 percent Dubai Land Department transfer fee."
+        "answer": "Prime apartments start from around AED 1.5 million and beachfront villas from around AED 12 million, exceeding AED 120 million for the finest homes. Add roughly 7 to 8 percent in one-off costs, led by the 4 percent Dubai Land Department transfer fee."
       },
       {
         "question": "Which is the most expensive area in Dubai?",
@@ -7019,10 +7019,10 @@ export const seoPosts: BlogPost[] = [
     "publishedAt": "2026-08-20",
     "updatedAt": "2026-08-20",
     "readingMinutes": 11,
-    "intro": "Buying property on Palm Jumeirah starts with understanding its three zones: the private fronds lined with beachfront villas, the central trunk where most apartments and amenities sit, and the outer crescent home to resorts and branded residences. Villas range from around AED 12M for Garden Homes to AED 100M and above for Signature and bespoke frond homes, while apartments begin near AED 1.5M. Buying costs run to roughly 7 to 8 percent one-off, and Dubai levies no annual property tax and no capital gains tax. A qualifying purchase at AED 2M or above can also secure a Golden Visa. This guide walks through the layout, property types, prices, process and what drives value on the Palm.",
+    "intro": "Buying property on Palm Jumeirah starts with understanding its three zones: the private fronds lined with beachfront villas, the central trunk where most apartments and amenities sit, and the outer crescent home to resorts and branded residences. Villas range from around AED 12M for Garden Homes to AED 120M+ for Signature and bespoke frond homes, while apartments begin near AED 1.5M. Buying costs run to roughly 7 to 8 percent one-off, and Dubai levies no annual property tax and no capital gains tax. A qualifying purchase at AED 2M or above can also secure a Golden Visa. This guide walks through the layout, property types, prices, process and what drives value on the Palm.",
     "keyTakeaways": [
       "Palm Jumeirah has three distinct zones: the private fronds (villas), the central trunk (apartments and amenities) and the outer crescent (resorts and branded residences).",
-      "Villas run from around AED 12M for Garden Homes to AED 100M and above for Signature Villas; apartments start near AED 1.5M.",
+      "Villas run from around AED 12M for Garden Homes to AED 120M+ for Signature Villas; apartments start near AED 1.5M.",
       "Expect roughly 7 to 8 percent in one-off costs, including the 4 percent DLD transfer fee and 2 percent agency fee plus VAT.",
       "Dubai has no annual property tax and no capital gains tax, and a purchase at AED 2M or above can qualify for a Golden Visa.",
       "Beach frontage, view, frond position and branded-residence status are the main drivers of value, and the best homes often sell off-market."
@@ -7043,12 +7043,12 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "Property types on the Palm",
         "body": [
-          "The Palm offers a clear ladder of villa options. Garden Homes are the original frond villas, typically four to five bedrooms with private beach access, starting from around AED 12M. Above them sit Signature Villas, larger plots in prime frond positions, and fully bespoke frond homes that can reach AED 100M and beyond.",
+          "The Palm offers a clear ladder of villa options. Garden Homes are the original frond villas, typically four to five bedrooms with private beach access, starting from around AED 12M. Above them sit Signature Villas from around AED 55M, larger plots in prime frond positions, and fully bespoke frond homes that can reach AED 120M and beyond.",
           "Beyond villas, the island has a deep apartment market on the trunk, from one-bedroom units near AED 1.5M to large penthouses. Branded residences, managed by luxury hotel operators on the crescent and trunk, add a further tier for buyers who want hotel-grade service alongside ownership."
         ],
         "bullets": [
           "Garden Homes: original frond villas from around AED 12M.",
-          "Signature and bespoke villas: prime fronds, AED 100M and above.",
+          "Signature and bespoke villas: prime fronds, from around AED 55M to AED 120M+.",
           "Apartments: trunk buildings from around AED 1.5M.",
           "Branded residences: hotel-managed living on the crescent and trunk."
         ]
@@ -7057,13 +7057,13 @@ export const seoPosts: BlogPost[] = [
         "heading": "Prices and what your budget buys",
         "body": [
           "Your budget maps closely to zone and type. Around AED 1.5M to 5M places you in trunk apartments, from compact units to spacious family homes. From roughly AED 12M you enter the villa market with Garden Homes on the fronds, offering private beach access and generous plots.",
-          "Beyond AED 30M, choice opens into premium and reconfigured frond villas, and at AED 100M and above into Signature Villas and bespoke trophy homes. Branded residences span a wide range depending on operator, size and view, and command a premium for the service and address they carry."
+          "Beyond AED 30M, choice opens into premium and reconfigured frond villas, and from around AED 55M into Signature Villas and bespoke trophy homes that reach AED 120M+. Branded residences span a wide range depending on operator, size and view, and command a premium for the service and address they carry."
         ],
         "bullets": [
           "AED 1.5M to 5M: trunk apartments.",
           "AED 12M and up: Garden Homes and entry villas on the fronds.",
           "AED 30M and up: premium and upgraded frond villas.",
-          "AED 100M and above: Signature Villas and bespoke trophy homes."
+          "AED 55M to AED 120M+: Signature Villas and bespoke trophy homes."
         ]
       },
       {
@@ -7115,7 +7115,7 @@ export const seoPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does a villa on Palm Jumeirah cost?",
-        "answer": "Villas start from around AED 12M for Garden Homes on the fronds, rise through premium and upgraded frond villas from roughly AED 30M, and reach AED 100M and above for Signature Villas and bespoke trophy homes. Position, view and plot size drive the range."
+        "answer": "Villas start from around AED 12M for Garden Homes on the fronds, rise through premium and upgraded frond villas from roughly AED 30M, and reach AED 120M+ for Signature Villas and bespoke trophy homes. Position, view and plot size drive the range."
       },
       {
         "question": "Can foreigners buy property on Palm Jumeirah?",
@@ -10502,7 +10502,7 @@ export const seoPosts: BlogPost[] = [
   {
     "slug": "how-much-deposit-to-buy-property-in-dubai",
     "title": "How Much Deposit Do You Need to Buy in Dubai?",
-    "excerpt": "The deposit you need to buy in Dubai: 10-20% off-plan, at least 20% down for resident mortgages, 25%+ for non-residents, plus the 4% DLD fee.",
+    "excerpt": "The deposit you need to buy in Dubai: 10-20% off-plan, at least 20% down for resident mortgages, 40%+ for non-residents, plus the 4% DLD fee.",
     "category": "Buyer Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -10517,11 +10517,11 @@ export const seoPosts: BlogPost[] = [
       "alt": "Dubai skyline at dusk with the Burj Khalifa",
       "tone": "#141821"
     },
-    "intro": "To buy property in Dubai you typically need a deposit of 10-20% for off-plan and, for a mortgage on a ready home, a down payment of at least 20% for residents (25% or more for non-residents), plus the 4% Dubai Land Department (DLD) transfer fee. Cash buyers of ready property usually pay a 10% deposit to secure the deal on signing the Memorandum of Understanding (MOU, or Form F). So the real question is not just the deposit, but the total upfront cash: on a ready home you should budget for the down payment plus roughly 6-7% in fees and charges. Below we break down each buyer type, the Central Bank loan-to-value rules, and worked examples so you know exactly what to have ready.",
+    "intro": "To buy property in Dubai you typically need a deposit of 10-20% for off-plan and, for a mortgage on a ready home, a down payment of at least 20% for residents (40% or more for non-residents), plus the 4% Dubai Land Department (DLD) transfer fee. Cash buyers of ready property usually pay a 10% deposit to secure the deal on signing the Memorandum of Understanding (MOU, or Form F). So the real question is not just the deposit, but the total upfront cash: on a ready home you should budget for the down payment plus roughly 6-7% in fees and charges. Below we break down each buyer type, the Central Bank loan-to-value rules, and worked examples so you know exactly what to have ready.",
     "keyTakeaways": [
       "Off-plan: developers usually ask for a 10-20% down payment on booking, then instalments to handover.",
       "Cash buyers of ready property: expect a 10% deposit on signing the MOU (Form F), balance at transfer.",
-      "Resident mortgage: minimum 20% down (up to 80% LTV) on homes under AED 5M; non-residents often 25% or more.",
+      "Resident mortgage: minimum 20% down (up to 80% LTV) on homes under AED 5M; non-residents often 40% or more.",
       "Above AED 5M or a second home: the Central Bank requires a larger deposit and lower LTV.",
       "Beyond the deposit, budget about 6-7% for the 4% DLD fee, agency commission plus VAT, and mortgage and trustee fees.",
       "Figures are indicative; confirm current Central Bank rules and your lender's terms before you commit."
@@ -10558,7 +10558,7 @@ export const seoPosts: BlogPost[] = [
           "If you borrow, the Central Bank of the UAE sets the maximum loan-to-value, and whatever the bank will not lend becomes your down payment. These are the widely applied benchmarks.",
           "UAE residents (expats) buying a first home under AED 5 million can typically borrow up to 80% LTV, meaning a minimum 20% deposit. For a first home priced above AED 5 million, the cap is lower (around 70% LTV), so you would put down roughly 30% or more.",
           "UAE nationals get slightly higher limits, often up to 85% LTV on a first home under AED 5 million, so around a 15% deposit.",
-          "Non-residents buying from overseas are usually offered less leverage. Many banks lend around 50-75% LTV to non-residents, so plan for a deposit of 25-50% depending on the lender, the property, and your profile.",
+          "Non-residents buying from overseas are usually offered less leverage. Many banks lend around 50-60% LTV to non-residents, so plan for a deposit of 40-50% depending on the lender, the property, and your profile.",
           "Second and subsequent properties require a bigger deposit for everyone, with LTV commonly capped near 60-65%, so budget for 35-40% down.",
           "Two more things the Central Bank rules make clear: the deposit must come from your own funds and cannot itself be borrowed, and the DLD and associated fees sit on top and are not covered by the loan.",
           "Because lender appetite varies, the exact deposit a bank asks of you can differ from these benchmarks. It is worth getting a mortgage pre-approval early so you know your real number before you shop."
@@ -10616,7 +10616,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "How much deposit do non-residents need in Dubai?",
-        "answer": "Non-residents buying with a mortgage usually need a larger deposit than residents, commonly 25-50%, because many banks cap non-resident lending around 50-75% LTV. Cash buyers avoid this entirely and typically pay a 10% deposit on signing the MOU. The exact figure depends on the lender and property."
+        "answer": "Non-residents buying with a mortgage usually need a larger deposit than residents, commonly 40-50%, because many banks cap non-resident lending around 50-60% LTV. Cash buyers avoid this entirely and typically pay a 10% deposit on signing the MOU. The exact figure depends on the lender and property."
       },
       {
         "question": "Is the deposit refundable if the deal falls through?",
@@ -11501,12 +11501,12 @@ export const seoPosts: BlogPost[] = [
       "alt": "Palm Jumeirah branded residence",
       "tone": "#e7e6e2"
     },
-    "intro": "Palm Jumeirah's marquee branded residences are Atlantis The Royal Residences, One at Palm by Omniyat, Six Senses Residences, Armani Beach Residences by Arada, and W Residences. Branded means the home carries a hotel or fashion house name, its interior design language, hotel-grade service, and access to five-star amenities. Expect an indicative 25 to 60 percent price premium over comparable unbranded Palm stock, and higher service charges of roughly AED 25 to 40 per square foot. These addresses suit buyers who want turnkey luxury, strong brand-led resale and rental appeal, and hospitality living without managing any of it themselves.",
+    "intro": "Palm Jumeirah's marquee branded residences are Atlantis The Royal Residences, One at Palm by Omniyat, Six Senses Residences, Armani Beach Residences by Arada, and W Residences. Branded means the home carries a hotel or fashion house name, its interior design language, hotel-grade service, and access to five-star amenities. Expect an indicative 25 to 60 percent price premium over comparable unbranded Palm stock, and higher service charges of roughly AED 30 to 60 or more per square foot. These addresses suit buyers who want turnkey luxury, strong brand-led resale and rental appeal, and hospitality living without managing any of it themselves.",
     "keyTakeaways": [
       "Five names lead the Palm: Atlantis The Royal Residences, One at Palm, Six Senses Residences, Armani Beach Residences, and W Residences.",
       "Branded means a hotel or fashion label, its signature interiors, hotel-grade service, and shared five-star amenities.",
       "Indicative premium over unbranded Palm homes runs 25 to 60 percent, varying sharply by brand and unit.",
-      "Service charges are higher, indicatively AED 25 to 40 per square foot, reflecting concierge and hotel operations.",
+      "Service charges are higher, indicatively AED 30 to 60 or more per square foot, reflecting concierge and hotel operations.",
       "Resale and rental appeal is strong for scarce, well-run brands, though pricing depends on floor, view, and layout.",
       "Best suited to turnkey buyers wanting hospitality living, brand prestige, and hands-off ownership."
     ],
@@ -11532,7 +11532,7 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "Service charges and running costs",
         "body": [
-          "Branded living carries higher recurring costs, and buyers should budget for them honestly. Service charges on Palm branded residences are indicatively in the AED 25 to 40 per square foot range, versus roughly AED 12 to 20 for standard Palm apartments, though figures vary by building and year. The premium funds concierge, security, housekeeping availability, and the upkeep of hotel-grade amenities and beachfront. Some brands also apply the operator's standards to furniture replacement and common areas, which protects long-term value but raises the annual bill. On a large residence these charges run into six figures annually, so factor them into net yield and holding-cost calculations before you commit."
+          "Branded living carries higher recurring costs, and buyers should budget for them honestly. Service charges on Palm branded residences are indicatively in the AED 30 to 60-plus per square foot range, versus roughly AED 15 to 28 for standard Palm apartments, though figures vary by building and year. The premium funds concierge, security, housekeeping availability, and the upkeep of hotel-grade amenities and beachfront. Some brands also apply the operator's standards to furniture replacement and common areas, which protects long-term value but raises the annual bill. On a large residence these charges run into six figures annually, so factor them into net yield and holding-cost calculations before you commit."
         ]
       },
       {
@@ -11559,7 +11559,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "Are service charges higher in branded residences?",
-        "answer": "Yes. Service charges are indicatively AED 25 to 40 per square foot, versus roughly AED 12 to 20 for standard Palm apartments. The premium funds concierge, security, housekeeping, and hotel-grade amenity upkeep."
+        "answer": "Yes. Service charges are indicatively AED 30 to 60-plus per square foot, versus roughly AED 15 to 28 for standard Palm apartments. The premium funds concierge, security, housekeeping, and hotel-grade amenity upkeep."
       },
       {
         "question": "Do branded residences make good investments?",
@@ -12143,7 +12143,7 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "Indicative price ranges",
         "body": [
-          "All figures here are indicative and move with condition, frond, plot size, and orientation, so treat them as a starting frame rather than a quote. Garden Homes needing renovation can begin in the high teens of millions of dirhams, while fully renovated four to five bedroom Garden Homes on the beach typically sit in the region of AED 22 to 40 million. Signature Villas, with their larger plots and wider frontage, generally start around AED 40 to 60 million and climb from there. Custom-built mansions on prime fronds are the top of the market and frequently trade above AED 80 million, with trophy homes reaching well into nine figures. Because the range is wide, the frond, the tip-versus-mid position, and the quality of any recent rebuild matter more than headline averages."
+          "All figures here are indicative and move with condition, frond, plot size, and orientation, so treat them as a starting frame rather than a quote. Garden Homes needing renovation can begin in the high teens of millions of dirhams, while fully renovated four to five bedroom Garden Homes on the beach typically sit in the region of AED 22 to 30 million. Signature Villas, with their larger plots and wider frontage, generally start around AED 55 million and climb from there. Custom-built mansions on prime fronds are the top of the market and frequently trade above AED 80 million, with trophy homes reaching well into nine figures. Because the range is wide, the frond, the tip-versus-mid position, and the quality of any recent rebuild matter more than headline averages."
         ]
       },
       {
@@ -12489,11 +12489,11 @@ export const seoPosts: BlogPost[] = [
       "alt": "Palm Jumeirah villas and apartment towers at dusk",
       "tone": "#e7e6e2"
     },
-    "intro": "As an indicative 2026 guide, Palm Jumeirah apartments start at roughly AED 2.5M for a smaller unit and run past AED 15M for a large branded or sea-facing residence; garden homes on the fronds sit around AED 15M-35M; signature villas with private beach frontage typically trade between AED 25M and AED 100M+; and the largest penthouses and mansions reach well into nine figures. Priced another way, expect roughly AED 2,500-5,000 per square foot on apartments and AED 4,000-9,000+ on prime villas, depending on frond, view, age and fit-out. These are guide figures to frame a budget, not valuations. The bands below break down each property type, then explain what actually moves the price and how to get an accurate number for a specific home.",
+    "intro": "As an indicative 2026 guide, Palm Jumeirah apartments start at roughly AED 2.5M for a smaller unit and run past AED 15M for a large branded or sea-facing residence; garden homes on the fronds sit around AED 15M-35M; signature villas with private beach frontage typically trade between AED 55M and AED 120M+; and the largest penthouses and mansions reach well into nine figures. Priced another way, expect roughly AED 2,500-5,000 per square foot on apartments and AED 4,000-9,000+ on prime villas, depending on frond, view, age and fit-out. These are guide figures to frame a budget, not valuations. The bands below break down each property type, then explain what actually moves the price and how to get an accurate number for a specific home.",
     "keyTakeaways": [
       "Apartments: roughly AED 2.5M entry to AED 15M+ for large, sea-facing or branded units.",
       "Garden homes on the fronds: indicatively AED 15M-35M depending on frond and condition.",
-      "Signature villas with private beach: typically AED 25M-100M+, the Palm's core trophy tier.",
+      "Signature villas with private beach: typically AED 55M-120M+, the Palm's core trophy tier.",
       "Penthouses, mansions and top branded residences: from around AED 20M into nine figures.",
       "Price per square foot runs roughly AED 2,500-5,000 on apartments and AED 4,000-9,000+ on prime villas.",
       "Frond position, sea view, tower or villa type, age and renovation quality drive most of the variance."
@@ -12514,7 +12514,7 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "Signature villas: the Palm's trophy tier",
         "body": [
-          "Signature villas sit at the tips and along the fronds with private beach frontage and larger plots, and they are the assets most buyers mean when they talk about owning on the Palm. Pricing typically runs from around AED 25M for an original signature villa to AED 100M and beyond for a large, architect-rebuilt home with prime sea views and generous beach frontage. Within this tier the variance is enormous: two villas on the same frond can differ by tens of millions based on rebuild quality, plot width, orientation and outlook. This is a low-supply, high-demand segment where genuinely turnkey, sea-facing homes are scarce and trade quickly, often off-market, which is why guide ranges only take you so far."
+          "Signature villas sit at the tips and along the fronds with private beach frontage and larger plots, and they are the assets most buyers mean when they talk about owning on the Palm. Pricing typically runs from around AED 55M for an original signature villa to AED 120M and beyond for a large, architect-rebuilt home with prime sea views and generous beach frontage. Within this tier the variance is enormous: two villas on the same frond can differ by tens of millions based on rebuild quality, plot width, orientation and outlook. This is a low-supply, high-demand segment where genuinely turnkey, sea-facing homes are scarce and trade quickly, often off-market, which is why guide ranges only take you so far."
         ]
       },
       {
@@ -12543,7 +12543,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "How much is a villa on Palm Jumeirah?",
-        "answer": "Garden homes trade indicatively around AED 15M-35M, while signature villas with private beach frontage typically run from AED 25M to AED 100M and beyond for large, renovated, sea-facing homes. Condition, frond position, plot and view drive most of the difference. These are guide figures, not valuations."
+        "answer": "Garden homes trade indicatively around AED 15M-35M, while signature villas with private beach frontage typically run from AED 55M to AED 120M and beyond for large, renovated, sea-facing homes. Condition, frond position, plot and view drive most of the difference. These are guide figures, not valuations."
       },
       {
         "question": "What is the price per square foot on Palm Jumeirah?",
@@ -12878,7 +12878,7 @@ export const seoPosts: BlogPost[] = [
     },
     "intro": "A budget of up to around AED 10 million absolutely buys you a Palm Jumeirah address, but it buys an apartment, not a signature beach villa. In this band you are looking at studios through larger two and three bedroom apartments in the established Shoreline and trunk buildings, plus a handful of mid-tier and select branded units in newer trunk towers. It does not stretch to the frond villas or garden homes, which typically start well above this figure. That is not a compromise so much as a different way onto the island: you get the same beaches, promenades and postcode, with lower entry pricing and a genuine rental market. Below we break down what roughly AED 2.5M to 5M buys, what AED 5M to 10M buys, and how to get real value.",
     "keyTakeaways": [
-      "Under AED 10M on Palm Jumeirah means apartments, not villas. Signature beach villas typically start from around AED 25M and garden homes from roughly AED 15M.",
+      "Under AED 10M on Palm Jumeirah means apartments, not villas. Signature beach villas typically start from around AED 55M and garden homes from roughly AED 15M.",
       "Entry to the island starts at around AED 2.5M for a studio or smaller apartment in an older Shoreline or trunk building.",
       "Roughly AED 5M to 10M opens up larger two and three bedroom apartments, better floors and views, and some newer or lightly branded trunk stock.",
       "Older buildings offer more space and beach access per dirham, but come with higher service charges and dated finishes.",
@@ -12889,7 +12889,7 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "The honest headline: apartments, not beach villas",
         "body": [
-          "Let us set expectations clearly, because it saves a lot of disappointment. Under AED 10 million, you are buying an apartment on Palm Jumeirah. The signature beach villas on the fronds, the ones with private stretches of sand, typically start from around AED 25M and run into the hundreds of millions for the very best. Garden homes, the more modest villa product, still usually begin at roughly AED 15M. Both sit above this band.",
+          "Let us set expectations clearly, because it saves a lot of disappointment. Under AED 10 million, you are buying an apartment on Palm Jumeirah. The signature beach villas on the fronds, the ones with private stretches of sand, typically start from around AED 55M and run into the hundreds of millions for the very best. Garden homes, the more modest villa product, still usually begin at roughly AED 15M. Both sit above this band.",
           "What that leaves you is the apartment stock along the trunk of the Palm and in the Shoreline cluster near the base, plus a selection of newer trunk towers. This is real, liveable, well located property on one of the most recognised addresses in the world. The trade is space and privacy for price and, in most cases, a stronger rental story. If a villa is non-negotiable for you, the honest answer is to plan for a larger budget or consider a different community. If a Palm postcode is the priority, an apartment under AED 10M is very much achievable."
         ]
       },
@@ -12936,7 +12936,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "Why can't I buy a Palm Jumeirah villa under AED 10M?",
-        "answer": "The frond beach villas are among the scarcest and most sought-after homes in Dubai, so they typically start from around AED 25M and rise sharply. Even the more modest garden homes usually begin at roughly AED 15M. Under AED 10M the market is apartments, which still give you the same address, beaches and promenades."
+        "answer": "The frond beach villas are among the scarcest and most sought-after homes in Dubai, so they typically start from around AED 55M and rise sharply. Even the more modest garden homes usually begin at roughly AED 15M. Under AED 10M the market is apartments, which still give you the same address, beaches and promenades."
       },
       {
         "question": "Which buildings should I look at with this budget?",
@@ -13047,7 +13047,7 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "How frond choice affects price",
         "body": [
-          "Price on the fronds is driven less by the letter itself and more by the combination of orientation, plot width, villa type and position along the frond. Signature villas, which occupy the wider, more prominent plots and often sit towards the tip, sit at the top of the range, indicatively from around AED 25M to well over AED 100M depending on the frond, the view and the level of renovation. Garden villas, positioned nearer the frond entrance on narrower plots, offer the more accessible entry point into frond living and represent relative value.",
+          "Price on the fronds is driven less by the letter itself and more by the combination of orientation, plot width, villa type and position along the frond. Signature villas, which occupy the wider, more prominent plots and often sit towards the tip, sit at the top of the range, indicatively from around AED 55M to well over AED 120M depending on the frond, the view and the level of renovation. Garden villas, positioned nearer the frond entrance on narrower plots, offer the more accessible entry point into frond living and represent relative value.",
           "Because these are indicative and relative figures, treat any specific number with care: a beautifully rebuilt villa with a skyline view can trade at a large premium to an original-condition home of the same footprint two doors down. Rather than ranking fronds by price, it is more useful to think about which combination of factors you are paying for, and to have current, like-for-like comparables pulled before you make an offer."
         ]
       },
@@ -13074,7 +13074,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "Does the frond you choose affect the price?",
-        "answer": "Yes, but indirectly. Price is driven by orientation, plot width, villa type and where the home sits along the frond rather than the letter alone. Signature villas on wider tip-end plots sit at the top of the range, indicatively from around AED 25M to over AED 100M, while garden villas nearer the entrance offer better relative value."
+        "answer": "Yes, but indirectly. Price is driven by orientation, plot width, villa type and where the home sits along the frond rather than the letter alone. Signature villas on wider tip-end plots sit at the top of the range, indicatively from around AED 55M to over AED 120M, while garden villas nearer the entrance offer better relative value."
       },
       {
         "question": "Are some fronds more private than others?",
@@ -24530,14 +24530,14 @@ export const seoPosts: BlogPost[] = [
       "alt": "Aerial view of Palm Jumeirah, the man-made island in Dubai, showing its fronds lined with beachfront villas",
       "tone": "#141821"
     },
-    "intro": "Palm Jumeirah is expensive for one core reason: supply is fixed while demand keeps rising. It is a finite, fully built man-made island, so no new land can be created, and the private-beach frond villas are genuinely rare. Add a globally recognised trophy address, the high original cost of land reclamation and construction, homes and amenities built to a premium standard, and strong demand from high-net-worth buyers worldwide, and prices sit well above the wider Dubai market. Apartments typically start from around AED 2.5M, while signature and frond villas commonly range from about AED 25M to AED 100M and above. In short, you are paying for scarcity plus prestige, and both are structurally hard to replicate anywhere else in the city.",
+    "intro": "Palm Jumeirah is expensive for one core reason: supply is fixed while demand keeps rising. It is a finite, fully built man-made island, so no new land can be created, and the private-beach frond villas are genuinely rare. Add a globally recognised trophy address, the high original cost of land reclamation and construction, homes and amenities built to a premium standard, and strong demand from high-net-worth buyers worldwide, and prices sit well above the wider Dubai market. Apartments typically start from around AED 2.5M, while signature and frond villas commonly range from about AED 25M to AED 120M and above. In short, you are paying for scarcity plus prestige, and both are structurally hard to replicate anywhere else in the city.",
     "keyTakeaways": [
       "Palm Jumeirah is a finite, fully built island, so land supply is effectively capped and cannot expand.",
       "Private-beach frond villas are the rarest asset type on the Palm, which drives their premium pricing.",
       "It is a world-recognised trophy address, and brand prestige carries a real, lasting price premium.",
       "High land-reclamation and construction costs plus premium build quality underpin values.",
       "Strong global high-net-worth demand and a solid capital-appreciation track record keep prices firm.",
-      "Indicative pricing: apartments from around AED 2.5M; signature villas roughly AED 25M to AED 100M+."
+      "Indicative pricing: apartments from around AED 2.5M; signature and frond villas roughly AED 25M to AED 120M+."
     ],
     "sections": [
       {
@@ -24551,7 +24551,7 @@ export const seoPosts: BlogPost[] = [
         "heading": "Private-beach frond villas are genuinely rare",
         "body": [
           "Within the Palm, the frond villas are the scarcest asset of all. There is only a limited ribbon of these homes, each with direct private beach access and its own stretch of shoreline. That combination of privacy, waterfront and a low, fixed number of properties is close to impossible to reproduce anywhere else in Dubai.",
-          "Because these villas are so few and so sought after, they command the top of the price range, commonly from around AED 25M to well over AED 100M for signature, renovated or exceptionally positioned homes. Apartments on the trunk and in the resort towers are more plentiful and therefore more accessible, typically starting from around AED 2.5M, but even these carry a Palm premium over comparable units elsewhere."
+          "Because these villas are so few and so sought after, they command the top of the price range, commonly from around AED 25M to well over AED 120M for signature, renovated or exceptionally positioned homes. Apartments on the trunk and in the resort towers are more plentiful and therefore more accessible, typically starting from around AED 2.5M, but even these carry a Palm premium over comparable units elsewhere."
         ]
       },
       {
@@ -24590,7 +24590,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "How much does property on Palm Jumeirah cost?",
-        "answer": "Figures are indicative and vary by property, but apartments typically start from around AED 2.5M, while signature and frond villas commonly range from about AED 25M to AED 100M and above for the best positioned or renovated homes."
+        "answer": "Figures are indicative and vary by property, but apartments typically start from around AED 2.5M, while signature and frond villas commonly range from about AED 25M to AED 120M and above for the best positioned or renovated homes."
       },
       {
         "question": "Will Palm Jumeirah ever get cheaper?",

@@ -3411,7 +3411,7 @@ export const generatedPosts: BlogPost[] = [
       "alt": "Elegant stone villa with infinity pool offers serene vacation vibes at twilight.",
       "tone": "#d8d4cc"
     },
-    "intro": "To buy a villa in Dubai, foreigners purchase freehold in designated areas, sign an MOU with a 10% deposit, and register the title at the Dubai Land Department, paying a 4% transfer fee. There is no property tax, no capital gains tax and no tax on rental income, which makes villa ownership unusually efficient. Prime frond villas on Palm Jumeirah range from roughly AED 12M for Garden Homes to AED 100M+ for Signature Villas, so budgets and communities vary widely.",
+    "intro": "To buy a villa in Dubai, foreigners purchase freehold in designated areas, sign an MOU with a 10% deposit, and register the title at the Dubai Land Department, paying a 4% transfer fee. There is no property tax, no capital gains tax and no tax on rental income, which makes villa ownership unusually efficient. Prime frond villas on Palm Jumeirah range from roughly AED 12M for Garden Homes to AED 120M+ for Signature Villas, so budgets and communities vary widely.",
     "keyTakeaways": [
       "Foreigners own villas outright (freehold) in designated areas, with title registered at the DLD",
       "Budget around 7-8% in transaction costs: 4% DLD fee, ~2% agency plus 5% VAT",
@@ -3471,7 +3471,7 @@ export const generatedPosts: BlogPost[] = [
           "When comparing communities, look past the headline price to the plot size, the orientation, the service charge per square foot and how close the villa sits to amenities. A larger plot on a quiet cul-de-sac usually holds value better than a tight plot beside a through road, even within the same development."
         ],
         "bullets": [
-          "Palm Jumeirah: beach villas from ~AED 12M Garden Homes to AED 100M+ Signature Villas",
+          "Palm Jumeirah: beach villas from ~AED 12M Garden Homes to AED 120M+ Signature Villas",
           "Emirates Hills: gated golf-course mansions, Dubai's original prime address",
           "District One: large modern villas around a crystal lagoon",
           "Al Barari: low-density, green villas among landscaped gardens",
@@ -3542,7 +3542,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "waterfront-property-in-dubai-best-areas",
     "title": "Waterfront property in Dubai: best areas and prices",
-    "excerpt": "Dubai's best waterfront areas are Palm Jumeirah, Emaar Beachfront, Dubai Marina, Bluewaters and Jumeirah Bay, spanning beach apartments to AED 100M+.",
+    "excerpt": "Dubai's best waterfront areas are Palm Jumeirah, Emaar Beachfront, Dubai Marina, Bluewaters and Jumeirah Bay, spanning beach apartments to AED 120M+.",
     "category": "Community Guides",
     "author": {
       "name": "The EQT Private Office",
@@ -3557,10 +3557,10 @@ export const generatedPosts: BlogPost[] = [
       "alt": "Iconic Burj Al Arab overlooking the pristine Dubai beach, perfect for travel and leisure.",
       "tone": "#141821"
     },
-    "intro": "Dubai's leading waterfront communities are Palm Jumeirah, Emaar Beachfront, Dubai Marina, Bluewaters Island and Jumeirah Bay Island, offering everything from sea view apartments to ultra-prime beach villas. Entry-level waterfront apartments start in the low millions of dirhams, while frond and island villas run from roughly AED 12M to AED 100M+. All are freehold, so foreigners can own outright with title at the DLD, and there is no property tax or tax on rental income.",
+    "intro": "Dubai's leading waterfront communities are Palm Jumeirah, Emaar Beachfront, Dubai Marina, Bluewaters Island and Jumeirah Bay Island, offering everything from sea view apartments to ultra-prime beach villas. Entry-level waterfront apartments start in the low millions of dirhams, while frond and island villas run from roughly AED 12M to AED 120M+. All are freehold, so foreigners can own outright with title at the DLD, and there is no property tax or tax on rental income.",
     "keyTakeaways": [
       "Top waterfront areas: Palm Jumeirah, Emaar Beachfront, Dubai Marina, Bluewaters and Jumeirah Bay Island",
-      "Waterfront apartments start in the low millions; prime island villas reach AED 100M+",
+      "Waterfront apartments start in the low millions; prime island villas reach AED 120M+",
       "All key waterfront communities are freehold and open to foreign buyers",
       "Beachfront homes command a premium but tend to hold value and let well",
       "Many waterfront homes clear the AED 2M Golden Visa threshold",
@@ -3580,7 +3580,7 @@ export const generatedPosts: BlogPost[] = [
           "Each area offers a different balance of privacy, price and lifestyle, from island exclusivity to buzzing marina living."
         ],
         "bullets": [
-          "Palm Jumeirah: iconic frond villas and beach apartments, villas from ~AED 12M to AED 100M+",
+          "Palm Jumeirah: iconic frond villas and beach apartments, villas from ~AED 12M to AED 120M+",
           "Emaar Beachfront: modern sea view apartments between the Palm and Dubai Marina",
           "Dubai Marina: high-rise waterfront apartments with strong rental demand",
           "Bluewaters Island: boutique island living beside Ain Dubai, apartments and penthouses",
@@ -3591,13 +3591,13 @@ export const generatedPosts: BlogPost[] = [
         "heading": "What waterfront property costs",
         "body": [
           "Prices vary widely by location and home type. Waterfront apartments in Dubai Marina and Emaar Beachfront generally start in the low millions of dirhams for a one or two bed, with sea view and higher floors adding a premium that can be substantial for a full, unobstructed outlook.",
-          "Villas are a different tier. Palm Jumeirah Garden Homes begin around AED 12M, while Signature Villas and prime plots reach AED 100M and beyond. Jumeirah Bay Island mansions and branded residences sit at the very top of the market. Treat these as broad ranges, since view, plot and finish move the number significantly, and a beach-facing frond villa can trade far above a garden-facing one on the same stretch.",
+          "Villas are a different tier. Palm Jumeirah Garden Homes begin around AED 12M, while Signature Villas and prime plots range from around AED 55M to AED 120M and beyond. Jumeirah Bay Island mansions and branded residences sit at the very top of the market. Treat these as broad ranges, since view, plot and finish move the number significantly, and a beach-facing frond villa can trade far above a garden-facing one on the same stretch.",
           "A few factors consistently drive the premium within any one community. An unobstructed sea or skyline view, a wider plot, a private beach frontage rather than a shared one, and a higher or corner position all push the price up. A renovated or newly finished home also commands more than a dated one that needs work. When comparing two homes with similar headline prices, these details often explain the gap, so it pays to view in person and judge the outlook, privacy and condition rather than relying on the floor area alone."
         ],
         "bullets": [
           "Waterfront apartments: from the low millions of dirhams",
           "Palm Jumeirah Garden Homes villas: from ~AED 12M",
-          "Palm Jumeirah Signature Villas: AED 100M+",
+          "Palm Jumeirah Signature Villas: AED 55M to AED 120M+",
           "Jumeirah Bay Island mansions: ultra-prime, top of market"
         ]
       },
@@ -3846,7 +3846,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "luxury-property-in-dubai-price-guide",
     "title": "Luxury property in Dubai: a price guide",
-    "excerpt": "Dubai luxury villas run from ~AED 12M to AED 100M+, led by Emirates Hills, Palm Jumeirah, Jumeirah Bay, District One and Al Barari, all tax-free to own.",
+    "excerpt": "Dubai luxury villas run from ~AED 12M to AED 120M+, led by Emirates Hills, Palm Jumeirah, Jumeirah Bay, District One and Al Barari, all tax-free to own.",
     "category": "Investment",
     "author": {
       "name": "The EQT Private Office",
@@ -3861,7 +3861,7 @@ export const generatedPosts: BlogPost[] = [
       "alt": "Exterior of stylish classic styled mansion with forged fence and elegant street lamps surrounded by lush green",
       "tone": "#d8d4cc"
     },
-    "intro": "Dubai's luxury market spans roughly AED 12M for prime villas to AED 100M+ for trophy mansions and Signature Villas, with the most expensive areas being Emirates Hills, Palm Jumeirah, Jumeirah Bay Island, District One and Al Barari. All are freehold, so foreigners own outright with title at the DLD, and there is no property tax, capital gains tax or tax on rental income, which flatters net returns at the top of the market.",
+    "intro": "Dubai's luxury market spans roughly AED 12M for prime villas to AED 120M+ for trophy mansions and Signature Villas, with the most expensive areas being Emirates Hills, Palm Jumeirah, Jumeirah Bay Island, District One and Al Barari. All are freehold, so foreigners own outright with title at the DLD, and there is no property tax, capital gains tax or tax on rental income, which flatters net returns at the top of the market.",
     "keyTakeaways": [
       "Prime villas start around AED 12M; trophy mansions reach AED 100M+",
       "Most expensive areas: Emirates Hills, Palm Jumeirah, Jumeirah Bay, District One, Al Barari",
@@ -3885,7 +3885,7 @@ export const generatedPosts: BlogPost[] = [
         ],
         "bullets": [
           "Emirates Hills: gated mansions around a championship golf course, Dubai's original prime address",
-          "Palm Jumeirah: beach villas from ~AED 12M to AED 100M+ for Signature Villas",
+          "Palm Jumeirah: beach villas from ~AED 12M to AED 120M+ for Signature Villas",
           "Jumeirah Bay Island: ultra-prime mansions and Bulgari branded residences",
           "District One: large modern villas around a crystal lagoon at Mohammed Bin Rashid City",
           "Al Barari: green, low-density villas set among landscaped gardens"
@@ -3895,13 +3895,13 @@ export const generatedPosts: BlogPost[] = [
         "heading": "Luxury price ranges",
         "body": [
           "Treat these as broad, true ranges, since a single street can span a wide band depending on plot, view and finish. Prime apartments and penthouses in landmark towers generally begin in the mid-single-digit millions and rise sharply for full-floor and branded units, where a whole-floor penthouse can trade at a large multiple of a standard unit in the same building.",
-          "On the villa side, Palm Jumeirah Garden Homes start around AED 12M, Signature Villas reach AED 100M+, and Emirates Hills and Jumeirah Bay mansions sit at the very top. Branded residences add a 20-30% premium for their design and service, so a branded unit will always price above an equivalent non-branded home nearby.",
+          "On the villa side, Palm Jumeirah Garden Homes start around AED 12M, Signature Villas reach AED 120M+, and Emirates Hills and Jumeirah Bay mansions sit at the very top. Branded residences add a 20-30% premium for their design and service, so a branded unit will always price above an equivalent non-branded home nearby.",
           "It is worth understanding what actually sets these numbers, because at the prime level the spread within a single community is enormous. A wider or waterfront plot, an unobstructed view, a corner or end position, and a recent, high-specification finish all lift the price, while a dated home or a compromised outlook sits well below. This is why a headline range is only a starting point: the same street can hold a AED 15M home and a AED 60M one, and the difference lies in the plot, the aspect and the quality of the build rather than the floor area alone."
         ],
         "bullets": [
           "Prime apartments and penthouses: from the mid-single-digit millions",
           "Palm Jumeirah Garden Homes: from ~AED 12M",
-          "Signature Villas and trophy mansions: AED 100M+",
+          "Signature Villas and trophy mansions: AED 120M+",
           "Branded residences: 20-30% premium over comparable homes"
         ]
       },
@@ -3942,7 +3942,7 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "question": "How much does a luxury villa cost in Dubai?",
-        "answer": "Prime Dubai villas generally start around AED 12M for Palm Jumeirah Garden Homes and rise to AED 100M+ for Signature Villas and trophy mansions in Emirates Hills or Jumeirah Bay. Plot size, view, position and finish drive large variations even within a single community."
+        "answer": "Prime Dubai villas generally start around AED 12M for Palm Jumeirah Garden Homes and rise to AED 120M+ for Signature Villas and trophy mansions in Emirates Hills or Jumeirah Bay. Plot size, view, position and finish drive large variations even within a single community."
       },
       {
         "question": "Is luxury property in Dubai a good investment?",
