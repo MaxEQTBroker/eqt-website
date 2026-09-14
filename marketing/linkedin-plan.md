@@ -73,8 +73,29 @@ New format on all: keyword-first hook, engagement question, `Read more at eqt.ae
 | Oct 7 | how-to-renew-dubai-golden-visa | dubai-vs-london-for-property-investment-which-is-better |
 | Oct 8 | best-areas-buy-apartment-dubai-2026 | dubai-vs-abu-dhabi-property-investment |
 
-## Batch 6 pool (next, not yet written)
-what-is-dubailand-communities-guide, binghatti-projects-2026, documents-needed-to-sell-property-in-dubai, title-deed-and-oqood-in-dubai-explained, cheapest-freehold-areas-to-buy-in-dubai, best-gated-communities-in-dubai, how-to-sell-a-tenanted-property-in-dubai, palm-jumeirah-vs-downtown-dubai, palm-jumeirah-vs-palm-jebel-ali, palm-jumeirah-branded-residences-guide, palm-jumeirah-beachfront-villas-guide, palm-jumeirah-homes-under-10-million, is-palm-jumeirah-worth-it, do-billionaires-live-on-palm-jumeirah, living-on-palm-jumeirah-with-a-family, villa-vs-apartment-living-in-dubai, dubai-penthouse-prices-what-you-get-and-where-to-buy, how-to-sell-off-plan-property-in-dubai-before-handover, selling-property-in-dubai-with-a-mortgage, best-areas-to-buy-apartments-in-dubai (~215 unused posts remain; keep this tracker current so we never repeat).
+## Batches 6-8 (30 posts, scheduled Oct 9 -> Oct 23, 10:00 + 17:00 GST) — STATUS TRACKER
+Same format. Seller-side heavy (feeds /valuation) + Palm + investment/finance + lifestyle.
+
+| Date | 10:00 GST | 17:00 GST |
+|---|---|---|
+| Oct 9 | palm-jumeirah-beachfront-villas-guide | how-much-does-it-cost-to-sell-property-in-dubai |
+| Oct 10 | palm-jumeirah-vs-downtown-dubai | why-invest-in-dubai-real-estate |
+| Oct 11 | palm-jumeirah-branded-residences-guide | how-to-sell-a-luxury-villa-in-dubai |
+| Oct 12 | buying-property-on-palm-jumeirah | villa-vs-apartment-living-in-dubai |
+| Oct 13 | palm-jumeirah-vs-palm-jebel-ali | do-you-pay-tax-when-you-sell-property-in-dubai |
+| Oct 14 | average-rent-on-palm-jumeirah | roi-and-capital-appreciation-in-dubai-real-estate |
+| Oct 15 | living-on-palm-jumeirah-with-a-family | best-dubai-communities-for-families-2026 |
+| Oct 16 | palm-jumeirah-crescent-trunk-fronds-explained | noc-for-selling-property-in-dubai |
+| Oct 17 | palm-jumeirah-homes-under-10-million | mortgage-rates-in-dubai-explained |
+| Oct 18 | is-palm-jumeirah-worth-it | dubai-property-investment-mistakes-to-avoid |
+| Oct 19 | living-in-emirates-hills | how-to-sell-property-in-dubai |
+| Oct 20 | living-in-al-barari | studio-and-one-bed-apartment-investment-in-dubai |
+| Oct 21 | freehold-vs-leasehold-dubai-property | documents-needed-to-sell-property-in-dubai |
+| Oct 22 | cost-of-living-in-dubai-for-property-buyers | dubai-mortgages-expats-non-residents |
+| Oct 23 | is-dubai-property-a-good-investment-in-2026 | how-to-sell-property-in-dubai-as-a-non-resident |
+
+## Batch 9 pool (next, not yet written)
+how-to-sell-your-dubai-property-best-price, how-to-price-your-dubai-property-to-sell, exclusive-vs-open-listing-in-dubai, how-to-buy-a-villa-in-dubai, dubai-property-prices-2026-cost-guide, dubai-penthouse-prices-what-you-get-and-where-to-buy, do-billionaires-live-on-palm-jumeirah, interesting-facts-about-palm-jumeirah, short-term-vs-long-term-rental-dubai, furnished-vs-unfurnished-apartments-in-dubai, best-schools-in-dubai-and-costs, how-to-invest-in-dubai-real-estate-from-india, off-plan-handover-and-snagging-in-dubai, how-to-sell-off-plan-property-in-dubai-before-handover, selling-property-in-dubai-with-a-mortgage, what-is-dubailand-communities-guide, binghatti-projects-2026, title-deed-and-oqood-in-dubai-explained, best-gated-communities-in-dubai, disadvantages-of-buying-property-in-dubai (~185 unused posts remain; keep this tracker current so we never repeat).
 
 ## From batch 2 on (and the batch-1 adjustments): every post gets ONE engagement question line before the CTA; the CTA is `Read more at eqt.ae -> [blog URL]`; NO RERA/company sign-off line. Reply to comments in the first hour (biggest reach lever).
 
