@@ -11,8 +11,8 @@ Posting from **Max's personal LinkedIn profile** (personal profiles out-reach co
 - Rules applied to every post:
   1. Line 1 STARTS with the exact keyword phrase; hook under ~200 chars, answer-first.
   2. Short skimmable lines + whitespace; expert "knowledge & advice" tone.
-  3. 1,300-2,000 chars; CTA + full https://eqt.ae/... link at the end.
-  4. Credibility line: "EQT Real Estate, RERA ORN 33039" (+ "Palm Jumeirah specialists" on Palm posts).
+  3. 1,300-2,000 chars.
+  4. End with a CTA line: `Read more at eqt.ae -> [full blog URL]`. NO company name / RERA sign-off line (Max's call, 2026-09-14).
   5. 4-5 hashtags (broad + niche + geo), last line.
   6. No invented stats. No em dashes.
 - Links are `rel=nofollow` and a link in the body can dampen reach; we accept that for click-through (Max chose link-at-end).
@@ -36,14 +36,33 @@ Mark each once live. When all done, move to Batch 2 (below).
 | 9 | Sep 18, 10:00 | Living on Palm Jumeirah | /blog/living-on-palm-jumeirah | [ ] |
 | 10 | Sep 18, 17:00 | Broker vs property advisor in Dubai | /blog/real-estate-broker-vs-property-advisor-dubai | [ ] |
 
-## Batch 2 (next, not yet written)
-- Signature Villas vs Garden Homes on Palm → /blog/palm-jumeirah-signature-villas-vs-garden-homes
-- Is now a good time to sell property in Dubai → /blog/best-time-to-sell-property-in-dubai
-- Buying property in Dubai for Russian buyers → /blog/buying-property-in-dubai-for-russian-buyers
-- Can foreigners get a mortgage in Dubai → /blog/can-foreigners-get-a-mortgage-in-dubai
+## Batch 2 (scheduled 2026-09-19 to 09-23, 10:00 + 17:00 GST) — STATUS TRACKER
+Post #1 of batch 1 is live; batch-1 posts #2-10 were scheduled then ADJUSTED (added an engagement question + formatting). Batch 2 = the next 10:
+
+| # | When (GST) | Topic | Link | Status |
+|---|---|---|---|---|
+| 1 | Sep 19, 10:00 | How to buy property in Dubai as a foreigner | /blog/how-to-buy-property-in-dubai-as-a-foreigner | [ ] |
+| 2 | Sep 19, 17:00 | Golden Visa through Dubai property | /blog/golden-visa-dubai-property-2026-guide | [ ] |
+| 3 | Sep 20, 10:00 | Signature Villas vs Garden Homes on Palm | /blog/palm-jumeirah-signature-villas-vs-garden-homes | [ ] |
+| 4 | Sep 20, 17:00 | Is now a good time to sell in Dubai | /blog/best-time-to-sell-property-in-dubai | [ ] |
+| 5 | Sep 21, 10:00 | Emirates Hills vs Palm Jumeirah | /blog/emirates-hills-vs-palm-jumeirah-where-to-buy | [ ] |
+| 6 | Sep 21, 17:00 | Can foreigners get a mortgage in Dubai | /blog/can-foreigners-get-a-mortgage-in-dubai | [ ] |
+| 7 | Sep 22, 10:00 | Al Barari real estate guide | /blog/al-barari-real-estate-guide | [ ] |
+| 8 | Sep 22, 17:00 | Buying in Dubai for Russian buyers | /blog/buying-property-in-dubai-for-russian-buyers | [ ] |
+| 9 | Sep 23, 10:00 | Branded residences in Dubai explained | /blog/branded-residences-in-dubai-explained | [ ] |
+| 10 | Sep 23, 17:00 | How to negotiate property prices in Dubai | /blog/how-to-negotiate-property-prices-in-dubai | [ ] |
+
+## Batch 3 (next, not yet written)
 - What is Dubailand (communities guide) → /blog/what-is-dubailand-communities-guide
 - Binghatti projects 2026 → /blog/binghatti-projects-2026
+- Documents needed to sell property in Dubai → /blog/documents-needed-to-sell-property-in-dubai
+- What is Oqood / title deed vs Oqood → /blog/title-deed-and-oqood-in-dubai-explained
+- Cheapest freehold areas to buy in Dubai → /blog/cheapest-freehold-areas-to-buy-in-dubai
+- Best gated communities in Dubai → /blog/best-gated-communities-in-dubai
+- Selling a tenanted property in Dubai → /blog/how-to-sell-a-tenanted-property-in-dubai
 - (continue through the corpus; keep this tracker current so we never repeat a post)
+
+## From batch 2 on (and the batch-1 adjustments): every post gets ONE engagement question line before the CTA; the CTA is `Read more at eqt.ae -> [blog URL]`; NO RERA/company sign-off line. Reply to comments in the first hour (biggest reach lever).
 
 ---
 
@@ -59,8 +78,7 @@ FOR EACH of the 10 posts:
 2. Write a LinkedIn feed post following these rules EXACTLY:
    - Line 1 STARTS with the exact keyword phrase given; a compelling, answer-first hook under 200 characters.
    - Then 3-6 short, skimmable lines of genuinely useful advice from the article (expert tone, whitespace between points). Do NOT invent prices, numbers, or stats; use only facts stated in the article, keep anything else qualitative.
-   - End with one CTA line + the exact blog URL (full https://eqt.ae/... link) at the END of the post.
-   - Credibility line: "EQT Real Estate, RERA ORN 33039" (add "Palm Jumeirah specialists" on Palm posts).
+   - End with one CTA line: "Read more at eqt.ae -> [exact full https://eqt.ae/... blog URL]". Do NOT add a company name or RERA sign-off line.
    - 4-5 hashtags on the last line (broad + niche + geo), e.g. #DubaiRealEstate #PalmJumeirah #LuxuryProperty.
    - 1,300-2,000 characters. No em dashes.
 3. Show me the draft and wait for "ok" (or my edits) before publishing/scheduling.
@@ -79,10 +97,9 @@ What actually moves the price on the Palm:
 
 Most buyers overpay by comparing asking prices instead of real transacted prices. We price on actual DLD comparables from our own sold book.
 
-Full 2026 price guide, with ranges by villa type:
-https://eqt.ae/blog/palm-jumeirah-villa-prices-2026
+East-facing frond or west-facing, which would you choose?
 
-EQT Real Estate, Palm Jumeirah specialists, RERA ORN 33039.
+Read more at eqt.ae -> https://eqt.ae/blog/palm-jumeirah-villa-prices-2026
 
 #PalmJumeirah #DubaiRealEstate #LuxuryProperty #DubaiProperty"
 
@@ -105,7 +122,7 @@ If any scheduled time has already passed, ask me for a replacement time instead 
 
 ## LinkedIn Article drafts (the ones that rank on Google)
 
-Publish these via LinkedIn's **"Write article"** editor (not the feed box). Keyword-first title = the URL slug + title tag. Read and edit before publishing; verify any figures against the live article. Each ends with a link to the full guide on eqt.ae.
+Publish these via LinkedIn's **"Write article"** editor (not the feed box). Keyword-first title = the URL slug + title tag. Read and edit before publishing; verify any figures against the live article. **Per Max's call, drop the "EQT Real Estate ... RERA ORN 33039" sign-off shown at the end of each draft below — end instead with `Read more at eqt.ae -> [link]`.**
 
 ### Article 1 — Title: "Palm Jumeirah Villa Prices in 2026: What Buyers Actually Pay"
 
