@@ -68,7 +68,7 @@ New format on all: keyword-first hook, engagement question, `Read more at eqt.ae
 | Oct 2 | best-fronds-on-palm-jumeirah-to-buy | how-to-check-golden-visa-status |
 | Oct 3 | palm-jumeirah-short-term-rental-income | dubai-off-plan-escrow-accounts-explained |
 | Oct 4 | is-palm-jumeirah-a-good-investment-2026 | best-areas-to-invest-in-dubai-for-rental-yield |
-| Oct 5 | why-is-palm-jumeirah-so-expensive | downtown-dubai-vs-business-bay-which-should-you-buy |
+| Oct 5 | dubai-property-prices-2026-cost-guide | downtown-dubai-vs-business-bay-which-should-you-buy |  (swapped out why-is-palm-jumeirah-so-expensive: near-dup of is-palm-good-investment)
 | Oct 6 | rental-yields-dubai-best-performing-luxury-communities | emaar-vs-nakheel-vs-meraas-dubai-developers-compared |
 | Oct 7 | how-to-renew-dubai-golden-visa | dubai-vs-london-for-property-investment-which-is-better |
 | Oct 8 | best-areas-buy-apartment-dubai-2026 | dubai-vs-abu-dhabi-property-investment |
@@ -87,7 +87,7 @@ Same format. Seller-side heavy (feeds /valuation) + Palm + investment/finance + 
 | Oct 15 | living-on-palm-jumeirah-with-a-family | best-dubai-communities-for-families-2026 |
 | Oct 16 | palm-jumeirah-crescent-trunk-fronds-explained | noc-for-selling-property-in-dubai |
 | Oct 17 | palm-jumeirah-homes-under-10-million | mortgage-rates-in-dubai-explained |
-| Oct 18 | is-palm-jumeirah-worth-it | dubai-property-investment-mistakes-to-avoid |
+| Oct 18 | how-to-buy-a-villa-in-dubai | dubai-property-investment-mistakes-to-avoid |  (swapped out is-palm-jumeirah-worth-it: near-dup of is-palm-good-investment)
 | Oct 19 | living-in-emirates-hills | how-to-sell-property-in-dubai |
 | Oct 20 | living-in-al-barari | studio-and-one-bed-apartment-investment-in-dubai |
 | Oct 21 | freehold-vs-leasehold-dubai-property | documents-needed-to-sell-property-in-dubai |
