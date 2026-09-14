@@ -97,7 +97,7 @@ export const seoPosts: BlogPost[] = [
           "Service charges on Palm Jumeirah villas are calculated per square foot and cover the maintenance of common areas, security, and beach access. For a large villa these can still amount to a meaningful annual figure, and buyers of older stock should also budget for renovation and pool maintenance."
         ],
         "bullets": [
-          "Service charges: roughly AED 5-12 per sq ft per year, varying by community",
+          "Service charges: roughly AED 12-18 per sq ft per year, varying by community",
           "No annual property tax and no capital gains tax on resale",
           "Home insurance, DEWA utilities, and cooling charges are the main recurring bills",
           "Renovation of an original-condition villa can run AED 2M-8M depending on scope"
@@ -10838,10 +10838,10 @@ export const seoPosts: BlogPost[] = [
       "alt": "Palm Jumeirah villa with sea views",
       "tone": "#e7e6e2"
     },
-    "intro": "On Palm Jumeirah, Garden Homes are the smaller, more attainable four-to-five-bedroom frond villas that typically start from around AED 12-20M, while Signature Villas are the larger, higher-plot, higher-priced homes with more beach frontage that generally run from about AED 30M up past AED 100M once fully renovated. Both were built by Nakheel and sit on the same private fronds with direct or near-direct beach access. The right choice comes down to budget, plot size, and how much beach frontage and privacy you want. Below we break down what each villa type is, real size and plot ranges, indicative pricing, views, the buyer each suits, the renovation upside, and how each resells.",
+    "intro": "On Palm Jumeirah, Garden Homes are the smaller, more attainable four-to-five-bedroom frond villas that typically start from around AED 12-20M, while Signature Villas are the larger, higher-plot, higher-priced homes with more beach frontage that generally run from about AED 55M up past AED 120M once fully renovated. Both were built by Nakheel and sit on the same private fronds with direct or near-direct beach access. The right choice comes down to budget, plot size, and how much beach frontage and privacy you want. Below we break down what each villa type is, real size and plot ranges, indicative pricing, views, the buyer each suits, the renovation upside, and how each resells.",
     "keyTakeaways": [
       "Garden Homes are the entry point to Palm frond villas: four to five bedrooms, smaller plots, and indicative prices from roughly AED 12-20M.",
-      "Signature Villas are larger, sit on wider beachfront plots, and start around AED 30M, reaching AED 100M+ for fully renovated or extended homes.",
+      "Signature Villas are larger, sit on wider beachfront plots, and start around AED 55M, reaching AED 120M+ for fully renovated or extended homes.",
       "Both villa types line the Palm's fronds and offer private or shared beach access; Signature Villas simply command more frontage and privacy.",
       "Garden Homes suit end-users and first-time Palm buyers; Signature Villas suit trophy-home buyers and larger families wanting scale.",
       "Renovation is where value is made on both: original Nakheel-spec homes trade at a discount to turnkey, remodelled properties.",
@@ -10863,7 +10863,7 @@ export const seoPosts: BlogPost[] = [
       {
         "heading": "Indicative price ranges",
         "body": [
-          "Pricing on the Palm is condition and plot-driven, so treat these as indicative bands rather than fixed quotes. Garden Homes typically trade from around AED 12-20M, with original-condition homes at the lower end and renovated, turnkey properties toward the top. Signature Villas generally start from about AED 30M and rise well past AED 100M for the largest, fully renovated or architecturally rebuilt homes on prime fronds. Between those bands, price is set by frond position, sea versus Dubai-skyline aspect, plot size, and the depth of any renovation. Because the Palm is a thin-supply market, comparable sales can move quickly, so always confirm live evidence before making an offer."
+          "Pricing on the Palm is condition and plot-driven, so treat these as indicative bands rather than fixed quotes. Garden Homes typically trade from around AED 12-20M, with original-condition homes at the lower end and renovated, turnkey properties toward the top. Signature Villas generally start from about AED 55M and rise well past AED 120M for the largest, fully renovated or architecturally rebuilt homes on prime fronds. Between those bands, price is set by frond position, sea versus Dubai-skyline aspect, plot size, and the depth of any renovation. Because the Palm is a thin-supply market, comparable sales can move quickly, so always confirm live evidence before making an offer."
         ]
       },
       {
@@ -10888,7 +10888,7 @@ export const seoPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "What is the main difference between Garden Homes and Signature Villas?",
-        "answer": "Scale and price. Garden Homes are the smaller, more attainable four-to-five-bedroom frond villas from roughly AED 12-20M, while Signature Villas are larger five-to-seven-bedroom homes on wider plots with more beach frontage, generally from about AED 30M upward."
+        "answer": "Scale and price. Garden Homes are the smaller, more attainable four-to-five-bedroom frond villas from roughly AED 12-20M, while Signature Villas are larger five-to-seven-bedroom homes on wider plots with more beach frontage, generally from about AED 55M upward."
       },
       {
         "question": "How much does a Garden Home on Palm Jumeirah cost?",
@@ -10896,7 +10896,7 @@ export const seoPosts: BlogPost[] = [
       },
       {
         "question": "How much does a Signature Villa cost?",
-        "answer": "Signature Villas generally start from about AED 30M and can exceed AED 100M for the largest, fully renovated or rebuilt homes on prime fronds. These are indicative bands driven by plot, condition, frontage, and view rather than fixed prices."
+        "answer": "Signature Villas generally start from about AED 55M and can exceed AED 120M for the largest, fully renovated or rebuilt homes on prime fronds. These are indicative bands driven by plot, condition, frontage, and view rather than fixed prices."
       },
       {
         "question": "Do both villa types have private beach access?",
