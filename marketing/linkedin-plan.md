@@ -94,8 +94,29 @@ Same format. Seller-side heavy (feeds /valuation) + Palm + investment/finance + 
 | Oct 22 | cost-of-living-in-dubai-for-property-buyers | dubai-mortgages-expats-non-residents |
 | Oct 23 | is-dubai-property-a-good-investment-in-2026 | how-to-sell-property-in-dubai-as-a-non-resident |
 
-## Batch 9 pool (next, not yet written)
-how-to-sell-your-dubai-property-best-price, how-to-price-your-dubai-property-to-sell, exclusive-vs-open-listing-in-dubai, how-to-buy-a-villa-in-dubai, dubai-property-prices-2026-cost-guide, dubai-penthouse-prices-what-you-get-and-where-to-buy, do-billionaires-live-on-palm-jumeirah, interesting-facts-about-palm-jumeirah, short-term-vs-long-term-rental-dubai, furnished-vs-unfurnished-apartments-in-dubai, best-schools-in-dubai-and-costs, how-to-invest-in-dubai-real-estate-from-india, off-plan-handover-and-snagging-in-dubai, how-to-sell-off-plan-property-in-dubai-before-handover, selling-property-in-dubai-with-a-mortgage, what-is-dubailand-communities-guide, binghatti-projects-2026, title-deed-and-oqood-in-dubai-explained, best-gated-communities-in-dubai, disadvantages-of-buying-property-in-dubai (~185 unused posts remain; keep this tracker current so we never repeat).
+## Batches 9-11 (30 posts, scheduled Oct 24 -> Nov 7, 10:00 + 17:00 GST) — STATUS TRACKER
+Deliberately diversified (prior batches were Palm-saturated): nationality buyer guides + buying-process + investment + rental, only 3 pure-Palm.
+
+| Date | 10:00 GST | 17:00 GST |
+|---|---|---|
+| Oct 24 | buying-property-in-dubai-for-uk-buyers | best-communities-for-capital-appreciation-in-dubai |
+| Oct 25 | buying-property-in-dubai-for-us-citizens | dubai-property-transfer-process-and-dld-fees |
+| Oct 26 | buying-property-in-dubai-for-indian-buyers | is-now-a-good-time-to-buy-property-in-dubai |
+| Oct 27 | palm-jumeirah-fronds-explained | how-much-deposit-to-buy-property-in-dubai |
+| Oct 28 | buying-property-in-dubai-for-chinese-buyers | how-to-rent-out-your-property-in-dubai |
+| Oct 29 | buying-property-in-dubai-for-saudi-buyers | documents-needed-to-buy-property-in-dubai |
+| Oct 30 | dubai-penthouse-prices-what-you-get-and-where-to-buy | how-to-tell-if-a-dubai-property-is-a-good-investment |
+| Oct 31 | buying-property-in-dubai-for-german-buyers | renting-in-dubai-tenant-guide |
+| Nov 1 | do-billionaires-live-on-palm-jumeirah | how-to-get-dubai-residency-by-buying-property |
+| Nov 2 | buying-property-in-dubai-for-pakistani-buyers | off-plan-handover-and-snagging-in-dubai |
+| Nov 3 | buying-property-in-dubai-for-french-buyers | cheapest-freehold-areas-to-buy-in-dubai |
+| Nov 4 | interesting-facts-about-palm-jumeirah | how-long-does-it-take-to-buy-property-in-dubai |
+| Nov 5 | cost-of-living-in-dubai | how-to-sell-off-plan-property-in-dubai-before-handover |
+| Nov 6 | do-you-pay-tax-in-dubai | buying-property-in-dubai-through-a-company |
+| Nov 7 | dubai-vs-singapore-for-expats | living-in-dubai-vs-london |
+
+## Batch 12 pool (next, not yet written)
+More nationality guides (canadian, irish, turkish, russian-done, egyptian, nigerian, lebanese, kazakh, polish, dutch, thai, iraqi, libyan, dominican), what-is-dubailand-communities-guide, binghatti-projects-2026, title-deed-and-oqood-in-dubai-explained, best-gated-communities-in-dubai, furnished-vs-unfurnished-apartments-in-dubai, how-to-invest-in-dubai-real-estate-from-india, how-to-sell-a-tenanted-property-in-dubai, selling-property-in-dubai-with-a-mortgage, off-market-luxury-villas-dubai, disadvantages-of-buying-property-in-dubai, how-much-deposit-to-rent-in-dubai, healthcare-in-dubai-public-vs-private, dubai-family-visa-sponsor-spouse-children, living-in-dubai-vs-abu-dhabi, relocating-to-dubai-from-india, dubai-corporate-tax-explained (~155 unused remain; keep this tracker current so we never repeat).
 
 ## From batch 2 on (and the batch-1 adjustments): every post gets ONE engagement question line before the CTA; the CTA is `Read more at eqt.ae -> [blog URL]`; NO RERA/company sign-off line. Reply to comments in the first hour (biggest reach lever).
 
