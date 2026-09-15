@@ -1,8 +1,27 @@
 # EQT master to-do
 
-Living tracker. Split by owner. See also `BACKLINK-TRACKER.md` and the reports in `google reports/`.
+Living tracker. Split by owner. See also `BACKLINK-TRACKER.md`, `Semrush reports/`, and the reports in `google reports/`.
 
 Legend: 🔴 needs Max (accounts / outreach / spend / decision / login) · 🟢 Claude can do on-site · 🟡 Claude builds once Max provides one input.
+
+---
+
+## ⭐ Semrush findings (2026-09-15) — what changed
+
+Data from the Pro trial (27 CSVs in `Semrush reports/`). Headline: Palm + Dubai villa-community + UK-market SERPs are genuinely winnable; our only rankings today are informational blog posts; the backlink gap is mostly noise but a few real targets stand out.
+
+**🟢 Shipped from the data (typecheck green; deploy + verify):**
+- [x] **www → apex redirect** (`middleware.ts`, 308, loop-safe). Root cause of the 517 "hreflang conflicts": www.eqt.ae was serving the whole site in parallel with the apex. Also cuts the duplicate-title/meta/content counts.
+- [x] **Fixed 9 area 404s** — listing→area links now fall back to `/listings?area=` when no curated area page exists (JBR, JLT, Dubai Harbour, the-valley, etc.).
+
+**🔴 Max (from the data):**
+- [ ] Set eqt.ae as **Primary Domain in Vercel** (belt-and-suspenders www→apex) + confirm no redirect loop after deploy.
+- [ ] Backlink outreach targets validated by the gap report: **zawya.com, arabianbusiness.com** (already on list), plus niche Dubai RE sites **estatemagazine.ae, gulfestategazette.com, whatson.ae, toprealtors.ae, dubaidirectory.com**. DROP startbusinessuae (AS2) + gccestateleaders (AS8).
+
+**🟡 Queued — building against the Phase 2 keyword maps (running now):**
+- [ ] Add/strengthen missing high-value community pages (The Views, Mira, JBR, JLT, Dubai Islands, Dubai Harbour).
+- [ ] Move the 3 striking-distance pages (district-one, al-barari, jumeirah-islands — already well-built on-page) via internal-link anchors + backlinks, not content rewrites.
+- [ ] Full Dubai community content cluster + UK/RU long-tail posts, targeted by real volume/KD.
 
 ---
 

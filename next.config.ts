@@ -6,10 +6,11 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   // 301 the old Vercel preview URL to the canonical apex domain, so ranking/indexing
-  // signals consolidate onto eqt.ae. NOTE: apex<->www is handled by Vercel's own
-  // "primary domain" redirect, NOT here. Do not add a www->apex rule: Vercel already
-  // redirects apex->www by default, and a www->apex rule here creates an infinite loop.
-  // Set eqt.ae as the Primary Domain in Vercel so Vercel redirects www->apex to match.
+  // signals consolidate onto eqt.ae. www -> apex is now handled loop-safely in
+  // middleware.ts (a 308 host redirect), because www.eqt.ae was observed serving 200
+  // in parallel with the apex (no Vercel apex->www redirect is active), which
+  // duplicated every page and broke hreflang. Also set eqt.ae as the Primary Domain
+  // in Vercel as a belt-and-suspenders redirect at the edge.
   async redirects() {
     return [
       {

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  getAllAreaSlugs,
   getAllListingSlugs,
   getListingBySlug,
 } from "@/lib/data/repository";
@@ -54,6 +55,16 @@ export default async function ListingDetailPage({
   const { slug } = await params;
   const listing = await getListingBySlug(slug);
   if (!listing) notFound();
+
+  // Only link to /areas/[slug] when a curated area page actually exists. Many CRM
+  // communities (e.g. JBR, JLT, Dubai Harbour) have listings but no area guide, so
+  // an unconditional link 404s and pollutes the crawl. Fall back to the listings
+  // filter, which resolves for any community present in live inventory.
+  const areaSlugs = new Set(await getAllAreaSlugs());
+  const hasAreaPage = areaSlugs.has(listing.area);
+  const areaHref = hasAreaPage
+    ? `/areas/${listing.area}`
+    : `/listings?area=${listing.area}`;
 
   const [cover, ...rest] = listing.images;
   const agent = agentForListing(listing);
@@ -165,7 +176,7 @@ export default async function ListingDetailPage({
               </div>
             )}
 
-            <Link href={`/areas/${listing.area}`} className="eyebrow mt-8 inline-block hover:underline">
+            <Link href={areaHref} className="eyebrow mt-8 inline-block hover:underline">
               {listing.areaLabel}
             </Link>
             <h1 className="mt-3 font-display text-[clamp(1.9rem,4vw,3rem)] leading-tight text-ink">
