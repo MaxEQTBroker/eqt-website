@@ -523,6 +523,11 @@ export const mockAreas: Area[] = [
       "Emaar Beachfront penthouse",
       "Dubai Harbour property",
     ],
+    relatedLinks: [
+      { label: "Dubai Islands", href: "/areas/dubai-islands" },
+      { label: "Jumeirah Beach Residence", href: "/areas/jumeirah-beach-residence" },
+      { label: "Bluewaters Island", href: "/areas/bluewaters-island" },
+    ],
     heroImage: {
       url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&q=80",
       alt: "Aerial view of a Dubai waterfront community at dusk",
@@ -555,6 +560,11 @@ export const mockAreas: Area[] = [
       "Dubai Marina penthouse",
       "marina view apartment Dubai",
       "high rental yield Dubai",
+    ],
+    relatedLinks: [
+      { label: "Jumeirah Lake Towers", href: "/areas/jumeirah-lake-towers" },
+      { label: "Jumeirah Beach Residence", href: "/areas/jumeirah-beach-residence" },
+      { label: "Bluewaters Island", href: "/areas/bluewaters-island" },
     ],
     heroImage: {
       url: "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=1920&q=80",
@@ -622,6 +632,11 @@ export const mockAreas: Area[] = [
       "Creek Beach apartment",
       "waterfront apartment Dubai",
     ],
+    relatedLinks: [
+      { label: "Dubai Islands", href: "/areas/dubai-islands" },
+      { label: "Downtown Dubai", href: "/areas/downtown-dubai" },
+      { label: "Emaar Beachfront", href: "/areas/emaar-beachfront" },
+    ],
     heroImage: {
       url: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1920&q=80",
       alt: "Waterfront high-rise district reflected in calm water",
@@ -687,6 +702,11 @@ export const mockAreas: Area[] = [
       "Bluewaters penthouse",
       "beachfront residence Dubai",
       "Ain Dubai property",
+    ],
+    relatedLinks: [
+      { label: "Jumeirah Beach Residence", href: "/areas/jumeirah-beach-residence" },
+      { label: "Dubai Marina", href: "/areas/dubai-marina" },
+      { label: "Palm Jumeirah", href: "/areas/palm-jumeirah" },
     ],
     heroImage: {
       url: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1920&q=80",
@@ -852,6 +872,11 @@ export const mockAreas: Area[] = [
       "DAMAC Hills townhouse",
       "golf community villa Dubai",
       "DAMAC Hills apartment",
+    ],
+    relatedLinks: [
+      { label: "Dubai South", href: "/areas/dubai-south" },
+      { label: "DAMAC Hills 2", href: "/areas/damac-hills-2" },
+      { label: "Arabian Ranches", href: "/areas/arabian-ranches" },
     ],
     heroImage: {
       url: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1920&q=80",
