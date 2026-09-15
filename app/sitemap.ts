@@ -15,10 +15,16 @@ import { hasDeveloperTranslation } from "@/lib/data/i18n/developerTranslations";
 import { team } from "@/lib/data/team";
 import { getAllBudgetBandSlugs } from "@/lib/data/budgetBands";
 
-/** Make a hero URL absolute (image sitemaps require full URLs; local heroes are relative). */
+/**
+ * Make a hero URL absolute and XML-safe for the image sitemap. We strip the query
+ * string because stock URLs carry params like "?auto=compress&cs=..." and the raw
+ * "&" is an illegal XML entity that breaks the whole sitemap (EntityRef error).
+ * Base Pexels/Unsplash URLs still resolve to a valid image without the params.
+ */
 function absImage(url?: string): string[] {
   if (!url) return [];
-  return [url.startsWith("http") ? url : `${site.url}${url}`];
+  const abs = url.startsWith("http") ? url : `${site.url}${url}`;
+  return [abs.split("?")[0]];
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
