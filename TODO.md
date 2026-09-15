@@ -18,10 +18,19 @@ Data from the Pro trial (27 CSVs in `Semrush reports/`). Headline: Palm + Dubai 
 - [ ] Set eqt.ae as **Primary Domain in Vercel** (belt-and-suspenders www→apex) + confirm no redirect loop after deploy.
 - [ ] Backlink outreach targets validated by the gap report: **zawya.com, arabianbusiness.com** (already on list), plus niche Dubai RE sites **estatemagazine.ae, gulfestategazette.com, whatson.ae, toprealtors.ae, dubaidirectory.com**. DROP startbusinessuae (AS2) + gccestateleaders (AS8).
 
-**🟡 Queued — building against the Phase 2 keyword maps (running now):**
-- [ ] Add/strengthen missing high-value community pages (The Views, Mira, JBR, JLT, Dubai Islands, Dubai Harbour).
-- [ ] Move the 3 striking-distance pages (district-one, al-barari, jumeirah-islands — already well-built on-page) via internal-link anchors + backlinks, not content rewrites.
-- [ ] Full Dubai community content cluster + UK/RU long-tail posts, targeted by real volume/KD.
+**🟢 Shipped from Phase 2 data (2026-09-15; build green, 1073→1085 pages):**
+- [x] **Built 4 new community pages** — Dubai Islands, JLT, JBR, Dubai South — trilingual (EN/UK/RU), factual, freehold/connectivity facts + FAQs + related links. Auto in /areas, sitemap, hreflang. JBR + JLT also turn 2 former dead links into real pages.
+- [x] **Disavow file** (`disavow-eqt.txt`, 80 toxic domains) ready for Max to upload to GSC.
+- [x] Title tweaks toward money terms on Emirates Hills + Jumeirah Park (they don't rank yet — no disruption risk).
+
+**🔴 Max (from Phase 2):**
+- [ ] Upload `disavow-eqt.txt` in Search Console → Disavow Links Tool (eqt.ae property).
+
+**🟡 Still queued:**
+- [ ] UK "for sale" + price landing pages (biggest UK gap) — repackage Area Index + off-plan inventory.
+- [ ] 3 RU luxury landing pages (KD 7–14): элитная недвижимость / инвестиции / купить квартиру.
+- [ ] AEO capture: answer-first + FAQ schema on pages sitting next to AI Overview / PAA (district-one, selling-fees, etc.).
+- [ ] Strengthen JVC / other winnable existing pages as needed.
 
 ---
 

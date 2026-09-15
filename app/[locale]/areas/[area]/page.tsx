@@ -41,7 +41,7 @@ const AREA_SEO_TITLES: Record<string, string> = {
   "palm-jumeirah": "Palm Jumeirah Luxury Villas for Sale",
   "al-barari": "Al Barari Luxury Villas & Mansions",
   "jumeirah-islands": "Jumeirah Islands Waterfront Villas",
-  "emirates-hills": "Emirates Hills Mansions & Villa Plots",
+  "emirates-hills": "Emirates Hills Villas & Mansions for Sale",
   "downtown-dubai": "Downtown Dubai Luxury Apartments",
   "dubai-hills-estate": "Dubai Hills Estate Villas & Apartments",
   "jumeirah-bay-island": "Jumeirah Bay Island Mansions",
@@ -56,7 +56,7 @@ const AREA_SEO_TITLES: Record<string, string> = {
   "arabian-ranches": "Arabian Ranches Villas & Townhouses",
   "tilal-al-ghaf": "Tilal Al Ghaf Villas & Mansions",
   "damac-hills": "DAMAC Hills Villas & Townhouses",
-  "jumeirah-park": "Jumeirah Park Family Villas",
+  "jumeirah-park": "Jumeirah Park Villas for Sale",
   "the-meadows": "The Meadows Family Villas for Sale",
   "the-springs": "The Springs Townhouses & Villas",
   "the-lakes": "The Lakes Family Villas for Sale",
@@ -64,6 +64,10 @@ const AREA_SEO_TITLES: Record<string, string> = {
   "pearl-jumeirah": "Pearl Jumeirah Mansions & Residences",
   "jumeirah-village-circle": "JVC Apartments, Villas & Townhouses",
   "port-de-la-mer": "Port de La Mer Apartments for Sale",
+  "dubai-islands": "Dubai Islands Apartments & Villas",
+  "jumeirah-lake-towers": "JLT Apartments for Sale in Dubai",
+  "jumeirah-beach-residence": "JBR Beachfront Apartments for Sale",
+  "dubai-south": "Dubai South & Emaar South Homes",
 };
 
 export async function generateMetadata({

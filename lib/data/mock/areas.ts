@@ -1400,4 +1400,206 @@ export const mockAreas: Area[] = [
       creditUrl: "https://www.pexels.com/@abid-ali-150086727",
     },
   },
+  {
+    slug: "dubai-islands",
+    label: "Dubai Islands",
+    headline: "Beachfront island living off historic Deira",
+    aeoAnswer:
+      "Dubai Islands is Nakheel's waterfront master community off the Deira coastline, a group of connected islands planned around open beaches, marinas and resorts, with apartments, townhouses, villas and penthouses available largely off plan.",
+    intro:
+      "Dubai Islands is one of the emirate's most talked about waterfront destinations, a Nakheel master plan set across a group of connected islands just off historic Deira. The vision brings together long stretches of open beach, marinas, parks and resort hotels alongside a growing residential offer that spans apartments, townhouses, villas and penthouses. Much of the community is still off plan, which gives early buyers a wide choice of layouts, views and payment plans, and its position places residents within easy reach of Dubai International Airport, the historic Deira souks and the wider city. For buyers who want a beach address with room to grow, Dubai Islands sits at the front of the current market.",
+    keyFacts: [
+      { label: "Developer", value: "Nakheel" },
+      { label: "Property types", value: "Apartments, townhouses, villas, penthouses" },
+      { label: "Setting", value: "Connected islands with open beaches and marinas" },
+      { label: "Status", value: "Largely off plan" },
+      { label: "Connectivity", value: "Minutes from Dubai International Airport and Deira" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "Where is Dubai Islands?",
+        answer:
+          "Dubai Islands sits just off the Deira coastline in the north of the city, a short drive from Dubai International Airport and the historic Deira souks. It was previously known as Deira Islands before Nakheel relaunched it as Dubai Islands.",
+      },
+      {
+        question: "What property types are available on Dubai Islands?",
+        answer:
+          "The master plan includes beachfront apartments, townhouses, villas and penthouses, with several off plan releases from Nakheel and other developers. Layouts and price points vary widely, so the choice suits both end users and investors.",
+      },
+      {
+        question: "Can foreigners buy property on Dubai Islands?",
+        answer:
+          "Yes. Dubai Islands is a designated freehold area, so non-UAE nationals can buy, own and sell property with full title registered at the Dubai Land Department.",
+      },
+    ],
+    keywords: [
+      "Dubai Islands apartments for sale",
+      "Dubai Islands property",
+      "Dubai Islands villas",
+      "Dubai Islands Nakheel",
+      "beachfront apartments Dubai",
+    ],
+    relatedLinks: [
+      { label: "Dubai Creek Harbour", href: "/areas/dubai-creek-harbour" },
+      { label: "Emaar Beachfront", href: "/areas/emaar-beachfront" },
+      { label: "Palm Jumeirah", href: "/areas/palm-jumeirah" },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&q=80",
+      alt: "Waterfront residential district on the Dubai coastline at dusk",
+      tone: "#dfe3e6",
+    },
+  },
+  {
+    slug: "jumeirah-lake-towers",
+    label: "Jumeirah Lake Towers",
+    headline: "Lakeside apartment living beside Dubai Marina",
+    aeoAnswer:
+      "Jumeirah Lake Towers, or JLT, is a large mixed use community of residential and commercial towers arranged in clusters around four landscaped lakes, offering some of the best value apartments and rental yields in central Dubai.",
+    intro:
+      "Jumeirah Lake Towers, known to residents simply as JLT, is one of Dubai's most established apartment communities. Its towers are arranged in clusters around four landscaped lakes, with cafes, shops and everyday services at street level and two metro stations linking it to the rest of the city. Sitting directly across Sheikh Zayed Road from Dubai Marina, it offers a similar central location at more accessible prices, which has long made it a favourite with tenants, first time buyers and yield focused investors. Homes range from studios to larger three bedroom apartments, and the community is also a DMCC free zone hub, giving it a steady daytime population and reliable rental demand.",
+    keyFacts: [
+      { label: "Property types", value: "Studios to 3 bedroom apartments, penthouses" },
+      { label: "Setting", value: "Tower clusters around four landscaped lakes" },
+      { label: "Connectivity", value: "Two metro stations, beside Dubai Marina" },
+      { label: "Best for", value: "First time buyers, tenants and rental yield" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "Is JLT a good place to invest?",
+        answer:
+          "JLT is popular with investors because it offers a central location, everyday amenities and consistently strong rental demand at more accessible prices than neighbouring Dubai Marina. Apartments here have historically delivered some of the healthier rental yields in central Dubai.",
+      },
+      {
+        question: "What is the difference between JLT and Dubai Marina?",
+        answer:
+          "The two communities sit opposite each other across Sheikh Zayed Road. Dubai Marina is a waterfront promenade address with a premium to match, while JLT offers lakeside towers, similar connectivity and everyday amenities at generally lower prices, which appeals to value focused buyers and tenants.",
+      },
+      {
+        question: "Can foreigners buy apartments in JLT?",
+        answer:
+          "Yes. Jumeirah Lake Towers is a designated freehold area, so non-UAE nationals can buy, own and sell apartments with full title registered at the Dubai Land Department.",
+      },
+    ],
+    keywords: [
+      "JLT apartments for sale",
+      "Jumeirah Lake Towers apartments",
+      "flats for rent in JLT",
+      "buy apartment JLT Dubai",
+      "JLT property",
+    ],
+    relatedLinks: [
+      { label: "Dubai Marina", href: "/areas/dubai-marina" },
+      { label: "Jumeirah Village Circle", href: "/areas/jumeirah-village-circle" },
+      { label: "Discovery Gardens", href: "/areas/discovery-gardens" },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1920&q=80",
+      alt: "Residential towers beside a landscaped lake in Dubai",
+      tone: "#d9dee3",
+    },
+  },
+  {
+    slug: "jumeirah-beach-residence",
+    label: "Jumeirah Beach Residence",
+    headline: "Beachfront apartments on The Walk",
+    aeoAnswer:
+      "Jumeirah Beach Residence, or JBR, is a waterfront community of apartment and penthouse towers set along a lively public beach and promenade, prized for beachfront living, strong lifestyle amenities and high short stay rental demand.",
+    intro:
+      "Jumeirah Beach Residence, known as JBR, is one of Dubai's best loved beachfront addresses. A run of residential towers lines a wide public beach and two popular promenades, The Walk and The Beach, where restaurants, cafes and shops open straight onto the sand. Homes are mostly one to four bedroom apartments, with penthouses on the upper floors enjoying open sea views towards Bluewaters Island and the Ain Dubai wheel. The combination of beach, dining and a central Marina location gives JBR year round energy and consistently strong demand from both residents and holiday visitors, which makes it a favourite for lifestyle buyers and short stay investors alike.",
+    keyFacts: [
+      { label: "Property types", value: "1 to 4 bedroom apartments, penthouses" },
+      { label: "Setting", value: "Beachfront towers on The Walk and The Beach" },
+      { label: "Outlook", value: "Sea views towards Bluewaters and Ain Dubai" },
+      { label: "Best for", value: "Lifestyle living and short stay rental income" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "What kind of property can you buy in JBR?",
+        answer:
+          "JBR is made up of apartment towers offering one to four bedroom homes, along with larger penthouses on the upper floors. Many enjoy direct sea views, and the beachfront position makes them popular for both living and holiday letting.",
+      },
+      {
+        question: "Is JBR good for short stay rentals?",
+        answer:
+          "JBR is one of Dubai's strongest short stay locations thanks to its public beach, dining promenades and central position beside Dubai Marina and Bluewaters Island, which supports steady visitor demand throughout the year.",
+      },
+      {
+        question: "Can foreigners buy property in JBR?",
+        answer:
+          "Yes. Jumeirah Beach Residence is a designated freehold area, so non-UAE nationals can buy, own and sell apartments and penthouses with full title registered at the Dubai Land Department.",
+      },
+    ],
+    keywords: [
+      "JBR apartments for sale",
+      "Jumeirah Beach Residence apartments",
+      "beachfront apartment Dubai",
+      "JBR penthouse",
+      "buy property JBR Dubai",
+    ],
+    relatedLinks: [
+      { label: "Dubai Marina", href: "/areas/dubai-marina" },
+      { label: "Bluewaters Island", href: "/areas/bluewaters-island" },
+      { label: "Palm Jumeirah", href: "/areas/palm-jumeirah" },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1920&q=80",
+      alt: "Beachfront apartment towers along the Dubai coast",
+      tone: "#dfe3e6",
+    },
+  },
+  {
+    slug: "dubai-south",
+    label: "Dubai South",
+    headline: "A growing city around the new airport and Expo",
+    aeoAnswer:
+      "Dubai South is a master planned district in southern Dubai built around Al Maktoum International Airport and Expo City, with residential communities such as Emaar South offering well priced villas, townhouses and apartments.",
+    intro:
+      "Dubai South is one of the emirate's largest and fastest developing districts, planned as a full city around Al Maktoum International Airport and the site of Expo City Dubai. It brings together residential neighbourhoods, business and logistics parks and an aviation hub, all connected to central Dubai by Sheikh Zayed Road and the Expo metro line. Its best known residential community is Emaar South, a golf focused neighbourhood of villas, townhouses and apartments set around an eighteen hole championship course. With ongoing airport expansion and steady infrastructure investment nearby, Dubai South appeals to buyers looking for newer homes and long term growth potential at prices below the established coastal communities.",
+    keyFacts: [
+      { label: "Property types", value: "Villas, townhouses and apartments" },
+      { label: "Flagship community", value: "Emaar South, around an 18 hole golf course" },
+      { label: "Setting", value: "Master planned city district in southern Dubai" },
+      { label: "Connectivity", value: "Al Maktoum International Airport, Expo metro, Sheikh Zayed Road" },
+      { label: "Best for", value: "Newer homes and long term growth" },
+      { label: "Tenure", value: "Freehold, registered at Dubai Land Department" },
+    ],
+    faqs: [
+      {
+        question: "What is Emaar South?",
+        answer:
+          "Emaar South is the flagship residential community within Dubai South, developed by Emaar around an eighteen hole championship golf course. It offers villas, townhouses and apartments, and is one of the most established neighbourhoods in the wider district.",
+      },
+      {
+        question: "Is Dubai South a good place to buy?",
+        answer:
+          "Dubai South suits buyers who want newer homes and long term growth at more accessible prices than the coastal communities. Its position beside Al Maktoum International Airport and Expo City, along with continued infrastructure investment, underpins its longer term appeal.",
+      },
+      {
+        question: "Can foreigners buy property in Dubai South?",
+        answer:
+          "Yes. The main residential communities in Dubai South, including Emaar South, are designated freehold, so non-UAE nationals can buy, own and sell property with full title registered at the Dubai Land Department.",
+      },
+    ],
+    keywords: [
+      "Emaar South villas for sale",
+      "Dubai South property",
+      "Dubai South townhouses",
+      "Emaar South apartments",
+      "Dubai South residential district",
+    ],
+    relatedLinks: [
+      { label: "Emaar (developer)", href: "/developers/emaar" },
+      { label: "DAMAC Hills", href: "/areas/damac-hills" },
+      { label: "Dubai Hills Estate", href: "/areas/dubai-hills-estate" },
+    ],
+    heroImage: {
+      url: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&q=80",
+      alt: "Modern family villa in a Dubai golf community",
+      tone: "#e3e0d9",
+    },
+  },
 ];
