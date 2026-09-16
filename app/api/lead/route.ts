@@ -2,6 +2,15 @@ import { NextResponse } from "next/server";
 import type { LeadPayload } from "@/lib/leads/types";
 import { storeLead } from "@/lib/leads/store";
 import { notifyLead } from "@/lib/leads/notify";
+import { rateLimit, clientIp } from "@/lib/security/rateLimit";
+
+// Cap each field so a bot can't push megabytes into the CRM / Supabase / email.
+const MAX = { name: 120, contact: 200, area: 120, intent: 60, budget: 120, timeframe: 120, message: 4000, source: 120, pageUrl: 500 };
+function cap(v: unknown, n: number): string | undefined {
+  if (typeof v !== "string") return undefined;
+  const t = v.trim();
+  return t ? t.slice(0, n) : undefined;
+}
 
 /**
  * Health/config check (safe: booleans only, never the secret values).
@@ -31,6 +40,17 @@ export async function GET() {
  * WhatsApp fallback keeps working and no lead is lost.
  */
 export async function POST(req: Request) {
+  // Rate limit: max 5 submissions per minute per IP (best-effort, per instance).
+  if (!rateLimit(`lead:${clientIp(req)}`, 5, 60_000)) {
+    return NextResponse.json({ ok: false, error: "rate_limited" }, { status: 429 });
+  }
+
+  // Reject oversized bodies before parsing (defence against payload-bomb spam).
+  const len = Number(req.headers.get("content-length") ?? 0);
+  if (len > 20_000) {
+    return NextResponse.json({ ok: false, error: "payload_too_large" }, { status: 413 });
+  }
+
   let data: LeadPayload;
   try {
     data = (await req.json()) as LeadPayload;
@@ -43,20 +63,22 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: true, delivered: false });
   }
 
-  if (!data.name?.trim() || !data.contact?.trim()) {
+  const name = cap(data.name, MAX.name);
+  const contact = cap(data.contact, MAX.contact);
+  if (!name || !contact) {
     return NextResponse.json({ ok: false, error: "name_and_contact_required" }, { status: 422 });
   }
 
   const lead: LeadPayload = {
-    name: data.name.trim(),
-    contact: data.contact.trim(),
-    intent: data.intent,
-    area: data.area,
-    budget: data.budget,
-    timeframe: data.timeframe,
-    message: data.message,
-    source: data.source ?? "website",
-    pageUrl: data.pageUrl,
+    name,
+    contact,
+    intent: cap(data.intent, MAX.intent),
+    area: cap(data.area, MAX.area),
+    budget: cap(data.budget, MAX.budget),
+    timeframe: cap(data.timeframe, MAX.timeframe),
+    message: cap(data.message, MAX.message),
+    source: cap(data.source, MAX.source) ?? "website",
+    pageUrl: cap(data.pageUrl, MAX.pageUrl),
     submittedAt: new Date().toISOString(),
   };
 
