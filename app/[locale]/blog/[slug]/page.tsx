@@ -157,7 +157,11 @@ export default async function BlogPostPage({
 
         {/* Article body + sticky enquiry sidebar (form on the left on desktop) */}
         <div className="mt-14 grid gap-10 lg:grid-cols-[360px_minmax(0,1fr)] lg:gap-14">
-          <div className="mx-auto w-full max-w-3xl lg:order-2 lg:mx-0">
+          {/* data-protect wraps the whole reading column (intro, key takeaways, TOC,
+              body, FAQ) so the copy deterrent covers all article prose. The lead form
+              lives in a separate <aside> sibling, so it stays fully usable. */}
+          <div data-protect className="mx-auto w-full max-w-3xl lg:order-2 lg:mx-0">
+          <CopyProtection />
           <p className="post-intro border-l-2 border-accent-500 pl-6 text-xl leading-relaxed text-ink">
             {post.intro}
           </p>
@@ -197,8 +201,7 @@ export default async function BlogPostPage({
           )}
 
           {/* Body */}
-          <CopyProtection />
-          <div data-protect className="mt-14 space-y-14">
+          <div className="mt-14 space-y-14">
             {post.sections.map((section, si) => {
               // Weave a photo in after the 2nd and 4th sections (when available).
               const img = si === 1 ? bodyImages[0] : si === 3 ? bodyImages[1] : null;
@@ -251,7 +254,7 @@ export default async function BlogPostPage({
 
           {/* FAQ */}
           {post.faqs.length > 0 && (
-            <div data-protect className="mt-16 border-t border-line pt-12">
+            <div className="mt-16 border-t border-line pt-12">
               <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">
                 {t.frequentlyAsked}
               </h2>
