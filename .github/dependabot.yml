@@ -1,0 +1,18 @@
+# Dependabot: weekly scan for vulnerable/outdated npm packages. Opens PRs with the
+# fix so security patches don't silently pile up again. Review + merge like any PR.
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      # Bundle minor/patch bumps into one PR to cut noise; majors come separately.
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+    commit-message:
+      prefix: "deps"
+      prefix-development: "deps-dev"

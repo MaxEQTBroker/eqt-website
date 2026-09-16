@@ -11,6 +11,7 @@ import { LeadForm } from "@/components/lead/LeadForm";
 import { MobileLeadBar } from "@/components/lead/MobileLeadBar";
 import { ShareButtons, type ShareCopy } from "@/components/blog/ShareButtons";
 import { DubaiResilienceCharts } from "@/components/blog/DubaiResilienceCharts";
+import { CopyProtection } from "@/components/blog/CopyProtection";
 import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/jsonld";
@@ -196,7 +197,8 @@ export default async function BlogPostPage({
           )}
 
           {/* Body */}
-          <div className="mt-14 space-y-14">
+          <CopyProtection />
+          <div data-protect className="mt-14 space-y-14">
             {post.sections.map((section, si) => {
               // Weave a photo in after the 2nd and 4th sections (when available).
               const img = si === 1 ? bodyImages[0] : si === 3 ? bodyImages[1] : null;
@@ -249,7 +251,7 @@ export default async function BlogPostPage({
 
           {/* FAQ */}
           {post.faqs.length > 0 && (
-            <div className="mt-16 border-t border-line pt-12">
+            <div data-protect className="mt-16 border-t border-line pt-12">
               <h2 className="font-display text-[clamp(1.5rem,2.8vw,2.25rem)] leading-tight text-ink">
                 {t.frequentlyAsked}
               </h2>

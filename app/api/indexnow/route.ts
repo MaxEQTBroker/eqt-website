@@ -8,6 +8,7 @@ import {
   getAllSoldReferences,
 } from "@/lib/data/repository";
 import { getAllPostSlugs } from "@/lib/data/blog";
+import { rateLimit, clientIp } from "@/lib/security/rateLimit";
 
 /**
  * IndexNow submitter — pings Bing/Yandex to crawl our URLs instantly.
@@ -18,7 +19,22 @@ export const dynamic = "force-dynamic";
 
 const KEY = "b234b1cb5cae4932b89e0fbd11565717";
 
-export async function GET() {
+export async function GET(req: Request) {
+  // Optional gate: if INDEXNOW_TRIGGER_KEY is set, require ?token= to match, so a
+  // stranger can't spam-trigger full search-engine pings. Left open if unset so
+  // existing manual/cron usage keeps working until the key is configured.
+  const gate = process.env.INDEXNOW_TRIGGER_KEY;
+  if (gate) {
+    const token = new URL(req.url).searchParams.get("token");
+    if (token !== gate) {
+      return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+    }
+  }
+  // Rate limit regardless: at most 3 pings per 5 minutes per IP.
+  if (!rateLimit(`indexnow:${clientIp(req)}`, 3, 300_000)) {
+    return NextResponse.json({ error: "rate_limited" }, { status: 429 });
+  }
+
   const host = new URL(site.url).host;
 
   const [areas, developers, types, listings, sold, posts] = await Promise.all([

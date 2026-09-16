@@ -49,20 +49,3 @@ export async function storeLead(lead: LeadPayload): Promise<void> {
     console.error("[lead] Supabase store failed (non-fatal):", err);
   }
 }
-
-/** Read recent leads back for the private viewer. Returns [] if not configured. */
-export async function listLeads(limit = 200): Promise<unknown[]> {
-  const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_KEY;
-  if (!url || !key) return [];
-  try {
-    const res = await fetch(
-      `${url}/rest/v1/leads?select=*&order=submitted_at.desc&limit=${limit}`,
-      { headers: { apikey: key, Authorization: `Bearer ${key}` }, cache: "no-store" },
-    );
-    if (!res.ok) return [];
-    return (await res.json()) as unknown[];
-  } catch {
-    return [];
-  }
-}

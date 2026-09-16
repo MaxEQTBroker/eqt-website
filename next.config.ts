@@ -32,14 +32,27 @@ const nextConfig: NextConfig = {
   // permissive on purpose so it never blocks legit assets (Pexels/Supabase/Property
   // Finder images, background videos, GA) while still satisfying the header check.
   async headers() {
+    // Analytics / tag hosts we actually load, reused for script-src + connect-src.
+    const analytics = [
+      "https://www.googletagmanager.com",
+      "https://www.google-analytics.com",
+      "https://*.google-analytics.com",
+      "https://*.analytics.google.com",
+      "https://*.doubleclick.net",
+      "https://*.clarity.ms", // Microsoft Clarity (enabled via NEXT_PUBLIC_CLARITY_ID)
+    ].join(" ");
     const csp = [
       "default-src 'self'",
       "img-src 'self' data: blob: https:",
       "media-src 'self' https:",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
+      // 'unsafe-eval' removed: production Next/GSAP/Framer don't need it, and it's a
+      // key XSS amplifier. 'unsafe-inline' kept (Next injects inline bootstrap/GA).
+      `script-src 'self' 'unsafe-inline' ${analytics}`,
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' data: https://fonts.gstatic.com",
-      "connect-src 'self' https:",
+      // Allowlisted instead of blanket https: so an injected script can't exfiltrate
+      // to an arbitrary server. Covers same-origin API, analytics beacons, Supabase.
+      `connect-src 'self' ${analytics} https://*.supabase.co`,
       // Allow the embedded Google Map on /contact (iframe from google maps).
       "frame-src 'self' https://www.google.com https://maps.google.com",
       "frame-ancestors 'self'",
