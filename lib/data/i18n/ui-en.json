@@ -311,7 +311,31 @@
     "interlude": "Homes you will not find anywhere else.",
     "partners": "Trusted across Dubai's finest developments",
     "enquireHeading": "The best villas in Dubai are sold privately.",
-    "enquireBody": "Search a private database of off-market homes, and speak with an advisor who answers personally, usually within the hour."
+    "enquireBody": "Search a private database of off-market homes, and speak with an advisor who answers personally, usually within the hour.",
+    "faqEyebrow": "Good to know",
+    "faqTitle": "Buying property in Dubai",
+    "faqs": [
+      {
+        "question": "Can foreigners buy property in Dubai?",
+        "answer": "Yes. Foreign nationals can own property outright in Dubai's designated freehold areas, with title registered at the Dubai Land Department and no requirement for a local partner."
+      },
+      {
+        "question": "Which communities does EQT specialise in?",
+        "answer": "EQT focuses on Dubai's prime and luxury communities, including Palm Jumeirah, Emirates Hills, Al Barari, Jumeirah Islands and Dubai Hills Estate, across villas, apartments and off plan."
+      },
+      {
+        "question": "Can I get UAE residency by buying property?",
+        "answer": "Yes. A property purchase from AED 2 million can qualify the buyer for a 10 year Golden Visa, giving long term residency alongside the asset."
+      },
+      {
+        "question": "Is there any annual property tax in Dubai?",
+        "answer": "No. Dubai does not levy an annual property tax on residential homes. Buyers pay a one off Dubai Land Department transfer fee at purchase."
+      },
+      {
+        "question": "What languages does EQT work in?",
+        "answer": "EQT advises international buyers and investors in English, Russian and Ukrainian, with community guides and market resources published in all three."
+      }
+    ]
   },
   "contact": {
     "metaTitle": "Contact",

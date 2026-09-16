@@ -9,6 +9,7 @@ import { Voice } from "@/components/home/Voice";
 import { Interlude } from "@/components/home/Interlude";
 import { Partners } from "@/components/home/Partners";
 import { Testimonials } from "@/components/home/Testimonials";
+import { HomeFaq } from "@/components/home/HomeFaq";
 import { Enquire } from "@/components/home/Enquire";
 import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { site } from "@/lib/site";
@@ -25,7 +26,7 @@ export async function generateMetadata({
   if (hasUiTranslation("home", "uk")) languages.uk = "/uk";
   if (hasUiTranslation("home", "ru")) languages.ru = "/ru";
   return {
-    title: `${site.name}, Dubai Luxury Real Estate`,
+    title: `${site.name} | Palm Jumeirah & Prime Dubai Luxury Real Estate`,
     // Kept under ~160 chars for the search snippet; site.description (longer) still
     // powers the OG/Twitter tags and Organization schema.
     description:
@@ -49,6 +50,7 @@ export default function HomePage() {
       <Interlude />
       <Partners />
       <Testimonials />
+      <HomeFaq />
       <Enquire />
     </>
   );

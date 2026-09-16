@@ -33,16 +33,35 @@ Investigating the "gaps" showed the pages already exist — all 6 "for sale" pro
 - [ ] **Backlinks** — validated targets: **zawya.com, arabianbusiness.com** + niche Dubai RE sites **estatemagazine.ae, gulfestategazette.com, whatson.ae, toprealtors.ae, dubaidirectory.com** + recurring competitor ref-domains **propertyfinder, entrepreneur, hidubai, timeoutdubai, gulfbusiness, expat.com, internations, inman, citybiz**. DROP startbusinessuae (AS2) + gccestateleaders (AS8).
 - [ ] **Reviews** — still the #1 ongoing lever (see below).
 
-**🟢 Claude — backlink assets I can draft on request (the real next work):**
-- [ ] Guest article (data-led) for The Arabian Post / niche RE sites.
-- [ ] Press release built on the Market/Palm Index data (newswire + zawya).
-- [ ] Journalist-platform bios + saved answers (Qwoted, Connectively, Featured, SoS).
-- [ ] Directory NAP block (EN/RU/UK) for the quick Dubai directory listings.
+**🟢 Backlink assets (progress — full status in `BACKLINK-TRACKER.md`):**
+- [x] Directory NAP block + A-list directories worked (hidubai, Crunchbase live; Apple/The Org/toprealtors/dubaidirectory in review).
+- [x] Journalist platforms set up (Qwoted, Connectively, SoS live; Featured is AI-chat only).
+- [x] **Press release DRAFTED** — `marketing/press-release-eqt-palm-2026-09.md` (factual, no invented figures). NEXT: 🔴 Max publishes via EIN Presswire (~$50-100) using the Chrome prompt; confirm the eqt.ae link is dofollow.
+- [ ] Bylined columns (Gulf News, Forbes ME, AGBI) — 🟢 I draft next.
+- [ ] Guest articles (The Arabian Post, architecture/legal/expat sites) — 🟢 I draft.
+- [ ] Weekly journalist answers — 🟢 I draft as queries arrive.
+- [ ] Data-led press release — blocked until `DUBAI_MARKET` index is populated with real DLD figures (🔴 Max sources them).
 
 **🟡 On-site, only if a specific ranking need appears (NOT net-new content — everything exists):**
 - [ ] AEO tweaks: answer-first + FAQ schema on pages beside an AI Overview / PAA (district-one, selling-fees) to capture the feature.
 - [ ] Strengthen JVC (rare winnable head term) if desired.
 - [ ] Off-plan project pages + quarterly market report PDF — bigger builds, need Max's data-source / numbers sign-off.
+
+---
+
+## ⭐ SEO audit follow-ups (2026-09-16, from "EQT real estate report")
+
+Third-party homepage audit (grade B). It confirmed the thesis: On-Page A, GEO B+, **Links F** (authority is the bottleneck). Technical/schema/hreflang all green.
+
+**🟢 Shipped autonomously (build green, deploying):**
+- [x] Homepage title lengthened → "EQT | Palm Jumeirah & Prime Dubai Luxury Real Estate" (was 29 chars).
+- [x] Optimized the two oversized logo PNGs (emaar-crop 110KB→10KB, MAF-crop 79KB→10KB) + recompressed the video poster.
+- [x] Added a trilingual homepage FAQ (5 Q&A + FAQPage schema) — fixes the "no Q&A / thin content" flags + AEO.
+
+**🔴 Max — needs DNS / account access:**
+- [ ] **SPF + DMARC DNS records** ⚠️ PRIORITY before the outreach push — stops @eqt.ae email hitting spam (Khaleej Times already bounced). Claude can supply the exact record values to paste.
+- [ ] **Google Business Profile — add the address** (currently missing; real local-SEO gap).
+- [ ] Reviews (again) — audit shows 1; still the #1 lever.
 
 ---
 
