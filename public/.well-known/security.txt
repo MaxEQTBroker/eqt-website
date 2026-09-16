@@ -1,0 +1,6 @@
+# Security contact for eqt.ae — how to report a security issue.
+# Format: https://securitytxt.org (RFC 9116)
+Contact: mailto:hello@eqt.ae
+Expires: 2027-09-16T00:00:00.000Z
+Preferred-Languages: en, uk, ru
+Canonical: https://eqt.ae/.well-known/security.txt
