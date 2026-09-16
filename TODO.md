@@ -14,23 +14,35 @@ Data from the Pro trial (27 CSVs in `Semrush reports/`). Headline: Palm + Dubai 
 - [x] **www → apex redirect** (`middleware.ts`, 308, loop-safe). Root cause of the 517 "hreflang conflicts": www.eqt.ae was serving the whole site in parallel with the apex. Also cuts the duplicate-title/meta/content counts.
 - [x] **Fixed 9 area 404s** — listing→area links now fall back to `/listings?area=` when no curated area page exists (JBR, JLT, Dubai Harbour, the-valley, etc.).
 
-**🔴 Max (from the data):**
-- [ ] Set eqt.ae as **Primary Domain in Vercel** (belt-and-suspenders www→apex) + confirm no redirect loop after deploy.
-- [ ] Backlink outreach targets validated by the gap report: **zawya.com, arabianbusiness.com** (already on list), plus niche Dubai RE sites **estatemagazine.ae, gulfestategazette.com, whatson.ae, toprealtors.ae, dubaidirectory.com**. DROP startbusinessuae (AS2) + gccestateleaders (AS8).
-
-**🟢 Shipped from Phase 2 data (2026-09-15; build green, 1073→1085 pages):**
+**🟢 Shipped from Phase 2 data (2026-09-15; all deployed, build green 1073→1085 pages):**
 - [x] **Built 4 new community pages** — Dubai Islands, JLT, JBR, Dubai South — trilingual (EN/UK/RU), factual, freehold/connectivity facts + FAQs + related links. Auto in /areas, sitemap, hreflang. JBR + JLT also turn 2 former dead links into real pages.
-- [x] **Disavow file** (`disavow-eqt.txt`, 80 toxic domains) ready for Max to upload to GSC.
-- [x] Title tweaks toward money terms on Emirates Hills + Jumeirah Park (they don't rank yet — no disruption risk).
+- [x] **Internal-linking pass** — cross-linked the 4 new pages from 5 established areas (Emaar Beachfront, Dubai Marina, Dubai Creek Harbour, Bluewaters, DAMAC Hills) so they gain incoming topical authority.
+- [x] **Disavow uploaded** — `disavow-eqt.txt` (80 toxic domains) live in GSC as of 15 Sep 2026. Google reprocessing over the coming weeks.
+- [x] Title tweaks toward money terms on Emirates Hills + Jumeirah Park.
 
-**🔴 Max (from Phase 2):**
-- [ ] Upload `disavow-eqt.txt` in Search Console → Disavow Links Tool (eqt.ae property).
+**⭐ KEY FINDING (2026-09-15): the site is content-complete. The lever is now OFF-SITE.**
+Investigating the "gaps" showed the pages already exist — all 6 "for sale" property pages (`/property/villas`…), the crypto guide, the price guides, residency-by-buying, golden-visa, investment, luxury posts (177+ posts total). The Semrush gaps were about **rankings, not missing content**: we have the pages, we lack the **authority** to rank them. Building more posts = duplicates that dilute what's there. **On-site content work has hit diminishing returns; backlinks + reviews are now the whole game.**
 
-**🟡 Still queued:**
-- [ ] UK "for sale" + price landing pages (biggest UK gap) — repackage Area Index + off-plan inventory.
-- [ ] 3 RU luxury landing pages (KD 7–14): элитная недвижимость / инвестиции / купить квартиру.
-- [ ] AEO capture: answer-first + FAQ schema on pages sitting next to AI Overview / PAA (district-one, selling-fees, etc.).
-- [ ] Strengthen JVC / other winnable existing pages as needed.
+**✅ AREA COVERAGE STATUS (checked against all 86 reports, 2026-09-16): gaps CLOSED.**
+39 area pages live. Of the 25 communities Semrush analysed, 23 have pages; the 4 real gaps are now built (Dubai Islands, JLT, JBR, Dubai South). Only **Mira** (~4.4k total vol) and **The Views** (~1.3k) have no page — deliberately skipped as too small (fold into a Greens/Emirates Living hub later if ever). **Deliberately NOT built** (off boutique-luxury brand or thin-page risk): granular sub-communities (Springs 11, Meadows 7, Arabian Ranches sub-clusters) and budget/mid-market areas competitors farm for traffic (International City, Mirdif, Oud Metha, Al Karama, Town Square, Mudon). Building those chases volume against our positioning — optional, not recommended.
+**Bottom line: no meaningful area page is missing. We are not ranking because of AUTHORITY, not coverage. More area pages will not fix rankings — backlinks will.**
+
+**🔴 Max — the growth lever now (do these):**
+- [x] ~~Upload disavow file~~ (done 15 Sep).
+- [ ] Set eqt.ae as **Primary Domain in Vercel** (belt-and-suspenders www→apex) + confirm no loop.
+- [ ] **Backlinks** — validated targets: **zawya.com, arabianbusiness.com** + niche Dubai RE sites **estatemagazine.ae, gulfestategazette.com, whatson.ae, toprealtors.ae, dubaidirectory.com** + recurring competitor ref-domains **propertyfinder, entrepreneur, hidubai, timeoutdubai, gulfbusiness, expat.com, internations, inman, citybiz**. DROP startbusinessuae (AS2) + gccestateleaders (AS8).
+- [ ] **Reviews** — still the #1 ongoing lever (see below).
+
+**🟢 Claude — backlink assets I can draft on request (the real next work):**
+- [ ] Guest article (data-led) for The Arabian Post / niche RE sites.
+- [ ] Press release built on the Market/Palm Index data (newswire + zawya).
+- [ ] Journalist-platform bios + saved answers (Qwoted, Connectively, Featured, SoS).
+- [ ] Directory NAP block (EN/RU/UK) for the quick Dubai directory listings.
+
+**🟡 On-site, only if a specific ranking need appears (NOT net-new content — everything exists):**
+- [ ] AEO tweaks: answer-first + FAQ schema on pages beside an AI Overview / PAA (district-one, selling-fees) to capture the feature.
+- [ ] Strengthen JVC (rare winnable head term) if desired.
+- [ ] Off-plan project pages + quarterly market report PDF — bigger builds, need Max's data-source / numbers sign-off.
 
 ---
 
@@ -93,3 +105,8 @@ Data from the Pro trial (27 CSVs in `Semrush reports/`). Headline: Palm + Dubai 
 - [ ] Trust wall (real reviews + sold gallery + license + languages) — needs reviews
 - [ ] Gated lead magnets (Palm Index PDF, off-market listings) — needs the data/PDF
 - [ ] Swap remaining stock imagery — Max approved Pexels; most imagery is already stock, low priority
+
+---
+
+## Decisions / notes
+- **dubaidirectory.com** (2026-09-16): the free plan gives no link to eqt.ae — only the $99/yr Starter unlocks it. Recommendation: **skip the $99**. It's AS 27; that money is far better spent on a newswire press release, which guarantees higher-authority dofollow links.
