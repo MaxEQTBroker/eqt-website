@@ -40,13 +40,6 @@ export async function Footer() {
     { label: c.linkPriceGuide, href: "/market-report" },
     { label: c.linkBuyingGuide, href: "/guides/buying-property-in-dubai" },
   ];
-  const legal = [
-    { label: c.linkPrivacy, href: "/privacy-policy" },
-    { label: c.linkTerms, href: "/terms" },
-    { label: c.linkCookies, href: "/cookies" },
-    { label: c.linkSitemap, href: "/site-map" },
-    { label: c.linkPhotography, href: "/credits" },
-  ];
 
   return (
     <footer className="border-t border-line bg-elevated">
@@ -105,15 +98,8 @@ export async function Footer() {
         <div className="hairline my-10" />
 
         {/* Legal bar */}
-        <div className="flex flex-col gap-4 text-xs text-faint md:flex-row md:items-center md:justify-between">
-          <p>
-            © {year} {site.legalName}. RERA ORN {site.regulatory.reraOrn} · DED {site.regulatory.dedLicense}.
-          </p>
-          <nav aria-label="Legal" className="flex flex-wrap gap-x-6 gap-y-2">
-            {legal.map((l) => (
-              <Link key={l.href} href={l.href} className="transition-colors hover:text-ink">{l.label}</Link>
-            ))}
-          </nav>
+        <div className="text-xs text-faint">
+          <p>© {year} {site.legalName}.</p>
         </div>
       </div>
     </footer>
