@@ -22,7 +22,7 @@ type MortgageCopy = {
   resultsHeading: string;
   downPaymentLabel: string; loanAmount: string; monthlyPayment: string;
   upfrontHeading: string; upfrontNote: string;
-  dldFee: string; agencyFee: string; mortgageReg: string; otherFees: string; totalCash: string;
+  dldFee: string; agencyFee: string; mortgageReg: string; valuationFee: string; trusteeFee: string; totalCash: string;
   affordHeading: string; affordOk: string; affordOver: string;
   ctaText: string; disclaimer: string;
 };
@@ -31,7 +31,8 @@ type MortgageCopy = {
 const DLD_TRANSFER = 0.04;      // 4% Dubai Land Department transfer fee
 const AGENCY_FEE = 0.02;        // 2% agency commission
 const MORTGAGE_REG = 0.0025;    // 0.25% of the loan (mortgage registration)
-const OTHER_FIXED = 8_000;      // trustee + valuation + admin, rounded
+const VALUATION_FEE = 2_625;    // bank property valuation
+const TRUSTEE_FEE = 4_200;      // DLD trustee office fee
 const DBR_CAP = 0.5;            // debt-burden ratio: repayments ≤ 50% of income
 
 type Buyer = "expat" | "national";
@@ -75,11 +76,12 @@ export function MortgageCalculator() {
     const dld = price * DLD_TRANSFER;
     const agency = price * AGENCY_FEE;
     const reg = loan * MORTGAGE_REG;
-    const other = OTHER_FIXED;
-    const upfront = down + dld + agency + reg + other;
+    const valuation = VALUATION_FEE;
+    const trustee = TRUSTEE_FEE;
+    const upfront = down + dld + agency + reg + valuation + trustee;
     const incomeNum = typeof income === "number" ? income : 0;
     const dbr = incomeNum > 0 ? monthly / incomeNum : null;
-    return { down, loan, monthly, dld, agency, reg, other, upfront, dbr };
+    return { down, loan, monthly, dld, agency, reg, valuation, trustee, upfront, dbr };
   }, [price, effectiveDownPct, rate, term, income]);
 
   const waMessage =
@@ -93,7 +95,8 @@ export function MortgageCalculator() {
     { label: c.dldFee, value: fmtAed(calc.dld) },
     { label: c.agencyFee, value: fmtAed(calc.agency) },
     { label: c.mortgageReg, value: fmtAed(calc.reg) },
-    { label: c.otherFees, value: fmtAed(calc.other) },
+    { label: c.valuationFee, value: fmtAed(calc.valuation) },
+    { label: c.trusteeFee, value: fmtAed(calc.trustee) },
   ];
 
   return (
@@ -150,26 +153,31 @@ export function MortgageCalculator() {
             </span>
           </label>
 
-          <div className="grid gap-5 sm:grid-cols-2">
-            <label className="block">
-              <span className="mb-2 block text-sm text-muted">{c.rate}</span>
-              <input
-                className="lux-input"
-                inputMode="decimal"
-                value={rate}
-                onChange={(e) => setRate(Number(e.target.value.replace(/[^0-9.]/g, "")) || 0)}
-              />
-            </label>
-            <label className="block">
-              <span className="mb-2 block text-sm text-muted">{c.term} ({c.years})</span>
-              <input
-                className="lux-input"
-                inputMode="numeric"
-                value={term}
-                onChange={(e) => setTerm(Math.min(Number(e.target.value.replace(/[^0-9]/g, "")) || 0, 30))}
-              />
-            </label>
-          </div>
+          <label className="block">
+            <span className="mb-2 flex items-baseline justify-between text-sm text-muted">
+              <span>{c.rate}</span>
+              <span className="font-medium text-ink">{rate.toFixed(2)}%</span>
+            </span>
+            <input
+              type="range"
+              min={1.5}
+              max={8}
+              step={0.05}
+              value={rate}
+              onChange={(e) => setRate(Number(e.target.value))}
+              className="lux-range"
+            />
+          </label>
+
+          <label className="block">
+            <span className="mb-2 block text-sm text-muted">{c.term} ({c.years})</span>
+            <input
+              className="lux-input"
+              inputMode="numeric"
+              value={term}
+              onChange={(e) => setTerm(Math.min(Number(e.target.value.replace(/[^0-9]/g, "")) || 0, 30))}
+            />
+          </label>
 
           <label className="block">
             <span className="mb-2 block text-sm text-muted">{c.income} <span className="text-faint">· {c.incomeOptional}</span></span>
