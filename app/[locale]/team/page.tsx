@@ -91,21 +91,19 @@ export default async function TeamPage({
                   </Link>
                 </h2>
                 <p className="mt-1 text-sm uppercase tracking-[0.18em] text-accent-600">{m.role}</p>
+                {m.languages && (
+                  <p className="mt-2 flex gap-2 text-sm">
+                    <span className="shrink-0 text-faint">{c.languagesLabel}</span>
+                    <span className="text-muted">{m.languages}</span>
+                  </p>
+                )}
                 <p className="mt-4 text-muted">{m.bio}</p>
-                {(m.languages || m.areas) && (
+                {m.areas && (
                   <dl className="mt-5 space-y-2 border-t border-line pt-5 text-sm">
-                    {m.languages && (
-                      <div className="flex gap-2">
-                        <dt className="shrink-0 text-faint">{c.languagesLabel}</dt>
-                        <dd className="text-muted">{m.languages}</dd>
-                      </div>
-                    )}
-                    {m.areas && (
-                      <div className="flex gap-2">
-                        <dt className="shrink-0 text-faint">{c.focusLabel}</dt>
-                        <dd className="text-muted">{m.areas}</dd>
-                      </div>
-                    )}
+                    <div className="flex gap-2">
+                      <dt className="shrink-0 text-faint">{c.focusLabel}</dt>
+                      <dd className="text-muted">{m.areas}</dd>
+                    </div>
                   </dl>
                 )}
               </article>
