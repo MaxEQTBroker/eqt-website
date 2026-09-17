@@ -145,16 +145,31 @@ export function Header() {
             <LanguageSwitcher color={barColor} onSelect={rememberMenu} />
           </div>
           {!open && (
-            <a
-              href={`tel:${site.contact.phone.replace(/[^\d+]/g, "")}`}
-              aria-label={`${tc("callNow")}: ${site.contact.phone}`}
-              className="inline-flex items-center gap-1.5 rounded-full bg-[#25D366] px-3 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-[#04310f] shadow-sm transition-colors hover:bg-[#1ebe5b]"
-            >
-              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
-                <path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.37 2.3.57 3.5.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.57 3.5a1 1 0 0 1-.25 1l-2.2 2.3z" />
-              </svg>
-              <span className="hidden sm:inline">{tc("callNow")}</span>
-            </a>
+            <div className="flex items-center gap-2">
+              <a
+                href={`tel:${site.contact.phone.replace(/[^\d+]/g, "")}`}
+                aria-label={`${tc("callNow")}: ${site.contact.phone}`}
+                className="inline-flex items-center justify-center gap-1.5 rounded-full px-2.5 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.2em] shadow-sm transition-opacity hover:opacity-90 sm:px-3"
+                style={{ backgroundColor: "var(--accent-500)", color: "#ffffff" }}
+              >
+                <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
+                  <path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.37 2.3.57 3.5.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.57 3.5a1 1 0 0 1-.25 1l-2.2 2.3z" />
+                </svg>
+                <span className="hidden sm:inline">{tc("callNow")}</span>
+              </a>
+              <a
+                href={whatsappLink(`Hey ${site.name}, I'm interested and would love to know more.`)}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${tc("inquire")} on WhatsApp`}
+                className="inline-flex items-center justify-center gap-1.5 rounded-full bg-[#25D366] px-2.5 py-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-[#04310f] shadow-sm transition-colors hover:bg-[#1ebe5b] sm:px-3"
+              >
+                <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
+                  <path d="M12 0a11.9 11.9 0 0 0-10.2 18l-1.8 6 6.2-1.6A11.9 11.9 0 1 0 12 0zm0 21.8c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-3.7 1 1-3.6-.2-.4A9.9 9.9 0 1 1 12 21.8zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.6-2c-.2-.3 0-.4.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.1 4.6 2.5 1 3 .8 3.6.8.5 0 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.4z" />
+                </svg>
+                <span className="hidden sm:inline">WhatsApp</span>
+              </a>
+            </div>
           )}
         </div>
       </div>
